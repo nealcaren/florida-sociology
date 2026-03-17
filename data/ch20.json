@@ -158,8 +158,15 @@
       "original_text": "NIMBY: 'Not In My Back Yard,' the tendency of people to protest poor environmental practices when those practices will affect them directly\nsex ratio: the ratio of men to women in a given population\nurban sociology: the subfield of sociology that focuses on the study of urbanization\nwhite flight: the migration of economically secure white people from racially mixed urban areas toward the suburbs\ninternally displaced person: someone who fled his or her home while remaining inside the country's borders",
       "florida_text": null,
       "context": "The Florida Key Terms list removes NIMBY, sex ratio, urban sociology, white flight, and internally displaced person from the glossary, consistent with the removal of those concepts from the body text."
+    },
+    {
+      "type": "removed",
+      "section": "Key Terms",
+      "original_text": "e-waste\nthe disposal of broken, obsolete, and worn-out electronics",
+      "florida_text": null,
+      "context": "Term removed from glossary, consistent with the removal of the 'What Should Apple (and Friends) Do about E-Waste?' sidebar from the body text."
     }
   ],
-  "change_count": 21,
+  "change_count": 22,
   "severity": "major"
 }

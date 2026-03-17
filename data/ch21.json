@@ -172,8 +172,43 @@
       "original_text": "Consider one of the major social movements of the twentieth century, from civil rights in the United States to Gandhi's nonviolent protests in India. How would technology have changed it? Would change have come more quickly or more slowly? Defend your opinion.",
       "florida_text": null,
       "context": "The short-answer question directing students to consider the civil rights movement or Gandhi's nonviolent protests is removed from the Florida version along with the entire short answer and section quiz sections."
+    },
+    {
+      "type": "removed",
+      "section": "Key Terms",
+      "original_text": "acting crowds\ncrowds of people who are focused on a specific action or goal",
+      "florida_text": null,
+      "context": "Term removed from glossary."
+    },
+    {
+      "type": "removed",
+      "section": "Key Terms",
+      "original_text": "casual crowds\npeople who share close proximity without really interacting",
+      "florida_text": null,
+      "context": "Term removed from glossary."
+    },
+    {
+      "type": "removed",
+      "section": "Key Terms",
+      "original_text": "conventional crowds\npeople who come together for a regularly scheduled event",
+      "florida_text": null,
+      "context": "Term removed from glossary."
+    },
+    {
+      "type": "removed",
+      "section": "Key Terms",
+      "original_text": "expressive crowds\ncrowds who share opportunities to express emotions",
+      "florida_text": null,
+      "context": "Term removed from glossary."
+    },
+    {
+      "type": "removed",
+      "section": "Key Terms",
+      "original_text": "crowdsourcing\nthe process of obtaining needed services, ideas, or content by soliciting contributions from a large group of people",
+      "florida_text": null,
+      "context": "Term removed from glossary, consistent with the removal of the Crowdsourcing Sociology in the Real World sidebar."
     }
   ],
-  "change_count": 22,
+  "change_count": 27,
   "severity": "major"
 }

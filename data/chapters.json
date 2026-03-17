@@ -1,7 +1,7 @@
 {
   "title": "What Florida Changed in Your Sociology Textbook",
   "description": "A chapter-by-chapter comparison of the original OpenStax Introduction to Sociology 3e with Florida's state-modified version, highlighting every edit, deletion, and relocation.",
-  "total_changes": 276,
+  "total_changes": 291,
   "chapters_removed": 9,
   "chapters_major": 21,
   "original_chapter_count": 21,
@@ -12,7 +12,7 @@
       "title": "An Introduction to Sociology",
       "florida_title": "Understanding Sociology",
       "severity": "major",
-      "change_count": 18,
+      "change_count": 20,
       "status": "modified",
       "summary_short": "The Florida version's most consequential changes fall in Section 1.3, where the entire discussion of critical theory, feminist theory, and critical race theory is deleted from both the main text and t",
       "data_file": "ch01.json"
@@ -22,7 +22,7 @@
       "title": "Sociological Research",
       "florida_title": "Sociological Research & Methods of Inquiry",
       "severity": "major",
-      "change_count": 16,
+      "change_count": 19,
       "status": "modified",
       "summary_short": "The Florida version's most significant deletion is the entire \"Critical Sociology\" subsection, which explained how scholars including the Frankfurt School and Karl Marx understood research as embedded",
       "data_file": "ch02.json"
@@ -72,7 +72,7 @@
       "title": "Deviance, Crime, and Social Control",
       "florida_title": "Deviance and Crime",
       "severity": "major",
-      "change_count": 17,
+      "change_count": 19,
       "status": "modified",
       "summary_short": "The Florida version's most significant deletion is the passage naming Eric Garner, Breonna Taylor, and George Floyd as victims of police killings. The original stated plainly that none of the officers",
       "data_file": "ch07.json"
@@ -132,7 +132,7 @@
       "title": "Aging and the Elderly",
       "florida_title": "Healthy Aging",
       "severity": "major",
-      "change_count": 33,
+      "change_count": 35,
       "status": "modified",
       "summary_short": "The Florida version systematically replaces every instance of \"the elderly\" with \"older adults\" or \"old,\" and renames sections accordingly (e.g., \"Who Are the Elderly?\" becomes \"Older Adults in Societ",
       "data_file": "ch13.json"
@@ -202,7 +202,7 @@
       "title": "Population, Urbanization, and the Environment",
       "florida_title": "Population and Urbanization",
       "severity": "major",
-      "change_count": 21,
+      "change_count": 22,
       "status": "modified",
       "summary_short": "The Florida version drops \"and the Environment\" from the title and makes substantive cuts throughout, most significantly by removing the entire \"Environmental Racism\" section from 20.3. That section c",
       "data_file": "ch20.json"
@@ -212,7 +212,7 @@
       "title": "Social Movements and Social Change",
       "florida_title": "Social Change and Collective Behaviors",
       "severity": "major",
-      "change_count": 22,
+      "change_count": 27,
       "status": "modified",
       "summary_short": "The Florida version ranges from tonal softening to outright removal of politically charged content. The most significant deletions involve passages that explicitly critique state violence, racial inju",
       "data_file": "ch21.json"

@@ -284,8 +284,22 @@
       "original_text": "One microanalytical theory is Rose's (1962) subculture of aging theory, which focuses on the shared community created by the elderly when they are excluded... For example, a group consciousness may develop within such groups as AARP around issues specific to the elderly like the Medicare \"doughnut hole,\" focused on creating social and political pressure to fix those issues.",
       "florida_text": "An early microanalytical theory is Rose's (1962) subculture of aging theory, which focused on the shared community created by older adults when they are excluded... For example, a group consciousness may develop within such groups as AARP around issues specific to older adults like the Medicare and create social and political pressure to fix those issues.",
       "context": "The Medicare \"doughnut hole\" — a specific, politically charged policy reference to a gap in Medicare drug coverage that was largely closed by the ACA — is removed from the Florida version, replaced with a vaguer reference to \"the Medicare.\""
+    },
+    {
+      "type": "removed",
+      "section": "Key Terms",
+      "original_text": "primary aging\nbiological factors such as molecular and cellular changes",
+      "florida_text": null,
+      "context": "Term removed from glossary, consistent with the removal of primary/secondary aging terminology from the body text."
+    },
+    {
+      "type": "removed",
+      "section": "Key Terms",
+      "original_text": "secondary aging\naging that occurs due to controllable factors like exercise and diet",
+      "florida_text": null,
+      "context": "Term removed from glossary, consistent with the removal of primary/secondary aging terminology from the body text."
     }
   ],
-  "change_count": 33,
+  "change_count": 35,
   "severity": "major"
 }

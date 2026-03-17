@@ -141,8 +141,22 @@
       "original_text": "paradigms\nphilosophical and theoretical frameworks used within a discipline to formulate theories, generalizations, and the experiments performed in support of them",
       "florida_text": null,
       "context": "The term \"paradigms\" is deleted from the Florida key terms glossary. The Florida body text uses the term \"paradigms\" in section 1.3 but the formal definition is absent from the glossary."
+    },
+    {
+      "type": "modified",
+      "section": "Key Terms",
+      "original_text": "conflict theory\na theory that looks at society as a competition for limited resources",
+      "florida_text": "conflict perspective: an analytical tool that looks at society as a competition for limited resources",
+      "context": "The term \"conflict theory\" is renamed to \"conflict perspective\" in the Florida glossary, consistent with the rewrite of section 1.3 which shifts from naming \"conflict theory\" as a theoretical school to calling it \"conflict perspective\" throughout."
+    },
+    {
+      "type": "added",
+      "section": "Key Terms",
+      "original_text": null,
+      "florida_text": "perspectives: philosophical and theoretical frameworks used as analytical tools to investigate various phenomena.",
+      "context": "A new term \"perspectives\" is added to the Florida glossary as a direct replacement for the removed term \"paradigms.\" The definition is similar but reframes paradigms as analytical tools rather than disciplinary frameworks, softening the epistemological weight of the concept."
     }
   ],
-  "change_count": 18,
+  "change_count": 20,
   "severity": "major"
 }

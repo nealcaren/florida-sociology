@@ -130,8 +130,22 @@
       "original_text": "7 • Section Summary, Section Quiz, Short Answer, Further Research sections (full pedagogical apparatus)",
       "florida_text": null,
       "context": "All end-of-chapter review materials — section summaries, section quiz questions, short answer questions, and further research suggestions — are entirely absent from the Florida version. This removes all guided pedagogy and self-assessment from the chapter."
+    },
+    {
+      "type": "removed",
+      "section": "Key Terms",
+      "original_text": "negative sanctions\npunishments for violating norms",
+      "florida_text": null,
+      "context": "Term removed from glossary."
+    },
+    {
+      "type": "removed",
+      "section": "Key Terms",
+      "original_text": "positive sanctions\nrewards given for conforming to norms",
+      "florida_text": null,
+      "context": "Term removed from glossary."
     }
   ],
-  "change_count": 17,
+  "change_count": 19,
   "severity": "major"
 }

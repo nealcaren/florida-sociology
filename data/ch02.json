@@ -123,7 +123,22 @@
       "florida_text": "Surveys are used for a variety of different purposes... A social science survey targets a specific population, or a sample... The sample they use may be designed to represent all people in a given geographic area... After selecting the specific population of interest, a social scientist develops a plan to ask questions and record responses. Researchers must provide 'informed consent,' an overview of the nature and purpose of the survey, and any potential problems or risks associated with participation...",
       "context": "The survey section is substantially rewritten and expanded in Florida. Original's American Idol/Nielsen Ratings examples replaced with detailed SAT/school-start-time example. Adds formal informed consent language, discussion of protecting participant identity, and a more technical treatment of sampling. Largely a pedagogical upgrade, not ideological censorship."
     }
+  ,
+    {
+      "type": "removed",
+      "section": "Key Terms",
+      "original_text": "content analysis\napplying a systematic approach to record and value information gleaned from secondary data as it relates to the study at hand",
+      "florida_text": null,
+      "context": "Term removed from glossary."
+    },
+    {
+      "type": "removed",
+      "section": "Key Terms",
+      "original_text": "debunking\nlooking beyond the obvious to expose falseness by examining merit, logic, and evidence.",
+      "florida_text": null,
+      "context": "Term removed from glossary. \"Debunking\" is a foundational concept in sociological inquiry (associated with Peter Berger) that describes sociology's role in exposing surface-level assumptions. Its removal from the glossary aligns with the chapter's broader pattern of reducing critical-inquiry framing."
+    }
   ],
-  "change_count": 16,
+  "change_count": 19,
   "severity": "major"
 }
