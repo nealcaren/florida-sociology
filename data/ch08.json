@@ -1,0 +1,39 @@
+{
+  "chapter": 8,
+  "title": "Media and Technology",
+  "florida_title": null,
+  "original_chapters": [8],
+  "summary": "The entire chapter on Media and Technology was removed from the Florida version. The original chapter covered technology's role in society, the digital divide, media's influence on socialization and culture, global implications of media and technology, and theoretical perspectives on media. None of this content appears in the Florida textbook.\n\nThe removal eliminates discussion of how media shapes public opinion, the concentration of media ownership, the digital divide's impact on inequality, net neutrality, and the sociological analysis of technology's role in social change. Students using the Florida version receive no structured introduction to the sociology of media — a significant gap given the central role of media and technology in contemporary social life.",
+  "changes": [
+    {
+      "type": "removed",
+      "section": "8.1",
+      "original_text": "8.1 Technology Today — This entire section covering the evolution of technology, the digital divide, and technology's impact on inequality was removed.",
+      "florida_text": null,
+      "context": "Complete section removal. Covered topics including e-readiness, the digital divide, and how technology reinforces or reduces social inequalities."
+    },
+    {
+      "type": "removed",
+      "section": "8.2",
+      "original_text": "8.2 Media and Technology in Society — This entire section covering media consolidation, the role of media in socialization, and media's influence on culture was removed.",
+      "florida_text": null,
+      "context": "Complete section removal. Covered media consolidation, product advertising, homogenization of culture, and technological social control."
+    },
+    {
+      "type": "removed",
+      "section": "8.3",
+      "original_text": "8.3 Global Implications of Media and Technology — This entire section on technology's global impact, including the global digital divide and net neutrality, was removed.",
+      "florida_text": null,
+      "context": "Complete section removal. Covered global digital divide, net neutrality debates, and technology's role in global social change."
+    },
+    {
+      "type": "removed",
+      "section": "8.4",
+      "original_text": "8.4 Theoretical Perspectives on Media and Technology — This entire section applying functionalist, conflict, feminist, and interactionist perspectives to media was removed.",
+      "florida_text": null,
+      "context": "Complete section removal. Included conflict theory analysis of media ownership concentration and feminist perspectives on media representation."
+    }
+  ],
+  "change_count": 4,
+  "severity": "major"
+}

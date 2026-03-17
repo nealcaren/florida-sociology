@@ -1,0 +1,17 @@
+{
+  "chapter": 16,
+  "title": "Education",
+  "florida_title": null,
+  "summary": "This chapter was merged into Florida Chapter 10: Public Institutions: Religion, Education, and Government. The standalone chapter on education was eliminated and its content compressed into a single chapter alongside religion and government. See Chapter 15 for a detailed comparison.",
+  "changes": [
+    {
+      "type": "removed",
+      "section": "16.0",
+      "original_text": "Chapter 16: Education was merged into Florida Chapter 10. The standalone treatment of education as a social institution was eliminated.",
+      "florida_text": null,
+      "context": "Entire chapter merged with Chapters 15 and 17 into Florida Ch 10. See Chapter 15 comparison for details."
+    }
+  ],
+  "change_count": 1,
+  "severity": "major"
+}

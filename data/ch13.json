@@ -1,0 +1,291 @@
+{
+  "chapter": 13,
+  "title": "Aging and the Elderly",
+  "florida_title": "Healthy Aging",
+  "florida_chapter": 5,
+  "summary": "The Florida version systematically replaces every instance of \"the elderly\" with \"older adults\" or \"old,\" and renames sections accordingly (e.g., \"Who Are the Elderly?\" becomes \"Older Adults in Society,\" \"Challenges Facing the Elderly\" becomes \"Challenges Facing Older Adults\"). The title shift from \"Aging and the Elderly\" to \"Healthy Aging\" signals a broader reframing: the Florida text de-emphasizes social critique and vulnerability, instead foregrounding positive aging, health maintenance, and the economic contributions of older adults. Several passages that highlight systemic disadvantage, discrimination against women, LGBTQ seniors, and global inequality are removed or substantially softened.\n\nThe most significant omissions are the removal of the entire \"Aging Out: LGBTQ Seniors\" sidebar (which discussed higher disability and depression rates among LGBTQ elders, disclosure management in care facilities, and the impact of same-sex marriage recognition), the removal of the \"World War II Veterans\" Big Picture sidebar (covering PTSD, suicide rates, and the Honor Flight Network), the removal of the \"Dr. Ignatz Nascher and the Birth of Geriatrics\" sociological research sidebar, and the removal of the Madrid Plan / global aging policy discussion. Exchange theory (Dowd 1975), a conflict-perspective theory about elder dependency, is dropped from the body text (though retained in the glossary). The opening framing questions are also softened — the original asks about \"difficulties\" older people face; the Florida version adds \"joys\" and \"opportunities.\"\n\nConversely, the Florida text adds new material: a paragraph on the \"longevity economy\" emphasizing Boomers' economic contributions; expanded content on how biological aging is shaped by social stressors (poverty, racism, occupational exposures); new content on resistance training and health maintenance for women; a revised poverty section that credits social policy (Social Security, Medicare, Medicaid) as the primary driver of reduced elder poverty; expanded coverage of elder fraud with AI-assisted scams; a new note on LAT (living apart together) relationships; and updated statistics (as of 2025) on medical aid in dying. Disengagement theory is framed more critically — described as \"widely discredited\" in the Florida version rather than merely critiqued.",
+  "changes": [
+    {
+      "type": "modified",
+      "section": "Introduction",
+      "original_text": "Aside from the scare from the fire, why might Bibi be crying? What difficulties do older people face in undertaking day-to-day activities? What difficulties do their family members face?",
+      "florida_text": "Aside from the scare from the fire, why might Bibi be crying? What difficulties and joys do older people experience in their day-to-day activities? What opportunities and challenges do their family members face?",
+      "context": "Opening framing questions are softened; \"difficulties\" replaced with \"difficulties and joys\" / \"opportunities and challenges,\" shifting tone from social-problem framing to a more positive, balanced framing."
+    },
+    {
+      "type": "modified",
+      "section": "13.1",
+      "original_text": "Think of U.S. movies and television shows you have watched recently.",
+      "florida_text": "Think of the streaming series you have watched recently.",
+      "context": "Minor modernization; \"movies and television shows\" becomes \"streaming series.\""
+    },
+    {
+      "type": "modified",
+      "section": "13.1",
+      "original_text": "Many media portrayals of the elderly reflect negative cultural attitudes toward aging. In the United States, society tends to glorify youth and associate it with beauty and sexuality. In comedies, the elderly are often associated with grumpiness or hostility.",
+      "florida_text": "Although the representation of older people in the media has increased over the last decade in particular, many media portrayals of older adults reflect negative cultural attitudes toward aging. In the United States, society tends to glorify youth and associate it with beauty and sexuality. In comedies, older adults are often associated with grumpiness, hostility, or even senility.",
+      "context": "Florida adds an acknowledgment of improved media representation; also adds \"senility\" as a stereotype — a factual addition, though the overall framing is somewhat more measured."
+    },
+    {
+      "type": "removed",
+      "section": "13.1",
+      "original_text": "While stereotypes associated with race and gender may lead to more critical thought and sensitivity, many people accept age stereotypes without question (Levy 2002). Consider this: At your school or workplace, you have likely had the opportunity (or may be required) to attend workshops on racial equity, cultural sensitivity, sexual harassment, and so on. But even though the elderly are all around us (and increasing in number every day), very few institutions conduct similar workshops or forums about the elderly.",
+      "florida_text": null,
+      "context": "The comparison of age bias to racial equity and sexual harassment workshops — which implicitly advocates for institutional anti-ageism training — is removed entirely. The Florida version retains only the Levy 2002 citation without this advocacy framing."
+    },
+    {
+      "type": "modified",
+      "section": "13.1",
+      "original_text": "Some sixty-year-olds feel frail and elderly, while some eighty-year-olds feel sprightly.",
+      "florida_text": "Some sixty-year-olds feel frail and old, while some eighty-year-olds feel sprightly.",
+      "context": "\"Elderly\" replaced with \"old\" — part of a systematic word substitution throughout the Florida version."
+    },
+    {
+      "type": "removed",
+      "section": "13.1",
+      "original_text": "Equally revealing is that as people grow older they define \"old age\" in terms of greater years than their current age (Logan 1992). Many people want to postpone old age and regard it as a phase that will never arrive. For example, many older Americans keep working well past what people consider retirement age, due to financial pressures or in order to remain, in their eyes, useful. Some older adults even succumb to stereotyping their own age group (Rothbaum 1983).",
+      "florida_text": null,
+      "context": "Passage about self-stereotyping in elderly and the reasons behind working past retirement (financial pressure, desire for usefulness) is removed from the Florida version."
+    },
+    {
+      "type": "modified",
+      "section": "13.1",
+      "original_text": "Attitudes toward the elderly have also been affected by large societal changes that have happened over the past 100 years. Researchers believe industrialization and modernization have contributed greatly to lowering the power, influence, and prestige the elderly once held.",
+      "florida_text": "Attitudes toward older adults have also been affected by large societal changes that have happened over the past 100 years. Researchers believe industrialization and modernization have contributed greatly to lowering the power, influence, and prestige older adults once held. On the other hand, the sheer numbers of older adults in certain societies can have other effects, such as older people's influence on policies and politics based on their voting influence. During the COVID-19 pandemic, experts weighed in about whether age should be a factor in determining whether hospitals should perform lifesaving treatments, leading to heated debates about age discrimination.",
+      "context": "Florida adds a sentence about COVID-19 pandemic debates over age-based rationing of hospital lifesaving treatments — a new contemporary example of ageism discourse."
+    },
+    {
+      "type": "modified",
+      "section": "13.1",
+      "original_text": "What does it mean to be elderly? Some define it as an issue of physical health, while others simply define it by chronological age. The U.S. government, for example, typically classifies people aged sixty-five years old as elderly, at which point citizens are eligible for federal benefits such as Social Security and Medicare. The World Health Organization has no standard, other than noting that sixty-five years old is the commonly accepted definition in most core nations, but it suggests a cut-off somewhere between fifty and fifty-five years old for semi-peripheral nations, such as those in Africa (World Health Organization 2012). AARP (formerly the American Association of Retired Persons) cites fifty as the eligible age of membership.",
+      "florida_text": "What does it mean to be old? Some define it as an issue of physical health, while others simply define it by chronological age. The U.S. government, for example, has defined old age based on specific social policies in which people qualify when they reach a certain age (e.g., Social Security and Medicare). The World Health Organization has no standard, other than noting that sixty-five years old is the commonly accepted definition in most core nations, but in countries with lower life expectancies, old age seems to come sooner due to more accelerated physiological aging, and in these countries, people who are age 55 are often considered \"old.\" AARP (formerly the American Association of Retired Persons) is a policy advocacy organization for older adults in the United States. AARP identifies those who are age 50 or older as \"old enough\" to participate and eligible for membership.",
+      "context": "The reference to \"semi-peripheral nations, such as those in Africa\" (using world-systems terminology) is removed; replaced with a more neutral description. The Florida version also explicitly characterizes AARP as a \"policy advocacy organization,\" which is an added framing."
+    },
+    {
+      "type": "modified",
+      "section": "13.1",
+      "original_text": "In 1900, the population of U.S people over sixty-five years old was 3 million, representing about 4 percent of the total population. That number increased to 33 million in 1994, and was roughly 12 percent of the total population (Hobbs 1994). By 2016 that number had grown to 49 million, about 15 percent of the total population (U.S. Census Bureau 2018). This is a greater than tenfold increase in the elderly population, compared to a mere tripling of both the total population and of the population under sixty-five years old (Hobbs 1994). This increase has been called \"the graying of America\"... In 2010, there were about 80,000 centenarians in the United States alone. They make up one of the fastest-growing segments of the population (Boston University School of Medicine 2014).",
+      "florida_text": "In 1900, the population of U.S people over sixty-five years old was 3 million, representing about 4 percent of the total population. That number increased to 33 million in 1994 and was roughly 12 percent of the total population (Hobbs 1994). By 2016 that number had already grown to 49 million, about 15 percent of the total population (U.S. Census Bureau 2018), and the number of adults 65+ and the proportion of the population that is in this \"old\" age group, will continue to increase. Like many other Western European and Asian nations, people in the United States are having fewer children... Even though life expectancy has mostly leveled off, and even decreased during the first few years of the COVID-19 pandemic, many middle-aged people today will live well into their 80s and 90s.",
+      "context": "The original's framing of centenarians as a \"fastest-growing segment\" is removed. The Florida text adds context about declining birth rates, COVID-19's impact on life expectancy, and the ongoing growth of the 65+ group. The phrase \"graying of America\" is retained but the tenfold-increase-vs-tripling comparison is dropped."
+    },
+    {
+      "type": "modified",
+      "section": "13.1",
+      "original_text": "It is interesting to note that not all people in the United States age equally. Most glaring is the difference between men and women; as Figure 13.6 shows, women have longer life expectancies than men... Nevertheless, as the graph shows, the sex ratio actually increased over time, indicating that men are closing the gap between their life spans and those of women (U.S. Census Bureau 2010).",
+      "florida_text": "It is important to note, however, that not all people age equally. Worldwide, in countries in which childbirth is safe and women have the care they need; women significantly outlive men... there remain important social implications for these differences, including that women more commonly partner with men who are the same age or older, leading women to be much more likely to find themselves caring for a sick spouse and experiencing widowhood in later life. Given that women have lower rates of wealth in the United States relative to their spouses, women who are widowed have higher rates of poverty.",
+      "context": "Florida expands the gendered life expectancy discussion to include widowhood and poverty for women — a new substantive addition highlighting economic vulnerability. The original's optimistic note about men \"closing the gap\" is dropped."
+    },
+    {
+      "type": "modified",
+      "section": "13.1",
+      "original_text": "People in the Boomer generation do not want to grow old the way their grandparents did; the result is a wide range of products designed to ward off the effects—or the signs—of aging. Previous generations of people over sixty-five were \"old.\" Baby Boomers are in \"later life\" or \"the third age\" (Gilleard and Higgs 2007).",
+      "florida_text": "People in the Boomer generation do not want to grow old the way their grandparents did and their spending power has transformed a variety of consumer industries. Boomers have inspired the development of a wide range of new products from those seeking to help them avoid aging as long as possible (e.g., \"anti-aging\" products) to products that help them avoid living in a nursing home as long as possible.",
+      "context": "The sociological framing of \"later life\" / \"third age\" (Gilleard and Higgs) is removed; replaced with a consumer-product framing. The cultural studies reference is dropped."
+    },
+    {
+      "type": "modified",
+      "section": "13.1",
+      "original_text": "Unlike the elderly of previous generations, Boomers do not expect that turning sixty-five means their active lives are over. They are not willing to abandon work or leisure activities, but they may need more medical support to keep living vigorous lives. This desire of a large group of over-sixty-five-year-olds wanting to continue with a high activity level is driving innovation in the medical industry (Shaw n.d.).",
+      "florida_text": "Unlike older adults of previous generations, Boomers have been much less likely to abandon work or leisure activities based on chronological age. They have also been more dedicated to engaging in health behaviors to help preserve health and function and leverage more medical support to keep living vigorous lives. In addition, they continue to play an important role in benefiting society in later life. Boomers work for pay (with a large proportion relative to other groups starting and/or running their own businesses), volunteer in their communities, provide important care to members of their family, and drive the economy through spending. The many contributions that older adults provide is sometimes referred to as the \"longevity economy\" – or the economic benefits that society is accruing because there are more older adults in society.",
+      "context": "The Florida text substantially expands this passage to add a positive \"longevity economy\" framing — older adults as economic contributors and caregivers. This is a new ideological frame absent from the original."
+    },
+    {
+      "type": "modified",
+      "section": "13.1",
+      "original_text": "According to most retirement and investment experts, in order to maintain their accustomed lifestyle, people need to save ten times their annual income before retiring... The causes of these shortfalls are varied, and include everything from lavish spending to economic recession to companies folding and reducing pension payments. Higher education costs increased significantly while many Baby Boomers were sending their children to college.",
+      "florida_text": "According to most retirement and investment experts, to maintain their accustomed lifestyle, people need to save at least ten times their annual income before retiring... The causes of these shortfalls are varied but are especially linked with the replacement of defined benefit pension programs in the United States with optional defined contribution retirement programs, with many Boomers not having retirement savings programs set up as a standard process of employment. In addition, many boomers were nearing retirement at the start of the 2008 \"Great Recession.\"",
+      "context": "\"Lavish spending\" as a cause is removed from the Florida version; the structural explanation (shift from defined-benefit to defined-contribution pensions) is added, reflecting a less blame-the-individual framing."
+    },
+    {
+      "type": "modified",
+      "section": "13.1",
+      "original_text": "Just as some observers are concerned about the possibility of Medicare being overburdened, Social Security is considered to be at risk... economists warn that the system will collapse by the year 2037. A similar warning came in the 1980s; in response to recommendations from the Greenspan Commission, the retirement age (the age at which people could start receiving Social Security benefits) was raised from sixty-two to sixty-seven and the payroll tax was increased. A similar hike in retirement age, perhaps to seventy, is a possible solution to the current threat to Social Security.",
+      "florida_text": "Social Security is a government-run retirement program funded primarily through payroll taxes... economists estimate that Social Security is facing significant problems related to long-term solvency. For generations following the Baby Boomers (and likely the youngest of the Boomers), unless a higher proportion of total income is assessed to pay into the Social Security system among wealthier Americans, future generations are only expected to receive about 75% of the Social Security income they are entitled.",
+      "context": "The original's \"collapse by 2037\" language and the suggestion of raising the retirement age to seventy are removed. The Florida text introduces a wealth-based solution (taxing higher incomes more) and uses softer \"solvency\" language. The Greenspan Commission historical context is dropped."
+    },
+    {
+      "type": "modified",
+      "section": "13.1",
+      "original_text": "One country that will soon face a serious aging crisis is China, which is on the cusp of an \"aging boom\"—a period when its elderly population will dramatically increase. The number of people above age sixty in China today is about 178 million, which amounts to 13.3 percent of its total population (Xuequan 2011).",
+      "florida_text": "One country that will soon face a serious aging crisis is China, which is on the cusp of an \"aging boom\"— a period when its old population will dramatically increase. China's \"one-child policy\" in which people between 1980 and 2015 were allowed only to have one child per family, led to a whole generation of young people who have many more older adults than young adults coming into the population, leading to a much higher proportion of older people... The number of people above age sixty in China today is about 310 million, making up over 20% of the total population (Xiang et al, 2025).",
+      "context": "Statistics updated to current figures (310 million, 20%). China's one-child policy is explicitly introduced as causal context. The dependency ratio discussion (Bartram and Roe) linking global aging to Eastern/Southeast Asia, Latin America, Northern Africa, and Central/Southern Asia is removed."
+    },
+    {
+      "type": "removed",
+      "section": "13.1",
+      "original_text": "Poverty among elders is a concern, especially among elderly women. The feminization of the aging poor, evident in peripheral nations, is directly due to the number of elderly women in those countries who are single, illiterate, and not a part of the labor force (Mujahid 2006).",
+      "florida_text": null,
+      "context": "The concept of the \"feminization of the aging poor\" in peripheral nations — a key feminist/global inequality framing — is entirely removed from the Florida version."
+    },
+    {
+      "type": "removed",
+      "section": "13.1",
+      "original_text": "In 2002, the Second World Assembly on Aging was held in Madrid, Spain, resulting in the Madrid Plan, an internationally coordinated effort to create comprehensive social policies to address the needs of the worldwide aging population. The plan identifies three themes to guide international policy on aging: 1) publicly acknowledging the global challenges caused by, and the global opportunities created by, a rising global population; 2) empowering the elderly; and 3) linking international policies on aging to international policies on development (Zelenev 2008). The Madrid Plan has not yet been successful in achieving all its aims. However, it has increased awareness of the various issues associated with a global aging population, as well as raising the international consciousness to the way that the factors influencing the vulnerability of the elderly (social exclusion, prejudice and discrimination, and a lack of socio-legal protection) overlap with other developmental issues (basic human rights, empowerment, and participation), leading to an increase in legal protections (Zelenev 2008).",
+      "florida_text": null,
+      "context": "The entire Madrid Plan section — discussing international policy coordination, empowerment of the elderly, and legal protections — is completely removed from the Florida version."
+    },
+    {
+      "type": "removed",
+      "section": "13.2",
+      "original_text": "Dr. Ignatz Nascher and the Birth of Geriatrics\nIn the early 1900s, a New York physician named Dr. Ignatz Nascher coined the term geriatrics... Nascher had high hopes for his pioneering work. He wanted to treat the aging, especially those who were poor and had no one to care for them. Many of the elderly poor were sent to live in \"almshouses,\" or public old-age homes (Cole 1993). Conditions were often terrible in these almshouses, where the aging were often sent and just forgotten. As hard as it might be to believe today, Nascher's approach was once considered unique. At the time of his death, in 1944, he was disappointed that the field of geriatrics had not made greater strides.",
+      "florida_text": null,
+      "context": "The entire \"Dr. Ignatz Nascher and the Birth of Geriatrics\" Sociological Research sidebar is removed. This sidebar included discussion of almshouses, elderly poverty, and neglect of the poor elderly. The Florida version retains a glossary definition and reference citation for Nascher, but the narrative content is gone."
+    },
+    {
+      "type": "modified",
+      "section": "13.2",
+      "original_text": "Each person experiences age-related changes based on many factors. Biological factors, such as molecular and cellular changes, are called primary aging, while aging that occurs due to controllable factors, such as lack of physical exercise and poor diet, is called secondary aging (Whitbourne and Whitbourne 2010). Most people begin to see signs of aging after fifty years old, when they notice the physical markers of age. Skin becomes thinner, drier, and less elastic. Wrinkles form. Hair begins to thin and gray.",
+      "florida_text": "Each person experiences age-related changes based on many factors. Biological factors, such as molecular and cellular changes are influenced by processes that are genetic or uncontrollable, and others are based on lifestyle factors like amount of physical exercise or diet (Whitbourne and Whitbourne 2010). Physical changes like the emergence of wrinkles, the skin becoming thinner, hair turning gray and hair loss becoming more significant over time, changes in the shape of the eye so reading words becomes more difficult are all typical aspects of normal aging that cannot be stopped or changed by interventions (aside from hair dye); however, there are some variations in the timing of these changes.",
+      "context": "The primary/secondary aging terminology is dropped; biological change description is expanded with a normalizing framing (\"cannot be stopped or changed\"). The concept of \"secondary aging\" as controllable is removed — reducing individual responsibility framing."
+    },
+    {
+      "type": "modified",
+      "section": "13.2",
+      "original_text": "According to the federal Administration on Aging (2011), in 2009 fewer people over sixty-five years old assessed their health as \"excellent\" or \"very good\" (41.6 percent) compared to those aged eighteen to sixty-four (64.4 percent). Evaluating data from the National Center for Health Statistics and the U.S. Bureau of Labor Statistics, the Administration on Aging found that from 2006 to 2008, the most frequently reported health issues for those over sixty-five years old included arthritis (50 percent), hypertension (38 percent), heart disease (32 percent), and cancer (22 percent). About 27 percent of people age sixty and older are considered obese by current medical standards.",
+      "florida_text": "Overall, people's experiences of physical aspects of aging are more positive than they expect. In fact, in 2022 only about 30% of adults 65+ in the United States rated their health as fair or poor, and about 40% rated their health as very good or excellent, based on data drawn from a nationally representative longitudinal study called the Health and Retirement Study.",
+      "context": "The specific disease burden statistics (arthritis 50%, hypertension 38%, heart disease 32%, cancer 22%, obesity 27%) are entirely removed. Florida substitutes a positive-framing statistic (\"more positive than they expect\"). The health burden data is replaced with a more upbeat presentation."
+    },
+    {
+      "type": "added",
+      "section": "13.2",
+      "original_text": null,
+      "florida_text": "Another key issue regarding biological aging is the fact that growing evidence that even though there are well documented health changes that are associated with aging, they are not determined by age. In fact, even though muscle and bone mass declines with age on average, there is growing evidence that people who maintain (or even start for the first time!) resistance training in later life, they can maintain or even increase muscle and bone mass even into the 70s and beyond... Changes in norms with women being more likely to maintain resistance training across adulthood could significantly change current trends in health and functioning as people age.",
+      "context": "New content added emphasizing modifiability of aging through resistance training, with particular attention to women's health. This is a health-promotion addition absent from the original."
+    },
+    {
+      "type": "added",
+      "section": "13.2",
+      "original_text": null,
+      "florida_text": "Biological aging is also influenced by social and environmental factors. Exposure to stressors such as poverty, racism, and even certain occupational exposures, early life traumas, can change the speed of physiological aging (Polsky et al, 2022)... For instance, childhood poverty has been shown to modify people's biological systems in ways that lead to earlier onset of disability, and shorter life expectancy (Schmidt, et al, 2025).",
+      "context": "New content added on social determinants of biological aging — poverty, racism, and occupational exposure as accelerants of physiological aging. This introduces intersectional and structural health framing that is absent from the original."
+    },
+    {
+      "type": "removed",
+      "section": "13.2",
+      "original_text": "Some impacts of aging are gender-specific. Some of the disadvantages aging women face arise from long-standing social gender roles. For example, Social Security favors men over women, inasmuch as women do not earn Social Security benefits for the unpaid labor they perform (usually at home) as an extension of their gender roles. In the healthcare field, elderly female patients are more likely than elderly men to see their healthcare concerns trivialized (Sharp 1995) and are more likely to have their health issues labeled psychosomatic (Munch 2004). Another female-specific aspect of aging is that mass-media outlets often depict elderly females in terms of negative stereotypes and as less successful than older men (Bazzini and Mclntosh I997). For men, the process of aging—and society's response to and support of the experience—may be quite different. The gradual decrease in male sexual performance that occurs as a result of primary aging is medicalized... And some social scientists have observed that the aging male body is depicted in the Western world as genderless (Spector-Mersel 2006).",
+      "florida_text": null,
+      "context": "An entire section on gender-specific aging disadvantages is removed. This included Social Security's structural disadvantage for women, trivialization of women's healthcare concerns, psychosomatic labeling, media stereotypes, the medicalization of male sexual performance, and the social invisibility of the aging male body. These feminist and gender-critical analyses are entirely absent from the Florida version."
+    },
+    {
+      "type": "modified",
+      "section": "13.2",
+      "original_text": "Although it is sometimes difficult to have an open, public national dialogue about aging and sexuality, the reality is that our sexual selves do not disappear after age sixty-five. People continue to enjoy sex—and not always safe sex—well into their later years. In fact, some research suggests that as many as one in five new cases of AIDS occurs in adults over sixty-five years old (Hillman 2011).",
+      "florida_text": "Although it is sometimes difficult to have an open, public national dialogue about aging and sexuality, the reality is that our sexual selves do not disappear after age sixty-five. People continue to enjoy sex—and not always safe sex—well into their later years. In some ways, old age may be a time to enjoy sex more, not less.",
+      "context": "The statistic about AIDS in older adults (one in five new AIDS cases occurring in adults over 65) is removed from the Florida version. This removed a public-health risk framing from the sexuality section."
+    },
+    {
+      "type": "removed",
+      "section": "13.2",
+      "original_text": "Aging \"Out:\" LGBTQ Seniors\nHow do different groups in our society experience the aging process?... An emerging field of study looks at how lesbian, gay, bisexual, transgender, and queer/questioning (LGBTQ) people experience the aging process... the number of LGBTQ seniors is expected to double by 2030 (Fredriksen-Goldsen et al. 2011). A recent study... finds that LGBTQ older adults have higher rates of disability and depression than their heterosexual peers. They are also less likely to have a support system that might provide elder care... In one case study, a seventy-eight-year-old lesbian woman lived alone in a long-term care facility. She had been in a long-term relationship of thirty-two years... A study from the National Senior Citizens Law Center reports that only 22 percent of LGBTQ older adults expect they could be open about their sexual orientation or gender identity in a long-term care facility... Same-sex marriage—a civil rights battleground... can have major implications for the way the LGBTQ community ages.",
+      "florida_text": null,
+      "context": "The entire \"Aging Out: LGBTQ Seniors\" Sociology in the Real World sidebar is removed. This is the single most politically sensitive omission: it covered LGBTQ health disparities, \"disclosure management\" in care facilities, the legal and financial impact of same-sex marriage recognition, and policy recommendations for improving LGBTQ elder care."
+    },
+    {
+      "type": "modified",
+      "section": "13.2",
+      "original_text": "She published her findings in a 1969 book called On Death and Dying. The book remains a classic on the topic today.",
+      "florida_text": "She published her findings in a 1969 book called On Death and Dying. The book remains a classic on the topic today although empirical assessments show that there is great variation in whether and in what order one proceeds through the five stages (Corr, 2018).",
+      "context": "Florida adds an empirical caveat to Kübler-Ross's five-stage model, citing Corr (2018) — a scholarly addition that moderates the authority of the classic stages framework."
+    },
+    {
+      "type": "modified",
+      "section": "13.2",
+      "original_text": "Should patients have the right to choose to die with dignity? Dr. Jack Kevorkian was a staunch advocate for physician-assisted suicide: the voluntary or physician-assisted use of lethal medication provided by a medical doctor to end one's life... As of 2019, seven states and the District of Columbia have passed similar laws allowing physician assisted suicide.",
+      "florida_text": "Should patients have the right to choose to die with dignity? In the United States, Oregon was the first state to pass a law allowing medical aid in dying (MAID). In 1997, Oregon instituted the Death with Dignity Act... As of 2025, 11 states and the District of Columbia have passed similar laws allowing medical aid in dying (Khaja, 2025).",
+      "context": "Dr. Jack Kevorkian is removed entirely from the Florida version. The term \"physician-assisted suicide\" is replaced with \"medical aid in dying (MAID)\" — a terminology shift that reflects current advocacy language. Statistics are updated to 2025 (11 states)."
+    },
+    {
+      "type": "added",
+      "section": "13.2",
+      "original_text": null,
+      "florida_text": "A growing trend, too, is that many older adults are choosing cohabitation or remaining in a committed relationship but continuing to live separately from their romantic partner (i.e., \"living apart together\" or a LAT couple) rather than remarriage (Brown et al, 2022).",
+      "context": "New content added on \"living apart together\" (LAT) relationships as an alternative to remarriage in later life — a contemporary relationship sociology addition."
+    },
+    {
+      "type": "modified",
+      "section": "13.3",
+      "original_text": "For many people in the United States, growing older once meant living with less income... Before the recession hit, what had changed to cause a reduction in poverty among the elderly? What social patterns contributed to the shift? For several decades, a greater number of women joined the workforce. More married couples earned double incomes during their working years and saved more money for their retirement. Private employers and governments began offering better retirement programs. By 1990, senior citizens reported earning 36 percent more income on average than they did in 1980...",
+      "florida_text": "For many people in the United States, growing older once meant living with less income... Moreover, this simple snapshot conceals vast subgroup differences; for instance, Black and Hispanic unmarried older women are nearly ten times as likely as married white older men to live in poverty (Thornton & Bowers, 2024). Before the recession hit, what had changed to cause a reduction in poverty among older adults? The most important contribution was the introduction of new social policies that increased opportunities for financial security in later life. Introduction of the Social Security Administration and the establishment of Medicare and Medicaid healthcare programs institutionalized basic income in later life...",
+      "context": "Florida adds an intersectional poverty statistic (Black and Hispanic unmarried older women vs. married white older men). The explanation for poverty reduction shifts emphasis: the original credits workforce participation and employer programs; the Florida version leads with government social programs (Social Security, Medicare, Medicaid) as the primary driver."
+    },
+    {
+      "type": "modified",
+      "section": "13.3",
+      "original_text": "Peter tapped on his horn. He tailgated the driver. Finally, Peter had a chance to pass the car. He glanced over. Sure enough, Peter thought, a gray-haired old man guilty of \"DWE,\" driving while elderly.",
+      "florida_text": "Peter tapped on his horn. He tailgated the driver. Finally, Peter had a chance to pass the car. He glanced over. Sure enough, Peter thought, a gray-haired old man guilty of \"DWO,\" driving while old.",
+      "context": "\"DWE\" (driving while elderly) changed to \"DWO\" (driving while old) — consistent with the systematic word replacement throughout the Florida version."
+    },
+    {
+      "type": "modified",
+      "section": "13.3",
+      "original_text": "Peter's responses to both older people, the driver and the shopper, were prejudiced. In both cases, he made unfair assumptions. He assumed the driver drove cautiously simply because the man was a senior citizen, and he assumed the shopper needed help carrying her groceries just because she was an older woman.",
+      "florida_text": "Peter's responses to both older people, the driver and the shopper, were assessments of the capacity of the individuals he encountered based on his perceptions of their age. He assumed the driver drove cautiously because the man looked old, and he assumed the shopper needed help carrying her groceries because she was an older woman. Although the older man may have had reduced cognitive abilities that caused him to be more cautious while driving, and the older women could have had reduced muscle mass that reduced her ability to handle the weight of her groceries, Peter is unable to determine these things using observations alone.",
+      "context": "The original labels Peter's responses flatly as \"prejudiced\" and \"unfair assumptions.\" The Florida version reframes them as \"assessments of capacity\" and adds a caveat that the older individuals might actually have had the limitations Peter assumed — substantially softening the ageism critique."
+    },
+    {
+      "type": "modified",
+      "section": "13.3",
+      "original_text": "Ageism is discrimination (when someone acts on a prejudice) based on age. Dr. Robert Butler coined the term in 1968, noting that ageism exists in all cultures (Brownell). Ageist attitudes and biases based on stereotypes reduce elderly people to inferior or limited positions. Ageism can vary in severity.",
+      "florida_text": "Ageism is defined as a form of discrimination (i.e., an action based on a prejudice) that is associated with negative assumptions associated with chronological age. This term was originally coined by Dr. Robert Butler in 1968. At the time, Butler argued that ageism was common and could be observed in nearly all cultures (Brownell). Ageist attitudes and biases based on stereotypes reduce older adults to inferior or limited positions. Negative assumptions make people more likely to see older people as a social \"other,\" and a member of a different social group that has less social value. In addition, people who hold negative perceptions of older adults or aging may experience consequences of these views as they get older themselves.",
+      "context": "Florida expands the definition of ageism to include self-directed consequences (people with ageist views avoid seeking health help when they age). New content is added about ageism producing a social \"other\" dynamic. Somewhat more academic framing."
+    },
+    {
+      "type": "removed",
+      "section": "13.3",
+      "original_text": "In many modern nations, however, industrialization contributed to the diminished social standing of the elderly. Today wealth, power, and prestige are also held by those in younger age brackets. The average age of corporate executives was fifty-nine years old in 1980. In 2008, the average age had lowered to fifty-four years old (Stuart 2008). Some older members of the workforce felt threatened by this trend and grew concerned that younger employees in higher level positions would push them out of the job market. Rapid advancements in technology and media have required new skill sets that older members of the workforce are less likely to have.",
+      "florida_text": null,
+      "context": "Statistics on declining average CEO age (59 in 1980 to 54 in 2008) and the threat to older workers from technology skill gaps are removed from the Florida version."
+    },
+    {
+      "type": "removed",
+      "section": "13.3",
+      "original_text": "As you saw in the opening, children of older people can also feel guilt, sadness, and sometimes anger at both taking care of aging parents and with accepting that their parents are losing their abilities. Living apart, especially if an older person is moved to a nursing home or other facility, can often exacerbate these issues.",
+      "florida_text": null,
+      "context": "Discussion of the emotional toll on adult children caring for aging parents (guilt, sadness, anger) is removed from the Florida version."
+    },
+    {
+      "type": "modified",
+      "section": "13.3",
+      "original_text": "In a 2009 study on the topic led by Dr. Ron Acierno, the team of researchers identified five major categories of elder abuse: 1) physical abuse, such as hitting or shaking, 2) sexual abuse, including rape and coerced nudity, 3) psychological or emotional abuse, such as verbal harassment or humiliation, 4) neglect or failure to provide adequate care, and 5) financial abuse or exploitation (Acierno 2010).\nOther studies have focused on the caregivers to the elderly in an attempt to discover the causes of elder abuse. Researchers identified factors that increased the likelihood of caregivers perpetrating abuse against those in their care...\nA survey in Florida found that 60.1 percent of caregivers reported verbal aggression as a style of conflict resolution. Paid caregivers in nursing homes were at a high risk of becoming abusive if they had low job satisfaction, treated the elderly like children, or felt burnt out (Kohn and Verhoek-Oftedahl 2011). Caregivers who tended to be verbally abusive were found to have had less training, lower education, and higher likelihood of depression or other psychiatric disorders.",
+      "florida_text": "Five major categories of elder abuse are commonly identified: 1) physical abuse, such as hitting or shaking, 2) sexual abuse, including rape and coerced nudity, 3) psychological or emotional abuse, such as verbal harassment or humiliation, 4) neglect or failure to provide adequate care, and 5) financial abuse or exploitation (Acierno 2010).\nOther studies have focused on the caregivers to older adults in an attempt to discover the causes of elder fraud and elder abuse (Blomberg & Brancale, 2025). Regarding elder fraud, a growing number of strategies are being used to scam older adults, with Artificial Intelligence tools making it increasingly easy to trick people of all ages into situations that lead to financial fraud...",
+      "context": "The Florida-specific survey (60.1 percent verbal aggression) is removed — possibly because naming Florida in a negative statistic was editorially sensitive. The discussion of caregiver low job satisfaction and burnout is removed. In its place, new content on AI-assisted elder fraud is added."
+    },
+    {
+      "type": "removed",
+      "section": "13.3",
+      "original_text": "World War II Veterans\nWorld War II was a defining event in recent human history... Of the 16 million, less than 300,000 are alive. Data suggest that by 2036, there will be no living veterans of WWII (U.S. Department of Veteran Affairs). When these veterans came home from the war and ended their service, little was known about posttraumatic stress disorder (PTSD)... Research has found that veterans of any conflict are more than twice as likely as nonveterans to commit suicide, with rates highest among the oldest veterans. Reports show that WWII-era veterans are four times as likely to take their own lives as people of the same age with no military service (Glantz 2010). In May 2004, the National World War II Memorial... Dr. Earl Morse... The Honor Flight Network was up and running. As of 2017, the Honor Flight Network had flown more than 200,000 U.S. veterans of World War II, the Korean War, and the Vietnam War to Washington.",
+      "florida_text": null,
+      "context": "The entire \"World War II Veterans\" Big Picture sidebar — covering PTSD in aging veterans, suicide rates, and the Honor Flight Network — is completely removed from the Florida version. The Honor Flight Network citation is retained in references only."
+    },
+    {
+      "type": "removed",
+      "section": "13.4",
+      "original_text": "The Graying of American Prisons\nThe COVID-19 pandemic placed a particular burden on prison populations... By the time the pandemic hit, the population of people over 50 in American prisons was, for the first time in history, larger than every other age group, and nearly 200,000 people in correctional facilities were 55 and over. That portion of the prison population tripled from 2000 to 2016 (Li 2020). Two factors contribute significantly to this country's aging prison population. One is the tough-on-crime reforms of the 1980s and 1990s, when mandatory minimum sentencing and \"three strikes\" policies sent many people to jail for thirty years to life... Aging inmates require far more healthcare, which places massive burdens on prison budgets and expenditures.",
+      "florida_text": null,
+      "context": "The entire \"Graying of American Prisons\" Sociology in the Real World sidebar is removed from the Florida version. This sidebar discussed mandatory minimum sentencing, three-strikes laws, the ethics of incarcerating aging people, and the cost savings of early release. References to this topic are retained only in the reference list."
+    },
+    {
+      "type": "removed",
+      "section": "13.4",
+      "original_text": "Finally, exchange theory (Dowd 1975), a rational choice approach, suggests we experience an increased dependence as we age and must increasingly submit to the will of others because we have fewer ways of compelling others to submit to us. Indeed, inasmuch as relationships are based on mutual exchanges, as the elderly become less able to exchange resources, they will see their social circles diminish. In this model, the only means to avoid being discarded is to engage in resource management, like maintaining a large inheritance or participating in social exchange systems via child care. In fact, the theory may depend too much on the assumption that individuals are calculating. It is often criticized for affording too much emphasis to material exchange and devaluing nonmaterial assets such as love and friendship.",
+      "florida_text": null,
+      "context": "Exchange theory (Dowd 1975) — a conflict-adjacent theory treating elder dependency as rational-choice exchange — is entirely removed from the Florida body text. It is retained only in the glossary and reference list, suggesting deliberate removal of the theory's narrative while maintaining minimal definitional presence."
+    },
+    {
+      "type": "modified",
+      "section": "13.4",
+      "original_text": "The earliest gerontological theory in the functionalist perspective is disengagement theory, which suggests that withdrawing from society and social relationships is a natural part of growing old. There are several main points to the theory... The suggestion that old age was a distinct state in the life course, characterized by a distinct change in roles and activities, was groundbreaking when it was first introduced. However, the theory is no longer accepted in its classic form. Criticisms typically focus on the application of the idea that seniors universally naturally withdraw from society as they age, and that it does not allow for a wide variation in the way people experience aging (Hothschild 1975).",
+      "florida_text": "The earliest gerontological theory in the functionalist perspective is disengagement theory, which suggests that withdrawing from society and social relationships is a natural part of growing old. The suggestion that old age was a distinct state in the life course, characterized by a distinct change in roles and activities, was groundbreaking when it was first introduced. Disengagement theory (Cummings and Henry 1961), however, has been widely discredited. The argument that older people withdraw from society was based on observations of older adults during the mid-20th century when there were few options for older people to remain active and engaged, and the theory cannot be disproven, which makes it invalid as a theory.",
+      "context": "The original says disengagement theory is \"no longer accepted in its classic form\"; the Florida version strengthens this to \"widely discredited\" and adds that it \"cannot be disproven, which makes it invalid as a theory\" — an unusually strong methodological critique in a textbook."
+    },
+    {
+      "type": "modified",
+      "section": "13.4",
+      "original_text": "One microanalytical theory is Rose's (1962) subculture of aging theory, which focuses on the shared community created by the elderly when they are excluded... For example, a group consciousness may develop within such groups as AARP around issues specific to the elderly like the Medicare \"doughnut hole,\" focused on creating social and political pressure to fix those issues.",
+      "florida_text": "An early microanalytical theory is Rose's (1962) subculture of aging theory, which focused on the shared community created by older adults when they are excluded... For example, a group consciousness may develop within such groups as AARP around issues specific to older adults like the Medicare and create social and political pressure to fix those issues.",
+      "context": "The Medicare \"doughnut hole\" — a specific, politically charged policy reference to a gap in Medicare drug coverage that was largely closed by the ACA — is removed from the Florida version, replaced with a vaguer reference to \"the Medicare.\""
+    }
+  ],
+  "change_count": 33,
+  "severity": "major"
+}

@@ -1,0 +1,17 @@
+{
+  "chapter": 18,
+  "title": "Work and the Economy",
+  "florida_title": null,
+  "summary": "This chapter was merged into Florida Chapter 9: Private Institutions: Family and Work. The standalone chapter on work and the economy \u2014 covering economic systems, globalization, and work in the United States \u2014 was eliminated and compressed alongside marriage and family. See Chapter 14 for a detailed comparison.",
+  "changes": [
+    {
+      "type": "removed",
+      "section": "18.0",
+      "original_text": "Chapter 18: Work and the Economy was merged into Florida Chapter 9. The standalone treatment of economic systems and labor was eliminated.",
+      "florida_text": null,
+      "context": "Entire chapter merged with Chapter 14 into Florida Ch 9. See Chapter 14 comparison for details."
+    }
+  ],
+  "change_count": 1,
+  "severity": "major"
+}

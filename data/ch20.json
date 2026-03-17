@@ -1,0 +1,165 @@
+{
+  "chapter": 20,
+  "title": "Population, Urbanization, and the Environment",
+  "florida_title": "Population and Urbanization",
+  "florida_chapter": 11,
+  "summary": "The Florida version of this chapter drops \"and the Environment\" from the title and makes substantive cuts throughout, most significantly by removing the entire \"Environmental Racism\" section from 20.3. This section contained Robert Bullard's landmark research finding race more predictive than socioeconomic status in hazardous waste facility siting, data on lead poisoning disparities between Black and white children (5x higher for Black children), a detailed \"Sociology in the Real World\" sidebar on Native American tribes and environmental racism (covering five specific cases: Skull Valley Goshute, Western Shoshone/Yucca Mountain, Hopi/Navajo/Peabody Mining, Navajo uranium contamination in New Mexico, and Chippewa/White Pine), and the concluding analysis explaining why environmental racism persists through resource-based political power and NIMBY dynamics. The term 'environmental racism' survives only in the Key Terms glossary.\n\nThe climate change section is also substantially rewritten. The original describes growing U.S. public consensus (60%+ of Americans believe climate change is real), discusses the Paris Climate Accord, notes generational shifts in opinion, and frames ongoing divides with nuance. The Florida version strips all polling data and Paris Accord discussion, introduces epistemic hedging by describing climate protocols as addressing \"what is believed to be the causes of global warming,\" and removes equity language (\"privileged people,\" \"rightly point out,\" and the suggestion that core nations should pay offsets to peripheral nations for their industrialization-era emissions). The fracking introduction loses its critical-thinking questions about environmental trade-offs and the coal industry discussion, and the air pollution section loses its carbon footprint prompt.\n\nBeyond environmental content, several other sections are removed or softened. The \"Theoretical Perspectives on Urbanization\" subsection — including the concentric zone model discussion, conflict theory of urban development, White flight, and NIMBY analysis — is entirely absent. The \"Managing Refugees and Asylum-Seekers in the Modern World\" sidebar is removed. Trump's family separation policy is sanitized: the original account of \"hundreds, if not thousands\" of children remaining separated and the policy being reversed only after legal blows becomes a single sentence saying Trump reversed it after \"concerns were raised.\" Forced migration as a category and the example of Native American tribal removal are deleted. The entire Section Summary, Section Quiz (20 questions), Short Answer, and Further Research sections present in the original are absent from the Florida version.",
+  "changes": [
+    {
+      "type": "modified",
+      "section": "Introduction",
+      "original_text": "there are a number of concerns associated with the practice. First, fracking requires huge amounts of water... though it is estimated that between 10 percent and 90 percent of the contaminated water is returned to the water cycle. Second, the chemicals used in a fracking mix are potentially carcinogenic. These chemicals may pollute groundwater near the extraction site... Industry leaders suggest that such contamination is unlikely, and that when it does occur, it is incidental and related to unavoidable human error rather than an expected risk of the practice, but the U.S. Environmental Protection Agency's study of fracking is ongoing (Environmental Protection Agency 2014).",
+      "florida_text": "others believe the method causes more harm than the benefit it creates. There are several concerns associated with fracking. First, fracking requires huge amounts of water... Unfortunately, some of that contaminated water is returned to the water cycle. Second, the chemicals used in a fracking mix are potentially carcinogenic and may pollute groundwater near the extraction site... Industry leaders say that such contamination is unlikely, and that when it does occur, it is incidental and related to accidental human error rather than an expected risk of the practice. The U.S. Environmental Protection Agency's study of fracking is ongoing (Environmental Protection Agency 2014).",
+      "context": "The EPA fracking study reference is retained but moved. The estimate range (10-90% water returned) is replaced with a negative framing ('Unfortunately, some of that contaminated water is returned'). 'Unavoidable human error' becomes 'accidental human error.' The overall framing shifts slightly toward more balanced both-sides language."
+    },
+    {
+      "type": "removed",
+      "section": "Introduction",
+      "original_text": "One complexity of lower-priced natural gas production is that demand for coal has plummeted. Coal is both more expensive to produce and more environmentally damaging than natural gas, and the coal industry is concentrated in a few areas, such as Pennsylvania, West Virginia, and Kentucky. Automation had already depleted the employment opportunities in the industry; decades before fracking became widespread, coal companies began widespread replacement of people with machines (Vavra 2017). Although the U.S. was producing more coal than it had in previous decades, it was doing so with fewer workers than it ever had. At its peak, the coal industry employed nearly a million people, and its thriving towns drove other businesses. By 2015, the industry employs about 50,000 people (Money Illusion 2016).",
+      "florida_text": null,
+      "context": "The entire discussion of the declining coal industry, automation, and displaced coal workers is removed from the Florida introduction."
+    },
+    {
+      "type": "removed",
+      "section": "Introduction",
+      "original_text": "As you read this chapter, consider how an increasing global population can balance environmental concerns with opportunities for industrial and economic growth. Think about how much water pollution can be justified by the need to lower U.S. dependence of foreign energy supplies. Is the economic growth associated with fracking worth some environmental degradation? As we see a related industry \u2013 coal \u2013 further diminished due to fracking, do we owe its workers some compensation or additional support?",
+      "florida_text": null,
+      "context": "The entire critical-thinking framing paragraph at the end of the introduction is removed. This paragraph explicitly asked students to weigh environmental costs against economic growth \u2014 the core analytical question of the chapter."
+    },
+    {
+      "type": "modified",
+      "section": "Introduction / theoretical overview",
+      "original_text": "A conflict theorist, interested in the creation and reproduction of inequality, might ask how peripheral nations' lack of family planning affects their overall population in comparison to core nations that tend to have lower fertility rates. Or, how do inner cities become ghettos, nearly devoid of jobs, education, and other opportunities? A conflict theorist might also study environmental racism and other forms of environmental inequality. For example, which parts of New Orleans society were the most responsive to the evacuation order during Hurricane Katrina?",
+      "florida_text": "Using a conflict perspective, sociologists would likely focus on forms of environmental inequality. For example, which parts of New Orleans society were the most responsive to the evacuation order during Hurricane Katrina?",
+      "context": "The Florida version condenses the conflict theory framing, removing explicit mention of 'environmental racism' by name in the introduction, dropping the discussion of inner-city ghettoization, and removing the family planning/fertility inequality framing. 'Environmental racism' no longer appears in any explanatory body text."
+    },
+    {
+      "type": "modified",
+      "section": "Introduction / theoretical overview",
+      "original_text": "A symbolic interactionist interested in the day-to-day interaction of groups and individuals might research topics like... the language people use to convince others of the presence (or absence) of global climate change. For example, some politicians wish to present the study of global warming as junk science, and other politicians insist it is a proven fact.",
+      "florida_text": "A sociologist using a symbolic interactionist perspective would likely study topics like... the language people use to convince others of the presence (or absence) of global climate change.",
+      "context": "The specific example about politicians calling global warming 'junk science' is removed, softening the political framing of climate change denial."
+    },
+    {
+      "type": "removed",
+      "section": "20.1",
+      "original_text": "Managing Refugees and Asylum-Seekers in the Modern World\nIn 2013, the number of refugees, asylum-seekers, and internally displaced people worldwide exceeded 50 million people for the first time since the end of World War II. Half these people were children. A refugee is defined as an individual who has been forced to leave his or her country in order to escape war, persecution, or natural disaster, while asylum-seekers are those whose claim to refugee status has not been validated. An internally displaced person, on the other hand, is neither a refugee nor an asylum-seeker...",
+      "florida_text": null,
+      "context": "The 'Managing Refugees and Asylum-Seekers in the Modern World' Sociology in the Real World sidebar is entirely removed. This sidebar defined key terms (refugee, asylum-seeker, internally displaced person) and provided global context for displacement."
+    },
+    {
+      "type": "modified",
+      "section": "20.1",
+      "original_text": "Migration might be voluntary (as when college students study abroad), involuntary (as when Syrians evacuated war-torn areas), or forced (as when many Native American tribes were removed from the lands they'd lived in for generations).",
+      "florida_text": "Migration might be voluntary (like when college students go to another country to earn a degree) or involuntary (as when Syrians evacuate war-torn areas).",
+      "context": "The Florida version removes 'forced' migration as a distinct category and deletes the specific example of Native American tribal removal. This eliminates a key analytical distinction and erases a historical reference to U.S. government coercion of Indigenous peoples."
+    },
+    {
+      "type": "modified",
+      "section": "20.1 / Mass Migration Crises sidebar",
+      "original_text": "The Trump administration sought to discourage immigration through policies such as separating parents and children who arrived together. The policy was decried by members of Trump's own party, as well as many other organizations, and was eventually dealt a series of legal blows before the President reversed it. Later investigations determined that hundreds, if not thousands, of children remained separated from their parents for extended periods of time (Spagat 2019). While the situations at the border are extremely threatening to children's health and safety... The Biden administration may not be the last to face a surge of immigrant children at its border.",
+      "florida_text": "Initially, the Trump administration sought to discourage immigration through policies such as separating parents and children who arrived together. After concerns about this were raised, President Trump reversed this policy. While the situations at the border are extremely threatening to children's health and safety...",
+      "context": "The Florida version sanitizes the family separation policy account. It removes: that the policy was 'decried' by members of Trump's own party; that it was reversed only after 'legal blows'; the Spagat 2019 finding that hundreds or thousands of children remained separated; and the final sentence noting the Biden administration would not be the last to face such crises. The revision frames the reversal as voluntary and uncomplicated."
+    },
+    {
+      "type": "removed",
+      "section": "20.2",
+      "original_text": "As the Social Policy & Debate feature illustrates, the suburbs also have their share of socio-economic problems. In the United States, White flight refers to the migration of economically secure White people from racially mixed urban areas and toward the suburbs. This occurred throughout the twentieth century, due to causes as diverse as the legal end of racial segregation established by Brown v. Board of Education to the Mariel boatlift of people fleeing Cuba for Miami. Current trends include middle-class African-American families following White flight patterns out of cities, while affluent White people return to cities that have historically had a majority of Black people. The result is that the issues of race, socio-economics, neighborhoods, and communities remain complicated and challenging.",
+      "florida_text": null,
+      "context": "The entire 'White flight' discussion, including its analysis of racial dynamics in suburban migration, Brown v. Board of Education reference, and reverse gentrification trends, is removed from the Florida version."
+    },
+    {
+      "type": "removed",
+      "section": "20.2",
+      "original_text": "Theoretical Perspectives on Urbanization\nThe issues of urbanization play significant roles in the study of sociology. Race, economics, and human behavior intersect in cities. Let's look at urbanization through the sociological perspectives of functionalism and conflict theory... Human ecology is a functionalist field of study that looks at the relationship between people and their built and natural physical environments... The concentric zone model (Burgess 1925) is perhaps the most famous example of human ecology... In contrast to the functionalist approach, theoretical models in the conflict perspective focus on the way urban areas change according to specific decisions made by political and economic leaders. These decisions generally benefit the middle and upper classes while exploiting the working and lower classes. For example, sociologists Feagin and Parker (1990) suggested three factors... Not In My Back Yard (NIMBY) movements are more likely to emerge in middle and upper-class neighborhoods as engaged citizens protest poor environmental practices they fear will affect them, so these groups have more control over the use of local land.",
+      "florida_text": null,
+      "context": "The entire 'Theoretical Perspectives on Urbanization' subsection is removed. This included: the concentric zone model (Burgess) described in the body text; conflict theory analysis of how political/economic elites control urban land use (Feagin and Parker); the explicit link between NIMBY movements, class privilege, and environmental protection; and the framing of 'Race, economics, and human behavior' intersecting in cities."
+    },
+    {
+      "type": "modified",
+      "section": "20.3 / Climate Change",
+      "original_text": "Climate change is a deeply controversial subject, despite decades of scientific research and a high degree of scientific consensus that supports its existence. For example, according to NASA scientists, 2020 essentially tied with 2016 as the warmest year on record, continuing the overall trend of increasing worldwide temperatures (NASA 2021). One effect of climate change is more extreme weather... Research conducted in 2020 and 2021 indicated that at least 60 percent of Americans believe climate change is a real and immediate threat (UNDP 2021 and Global Strategy Group 2021). Citizens are also more supportive of clean energy and taking part in international efforts, such as the Paris Climate Accord, which is intended to engage countries in actions to limit the activity that leads to climate change... It may be that younger people are more represented in these polls, and they tend to support climate change initiatives more consistently... However, deep divides remain. The addition of clean energy producers, such as offshore wind farms, typically meet stiff local opposition... Finally, global agreements like the Paris Accord will have limited impact because they are not strictly enforceable.",
+      "florida_text": "Climate change is a deeply controversial subject in the U.S., with NASA scientists concluding that there is 'unequivocal evidence that Earth is warming at an unprecedented rate.' Despite robust scientific evidence, Americans remain divided on the causes of climate change, how much climate change impacts communities, and the what the best policies are to address climate change (Kennedy & Tyson, 2024).",
+      "context": "The Florida version removes: polling data showing 60%+ of Americans believe climate change is real; the Paris Climate Accord and international cooperation discussion; analysis of why opinions are shifting (youth engagement, weather severity, green energy visibility); the carbon footprint prompt; and the critique that Paris Accord is unenforceable. The replacement is a shorter passage emphasizing division and citing a 2024 Pew report."
+    },
+    {
+      "type": "modified",
+      "section": "20.3 / Climate Change / World Systems",
+      "original_text": "World systems analysis suggests that while, historically, core nations (like the United States and Western Europe) were the greatest source of greenhouse gases, they have now evolved into postindustrial societies. Industrialized semi-peripheral and peripheral nations are releasing increasing quantities of greenhouse gases... the semi-peripheral and peripheral nations rightly point out that they only want the same economic chance to evolve their economies. Since they were unduly affected by the progress of core nations, if the core nations now insist on 'green' policies, they should pay offsets or subsidies of some kind. There are no easy answers to this conflict. It may well not be 'fair' that the core nations benefited from ignorance during their industrial boom.",
+      "florida_text": "Historically, core nations (like the United States and Western Europe) were the greatest source of greenhouse gases, they have now evolved into postindustrial societies and produce much lower greenhouse gases than in the past... Some of the core nations now wish to enact strict protocols regarding what is believed to be the causes of global warming, but some of the semi-peripheral and peripheral nations oppose these restrictions claiming they want the same lower cost economic chance to evolve their economies.",
+      "context": "The Florida version: removes the world systems framing; introduces epistemic hedging with 'what is believed to be the causes of global warming'; removes that peripheral nations 'rightly' raise equity concerns; removes the suggestion that core nations should pay offsets or subsidies; removes acknowledgment that it was not 'fair' that core nations benefited from polluting industrialization. The global equity dimension of climate change is substantially softened."
+    },
+    {
+      "type": "modified",
+      "section": "20.3 / ZPG",
+      "original_text": "Ehrlich's ideas suggest that the human population is moving rapidly toward complete environmental collapse, as privileged people use up or pollute a number of environmental resources such as water and air.",
+      "florida_text": "Ehrlich's ideas suggest that the human population is moving rapidly toward complete environmental collapse, as people use up or pollute finite resources such as water and air.",
+      "context": "The word 'privileged' is replaced with 'people,' removing class/privilege framing from Ehrlich's ZPG theory description."
+    },
+    {
+      "type": "removed",
+      "section": "20.3 / Air",
+      "original_text": "Remember the 'tragedy of the commons.' Each of us is affected by air pollution. But like the herder who adds one more head of cattle to realize the benefits of owning more cows but who does not have to pay the price of the overgrazed land, we take the benefit of driving or buying the latest cell phones without worrying about the end result. Air pollution accumulates in the body, much like the effects of smoking cigarettes accumulate over time... How many minor adjustments can you think of, like walking instead of driving, that would reduce your overall carbon footprint?",
+      "florida_text": null,
+      "context": "The closing paragraph of the Air section, which explicitly invokes individual carbon footprint reduction, is removed from the Florida version."
+    },
+    {
+      "type": "removed",
+      "section": "20.3 / E-Waste",
+      "original_text": "What Should Apple (and Friends) Do about E-Waste?\n... E-waste or obsolete, broken, and worn-out electronics is the fastest growing segment of garbage production in the world... Many companies ship their e-waste to developing nations in Africa and Asia to be 'recycled'... without the benefit of environmental regulation, e-waste dumps become a kind of boomtown for entrepreneurs... these workers are exposed to deadly toxins. Governments are beginning to take notice... Greenpeace states that it is working to get companies to: 1. measure and reduce emissions with energy efficiency, renewable energy, and energy policy advocacy 2. make greener, efficient, longer lasting products that are free of hazardous substances 3. reduce environmental impacts throughout company operations...",
+      "florida_text": null,
+      "context": "The entire 'What Should Apple (and Friends) Do about E-Waste?' Big Picture sidebar is removed, including Greenpeace's three-point corporate accountability platform and discussion of e-waste being shipped to developing nations where workers face toxic exposure."
+    },
+    {
+      "type": "removed",
+      "section": "20.3 / Environmental Racism",
+      "original_text": "Environmental Racism\nEnvironmental racism refers to the way in which minority group neighborhoods (populated primarily by people of color and members of low socioeconomic groups) are burdened with a disproportionate number of hazards, including toxic waste facilities, garbage dumps, and other sources of environmental pollution and foul odors that lower the quality of life... The statistics on environmental racism are shocking. Research shows that it pervades all aspects of African Americans' lives: environmentally unsound housing, schools with asbestos problems, facilities and playgrounds with lead paint. A twenty-year comparative study led by sociologist Robert Bullard determined 'race to be more important than socioeconomic status in predicting the location of the nation's commercial hazardous waste facilities' (Bullard et al. 2007). His research found, for example, that Black children are five times more likely to have lead poisoning (the leading environmental health threat for children) than their White counterparts... Sociologists with the project are examining how environmental racism is addressed in the long-term cleanup of the environmental disasters caused by Hurricane Katrina.",
+      "florida_text": null,
+      "context": "The entire 'Environmental Racism' subsection body text is removed. Robert Bullard's research, the lead poisoning disparity data (Black children 5x more likely), asbestos in schools, and the Hurricane Katrina environmental justice framing are all deleted. The term 'environmental racism' appears only in the Key Terms glossary."
+    },
+    {
+      "type": "removed",
+      "section": "20.3 / Environmental Racism / Native Americans",
+      "original_text": "Native American Tribes and Environmental Racism\nNative Americans are unquestionably victims of environmental racism. The Commission for Racial Justice found that about 50 percent of all Native Americans live in communities with uncontrolled hazardous waste sites... the Skull Valley Band of Goshute Indians was targeted as the site for a high-level nuclear waste dumping ground, amid allegations of a payoff of as high as $200 million... the Western Shoshone's Yucca Mountain area has been pursued by mining companies for its rich uranium stores... a group of Hopi and Navajo families have been forcibly removed from their homes so the land could be mined by the Peabody Mining Company for coal valued at $10 billion... Years of uranium mining on the lands of the Navajo of New Mexico have led to serious health consequences... members of the Chippewa near White Pine, Michigan, were unable to stop the transport of hazardous sulfuric acid across reservation lands...",
+      "florida_text": null,
+      "context": "The 'Native American Tribes and Environmental Racism' Sociology in the Real World sidebar is entirely removed. It documented five specific cases of environmental racism against Native nations and discussed the structural barriers (sovereignty, trust land, institutionalized disenfranchisement, red tape) that make remediation difficult. The sidebar included the closing sociological question: 'How might the work of sociologists help draw attention to\u2014and eventually mitigate\u2014this social problem?'"
+    },
+    {
+      "type": "removed",
+      "section": "20.3 / Environmental Racism",
+      "original_text": "Why does environmental racism exist? The reason is simple. Those with resources can raise awareness, money, and public attention to ensure that their communities are unsullied. This has led to an inequitable distribution of environmental burdens. Another method of keeping this inequity alive is NIMBY protests. Chemical plants, airports, landfills, and other municipal or corporate projects are often the subject of NIMBY demonstrations. And equally often, the NIMBYists win, and the objectionable project is moved closer to those who have fewer resources to fight it.",
+      "florida_text": null,
+      "context": "The concluding analytical paragraphs explaining why environmental racism persists \u2014 through resource-based political power and NIMBY dynamics pushing pollution toward lower-resource communities \u2014 are removed along with the rest of the Environmental Racism section."
+    },
+    {
+      "type": "modified",
+      "section": "20.3 / Toxic and Radioactive Waste",
+      "original_text": "While nuclear energy promises a safe and abundant power source, increasingly it is looked upon as a danger to the environment and to those who inhabit it.",
+      "florida_text": "While nuclear energy promises a safe and abundant power source, use of nuclear power is not without its difficulties.",
+      "context": "The original frames growing public concern about nuclear energy as a recognized danger; the Florida version replaces this with a neutral phrase about 'difficulties,' softening the environmental critique."
+    },
+    {
+      "type": "added",
+      "section": "20.3 / Toxic and Radioactive Waste",
+      "original_text": null,
+      "florida_text": "Sociologists, social epidemiologists, environmental scientists, and other scientists all participate in the collective task of identifying environmental hazards, in understanding their sources, and in identifying the most efficacious, research-grounded responses to them.",
+      "context": "A new sentence is added emphasizing collaborative scientific investigation. This appears immediately after the Centralia sidebar and before Key Terms, possibly as a compensatory addition following the removal of the Environmental Racism section."
+    },
+    {
+      "type": "removed",
+      "section": "20 (end matter)",
+      "original_text": "Section Summary\n20.3 The Environment and Society: The area of environmental sociology is growing as extreme weather patterns and concerns over climate change increase. Human activity leads to pollution of soil, water, and air, compromising the health of the entire food chain. While everyone is at risk, poor and disadvantaged neighborhoods and nations bear a greater burden of the planet's pollution, a dynamic known as environmental racism.\nSection Quiz [20 multiple-choice questions]\nShort Answer [10 questions including: 'After reading this section, will you change the way you treat your household waste?'; 'NIMBY protests occur when concerned citizens band together... Is this a positive or negative trend?']\nFurther Research [including links to carbon footprint and water footprint calculators]",
+      "florida_text": null,
+      "context": "The entire Section Summary, Section Quiz (20 multiple-choice questions), Short Answer (10 questions), and Further Research sections are absent from the Florida version. The original Section Summary for 20.3 explicitly names environmental racism as a key takeaway concept."
+    },
+    {
+      "type": "removed",
+      "section": "Key Terms",
+      "original_text": "NIMBY: 'Not In My Back Yard,' the tendency of people to protest poor environmental practices when those practices will affect them directly\nsex ratio: the ratio of men to women in a given population\nurban sociology: the subfield of sociology that focuses on the study of urbanization\nwhite flight: the migration of economically secure white people from racially mixed urban areas toward the suburbs\ninternally displaced person: someone who fled his or her home while remaining inside the country's borders",
+      "florida_text": null,
+      "context": "The Florida Key Terms list removes NIMBY, sex ratio, urban sociology, white flight, and internally displaced person from the glossary, consistent with the removal of those concepts from the body text."
+    }
+  ],
+  "change_count": 21,
+  "severity": "major"
+}

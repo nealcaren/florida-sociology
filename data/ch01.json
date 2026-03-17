@@ -1,8 +1,138 @@
 {
   "chapter": 1,
   "title": "An Introduction to Sociology",
-  "summary": "This chapter was not modified in the Florida version.",
-  "changes": [],
-  "change_count": 0,
-  "severity": "none"
+  "florida_title": "Understanding Sociology",
+  "original_sections": ["1.1", "1.2", "1.3", "1.4"],
+  "florida_sections": ["1.1", "1.2", "1.3", "1.4"],
+  "summary": "The Florida version of Chapter 1 makes several significant deletions and rewrites that together remove politically sensitive content while preserving the chapter's basic structure. The most consequential changes occur in Section 1.3, where the entire discussion of critical theory, feminist theory, and critical race theory is deleted from both the main text and the \"Sociological Theory Today\" subsection. In the original, these frameworks are presented as natural outgrowths of conflict theory that \"focused on creating social change through the application of sociological principles\"; the Florida version replaces this passage with an institutional-outcomes framing that avoids naming these theoretical traditions entirely.\n\nAlso removed is a \"Social Policy and Debate\" sidebar on raising the minimum wage, which cited President Biden's 2020 campaign promise and discussed income inequality as a sociological concern. A detailed \"Individual-Society Connections\" sidebar — which told the story of a lesbian couple facing housing and employment discrimination and their formation of a Gay-Straight Alliance — is entirely deleted from Section 1.1. Several smaller passages are also cut or altered: a note on reification, a sentence listing \"Stop and Frisk\" and Twitter as examples of sociological topics, the original's extended historical survey of sociology's pre-disciplinary roots (including Mary Wollstonecraft as the first feminist thinker), a characterization of Martineau's critique as exposing \"faults with the free enterprise system,\" and the description of the Communist Manifesto as \"most influential\" (downgraded to \"most widely discussed\").\n\nCollectively, these changes remove content related to LGBTQ issues, critical race theory, feminist theory, public sociology as an activist enterprise, and explicit political examples involving the Democratic Party. The Florida version rewrites the \"Sociological Theory Today\" subsection to emphasize legal history and institutional frameworks rather than naming the contested theoretical traditions — critical theory, feminist theory, critical race theory — that emerged from the Civil Rights and Women's movements. The result is a chapter that still covers the main sociological perspectives but strips out the applied, advocacy-oriented, and politically progressive examples and frameworks that contextualize the discipline in the original.",
+  "changes": [
+    {
+      "type": "removed",
+      "section": "1.1",
+      "original_text": "Remember, though, that culture is a product of the people in a society. Sociologists take care not to treat the concept of \"culture\" as though it were alive and real. The error of treating an abstract concept as though it has a real, material existence is known as reification (Sahn, 2013).",
+      "florida_text": null,
+      "context": "The passage introducing the concept of reification is deleted from the Florida version. The term also disappears from the key terms glossary and the Sahn (2013) reference is removed from the bibliography. Reification is a standard sociological concept unrelated to political controversy; its removal may be an oversight or a reflection of broader condensation."
+    },
+    {
+      "type": "modified",
+      "section": "1.1",
+      "original_text": "the social acceptability of marriage relative to the person's circumstances also plays a part.",
+      "florida_text": "the social acceptability of marriage relative also plays a part.",
+      "context": "The phrase \"to the person's circumstances\" is dropped, leaving the sentence grammatically incomplete. This appears to be a copy-editing error introduced during revision rather than an intentional content change."
+    },
+    {
+      "type": "modified",
+      "section": "1.1",
+      "original_text": "While 15 million mothers still make up the majority of single parents, 3.5 million fathers are also raising their children alone (U.S. Census Bureau, 2020). Increasingly, single people and cohabitating couples are choosing to raise children outside of marriage through surrogates or adoption.",
+      "florida_text": "While most single parents are single mothers, fathers are increasingly raising their children alone (U.S. Census Bureau, 2020). Single people and cohabitating couples are choosing to raise children outside of marriage through surrogates or adoption.",
+      "context": "The original gives specific census figures for single-parent households. The Florida version removes the numbers and softens the language to vaguer descriptors, though the substantive meaning is substantially preserved."
+    },
+    {
+      "type": "removed",
+      "section": "1.1",
+      "original_text": "Sociologists identify and study patterns related to all kinds of contemporary social issues. The \"Stop and Frisk\" policy, the emergence of new political factions, how Twitter influences everyday communication—these are all examples of topics that sociologists might explore.",
+      "florida_text": null,
+      "context": "This sentence giving concrete contemporary examples of sociological topics — including Stop and Frisk (a racially contested policing practice) — is deleted entirely. The Florida version ends the paragraph after the previous sentence."
+    },
+    {
+      "type": "removed",
+      "section": "1.1",
+      "original_text": "Individual-Society Connections\nWhen sociologist Nathan Kierns spoke to his friend Ashley (a pseudonym) about the move she and her partner had made from an urban center to a small Midwestern town, he was curious about how the social pressures placed on a lesbian couple differed from one community to the other. Ashley said that in the city they had been accustomed to getting looks and hearing comments when she and her partner walked hand in hand. Otherwise, she felt that they were at least being tolerated. There had been little to no outright discrimination.\nThings changed when they moved to the small town for her partner's job. For the first time, Ashley found herself experiencing direct discrimination because of her sexual orientation. Some of it was particularly hurtful. Landlords would not rent to them. Ashley, who is a highly trained professional, had a great deal of difficulty finding a new job.\nWhen Nathan asked Ashley if she and her partner became discouraged or bitter about this new situation, Ashley said that rather than letting it get to them, they decided to do something about it. Ashley approached groups at a local college and several churches in the area. Together they decided to form the town's first Gay-Straight Alliance. The alliance has worked successfully to educate their community about same-sex couples. It also worked to raise awareness about the kinds of discrimination that Ashley and her partner experienced in the town and how those could be eliminated. The alliance has become a strong advocacy group, and it is working to attain equal rights for lesbian, gay, bisexual, and transgender, or LGBTQ individuals.\nKierns observed that this is an excellent example of how negative social forces can result in a positive response from individuals to bring about social change (Kierns, 2011).",
+      "florida_text": null,
+      "context": "The entire \"Individual-Society Connections\" sidebar — the chapter's main illustrative example of how social forces shape individual experience — is deleted. The story concerns a lesbian couple's experience of housing and employment discrimination and the formation of a Gay-Straight Alliance. Its removal eliminates the chapter's only extended example involving LGBTQ individuals and erases the Kierns (2011) citation."
+    },
+    {
+      "type": "removed",
+      "section": "1.2",
+      "original_text": "Until recently, we have very few texts that are non-religious in nature that theorize about social life. From 4th century through the 19th century, the Catholic Church was the seat of power from today's Turkey in the east to western and northern Europe, including the British Isles. Only monks who were charged with rewriting holy texts by hand and the aristocracy were literate. Moreover, the Church consolidated power. In the year 800, Pope Leo III named Charlemagne, the king of Francia (today's France, Belgium, Netherlands and Germany) emperor of the Holy Roman Empire, giving one individual control over most of Europe. Doing so gave the Catholic Church the power to maintain its own traditions safeguard them from the influence of people practicing other religions. If any social patterns challenged any belief of the Church, those practitioners were massacred, burned at the stake, or labeled heretics. As a result, the records that we have are extremely subjective and do not offer an unbiased view of social practice.\nIn the 13th century, Ma Tuan-Lin, a Chinese historian, was the first to record, in his seminal encyclopedia titled General Study of Literary Remains, the social dynamics underlying and generating historical development.\nIn the 14th century, the Tunisian historian Ibn Khaldun (1332–1406) set the foundation for both modern sociology and economics. Khaldun proposed a theory of social conflict and provided a comparison of nomadic and sedentary life, an analysis of political economy, and a study connecting a tribe's social cohesion to its capacity for power (Hannoum, 2003). Khaldun often challenged authorities. As sociologists continue to study and report on social issues and problems, they often find themselves in the center of controversy.\nFrom 1347 to 1522, the bubonic plague ravaged Europe, killing up to 35% of population (Armstrong, 2019). The plague dealt a major blow to the credibility of the Catholic Church...\nIn the 18th century, Enlightenment philosophers developed general principles that could be used to explain social life. Thinkers such as John Locke, François-Marie Arouet (Voltaire), Immanuel Kant, and Thomas Hobbes responded to what they saw as social ills by writing on topics that they hoped would lead to social reform. Mary Wollstonecraft (1759–1797) wrote about women's conditions in society. Like Harriet Martineau and Jane Addams, her works were long ignored by the male academic structure, but since the 1970s, Wollstonecraft has been widely considered the first feminist thinker of consequence.",
+      "florida_text": null,
+      "context": "The Florida version removes the entire pre-disciplinary history of sociology that occupies several paragraphs in the original — covering the role of the Catholic Church, Chinese historian Ma Tuan-Lin, Ibn Khaldun, the bubonic plague, Enlightenment philosophers, and Mary Wollstonecraft as \"the first feminist thinker of consequence.\" The Florida text jumps directly from mentioning Plato, Aristotle, and eastern philosophers to the Industrial Revolution context for sociology's founding."
+    },
+    {
+      "type": "modified",
+      "section": "1.2",
+      "original_text": "The early 19th century saw great changes with the Industrial Revolution, increased mobility, and new kinds of employment. It was also a period of increased trade, travel, and globalization that exposed many people — for the first time—to societies and cultures other than their own. Millions of people moved into cities and many people turned away from their traditional religious beliefs. Ideas spread rapidly, groups were created, political decisions became public decisions.",
+      "florida_text": "The early 19th century saw great changes with the Industrial Revolution, increased residential? Social? mobility, and new kinds of employment. It was within this context that sociology was born. Millions of people moved into cities and many people turned away from their traditional religious beliefs, instead embracing principles of science?. Ideas spread rapidly, groups were created, political decisions became public decisions.",
+      "context": "The Florida version retains this passage but includes apparent unedited manuscript notes — question marks after \"residential?\", \"Social?\", and \"science?\" — indicating the text was copied from a draft and not proofread. It also removes the sentences about globalization and exposure to other cultures."
+    },
+    {
+      "type": "modified",
+      "section": "1.2",
+      "original_text": "She pointed out the faults with the free enterprise system in which workers were exploited and impoverished while business owners became wealthy. She further noted that the belief that all are created equal was inconsistent with the lack of women's rights. Much like Mary Wollstonecraft, Martineau was often discounted in her own time because academic sociology was a male-dominated profession.",
+      "florida_text": "She pointed out what she observed about business practices at that time in which workers were exploited and impoverished while business owners became wealthy. She further noted that the belief that all are created equal was inconsistent with what she saw as the lack of women's rights. Much like Mary Wollstonecraft, Martineau's work was often discounted. At that time academic sociology was a male-dominated profession.",
+      "context": "The phrase \"faults with the free enterprise system\" is softened to \"what she observed about business practices at that time,\" removing Martineau's critique of capitalism as a systemic failing. The claim is also further hedged by adding \"what she saw as\" before \"the lack of women's rights,\" distancing the text from affirming Martineau's feminist observations."
+    },
+    {
+      "type": "modified",
+      "section": "1.2",
+      "original_text": "This book is one of the most influential political manuscripts in history.",
+      "florida_text": "This book is one of the most widely discussed political manuscripts in history.",
+      "context": "\"Most influential\" is downgraded to \"most widely discussed\" in the description of the Communist Manifesto, subtly reducing the significance attributed to the work."
+    },
+    {
+      "type": "removed",
+      "section": "1.2",
+      "original_text": "Marx saw all societies as characterized by the relationship between the oppressors and the oppressed.",
+      "florida_text": null,
+      "context": "This sentence directly stating Marx's framework of oppressor/oppressed social relations is deleted from the Florida version. The broader paragraph describing Marx's theory of capitalism is retained."
+    },
+    {
+      "type": "removed",
+      "section": "1.2",
+      "original_text": "Should We Raise the Minimum Wage?\nDuring his hard-fought 2020 campaign, President Joe Biden promised Americans that he would raise the federal minimum wage. Opponents of raising the minimum wage argue that some workers would get larger paychecks while others would lose their jobs, and companies would be less likely to hire new workers because of the increased cost of paying them. Biden and other proponents of raising the minimum wage contend that some job loss would be greatly offset by the positive effects on the standard of living of low-wage workers and reducing the income gap between the rich and poor.\nSociologists may consider the minimum wage issue from differing perspectives as well... These could all be examples of public sociology, a branch of sociology that strives to bring sociological dialogue to public forums. The goals of public sociology are to increase understanding of the social factors that underlie social problems and assist in finding solutions. According to Michael Burawoy (2005), the challenge of public sociology is to engage multiple publics in multiple ways.",
+      "florida_text": null,
+      "context": "The entire \"Social Policy and Debate\" sidebar on the minimum wage is deleted. It cited President Biden by name, framed income inequality as a sociological concern, and introduced the concept of \"public sociology\" as advocacy-oriented work. The Florida version does not discuss public sociology at all, and the Burawoy (2005) citation is removed."
+    },
+    {
+      "type": "removed",
+      "section": "1.3",
+      "original_text": "In the 1930s and 1940s, German philosophers, known as the Frankfurt School, developed critical theory as an elaboration on Marxist principles. Critical theory is an expansion of conflict theory and is broader than just sociology, incorporating other social sciences and philosophy. A critical theory is a holistic theory and attempts to address structural issues causing inequality. It must explain what's wrong in current social reality, identify the people who can make changes, and provide practical goals for social transformation (Horkeimer, 1982).\nMore recently, inequality based on gender or race has been explained in a similar manner and has identified institutionalized power structures that help to maintain inequality between groups. Janet Saltzman Chafetz (1941–2006) presented a model of feminist theory that attempts to explain the forces that maintain gender inequality as well as a theory of how such a system can be changed (Turner, 2003). Similarly, critical race theory grew out of a critical analysis of race and racism from a legal point of view. Critical race theory looks at structural inequality based on white privilege and associated wealth, power, and prestige.",
+      "florida_text": null,
+      "context": "Two full paragraphs on the Frankfurt School, critical theory, feminist theory (naming Janet Saltzman Chafetz), and critical race theory are completely deleted from the Conflict section. This is the most substantive theoretical deletion in the chapter, removing frameworks that have become subjects of political controversy in Florida following state legislation restricting discussion of such theories in higher education."
+    },
+    {
+      "type": "modified",
+      "section": "1.3",
+      "original_text": "Sociological Theory Today\nThese three approaches still provide the main foundation of modern sociological theory though they have evolved. Structural-functionalism was a dominant force after World War II and until the 1960s and 1970s. At that time, sociologists began to feel that structural-functionalism did not sufficiently explain the rapid social changes happening in the United States at that time. The women's movement and the Civil Rights movement forced academics to develop approaches to study these emerging social practices.\nConflict theory then gained prominence, with its emphasis on institutionalized social inequality. Critical theory, and the particular aspects of feminist theory and critical race theory, focused on creating social change through the application of sociological principles. The field saw a renewed emphasis on helping ordinary people understand sociology principles, in the form of public sociology.\nGaining prominence in the wake of Mead's work in the 1920s and 1930s, symbolic interactionism declined in influence during the 1960s and 1970s only to be revitalized at the turn of the twenty-first century (Stryker, 1987). Postmodern social theory developed in the 1980s to look at society through an entirely new lens by rejecting previous macro-level attempts to explain social phenomena. Its growth in popularity coincides with the rise of constructivist views of symbolic interactionism.",
+      "florida_text": "Sociological Theory Today\nThese four approaches have played an important role in shaping sociological inquiry, but they have evolved over time. Structural functionalism was a dominant force after World War II and until the 1960s and 1970s. At that time, sociologists began to feel that structural functionalism did not sufficiently explain the rapid social changes happening in the United States. The women's movement and the Civil Rights movement required sociologists to think differently and identify new frameworks to study the social conditions and the legal frameworks that had historically limited freedom for Americans based on their gender and race. Changes in laws, inspired by these social movements allowed sociologists to consider how historical patterns shaping freedom to educational opportunities (i.e., legal frameworks about who could attend certain schools/types of schools), freedom to buy homes/land in specific geographic areas, freedom to participate in democratic activities (e.g., vote), freedom to access certain employment opportunities, freedom to conduct business, and freedom to use and move freely in public places, may require new frameworks.\nConflict perspective gained prominence in the period following the Civil Rights and Women's movements of the 1960s. Conflict perspective emphasizes institutionalized social inequality. This perspective also founded a new approach to sociology – helping the public understand the role of institutions in shaping differences in outcomes across social groups. Sociologists brought attention to associations between the design of and changes in institutions and differences in outcomes among demographic groups by explaining findings in a way that was easy to understand by non-scientific audiences.",
+      "context": "The \"Sociological Theory Today\" subsection is substantially rewritten. The original names feminist theory, critical race theory, and public sociology as outgrowths of conflict theory that \"focused on creating social change.\" The Florida version replaces this with an institutional-outcomes framing emphasizing legal history and demographic differences without naming any of those contested theoretical frameworks. The discussion of postmodern social theory and symbolic interactionism's twentieth-century revival is also deleted entirely."
+    },
+    {
+      "type": "modified",
+      "section": "1.4",
+      "original_text": "Sociology teaches people not to accept easy explanations, and to challenge or rethink everyday assumptions. It teaches them a way to organize their thinking so that they can ask better questions and formulate better answers.",
+      "florida_text": "Sociology teaches people not to accept easy explanations. It teaches them a way to organize their thinking so that they can ask better questions and formulate better answers.",
+      "context": "The phrase \"and to challenge or rethink everyday assumptions\" is deleted. This subtly removes emphasis on sociology as a discipline that challenges established assumptions and ways of thinking."
+    },
+    {
+      "type": "modified",
+      "section": "1.4",
+      "original_text": "Even a small amount of training in sociology can be an asset in careers like sales, medicine (and even performance on medical school entrance exams), public relations, journalism, teaching, law, and criminal justice.",
+      "florida_text": "Even a small amount of training in sociology can be an asset in careers like sales, public relations, journalism, teaching, law, and criminal justice.",
+      "context": "The reference to medicine and medical school entrance exam performance is deleted from the Florida version's list of careers for which sociology is useful."
+    },
+    {
+      "type": "removed",
+      "section": "1.1",
+      "original_text": "reification\nan error of treating an abstract concept as though it has a real, material existence",
+      "florida_text": null,
+      "context": "The term \"reification\" and its definition are deleted from the Key Terms glossary in the Florida version, consistent with the removal of the reification passage from section 1.1 body text."
+    },
+    {
+      "type": "removed",
+      "section": "1.3",
+      "original_text": "antipositivism\nthe view that social researchers should strive for subjectivity as they worked to represent social processes, cultural norms, and societal values",
+      "florida_text": null,
+      "context": "The term \"antipositivism\" and its definition are deleted from the Florida key terms glossary, even though the concept of anti-positivism still appears in the Florida body text discussion of Weber."
+    },
+    {
+      "type": "removed",
+      "section": "1.3",
+      "original_text": "paradigms\nphilosophical and theoretical frameworks used within a discipline to formulate theories, generalizations, and the experiments performed in support of them",
+      "florida_text": null,
+      "context": "The term \"paradigms\" is deleted from the Florida key terms glossary. The Florida body text uses the term \"paradigms\" in section 1.3 but the formal definition is absent from the glossary."
+    }
+  ],
+  "change_count": 18,
+  "severity": "major"
 }

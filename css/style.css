@@ -192,6 +192,15 @@ main {
 .severity-dot.minor { background: var(--color-severity-minor); }
 .severity-dot.major { background: var(--color-severity-major); }
 
+.chapter-removed {
+  background: var(--color-removed-bg);
+  border-color: rgba(220, 38, 38, 0.3);
+}
+.chapter-removed .chapter-card-meta span:last-child {
+  color: var(--color-removed-text);
+  font-weight: 600;
+}
+
 /* === Chapter View === */
 .chapter-header {
   margin-bottom: 2rem;

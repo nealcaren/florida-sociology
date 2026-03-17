@@ -14,9 +14,11 @@
 
   async function loadChapter(num) {
     if (chapterCache[num]) return chapterCache[num];
-    const padded = String(num).padStart(2, "0");
-    const res = await fetch(`data/ch${padded}.json`);
-    if (!res.ok) throw new Error(`Failed to load ch${padded}.json`);
+    // Use the data_file from the index if available
+    const chapterInfo = chaptersIndex?.chapters.find((c) => c.chapter === num);
+    const filename = chapterInfo?.data_file || `ch${String(num).padStart(2, "0")}.json`;
+    const res = await fetch(`data/${filename}`);
+    if (!res.ok) throw new Error(`Failed to load ${filename}`);
     const data = await res.json();
     chapterCache[num] = data;
     return data;
@@ -33,18 +35,24 @@
 
     // Stats
     const totalChanges = chaptersIndex.total_changes;
+    const removedCount = chaptersIndex.chapters_removed ||
+      chaptersIndex.chapters.filter((c) => c.status === "removed").length;
     const majorCount = chaptersIndex.chapters.filter(
       (c) => c.severity === "major"
     ).length;
     const statsEl = document.getElementById("stats");
     statsEl.innerHTML = `
       <div class="stat">
-        <span class="stat-number">${totalChanges}</span>
-        <span class="stat-label">Changes Found</span>
+        <span class="stat-number">${chaptersIndex.original_chapter_count || 21}</span>
+        <span class="stat-label">Original Chapters</span>
       </div>
       <div class="stat">
-        <span class="stat-number">${chaptersIndex.chapters.length}</span>
-        <span class="stat-label">Chapters Compared</span>
+        <span class="stat-number">${removedCount}</span>
+        <span class="stat-label">Chapters Eliminated</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">${totalChanges}</span>
+        <span class="stat-label">Changes Found</span>
       </div>
       <div class="stat">
         <span class="stat-number">${majorCount}</span>
@@ -57,12 +65,12 @@
     grid.innerHTML = chaptersIndex.chapters
       .map(
         (ch) => `
-      <a class="chapter-card" href="#chapter-${ch.chapter}">
+      <a class="chapter-card ${ch.status === "removed" ? "chapter-removed" : ""}" href="#chapter-${ch.chapter}">
         <div class="chapter-card-number">Chapter ${ch.chapter}</div>
         <div class="chapter-card-title">${escapeHtml(ch.title)}</div>
         <div class="chapter-card-meta">
           <span class="severity-dot ${ch.severity}"></span>
-          <span>${ch.change_count} change${ch.change_count !== 1 ? "s" : ""}</span>
+          <span>${ch.status === "removed" ? "Entire chapter removed" : ch.change_count + " change" + (ch.change_count !== 1 ? "s" : "")}</span>
         </div>
       </a>
     `

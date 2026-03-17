@@ -1,0 +1,218 @@
+{
+  "chapter": 15,
+  "title": "Religion / Education / Government and Politics",
+  "florida_title": "Public Institutions: Religion, Education, and Government",
+  "original_chapters": [
+    15,
+    16,
+    17
+  ],
+  "summary": "Florida Chapter 10 compresses three full original chapters\u2014Chapter 15 (Religion), Chapter 16 (Education), and Chapter 17 (Government and Politics)\u2014into a single, substantially shorter chapter. The compression alone results in major omissions across all three subject areas, but the cuts are not random: content touching on politically sensitive topics\u2014LGBTQ rights in religious contexts, separation of church and state, voter suppression, racial disenfranchisement in Florida, gerrymandering analogues (Reynolds v. Sims), corporate influence on democracy, and the U.S. as a potential oligarchy\u2014is systematically removed or heavily softened.\n\nThe most striking censorship occurs in the government section. The original Chapter 17 opens with a detailed case study of Florida's own disenfranchisement of 1.7 million residents with felony convictions (23% of Black Floridians), including how the Florida governor and legislature blocked a referendum that had passed with two-thirds support. This entire framing\u2014directly critical of the Florida state government\u2014is gone from the Florida version. The original also contained a full subsection on 'The Judicial System' discussing Hobby Lobby, the Affordable Care Act, and same-sex marriage rulings; a discussion of Reynolds v. Sims and 'one person, one vote'; a detailed 'Social Policy and Debate' box on whether the U.S. has become an oligarchy (with data showing 78% of Congress's decisions benefit the top 10%); and explicit language about voter ID laws disproportionately harming minorities. All of this is absent from the Florida version.\n\nIn religion, entire sections are dropped: the 'Liberation Theology' subsection (linking Christian faith to anti-poverty political activism), the 'Religious Leaders and the Rainbow of Gay Pride' box (discussing LGBTQ rights within religious denominations), the 'Separation of Church and State' case study, and the full 'Megachurches' narrative section. Rational Choice Theory of religion is also cut. In education, the original's framing around student debt, calls for free college, and Finland's equity-focused school model is replaced with more neutral language. The Florida version adds new content\u2014particularly an extended 'school choice' discussion and a new section on descriptive representation\u2014while removing critical material about systemic inequality, voter suppression, and LGBTQ rights.",
+  "changes": [
+    {
+      "type": "removed",
+      "section": "17 (Introduction)",
+      "original_text": "On November 6, 2018, Florida residents voted overwhelmingly to restore voting rights to people convicted of most felonies after they had completed their sentences... Florida had almost 1.7 million people unable to vote due to felony convictions, which was roughly ten percent of its total population; to put it another way, Florida had more disenfranchised people than any other state (Lewis 2018)... in Florida, 23 percent of Black people were unable to vote because of felony convictions... Despite the overwhelming majority of citizens who supported the change, the Florida governor and legislature effectively blocked the referendum's implementation.",
+      "florida_text": null,
+      "context": "The entire original Chapter 17 introduction\u2014a 400+ word case study of the Florida government blocking a voter-approved referendum restoring felony voting rights, with data on racial disenfranchisement\u2014is completely absent from the Florida version. This is the most politically sensitive single omission: it directly criticizes the Florida state government by name."
+    },
+    {
+      "type": "removed",
+      "section": "17.3",
+      "original_text": "The 1960s saw other important reforms in U.S. voting. Shortly before the Voting Rights Act was passed, the 1964 U.S. Supreme Court case Reynolds v. Sims changed the nature of elections. This landmark decision reaffirmed the notion of 'one person, one vote,' a concept holding that all people's votes should be counted equally. Before this decision, unequal distributions of population enabled small groups of people in sparsely populated rural areas to have as much voting power as the denser populations of urban areas. After Reynolds v. Sims, districts were redrawn so that they would include equal numbers of voters.",
+      "florida_text": null,
+      "context": "The landmark Reynolds v. Sims case and the 'one person, one vote' principle\u2014foundational to understanding gerrymandering and redistricting\u2014are entirely removed. The Florida version replaces the politics section with restructured content but omits this key legal precedent."
+    },
+    {
+      "type": "removed",
+      "section": "17.3",
+      "original_text": "Unfortunately, in June 2013 the Supreme Court repealed several important aspects of the 1965 Voting Rights Act, ruling that southern states no longer need the stricter scrutiny that was once required to prohibit racial discrimination in voting practices in the South. Following this decision, several states moved forward with voter identification laws that had previously been banned by federal courts. Officials in Texas, Mississippi, and Alabama claim that new identification (ID) laws are needed to reduce voter fraud. Opponents point to the Department of Justice statistics indicating that only twenty-six voters, of 197 million voters in federal elections, were found guilty of voter fraud between 2002 and 2005... Opponents further note that new voter ID laws disproportionately affect minorities and the poor, potentially prohibiting them from exercising their right to vote.",
+      "florida_text": "In June 2013 the Supreme Court repealed several aspects of the 1965 Voting Rights Act, ruling that southern states no longer need the federal oversight that was once required to prohibit racial discrimination in voting practices in the South. Following this decision, several states moved forward with voter identification laws that had previously been banned by federal courts. Officials in Texas, Mississippi, and Alabama claim that new identification (ID) laws are needed to reduce voter fraud. Opponents argue that voter fraud is rare and that voter ID laws disproportionately affect minorities and the poor.",
+      "context": "The Florida version retains this passage as a footnote but removes the specific DOJ voter fraud statistics (only 26 guilty out of 197 million voters), softens the framing by removing the word 'Unfortunately' at the start, and moves the content to a footnote rather than body text\u2014significantly diminishing its prominence."
+    },
+    {
+      "type": "removed",
+      "section": "17.3",
+      "original_text": "Attitudes play a role as well. Some people of low socioeconomic status or minority race/ethnicity doubt their vote will count or voice will be heard because they have seen no evidence of their political power in their communities. Many believe that what they already have is all they can achieve.",
+      "florida_text": null,
+      "context": "This passage explaining low voter turnout as rooted in political alienation among minorities and the poor is removed from the Florida version."
+    },
+    {
+      "type": "removed",
+      "section": "17.3",
+      "original_text": "The Judicial System\nThe third branch of the U.S. government is the judicial system, which consists of local, state, and federal courts. The U.S. Supreme Court is the highest court in the United States... One example is a recent and highly controversial case that dealt with the religious opposition of Hobby Lobby Stores Inc. to providing employees with specific kinds of insurance mandated by the Patient Protection and Affordable Care Act. Another example is same-sex marriage cases, which were expected to be heard by the Court; however, the Court denied review of these cases in the fall of 2014. For now, the rulings of federal district courts stand, and states can continue to have differing outcomes on same-sex marriage for their citizens.",
+      "florida_text": null,
+      "context": "The entire 'Judicial System' subsection is removed, including references to the Affordable Care Act and same-sex marriage rulings as examples of sociologically relevant Supreme Court decisions."
+    },
+    {
+      "type": "removed",
+      "section": "17.2",
+      "original_text": "Is the United States an Oligarchy?\nThe American Gilded Age saw the rise and dominance of ultra-rich families such as the Vanderbilts, Rockefellers, and Carnegies... Some scholars believe that the United States has now embarked on a second gilded age, pointing out that the 400 wealthiest American families now own more than the 'lower' 150 million Americans put together... Political scientists studied who benefits from laws and policies, and found that 78 percent of Congress's decisions benefit the top 10 percent of Americans... only 5 percent of laws and policies have been shown to benefit the larger 90 percent of people while not benefiting the wealthiest Americans (Represent.US 2014).",
+      "florida_text": null,
+      "context": "The 'Social Policy and Debate' box titled 'Is the United States an Oligarchy?' is entirely removed. This box included specific data about wealth concentration, Citizens United, model legislation written by corporations, and research showing 78% of congressional decisions benefit the wealthiest 10%. The Florida version does not include this critical analysis box."
+    },
+    {
+      "type": "modified",
+      "section": "17.2",
+      "original_text": "The concept of oligarchy is somewhat elusive; rarely does a society openly define itself as an oligarchy. Generally, the word carries negative connotations and conjures notions of a corrupt group whose members make unfair policy decisions in order to maintain their privileged positions. Many modern nations that claim to be democracies are really oligarchies. In fact, some prominent journalists, such as Paul Krugman, who won a Nobele laureate prize in economics, have labeled the United States an oligarchy, pointing to the influence of large corporations and Wall Street executives on U.S. policy (Krugman 2011). Other political analysts assert that all democracies are really just 'elected oligarchies,' or systems in which citizens must vote for an individual who is part of a pool of candidates who come from the society's elite ruling class (Winters 2011).",
+      "florida_text": "The concept of oligarchy is somewhat elusive; rarely does a society openly define itself as an oligarchy. Generally, the word carries negative connotations and conjures notions a small group of 'elites' who hold extensive power in the government and in policy decisions. In practice, oligarchies can exist in either autocratic or democratic states.",
+      "context": "The original's explicit statement that 'many modern nations that claim to be democracies are really oligarchies' and the named citation of Paul Krugman labeling the United States an oligarchy are removed. The Florida version softens this into a neutral definition. What follows is new Florida-added content about C. Wright Mills and campaign finance that frames the issue differently."
+    },
+    {
+      "type": "added",
+      "section": "10.3 (Florida only)",
+      "original_text": null,
+      "florida_text": "President Biden expressed deep concerns about the United States behaving like an oligarchy government (Bekiempis, 2025). Despite these concerns, during the 2024 presidential election, both Donald Trump and Kamala Harris received significant financial support from wealthy donors... 69% of Trump's campaign funding came from large donations (including many large technology companies) and the largest individual contribution came from SpaceX Corporation ($276M) which is owned by billionaire Elon Musk. When Trump ultimately was elected and took office in 2025, several technology executives... The most well-known example was Elon Musk, who was involved in identifying sweeping government spending cuts...",
+      "context": "The Florida version adds new content about the 2024 election, naming Trump, Harris, Biden, and Elon Musk. This is a noteworthy addition of contemporary political content not in the original. While it discusses oligarchic concerns, the framing attributes the concern primarily to Biden while noting both parties received large donations, potentially creating a 'both-sides' balance that softens critique directed at any one party."
+    },
+    {
+      "type": "removed",
+      "section": "15.3",
+      "original_text": "Liberation Theology\nLiberation theology began as a movement within the Roman Catholic Church in the 1950s and 1960s in Latin America, and it combines Christian principles with political activism. It uses the church to promote social change via the political arena, and it is most often seen in attempts to reduce or eliminate social injustice, discrimination, and poverty... Liberation theologians discuss theology from the point of view of the poor and the oppressed, and some interpret the scriptures as a call to action against poverty and injustice. In Europe and North America, feminist theology has emerged from liberation theology as a movement to bring social justice to women.",
+      "florida_text": null,
+      "context": "The entire 'Liberation Theology' subsection\u2014which links Christian faith to political activism against poverty, social injustice, and for women's equality\u2014is entirely removed. The terms 'liberation theology' and 'feminist theology' do not appear in the Florida chapter."
+    },
+    {
+      "type": "removed",
+      "section": "15.3",
+      "original_text": "Religious Leaders and the Rainbow of Gay Pride\nWhat happens when a religious leader officiates a gay marriage against denomination policies?... As the LGBTQ community increasingly earns basic civil rights, how will religious communities respond?... The Episcopal Church in the USA declared in 2015 that its clergy could preside over and sanction same-sex marriages... Lutheran and Anglican denominations also support the blessing of same-sex marriages... Catholic Church leader Pope Francis has been pushing for a more open church... American Jewish denominations generally recognize and support the blessing of same-sex marriages, and Jewish rabbis have been supporters of LGBTQ rights from the Civil Rights era.",
+      "florida_text": null,
+      "context": "The 'Social Policy and Debate' box on LGBTQ rights and religious denominations is entirely removed. This entire discussion of same-sex marriage, LGBTQ rights, and changing denominational policies is absent from the Florida version."
+    },
+    {
+      "type": "removed",
+      "section": "15.3",
+      "original_text": "Thank God for that Touchdown: Separation of Church and State\nImagine three public universities with football games scheduled on Saturday... In the tricky area of separation of church and state, which of these actions is allowed and which is forbidden?... In the United States, a nation founded on the principles of religious freedom (many settlers were escaping religious persecution in Europe), how stringently do we adhere to this ideal?... These statistics suggest that, for most people in the United States, freedom of religion is less important than the religion under discussion. And this is precisely the point made by those who argue for separation of church and state.",
+      "florida_text": null,
+      "context": "The full 'Sociology in the Real World' box on separation of church and state\u2014including poll data showing Americans are more supportive of Christian symbols in public spaces than Muslim ones\u2014is completely removed from the Florida version."
+    },
+    {
+      "type": "removed",
+      "section": "15.3",
+      "original_text": "Megachurches\nA megachurch is a Christian church that has a very large congregation averaging more than 2,000 people who attend regular weekly services... Since 1970 the number of megachurches in this country has grown from about fifty to more than 1,000, most of which are attached to the Southern Baptist denomination... Besides size, U.S. megachurches share other traits, including conservative theology, evangelism, use of technology and social networking... predominantly white membership.",
+      "florida_text": null,
+      "context": "The full megachurches narrative section is removed from the body text. The Florida chapter retains the word 'megachurch' in a figure caption and a glossary entry, but the substantive discussion\u2014including the characterization of megachurches as having 'predominantly white membership' and 'conservative theology'\u2014is gone."
+    },
+    {
+      "type": "removed",
+      "section": "15.3",
+      "original_text": "Similar statements have been made about Hurricane Harvey being the result of Houston's progressivism and for the city electing a lesbian mayor.",
+      "florida_text": null,
+      "context": "The Florida version retains the Michele Bachmann example about secularization, but removes the follow-up sentence about Hurricane Harvey being blamed on Houston's 'progressivism' and its 'lesbian mayor.' This sentence specifically calls out anti-LGBTQ religious rhetoric and is removed."
+    },
+    {
+      "type": "removed",
+      "section": "15.1",
+      "original_text": "Rational Choice Theory\n[Full section discussing RCT as applied to religion, including how people choose religions like consumer goods and critiques of the theory]",
+      "florida_text": null,
+      "context": "The entire Rational Choice Theory (RCT) subsection under 15.1 is removed. This is a substantive academic section with roughly 300 words discussing RCT's application to religion, its strengths, and its critiques."
+    },
+    {
+      "type": "removed",
+      "section": "15.2",
+      "original_text": "Types of Religious Organizations\n[Full section on ecclesia, denominations, sects, cults, and types of religions including polytheism, monotheism, animism, atheism, agnosticism tables and discussion]",
+      "florida_text": null,
+      "context": "The detailed typology of religious organizations (ecclesia, denomination, sect, cult) and the full classification table of religion types (polytheism, monotheism, animism, totemism, atheism) are removed. The Florida version jumps directly to describing individual world religions."
+    },
+    {
+      "type": "removed",
+      "section": "16 (Introduction)",
+      "original_text": "These rising costs and risky debt burdens have led to a number of diverse proposals for solutions. Some call for cancelling current college debt and making more colleges free to qualifying students. Others advocate for more focused and efficient education in order to achieve needed career requirements more quickly. Employers, seeking both to widen their applicant pool and increase equity among their workforce, have increasingly sought ways to eliminate unnecessary degree requirements.",
+      "florida_text": null,
+      "context": "The original Chapter 16 introduction explicitly mentions proposals for canceling college debt and making college free\u2014politically charged policy positions. The Florida version restructures the education introduction entirely, omitting this framing and the contradiction-based opening (which cited Paulo Freire's 'Pedagogy of the Oppressed')."
+    },
+    {
+      "type": "removed",
+      "section": "16.1",
+      "original_text": "Education in Finland\nWith public education in the United States under such intense criticism, why is it that Singapore, South Korea, and especially Finland... have such excellent public education?... 'We used to have a system which was really unequal,' stated the Finnish Education Chief... 'We decided in the 1960s that we would provide a free quality education to all. Even universities are free of charge. Equal means that we support everyone and we're not going to waste anyone's skills.'",
+      "florida_text": null,
+      "context": "The full 'Big Picture' box on Finland's education system\u2014which explicitly models free university, equity-centered reform, and high teacher standards as a success story\u2014is removed. Finland is mentioned nowhere in the Florida chapter. The section celebrates a system based on equity and free higher education."
+    },
+    {
+      "type": "removed",
+      "section": "16.1",
+      "original_text": "Access to Education\nAnother global concern in education is universal access... On a world level, access might be more difficult for certain groups based on class or gender (as was the case in the United States earlier in the nation's history, a dynamic we still struggle to overcome).",
+      "florida_text": null,
+      "context": "The 'Access to Education' subsection discussing universal access, class, and gender disparities in global education access is removed from the Florida version."
+    },
+    {
+      "type": "modified",
+      "section": "17.3 / 10.3",
+      "original_text": "When the U.S. government was formed, however, African Americans and women were denied the right to vote. Each of these groups struggled to secure the same suffrage rights as their White male counterparts, yet this history fails to inspire some Americans to show up at the polls and cast their ballots. Problems with the democratic process, including limited voter turnout, require us to more closely examine complex social issues that influence political participation.",
+      "florida_text": "Although many Americans take free elections for granted, it is a vital foundation of any democracy. In most elections, voter participation in the U.S. is quite low, and sociologists explore the complex social issues that influence political participation. This can have consequences for representation, and informs the larger policy making process.",
+      "context": "The original explicitly names African Americans and women as historically disenfranchised groups and frames low voter turnout as a problem with democracy linked to that history. The Florida version replaces this with neutral language about low turnout, removing both the historical context of racial/gender exclusion and the word 'problems' applied to the democratic process."
+    },
+    {
+      "type": "removed",
+      "section": "17.3",
+      "original_text": "Certain voting advocacy groups work to improve turnout. Vote.org focuses on absentee voting, mail-in voting, and similar practices. Native Vote is an organization that strives to inform Native Americans about upcoming elections and encourages their participation. National Council of La Raza and Voto Latino strive to improve voter turnout among the Latino population.",
+      "florida_text": null,
+      "context": "The paragraph naming voter advocacy organizations\u2014particularly those working with Native American and Latino communities\u2014is removed."
+    },
+    {
+      "type": "modified",
+      "section": "17.3 / 10.3",
+      "original_text": "Like race and ethnicity, social class also has influenced voting practices. Voting rates among lower-educated, lower-paid workers are lower than for people with higher socioeconomic status that fosters a system in which people with more power and access to resources have the means to perpetuate their power... New requirements for specific types of voter identification in some states are likely to compound these issues, because it may take additional time away from work, as well as additional child care or transportation, for voters to get the needed IDs. The impact on minorities and the impoverished may cause a further decrease in voter participation.",
+      "florida_text": "Like race and ethnicity, social class also has influenced voter participation. Voter turnout among lower-educated, lower-paid workers is lower than for people with higher socioeconomic status. Several explanations have been offered to account for this difference (Raymond 2010). For example, workers in low-paying service jobs might find it harder to get to the polls because they lack flexibility in their work hours, or quality daycare to look after children while they vote. In addition, the overrepresentation of Black men in the criminal justice system already reduces their voting capacity, leading to greater disenfranchisement among black men (Uggen et al, 2023).",
+      "context": "The Florida version removes the original's explicit connection between voter ID laws and reduced minority/poor voter participation. The original warned that new voter ID requirements 'may cause a further decrease in voter participation' for minorities\u2014this warning is removed. The Florida version adds a new sentence about Black men's criminal justice overrepresentation, which is a different framing."
+    },
+    {
+      "type": "removed",
+      "section": "17.3",
+      "original_text": "As suggested earlier, money can carry a lot of influence in U.S. democracy. But there are other means to make one's voice heard. Free speech can be influential, and people can participate in the democratic system through volunteering with political advocacy groups, writing to elected officials, sharing views in a public forum such as a blog or letter to the editor, forming or joining cause-related political organizations and interest groups, participating in public demonstrations, and even running for a local office.",
+      "florida_text": null,
+      "context": "The original's opening acknowledgment that 'money can carry a lot of influence in U.S. democracy' before listing other means of participation is removed. The Florida version retains the list of civic activities but removes the framing that positions money as a dominant force in U.S. politics."
+    },
+    {
+      "type": "removed",
+      "section": "17.4",
+      "original_text": "Internally, groups within the U.S. struggle within the system, by trying to achieve the outcomes they prefer. Political differences over budget issues, for example, led to the recent shutdown of the federal government, and alternative political groups, such as the Tea Party, are gaining a significant following.\nThe Arab Spring exemplifies oppressed groups acting collectively to change their governmental systems... Popular uprisings of citizens seeking governmental change have occurred this year in Bosnia, Brazil, Greece, Iran, Jordan, Portugal, Spain, Turkey, Ukraine, and most recently in Hong Kong. Although much smaller in size and scope, demonstrations occurred in the aftermath of the killing of George Floyd in the summer of 2020. Some of these and related demonstrations went on for months.",
+      "florida_text": null,
+      "context": "The original's conflict theory section references the federal government shutdown, the Tea Party, the Arab Spring, protests in multiple countries, and the George Floyd demonstrations. The Florida version condenses the conflict-theory-in-action section, removing all these contemporary political examples."
+    },
+    {
+      "type": "modified",
+      "section": "15.3 / 10.1",
+      "original_text": "In examining the state of religion in the United States today, we see the complexity of religious life in our society, plus emerging trends like the rise of the megachurch, secularization, and the role of religion in social change.",
+      "florida_text": "In examining the state of religion in the United States today, we see the complexity of religious life in our society. Religion has historically been both an impetus for and a barrier against social change.",
+      "context": "The original's introduction to Section 15.3 explicitly flags 'the rise of the megachurch' as an emerging trend to examine. The Florida version removes this reference, consistent with the removal of the full megachurch section."
+    },
+    {
+      "type": "modified",
+      "section": "15.2 / 10.1",
+      "original_text": "Judaism emphasizes moral behavior and action in this world as opposed to beliefs or personal salvation in the next world.",
+      "florida_text": "Judaism emphasizes moral behavior and action in this world as reflected in the Jewish concept of 'tikkun olam' that means healing or repairing the world.",
+      "context": "The Judaism description is modified. The original's contrast with Christianity (emphasizing 'action in this world as opposed to beliefs or personal salvation in the next world') is replaced with a more positive framing about 'tikkun olam.' The original phrasing could be read as implying a critique of Christian soteriology."
+    },
+    {
+      "type": "modified",
+      "section": "15.2 / 10.1",
+      "original_text": "The Jews' covenant, or promise of a special relationship with Yahweh (God), is an important element of Judaism.",
+      "florida_text": "The Jews' covenant or promise of a special relationship with Adonai or HaShem (God), is an important element of Judaism. (Different denominations of Judaism use different words to refer to God.)",
+      "context": "The original uses 'Yahweh' as the name of God in Judaism. The Florida version changes this to 'Adonai or HaShem' and adds a note that different denominations use different words. The use of 'Yahweh' is considered inappropriate by many Jewish people; this change is a correction rather than censorship."
+    },
+    {
+      "type": "added",
+      "section": "10.2 (Florida only)",
+      "original_text": null,
+      "florida_text": "Race, Gender, and Class & Representation\nThe extent to which differences in voter participation translates to differences in representation can be difficult to determine... Partisan representation is the extent to which votes cast for a given party is translated into legislative seats... Substantive representation refers to the extent to which the laws and regulations that are passed reflect what citizens or voters want... A sociological perspective might emphasize descriptive representation, which is the extent to which the characteristics of representatives 'reflect' that of the electorate in terms of race, gender, class and other social groupings.",
+      "context": "The Florida version adds a substantial new subsection on types of representation (partisan, substantive, descriptive) not present in the original Chapter 17. This section includes academic citations and discussion of minority representation in Congress. This addition is academically substantive, though it partly compensates for content removed elsewhere."
+    },
+    {
+      "type": "added",
+      "section": "10.1 / 10.2 / 10.3 (Florida only)",
+      "original_text": null,
+      "florida_text": "Religion and Society\nAcross societies, public institutions play central roles in organizing collective life... Sociologists analyze these institutions through several complementary perspectives... This chapter also highlights the essential role of social science in investigating these institutions.",
+      "context": "New transitional sections titled 'Religion and Society' (between the religion and education sections) and a 'Conclusion' are added to the Florida chapter. These provide an integrative framing device that is new content, essentially replacing the individual chapter summaries of the three original chapters."
+    },
+    {
+      "type": "modified",
+      "section": "17 (Introduction removed) / 10.3",
+      "original_text": "Lincoln's famous phrase 'of the people, by the people, for the people' is at the heart of the U.S. system and sums up its most essential aspect: that citizens willingly and freely elect representatives they believe will look out for their best interests. Although many Americans take free elections for granted, it is a vital foundation of any democracy. When the U.S. government was formed, however, African Americans and women were denied the right to vote. Each of these groups struggled to secure the same suffrage rights as their White male counterparts, yet this history fails to inspire some Americans to show up at the polls and cast their ballots.",
+      "florida_text": "Lincoln's famous phrase 'of the people, by the people, for the people' is at the heart of the U.S. system and sums up its most essential aspect: that citizens willingly and freely elect executive and legislative representatives they believe will look out for their best interests. Elections in the United States are competitive, and contested by candidates where multiple parties have a chance at winning, the results of which are generally accepted without controversy.",
+      "context": "The Florida version transforms the Lincoln quote paragraph by removing historical references to the disenfranchisement of African Americans and women, and replaces them with a declaration that U.S. elections are 'generally accepted without controversy'\u2014a claim with notable political resonance given the 2020 and 2024 election controversies."
+    }
+  ],
+  "change_count": 26,
+  "severity": "major"
+}

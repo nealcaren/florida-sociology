@@ -1,0 +1,17 @@
+{
+  "chapter": 4,
+  "title": "Society and Social Interaction",
+  "florida_title": null,
+  "summary": "This chapter was merged into Florida Chapter 3: Culture and Society. See Chapter 3 for a detailed comparison of what content was retained, modified, or removed from the merger of Chapters 3 and 4.",
+  "changes": [
+    {
+      "type": "removed",
+      "section": "4.0",
+      "original_text": "Chapter 4: Society and Social Interaction was merged into Florida Chapter 3 (Culture and Society). The standalone chapter on social interaction was eliminated.",
+      "florida_text": null,
+      "context": "Entire chapter merged with Chapter 3. See Chapter 3 comparison for details on what content survived the merger."
+    }
+  ],
+  "change_count": 1,
+  "severity": "major"
+}
