@@ -1,7 +1,7 @@
 {
   "title": "What Florida Changed in Your Sociology Textbook",
   "description": "A chapter-by-chapter comparison of the original OpenStax Introduction to Sociology 3e with Florida's state-modified version, highlighting every edit, deletion, and relocation.",
-  "total_changes": 273,
+  "total_changes": 275,
   "chapters_removed": 9,
   "chapters_major": 21,
   "original_chapter_count": 21,
@@ -12,7 +12,7 @@
       "title": "An Introduction to Sociology",
       "florida_title": "Understanding Sociology",
       "severity": "major",
-      "change_count": 18,
+      "change_count": 17,
       "status": "modified",
       "summary_short": "The Florida version of Chapter 1 makes several significant deletions and rewrites that together remove politically sensitive content while preserving the chapter's basic structure. The most consequent",
       "data_file": "ch01.json"
@@ -152,7 +152,7 @@
       "title": "Religion / Education / Government and Politics",
       "florida_title": "Public Institutions: Religion, Education, and Government",
       "severity": "major",
-      "change_count": 26,
+      "change_count": 29,
       "status": "modified",
       "summary_short": "Florida Chapter 10 compresses three full original chapters\u2014Chapter 15 (Religion), Chapter 16 (Education), and Chapter 17 (Government and Politics)\u2014into a single, substantially shorter chapter. The com",
       "data_file": "ch15.json"
