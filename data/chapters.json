@@ -1,0 +1,21 @@
+{
+  "title": "What Florida Changed in Your Sociology Textbook",
+  "description": "A chapter-by-chapter comparison of the original OpenStax Introduction to Sociology 3e with Florida's state-modified version, highlighting every edit, deletion, and relocation.",
+  "total_changes": 4,
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "An Introduction to Sociology",
+      "severity": "none",
+      "change_count": 0,
+      "summary_short": "This chapter was not modified in the Florida version."
+    },
+    {
+      "chapter": 11,
+      "title": "Race and Ethnicity",
+      "severity": "major",
+      "change_count": 4,
+      "summary_short": "This chapter underwent extensive modification in the Florida version. Multiple passages discussing systemic racism, institutional discrimination, and the historical context of racial inequality in the"
+    }
+  ]
+}

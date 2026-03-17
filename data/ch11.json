@@ -1,0 +1,38 @@
+{
+  "chapter": 11,
+  "title": "Race and Ethnicity",
+  "summary": "This chapter underwent extensive modification in the Florida version. Multiple passages discussing systemic racism, institutional discrimination, and the historical context of racial inequality in the United States were removed or significantly reworded. References to specific contemporary events and movements were deleted.",
+  "changes": [
+    {
+      "type": "removed",
+      "section": "11.3",
+      "original_text": "This is a placeholder for an actual removed passage that will be filled in during manual comparison.",
+      "florida_text": null,
+      "context": "Passage on institutional racism removed entirely from the section on prejudice and discrimination."
+    },
+    {
+      "type": "modified",
+      "section": "11.5",
+      "original_text": "Original placeholder text that discusses systemic inequality.",
+      "florida_text": "Modified placeholder text with softened language.",
+      "context": "Language about systemic factors replaced with individual-focused framing."
+    },
+    {
+      "type": "added",
+      "section": "11.1",
+      "original_text": null,
+      "florida_text": "Placeholder for Florida-added text emphasizing individual achievement.",
+      "context": "New paragraph added to the introduction of the chapter."
+    },
+    {
+      "type": "moved",
+      "section": "11.4",
+      "original_location": "Chapter 11, Section 11.4 Intergroup Relationships",
+      "florida_location": "Chapter 11, Section 11.1 (condensed into introduction)",
+      "original_text": "Placeholder for a passage that was relocated within the chapter.",
+      "context": "Discussion of intergroup relations moved from its own section into the chapter introduction, reducing its prominence."
+    }
+  ],
+  "change_count": 4,
+  "severity": "major"
+}
