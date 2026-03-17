@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What Florida Changed in Your Sociology Textbook</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav id="site-nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-title">FL Sociology Diff</a>
+      <div class="nav-chapter-select">
+        <select id="chapter-select" aria-label="Select chapter">
+          <option value="">Jump to chapter...</option>
+        </select>
+      </div>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main id="app">
+    <!-- Landing page -->
+    <section id="landing" class="view">
+      <header class="hero">
+        <h1>What Florida Changed in Your Sociology Textbook</h1>
+        <p class="hero-sub">A chapter-by-chapter comparison of the original OpenStax <em>Introduction to Sociology 3e</em> with Florida's state-modified version.</p>
+        <div id="stats" class="stats"></div>
+      </header>
+      <div id="chapter-grid" class="chapter-grid"></div>
+    </section>
+
+    <!-- Chapter view -->
+    <section id="chapter-view" class="view" hidden>
+      <div class="chapter-header">
+        <a href="#" class="back-link">&larr; All Chapters</a>
+        <h2 id="chapter-title"></h2>
+        <div id="chapter-severity" class="severity-badge"></div>
+      </div>
+      <div id="chapter-summary" class="chapter-summary"></div>
+      <div id="change-nav" class="change-nav">
+        <span id="change-count"></span>
+        <div id="change-jump" class="change-jump"></div>
+      </div>
+      <div id="changes-list" class="changes-list"></div>
+      <div class="chapter-footer">
+        <a id="prev-chapter" href="#" class="chapter-nav-link">&larr; Previous</a>
+        <a id="next-chapter" href="#" class="chapter-nav-link">Next &rarr;</a>
+      </div>
+    </section>
+
+    <!-- Error state -->
+    <section id="error-view" class="view" hidden>
+      <div class="error-content">
+        <p>Unable to load chapter data. Please try refreshing.</p>
+        <button onclick="location.reload()">Retry</button>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer">
+    <p>Data sourced from <a href="https://openstax.org/details/books/introduction-sociology-3e" target="_blank" rel="noopener">OpenStax Introduction to Sociology 3e</a> (CC BY 4.0) and the Florida state-modified edition.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
