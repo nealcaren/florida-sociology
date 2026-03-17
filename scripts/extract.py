@@ -33,14 +33,63 @@ def clean_text(text: str) -> str:
     return "\n".join(cleaned)
 
 
-def split_chapters(text: str) -> dict[int, str]:
-    """Split extracted text into chapters using 'CHAPTER N' headings."""
-    # Match "CHAPTER 1", "CHAPTER 2", etc. (case-insensitive, flexible spacing)
-    pattern = r"(?:^|\n)\s*CHAPTER\s+(\d+)\s*\n"
-    matches = list(re.finditer(pattern, text, re.IGNORECASE))
+def split_chapters_original(text: str) -> dict[int, str]:
+    """Split OpenStax original text using 'CHAPTER OUTLINE' markers.
+
+    Each chapter starts with 'CHAPTER OUTLINE' followed by section numbers
+    like '1.1', '2.1', etc. We derive the chapter number from the first
+    section number after the marker.
+    """
+    pattern = r"CHAPTER OUTLINE\n"
+    matches = list(re.finditer(pattern, text))
 
     if not matches:
-        print("WARNING: No chapter headings found!", file=sys.stderr)
+        print("WARNING: No CHAPTER OUTLINE headings found!", file=sys.stderr)
+        return {}
+
+    chapters = {}
+    for i, match in enumerate(matches):
+        # Look ahead for the first section number to determine chapter
+        lookahead = text[match.end():match.end() + 200]
+        sec_match = re.search(r"(\d+)\.\d+\s", lookahead)
+        if not sec_match:
+            continue
+        chapter_num = int(sec_match.group(1))
+
+        # Chapter starts a bit before CHAPTER OUTLINE (include the figure caption)
+        # Find the FIGURE line that precedes this
+        preceding = text[max(0, match.start() - 500):match.start()]
+        fig_match = re.search(r"(FIGURE\s+\d+\.\d+)", preceding)
+        if fig_match:
+            start = max(0, match.start() - 500) + fig_match.start()
+        else:
+            start = match.start()
+
+        end = matches[i + 1].start() - 500 if i + 1 < len(matches) else len(text)
+        # For end, find the start of the next chapter's figure
+        if i + 1 < len(matches):
+            next_preceding = text[max(0, matches[i + 1].start() - 500):matches[i + 1].start()]
+            next_fig = re.search(r"(FIGURE\s+\d+\.\d+)", next_preceding)
+            if next_fig:
+                end = max(0, matches[i + 1].start() - 500) + next_fig.start()
+            else:
+                end = matches[i + 1].start()
+
+        chapters[chapter_num] = text[start:end].strip()
+
+    return chapters
+
+
+def split_chapters_florida(text: str) -> dict[int, str]:
+    """Split Florida version text using 'Chapter N: Title' headings.
+
+    The Florida version has 12 chapters with format 'Chapter N: Title'.
+    """
+    pattern = r"\nChapter\s+(\d+):\s+[^\n]+"
+    matches = list(re.finditer(pattern, text))
+
+    if not matches:
+        print("WARNING: No 'Chapter N:' headings found!", file=sys.stderr)
         return {}
 
     chapters = {}
@@ -101,7 +150,10 @@ def main():
         print(f"  Raw text: {len(raw_text)} characters")
 
         cleaned = clean_text(raw_text)
-        chapters = split_chapters(cleaned)
+        if label == "original":
+            chapters = split_chapters_original(cleaned)
+        else:
+            chapters = split_chapters_florida(cleaned)
         print(f"  Found {len(chapters)} chapters: {sorted(chapters.keys())}")
 
         output_dir = project_root / "text" / label

@@ -1,0 +1,817 @@
+Chapter 12: Social Change and Collective Behaviors 
+ 
+Introduction   
+When considering social movements, the images that come to mind are often the most dramatic and dynamic: the 
+Boston Tea Party, Martin Luther King's speech at the 1963 March on Washington, anti-war protesters putting flowers in 
+soldiers' rifles, Gloria Richardson brushing away a National Guardsman’s bayonet at a demonstration, or a lone 
+individual facing a line of tanks in Tiananmen Square. 
+But efforts to reshape society happen every day, often in less dramatic forms, by people of all backgrounds and ages. 
+Organizing an awareness event, volunteering at a shelter, donating to a cause, speaking at a school board meeting, 
+running for office, or writing an article are all ways that people participate in or promote social movements. Some 
+people contribute to social change by educating themselves through books or trainings. Others find one person to help 
+at a time.  
+One social movement that captured the attention of the public and social scientists was Occupy Wall Street (OWS). This 
+movement was distinct from previously studied social movements in several regards. OWS is set apart by its lack of a 
+single message, its leaderless organization, 
+and its target—financial institutions instead 
+of the government. OWS baffled much of the 
+public, and certainly the media, leading 
+many to ask, "Who are they, and what do 
+they want?" 
+On July 13, 2011, the organization 
+Adbusters posted on its blog, "Are you ready 
+for a Tahrir moment? On September 17th, 
+flood into lower Manhattan, set up tents, 
+kitchens, peaceful barricades and occupy 
+Wall Street" (Castells 2012). The "Tahrir 
+moment" was a reference to the 2010 
+political uprising that began in Tunisia and 
+spread throughout the Middle East and 
+North Africa, including Egypt’s Tahrir Square 
+in Cairo. Although OWS was a reaction to the 
+continuing financial chaos that resulted 
+from the 2008 market meltdown and not a 
+political movement, the Arab Spring was its 
+catalyst. 
+Spanish sociologist Manuel Castells (2012) 
+argues the Occupy movement was not only a 
+12.1   Collective Behavior  
+12.2   Social Movements    
+12.3   Social Change 
+ 
+Figure  12.1   Activism can take the form of enormous marches, 
+violent clashes, fundraising, social media activity, or silent displays. In 
+this 2016 photo, people wear hoods and prison jumpsuits to protest 
+the conditions at Guantanamo Bay Prison, where at that time more 
+than 50 of 780 detainees had been held for over a decade without 
+trial as illegal enemy combatants. (Credit: Debra Sweet/flickr) 
+
+ 
+ 
+response to the global financial crisis in 2008 but also to the decades-long increase in economic inequality in the U.S. 
+He points to evidence that, since the 1980s, household incomes at the top of the income distribution grew significantly 
+faster than those at the bottom (Congressional Budget Office, 2024). Additionally, the country’s leading financial 
+institutions, that many people thought were to blame for the crisis, were in trouble after less qualified borrowers 
+defaulted on their mortgage loans when the loans’ interest rates rose. The banks were eventually "bailed" out by the 
+government with $700 billion of taxpayer money.  
+On September 17, 2011, an anniversary of the signing of the U.S. Constitution, the occupation began. About one 
+thousand protestors descended upon Wall Street, and up to 20,000 people moved into Zuccotti Park, only two blocks 
+away, where they began building a village of tents and organizing a system of communication. The protest soon began 
+spreading throughout the nation and in other countries, and its members started calling themselves "the 99 percent." 
+Over the next several months, more than a thousand cities and towns had Occupy demonstrations around the world. 
+A sociological study of OWS might engage with the following questions: 
+• 
+What did they want? Using Facebook, Twitter, Tumblr, and live-stream video, the protesters conveyed a multifold 
+message with a long list of reforms and social change, including the need to address the rising disparity of 
+wealth, the influence of money on election outcomes, political favoring of the rich, and rising student debt. 
+• 
+What did they accomplish? Despite headlines at the time softly mocking OWS for lack of cohesion and lack of 
+clear messaging, the movement is credited 
+with bringing attention to income inequality 
+and the seemingly preferential treatment of 
+financial institutions accused of 
+wrongdoing.  
+• 
+What is the long-term impact? Has the 
+United States reduced the upward trend of 
+income inequality through changes in 
+taxation and entitlements? Certainly not, 
+income inequality has generally increased. 
+But is a major shift in our future? 
+This chapter shows the evolution of thought behind 
+the scientific study of collective behavior and social 
+movements. Sociologists have developed a number 
+of theoretical perspectives about why groups come 
+ 
+Figure  12.2   Is this a good time had by all? Some flash mobs 
+may function as political protests, while others are for fun. 
+(Credit Richard Wood/flickr) 
+Sociology in the Real World 
+Flash Mobs and Challenges 
+In March 2014, a group of musicians got together in a fish market in Odessa, Ukraine, for a spontaneous 
+performance of Beethoven's “Ode to Joy” from his Ninth Symphony. While tensions were building over Ukraine's 
+efforts to join the European Union, and even as Russian troops had taken control of the Ukrainian airbase in Belbek, 
+the Odessa Philharmonic Orchestra and Opera Chorus tried to lighten the troubled times for shoppers with music and 
+song. Spontaneous gatherings like this are called flash mobs, and sociologists see them as one type of “collective 
+behavior.” 
+Humans seek connections and shared experiences. Perhaps experiencing a flash mob event enhances this bond. It 
+certainly interrupts our otherwise mundane routine with a reminder that we are social animals. 
+
+ 
+ 
+together to achieve social change and how norms, resources, and social structures shape those efforts.  
+12.1   Collective Behavior 
+Forms of Collective Behavior 
+Flash mobs are examples of collective behavior, noninstitutionalized activity in which several or many people voluntarily 
+engage. Other examples are a group of commuters traveling home from work and a population of teens adopting a 
+favorite singer’s hairstyle. In short, collective behavior is any group behavior that is not mandated or regulated by an 
+institution. There are three primary forms of collective behavior: the crowd, the mass, and the public. 
+A crowd is a fairly large number of people in close proximity (Lofland 1993). Collective groups can also be identified in 
+two other ways. A mass is a relatively large number of people with a common interest, though they may not be in close 
+proximity (Lofland 1993), such as players of the popular Facebook game Farmville. A public, on the other hand, is an 
+unorganized, relatively diffused group of people who share ideas, such as the Libertarian political party. While these two 
+types of collective groups are similar, they are not the same. To distinguish between them, remember that members of 
+a mass share interests, whereas members of a public share ideas. 
+Theoretical Perspectives on Collective Behavior 
+Early collective behavior theories (Le Bon 1895; Blumer 1969) focused on the irrationality of crowds. Eventually, those 
+theorists who viewed crowds as uncontrolled groups of irrational people were supplanted by theorists who viewed the 
+behavior some crowds engaged in as the rational behavior of logical beings. 
+Emergent-Norm Perspective  
+Sociologists Ralph Turner and Lewis Killian (1993) developed what 
+is known as emergent norm theory. They believe that the norms 
+experienced by people in a crowd may be disparate and fluctuating. 
+They emphasize the importance of these norms in shaping crowd 
+behavior, especially those norms that shift quickly in response to 
+changing external factors. Emergent norm theory asserts that, in 
+this circumstance, people perceive and respond to the crowd 
+situation with their particular (individual) set of norms, which may 
+change as the crowd experience evolves. This focus on the 
+individual component of interaction reflects a symbolic 
+interactionist perspective. 
+For Turner and Killian, the process begins when individuals suddenly 
+find themselves in a new situation, or when an existing situation 
+suddenly becomes strange or unfamiliar. For example, think about 
+human behavior during Hurricane Katrina in August 2005. New 
+Orleans was decimated and some residents were trapped without 
+supplies or a way to evacuate. In these extraordinary circumstances, 
+what outsiders saw as “looting” was defined by those involved as seeking needed supplies for survival. Normally, 
+individuals would not wade into a corner gas station and take canned goods without paying, but given that they were 
+suddenly in a greatly changed situation, they established a norm that they felt was reasonable. 
+Once individuals find themselves in a situation ungoverned by previously established norms, they interact in small 
+groups to develop new guidelines on how to behave. According to the emergent-norm perspective, crowds are not 
+viewed as irrational, impulsive, uncontrolled groups. Instead, new norms develop and are accepted as they fit the 
+situation. While this theory offers insight into why norms develop, it leaves undefined the nature of norms, how they 
+come to be accepted by the crowd, and how they spread through the crowd. 
+ 
+Figure  12.3  According to the emergent-norm 
+perspective, Hurricane Katrina victims sought 
+needed supplies for survival, but to some 
+outsiders their behavior was normally seen as 
+looting. (Credit: Infrogmation/Wikimedia 
+Commons) 
+
+ 
+ 
+Value-Added Theory 
+Sociologist Neil Smelser (1962) meticulously studied different instances of crowd behavior and developed value-added 
+theory. Smelser’s theory is within the functionalist tradition and holds that several conditions must be in place for 
+collective behavior to occur, which each condition adding to the likelihood.  
+The first condition is structural conduciveness, which occurs when people are aware of a social issue or problem and 
+have the opportunity to gather, ideally in an open area. Structural strain, the second condition, refers to when people’s 
+expectations about a situation are unmet, leading to tension and strain. The next condition is the growth and spread of a 
+generalized belief, wherein a problem is clearly identified and attributed to a person or group. 
+Fourth, precipitating factors spur collective behavior; this is the emergence of a dramatic event. The fifth condition is 
+mobilization for action, when leaders emerge to direct a crowd to 
+action. The final condition, social control, relates to actions taken 
+by formal agents like the police or the military to end collective 
+behavior by interrupting or deflecting the behavior once started 
+(Smelser 1962). 
+A real-life example of these conditions occurred after the fatal 
+police shooting of teenager Michael Brown, an unarmed 
+eighteen-year-old African American, in Ferguson, MO on August 9, 
+2014. The shooting drew national attention almost immediately. 
+A large group of mostly Black, local residents assembled in 
+protest—a classic example of structural conduciveness. When the 
+community perceived that the police were not acting in the 
+people's interest and were withholding the name of the officer, 
+structural strain became evident. A growing generalized belief 
+evolved as the crowd of protesters were met with heavily armed 
+police in military-style protective uniforms accompanied by an 
+armored vehicle. The precipitating factor of the arrival of the 
+police spurred greater collective behavior as the residents 
+mobilized by assembling a parade down the street. Missouri 
+police officers attempted to exert social control over the protests, 
+at times using tear gas, pepper spray, and rubber bullets. This 
+instance of collective behavior finally ended on August 18, when 
+the governor called in the National Guard. 
+Assembling Perspective 
+Interactionist sociologist Clark McPhail (1991) developed assembling perspective, another system for understanding 
+collective behavior that credited individuals in crowds as rational beings. McPhail’s theory focused primarily on the 
+ 
+Figure  12.4  Agents of social control bring 
+collective behavior to an end. (Credit: hozinja/flickr) 
+Type of crowd behavior 
+Description 
+Example 
+Convergence clusters 
+Family and friends who travel together 
+Carpooling parents take several 
+children to the movies 
+Convergent orientation 
+Group all facing the same direction 
+A semi-circle around a stage 
+Collective vocalization 
+Sounds or noises made collectively 
+Screams on a roller coaster 
+Collective verbalization 
+Collective and simultaneous participation in a 
+speech or song 
+Pledge of Allegiance in the school 
+classroom 
+Collective gesticulation 
+Body parts forming symbols 
+The YMCA dance 
+Collective manipulation 
+Objects collectively moved around 
+Holding signs at a protest rally 
+Collective locomotion 
+The direction and rate of movement to the event 
+Children running to an ice cream truck 
+Table  12.1  Clark McPhail identified various circumstances of convergent and collective behavior (McPhail 1991). 
+
+ 
+ 
+different types of crowd behavior. He identified several instances of convergent or collective behavior, as shown on the 
+chart below. 
+As useful as this is for understanding the components of how crowds come together to engage in collective behavior, 
+many sociologists criticize its focus on individual actions and the lack of attention given to the larger cultural context. 
+12.2   Social Movements 
+Social movements are subtype of 
+collective behavior. They are purposeful, 
+organized groups that strive to work 
+toward a common social goal. While most 
+of us learned about social movements in 
+history classes, we tend to take for 
+granted the fundamental changes they 
+caused —and we may be completely 
+unfamiliar with global social movements. 
+But from the antitobacco movement that 
+has worked to outlaw smoking in public 
+buildings and raise the cost of cigarettes, 
+to political uprisings throughout the Arab 
+world, movements are creating social 
+change on a global scale. 
+Levels of Social Movements 
+Movements happen in our towns, in our 
+nation, and around the world. Let’s take a 
+look at examples of social movements, 
+from local to global. No doubt you can think of others on all of these levels, especially since modern technology has 
+allowed us a near-constant stream of information about the quest for social change around the world. 
+Local 
+Local social movements typically refer to those in cities or towns, but they can also affect smaller constituencies, such 
+as college campuses. Sometimes colleges are smaller hubs of a national movement, as seen during the Vietnam War 
+protests or the Black Lives Matter protests. Other 
+times, colleges are managing a more local issue. 
+For example, after announcing a significant 
+budget shortfall, the Wisconsin legislature and 
+Governor Scott Walker advanced a “budget repair 
+bill” in early 2011 that would reduce the collective 
+bargaining abilities of unions and other 
+organizations in the state. Faculty at the state's 
+college system were not in unions, but teaching 
+assistants, researchers, and other staff had 
+regularly collectively bargained. Faced with the 
+prospect of reduced job protections, pay, and 
+benefits, staff members at the University of 
+Wisconsin protested Governor Walker’s proposal  
+on Valentine’s Day and then moved the protest to 
+the Wisconsin State Capitol. Over the next few 
+days, the size of the crowd reached more than 
+ 
+Figure  12.5  Staff at University of Wisconsin protest a proposed law that 
+would significantly reduce their ability to bargain for better pay and 
+benfits. (Credit: marctasman/flickr) 
+ 
+Figure  12.6   Texas Secede! is an organization which would like 
+Texas to secede from the United States. (Credit: Tim Pearce/flickr) 
+
+ 
+ 
+70,000 protestors, including individuals who opposed the bill and 
+others who supported it. Protest activity continued, and sometimes 
+turned ugly, until June when the Wisconsin Supreme Court upheld the 
+bill.  
+State 
+The most impactful state-level protest would be to cease being a 
+state, and organizations in several states are working toward that 
+goal. Texas secession has been a relatively consistent movement 
+since about 1990. The past decade has seen an increase in rhetoric 
+and campaigns to drive interest and support for a public referendum 
+on secession. The Texas Nationalist Movement “Texas Secede!” and 
+other groups have created formal proposals and run public 
+information campaigns to make the idea seem more feasible. “Texit” 
+has become a widely used nickname and hashtag for the movement. 
+In February 2021, a bill was introduced to hold a referendum that 
+would begin formal discussions on creating an independent nation—
+though the bill's sponsor indicated that it was mainly intended to 
+begin a conversation rather than directly lead to secession (De Alba 
+2021). 
+States also get involved in movement activity in response to federal 
+policies or decisions. The legalization of same-sex marriage 
+throughout the United States led some people to feel their religious 
+beliefs were under attack. Following swiftly upon the heels of the Supreme Court Obergefell ruling in 2015, the Indiana 
+legislature passed a Religious Freedom Restoration Act (RFRA). Originally crafted decades ago with the purpose of 
+preserving the rights of minority religious people, recent RFRA laws allow individuals, businesses, and other 
+organizations to decide whom they will serve based on religious beliefs. For example, Arkansas's 2021 law allowed 
+doctors to refuse to treat patients based on the doctor's religious beliefs (Associated Press 2021).  
+Global 
+Social organizations worldwide take stands on such general areas of concern as poverty, sex trafficking, and the use of 
+genetically modified organisms (GMOs) in food. Nongovernmental organizations (NGOs) are sometimes formed to 
+support such movements, such as the International Federation of Organic Agriculture Movement (FOAM). Global efforts 
+to reduce poverty are represented by the Oxford Committee for Famine Relief (OXFAM), among others. The Fair Trade 
+movement exists to protect and support food producers in developing countries. Occupy Wall Street, although initially a 
+local movement, also went global throughout Europe and, as the chapter’s introductory photo shows, the Middle East. 
+Stages of Social Movements 
+Later sociologists studied the lifecycle of social movements—how they emerge, grow, and in some cases, die out. This is 
+similar to Smelser’s value-added depiction of the conditions leading to collective behavior. Blumer (1969) and Tilly 
+(1978) outline a four-stage process. In the preliminary stage, people become aware of an issue, and leaders emerge. 
+This is followed by the coalescence stage when people join together and organize in order to publicize the issue and 
+raise awareness. In the institutionalization stage, the movement no longer requires grassroots volunteerism: it is an 
+established organization, typically with a paid staff. When people fall away and adopt a new movement, the movement 
+successfully brings about the change it sought, or when people no longer take the issue seriously, the movement falls 
+into the decline stage.  
+ 
+Figure  12.7   At the time of this writing, 
+marriage for same-sex couples is legal in all 
+fifty states and the District of Columbia due 
+to the Supreme Court’s Obergefell ruling; 
+nonetheless, around half of states have 
+constitutional or state law bans on same-sex 
+marriage, though none are enforceable due 
+to Obergefell. (Credit: Jose Antonio 
+Navas/flickr). 
+
+ 
+ 
+Social Media and Social Movements 
+Social media is a widely used mechanism 
+in social movements. In the Chapter 7 
+talking about Groups and Organizations, 
+we discussed Tarana Burke first using 
+"Me Too" in 2006 on a major social 
+media venue of the time (MySpace). The 
+phrase grew into a massive movement 
+when people began using it on Twitter to 
+drive empathy and support regarding 
+experiences of sexual harassment or 
+sexual assault. In a similar way, Black 
+Lives Matter began as a social media 
+message after George Zimmerman was 
+acquitted in the shooting death of 17-
+year-old Trayvon Martin, and the phrase 
+burgeoned into a much larger and 
+formalized movement in subsequent 
+years. 
+Social media has the potential to 
+dramatically transform how people get 
+involved in movements ranging from local 
+school district decisions to presidential 
+campaigns. As movements go through 
+the stages identified by Blumer and Tilly, and social media adds a dynamic to each of them. In the preliminary stage, 
+people become aware of an issue, and leaders emerge. Compared to movements of 20 or 30 years ago, social media 
+can accelerate this stage substantially. Issue awareness can spread at the speed of a click, with thousands of people 
+across the globe becoming informed at the same time. In a similar vein, those who are savvy and engaged with social 
+media may emerge as leaders, even if, for example, they are not great public speakers. 
+At the next stage, the coalescence stage, social media is also transformative. Coalescence is the point when people join 
+together to publicize the issue and get organized. President Obama’s 2008 campaign was a case study in organizing 
+through social media. Using Twitter and other online tools, the campaign engaged volunteers who had typically not 
+bothered with politics. Combined with comprehensive data tracking and the ability to micro-target, the campaign 
+became a blueprint for others to build on. The 2020 elections featured a level of data analysis and rapid response 
+capabilities that, while echoing the Obama campaign's early work, made the 2008 campaign look quaint. The 
+campaigns and political analysts could measure the level of social media interaction following any campaign stop, 
+debate, statement by the candidate, news mention, or any other event, and measure whether the tone or "sentiment" 
+was positive or negative. In contrast to traditional political polls, social media provides instant feedback and 
+opportunities for campaigns to act, react, or ask for donations based on something that had occurred just hours earlier 
+(Knowledge at Wharton 2020). 
+Social media can take on more complex roles once a movement reaches the institutionalization stage. In some cases, a 
+formal organization might exist alongside the hashtag or general sentiment, as is the case with Black Lives Matter 
+(BLM). At any one time, BLM is essentially three things: a structured organization, an idea with deep and personal 
+meaning for people, and a widely used phrase or hashtag. People who use the #BlackLivesMatter hashtag may or may 
+not be referring to the formal organization, nor do they necessarily agree with all of the organization's principles or its 
+leadership. And in other cases, people may be very aligned with all three contexts of the phrase.  
+ 
+Figure  12.8   Are these activists most likely to have a larger impact 
+through people who see their sign from the shore, or through people who 
+will see pictures of their event on social media? (Credit: Backbone 
+Campaign/flickr) 
+
+ 
+ 
+In a similar way, MeToo activists, including Tarana Burke herself, have sought to clarify the interweaving of different 
+aspects of the movement. She told the Harvard Gazette in 2020: 
+I think we have to be careful about what we’re calling the movement. And I think one of the things I’ve learned 
+in the last two years is that folks don’t really understand what a movement is or how it’s defined. The people 
+using the hashtag on the internet were the impetus for Me Too being put into the public sphere. The media 
+coverage of the viralness of Me Too and the people being accused are media coverage of a popular story that 
+derived from the hashtag. The movement is the work that our organization and others like us are doing to both 
+support survivors and move people to action (Walsh 2020). 
+Sociologists have identified high-risk activism, such as the civil rights movement, as a “strong-tie” phenomenon, 
+meaning that people are far more likely to stay engaged in the movement if they have close friends who are also 
+engaged. The people who dropped out of the civil rights movement—who left after the danger became too great—did not 
+display any less ideological commitment. But they lacked the strong-tie connection to other people who were staying. 
+Are interpersonal connections that are made through social media strong-tie or weak-tie connections? Sociologists 
+initially were skeptical that social media connections could be more than weak-tie “weak-tie” and such connections 
+would not encourage people to persist in high-risk activism (McAdam 1993 and Brown 2011). However, it is now more 
+obvious that connections made through social media can be as strong as other ties. For example, if people, who had for 
+years known each other only through an online group, meet in person at an event, they may feel far more connected at 
+that event and afterward than people who had never interacted before. And as we discussed in the Groups chapter, 
+social media itself, even if people never meet, can bring people into primary group status, forming stronger ties. 
+Another way to consider the impact of social media on activism is through something that may or may not be 
+emotional, has little implications regarding tie strength, and may be fleeting rather than permanent, but still be one of 
+the largest considerations of any formal social movement: money. Returning to politics, think of the massive amounts 
+of campaign money raised in each election cycle through social media. In the 2020 Presidential election and its 
+aftermath, hundreds of millions of dollars were raised through social media. Likewise, 55 percent of people who engage 
+with nonprofits through social media take some sort of action; and for 60 percent of them (or 33 percent of the total) 
+that action is to give money to support the cause (Nonprofit Source 2020). 
+Theoretical Perspectives on Social Movements 
+In previous chapters, theoretical perspectives were introduced based on broader perspectives – functionalist, conflict, 
+and symbolic interactionist perspectives. However, theories related to social movements integrate ideas across all three 
+perspectives. Most theories of social movements are called collective action theories, indicating the purposeful nature 
+of this form of collective behavior. The following three theories are but a few of the many social movement theories 
+developed by social scientists. 
+Resource Mobilization 
+McCarthy and Zald (1977) conceptualize resource mobilization theory as a way to explain movement success in terms 
+of the ability to acquire resources and mobilize individuals. They shifted the focus of researchers away from the question 
+of why people protest to how movements effectively marshal resources to achieve movement goals. Movements 
+compete for resources like money, volunteers, and social networks, and those with stronger organizational structures 
+and better access to resources are more likely to succeed. Resource mobilization theory turns our attention from the 
+angry mob or the brave hero to the resources and organizational structures that underly effective social movements. 
+Resource Mobilization and the Civil Rights Movement 
+The key ideas of resource mobilization theory can be seen in the activities of the civil rights movement in the decade 
+between the mid 1950s and the mid 1960s. Social movements had existed before, notably the Women's Suffrage 
+Movement and a long line of labor movements, thus constituting an existing social movement sector. The civil rights 
+movement had also existed well before Rosa Parks famously refused to give up her bus seat to a white man. What is 
+less well known is that Parks was a member of the NAACP and trained in leadership (A&E Television Networks, LLC. 
+
+ 
+ 
+2014). But her action that day was spontaneous and unplanned (Schmitz 2014). Her arrest triggered a public outcry 
+that led to the famous Montgomery bus boycott, turning the movement into what we now think of as the "civil rights 
+movement" (Schmitz 2014). 
+Mobilization had to begin immediately. Boycotting the bus made other means of transportation necessary, which was 
+provided through carpools. Churches and their ministers joined the struggle, and the protest organization In Friendship 
+was formed as well as The Friendly Club and the Club From Nowhere.  
+Martin Luther King Jr. emerged during 
+these events to become the charismatic 
+leader of the movement, gained respect 
+from elites in the federal government, 
+and aided by even more emerging social 
+movement organizations such as the 
+Student Non-Violent Coordinating 
+Committee (SNCC), the Congress of 
+Racial Equality (CORE), the National 
+Association for the Advancement of 
+Colored People (NAACP), and the 
+Southern Christian Leadership 
+Conference (SCLC), among others. 
+Several still exist today. Although the 
+movement in that period was an overall 
+success, and laws were changed (even if 
+not attitudes), the "movement" 
+continues. One of the victories of the Civil 
+Rights Movement was the Voting Rights 
+Act of 1965, which required jurisdictions 
+with a record history of electoral racial 
+discrimination to get federal approval 
+before revising their voting laws, a requirement known as "preclearance." Though this provision was meant to expire 
+after five years, it was repeatedly renewed by Congress with the current expiration set for 2031. However, the Supreme 
+Court's 2013 decision in Shelby County vs. Holder nullified the formula that determined which counties should be 
+subject to preclearance, ending this provision of the Voting Rights Act. The majority opinion concluded that such 
+protections were no longer needed, while the justices in dissent cautioned that the minority vote would suffer.  
+Framing/Frame Analysis 
+Sociology has come a long way from its early focus on the irrational behavior of different types of crowds. Over the past 
+several decades, sociologists have developed the concept of frames to explain how individuals identify and understand 
+social events and which norms they should follow in any given situation (Goffman 1974; Snow et al. 1986; Benford and 
+Snow 2000). Imagine entering a restaurant. Your “frame” immediately provides you with a behavior template. It 
+probably does not occur to you to wear pajamas to a fine-dining establishment, throw food at other patrons, or spit your 
+drink onto the table. However, eating food at a sleepover pizza party provides you with an entirely different behavior 
+template or frame. It might be perfectly acceptable to eat in your pajamas and maybe even throw popcorn at others or 
+guzzle drinks from cans. 
+Successful social movements use three kinds of frames (Snow and Benford 1988) to further their goals. The first type, 
+diagnostic framing, states the problem in a clear, easily understood way. When applying diagnostic frames, there are no 
+shades of gray: instead, there is the belief that what “they” do is wrong and this is how “we” will fix it. Climate change 
+activist organizations use diagnostic framing by stating that human-caused carbon emissions and reliance on fossil 
+fuels are responsible for global warming, rising sea levels, and extreme weather. Prognostic framing, the second type, 
+ 
+Figure  12.9   Resource mobilization theory applies an 
+industrial/organizational approach to highlight how diverse organizations 
+work in conjunction or in opposition to effect social change. 
+
+ 
+ 
+offers a solution and states how it will be implemented. In the climate change movement, the different solutions 
+proposed include incentivizing renewable energy sources like wind and solar, enforcing stricter carbon emission limits, 
+or implementing carbon taxes. Even within the same movement, there may be multiple prognostic frames ranging from 
+corporate accountability to international climate agreements to individual lifestyle changes. Finally, motivational 
+framing is the call to action: what should you do once you agree with the diagnostic frame and believe in the prognostic 
+frame? These frames are action-oriented. Climate activists may encourage people to attend environmental protests, 
+vote for candidates who support green policies, pressure governments to sign international treaties, or support 
+organizations working toward carbon reduction. The motivational frame presents these as necessary steps to prevent 
+environmental catastrophe.  
+With so many similar diagnostic frames, some groups find it best to join together to maximize their impact. When social 
+movements link their goals to the goals of other social movements and merge into a single group, they engage in a 
+process of “frame alignment” (Snow et al. 1986)—an ongoing and intentional means of recruiting participants to the 
+movement. 
+This frame alignment process has four aspects: bridging, amplification, extension, and transformation. Bridging 
+describes a “bridge” that connects uninvolved individuals and unorganized or ineffective groups with social movements 
+that, though structurally unconnected, nonetheless share similar interests or goals. Recent examples include the Sierra 
+Club coordinating with the NAACP to achieve a larger base of individuals concerned about environmental racism, or the 
+NRA reaching out to the U.S. Fish & Wildlife Service to broaden their recruitment of conservation-oriented individuals. 
+In the amplification model, organizations seek to expand their core ideas to gain a wider, more universal appeal. By 
+expanding their ideas to include a broader range, they can mobilize more people for their cause. For example, the Slow 
+Food movement extends its arguments in support of local food to encompass reduced energy consumption, pollution, 
+obesity from eating more healthfully, and more. 
+In extension, social movements agree to mutually promote each other, even when the two social movement 
+organization’s goals don’t necessarily relate to each other’s immediate goals. This often occurs when organizations are 
+sympathetic to each others’ causes, even if they are not directly aligned, such as women’s equal rights and the civil 
+rights movement. 
+Transformation means a complete revision of goals. Once a movement has succeeded, it risks losing relevance. If it 
+wants to remain active, the movement has to change or risk becoming obsolete. For instance, when the women’s 
+suffrage movement gained women the right to vote, members turned their attention to advocating equal rights and 
+campaigning to elect women to office. In short, transformation is an evolution in the existing diagnostic or prognostic 
+frames that generally achieves a total conversion of the movement. 
+ 
+Figure  12.10   Extension occurs when social movements have sympathetic causes. Women’s rights, racial equality, and 
+LGBT advocacy are all human rights issues. (Credit: Photos (a) and (b) Wikimedia Commons; Photo (c) Charlie 
+Nguyen/flickr) 
+
+ 
+ 
+New Social Movement Theory 
+New social movement theory, a development of European social scientists in the 1950s and 1960s, attempts to explain 
+the proliferation of postindustrial and postmodern movements that are difficult to analyze using traditional social 
+movement theories. Rather than being one specific theory, it is more of a perspective that revolves around 
+understanding movements as they relate to politics, identity, culture, and social change. Some of these more complex 
+interrelated movements include ecofeminism, which focuses on the patriarchal society as the source of environmental 
+problems, and the transgender rights movement. Sociologist Steven Buechler (2000) suggests that we should be 
+looking at the bigger picture in which these movements arise—shifting to a macro-level, global analysis of social 
+movements. 
+21.3   Social Change 
+Collective behavior and social movements are just two of the forces driving social change, which is the change in society 
+created through social movements as well as external factors. Essentially, any disruptive shift in the status quo, be it 
+intentional or random, human-caused or natural, can lead to social change. 
+Causes of Social Change 
+Throughout this text, we have discussed various causes and effects of social change. Below is a recap of some major 
+drivers, including technology, social institutions, population, and the environment. Alone or in combination, these agents 
+can disturb, improve, disrupt, or otherwise influence society. 
+Technology 
+Technology has a profound influence on society. For example, advances in medical technology allow people to live 
+longer, have more children, and survive some natural disasters or problems. Advances in agricultural technology have 
+allowed us to alter food products, which impacts our health as well as the environment. Advances in communications 
+and transportation technologies facilitated the integration of markets, manufacturers, and supply chains that drive the 
+global economy. In every case, a given technology can create beneficiaries, but that same technology—especially if it is 
+disruptive—can lead others to lose their jobs, suffer from pollution, or be monitored or victimized.  
+Though nearly everyone now owns a smartphone (Pew Research Center 2025), the digital divide between the 
+technological haves and have-nots still exists locally and globally. More pressing than access are technological risks of 
+identity theft, cyber aggression/stalking/doxing, and loss of privacy. The constant change in technology leads to an 
+almost inevitable lack of preparation for new risks on both personal and societal scales. 
+The Darker Side of Technology: Electronic Aggression in the Information Age 
+The U.S. Center for Disease Control (CDC) uses the term "electronic aggression" to describe "any type of harassment or 
+bullying that occurs through e-mail, a chat room, instant messaging, a website (including blogs), or text messaging" 
+(CDC, n.d.) We generally think of this as cyberbullying. A 2011 study by the U.S. Department of Education found that 
+27.8 percent of students aged twelve through eighteen reported experiencing bullying. From the same sample 9 percent 
+specifically reported having been a victim of cyberbullying (Robers et al. 2013). 
+Cyberbullying represents a powerful change in modern society. William F. Ogburn (1922) might have been describing it 
+nearly a century ago when he defined "cultural lag," which occurs when material culture precedes nonmaterial culture. 
+That is, society may not fully comprehend all the consequences of a new technology and so may initially reject it (such 
+as stem cell research) or embrace it, sometimes with unintended negative consequences (such as pollution). 
+Cyberbullying is a special feature of the Internet. Unique to electronic aggression is that it can happen twenty-four hours 
+a day, every day; it can reach a child (or an adult) even though she or he might otherwise feel safe in a locked house. 
+The messages and images may be posted anonymously and to a very wide audience, and they might even be 
+impossible to trace. Finally, once posted, the texts and images are very hard to delete. Its effects range from the use of 
+alcohol and drugs to lower self-esteem, health problems, and even suicide (CDC, n.d.). 
+
+ 
+ 
+Social Institutions 
+Each change in a single social institution leads to changes in all social institutions. For example, the industrialization of 
+society meant that there was no longer a need for large families to produce enough manual labor to run a farm. Further, 
+new job opportunities were in close proximity to urban centers where living space was at a premium. The result is that 
+the average family size shrunk significantly. 
+This same shift toward industrial corporate entities also changed the way we view government involvement in the 
+private sector, created the global economy, provided new political platforms, and even spurred new religions and new 
+forms of religious worship like Scientology. It has also informed the way we educate our children: originally schools were 
+set up to accommodate an agricultural calendar so children could be home to work the fields in the summer, and even 
+today, teaching models are largely based on preparing students for industrial jobs, despite that being an outdated need. 
+A shift in one area, such as industrialization, means an interconnected impact across social institutions. 
+Population 
+Population composition is changing at every level of society. Births increase in one nation and decrease in another. 
+Some families delay childbirth while others start bringing children into their folds early. Population changes can be due 
+to random external forces, like an epidemic, or shifts in other social institutions, as described above. But regardless of 
+why and how it happens, population trends have a tremendous and interrelated impact on all other aspects of society. 
+In the United States, we are experiencing an increase in our senior population as Baby Boomers retire, which will in turn 
+change the way many of our social institutions are organized. For example, there is an increased demand for housing in 
+warmer climates, a massive shift in the need for elder care and assisted living facilities, and growing incidence of elder 
+abuse. Retiring Boomers may also lead to labor or expertise shortages, and healthcare costs will increase to become a 
+larger and larger portion of our economy. 
+Globally, often the countries with the highest fertility rates are least able to absorb and attend to the needs of a growing 
+population. Family planning is a large step in ensuring that families are not burdened with more children than they can 
+Sociology in the Real World 
+Hurricane Katrina: When It All Comes Together 
+The four key elements that affect social change that are described in this chapter are the environment, technology, 
+social institutions, and population. In 2005, New Orleans was struck by a devastating hurricane. But it was not just 
+the hurricane that was disastrous. It was the converging of all four of these elements, and the text below will connect 
+the elements by putting the words in parentheses. 
+Before Hurricane Katrina (environment) hit, poorly coordinated evacuation efforts had left about 25 percent of the 
+population, almost entirely African Americans who lacked private transportation, to suffer the consequences of the 
+coming storm (demographics). Then "after the storm, when the levees broke, thousands more [refugees] came. And 
+the city buses, meant to take them to proper shelters, were underwater" (Sullivan 2005). No public transportation 
+was provided, drinking water and communications were delayed, and FEMA, the Federal Emergency Management 
+Agency (institutions), was headed by an appointee with no real experience in emergency management. Those who 
+were eventually evacuated did not know where they were being sent or how to contact family members. African 
+Americans were sent the farthest from their homes. When the displaced began to return, public housing had not 
+been reestablished, yet the Superdome stadium, which had served as a temporary disaster shelter, had been rebuilt. 
+Homeowners received financial support, but renters did not. 
+As it turns out, it was not entirely the hurricane that cost the lives of 1,500 people, but the fact that the city’s storm 
+levees (technology), which had been built too low and which failed to meet numerous other safety specifications, 
+gave way, flooding the lower portions of the city, occupied almost entirely by African Americans. 
+
+ 
+ 
+care for. On a macro level, the increased population, particularly in the poorest parts of the globe, also leads to 
+increased stress on the planet’s resources. 
+The Environment 
+Changes in the environment and our interaction with it can have promising or devastating effects. Access to safe water 
+is a primary determinant of health and prosperity. And as human populations expand in more vulnerable areas while 
+natural disasters occur with more frequency, we see an increase in the number of people affected by those disasters. 
+Overall health and wellbeing are deeply affected by the environment even in urbanized areas. Many types of cancers, 
+which are collectively the leading cause of death in higher-income countries, have environmental influences (Mahase 
+2019). 
+ 
+Modernization 
+Modernization describes the processes that increase the amount of specialization and differentiation of structure in 
+societies resulting in the move from an undeveloped society to a developed, technologically driven society (Irwin 1975). 
+By this definition, the level of modernity within a society is judged by the sophistication of its technology, particularly as 
+it relates to infrastructure, industry, and the like. However, it is important to note the inherent ethnocentric bias of such 
+assessment. Why do we assume that those living in semi-peripheral and peripheral nations would find it so wonderful to 
+become more like the core nations? Is modernization always positive? 
+One contradiction of all kinds of technology is that they often promise time-saving benefits, but somehow fail to deliver. 
+How many times have you ground your teeth in frustration at an Internet site that refused to load or at a dropped call on 
+your cell phone? Despite time-saving devices such as dishwashers, washing machines, and, now, remote control 
+vacuum cleaners, the average amount of time spent on housework is the same today as it was fifty years ago. And the 
+dubious benefits of 24/7 e-mail and immediate information have simply increased the amount of time employees are 
+expected to be responsive and available. While once businesses had to travel at the speed of the U.S. postal system, 
+sending something off and waiting until it was received before the next stage, today the immediacy of information 
+transfer means there are no such breaks. 
+Further, the Internet bought us information, but at a cost. The morass of information means that there is as much poor 
+information available as trustworthy sources. There is a delicate line to walk when core nations seek to bring the 
+assumed benefits of modernization to more traditional cultures. For one, it is short-sighted for western governments and 
+social scientists to assume all other countries aspire to follow in their footsteps. At the same time, romantic ideals of 
+rural cultures uncontaminated by modernity and capitalism may downplay the often crushing poverty and diseases that 
+exist in peripheral nations. Sociologists and social scientists approach the study of social change in very carefully to 
+understand both the need for cultural identity and preservation as well as the hopes for future growth. 
+ 
+Key Terms 
+assembling perspective: a theory that credits individuals in crowds as behaving as rational thinkers and views crowds as 
+engaging in purposeful behavior and collective action 
+collective behavior: a noninstitutionalized activity in which several people voluntarily engage 
+crowd: a fairly large number of people who share close proximity 
+diagnostic framing: a social problem that is stated in a clear, easily understood manner 
+emergent norm theory: a perspective that emphasizes the importance of social norms in crowd behavior 
+flash mob: a large group of people who gather together in a spontaneous activity that lasts a limited amount of time 
+
+ 
+ 
+frame alignment process: using bridging, amplification, extension, and transformation as an ongoing and intentional 
+means of recruiting participants to a movement 
+mass: a relatively large group with a common interest, even if they may not be in close proximity 
+modernization: the process that increases the amount of specialization and differentiation of structure in societies 
+motivational framing: a call to action 
+new social movement theory: a theory that attempts to explain the proliferation of postindustrial and postmodern 
+movements that are difficult to understand using traditional social movement theories 
+NGO: nongovernmental organizations working globally for numerous humanitarian and environmental causes 
+prognostic framing: social movements that state a clear solution and a means of implementation 
+public: an unorganized, relatively diffuse group of people who share ideas 
+resource mobilization theory: a theory that explains social movements’ success in terms of their ability to acquire 
+resources and mobilize individuals 
+social change: the change in a society created through social movements as well as through external factors like 
+environmental shifts or technological innovations 
+social movement: a purposeful organized group hoping to work toward a common social goal 
+social movement organization: a single social movement group 
+social movement sector: the multiple social movement industries in a society, even if they have widely varying 
+constituents and goals 
+value-added theory: a functionalist perspective theory that posits that several preconditions must be in place for 
+collective behavior to occur 
+ 
+References 
+Introduction   
+AFL-CIO. 2014. "Executive Paywatch." Retrieved December 17, 2014 (http://www.aflcio.org/Corporate-
+Watch/Paywatch-2014). 
+Castells, Manuel. 2012. Networks of Outrage and Hope: Social Movements in the Internet Age. Cambridge, UK: Polity. 
+Congressional Budget Office, Sept 2024, Trends in the Distribution of Household Income From 1979 to 2021. Accessed 
+at https://www.cbo.gov/system/files/2024-09/60342-Trends-Income.pdf 
+Davies, James C. 1962. "Toward a Theory of Revolution." American Sociological Review 27, no. 1. Retrieved December 
+17, 2014 
+(http://www.jstor.org/discover/2089714?sid=21104884442891&uid=3739256&uid=3739704&uid=4&uid=2
+). 
+Gell, Aaron. 2011. "The Wall Street Protesters: What the Hell Do They Want?" New York Observer. Retrieved December 
+17, 2014 (http://observer.com/2011/09/the-wall-street-protesters-what-the-hell-do-they-want/). 
+Le Tellier, Alexandria. 2012. "What Occupy Wall Street Wants." Los Angeles Times. Retrieved December 17, 2014 
+(http://articles.latimes.com/2012/sep/17/news/la-ol-occupy-wall-street-anniversary-message-20120917). 
+
+ 
+ 
+NAACP. 2011. “100 Years of History.” Retrieved December 21, 2011 (http://www.naacp.org/pages/naacp-history). 
+12.1   Collective Behavior 
+Blumer, Herbert. 1969. “Collective Behavior.” Pp. 67–121 in Principles of Sociology, edited by A.M. Lee. New York: 
+Barnes and Noble. 
+LeBon, Gustave. 1960 [1895]. The Crowd: A Study of the Popular Mind. New York: Viking Press. 
+Lofland, John. 1993. “Collective Behavior: The Elementary Forms.” Pp. 70–75 in Collective Behavior and Social 
+Movements, edited by Russel Curtis and Benigno Aguirre. Boston: Allyn and Bacon. 
+McPhail, Clark. 1991. The Myth of the Madding Crowd. New York: Aldine de Gruyter. 
+Smelser, Neil J. 1963. Theory of Collective Behavior. New York: Free Press. 
+Turner, Ralph, and Lewis M. Killian. 1993. Collective Behavior. 4th ed. Englewood Cliffs, N. J., Prentice Hall. 
+12.2   Social Movements 
+A&E Television Networks, LLC. 2014. "Civil Rights Movement." Retrieved December 17, 2014 
+(http://www.history.com/topics/black-history/civil-rights-movement). 
+Aberle, David. 1966. The Peyote Religion among the Navaho. Chicago: Aldine. 
+AP/The Huffington Post. 2014. "Obama: DOMA Unconstitutional, DOJ Should Stop Defending in Court." The Huffington 
+Post. Retrieved December 17, 2014. (http://www.huffingtonpost.com/2011/02/23/obama-doma-
+unconstitutional_n_827134.html). 
+Associated Press. 2021. "Arkansas governor signs bill allowing denial of medical services based on 'conscience'" The 
+Associated Press. March 26, 2021. (https://www.thv11.com/article/news/politics/arkansas-governor-bill-
+allowing-denial-medical-services-conscience/91-f4321c47-f6b1-4325-a18a-13a89ba98c7c) 
+Area Chicago. 2011. “About Area Chicago.” Retrieved December 28, 2011 (http://www.areachicago.org). 
+Benford, Robert, and David Snow. 2000. “Framing Processes and Social Movements: An Overview and Assessment.” 
+Annual Review of Sociology 26:611–639. 
+Blumer, Herbert. 1969. “Collective Behavior.” Pp. 67–121 in Principles of Sociology, edited by A.M. Lee. New York: 
+Barnes and Noble. 
+Buechler, Steven. 2000. Social Movement in Advanced Capitalism: The Political Economy and Social Construction of 
+Social Activism. New York: Oxford University Press. 
+Brown, Eileen. 2011. "Strong and Weak Ties: Why Your Weak Ties Matter." Social Media Today. June 30 2011. 
+(https://www.socialmediatoday.com/content/strong-and-weak-ties-why-your-weak-ties-matter) 
+CNN U.S. 2014. "Same-Sex Marriage in the United States." Retrieved December 17, 2014 
+(http://www.cnn.com/interactive/us/map-same-sex-marriage/). 
+CBS Interactive Inc. 2014. "Anonymous' Most Memorable Hacks." Retrieved December 17, 2014 
+(http://www.cbsnews.com/pictures/anonymous-most-memorable-hacks/9/). 
+Department of Justice, Office of Public Affairs. 2011. "Letter from the Attorney General to Congress on Litigation 
+Involving the Defense of Marriage Act." Retrieved December 17, 2014 (http://www.justice.gov/opa/pr/letter-
+attorney-general-congress-litigation-involving-defense-marriage-act). 
+De Alba, Simone. 2021. "Representative who filed Texit bill clears up what he means." News 4 San Antonio. February 2 
+2021. (https://news4sanantonio.com/news/local/representative-who-filed-texit-bill-clears-up-what-it-means) 
+
+ 
+ 
+Gladwell, Malcolm. 2010. “Small Change: Why the Revolution Will Not Be Tweeted.” The New Yorker, October 4. 
+Retrieved December 23, 2011 
+(http://www.newyorker.com/reporting/2010/10/04/101004fa_fact_gladwell?currentPage=all). 
+Goffman, Erving. 1974. Frame Analysis: An Essay on the Organization of Experience. Cambridge, MA: Harvard University 
+Press. 
+Human Rights Campaign. 2011. Retrieved December 28, 2011 (http://www.hrc.org). 
+Knowledge at Wharton. 2020. "How Social Media Is Shaping Political Campaigns." Knowledge@Wharton. August 17 
+2020. (https://knowledge.wharton.upenn.edu/article/how-social-media-is-shaping-political-campaigns/) 
+McAdam, Doug, and Ronnelle Paulsen. 1993. “Specifying the Relationship between Social Ties and Activism.” American 
+Journal of Sociology 99:640–667. 
+McCarthy, John D., and Mayer N. Zald. 1977. “Resource Mobilization and Social Movements: A Partial Theory.” American 
+Journal of Sociology 82:1212–1241. 
+National Organization for Marriage. 2014. “About NOM.” Retrieved January 28, 2012 
+(http://www.nationformarriage.org). 
+Nonprofit Source. 2020. "Social Media Giving Statistics for Nonprofits." Retrieved April 1, 2021. 
+(https://nonprofitssource.com/online-giving-statistics/social-media/) 
+Sauter, Theresa, and Gavin Kendall. 2011. "Parrhesia and Democracy: Truthtelling, WikiLeaks and the Arab Spring." 
+Social Alternatives 30, no.3: 10–14. 
+Schmitz, Paul. 2014. "How Change Happens: The Real Story of Mrs. Rosa Parks & the Montgomery Bus Boycott." 
+Huffington Post. Retrieved December 17, 2014 (http://www.huffingtonpost.com/paul-schmitz/how-change-
+happens-the-re_b_6237544.html). 
+Slow Food. 2011. “Slow Food International: Good, Clean, and Fair Food.” Retrieved December 28, 2011 
+(http://www.slowfood.com). 
+Snow, David, E. Burke Rochford, Jr., Steven , and Robert Benford. 1986. “Frame Alignment Processes, 
+Micromobilization, and Movement Participation.” American Sociological Review 51:464–481. 
+Snow, David A., and Robert D. Benford 1988. “Ideology, Frame Resonance, and Participant Mobilization.” International 
+Social Movement Research 1:197–217. 
+Technopedia. 2014. "Anonymous." Retrieved December 17, 2014 
+(http://www.techopedia.com/definition/27213/anonymous-hacking). 
+Texas Secede! 2009. “Texas Secession Facts.” Retrieved December 28, 2011 (http://www.texassecede.com). 
+Tilly, Charles. 1978. From Mobilization to Revolution. New York: Mcgraw-Hill College. 
+Wagenseil, Paul. 2011. "Anonymous 'hacktivists' attack Egyptian websites." NBC News. Retrieved December 17, 2014 
+(http://www.nbcnews.com/id/41280813/ns/technology_and_science-security/t/anonymous-hacktivists-attack-
+egyptian-websites/#.VJHmuivF-Sq). 
+Walsh, Colleen. 2020. "MeToo Founder Discusses Where We Go From Here." The Harvard Gazette. February 21 2020. 
+(https://news.harvard.edu/gazette/story/2020/02/me-too-founder-tarana-burke-discusses-where-we-go-from-
+here/) 
+12.3   Social Change 
+350.org. 2014. "350.org." Retrieved December 18, 2014 (http://350.org/). 
+
+ 
+ 
+ABC News. 2007. "Parents: Cyber Bullying Led to Teen's Suicide." Retrieved December 18, 2014 
+(http://abcnews.go.com/GMA/story?id=3882520). 
+CBS News. 2011. “Record Year for Billion Dollar Disasters.” CBS News, Dec 11. Retrieved December 26, 2011 
+(http://www.cbsnews.com/8301-201_162-57339130/record-year-for-billion-dollar-disasters). 
+Center for Biological Diversity. 2014. "The Extinction Crisis. Retrieved December 18, 2014 
+(http://www.biologicaldiversity.org/programs/biodiversity/elements_of_biodiversity/extinction_crisis/). 
+Centers for Disease Control and Prevention (CDC). n.d. "Technology and Youth: Protecting your Children from Electronic 
+Aggression: Tip Sheet." Retrieved December 18, 2014 (http://www.cdc.gov/violenceprevention/pdf/ea-tipsheet-
+a.pdf). 
+Freidman, Thomas. 2005. The World Is Flat: A Brief History of the 21st Century. New York, NY: Farrar, Strauss, and 
+Giroux. 
+Irwin, Patrick. 1975. “An Operational Definition of Societal Modernization.” Economic Development and Cultural Change 
+23:595–613. 
+Klein, Naomi. 2008. The Shock Doctrine: The Rise of Disaster Capitalism. New York: Picador. 
+Kolbert, Elizabeth. 2014. The Sixth Extinction. New York: Henry Holt and Co. 
+Mahase, Elisabeth. 2019. "Cancer overtakes CVD to become leading cause of death in high income countries" The BMJ. 
+September 3 2019. (https://www.bmj.com/content/366/bmj.l5368) 
+Miller, Laura. 2010. “Fresh Hell: What’s Behind the Boom in Dystopian Fiction for Young Readers?” The New Yorker, June 
+14. Retrieved December 26, 2011 
+(http://www.newyorker.com/arts/critics/atlarge/2010/06/14/100614crat_atlarge_miller). 
+Mullins, Dexter. 2014. "New Orleans to Be Home to Nation's First All-Charter School District." Al Jazeera America. 
+Retrieved December 18, 2014 (http://america.aljazeera.com/articles/2014/4/4/new-orleans-
+charterschoolseducationreformracesegregation.html). 
+Robers, Simone, Jana Kemp, Jennifer, Truman, and Thomas D. Snyder. 2013. Indicators of School Crime and Safety: 
+2012. National Center for Education Statistics, U.S. Department of Education, and Bureau of Justice Statistics, 
+Office of Justice Programs, U.S. Department of Justice: Washington, DC. Retrieved December 17, 2014 
+(http://nces.ed.gov/pubs2013/2013036.pdf). 
+Sullivan, Melissa. 2005. "How New Orleans' Evacuation Plan Fell Apart." NPR. Retrieved December 18, 2014 
+(http://www.npr.org/templates/story/story.php?storyId=4860776). 
+Wikia. 2014. "List of Environmental Organizations." Retrieved December 18, 2014 
+(http://green.wikia.com/wiki/List_of_Environmental_organizations).
