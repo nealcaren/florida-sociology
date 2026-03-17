@@ -2,27 +2,29 @@
   "chapter": 12,
   "title": "Gender, Sex, and Sexuality",
   "florida_title": null,
-  "original_chapters": [12],
-  "summary": "The entire chapter on Gender, Sex, and Sexuality was removed from the Florida version. The original chapter — approximately 1,550 lines — covered sex and gender as distinct concepts, gender identity and expression, gender inequality, and sexuality, including sexual orientation and societal attitudes toward LGBTQ+ individuals.\n\nThe removed content included the distinction between sex and gender, discussion of transgender and nonbinary identities, the social construction of gender, gender inequality in the workplace and education, the history of the women's movement, sexual orientation and identity, and theoretical perspectives on gender and sexuality. The term \"gender identity\" does not appear anywhere in the Florida version, and \"transgender\" appears only once in passing (in the health chapter).\n\nThis removal eliminates the sociological framework for understanding gender as a social institution, how gender norms are constructed and enforced, and the experiences of women and LGBTQ+ people. Gender is one of the most fundamental organizing principles of social life, and its absence from the Florida textbook represents a major gap in students' sociological education.",
+  "original_chapters": [
+    12
+  ],
+  "summary": "The entire chapter on Gender, Sex, and Sexuality was removed from the Florida version. The original, approximately 1,550 lines, covered sex and gender as distinct concepts, gender identity and expression, gender inequality, and sexuality, including sexual orientation and societal attitudes toward LGBTQ+ individuals.\n\nThe removed content included the distinction between sex and gender, discussion of transgender and nonbinary identities, the social construction of gender, gender inequality in the workplace and education, the history of the women's movement, sexual orientation and identity, and theoretical perspectives on gender and sexuality. The term \"gender identity\" does not appear anywhere in the Florida version, and \"transgender\" appears only once in passing (in the health chapter).\n\nGender is one of the most fundamental organizing principles of social life, and its absence from the Florida textbook represents a major gap in students' sociological education.",
   "changes": [
     {
       "type": "removed",
       "section": "12.1",
-      "original_text": "12.1 Sex, Gender, Identity, and Expression — This entire section distinguishing biological sex from gender identity, discussing transgender and nonbinary identities, and exploring how gender is socially constructed was removed.",
+      "original_text": "12.1 Sex, Gender, Identity, and Expression \u2014 This entire section distinguishing biological sex from gender identity, discussing transgender and nonbinary identities, and exploring how gender is socially constructed was removed.",
       "florida_text": null,
       "context": "Complete section removal. Established foundational concepts of sex vs. gender, gender identity, gender expression, and the social construction of gender roles."
     },
     {
       "type": "removed",
       "section": "12.2",
-      "original_text": "12.2 Gender and Gender Inequality — This entire section on the gender pay gap, workplace discrimination, sexual harassment, women in politics, and the women's movement was removed.",
+      "original_text": "12.2 Gender and Gender Inequality \u2014 This entire section on the gender pay gap, workplace discrimination, sexual harassment, women in politics, and the women's movement was removed.",
       "florida_text": null,
       "context": "Complete section removal. Covered structural gender inequality in employment, education, and politics, as well as the history of feminism."
     },
     {
       "type": "removed",
       "section": "12.3",
-      "original_text": "12.3 Sexuality — This entire section on sexual orientation, the history of LGBTQ+ rights, same-sex marriage, homophobia, and theoretical perspectives on sexuality was removed.",
+      "original_text": "12.3 Sexuality \u2014 This entire section on sexual orientation, the history of LGBTQ+ rights, same-sex marriage, homophobia, and theoretical perspectives on sexuality was removed.",
       "florida_text": null,
       "context": "Complete section removal. Covered the Kinsey scale, sexual orientation as a continuum, the history of LGBTQ+ rights movements, and the sociological study of sexuality."
     }

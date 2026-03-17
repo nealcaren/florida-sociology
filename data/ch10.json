@@ -2,27 +2,29 @@
   "chapter": 10,
   "title": "Global Inequality",
   "florida_title": null,
-  "original_chapters": [10],
-  "summary": "The entire chapter on Global Inequality was removed from the Florida version. The original chapter examined how wealth and poverty are distributed across nations, the classification of countries by development level, and the theoretical frameworks for understanding why global inequality persists.\n\nThe removed content covered global stratification systems, the distinction between high-income, middle-income, and low-income countries, global wealth and poverty statistics, the impact of colonialism and neocolonialism on global inequality, and competing theoretical perspectives (modernization theory, dependency theory, and world-systems analysis). Students using the Florida version receive no dedicated instruction on global inequality — a central concern of contemporary sociology.",
+  "original_chapters": [
+    10
+  ],
+  "summary": "The entire chapter on Global Inequality was removed from the Florida version. The original examined how wealth and poverty are distributed across nations, how countries are classified by development level, and why global inequality persists.\n\nThe removed content covered global stratification systems, the distinction between high-income, middle-income, and low-income countries, the impact of colonialism and neocolonialism on global inequality, and competing theoretical perspectives (modernization theory, dependency theory, and world-systems analysis). Students using the Florida version receive no dedicated instruction on global inequality.",
   "changes": [
     {
       "type": "removed",
       "section": "10.1",
-      "original_text": "10.1 Global Stratification and Classification — This entire section on how nations are classified by income level and development indicators was removed.",
+      "original_text": "10.1 Global Stratification and Classification \u2014 This entire section on how nations are classified by income level and development indicators was removed.",
       "florida_text": null,
       "context": "Complete section removal. Covered the World Bank classification system, GNI per capita, and how different nations experience stratification."
     },
     {
       "type": "removed",
       "section": "10.2",
-      "original_text": "10.2 Global Wealth and Poverty — This entire section on the distribution of global wealth, extreme poverty, subjugation of women, and slavery was removed.",
+      "original_text": "10.2 Global Wealth and Poverty \u2014 This entire section on the distribution of global wealth, extreme poverty, subjugation of women, and slavery was removed.",
       "florida_text": null,
       "context": "Complete section removal. Covered global poverty statistics, consequences of poverty, and interconnections between global inequality and other social issues."
     },
     {
       "type": "removed",
       "section": "10.3",
-      "original_text": "10.3 Theoretical Perspectives on Global Stratification — This entire section covering modernization theory, dependency theory, and world-systems analysis was removed.",
+      "original_text": "10.3 Theoretical Perspectives on Global Stratification \u2014 This entire section covering modernization theory, dependency theory, and world-systems analysis was removed.",
       "florida_text": null,
       "context": "Complete section removal. Included critical analysis of colonialism's role in creating global inequality and ongoing neocolonial economic relationships."
     }

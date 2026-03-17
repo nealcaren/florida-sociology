@@ -14,7 +14,7 @@
       "severity": "major",
       "change_count": 18,
       "status": "modified",
-      "summary_short": "The Florida version of Chapter 1 makes several significant deletions and rewrites that together remove politically sensitive content while preserving the chapter's basic structure. The most consequent",
+      "summary_short": "The Florida version's most consequential changes fall in Section 1.3, where the entire discussion of critical theory, feminist theory, and critical race theory is deleted from both the main text and t",
       "data_file": "ch01.json"
     },
     {
@@ -24,7 +24,7 @@
       "severity": "major",
       "change_count": 16,
       "status": "modified",
-      "summary_short": "The Florida version of Chapter 2 makes several substantive changes that collectively suppress critical and feminist perspectives in sociological research. Most significantly, the entire \"Critical Soci",
+      "summary_short": "The Florida version's most significant deletion is the entire \"Critical Sociology\" subsection, which explained how scholars including the Frankfurt School and Karl Marx understood research as embedded",
       "data_file": "ch02.json"
     },
     {
@@ -34,7 +34,7 @@
       "severity": "major",
       "change_count": 28,
       "status": "modified",
-      "summary_short": "The Florida version merges original Chapters 3 (Culture) and 4 (Society and Social Interaction) into a single chapter. The merger is accompanied by substantial condensation: many illustrative sidebars",
+      "summary_short": "The Florida version merges original Chapters 3 (Culture) and 4 (Society and Social Interaction) into a single chapter, with substantial condensation: many illustrative sidebars, narrative vignettes, a",
       "data_file": "ch03.json"
     },
     {
@@ -44,7 +44,7 @@
       "severity": "major",
       "change_count": 1,
       "status": "removed",
-      "summary_short": "This chapter was merged into Florida Chapter 3: Culture and Society. See Chapter 3 for a detailed comparison of what content was retained, modified, or removed from the merger of Chapters 3 and 4.",
+      "summary_short": "This chapter was merged into Florida Chapter 3 (Culture and Society). See Chapter 3 for a detailed comparison of what content was retained, modified, or removed.",
       "data_file": "ch04.json"
     },
     {
@@ -54,7 +54,7 @@
       "severity": "major",
       "change_count": 15,
       "status": "modified",
-      "summary_short": "The Florida version makes a significant and ideologically revealing change at the very start of the chapter: the protagonist Noel, who uses they/them pronouns throughout the OpenStax original, is reas",
+      "summary_short": "The most politically charged change in the Florida version appears at the very start of the chapter: the protagonist Noel, who uses they/them pronouns throughout the OpenStax original, is reassigned f",
       "data_file": "ch05.json"
     },
     {
@@ -64,7 +64,7 @@
       "severity": "major",
       "change_count": 21,
       "status": "modified",
-      "summary_short": "The Florida edition of this chapter makes numerous substantive changes relative to the OpenStax original. The most significant editorial pattern is the removal or softening of language that names spec",
+      "summary_short": "The Florida edition's most significant editorial pattern is removing or softening language that names specific incidents of racism, sexism, or political controversy. Several passages have been deleted",
       "data_file": "ch06.json"
     },
     {
@@ -74,7 +74,7 @@
       "severity": "major",
       "change_count": 17,
       "status": "modified",
-      "summary_short": "The Florida version makes substantial revisions to the chapter's framing of race, systemic inequality, and controversial social topics. Most notably, the original chapter's detailed, named accounts of",
+      "summary_short": "The Florida version's most significant deletion is the passage naming Eric Garner, Breonna Taylor, and George Floyd as victims of police killings. The original stated plainly that none of the officers",
       "data_file": "ch07.json"
     },
     {
@@ -84,7 +84,7 @@
       "severity": "major",
       "change_count": 4,
       "status": "removed",
-      "summary_short": "The entire chapter on Media and Technology was removed from the Florida version. The original chapter covered technology's role in society, the digital divide, media's influence on socialization and c",
+      "summary_short": "The entire chapter on Media and Technology was removed from the Florida version. The original covered technology's role in society, the digital divide, media consolidation, net neutrality, and theoret",
       "data_file": "ch08.json"
     },
     {
@@ -94,7 +94,7 @@
       "severity": "major",
       "change_count": 4,
       "status": "removed",
-      "summary_short": "The entire chapter on Social Stratification in the United States was removed from the Florida version. The original chapter provided a comprehensive introduction to how society is organized into hiera",
+      "summary_short": "The entire chapter on Social Stratification in the United States was removed from the Florida version. The original introduced how society is organized into hierarchical layers based on wealth, power,",
       "data_file": "ch09.json"
     },
     {
@@ -104,7 +104,7 @@
       "severity": "major",
       "change_count": 3,
       "status": "removed",
-      "summary_short": "The entire chapter on Global Inequality was removed from the Florida version. The original chapter examined how wealth and poverty are distributed across nations, the classification of countries by de",
+      "summary_short": "The entire chapter on Global Inequality was removed from the Florida version. The original examined how wealth and poverty are distributed across nations, how countries are classified by development l",
       "data_file": "ch10.json"
     },
     {
@@ -114,7 +114,7 @@
       "severity": "major",
       "change_count": 5,
       "status": "removed",
-      "summary_short": "The entire chapter on Race and Ethnicity was removed from the Florida version. This is among the most significant removals in the textbook. The original chapter \u2014 one of the longest in the book at app",
+      "summary_short": "The entire chapter on Race and Ethnicity was removed from the Florida version. This is among the most significant removals in the textbook. The original, one of the longest chapters at approximately 1",
       "data_file": "ch11.json"
     },
     {
@@ -124,7 +124,7 @@
       "severity": "major",
       "change_count": 3,
       "status": "removed",
-      "summary_short": "The entire chapter on Gender, Sex, and Sexuality was removed from the Florida version. The original chapter \u2014 approximately 1,550 lines \u2014 covered sex and gender as distinct concepts, gender identity a",
+      "summary_short": "The entire chapter on Gender, Sex, and Sexuality was removed from the Florida version. The original, approximately 1,550 lines, covered sex and gender as distinct concepts, gender identity and express",
       "data_file": "ch12.json"
     },
     {
@@ -144,7 +144,7 @@
       "severity": "major",
       "change_count": 16,
       "status": "modified",
-      "summary_short": "Florida Chapter 9 merges two full original chapters \u2014 Chapter 14 (Relationships, Marriage, and Family) and Chapter 18 (Work and the Economy) \u2014 into a single condensed chapter. Both halves are signific",
+      "summary_short": "Florida Chapter 9 merges two full original chapters into a single condensed chapter: Chapter 14 (Relationships, Marriage, and Family) and Chapter 18 (Work and the Economy). Both halves are significant",
       "data_file": "ch14.json"
     },
     {
@@ -154,7 +154,7 @@
       "severity": "major",
       "change_count": 29,
       "status": "modified",
-      "summary_short": "Florida Chapter 10 compresses three full original chapters\u2014Chapter 15 (Religion), Chapter 16 (Education), and Chapter 17 (Government and Politics)\u2014into a single, substantially shorter chapter. The com",
+      "summary_short": "Florida Chapter 10 compresses three full original chapters into a single, substantially shorter chapter: Chapter 15 (Religion), Chapter 16 (Education), and Chapter 17 (Government and Politics). The co",
       "data_file": "ch15.json"
     },
     {
@@ -164,7 +164,7 @@
       "severity": "major",
       "change_count": 1,
       "status": "removed",
-      "summary_short": "This chapter was merged into Florida Chapter 10: Public Institutions: Religion, Education, and Government. The standalone chapter on education was eliminated and its content compressed into a single c",
+      "summary_short": "This chapter was merged into Florida Chapter 10 (Public Institutions: Religion, Education, and Government). The standalone chapter on education was eliminated and its content compressed into a single ",
       "data_file": "ch16.json"
     },
     {
@@ -174,7 +174,7 @@
       "severity": "major",
       "change_count": 1,
       "status": "removed",
-      "summary_short": "This chapter was merged into Florida Chapter 10: Public Institutions: Religion, Education, and Government. The standalone chapter on government and politics \u2014 covering power, authority, forms of gover",
+      "summary_short": "This chapter was merged into Florida Chapter 10 (Public Institutions: Religion, Education, and Government). The standalone chapter on government and politics was eliminated and compressed alongside re",
       "data_file": "ch17.json"
     },
     {
@@ -184,7 +184,7 @@
       "severity": "major",
       "change_count": 1,
       "status": "removed",
-      "summary_short": "This chapter was merged into Florida Chapter 9: Private Institutions: Family and Work. The standalone chapter on work and the economy \u2014 covering economic systems, globalization, and work in the United",
+      "summary_short": "This chapter was merged into Florida Chapter 9 (Private Institutions: Family and Work). The standalone chapter on work and the economy was eliminated and compressed alongside marriage and family. See ",
       "data_file": "ch18.json"
     },
     {
@@ -194,7 +194,7 @@
       "severity": "major",
       "change_count": 17,
       "status": "modified",
-      "summary_short": "The Florida version of this chapter makes numerous substantive changes that soften or remove political criticism of U.S. COVID-19 policy, eliminate content on socioeconomic and racial health dispariti",
+      "summary_short": "The Florida version makes substantive changes that soften or remove political criticism of U.S. COVID-19 policy, eliminate content on socioeconomic and racial health disparities, remove a sidebar on b",
       "data_file": "ch19.json"
     },
     {
@@ -204,7 +204,7 @@
       "severity": "major",
       "change_count": 21,
       "status": "modified",
-      "summary_short": "The Florida version of this chapter drops \"and the Environment\" from the title and makes substantive cuts throughout, most significantly by removing the entire \"Environmental Racism\" section from 20.3",
+      "summary_short": "The Florida version drops \"and the Environment\" from the title and makes substantive cuts throughout, most significantly by removing the entire \"Environmental Racism\" section from 20.3. That section c",
       "data_file": "ch20.json"
     },
     {
@@ -214,7 +214,7 @@
       "severity": "major",
       "change_count": 22,
       "status": "modified",
-      "summary_short": "The Florida version of this chapter makes numerous substantive changes to the OpenStax original, ranging from tonal softening to outright removal of politically charged content. The most significant d",
+      "summary_short": "The Florida version ranges from tonal softening to outright removal of politically charged content. The most significant deletions involve passages that explicitly critique state violence, racial inju",
       "data_file": "ch21.json"
     }
   ]

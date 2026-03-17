@@ -2,41 +2,43 @@
   "chapter": 11,
   "title": "Race and Ethnicity",
   "florida_title": null,
-  "original_chapters": [11],
-  "summary": "The entire chapter on Race and Ethnicity was removed from the Florida version. This is among the most significant removals in the textbook. The original chapter — one of the longest in the book at approximately 1,600 lines — provided comprehensive coverage of racial and ethnic groups, theoretical perspectives on race, prejudice and discrimination, intergroup relationships, and the specific experiences of racial and ethnic groups in the United States.\n\nThe removed content included definitions of race as a social construct, the history of racial classification, institutional racism, the experiences of Native Americans, African Americans, Asian Americans, Hispanic Americans, and other groups in the United States, discussion of the civil rights movement, affirmative action, colorism, and contemporary racial inequality. Terms like \"systemic racism\" and \"institutional discrimination\" do not appear anywhere in the Florida version.\n\nThe elimination of this chapter removes the sociological framework students need to understand how race operates as a social institution in the United States. Without it, students have no structured exposure to concepts like prejudice, discrimination, segregation, or the sociological analysis of racial inequality — topics that are central to the discipline of sociology.",
+  "original_chapters": [
+    11
+  ],
+  "summary": "The entire chapter on Race and Ethnicity was removed from the Florida version. This is among the most significant removals in the textbook. The original, one of the longest chapters at approximately 1,600 lines, provided comprehensive coverage of racial and ethnic groups, theoretical perspectives on race, prejudice and discrimination, intergroup relationships, and the specific experiences of racial and ethnic groups in the United States.\n\nThe removed content included definitions of race as a social construct, the history of racial classification, institutional racism, the experiences of Native Americans, African Americans, Asian Americans, Hispanic Americans, and other groups in the United States, the civil rights movement, affirmative action, colorism, and contemporary racial inequality. Terms like \"systemic racism\" and \"institutional discrimination\" do not appear anywhere in the Florida version.\n\nWithout this chapter, students have no structured exposure to concepts like prejudice, discrimination, segregation, or the sociological analysis of racial inequality, topics central to the discipline of sociology.",
   "changes": [
     {
       "type": "removed",
       "section": "11.1",
-      "original_text": "11.1 Racial, Ethnic, and Minority Groups — This entire section defining race as a social construct, explaining the difference between race and ethnicity, and discussing minority group status was removed.",
+      "original_text": "11.1 Racial, Ethnic, and Minority Groups \u2014 This entire section defining race as a social construct, explaining the difference between race and ethnicity, and discussing minority group status was removed.",
       "florida_text": null,
-      "context": "Complete section removal. Established that race is socially constructed rather than biologically determined — a foundational concept in sociology."
+      "context": "Complete section removal. Established that race is socially constructed rather than biologically determined \u2014 a foundational concept in sociology."
     },
     {
       "type": "removed",
       "section": "11.2",
-      "original_text": "11.2 Theoretical Perspectives on Race and Ethnicity — This entire section applying functionalist, conflict, and interactionist perspectives to race and ethnicity was removed.",
+      "original_text": "11.2 Theoretical Perspectives on Race and Ethnicity \u2014 This entire section applying functionalist, conflict, and interactionist perspectives to race and ethnicity was removed.",
       "florida_text": null,
       "context": "Complete section removal. Included discussion of how racial inequality functions as a social system and how it is maintained through institutions."
     },
     {
       "type": "removed",
       "section": "11.3",
-      "original_text": "11.3 Prejudice, Discrimination, and Racism — This entire section defining and analyzing prejudice, stereotypes, discrimination, institutional racism, and colorism was removed.",
+      "original_text": "11.3 Prejudice, Discrimination, and Racism \u2014 This entire section defining and analyzing prejudice, stereotypes, discrimination, institutional racism, and colorism was removed.",
       "florida_text": null,
       "context": "Complete section removal. Covered individual and institutional racism, the difference between prejudice and discrimination, and how racism operates at the structural level."
     },
     {
       "type": "removed",
       "section": "11.4",
-      "original_text": "11.4 Intergroup Relationships — This entire section on genocide, expulsion, segregation, pluralism, assimilation, and amalgamation was removed.",
+      "original_text": "11.4 Intergroup Relationships \u2014 This entire section on genocide, expulsion, segregation, pluralism, assimilation, and amalgamation was removed.",
       "florida_text": null,
       "context": "Complete section removal. Covered the spectrum of intergroup relations from genocide to pluralism, with historical examples."
     },
     {
       "type": "removed",
       "section": "11.5",
-      "original_text": "11.5 Race and Ethnicity in the United States — This entire section covering the specific histories and contemporary experiences of Native Americans, African Americans, Asian Americans, Hispanic Americans, Arab Americans, and White ethnic groups was removed.",
+      "original_text": "11.5 Race and Ethnicity in the United States \u2014 This entire section covering the specific histories and contemporary experiences of Native Americans, African Americans, Asian Americans, Hispanic Americans, Arab Americans, and White ethnic groups was removed.",
       "florida_text": null,
       "context": "Complete section removal. Provided detailed coverage of each major racial/ethnic group's experience in the United States, including historical injustices and ongoing inequality."
     }

@@ -2,34 +2,36 @@
   "chapter": 9,
   "title": "Social Stratification in the United States",
   "florida_title": null,
-  "original_chapters": [9],
-  "summary": "The entire chapter on Social Stratification in the United States was removed from the Florida version. The original chapter provided a comprehensive introduction to how society is organized into hierarchical layers based on wealth, power, and prestige — one of sociology's most foundational concepts.\n\nThe removed content covered what social stratification is, systems of stratification (caste, class, meritocracy), social mobility and its barriers, the class structure of the United States, poverty and its causes, and theoretical perspectives on inequality. Students using the Florida version receive no dedicated treatment of economic inequality, social class, or the structural factors that shape who gets ahead in American society.\n\nThe removal of this chapter is particularly significant because social stratification is a core concept in introductory sociology. Without it, students lack the framework to understand how structural inequality operates — a concept that underpins many other sociological topics.",
+  "original_chapters": [
+    9
+  ],
+  "summary": "The entire chapter on Social Stratification in the United States was removed from the Florida version. The original introduced how society is organized into hierarchical layers based on wealth, power, and prestige, one of sociology's most foundational concepts.\n\nThe removed content covered stratification systems (caste, class, meritocracy), social mobility and its barriers, the U.S. class structure, poverty and its causes, and theoretical perspectives on inequality. Students using the Florida version receive no dedicated treatment of economic inequality, social class, or the structural factors that shape who gets ahead in American society.\n\nSocial stratification is a core concept in introductory sociology. Without it, students lack the framework to understand how structural inequality operates, a concept that underpins many other sociological topics.",
   "changes": [
     {
       "type": "removed",
       "section": "9.1",
-      "original_text": "9.1 What Is Social Stratification? — This entire section defining stratification systems, including caste systems, class systems, and meritocracy, was removed.",
+      "original_text": "9.1 What Is Social Stratification? \u2014 This entire section defining stratification systems, including caste systems, class systems, and meritocracy, was removed.",
       "florida_text": null,
       "context": "Complete section removal. Introduced the concept of social stratification as a system by which society ranks categories of people in a hierarchy."
     },
     {
       "type": "removed",
       "section": "9.2",
-      "original_text": "9.2 Social Stratification and Mobility in the United States — This entire section on the U.S. class structure, social mobility, income distribution, and wealth inequality was removed.",
+      "original_text": "9.2 Social Stratification and Mobility in the United States \u2014 This entire section on the U.S. class structure, social mobility, income distribution, and wealth inequality was removed.",
       "florida_text": null,
       "context": "Complete section removal. Covered the U.S. class system, standard of living, social mobility (upward and downward), and structural barriers to mobility."
     },
     {
       "type": "removed",
       "section": "9.3",
-      "original_text": "9.3 Global Stratification and Inequality — This entire section on global poverty, relative vs. absolute poverty, and the cycle of poverty was removed.",
+      "original_text": "9.3 Global Stratification and Inequality \u2014 This entire section on global poverty, relative vs. absolute poverty, and the cycle of poverty was removed.",
       "florida_text": null,
       "context": "Complete section removal. Covered poverty in the United States, the poverty line, consequences of poverty, and why poverty persists."
     },
     {
       "type": "removed",
       "section": "9.4",
-      "original_text": "9.4 Theoretical Perspectives on Social Stratification — This entire section applying functionalist (Davis-Moore thesis), conflict (Marx, Weber), and symbolic interactionist perspectives to stratification was removed.",
+      "original_text": "9.4 Theoretical Perspectives on Social Stratification \u2014 This entire section applying functionalist (Davis-Moore thesis), conflict (Marx, Weber), and symbolic interactionist perspectives to stratification was removed.",
       "florida_text": null,
       "context": "Complete section removal. Included Marx's analysis of class conflict, Weber's analysis of class, status, and power, and the culture of poverty debate."
     }
