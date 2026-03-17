@@ -80,6 +80,13 @@
       "context": "\"Most influential\" is downgraded to \"most widely discussed\" in the description of the Communist Manifesto, subtly reducing the significance attributed to the work."
     },
     {
+      "type": "added",
+      "section": "1.2",
+      "original_text": null,
+      "florida_text": "Marx saw all societies as characterized by the relationship between the oppressors and the oppressed.",
+      "context": "The Florida version adds this sentence summarizing Marx's class conflict framework. Notably, this makes Marx's oppressor/oppressed analysis more explicit than the original \u2014 an unusual addition given that the same chapter removes critical theory, feminist theory, and critical race theory, which are intellectual descendants of Marx's conflict framework."
+    },
+    {
       "type": "removed",
       "section": "1.2",
       "original_text": "Should We Raise the Minimum Wage?\nDuring his hard-fought 2020 campaign, President Joe Biden promised Americans that he would raise the federal minimum wage. Opponents of raising the minimum wage argue that some workers would get larger paychecks while others would lose their jobs, and companies would be less likely to hire new workers because of the increased cost of paying them. Biden and other proponents of raising the minimum wage contend that some job loss would be greatly offset by the positive effects on the standard of living of low-wage workers and reducing the income gap between the rich and poor.\nSociologists may consider the minimum wage issue from differing perspectives as well... These could all be examples of public sociology, a branch of sociology that strives to bring sociological dialogue to public forums. The goals of public sociology are to increase understanding of the social factors that underlie social problems and assist in finding solutions. According to Michael Burawoy (2005), the challenge of public sociology is to engage multiple publics in multiple ways.",
@@ -136,6 +143,6 @@
       "context": "The term \"paradigms\" is deleted from the Florida key terms glossary. The Florida body text uses the term \"paradigms\" in section 1.3 but the formal definition is absent from the glossary."
     }
   ],
-  "change_count": 17,
+  "change_count": 18,
   "severity": "major"
 }
