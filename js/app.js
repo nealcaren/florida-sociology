@@ -155,11 +155,7 @@
       case "modified":
         content = `
           ${header}${context}
-          <div class="original-text">${escapeHtml(change.original_text)}</div>
-          <div class="florida-text">
-            <div class="florida-text-label">Florida replacement:</div>
-            ${escapeHtml(change.florida_text)}
-          </div>
+          <div class="diff-text">${renderInlineDiff(change.original_text, change.florida_text)}</div>
         `;
         break;
 
@@ -277,6 +273,60 @@
     document.getElementById("menu-toggle").addEventListener("click", function () {
       document.querySelector(".nav-chapter-select").classList.toggle("open");
     });
+  }
+
+  // --- Word Diff ---
+
+  function wordDiff(oldText, newText) {
+    const oldWords = oldText.split(/(\s+)/);
+    const newWords = newText.split(/(\s+)/);
+    const m = oldWords.length;
+    const n = newWords.length;
+
+    // LCS via Hunt-Szymanski for word sequences
+    const dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
+    for (let i = 1; i <= m; i++) {
+      for (let j = 1; j <= n; j++) {
+        if (oldWords[i - 1] === newWords[j - 1]) {
+          dp[i][j] = dp[i - 1][j - 1] + 1;
+        } else {
+          dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
+        }
+      }
+    }
+
+    // Backtrack to build diff
+    const result = [];
+    let i = m, j = n;
+    while (i > 0 || j > 0) {
+      if (i > 0 && j > 0 && oldWords[i - 1] === newWords[j - 1]) {
+        result.unshift({ type: "same", text: oldWords[i - 1] });
+        i--; j--;
+      } else if (j > 0 && (i === 0 || dp[i][j - 1] >= dp[i - 1][j])) {
+        result.unshift({ type: "add", text: newWords[j - 1] });
+        j--;
+      } else {
+        result.unshift({ type: "del", text: oldWords[i - 1] });
+        i--;
+      }
+    }
+    return result;
+  }
+
+  function renderInlineDiff(oldText, newText) {
+    const diff = wordDiff(oldText, newText);
+    let html = "";
+    for (const part of diff) {
+      const escaped = escapeHtml(part.text);
+      if (part.type === "same") {
+        html += escaped;
+      } else if (part.type === "del") {
+        html += `<span class="diff-del">${escaped}</span>`;
+      } else {
+        html += `<span class="diff-add">${escaped}</span>`;
+      }
+    }
+    return html;
   }
 
   // --- Utilities ---

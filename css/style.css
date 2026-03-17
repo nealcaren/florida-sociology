@@ -326,34 +326,30 @@ main {
   color: var(--color-removed-text);
 }
 
-/* Modified */
+/* Modified — inline diff */
 .change-block.modified {
-  background: var(--color-removed-bg);
+  background: rgba(245, 245, 244, 1);
+  border-left: 3px solid var(--color-border);
 }
 .change-block.modified .change-type-tag {
-  background: #fee2e2;
-  color: var(--color-removed-text);
+  background: #fef3c7;
+  color: #92400e;
 }
-.change-block.modified .original-text {
+.diff-text {
+  line-height: 1.8;
+}
+.diff-del {
+  background: rgba(220, 38, 38, 0.15);
   text-decoration: line-through;
   color: var(--color-removed-text);
-  margin-bottom: 1rem;
+  border-radius: 2px;
+  padding: 0.05rem 0.1rem;
 }
-.change-block.modified .florida-text {
-  border-left: 3px solid var(--color-modified-border);
-  color: var(--color-modified-text);
-  background: rgba(255,255,255,0.6);
-  padding: 0.75rem 1rem;
-  border-radius: 0 4px 4px 0;
-}
-.florida-text-label {
-  font-family: system-ui, sans-serif;
-  font-size: 0.7rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--color-modified-border);
-  margin-bottom: 0.25rem;
+.diff-add {
+  background: rgba(22, 163, 74, 0.15);
+  color: #166534;
+  border-radius: 2px;
+  padding: 0.05rem 0.1rem;
 }
 
 /* Added */
