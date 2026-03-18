@@ -1,0 +1,116 @@
+{
+  "themes": [
+    {
+      "id": "race",
+      "title": "Race & Racism",
+      "prose": "The original textbook treated race as a central category of sociological analysis. It named specific people killed by police, documented how anti-Mexican racism shaped drug policy, and dedicated an entire chapter to racial and ethnic inequality. The Florida version removed that chapter entirely. Across the chapters that remain, the pattern is consistent: where the original stated racial facts plainly, the Florida edition hedges, attributes, or deletes.\n\nThe word \"racism\" rarely appears in the Florida text. \"Environmental racism,\" \"institutional discrimination,\" and \"racial profiling\" are either cut or reframed as contested claims. A passage stating that police \"began racial profiling in a focused, consistent manner\" becomes a claim attributed to a single researcher, followed by a paragraph of counterargument. The names Eric Garner, Breonna Taylor, and George Floyd are gone.",
+      "eliminated_chapters": [11],
+      "examples": [
+        {
+          "chapter": 7,
+          "change_index": 13,
+          "description": "The passage naming Eric Garner, Breonna Taylor, and George Floyd as victims of police killings is removed. The original noted that officers in the Garner and Taylor cases were not prosecuted."
+        },
+        {
+          "chapter": 20,
+          "change_index": 16,
+          "description": "The \"Native American Tribes and Environmental Racism\" sidebar is removed. It documented five specific cases of environmental injustice against Native nations."
+        },
+        {
+          "chapter": 7,
+          "change_index": 3,
+          "description": "The history of how anti-Mexican racism drove marijuana criminalization, including specific rhetoric and \"racially and ethnically disparate applications,\" is reduced to a single vague sentence."
+        },
+        {
+          "chapter": 7,
+          "change_index": 12,
+          "description": "The original states as fact that police \"began racial profiling in a focused, consistent manner.\" Florida attributes this to one researcher and adds a lengthy counter-argument."
+        }
+      ]
+    },
+    {
+      "id": "gender",
+      "title": "Gender & Sexuality",
+      "prose": "The original textbook used a non-binary student named Noel, referred to with they/them pronouns, as the opening narrative of its socialization chapter. The Florida version reassigns Noel as female. That single change captures the broader editorial pattern: where the original presented gender diversity and LGBTQ experiences as part of the sociological record, the Florida edition treats them as content to be managed or removed.\n\nThe entire Gender, Sex, and Sexuality chapter is gone. So are sidebars on LGBTQ seniors in care facilities, the history of LGBTQ criminalization through policing and dishonorable discharges, and research showing that marriage legalization reduced LGBTQ teen suicide rates. Feminist theory is deleted from the chapter on sociological foundations. A sidebar on the forced sexual slavery of \"comfort women\" during World War II is cut from the socialization chapter. The Florida version does add a new wage gap section with 2024 data, one of its few substantive additions.",
+      "eliminated_chapters": [12],
+      "examples": [
+        {
+          "chapter": 5,
+          "change_index": 0,
+          "description": "Noel's they/them pronouns are replaced with she/her throughout the chapter introduction, erasing the non-binary identity that was a deliberate feature of the original text."
+        },
+        {
+          "chapter": 13,
+          "change_index": 24,
+          "description": "The \"Aging Out: LGBTQ Seniors\" sidebar is removed. It covered health disparities, disclosure management in care facilities, and the legal and financial consequences of the pre-Obergefell era."
+        },
+        {
+          "chapter": 14,
+          "change_index": 1,
+          "description": "Research on same-sex parenting outcomes and the documented positive effect of marriage legalization on LGBTQ teen suicide rates is deleted."
+        },
+        {
+          "chapter": 7,
+          "change_index": 4,
+          "description": "The full history of LGBTQ criminalization is removed: dishonorable military discharges, police raids, and the long period when hate crimes against LGBTQ people went unprosecuted."
+        }
+      ]
+    },
+    {
+      "id": "economic",
+      "title": "Economic Inequality",
+      "prose": "Two entire chapters are gone: Social Stratification in the United States and Global Inequality. With them went the textbook's sustained treatment of how wealth, poverty, and class structure shape life outcomes. What remains is piecemeal. The Florida version keeps some inequality content but strips it of specifics.\n\nA sidebar debating the federal minimum wage, which cited President Biden's campaign promise and framed income inequality as a sociological problem, is deleted. A passage reporting that CEO pay had reached 350 times the average worker's salary is replaced with the phrase \"grew significantly faster.\" Harriet Martineau's critique of \"faults with the free enterprise system\" becomes \"what she observed about business practices at that time.\" The Communist Manifesto is downgraded from \"most influential\" to \"most widely discussed.\" In each case, the revision converts a specific empirical claim into a softer generalization.",
+      "eliminated_chapters": [9, 10],
+      "examples": [
+        {
+          "chapter": 1,
+          "change_index": 10,
+          "description": "The \"Social Policy and Debate\" sidebar on raising the minimum wage is deleted. It cited President Biden by name and introduced the concept of public sociology."
+        },
+        {
+          "chapter": 21,
+          "change_index": 3,
+          "description": "The statistic that CEO pay reached 350 times the average worker's salary, with an AFL-CIO citation, is replaced with vague language about compensation growing \"significantly faster.\""
+        },
+        {
+          "chapter": 1,
+          "change_index": 7,
+          "description": "Martineau's observation about \"faults with the free enterprise system\" is softened to \"what she observed about business practices at that time.\""
+        },
+        {
+          "chapter": 13,
+          "change_index": 15,
+          "description": "The concept of the \"feminization of the aging poor\" in peripheral nations, a key framework linking gender and global inequality, is removed."
+        }
+      ]
+    },
+    {
+      "id": "political",
+      "title": "Political Content & Critical Theory",
+      "prose": "The original textbook named critical theory, feminist theory, and critical race theory as intellectual traditions that grew out of the Civil Rights and women's movements. It presented them as extensions of conflict theory that \"focused on creating social change through the application of sociological principles.\" The Florida version deletes these paragraphs and replaces them with a rewritten subsection emphasizing legal history and institutional frameworks. The contested theoretical labels disappear.\n\nThis pattern extends beyond the introductory chapter. The research methods chapter loses its entire Critical Sociology subsection, which had taught students that social science is embedded in power structures. The government chapter loses its section on the judicial system, including references to the Affordable Care Act and same-sex marriage as sociologically significant Supreme Court decisions. References to specific political figures and policy debates are removed or made anonymous. The result is a textbook that avoids naming the analytical traditions that would give students tools to examine how power operates.",
+      "eliminated_chapters": [],
+      "examples": [
+        {
+          "chapter": 1,
+          "change_index": 11,
+          "description": "Two full paragraphs on the Frankfurt School, critical theory, feminist theory, and critical race theory are deleted from the conflict theory section."
+        },
+        {
+          "chapter": 2,
+          "change_index": 2,
+          "description": "The entire Critical Sociology subsection is removed. It introduced Marxist and Frankfurt School critiques of social science as embedded in structures of class, race, and gender."
+        },
+        {
+          "chapter": 15,
+          "change_index": 4,
+          "description": "The judicial system subsection is deleted, including references to the Affordable Care Act and same-sex marriage as examples of sociologically relevant Supreme Court decisions."
+        },
+        {
+          "chapter": 1,
+          "change_index": 12,
+          "description": "The \"Sociological Theory Today\" subsection is rewritten to emphasize institutional frameworks. The original named feminist theory, critical race theory, and public sociology; the Florida version names none of them."
+        }
+      ]
+    }
+  ]
+}
