@@ -378,6 +378,82 @@ main {
   margin-bottom: 0.5rem;
 }
 
+/* === Evidence Panel === */
+.evidence-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--color-text-muted);
+  font-family: system-ui, sans-serif;
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+.evidence-toggle:hover {
+  border-color: #a8a29e;
+  color: var(--color-text);
+}
+.evidence-toggle-icon {
+  font-size: 0.9rem;
+}
+
+.evidence-panel {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+}
+.evidence-panel.open {
+  max-height: 2000px;
+  transition: max-height 0.5s ease-in;
+}
+
+.evidence-columns {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.evidence-column {
+  flex: 1;
+  min-width: 0;
+}
+
+.evidence-label {
+  font-family: system-ui, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.5rem;
+}
+
+.evidence-img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.evidence-unavailable {
+  font-family: system-ui, sans-serif;
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  padding: 1.5rem;
+  text-align: center;
+  border: 1px dashed var(--color-border);
+  border-radius: 4px;
+}
+
 /* === No Changes State === */
 .no-changes {
   text-align: center;
@@ -440,6 +516,7 @@ main {
   .stats { flex-direction: column; gap: 1rem; }
   .chapter-grid { grid-template-columns: 1fr; }
   main { padding: 1.5rem 1rem; }
+  .evidence-columns { flex-direction: column; }
 
   .nav-chapter-select { display: none; }
   .nav-chapter-select.open { display: block; position: absolute; top: 100%; left: 0; right: 0; background: var(--color-nav-bg); padding: 0.5rem 1.5rem 1rem; }
