@@ -228,3 +228,64 @@ def process_chapter(
             f.write("\n")
 
     return stats
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Render cropped PDF evidence images for documented changes."
+    )
+    parser.add_argument(
+        "--chapter", type=int,
+        help="Process only this chapter (original numbering, 1-21)"
+    )
+    parser.add_argument(
+        "--dry-run", action="store_true",
+        help="Report matches without rendering images"
+    )
+    parser.add_argument(
+        "--force", action="store_true",
+        help="Re-render even if images already exist"
+    )
+    args = parser.parse_args()
+
+    # Check PDFs exist
+    for pdf_path, label in [(ORIGINAL_PDF, "Original"), (FLORIDA_PDF, "Florida")]:
+        if not pdf_path.exists():
+            print(f"ERROR: {label} PDF not found: {pdf_path}", file=sys.stderr)
+            sys.exit(1)
+
+    print("Opening PDFs...")
+    original_doc = fitz.open(str(ORIGINAL_PDF))
+    florida_doc = fitz.open(str(FLORIDA_PDF))
+
+    # Collect chapter files to process
+    if args.chapter:
+        paths = sorted(DATA_DIR.glob(f"ch{args.chapter:02d}.json"))
+        if not paths:
+            print(f"ERROR: No data file found for chapter {args.chapter}", file=sys.stderr)
+            sys.exit(1)
+    else:
+        paths = sorted(DATA_DIR.glob("ch*.json"))
+        paths = [p for p in paths if p.name != "chapters.json"]
+
+    totals = {"matched": 0, "skipped": 0, "failed": 0}
+
+    for path in paths:
+        print(f"Processing {path.name}...")
+        stats = process_chapter(
+            path, original_doc, florida_doc,
+            force=args.force, dry_run=args.dry_run,
+        )
+        for k in totals:
+            totals[k] += stats[k]
+
+    original_doc.close()
+    florida_doc.close()
+
+    print(f"\nDone: {totals['matched']} matched, {totals['skipped']} skipped, {totals['failed']} failed")
+    if not args.dry_run:
+        print("Run 'uv run python scripts/build_index.py' to regenerate chapters.json")
+
+
+if __name__ == "__main__":
+    main()
