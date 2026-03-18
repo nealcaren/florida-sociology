@@ -41,8 +41,9 @@ New script that maps each change to its source PDF page and extracts a cropped i
 - Text spans two pages: crop the relevant region from both pages and stitch vertically into one image. Record the first page number.
 - Removed chapters (`florida_title` is null): skip evidence rendering entirely. These chapters use editorial descriptions as `original_text`, not verbatim quotes, so `search_for()` will not match. The evidence for removed chapters is the chapter's absence itself.
 - Added changes (`original_text` is null): only search Florida PDF, original fields stay null
-- `moved` type changes: search `original_text` in the original PDF for the original-side evidence, and search `original_text` in the Florida PDF for the Florida-side evidence (showing where it was relocated to)
-- Very short text snippets (under ~20 chars): search may be ambiguous. If multiple matches, prefer the match closest to other changes in the same section.
+- `moved` type changes: search `original_text` in the original PDF for the original-side evidence, and search `original_text` in the Florida PDF for the Florida-side evidence (showing where it was relocated to). In the frontend, column headers should include location info: "Original (p. X, Section Y)" / "Florida (p. Z, Section W)" using `original_location` and `florida_location`.
+- Very short text snippets (under ~20 chars): search may be ambiguous. If multiple matches, prefer the first occurrence (lowest page number).
+- Missing PDFs: exit immediately with a clear error message if either PDF is not found in the project root.
 - Idempotency: by default, skip rendering for changes that already have evidence images on disk. Use `--force` flag to re-render all.
 
 **CLI interface:**
@@ -110,7 +111,7 @@ render_evidence.py
 
 ## Storage
 
-Estimated ~200 changes across all chapters. Most have both original and Florida text, yielding ~350 cropped images. At ~10-15 KB per cropped WebP, total storage is approximately **3-6 MB**. Acceptable for GitHub Pages.
+Estimated ~200 changes across all chapters. Most have both original and Florida text, yielding ~350 cropped images. At ~10-15 KB per cropped WebP, total storage is approximately **3-6 MB**. These images are committed to the repo (required for GitHub Pages deployment). The `img/evidence/` directory should NOT be gitignored.
 
 ## What This Does NOT Include
 
