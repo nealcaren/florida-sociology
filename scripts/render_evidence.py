@@ -118,3 +118,113 @@ def crop_and_render(
 
     final.save(str(output_path), "WEBP", quality=WEBP_QUALITY)
     return True
+
+
+def process_chapter(
+    chapter_path: Path,
+    original_doc: fitz.Document,
+    florida_doc: fitz.Document,
+    *,
+    force: bool = False,
+    dry_run: bool = False,
+) -> dict:
+    """Process all changes in a chapter JSON file.
+
+    Returns stats dict: {"matched": int, "skipped": int, "failed": int}
+    """
+    with open(chapter_path) as f:
+        chapter_data = json.load(f)
+
+    ch_num = chapter_data["chapter"]
+    ch_dir = EVIDENCE_DIR / f"ch{ch_num:02d}"
+    stats = {"matched": 0, "skipped": 0, "failed": 0}
+
+    # Skip removed chapters — their original_text is editorial, not verbatim
+    if chapter_data.get("florida_title") is None:
+        print(f"  ch{ch_num:02d}: skipped (removed chapter)")
+        return stats
+
+    changes = chapter_data.get("changes", [])
+    modified = False
+
+    for i, change in enumerate(changes):
+        change_type = change.get("type", "")
+
+        # Determine which texts to search in which PDFs
+        searches = []  # list of (text, doc, field_page, field_evidence, label)
+
+        original_text = change.get("original_text")
+        florida_text = change.get("florida_text")
+
+        if change_type == "moved":
+            # Show original location in original PDF, relocated text in Florida PDF
+            if original_text:
+                searches.append((original_text, original_doc, "original_page", "original_evidence", "original"))
+                searches.append((original_text, florida_doc, "florida_page", "florida_evidence", "florida"))
+        else:
+            if original_text:
+                searches.append((original_text, original_doc, "original_page", "original_evidence", "original"))
+            if florida_text:
+                searches.append((florida_text, florida_doc, "florida_page", "florida_evidence", "florida"))
+
+        for text, doc, page_field, evidence_field, label in searches:
+            img_path = ch_dir / f"change_{i}_{label}.webp"
+            rel_path = f"img/evidence/ch{ch_num:02d}/change_{i}_{label}.webp"
+
+            # Idempotency: skip if image exists and not forcing
+            if not force and img_path.exists():
+                if page_field not in change or evidence_field not in change:
+                    # Image exists but JSON fields missing — re-search for page number only
+                    results = find_text_in_pdf(doc, text)
+                    if results:
+                        change[page_field] = results[0]["page"] + 1
+                        change[evidence_field] = rel_path
+                        stats["matched"] += 1
+                    else:
+                        change[page_field] = None
+                        change[evidence_field] = None
+                        stats["failed"] += 1
+                    modified = True
+                else:
+                    stats["skipped"] += 1
+                continue
+
+            results = find_text_in_pdf(doc, text)
+
+            if not results:
+                print(f"  ch{ch_num:02d} change {i} ({label}): NO MATCH")
+                change[page_field] = None
+                change[evidence_field] = None
+                stats["failed"] += 1
+                modified = True
+                continue
+
+            page_1indexed = results[0]["page"] + 1
+            change[page_field] = page_1indexed
+            change[evidence_field] = rel_path
+            modified = True
+
+            if dry_run:
+                print(f"  ch{ch_num:02d} change {i} ({label}): p.{page_1indexed}")
+                stats["matched"] += 1
+                continue
+
+            ok = crop_and_render(doc, results, img_path)
+            if ok:
+                stats["matched"] += 1
+            else:
+                stats["failed"] += 1
+                change[evidence_field] = None
+
+        # Set null for fields not searched
+        for field in ["original_page", "original_evidence", "florida_page", "florida_evidence"]:
+            if field not in change:
+                change[field] = None
+                modified = True
+
+    if modified and not dry_run:
+        with open(chapter_path, "w") as f:
+            json.dump(chapter_data, f, indent=2)
+            f.write("\n")
+
+    return stats
