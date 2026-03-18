@@ -223,7 +223,7 @@
 
     return `
       <button class="evidence-toggle" data-evidence-loaded="false">
-        <span class="evidence-toggle-icon">&#128196;</span>
+        <span class="evidence-toggle-icon">📖</span>
         <span class="evidence-toggle-text">View in textbook${pageText}</span>
       </button>
       <div class="evidence-panel">
