@@ -123,33 +123,14 @@
       list.innerHTML = data.changes.map((change, i) => renderChange(change, i)).join("");
     }
 
-    // Evidence panel toggle (delegated, attach once)
+    // Evidence lightbox toggle (delegated, attach once)
     if (!list.dataset.evidenceHandler) {
       list.dataset.evidenceHandler = "true";
       list.addEventListener("click", function (e) {
         const btn = e.target.closest(".evidence-toggle");
         if (!btn) return;
-
-        const panel = btn.nextElementSibling;
-        const isOpen = panel.classList.contains("open");
-
-        if (isOpen) {
-          panel.classList.remove("open");
-          btn.querySelector(".evidence-toggle-text").textContent =
-            btn.querySelector(".evidence-toggle-text").textContent.replace("Hide textbook view", "View in textbook");
-        } else {
-          // Lazy-load images on first open
-          if (btn.dataset.evidenceLoaded === "false") {
-            panel.querySelectorAll("img[data-src]").forEach(function (img) {
-              img.src = img.dataset.src;
-              img.removeAttribute("data-src");
-            });
-            btn.dataset.evidenceLoaded = "true";
-          }
-          panel.classList.add("open");
-          btn.querySelector(".evidence-toggle-text").textContent =
-            btn.querySelector(".evidence-toggle-text").textContent.replace("View in textbook", "Hide textbook view");
-        }
+        var slides = JSON.parse(btn.dataset.evidenceSlides || "[]");
+        if (slides.length) openLightbox(slides, 0);
       });
     }
 
@@ -160,7 +141,7 @@
     window.scrollTo(0, 0);
   }
 
-  // --- Evidence Panel ---
+  // --- Evidence Lightbox ---
 
   function renderEvidencePanel(change) {
     const hasOriginal = change.original_evidence;
@@ -173,67 +154,108 @@
     if (change.florida_page) pageInfo.push(`Florida p.\u00a0${change.florida_page}`);
     const pageText = pageInfo.length ? ` \u2014 ${pageInfo.join(" | ")}` : "";
 
-    // Column labels — use location info for moved changes
-    let origLabel = change.original_page ? `Original (p. ${change.original_page})` : "Original";
-    let flLabel = change.florida_page ? `Florida (p. ${change.florida_page})` : "Florida";
-    if (change.type === "moved") {
-      if (change.original_location) origLabel = `Original \u2014 ${change.original_location} (p. ${change.original_page || "?"})`;
-      if (change.florida_location) flLabel = `Florida \u2014 ${change.florida_location} (p. ${change.florida_page || "?"})`;
-    }
-
-    let origCol, flCol;
-
+    // Build slides array for lightbox
+    var slides = [];
     if (hasOriginal) {
-      origCol = `
-        <div class="evidence-column">
-          <div class="evidence-label">${escapeHtml(origLabel)}</div>
-          <a href="${change.original_evidence}" target="_blank">
-            <img class="evidence-img" data-src="${change.original_evidence}"
-                 alt="Cropped page from original textbook showing this passage">
-          </a>
-        </div>`;
-    } else {
-      origCol = `
-        <div class="evidence-column">
-          <div class="evidence-label">${escapeHtml(origLabel)}</div>
-          <div class="evidence-unavailable">${
-            change.type === "added" ? "Not in original version" : "Page image unavailable"
-          }</div>
-        </div>`;
+      let label = change.original_page ? `Original (p. ${change.original_page})` : "Original";
+      if (change.type === "moved" && change.original_location)
+        label = `Original \u2014 ${change.original_location} (p. ${change.original_page || "?"})`;
+      slides.push({ src: change.original_evidence, label: label });
     }
-
     if (hasFlorida) {
-      flCol = `
-        <div class="evidence-column">
-          <div class="evidence-label">${escapeHtml(flLabel)}</div>
-          <a href="${change.florida_evidence}" target="_blank">
-            <img class="evidence-img" data-src="${change.florida_evidence}"
-                 alt="Cropped page from Florida textbook showing this passage">
-          </a>
-        </div>`;
-    } else {
-      flCol = `
-        <div class="evidence-column">
-          <div class="evidence-label">${escapeHtml(flLabel)}</div>
-          <div class="evidence-unavailable">${
-            change.type === "removed" ? "Not present in Florida version" : "Page image unavailable"
-          }</div>
-        </div>`;
+      let label = change.florida_page ? `Florida (p. ${change.florida_page})` : "Florida";
+      if (change.type === "moved" && change.florida_location)
+        label = `Florida \u2014 ${change.florida_location} (p. ${change.florida_page || "?"})`;
+      slides.push({ src: change.florida_evidence, label: label });
     }
 
     return `
-      <button class="evidence-toggle" data-evidence-loaded="false">
+      <button class="evidence-toggle" data-evidence-slides='${JSON.stringify(slides).replace(/'/g, "&#39;")}'>
         <span class="evidence-toggle-icon">📖</span>
         <span class="evidence-toggle-text">View in textbook${pageText}</span>
       </button>
-      <div class="evidence-panel">
-        <div class="evidence-columns">
-          ${origCol}
-          ${flCol}
-        </div>
-      </div>
     `;
   }
+
+  var lightboxSlides = [];
+  var lightboxIndex = 0;
+
+  function openLightbox(slides, index) {
+    lightboxSlides = slides;
+    lightboxIndex = index;
+    showLightboxSlide();
+    document.getElementById("evidence-lightbox").hidden = false;
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeLightbox() {
+    document.getElementById("evidence-lightbox").hidden = true;
+    document.body.style.overflow = "";
+  }
+
+  function showLightboxSlide() {
+    var slide = lightboxSlides[lightboxIndex];
+    document.getElementById("lightbox-img").src = slide.src;
+    document.getElementById("lightbox-img").alt = slide.label;
+    document.getElementById("lightbox-label").textContent = slide.label;
+    document.getElementById("lightbox-counter").textContent =
+      lightboxSlides.length > 1 ? (lightboxIndex + 1) + " / " + lightboxSlides.length : "";
+
+    var prevBtn = document.getElementById("lightbox-prev");
+    var nextBtn = document.getElementById("lightbox-next");
+
+    if (lightboxSlides.length <= 1) {
+      prevBtn.hidden = true;
+      nextBtn.hidden = true;
+    } else {
+      prevBtn.hidden = false;
+      nextBtn.hidden = false;
+      prevBtn.disabled = lightboxIndex === 0;
+      nextBtn.disabled = lightboxIndex === lightboxSlides.length - 1;
+      prevBtn.textContent = "\u2190 " + (lightboxSlides[lightboxIndex - 1]
+        ? lightboxSlides[lightboxIndex - 1].label.split(" (")[0]
+        : "");
+      nextBtn.textContent = (lightboxSlides[lightboxIndex + 1]
+        ? lightboxSlides[lightboxIndex + 1].label.split(" (")[0]
+        : "") + " \u2192";
+    }
+  }
+
+  // Lightbox event listeners (once)
+  document.addEventListener("click", function (e) {
+    if (e.target.closest(".lightbox-close") || e.target.classList.contains("lightbox-backdrop")) {
+      closeLightbox();
+    }
+    if (e.target.closest(".lightbox-prev") && lightboxIndex > 0) {
+      lightboxIndex--;
+      showLightboxSlide();
+    }
+    if (e.target.closest(".lightbox-next") && lightboxIndex < lightboxSlides.length - 1) {
+      lightboxIndex++;
+      showLightboxSlide();
+    }
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (document.getElementById("evidence-lightbox").hidden) return;
+    if (e.key === "Escape") closeLightbox();
+    if (e.key === "ArrowLeft" && lightboxIndex > 0) { lightboxIndex--; showLightboxSlide(); }
+    if (e.key === "ArrowRight" && lightboxIndex < lightboxSlides.length - 1) { lightboxIndex++; showLightboxSlide(); }
+  });
+
+  // Touch swipe support
+  (function () {
+    var startX = 0;
+    var lb = document.getElementById("evidence-lightbox");
+    if (!lb) return;
+    lb.addEventListener("touchstart", function (e) { startX = e.touches[0].clientX; }, { passive: true });
+    lb.addEventListener("touchend", function (e) {
+      var dx = e.changedTouches[0].clientX - startX;
+      if (Math.abs(dx) < 50) return;
+      if (dx < 0 && lightboxIndex < lightboxSlides.length - 1) { lightboxIndex++; showLightboxSlide(); }
+      if (dx > 0 && lightboxIndex > 0) { lightboxIndex--; showLightboxSlide(); }
+    }, { passive: true });
+  })();
 
   function renderChange(change, index) {
     let content = "";

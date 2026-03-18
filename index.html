@@ -64,6 +64,23 @@
     <p>Data sourced from <a href="https://openstax.org/details/books/introduction-sociology-3e" target="_blank" rel="noopener">OpenStax Introduction to Sociology 3e</a> (CC BY 4.0) and the Florida state-modified edition.</p>
   </footer>
 
+  <!-- Evidence lightbox -->
+  <div id="evidence-lightbox" class="lightbox" hidden>
+    <div class="lightbox-backdrop"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" aria-label="Close">&times;</button>
+      <div class="lightbox-label" id="lightbox-label"></div>
+      <div class="lightbox-img-wrap">
+        <img id="lightbox-img" src="" alt="">
+      </div>
+      <div class="lightbox-nav">
+        <button class="lightbox-prev" id="lightbox-prev" aria-label="Previous">&larr; Original</button>
+        <span class="lightbox-counter" id="lightbox-counter"></span>
+        <button class="lightbox-next" id="lightbox-next" aria-label="Next">Florida &rarr;</button>
+      </div>
+    </div>
+  </div>
+
   <script src="js/app.js"></script>
 </body>
 </html>
