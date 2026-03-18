@@ -63,3 +63,58 @@ def find_text_in_pdf(doc: fitz.Document, text: str) -> list[dict]:
                 return [{"page": page_num, "rects": rects}]
 
     return []
+
+
+def crop_and_render(
+    doc: fitz.Document,
+    search_results: list[dict],
+    output_path: Path,
+) -> bool:
+    """Render cropped region around matched text as WebP.
+
+    If text spans two pages, stitches both crops vertically.
+    Returns True if image was saved, False on failure.
+    """
+    if not search_results:
+        return False
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    images = []
+
+    for result in search_results:
+        page = doc[result["page"]]
+        page_rect = page.rect
+
+        # Union all match rects, then add padding
+        union = result["rects"][0]
+        for r in result["rects"][1:]:
+            union = union | r  # fitz.Rect union operator
+
+        # Expand to full page width with vertical padding
+        clip = fitz.Rect(
+            page_rect.x0,
+            max(page_rect.y0, union.y0 - PAD_PT),
+            page_rect.x1,
+            min(page_rect.y1, union.y1 + PAD_PT),
+        )
+
+        # Render clipped region
+        mat = fitz.Matrix(DPI / 72, DPI / 72)
+        pix = page.get_pixmap(matrix=mat, clip=clip)
+        img = Image.open(io.BytesIO(pix.tobytes("png")))
+        images.append(img)
+
+    if len(images) == 1:
+        final = images[0]
+    else:
+        # Stitch vertically
+        total_width = max(img.width for img in images)
+        total_height = sum(img.height for img in images)
+        final = Image.new("RGB", (total_width, total_height), (255, 255, 255))
+        y_offset = 0
+        for img in images:
+            final.paste(img, (0, y_offset))
+            y_offset += img.height
+
+    final.save(str(output_path), "WEBP", quality=WEBP_QUALITY)
+    return True
