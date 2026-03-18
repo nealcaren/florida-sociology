@@ -98,10 +98,10 @@
       "original_text": "She discovered the obvious, that it's almost impossible to get by on minimum wage work. She also experienced and observed attitudes many middle and upper-class people never think about. She witnessed firsthand the treatment of working class employees.",
       "florida_text": "She discovered that it's almost impossible to get by on minimum wage work. She also experienced and observed attitudes some people might not think about. She witnessed firsthand the treatment of the employees.",
       "context": "The phrase 'many middle and upper-class people never think about' is softened to 'some people might not think about,' removing class analysis. 'Working class employees' becomes 'the employees,' eliminating the class identification.",
-      "original_page": null,
-      "original_evidence": null,
-      "florida_page": null,
-      "florida_evidence": null
+      "original_page": 59,
+      "original_evidence": "img/evidence/ch02/change_8_original.webp",
+      "florida_page": 35,
+      "florida_evidence": "img/evidence/ch02/change_8_florida.webp"
     },
     {
       "type": "modified",
@@ -197,7 +197,7 @@
       "original_text": "content analysis\napplying a systematic approach to record and value information gleaned from secondary data as it relates to the study at hand",
       "florida_text": null,
       "context": "Term removed from glossary.",
-      "original_page": 68,
+      "original_page": 64,
       "original_evidence": "img/evidence/ch02/change_17_original.webp",
       "florida_page": null,
       "florida_evidence": null

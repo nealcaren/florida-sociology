@@ -26,8 +26,50 @@ WEBP_QUALITY = 80
 SEARCH_PREFIX_LEN = 80
 
 
+def normalize_quotes(text: str) -> str:
+    """Normalize curly/smart quotes to straight quotes for PDF search."""
+    return (text
+        .replace("\u2018", "'").replace("\u2019", "'")   # single curly
+        .replace("\u201c", '"').replace("\u201d", '"')    # double curly
+        .replace("\u2013", "-").replace("\u2014", "-")    # en/em dash
+        .replace("\u2026", "..."))                        # ellipsis
+
+
+def curlify_quotes(text: str) -> str:
+    """Convert straight quotes to curly quotes (PDF-style).
+
+    Uses a simple heuristic: quote after space/start = opening, otherwise closing.
+    """
+    import re
+    # Single quotes: after word char = closing (it's → it's), otherwise opening
+    text = re.sub(r"(?<=\w)'", "\u2019", text)
+    text = re.sub(r"'", "\u2018", text)
+    # Double quotes
+    text = re.sub(r'(?<=\w)"', "\u201d", text)
+    text = re.sub(r'"', "\u201c", text)
+    return text
+
+
 def make_search_prefix(text: str) -> str:
-    """Extract a search prefix from text, truncating at a word boundary."""
+    """Extract a search prefix from text, truncating at a word boundary.
+
+    Skips editorial brackets and title lines before body text.
+    Normalizes quotes for PDF search compatibility.
+    """
+    # Skip editorial/summary text that won't be in the PDF
+    if text.startswith("["):
+        return ""
+
+    # If text has Title\nBody format, search for the body part
+    if "\n" in text[:100]:
+        body = text.split("\n", 1)[1].lstrip()
+        # But if body also starts with [, it's editorial
+        if body.startswith("["):
+            return ""
+        text = body
+
+    text = normalize_quotes(text)
+
     if len(text) <= SEARCH_PREFIX_LEN:
         return text
     prefix = text[:SEARCH_PREFIX_LEN]
@@ -37,8 +79,20 @@ def make_search_prefix(text: str) -> str:
     return prefix
 
 
+def _search_all_pages(doc: fitz.Document, query: str) -> list[dict] | None:
+    """Search for query across all pages, return first match."""
+    for page_num in range(len(doc)):
+        rects = doc[page_num].search_for(query)
+        if rects:
+            return [{"page": page_num, "rects": rects}]
+    return None
+
+
 def find_text_in_pdf(doc: fitz.Document, text: str) -> list[dict]:
     """Search for text across all pages of a PDF.
+
+    Tries multiple strategies: normalized prefix, curly-quote prefix,
+    and progressively shorter prefixes.
 
     Returns list of {"page": int, "rects": [fitz.Rect, ...]} sorted by page number.
     Only returns matches for the first page where text is found (lowest page number).
@@ -47,20 +101,48 @@ def find_text_in_pdf(doc: fitz.Document, text: str) -> list[dict]:
     if not prefix.strip():
         return []
 
-    for page_num in range(len(doc)):
-        page = doc[page_num]
-        rects = page.search_for(prefix)
-        if rects:
-            return [{"page": page_num, "rects": rects}]
+    # Strategy 1: straight-quote normalized prefix (default)
+    result = _search_all_pages(doc, prefix)
+    if result:
+        return result
 
-    # Fallback: try shorter prefix if no match found
-    if len(prefix) > 40:
-        short_prefix = make_search_prefix(text[:50])
-        for page_num in range(len(doc)):
-            page = doc[page_num]
-            rects = page.search_for(short_prefix)
-            if rects:
-                return [{"page": page_num, "rects": rects}]
+    # Strategy 2: try curly-quote version of the prefix
+    curly_prefix = curlify_quotes(prefix)
+    if curly_prefix != prefix:
+        result = _search_all_pages(doc, curly_prefix)
+        if result:
+            return result
+
+    # Strategy 3: shorter prefix (~40 chars) with both quote styles
+    body = text.split("\n")[-1] if "\n" in text else text
+    for transform in [normalize_quotes, curlify_quotes]:
+        short = transform(body)[:50]
+        last_space = short.rfind(" ")
+        if last_space > 20:
+            short = short[:last_space]
+        if short.strip():
+            result = _search_all_pages(doc, short)
+            if result:
+                return result
+
+    # Strategy 4: for pipe-separated text (table rows), try each segment
+    if "|" in text:
+        for segment in text.split("|"):
+            segment = segment.strip()
+            if len(segment) > 15:
+                for transform in [normalize_quotes, curlify_quotes]:
+                    q = transform(segment)[:50]
+                    result = _search_all_pages(doc, q)
+                    if result:
+                        return result
+
+    # Strategy 5: for "term: definition" glossary entries, search the term alone
+    if ": " in text[:60] and not text.startswith("["):
+        term = text.split(": ", 1)[0].strip()
+        if len(term) > 5:
+            result = _search_all_pages(doc, term)
+            if result:
+                return result
 
     return []
 

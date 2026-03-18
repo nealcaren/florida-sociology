@@ -101,8 +101,8 @@
       "context": "The original's framing of centenarians as a \"fastest-growing segment\" is removed. The Florida text adds context about declining birth rates, COVID-19's impact on life expectancy, and the ongoing growth of the 65+ group. The phrase \"graying of America\" is retained but the tenfold-increase-vs-tripling comparison is dropped.",
       "original_page": 385,
       "original_evidence": "img/evidence/ch13/change_8_original.webp",
-      "florida_page": null,
-      "florida_evidence": null
+      "florida_page": 89,
+      "florida_evidence": "img/evidence/ch13/change_8_florida.webp"
     },
     {
       "type": "modified",
@@ -222,8 +222,8 @@
       "context": "The specific disease burden statistics (arthritis 50%, hypertension 38%, heart disease 32%, cancer 22%, obesity 27%) are entirely removed. Florida substitutes a positive-framing statistic (\"more positive than they expect\"). The health burden data is replaced with a more upbeat presentation.",
       "original_page": 391,
       "original_evidence": "img/evidence/ch13/change_19_original.webp",
-      "florida_page": null,
-      "florida_evidence": null
+      "florida_page": 94,
+      "florida_evidence": "img/evidence/ch13/change_19_florida.webp"
     },
     {
       "type": "added",
@@ -275,8 +275,8 @@
       "original_text": "Aging \"Out:\" LGBTQ Seniors\nHow do different groups in our society experience the aging process?... An emerging field of study looks at how lesbian, gay, bisexual, transgender, and queer/questioning (LGBTQ) people experience the aging process... the number of LGBTQ seniors is expected to double by 2030 (Fredriksen-Goldsen et al. 2011). A recent study... finds that LGBTQ older adults have higher rates of disability and depression than their heterosexual peers. They are also less likely to have a support system that might provide elder care... In one case study, a seventy-eight-year-old lesbian woman lived alone in a long-term care facility. She had been in a long-term relationship of thirty-two years... A study from the National Senior Citizens Law Center reports that only 22 percent of LGBTQ older adults expect they could be open about their sexual orientation or gender identity in a long-term care facility... Same-sex marriage\u2014a civil rights battleground... can have major implications for the way the LGBTQ community ages.",
       "florida_text": null,
       "context": "The entire \"Aging Out: LGBTQ Seniors\" Sociology in the Real World sidebar is removed. This is the single most politically sensitive omission: it covered LGBTQ health disparities, \"disclosure management\" in care facilities, the legal and financial impact of same-sex marriage recognition, and policy recommendations for improving LGBTQ elder care.",
-      "original_page": null,
-      "original_evidence": null,
+      "original_page": 394,
+      "original_evidence": "img/evidence/ch13/change_24_original.webp",
       "florida_page": null,
       "florida_evidence": null
     },
@@ -341,10 +341,10 @@
       "original_text": "Peter's responses to both older people, the driver and the shopper, were prejudiced. In both cases, he made unfair assumptions. He assumed the driver drove cautiously simply because the man was a senior citizen, and he assumed the shopper needed help carrying her groceries just because she was an older woman.",
       "florida_text": "Peter's responses to both older people, the driver and the shopper, were assessments of the capacity of the individuals he encountered based on his perceptions of their age. He assumed the driver drove cautiously because the man looked old, and he assumed the shopper needed help carrying her groceries because she was an older woman. Although the older man may have had reduced cognitive abilities that caused him to be more cautious while driving, and the older women could have had reduced muscle mass that reduced her ability to handle the weight of her groceries, Peter is unable to determine these things using observations alone.",
       "context": "The original labels Peter's responses flatly as \"prejudiced\" and \"unfair assumptions.\" The Florida version reframes them as \"assessments of capacity\" and adds a caveat that the older individuals might actually have had the limitations Peter assumed \u2014 substantially softening the ageism critique.",
-      "original_page": null,
-      "original_evidence": null,
-      "florida_page": null,
-      "florida_evidence": null
+      "original_page": 398,
+      "original_evidence": "img/evidence/ch13/change_30_original.webp",
+      "florida_page": 99,
+      "florida_evidence": "img/evidence/ch13/change_30_florida.webp"
     },
     {
       "type": "modified",
@@ -396,8 +396,8 @@
       "original_text": "World War II Veterans\nWorld War II was a defining event in recent human history... Of the 16 million, less than 300,000 are alive. Data suggest that by 2036, there will be no living veterans of WWII (U.S. Department of Veteran Affairs). When these veterans came home from the war and ended their service, little was known about posttraumatic stress disorder (PTSD)... Research has found that veterans of any conflict are more than twice as likely as nonveterans to commit suicide, with rates highest among the oldest veterans. Reports show that WWII-era veterans are four times as likely to take their own lives as people of the same age with no military service (Glantz 2010). In May 2004, the National World War II Memorial... Dr. Earl Morse... The Honor Flight Network was up and running. As of 2017, the Honor Flight Network had flown more than 200,000 U.S. veterans of World War II, the Korean War, and the Vietnam War to Washington.",
       "florida_text": null,
       "context": "The entire \"World War II Veterans\" Big Picture sidebar \u2014 covering PTSD in aging veterans, suicide rates, and the Honor Flight Network \u2014 is completely removed from the Florida version. The Honor Flight Network citation is retained in references only.",
-      "original_page": null,
-      "original_evidence": null,
+      "original_page": 401,
+      "original_evidence": "img/evidence/ch13/change_35_original.webp",
       "florida_page": null,
       "florida_evidence": null
     },
@@ -407,8 +407,8 @@
       "original_text": "The Graying of American Prisons\nThe COVID-19 pandemic placed a particular burden on prison populations... By the time the pandemic hit, the population of people over 50 in American prisons was, for the first time in history, larger than every other age group, and nearly 200,000 people in correctional facilities were 55 and over. That portion of the prison population tripled from 2000 to 2016 (Li 2020). Two factors contribute significantly to this country's aging prison population. One is the tough-on-crime reforms of the 1980s and 1990s, when mandatory minimum sentencing and \"three strikes\" policies sent many people to jail for thirty years to life... Aging inmates require far more healthcare, which places massive burdens on prison budgets and expenditures.",
       "florida_text": null,
       "context": "The entire \"Graying of American Prisons\" Sociology in the Real World sidebar is removed from the Florida version. This sidebar discussed mandatory minimum sentencing, three-strikes laws, the ethics of incarcerating aging people, and the cost savings of early release. References to this topic are retained only in the reference list.",
-      "original_page": null,
-      "original_evidence": null,
+      "original_page": 404,
+      "original_evidence": "img/evidence/ch13/change_36_original.webp",
       "florida_page": null,
       "florida_evidence": null
     },
@@ -440,10 +440,10 @@
       "original_text": "One microanalytical theory is Rose's (1962) subculture of aging theory, which focuses on the shared community created by the elderly when they are excluded... For example, a group consciousness may develop within such groups as AARP around issues specific to the elderly like the Medicare \"doughnut hole,\" focused on creating social and political pressure to fix those issues.",
       "florida_text": "An early microanalytical theory is Rose's (1962) subculture of aging theory, which focused on the shared community created by older adults when they are excluded... For example, a group consciousness may develop within such groups as AARP around issues specific to older adults like the Medicare and create social and political pressure to fix those issues.",
       "context": "The Medicare \"doughnut hole\" \u2014 a specific, politically charged policy reference to a gap in Medicare drug coverage that was largely closed by the ACA \u2014 is removed from the Florida version, replaced with a vaguer reference to \"the Medicare.\"",
-      "original_page": null,
-      "original_evidence": null,
-      "florida_page": null,
-      "florida_evidence": null
+      "original_page": 407,
+      "original_evidence": "img/evidence/ch13/change_39_original.webp",
+      "florida_page": 103,
+      "florida_evidence": "img/evidence/ch13/change_39_florida.webp"
     },
     {
       "type": "removed",
