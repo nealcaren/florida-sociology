@@ -123,11 +123,116 @@
       list.innerHTML = data.changes.map((change, i) => renderChange(change, i)).join("");
     }
 
+    // Evidence panel toggle (delegated, attach once)
+    if (!list.dataset.evidenceHandler) {
+      list.dataset.evidenceHandler = "true";
+      list.addEventListener("click", function (e) {
+        const btn = e.target.closest(".evidence-toggle");
+        if (!btn) return;
+
+        const panel = btn.nextElementSibling;
+        const isOpen = panel.classList.contains("open");
+
+        if (isOpen) {
+          panel.classList.remove("open");
+          btn.querySelector(".evidence-toggle-text").textContent =
+            btn.querySelector(".evidence-toggle-text").textContent.replace("Hide textbook view", "View in textbook");
+        } else {
+          // Lazy-load images on first open
+          if (btn.dataset.evidenceLoaded === "false") {
+            panel.querySelectorAll("img[data-src]").forEach(function (img) {
+              img.src = img.dataset.src;
+              img.removeAttribute("data-src");
+            });
+            btn.dataset.evidenceLoaded = "true";
+          }
+          panel.classList.add("open");
+          btn.querySelector(".evidence-toggle-text").textContent =
+            btn.querySelector(".evidence-toggle-text").textContent.replace("View in textbook", "Hide textbook view");
+        }
+      });
+    }
+
     // Prev/next navigation
     renderChapterNav(data.chapter);
 
     // Scroll to top
     window.scrollTo(0, 0);
+  }
+
+  // --- Evidence Panel ---
+
+  function renderEvidencePanel(change) {
+    const hasOriginal = change.original_evidence;
+    const hasFlorida = change.florida_evidence;
+
+    if (!hasOriginal && !hasFlorida) return "";
+
+    const pageInfo = [];
+    if (change.original_page) pageInfo.push(`Original p.\u00a0${change.original_page}`);
+    if (change.florida_page) pageInfo.push(`Florida p.\u00a0${change.florida_page}`);
+    const pageText = pageInfo.length ? ` \u2014 ${pageInfo.join(" | ")}` : "";
+
+    // Column labels — use location info for moved changes
+    let origLabel = change.original_page ? `Original (p. ${change.original_page})` : "Original";
+    let flLabel = change.florida_page ? `Florida (p. ${change.florida_page})` : "Florida";
+    if (change.type === "moved") {
+      if (change.original_location) origLabel = `Original \u2014 ${change.original_location} (p. ${change.original_page || "?"})`;
+      if (change.florida_location) flLabel = `Florida \u2014 ${change.florida_location} (p. ${change.florida_page || "?"})`;
+    }
+
+    let origCol, flCol;
+
+    if (hasOriginal) {
+      origCol = `
+        <div class="evidence-column">
+          <div class="evidence-label">${escapeHtml(origLabel)}</div>
+          <a href="${change.original_evidence}" target="_blank">
+            <img class="evidence-img" data-src="${change.original_evidence}"
+                 alt="Cropped page from original textbook showing this passage">
+          </a>
+        </div>`;
+    } else {
+      origCol = `
+        <div class="evidence-column">
+          <div class="evidence-label">${escapeHtml(origLabel)}</div>
+          <div class="evidence-unavailable">${
+            change.type === "added" ? "Not in original version" : "Page image unavailable"
+          }</div>
+        </div>`;
+    }
+
+    if (hasFlorida) {
+      flCol = `
+        <div class="evidence-column">
+          <div class="evidence-label">${escapeHtml(flLabel)}</div>
+          <a href="${change.florida_evidence}" target="_blank">
+            <img class="evidence-img" data-src="${change.florida_evidence}"
+                 alt="Cropped page from Florida textbook showing this passage">
+          </a>
+        </div>`;
+    } else {
+      flCol = `
+        <div class="evidence-column">
+          <div class="evidence-label">${escapeHtml(flLabel)}</div>
+          <div class="evidence-unavailable">${
+            change.type === "removed" ? "Not present in Florida version" : "Page image unavailable"
+          }</div>
+        </div>`;
+    }
+
+    return `
+      <button class="evidence-toggle" data-evidence-loaded="false">
+        <span class="evidence-toggle-icon">&#128196;</span>
+        <span class="evidence-toggle-text">View in textbook${pageText}</span>
+      </button>
+      <div class="evidence-panel">
+        <div class="evidence-columns">
+          ${origCol}
+          ${flCol}
+        </div>
+      </div>
+    `;
   }
 
   function renderChange(change, index) {
@@ -180,7 +285,8 @@
         break;
     }
 
-    return `<div id="change-${index}" class="change-block ${change.type}">${content}</div>`;
+    const evidence = renderEvidencePanel(change);
+    return `<div id="change-${index}" class="change-block ${change.type}">${content}${evidence}</div>`;
   }
 
   function renderChapterNav(currentNum) {
