@@ -18,6 +18,12 @@ uv run python scripts/extract.py
 # Rebuild master index after editing any data/ch*.json
 uv run python scripts/build_index.py
 
+# Render evidence images from PDFs (requires both PDFs in project root)
+uv run python scripts/render_evidence.py
+
+# Render for a single chapter (original numbering)
+uv run python scripts/render_evidence.py --chapter 5
+
 # Local dev server
 python3 -m http.server 8000
 ```
@@ -34,11 +40,15 @@ No build step. The site is static HTML/CSS/JS loading JSON via fetch().
 
 ## Data Format
 
-Each `data/ch{NN}.json` has: `chapter`, `title`, `florida_title` (null if removed), `summary` (editorial prose, double-newline separated paragraphs), `changes` array, `change_count`, `severity`.
+Each `data/ch{NN}.json` has: `chapter`, `title`, `florida_title` (null if removed entirely), `summary` (editorial prose, double-newline separated paragraphs), `changes` array, `change_count`, `severity`.
+
+Optional fields: `original_sections` / `florida_sections` (section number arrays), `original_chapters` (for removed chapters that were part of the original), `key_terms` (array of `{"term", "status", "original_definition", "florida_definition"}` for glossary changes).
 
 Change types: `removed`, `modified`, `added`, `moved`. Each has `section`, `original_text`, `florida_text`, `context`. The `moved` type additionally has `original_location` and `florida_location`.
 
 After editing any chapter JSON, always run `build_index.py` to regenerate `chapters.json`.
+
+**Extracted text:** `text/original/` and `text/florida/` contain per-chapter plain text (e.g., `ch01.txt`). `text/original_sections/` and `text/florida_sections/` have section-level splits. These are the source-of-truth for verifying quoted text in `original_text`/`florida_text` fields.
 
 ## Style Constraints
 
