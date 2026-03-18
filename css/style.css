@@ -114,6 +114,14 @@ main {
   margin: 0 auto 1.5rem;
 }
 
+.hero-pdfs {
+  font-family: system-ui, sans-serif;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin-bottom: 1.5rem;
+}
+.hero-pdfs a { color: var(--color-text-muted); }
+
 .stats {
   display: flex;
   justify-content: center;
