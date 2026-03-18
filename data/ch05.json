@@ -10,112 +10,176 @@
       "section": "Introduction",
       "original_text": "When Noel was fifteen, they saw a flyer about joining the volunteer ambulance corps. Noel was intrigued: They had an interest in pursuing medicine, and liked volunteering...",
       "florida_text": "When Noel was fifteen, she saw a flyer about joining the volunteer ambulance corps. Intrigued by medicine and volunteering, Noel learned that junior members could help with supplies...",
-      "context": "Noel's gender-neutral they/them pronouns are replaced throughout the introduction with she/her, erasing the non-binary identity that was a deliberate feature of the original OpenStax text. This change is applied consistently across all references to Noel in the introduction."
+      "context": "Noel's gender-neutral they/them pronouns are replaced throughout the introduction with she/her, erasing the non-binary identity that was a deliberate feature of the original OpenStax text. This change is applied consistently across all references to Noel in the introduction.",
+      "original_page": 131,
+      "original_evidence": "img/evidence/ch05/change_0_original.webp",
+      "florida_page": 70,
+      "florida_evidence": "img/evidence/ch05/change_0_florida.webp"
     },
     {
       "type": "modified",
       "section": "Introduction",
       "original_text": "Despite her history in urgent medical roles... she tried repeatedly to alert accounting... she tried repeatedly... (all subsequent intro references use 'she')",
       "florida_text": "Despite her history in urgent medical roles, Noel found hospital administration frustratingly slow.",
-      "context": "Continues the replacement of Noel's non-binary pronouns with she/her throughout. The Florida introduction also substantially compresses and paraphrases the original narrative rather than reproducing it verbatim, reducing rhetorical detail."
+      "context": "Continues the replacement of Noel's non-binary pronouns with she/her throughout. The Florida introduction also substantially compresses and paraphrases the original narrative rather than reproducing it verbatim, reducing rhetorical detail.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": 70,
+      "florida_evidence": "img/evidence/ch05/change_1_florida.webp"
     },
     {
       "type": "removed",
       "section": "5.1 / 4.1",
       "original_text": "What a Pretty Little Lady!\n\"What a cute dress!\" \"I like the ribbons in your hair.\" \"Wow, you look so pretty today.\"\nAccording to Lisa Bloom, author of Think: Straight Talk for Women to Stay Smart in a Dumbed Down World, most of us use pleasantries like these when we first meet little girls... about 50 percent of girls ages three to six worry about being fat (Bloom 2011)... One solution to this type of gender socialization is being experimented with at the Egalia preschool in Sweden, where children develop in a genderless environment. All the children at Egalia are referred to with neutral terms like \"friend\" instead of \"he\" or \"she.\"...",
       "florida_text": null,
-      "context": "The entire 'What a Pretty Little Lady!' sidebar is removed. This section discussed appearance-focused socialization of girls, body image concerns starting at age three, and the Egalia genderless preschool in Sweden. Its removal eliminates both a substantive critique of gender socialization and the only mention in the original chapter of gender-neutral child-rearing practices."
+      "context": "The entire 'What a Pretty Little Lady!' sidebar is removed. This section discussed appearance-focused socialization of girls, body image concerns starting at age three, and the Egalia genderless preschool in Sweden. Its removal eliminates both a substantive critique of gender socialization and the only mention in the original chapter of gender-neutral child-rearing practices.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
-      "section": "5.1 / 4.1 — Gilligan's Theory",
+      "section": "5.1 / 4.1 \u2014 Gilligan's Theory",
       "original_text": "While Gilligan is correct that Kohlberg's research should have included both male and female subjects, her study has been scientifically discredited due to its small sample size... Differences in behavior between males and females is the result of gender socialization that teaches boys and girls societal norms and behaviors expected of them based on their sex (see \"What a Pretty Little Lady\").\nGilligan also recognized that Kohlberg's theory rested on the assumption that the justice perspective was the right, or better, perspective... boys are socialized for a work environment where rules make operations run smoothly, while girls are socialized for a home environment where flexibility allows for harmony in caretaking and nurturing (Gilligan 1982; Gilligan 1990).",
       "florida_text": "Following Kohlberg, in her 1982 book \"In a Different Voice: Psychological Theory and Women's Development, psychologist Carol Gilligan argued that Kohlberg missed several important aspects of development because his work focused primarily on boys. Gilligan when on to show that women's moral development is based on how they see themselves in relation to others, which varies from men who may develop a sense of ethics and justice through individual achievements. and suggested they experience three stages of care: 1) self-centered care (or survival), 2) conventional care (providing care as a responsibility to others), and 3) integrated care (or balancing care of self with care of others).",
-      "context": "The Florida text removes the critical paragraph that characterized observed gender differences in morality as a product of gender socialization rather than innate traits, and also removes the paragraph critiquing Kohlberg's justice-perspective bias. The Florida version replaces these with a condensed, less critical summary of Gilligan that omits the socialization framing. References to both Gilligan 1982 and 1990 are dropped from the reference list."
+      "context": "The Florida text removes the critical paragraph that characterized observed gender differences in morality as a product of gender socialization rather than innate traits, and also removes the paragraph critiquing Kohlberg's justice-perspective bias. The Florida version replaces these with a condensed, less critical summary of Gilligan that omits the socialization framing. References to both Gilligan 1982 and 1990 are dropped from the reference list.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
-      "section": "5.2 / 4.2 — Nature vs. Nurture",
+      "section": "5.2 / 4.2 \u2014 Nature vs. Nurture",
       "original_text": "Though genetics and hormones play an important role in human behavior, sociology's larger concern is the effect society has on human behavior, the \"nurture\" side of the nature versus nurture debate. What race were the twins? From what social class were their parents? What about gender? Religion? All these factors affected the lives of the twins as much as their genetic makeup and are critical to consider as we look at life through the sociological lens.",
       "florida_text": null,
-      "context": "This paragraph, which explicitly names race, social class, gender, and religion as factors shaping socialization equally with genetics, is removed. The Florida text replaces it with a more neutral summary that mentions 'race, class, and religion' in passing but removes the direct rhetorical emphasis on these as critical factors."
+      "context": "This paragraph, which explicitly names race, social class, gender, and religion as factors shaping socialization equally with genetics, is removed. The Florida text replaces it with a more neutral summary that mentions 'race, class, and religion' in passing but removes the direct rhetorical emphasis on these as critical factors.",
+      "original_page": 138,
+      "original_evidence": "img/evidence/ch05/change_4_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
-      "section": "5.2 / 4.2 — Theoretical paradigms",
+      "section": "5.2 / 4.2 \u2014 Theoretical paradigms",
       "original_text": "A conflict theorist might argue that socialization reproduces inequality from generation to generation by conveying different expectations and norms to those with different social characteristics. For example, individuals are socialized differently by gender, social class, and race. As in Chris Langan's case, this creates different (unequal) opportunities.",
       "florida_text": "A conflict theorist might argue that socialization reproduces inequality from generation to generation by conveying different expectations and norms to those with different social characteristics. For example, individuals are often socialized differently by gender, social class, and race.",
-      "context": "The sentence 'As in Chris Langan's case, this creates different (unequal) opportunities' is removed. This deletion severs the explicit link between differential socialization by race/class/gender and unequal outcomes, softening the conflict-theory critique."
+      "context": "The sentence 'As in Chris Langan's case, this creates different (unequal) opportunities' is removed. This deletion severs the explicit link between differential socialization by race/class/gender and unequal outcomes, softening the conflict-theory critique.",
+      "original_page": 139,
+      "original_evidence": "img/evidence/ch05/change_5_original.webp",
+      "florida_page": 73,
+      "florida_evidence": "img/evidence/ch05/change_5_florida.webp"
     },
     {
       "type": "removed",
-      "section": "5.3 / 4.3 — School",
+      "section": "5.3 / 4.3 \u2014 School",
       "original_text": "Controversial Textbooks\nOn August 13, 2001, twenty South Korean men gathered in Seoul. Each chopped off one of his own fingers because of textbooks... the textbooks glossed over negative events in Japan's history... they do not mention that, during World War II, the Japanese forced Korean women into sexual slavery. The textbooks describe the women as having been \"drafted\" to work, a euphemism that downplays the brutality of what actually occurred. Some Japanese textbooks dismiss an important Korean independence demonstration in 1919 as a \"riot.\" In reality, Japanese soldiers attacked peaceful demonstrators, leaving roughly 6,000 dead and 15,000 wounded (Crampton 2002).",
       "florida_text": null,
-      "context": "The entire 'Controversial Textbooks' Big Picture sidebar is removed. This sidebar discussed Japanese wartime atrocities — including the forced sexual enslavement of Korean women — as an example of textbooks being used to whitewash history, and argued that textbooks are a significant tool of socialization. Its removal eliminates a concrete international example of politically motivated historical censorship in educational materials."
+      "context": "The entire 'Controversial Textbooks' Big Picture sidebar is removed. This sidebar discussed Japanese wartime atrocities \u2014 including the forced sexual enslavement of Korean women \u2014 as an example of textbooks being used to whitewash history, and argued that textbooks are a significant tool of socialization. Its removal eliminates a concrete international example of politically motivated historical censorship in educational materials.",
+      "original_page": 142,
+      "original_evidence": "img/evidence/ch05/change_6_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
-      "section": "5.3 / 4.3 — School",
+      "section": "5.3 / 4.3 \u2014 School",
       "original_text": "information about the mistreatment of African Americans and Native American Indians more accurately reflects those events than in textbooks of the past.",
       "florida_text": "historically documented facts about the past mistreatment of African Americans and Native American Indians are more prominently discussed today than in textbooks of the past.",
-      "context": "The phrasing is changed from 'more accurately reflects those events' to 'are more prominently discussed today.' The original framing implies that past textbooks were inaccurate; the Florida version changes this to suggest merely a difference in prominence or emphasis, reducing the implicit critique of historical whitewashing in U.S. textbooks."
+      "context": "The phrasing is changed from 'more accurately reflects those events' to 'are more prominently discussed today.' The original framing implies that past textbooks were inaccurate; the Florida version changes this to suggest merely a difference in prominence or emphasis, reducing the implicit critique of historical whitewashing in U.S. textbooks.",
+      "original_page": 142,
+      "original_evidence": "img/evidence/ch05/change_7_original.webp",
+      "florida_page": 76,
+      "florida_evidence": "img/evidence/ch05/change_7_florida.webp"
     },
     {
       "type": "modified",
-      "section": "5.3 / 4.3 — Family",
+      "section": "5.3 / 4.3 \u2014 Family",
       "original_text": "How will Swedish children raised this way be socialized to parental gender norms? How might that be different from parental gender norms in the United States?",
       "florida_text": "By comparison, in the United States, the Family and Medical Leave Act (FMLA) is a federal policy that is only offered to eligible employees who work for a covered employer (i.e., work for a company with 50 or more employees), with paid leave only available for 12 weeks. Culturally, it is also less common for fathers to stay at home. In fact, based on a 2023 study by Pew Research, only 7% of fathers were stay-at-home dads (Fry, 2023).",
-      "context": "The original ends the Sweden paternity leave discussion with open questions prompting critical reflection on U.S. gender norms. The Florida text replaces these questions with a factual comparison paragraph about FMLA that is more descriptive and less inviting of critical analysis of gender socialization."
+      "context": "The original ends the Sweden paternity leave discussion with open questions prompting critical reflection on U.S. gender norms. The Florida text replaces these questions with a factual comparison paragraph about FMLA that is more descriptive and less inviting of critical analysis of gender socialization.",
+      "original_page": 140,
+      "original_evidence": "img/evidence/ch05/change_8_original.webp",
+      "florida_page": 74,
+      "florida_evidence": "img/evidence/ch05/change_8_florida.webp"
     },
     {
       "type": "modified",
-      "section": "5.4 / 4.4 — Life Course",
+      "section": "5.4 / 4.4 \u2014 Life Course",
       "original_text": "In countries such as Niger and Sierra Leone, however, child labor remains common and socially acceptable, with little legislation to regulate such practices (UNICEF 2012).",
       "florida_text": "In countries such as Niger and Sierra Leone, however, child labor and marriage during childhood remains common and socially acceptable, with little legislation to regulate such practices (UNICEF 2012).",
-      "context": "The Florida text adds 'and marriage during childhood' to this sentence, expanding the list of practices noted in these countries. This is a minor addition that broadens the scope of the example."
+      "context": "The Florida text adds 'and marriage during childhood' to this sentence, expanding the list of practices noted in these countries. This is a minor addition that broadens the scope of the example.",
+      "original_page": 145,
+      "original_evidence": "img/evidence/ch05/change_9_original.webp",
+      "florida_page": 79,
+      "florida_evidence": "img/evidence/ch05/change_9_florida.webp"
     },
     {
       "type": "removed",
-      "section": "5.4 / 4.4 — Resocialization",
+      "section": "5.4 / 4.4 \u2014 Resocialization",
       "original_text": "The 6.9 million Americans who lived in prisons and penitentiaries at the end of 2012 are also members of this type of institution (U.S. Department of Justice 2012).",
       "florida_text": null,
-      "context": "The statistic about 6.9 million incarcerated Americans is removed from the discussion of total institutions, eliminating a data point that contextualizes the scale of prison-based resocialization in the United States."
+      "context": "The statistic about 6.9 million incarcerated Americans is removed from the discussion of total institutions, eliminating a data point that contextualizes the scale of prison-based resocialization in the United States.",
+      "original_page": 148,
+      "original_evidence": "img/evidence/ch05/change_10_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
-      "section": "5.4 / 4.4 — Adulthood/Millennials",
-      "original_text": "About a decade after the nation began to recover from the Recession, it was hit by another. Millennials, who had entered a very challenging employment situation, were saddled with debt and had very little in savings. By July 2020, the Millennial unemployment rate was 11.5 percent, which was actually higher than their unemployment rate during the 2008 Recession. Gen Z, the group of people born after the Millennials, fared even worse—with an 18 percent unemployment rate (Hoffower 2020). The cycle of financial insecurity and the potential socialization impacts may happen again in this decade.",
+      "section": "5.4 / 4.4 \u2014 Adulthood/Millennials",
+      "original_text": "About a decade after the nation began to recover from the Recession, it was hit by another. Millennials, who had entered a very challenging employment situation, were saddled with debt and had very little in savings. By July 2020, the Millennial unemployment rate was 11.5 percent, which was actually higher than their unemployment rate during the 2008 Recession. Gen Z, the group of people born after the Millennials, fared even worse\u2014with an 18 percent unemployment rate (Hoffower 2020). The cycle of financial insecurity and the potential socialization impacts may happen again in this decade.",
       "florida_text": null,
-      "context": "The paragraph discussing COVID-era economic devastation for Millennials and Gen Z (including an 18% Gen Z unemployment rate) is removed. This eliminates updated data on intergenerational economic inequality and its socialization consequences."
+      "context": "The paragraph discussing COVID-era economic devastation for Millennials and Gen Z (including an 18% Gen Z unemployment rate) is removed. This eliminates updated data on intergenerational economic inequality and its socialization consequences.",
+      "original_page": 147,
+      "original_evidence": "img/evidence/ch05/change_11_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
-      "section": "5.4 / 4.4 — Life After High School",
+      "section": "5.4 / 4.4 \u2014 Life After High School",
       "original_text": "BIG PICTURE\nLife After High School Around the World\n[full sidebar on college enrollment rates, gap years, Denmark]",
       "florida_text": "[same content retained but moved and restructured within section 4.4]",
-      "context": "The 'Life After High School Around the World' sidebar content is retained in the Florida version but repositioned and restructured. The content is substantially the same though integrated differently into the body text."
+      "context": "The 'Life After High School Around the World' sidebar content is retained in the Florida version but repositioned and restructured. The content is substantially the same though integrated differently into the body text.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "5.1 / not present",
       "original_text": "Sociology or Psychology: What's the Difference?\n[detailed sidebar discussing the distinction, including: 'a sociologist studying how a couple gets to the point of their first kiss on a date might focus her research on cultural norms for dating, social patterns of sexual activity over time...' and discussion of how psychologists 'look inward (mental health, emotional processes)']",
       "florida_text": "Sociological Research: Psychology vs. Sociology\n[condensed paragraph version]",
-      "context": "The detailed 'Sociology or Psychology' sidebar is condensed into a brief paragraph. The vivid example about studying 'the person's earliest sexual awareness or the mental processing of sexual desire' is removed, along with detailed discussion of how the disciplines diverged over time."
+      "context": "The detailed 'Sociology or Psychology' sidebar is condensed into a brief paragraph. The vivid example about studying 'the person's earliest sexual awareness or the mental processing of sexual desire' is removed, along with detailed discussion of how the disciplines diverged over time.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "5.1",
       "original_text": "The case of Danielle, for example, illustrates what happens when social interaction is absent from early experience: Danielle had no ability to see herself as others would see her. From Mead's point of view, she had no \"self.\"",
       "florida_text": null,
-      "context": "All references to the case study of Danielle (a child raised in extreme isolation) are removed from the Florida text. The original used Danielle as a recurring example throughout sections 5.1 and 5.2 to illustrate the consequences of absent socialization."
+      "context": "All references to the case study of Danielle (a child raised in extreme isolation) are removed from the Florida text. The original used Danielle as a recurring example throughout sections 5.1 and 5.2 to illustrate the consequences of absent socialization.",
+      "original_page": 134,
+      "original_evidence": "img/evidence/ch05/change_14_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "Section Summary / Quiz / Short Answer / Further Research",
       "original_text": "[Full Section Summary, Section Quiz (16 questions), Short Answer questions, and Further Research links are present in original]",
       "florida_text": null,
-      "context": "The Florida version omits the Section Summary, Section Quiz, Short Answer questions, and Further Research links that appear at the end of the original chapter. These pedagogical features — including a short answer question asking students to think critically about parents discussing gender roles with children — are entirely absent from the Florida text."
+      "context": "The Florida version omits the Section Summary, Section Quiz, Short Answer questions, and Further Research links that appear at the end of the original chapter. These pedagogical features \u2014 including a short answer question asking students to think critically about parents discussing gender roles with children \u2014 are entirely absent from the Florida text.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": null,
+      "florida_evidence": null
     }
   ],
   "change_count": 15,

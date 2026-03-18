@@ -10,133 +10,209 @@
       "section": "Introduction",
       "original_text": "Infection of U.S. medical staff (both in West Africa and at home) led to fear and distrust, and restrictions on flights from West Africa was one proposed way to stop the spread of the disease.",
       "florida_text": "The U.S. placed restrictions on flights from West Africa was one proposed way to stop the spread of the disease.",
-      "context": "Florida version removes the mention of U.S. medical staff infections causing fear and distrust, softening criticism of the U.S. response."
+      "context": "Florida version removes the mention of U.S. medical staff infections causing fear and distrust, softening criticism of the U.S. response.",
+      "original_page": 571,
+      "original_evidence": "img/evidence/ch19/change_0_original.webp",
+      "florida_page": 113,
+      "florida_evidence": "img/evidence/ch19/change_0_florida.webp"
     },
     {
       "type": "removed",
       "section": "Introduction",
-      "original_text": "While some countries managed the disease far better than others, it affected everyone. Highly industrialized countries, such as China, Italy, and the United States, were early centers of the outbreak. Brazil and India had later increases, as did the U.K. and Russia. Most countries took measures that were considered extreme—closing their borders, forcing schools and businesses to close, transforming their people's lives. Other nations went further, completely shutting down at the discovery of just a few cases. And some countries had mixed responses, typically resulting in high rates of infection and overwhelming losses of life. In Brazil and the United States, for example, political leaders and large swaths of the populations rejected measures to contain the virus. By the time vaccines became widely available, those two countries had the highest numbers of coronavirus death worldwide.",
+      "original_text": "While some countries managed the disease far better than others, it affected everyone. Highly industrialized countries, such as China, Italy, and the United States, were early centers of the outbreak. Brazil and India had later increases, as did the U.K. and Russia. Most countries took measures that were considered extreme\u2014closing their borders, forcing schools and businesses to close, transforming their people's lives. Other nations went further, completely shutting down at the discovery of just a few cases. And some countries had mixed responses, typically resulting in high rates of infection and overwhelming losses of life. In Brazil and the United States, for example, political leaders and large swaths of the populations rejected measures to contain the virus. By the time vaccines became widely available, those two countries had the highest numbers of coronavirus death worldwide.",
       "florida_text": null,
-      "context": "The original's explicit naming of the United States alongside Brazil as countries whose political leaders 'rejected measures to contain the virus' with 'the highest numbers of coronavirus death worldwide' is removed from the Florida version."
+      "context": "The original's explicit naming of the United States alongside Brazil as countries whose political leaders 'rejected measures to contain the virus' with 'the highest numbers of coronavirus death worldwide' is removed from the Florida version.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "Introduction",
       "original_text": "Did the world learn from the Ebola virus epidemics? Or did only parts of it learn? Prior to the United States facing the worst COVID-19 outbreak in the world, the government shut down travel, as did many countries in Europe. This was certainly an important step, but other measures fell short; conflicting messages about mask wearing and social distancing became political weapons amid the country's Presidential election, and localized outbreaks and spikes of deaths were continually traced to gatherings that occurred against scientific guidance. Brazil's president actively disputed medical opinions, rejected any travel or business restrictions, and was in conflict with many people in his own government (even his political allies)...",
       "florida_text": null,
-      "context": "The reflective paragraph critically examining U.S. COVID failures (mask wearing as 'political weapons,' linkage to the Presidential election) is removed, replaced with a more neutral account that does name Bolsonaro but not Trump or the U.S. political context."
+      "context": "The reflective paragraph critically examining U.S. COVID failures (mask wearing as 'political weapons,' linkage to the Presidential election) is removed, replaced with a more neutral account that does name Bolsonaro but not Trump or the U.S. political context.",
+      "original_page": 572,
+      "original_evidence": "img/evidence/ch19/change_2_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "added",
       "section": "Introduction",
       "original_text": null,
       "florida_text": "In the early days of the pandemic in the United States, the government shut down travel, as did many countries in Europe. However, conflicting regulations and recommendations related to mask wearing and social distancing lead to many in the population rejecting the public health recommendations... In Brazil, then-president Jair Bolsonaro actively disputed medical recommendations... Why did New Zealand fare so well? In the very early days of the outburst, Prime Minister (PM) Jacinda Ardern, recognized a 'small window of opportunity' to get ahead of the virus. She gave 48 hours' notice before nation moved into full national lockdown...",
-      "context": "Florida version replaces the original's U.S.-critical paragraph with a reframing: the U.S. is described neutrally as having shut down travel, Bolsonaro is named (the original did not name him), and New Zealand's lockdown success is added as a positive case study. The effect is to avoid direct criticism of U.S. leadership while redirecting blame to Brazil specifically."
+      "context": "Florida version replaces the original's U.S.-critical paragraph with a reframing: the U.S. is described neutrally as having shut down travel, Bolsonaro is named (the original did not name him), and New Zealand's lockdown success is added as a positive case study. The effect is to avoid direct criticism of U.S. leadership while redirecting blame to Brazil specifically.",
+      "florida_page": 114,
+      "florida_evidence": "img/evidence/ch19/change_3_florida.webp",
+      "original_page": null,
+      "original_evidence": null
     },
     {
       "type": "removed",
       "section": "19.1 / 6.1",
       "original_text": "Has Breast Cancer Awareness Gone Too Far?\n...Pink has been associated with breast cancer since 1991... The advocacy group Breast Cancer Action (BCA) position themselves as watchdogs of other agencies fighting breast cancer... They've developed a trademarked 'Think Before You Pink' campaign... BCA also suggests that consumers make sure that the product they are buying does not actually contribute to breast cancer, a phenomenon they call 'pinkwashing.'...",
       "florida_text": null,
-      "context": "The entire 'Social Policy and Debate' sidebar on breast cancer awareness and corporate pinkwashing is removed from the Florida version. This sidebar questioned whether fundraising and corporate profit motives may conflict with actual health goals."
+      "context": "The entire 'Social Policy and Debate' sidebar on breast cancer awareness and corporate pinkwashing is removed from the Florida version. This sidebar questioned whether fundraising and corporate profit motives may conflict with actual health goals.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
-      "section": "19.3 / 6.3 — Health by Race and Ethnicity",
+      "section": "19.3 / 6.3 \u2014 Health by Race and Ethnicity",
       "original_text": "Lisa Berkman (2009) notes that this gap started to narrow during the Civil Rights movement in the 1960s, but it began widening again in the early 1980s. What accounts for these perpetual disparities in health among different ethnic groups? Much of the answer lies in the level of healthcare that these groups receive. The National Healthcare Disparities Report shows that even after adjusting for insurance differences, racial and ethnic minority groups receive poorer quality of care and less access to care than dominant groups. The Report identified these racial inequalities in care: Black people, Native Americans, and Alaska Native people received worse care than Whites for about 40 percent of quality measures...",
       "florida_text": "There remain important differences in health coverage and access to care, which contribute to these differences. Following the introduction of the Affordable Care Act (ACA) in 2014, there were significant increases in healthcare coverage across all groups... Beyond access, the Agency for Healthcare Research and Quality reports that when care is provided, NHB, AIAN, and Hispanics receive significantly poorer quality of care compared to NHW individuals...",
-      "context": "The original's historical framing—noting health gap narrowed during Civil Rights movement then widened in the 1980s (implying political causation)—is removed. The Florida version shifts to ACA-era data and a less structurally critical framing. The specific quality-of-care breakdown by racial group (40%, 30%, etc.) is replaced with more general language."
+      "context": "The original's historical framing\u2014noting health gap narrowed during Civil Rights movement then widened in the 1980s (implying political causation)\u2014is removed. The Florida version shifts to ACA-era data and a less structurally critical framing. The specific quality-of-care breakdown by racial group (40%, 30%, etc.) is replaced with more general language.",
+      "original_page": 577,
+      "original_evidence": "img/evidence/ch19/change_5_original.webp",
+      "florida_page": 118,
+      "florida_evidence": "img/evidence/ch19/change_5_florida.webp"
     },
     {
       "type": "modified",
-      "section": "19.3 / 6.3 — Health by Socioeconomic Status",
+      "section": "19.3 / 6.3 \u2014 Health by Socioeconomic Status",
       "original_text": "Marilyn Winkleby and her research associates (1992) state that 'one of the strongest and most consistent predictors of a person's morbidity and mortality experience is that person's socioeconomic status (SES). This finding persists across all diseases with few exceptions, continues throughout the entire lifespan...' It is important to remember that economics are only part of the SES picture; research suggests that education also plays an important role. Phelan and Link (2003) note that many behavior-influenced diseases like lung cancer (from smoking), coronary artery disease (from poor eating and exercise habits), and AIDS initially were widespread across SES groups. However, once information linking habits to disease was disseminated, these diseases decreased in high SES groups and increased in low SES groups.",
       "florida_text": "Decades of research has shown that socio-economic status in the United States is particularly correlated with physical, mental, cognitive, and psychological health and wellbeing. For instance, a growing area of interest among medical sociologists is the problem of 'deaths of despair' which includes deaths related to alcohol, drugs, or suicide. There are stark differences in deaths of despair based on education whereby non-Hispanic white individuals without a college degree are experiencing increasing risks over time (Case & Deaton, 2020).",
-      "context": "The original's foundational SES-health literature (Winkleby, Phelan & Link) is replaced with more recent studies. The important structural point about how information dissemination about disease risks unequally benefits high-SES groups is removed. The addition of 'deaths of despair' shifts focus to a framework associated with non-Hispanic white working-class mortality."
+      "context": "The original's foundational SES-health literature (Winkleby, Phelan & Link) is replaced with more recent studies. The important structural point about how information dissemination about disease risks unequally benefits high-SES groups is removed. The addition of 'deaths of despair' shifts focus to a framework associated with non-Hispanic white working-class mortality.",
+      "original_page": 578,
+      "original_evidence": "img/evidence/ch19/change_6_original.webp",
+      "florida_page": 119,
+      "florida_evidence": "img/evidence/ch19/change_6_florida.webp"
     },
     {
       "type": "removed",
-      "section": "19.3 / 6.3 — Health by Gender",
+      "section": "19.3 / 6.3 \u2014 Health by Gender",
       "original_text": "Women are affected adversely both by unequal access to and institutionalized sexism in the healthcare industry. According to a recent report from the Kaiser Family Foundation, women experienced a decline in their ability to see needed specialists between 2001 and 2008... We can see an example of institutionalized sexism in the way that women are more likely than men to be diagnosed with certain kinds of mental disorders. Psychologist Dana Becker notes that 75 percent of all diagnoses of Borderline Personality Disorder (BPD) are for women... Becker argues that it has been used as a catch-all diagnosis for too many women. She further decries the pejorative connotation of the diagnosis...",
       "florida_text": null,
-      "context": "The original explicitly frames women's healthcare disparities as 'institutionalized sexism.' The Florida version removes this framing language and the entire BPD/Dana Becker discussion, which argued that overdiagnosis of BPD in women reflects systemic bias in medicine."
+      "context": "The original explicitly frames women's healthcare disparities as 'institutionalized sexism.' The Florida version removes this framing language and the entire BPD/Dana Becker discussion, which argued that overdiagnosis of BPD in women reflects systemic bias in medicine.",
+      "original_page": 578,
+      "original_evidence": "img/evidence/ch19/change_7_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
-      "section": "19.3 / 6.3 — Health by Gender",
+      "section": "19.3 / 6.3 \u2014 Health by Gender",
       "original_text": "Many critics also point to the medicalization of women's issues as an example of institutionalized sexism. Medicalization refers to the process by which previously normal aspects of life are redefined as deviant...",
       "florida_text": "Beyond healthcare access, another key issue for women relates to treatment. The concept of medicalization means that previously 'normal' aspects of life are redefined as deviant and needing medical attention to remedy for women who face particular health issues.",
-      "context": "Florida version removes the framing of medicalization as 'institutionalized sexism,' replacing it with a neutral description. The critical feminist framing is replaced with a more descriptive presentation."
+      "context": "Florida version removes the framing of medicalization as 'institutionalized sexism,' replacing it with a neutral description. The critical feminist framing is replaced with a more descriptive presentation.",
+      "original_page": 578,
+      "original_evidence": "img/evidence/ch19/change_8_original.webp",
+      "florida_page": 119,
+      "florida_evidence": "img/evidence/ch19/change_8_florida.webp"
     },
     {
       "type": "removed",
       "section": "19.3 / 6.3",
       "original_text": "Obesity: The Last Acceptable Prejudice?\nMany people who see a person with obesity may make negative assumptions about them based on their size... Historically, both in the United States and elsewhere, it was considered acceptable to discriminate against people based on prejudiced opinions. Even after slavery was abolished through the 13th Amendment in 1865, institutionalized racism and prejudice against Black people persisted. In an example of stereotype interchangeability, the same insults that are flung today at the overweight and obese population (lazy, for instance) have been flung at various racial and ethnic groups in earlier history.",
       "florida_text": null,
-      "context": "The entire sidebar 'Obesity: The Last Acceptable Prejudice?' is removed from the Florida version. This sidebar drew an explicit analogy between anti-obesity bias and racism, mentioning the 13th Amendment and 'institutionalized racism' against Black people. Its removal eliminates a key point about stereotype interchangeability across subordinate groups."
+      "context": "The entire sidebar 'Obesity: The Last Acceptable Prejudice?' is removed from the Florida version. This sidebar drew an explicit analogy between anti-obesity bias and racism, mentioning the 13th Amendment and 'institutionalized racism' against Black people. Its removal eliminates a key point about stereotype interchangeability across subordinate groups.",
+      "original_page": 583,
+      "original_evidence": "img/evidence/ch19/change_9_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
-      "section": "19.4 / 6.4 — ACA Coverage",
+      "section": "19.4 / 6.4 \u2014 ACA Coverage",
       "original_text": "The number of uninsured people is far lower than in previous decades. In 2013 and in many of the years preceding it, the number of uninsured people was in the 40 million range, or roughly 18 percent of the population. The Affordable Care Act, which came into full force in 2014, allowed more people to get affordable insurance. The uninsured number reached its lowest point in 2016, before beginning to climb again (Garfield 2019).",
       "florida_text": null,
-      "context": "The Florida version removes the historical context showing how the ACA dramatically reduced the uninsured population, which supported a positive framing of the law. Instead it moves directly to the ACA description without the prior baseline."
+      "context": "The Florida version removes the historical context showing how the ACA dramatically reduced the uninsured population, which supported a positive framing of the law. Instead it moves directly to the ACA description without the prior baseline.",
+      "original_page": 584,
+      "original_evidence": "img/evidence/ch19/change_10_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "added",
-      "section": "6.4 — ACA Coverage",
+      "section": "6.4 \u2014 ACA Coverage",
       "original_text": null,
       "florida_text": "However, in late 2025, President Trump removed this mandate, which may reverse these effects.",
-      "context": "The Florida version adds a sentence noting Trump's removal of the individual mandate in 2025, presented neutrally as a factual update. This is the only mention of Trump by name and softens the ACA's overall framing."
+      "context": "The Florida version adds a sentence noting Trump's removal of the individual mandate in 2025, presented neutrally as a factual update. This is the only mention of Trump by name and softens the ACA's overall framing.",
+      "florida_page": 125,
+      "florida_evidence": "img/evidence/ch19/change_11_florida.webp",
+      "original_page": null,
+      "original_evidence": null
     },
     {
       "type": "removed",
-      "section": "19.4 / 6.4 — ACA Politics",
+      "section": "19.4 / 6.4 \u2014 ACA Politics",
       "original_text": "The ACA remains contentious. The Supreme Court ruled in the case of National Federation of Independent Businesses v. Sebelius in 2012, that states cannot be forced to participate in the PPACA's Medicaid expansion. This ruling opened the door to further challenges to the ACA in Congress and the Federal courts, some state governments, conservative groups and independent businesses. The ACA has been a driving factor in elections and public opinion. In 2010 and 2014, many Republican gains in Congressional seats were related to fierce concern about Obamacare. However, once millions of people were covered by the law and the economy continued to improve, public sentiment and elections swung the other way. Healthcare was the top issue for voters, and desire to preserve the law was credited for many of the Democratic gains in the election, which carried over to 2020.",
       "florida_text": null,
-      "context": "The original's discussion of the ACA's partisan political history—Republican opposition, Democratic electoral gains due to voter support for healthcare—is entirely removed from the Florida version. This is a significant political edit removing content favorable to the ACA and the Democratic Party."
+      "context": "The original's discussion of the ACA's partisan political history\u2014Republican opposition, Democratic electoral gains due to voter support for healthcare\u2014is entirely removed from the Florida version. This is a significant political edit removing content favorable to the ACA and the Democratic Party.",
+      "original_page": 585,
+      "original_evidence": "img/evidence/ch19/change_12_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
-      "section": "19.4 / 6.4 — Socialized Medicine",
+      "section": "19.4 / 6.4 \u2014 Socialized Medicine",
       "original_text": "One critique of the Patient Protection and Affordable Care Act is that it will create a system of socialized medicine, a term that for many people in the United States has negative connotations lingering from the Cold War era and earlier... And despite some U.S. citizens' knee-jerk reaction to any healthcare changes that hint of socialism, the United States has one socialized system with the Veterans Health Administration.",
-      "florida_text": "One concern that many raised about the ACA was that it would provide 'socialized medicine,' a term that for many people in the United States has negative connotations. Under a socialized medicine system, the government owns and runs the system... However, the ACA is far from a socialized system of healthcare – it is a program that provides care by contracting with private companies. The only socialized healthcare in the United States is the Veterans Health Administration.",
-      "context": "Florida version removes the phrase 'lingering from the Cold War era and earlier' (historical critical framing) and replaces the original's implicit mockery of 'knee-jerk reaction' with a more neutral clarification that the ACA is not socialized medicine. The effect is to make the text less critical of ACA opponents."
+      "florida_text": "One concern that many raised about the ACA was that it would provide 'socialized medicine,' a term that for many people in the United States has negative connotations. Under a socialized medicine system, the government owns and runs the system... However, the ACA is far from a socialized system of healthcare \u2013 it is a program that provides care by contracting with private companies. The only socialized healthcare in the United States is the Veterans Health Administration.",
+      "context": "Florida version removes the phrase 'lingering from the Cold War era and earlier' (historical critical framing) and replaces the original's implicit mockery of 'knee-jerk reaction' with a more neutral clarification that the ACA is not socialized medicine. The effect is to make the text less critical of ACA opponents.",
+      "original_page": 585,
+      "original_evidence": "img/evidence/ch19/change_13_original.webp",
+      "florida_page": 125,
+      "florida_evidence": "img/evidence/ch19/change_13_florida.webp"
     },
     {
       "type": "modified",
-      "section": "19.4 / 6.4 — WHO Goals",
+      "section": "19.4 / 6.4 \u2014 WHO Goals",
       "original_text": "WHO, which is the health arm of the United Nations, set eight Millennium Development Goals (MDGs) in 2000 with the aim of reaching these goals by 2015... MDG 4 is to reduce child mortality, MDG 5 aims to improve maternal health, and MDG 6 strives to combat HIV/AIDS, malaria, and other diseases... Much progress has been made on MDG 5, with maternal deaths decreasing by 34 percent. However, almost all maternal deaths occurred in developing countries... On MDG 6, the WHO is seeing some decreases in per capita incidence rates of malaria, tuberculosis, HIV/AIDS...",
       "florida_text": "WHO, which is the health arm of the United Nations, set 17 sustainable development goals (SDGs) in 2015 with the aim of reaching these goals by 2030. Some of the goals deal more broadly with the socioeconomic factors that influence health, others relate specifically to large-scale health concerns, like clean water and sanitation (Goal 6), zero hunger (Goal 2), and good health and wellbeing (Goal 3)...",
-      "context": "The original's detailed Millennium Development Goals (MDGs) framework is replaced with SDGs. The specific progress reporting on maternal mortality, child mortality, and HIV/AIDS is removed. The replacement is less critical in tone."
+      "context": "The original's detailed Millennium Development Goals (MDGs) framework is replaced with SDGs. The specific progress reporting on maternal mortality, child mortality, and HIV/AIDS is removed. The replacement is less critical in tone.",
+      "original_page": 586,
+      "original_evidence": "img/evidence/ch19/change_14_original.webp",
+      "florida_page": 125,
+      "florida_evidence": "img/evidence/ch19/change_14_florida.webp"
     },
     {
       "type": "modified",
-      "section": "19.2 / 6.2 — Global Health obesity section",
+      "section": "19.2 / 6.2 \u2014 Global Health obesity section",
       "original_text": "Wallace Huffman and his fellow researchers (2006) contend that several factors are contributing to the rise in obesity in developed countries: Improvements in technology and reduced family size have led to a reduction of work to be done in household production. Unhealthy market goods, including processed foods, sweetened drinks, and sweet and salty snacks are replacing home-produced goods...",
       "florida_text": "Obesity is a chronic condition involving having excessive fat deposits in the body and measured based on body mass index... The National Institute on Health Heart, Lung, and Blood institutes have identified a variety of individual factors that contribute to increase risk of obesity in adulthood... Differences across high income countries show important ways that social policies likely influence healthcare and health behaviors including regulations shaping food environments...",
-      "context": "Florida version substantially rewrites the obesity section with updated global data and an expanded policy-oriented framing. The Huffman (2006) analysis of contributing factors is replaced with more recent WHO data (2025) and a more comprehensive global picture including food environment policies."
+      "context": "Florida version substantially rewrites the obesity section with updated global data and an expanded policy-oriented framing. The Huffman (2006) analysis of contributing factors is replaced with more recent WHO data (2025) and a more comprehensive global picture including food environment policies.",
+      "original_page": 576,
+      "original_evidence": "img/evidence/ch19/change_15_original.webp",
+      "florida_page": 117,
+      "florida_evidence": "img/evidence/ch19/change_15_florida.webp"
     },
     {
       "type": "removed",
-      "section": "19.3 / 6.3 — Health by Race, original detail",
+      "section": "19.3 / 6.3 \u2014 Health by Race, original detail",
       "original_text": "According to a report from the Henry J. Kaiser Foundation (2007), African Americans also have higher incidence of several diseases and causes of mortality, from cancer to heart disease to diabetes. In a similar vein, it is important to note that ethnic minorities, including Mexican Americans and Native Americans, also have higher rates of these diseases and causes of mortality than White people.",
       "florida_text": null,
-      "context": "The original Kaiser Foundation (2007) citation directly naming disease disparities for African Americans, Mexican Americans, and Native Americans is removed from the Florida version. The Florida version instead uses more aggregated and less specific language."
+      "context": "The original Kaiser Foundation (2007) citation directly naming disease disparities for African Americans, Mexican Americans, and Native Americans is removed from the Florida version. The Florida version instead uses more aggregated and less specific language.",
+      "original_page": 577,
+      "original_evidence": "img/evidence/ch19/change_16_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
-      "section": "19.5 / 6.5 — Conflict Perspective",
+      "section": "19.5 / 6.5 \u2014 Conflict Perspective",
       "original_text": "Alongside the health disparities created by class inequalities, there are a number of health disparities created by racism, sexism, ageism, and heterosexism. When health is a commodity, the poor are more likely to experience illness caused by poor diet, to live and work in unhealthy environments, and are less likely to challenge the system. In the United States, a disproportionate number of racial minorities also have less economic power, so they bear a great deal of the burden of poor health.",
       "florida_text": "Conflict theorists think about health and healthcare from a perspective of access and power, viewing health as a commodity in which the poor have poorer access, leading to greater risk of illness caused by poor diet and living/working in unhealthy environments. Poor people also do not have the power to change the system. In the United States, a disproportionate number of racial minorities also have fewer financial assets, so they have poorer health outcomes.",
-      "context": "Florida version removes the explicit listing of 'racism, sexism, ageism, and heterosexism' as sources of health disparities. The phrase 'less economic power' becomes 'fewer financial assets,' softening structural language. The framing of racial minorities as bearing 'a great deal of the burden of poor health' is replaced with the more neutral 'poorer health outcomes.'"
+      "context": "Florida version removes the explicit listing of 'racism, sexism, ageism, and heterosexism' as sources of health disparities. The phrase 'less economic power' becomes 'fewer financial assets,' softening structural language. The framing of racial minorities as bearing 'a great deal of the burden of poor health' is replaced with the more neutral 'poorer health outcomes.'",
+      "original_page": 588,
+      "original_evidence": "img/evidence/ch19/change_17_original.webp",
+      "florida_page": 127,
+      "florida_evidence": "img/evidence/ch19/change_17_florida.webp"
     },
     {
       "type": "removed",
       "section": "Key Terms",
       "original_text": "stereotype interchangeability\nstereotypes that don't change and that get recycled for application to a new subordinate group",
       "florida_text": null,
-      "context": "The key term 'stereotype interchangeability' is removed from the Florida version's glossary, consistent with the removal of the 'Obesity: The Last Acceptable Prejudice?' sidebar that introduced and used the term."
+      "context": "The key term 'stereotype interchangeability' is removed from the Florida version's glossary, consistent with the removal of the 'Obesity: The Last Acceptable Prejudice?' sidebar that introduced and used the term.",
+      "original_page": 590,
+      "original_evidence": "img/evidence/ch19/change_18_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     }
   ],
   "change_count": 17,

@@ -10,203 +10,319 @@
       "section": "21.1 (Figure caption)",
       "original_text": "where suspected terrorists had been held for over a decade without trial and without the rights of most people being held for suspicion of crimes.",
       "florida_text": "where at that time more than 50 of 780 detainees had been held for over a decade without trial as illegal enemy combatants.",
-      "context": "The Florida version removes the rights-based framing ('without the rights of most people') and replaces it with legalistic government terminology ('illegal enemy combatants'), softening critique of Guantanamo detention practices."
+      "context": "The Florida version removes the rights-based framing ('without the rights of most people') and replaces it with legalistic government terminology ('illegal enemy combatants'), softening critique of Guantanamo detention practices.",
+      "original_page": 637,
+      "original_evidence": "img/evidence/ch21/change_0_original.webp",
+      "florida_page": 251,
+      "florida_evidence": "img/evidence/ch21/change_0_florida.webp"
     },
     {
       "type": "removed",
       "section": "21 Introduction",
       "original_text": "Or perhaps more violent visuals: burning buildings in Watts, protestors fighting with police, or a lone citizen facing a line of tanks in Tiananmen Square.",
       "florida_text": null,
-      "context": "The Florida version removes the examples of urban uprisings and violent state-protester confrontations (Watts, police clashes) from the opening list of social movement images, keeping only the Tiananmen Square lone-individual image."
+      "context": "The Florida version removes the examples of urban uprisings and violent state-protester confrontations (Watts, police clashes) from the opening list of social movement images, keeping only the Tiananmen Square lone-individual image.",
+      "original_page": 637,
+      "original_evidence": "img/evidence/ch21/change_1_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "21 Introduction",
       "original_text": "The late James C. Davies suggested in his 1962 paper, 'Toward a Theory of Revolution' that major change depends upon the mood of the people, and that it is extremely unlikely those in absolute poverty will be able to overturn a government, simply because the government has infinitely more power. Instead, a shift is more possible when those with more power become involved. When formerly prosperous people begin to have unmet needs and unmet expectations, they become more disturbed: their mood changes. Eventually an intolerable point is reached, and revolution occurs. Thus, change comes not from the very bottom of the social hierarchy, but from somewhere in the middle (Davies 1962).",
       "florida_text": null,
-      "context": "The entire Davies J-curve theory of revolution is deleted from the Florida version, removing the theoretical framework for understanding under what conditions people might overthrow governments."
+      "context": "The entire Davies J-curve theory of revolution is deleted from the Florida version, removing the theoretical framework for understanding under what conditions people might overthrow governments.",
+      "original_page": 638,
+      "original_evidence": "img/evidence/ch21/change_2_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
       "section": "21 Introduction (OWS narrative)",
       "original_text": "Manuel Castells (2012) notes that the years leading up to the Occupy movement had witnessed a dizzying increase in the disparity of wealth in the United States, stemming back to the 1980s. The top 1 percent in the nation had secured 58 percent of the economic growth in the period for themselves, while real hourly wages for the average worker had increased by only 2 percent. The wealth of the top 5 percent had increased by 42 percent. The average pay of a CEO was at that time 350 times that of the average worker, compared to less than 50 times in 1983 (AFL-CIO 2014).",
       "florida_text": "Spanish sociologist Manuel Castells (2012) argues the Occupy movement was not only a response to the global financial crisis in 2008 but also to the decades-long increase in economic inequality in the U.S. He points to evidence that, since the 1980s, household incomes at the top of the income distribution grew significantly faster than those at the bottom (Congressional Budget Office, 2024).",
-      "context": "The specific statistics on CEO pay (350x average worker) and the AFL-CIO citation are removed. The replacement text is more neutral in framing ('grew significantly faster') than the original's stark figures on wealth concentration."
+      "context": "The specific statistics on CEO pay (350x average worker) and the AFL-CIO citation are removed. The replacement text is more neutral in framing ('grew significantly faster') than the original's stark figures on wealth concentration.",
+      "original_page": 638,
+      "original_evidence": "img/evidence/ch21/change_3_original.webp",
+      "florida_page": 251,
+      "florida_evidence": "img/evidence/ch21/change_3_florida.webp"
     },
     {
       "type": "removed",
       "section": "21 Introduction (OWS)",
       "original_text": "the country's leading financial institutions, to many clearly to blame for the crisis and dubbed 'too big to fail,' were in trouble... According to many reports, that same year top executives and traders received large bonuses.",
       "florida_text": null,
-      "context": "The editorial framing that banks were 'clearly to blame' and that executives received large bonuses in the bailout year is removed from the Florida version, softening critique of financial institutions."
+      "context": "The editorial framing that banks were 'clearly to blame' and that executives received large bonuses in the bailout year is removed from the Florida version, softening critique of financial institutions.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
       "section": "21 Introduction (OWS what did they want)",
       "original_text": "What did they want? Castells has dubbed OWS 'A non-demand movement: The process is the message.' Using Facebook, Twitter, Tumblr, and live-stream video, the protesters conveyed a multifold message with a long list of reforms and social change, including the need to address the rising disparity of wealth, the influence of money on election outcomes, the notion of 'corporate personhood,' a corporatized political system (to be replaced by 'direct democracy'), political favoring of the rich, and rising student debt.",
       "florida_text": "What did they want? Using Facebook, Twitter, Tumblr, and live-stream video, the protesters conveyed a multifold message with a long list of reforms and social change, including the need to address the rising disparity of wealth, the influence of money on election outcomes, political favoring of the rich, and rising student debt.",
-      "context": "Castells's quote describing OWS as 'A non-demand movement' is removed, and the movement's demands of 'corporate personhood' critique and replacement of 'corporatized political system' with 'direct democracy' are deleted."
+      "context": "Castells's quote describing OWS as 'A non-demand movement' is removed, and the movement's demands of 'corporate personhood' critique and replacement of 'corporatized political system' with 'direct democracy' are deleted.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": 252,
+      "florida_evidence": "img/evidence/ch21/change_5_florida.webp"
     },
     {
       "type": "removed",
       "section": "21.1 (Local social movements - Cooper Union)",
       "original_text": "In 2012, The Cooper Union in New York City announced that, due to financial mismanagement and unforeseen downturns from the Great Recession, the college had a massive shortfall; it would be forced to charge tuition for the first time... Student action eventually contributed to the president's resignation and a financial recovery plan in partnership with the state attorney general.",
       "florida_text": null,
-      "context": "The entire Cooper Union student protest example, which illustrated a successful local protest that forced a college president to resign, is deleted from the Florida version."
+      "context": "The entire Cooper Union student protest example, which illustrated a successful local protest that forced a college president to resign, is deleted from the Florida version.",
+      "original_page": 644,
+      "original_evidence": "img/evidence/ch21/change_6_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
       "section": "21.1 (Local - Wisconsin)",
       "original_text": "Faculty at the state's college system were not in unions, but teaching assistants, researchers, and other staff had regularly collectively bargained. Faced with the prospect of reduced job protections, pay, and benefits, the staff members began one of the earliest protests against Walker's action, by protesting on campus and sending an ironic message of love to the governor on Valentine's Day. Over time, these efforts would spread to other organizations in the state.",
       "florida_text": "Faculty at the state's college system were not in unions, but teaching assistants, researchers, and other staff had regularly collectively bargained. Faced with the prospect of reduced job protections, pay, and benefits, staff members at the University of Wisconsin protested Governor Walker's proposal on Valentine's Day and then moved the protest to the Wisconsin State Capitol. Over the next few days, the size of the crowd reached more than 70,000 protestors, including individuals who opposed the bill and others who supported it. Protest activity continued, and sometimes turned ugly, until June when the Wisconsin Supreme Court upheld the bill.",
-      "context": "The Florida version adds details about the protest growing to 70,000 and that it 'sometimes turned ugly,' and notes the Supreme Court ultimately upheld the bill—framing the protest as ultimately unsuccessful. The original's sympathetic framing of organizers' 'ironic message of love' is retained, but the outcome is added to show the protest failed."
+      "context": "The Florida version adds details about the protest growing to 70,000 and that it 'sometimes turned ugly,' and notes the Supreme Court ultimately upheld the bill\u2014framing the protest as ultimately unsuccessful. The original's sympathetic framing of organizers' 'ironic message of love' is retained, but the outcome is added to show the protest failed.",
+      "original_page": 644,
+      "original_evidence": "img/evidence/ch21/change_7_original.webp",
+      "florida_page": 255,
+      "florida_evidence": "img/evidence/ch21/change_7_florida.webp"
     },
     {
       "type": "removed",
       "section": "21.2 (Types of Social Movements)",
       "original_text": "Resistance movements seek to prevent or undo change to the social structure. The Ku Klux Klan, the Minutemen, and pro-life movements fall into this category.",
       "florida_text": null,
-      "context": "The specific examples of resistance movements—Ku Klux Klan, the Minutemen, and pro-life movements—are removed from the Florida version. The category 'resistance movements' and its definition are also omitted from the key terms section."
+      "context": "The specific examples of resistance movements\u2014Ku Klux Klan, the Minutemen, and pro-life movements\u2014are removed from the Florida version. The category 'resistance movements' and its definition are also omitted from the key terms section.",
+      "original_page": 646,
+      "original_evidence": "img/evidence/ch21/change_8_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "21.2 (Types of Social Movements)",
       "original_text": "Revolutionary movements seek to completely change every aspect of society. These include the 1960s counterculture movement, including the revolutionary group The Weather Underground, as well as anarchist collectives.",
       "florida_text": null,
-      "context": "The examples of revolutionary movements (Weather Underground, anarchist collectives) are deleted. The 'revolutionary movements' category and key term are also absent from the Florida version."
+      "context": "The examples of revolutionary movements (Weather Underground, anarchist collectives) are deleted. The 'revolutionary movements' category and key term are also absent from the Florida version.",
+      "original_page": 645,
+      "original_evidence": "img/evidence/ch21/change_9_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
       "section": "21.1 (Value-Added Theory - Ferguson)",
       "original_text": "Ultimately they were met with tear gas, pepper spray, and rubber bullets used by the police acting as agents of social control. The element of social control escalated over the following days until August 18, when the governor called in the National Guard.",
       "florida_text": "Missouri police officers attempted to exert social control over the protests, at times using tear gas, pepper spray, and rubber bullets. This instance of collective behavior finally ended on August 18, when the governor called in the National Guard.",
-      "context": "The original's language 'used by the police acting as agents of social control' is softened to 'attempted to exert social control.' The framing shifts from the residents being 'met with' weapons to police merely 'attempting' control, removing the adversarial framing."
+      "context": "The original's language 'used by the police acting as agents of social control' is softened to 'attempted to exert social control.' The framing shifts from the residents being 'met with' weapons to police merely 'attempting' control, removing the adversarial framing.",
+      "original_page": 641,
+      "original_evidence": "img/evidence/ch21/change_10_original.webp",
+      "florida_page": 254,
+      "florida_evidence": "img/evidence/ch21/change_10_florida.webp"
     },
     {
       "type": "modified",
       "section": "21.2 (Resource Mobilization - Civil Rights/Voting Rights)",
       "original_text": "Although the movement in that period was an overall success, and laws were changed (even if not attitudes), the 'movement' continues. So do struggles to keep the gains that were made, even as the U.S. Supreme Court has recently weakened the Voter Rights Act of 1965, once again making it more difficult for Black Americans and other minorities to vote.",
       "florida_text": "Although the movement in that period was an overall success, and laws were changed (even if not attitudes), the 'movement' continues. One of the victories of the Civil Rights Movement was the Voting Rights Act of 1965, which required jurisdictions with a record history of electoral racial discrimination to get federal approval before revising their voting laws, a requirement known as 'preclearance.' Though this provision was meant to expire after five years, it was repeatedly renewed by Congress with the current expiration set for 2031. However, the Supreme Court's 2013 decision in Shelby County vs. Holder nullified the formula that determined which counties should be subject to preclearance, ending this provision of the Voting Rights Act. The majority opinion concluded that such protections were no longer needed, while the justices in dissent cautioned that the minority vote would suffer.",
-      "context": "The original's direct editorial claim that the Supreme Court 'weakened the Voter Rights Act, once again making it more difficult for Black Americans and other minorities to vote' is replaced with a longer, more legally neutral description of Shelby County v. Holder that presents both majority and dissent positions without taking an editorial stance on the impact."
+      "context": "The original's direct editorial claim that the Supreme Court 'weakened the Voter Rights Act, once again making it more difficult for Black Americans and other minorities to vote' is replaced with a longer, more legally neutral description of Shelby County v. Holder that presents both majority and dissent positions without taking an editorial stance on the impact.",
+      "original_page": 648,
+      "original_evidence": "img/evidence/ch21/change_11_original.webp",
+      "florida_page": 259,
+      "florida_evidence": "img/evidence/ch21/change_11_florida.webp"
     },
     {
       "type": "modified",
       "section": "21.2 (Framing - diagnostic framing example)",
       "original_text": "The anti-gay marriage movement is an example of diagnostic framing with its uncompromising insistence that marriage is only between a man and a woman. Prognostic framing, the second type, offers a solution and states how it will be implemented. Some examples of this frame, when looking at the issue of marriage equality as framed by the anti-gay marriage movement, include the plan to restrict marriage to 'one man/one woman' or to allow only 'civil unions'... Finally, motivational framing is the call to action... In the gay marriage movement, a call to action might encourage you to vote 'no' on Proposition 8 in California (a move to limit marriage to male-female couples), or conversely, to contact your local congressperson to express your viewpoint that marriage should be restricted to male-female couples.",
       "florida_text": "Climate change activist organizations use diagnostic framing by stating that human-caused carbon emissions and reliance on fossil fuels are responsible for global warming, rising sea levels, and extreme weather. Prognostic framing, the second type, offers a solution and states how it will be implemented. In the climate change movement, the different solutions proposed include incentivizing renewable energy sources like wind and solar, enforcing stricter carbon emission limits, or implementing carbon taxes... Finally, motivational framing is the call to action... Climate activists may encourage people to attend environmental protests, vote for candidates who support green policies, pressure governments to sign international treaties, or support organizations working toward carbon reduction.",
-      "context": "The entire framing example is changed from the anti-gay marriage movement (which framed a conservative religious movement as using diagnostic framing against LGBT rights) to climate change activism. This removes the original's illustration of how right-wing religious movements deploy social movement tactics."
+      "context": "The entire framing example is changed from the anti-gay marriage movement (which framed a conservative religious movement as using diagnostic framing against LGBT rights) to climate change activism. This removes the original's illustration of how right-wing religious movements deploy social movement tactics.",
+      "original_page": 649,
+      "original_evidence": "img/evidence/ch21/change_12_original.webp",
+      "florida_page": 259,
+      "florida_evidence": "img/evidence/ch21/change_12_florida.webp"
     },
     {
       "type": "modified",
       "section": "21.2 (Frame alignment - bridging example)",
       "original_text": "Can you think of examples of different organizations with a similar goal that have banded together?",
       "florida_text": "Recent examples include the Sierra Club coordinating with the NAACP to achieve a larger base of individuals concerned about environmental racism, or the NRA reaching out to the U.S. Fish & Wildlife Service to broaden their recruitment of conservation-oriented individuals.",
-      "context": "The Florida version adds concrete examples including the NRA as an example of bridging, introducing a right-wing gun advocacy organization as a neutral illustration of social movement bridging tactics."
+      "context": "The Florida version adds concrete examples including the NRA as an example of bridging, introducing a right-wing gun advocacy organization as a neutral illustration of social movement bridging tactics.",
+      "original_page": 650,
+      "original_evidence": "img/evidence/ch21/change_13_original.webp",
+      "florida_page": 260,
+      "florida_evidence": "img/evidence/ch21/change_13_florida.webp"
     },
     {
       "type": "removed",
       "section": "21.3 (Technology - Thomas Friedman/globalization)",
       "original_text": "In The World Is Flat, Thomas Friedman (2005) argues that technology is a driving force behind globalization... He suggests that we can view globalization as occurring in three distinct periods. First, globalization was driven by military expansion, powered by horsepower and wind power... The second shorter period from approximately 1800 C.E. to 2000 C.E. consisted of a globalizing economy... Finally, Friedman brings us to the post-millennial era.",
       "florida_text": null,
-      "context": "The extended Friedman globalization framework (three periods of globalization) is removed from the Florida version. The technology section is streamlined without this theoretical scaffolding."
+      "context": "The extended Friedman globalization framework (three periods of globalization) is removed from the Florida version. The technology section is streamlined without this theoretical scaffolding.",
+      "original_page": 651,
+      "original_evidence": "img/evidence/ch21/change_14_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "21.3 (Sociology in the Real World - Crowdsourcing)",
       "original_text": "Crowdsourcing: Using the Web to Get Things Done... Thanks to the web, digital crowdsourcing is the process of obtaining needed services, ideas, or content by soliciting contributions from a large group of people... Perhaps the most striking use of crowdsourcing is disaster relief. By tracking tweets and e-mails and organizing the data in order of urgency and quantity, relief agencies can address the most urgent calls for help...",
       "florida_text": null,
-      "context": "The entire 'Crowdsourcing' Sociology in the Real World sidebar is removed from the Florida version, eliminating discussion of crowdsourcing for disaster relief."
+      "context": "The entire 'Crowdsourcing' Sociology in the Real World sidebar is removed from the Florida version, eliminating discussion of crowdsourcing for disaster relief.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
       "section": "21.3 (Modernization - procapitalist bias)",
       "original_text": "For one, there are obvious procapitalist biases that go into such attempts, and it is short-sighted for western governments and social scientists to assume all other countries aspire to follow in their footsteps. Additionally, there can be a kind of neo-liberal defense of rural cultures, ignoring the often crushing poverty and diseases that exist in peripheral nations and focusing only on a nostalgic mythology of the happy peasant.",
       "florida_text": "For one, it is short-sighted for western governments and social scientists to assume all other countries aspire to follow in their footsteps. At the same time, romantic ideals of rural cultures uncontaminated by modernity and capitalism may downplay the often crushing poverty and diseases that exist in peripheral nations.",
-      "context": "The explicit reference to 'obvious procapitalist biases' and 'neo-liberal defense' are removed, softening the critique of capitalism embedded in modernization theory."
+      "context": "The explicit reference to 'obvious procapitalist biases' and 'neo-liberal defense' are removed, softening the critique of capitalism embedded in modernization theory.",
+      "original_page": 654,
+      "original_evidence": "img/evidence/ch21/change_16_original.webp",
+      "florida_page": 263,
+      "florida_evidence": "img/evidence/ch21/change_16_florida.webp"
     },
     {
       "type": "removed",
       "section": "21.2 (Key Terms)",
       "original_text": "resistance movements: those who seek to prevent or undo change to the social structure",
       "florida_text": null,
-      "context": "The key term 'resistance movements' is deleted from the Florida version's glossary, consistent with the removal of the Ku Klux Klan/Minutemen examples from the body text."
+      "context": "The key term 'resistance movements' is deleted from the Florida version's glossary, consistent with the removal of the Ku Klux Klan/Minutemen examples from the body text.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "21.2 (Key Terms)",
       "original_text": "revolutionary movements: movements that seek to completely change every aspect of society",
       "florida_text": null,
-      "context": "The key term 'revolutionary movements' is deleted from the Florida version's glossary, consistent with the removal of the Weather Underground/anarchist examples."
+      "context": "The key term 'revolutionary movements' is deleted from the Florida version's glossary, consistent with the removal of the Weather Underground/anarchist examples.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "21.2 (Key Terms)",
       "original_text": "religious/redemptive movements: movements that work to promote inner change or spiritual growth in individuals",
       "florida_text": null,
-      "context": "The key term 'religious/redemptive movements' and its body-text examples (Heaven's Gate, Branch Davidians) are deleted from the Florida version."
+      "context": "The key term 'religious/redemptive movements' and its body-text examples (Heaven's Gate, Branch Davidians) are deleted from the Florida version.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "21.2 (Key Terms)",
       "original_text": "alternative movements: social movements that limit themselves to self-improvement changes in individuals",
       "florida_text": null,
-      "context": "The key term 'alternative movements' is deleted from the Florida version's glossary, consistent with the removal of the entire Aberle typology of movement types."
+      "context": "The key term 'alternative movements' is deleted from the Florida version's glossary, consistent with the removal of the entire Aberle typology of movement types.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "21.2 (Key Terms)",
       "original_text": "reform movements: movements that seek to change something specific about the social structure",
       "florida_text": null,
-      "context": "The key term 'reform movements' is deleted from the Florida version, part of the broader removal of Aberle's movement typology."
+      "context": "The key term 'reform movements' is deleted from the Florida version, part of the broader removal of Aberle's movement typology.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "21.2 (Key Terms)",
       "original_text": "social movement industry: the collection of the social movement organizations that are striving toward similar goals",
       "florida_text": null,
-      "context": "The key term 'social movement industry' is deleted from the Florida version's glossary."
+      "context": "The key term 'social movement industry' is deleted from the Florida version's glossary.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "21 Short Answer",
       "original_text": "Consider one of the major social movements of the twentieth century, from civil rights in the United States to Gandhi's nonviolent protests in India. How would technology have changed it? Would change have come more quickly or more slowly? Defend your opinion.",
       "florida_text": null,
-      "context": "The short-answer question directing students to consider the civil rights movement or Gandhi's nonviolent protests is removed from the Florida version along with the entire short answer and section quiz sections."
+      "context": "The short-answer question directing students to consider the civil rights movement or Gandhi's nonviolent protests is removed from the Florida version along with the entire short answer and section quiz sections.",
+      "original_page": 659,
+      "original_evidence": "img/evidence/ch21/change_23_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "Key Terms",
       "original_text": "acting crowds\ncrowds of people who are focused on a specific action or goal",
       "florida_text": null,
-      "context": "Term removed from glossary."
+      "context": "Term removed from glossary.",
+      "original_page": 655,
+      "original_evidence": "img/evidence/ch21/change_24_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "Key Terms",
       "original_text": "casual crowds\npeople who share close proximity without really interacting",
       "florida_text": null,
-      "context": "Term removed from glossary."
+      "context": "Term removed from glossary.",
+      "original_page": 655,
+      "original_evidence": "img/evidence/ch21/change_25_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "Key Terms",
       "original_text": "conventional crowds\npeople who come together for a regularly scheduled event",
       "florida_text": null,
-      "context": "Term removed from glossary."
+      "context": "Term removed from glossary.",
+      "original_page": 655,
+      "original_evidence": "img/evidence/ch21/change_26_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "Key Terms",
       "original_text": "expressive crowds\ncrowds who share opportunities to express emotions",
       "florida_text": null,
-      "context": "Term removed from glossary."
+      "context": "Term removed from glossary.",
+      "original_page": 655,
+      "original_evidence": "img/evidence/ch21/change_27_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "Key Terms",
       "original_text": "crowdsourcing\nthe process of obtaining needed services, ideas, or content by soliciting contributions from a large group of people",
       "florida_text": null,
-      "context": "Term removed from glossary, consistent with the removal of the Crowdsourcing Sociology in the Real World sidebar."
+      "context": "Term removed from glossary, consistent with the removal of the Crowdsourcing Sociology in the Real World sidebar.",
+      "original_page": 655,
+      "original_evidence": "img/evidence/ch21/change_28_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     }
   ],
   "change_count": 27,

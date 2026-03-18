@@ -2,204 +2,319 @@
   "chapter": 3,
   "title": "Culture / Society and Social Interaction",
   "florida_title": "Culture and Society",
-  "original_chapters": [3, 4],
-  "summary": "The Florida version merges original Chapters 3 (Culture) and 4 (Society and Social Interaction) into a single chapter, with substantial condensation: many illustrative sidebars, narrative vignettes, and extended examples are removed. Most core sociological content is retained, though often shortened. The chapter outline is renumbered (3.1–3.6 instead of separate 3.1–3.4 and 4.1–4.3), and the original Chapter 4 introduction featuring Inayah's story is dropped entirely.\n\nSeveral politically sensitive passages are removed or softened. In the section on values and real versus ideal culture, the original explicitly names \"racial tension\" as a real-world problem and mentions teen celibacy and unplanned pregnancy as gaps between ideal and real culture; the Florida version omits both. A passage about the U.S. being dominated by white men at the highest political offices is also removed. The extended discussion of cultural relativism, including two paragraphs on female genital mutilation as a test case, is cut entirely. The sidebar on bilingualism and English-only laws, which references ACLU opposition, immigration from Asia and Mexico, and the politics of official English laws, is removed. The Garfinkel breaching experiment sidebar and the 'Overcoming Culture Shock' narrative about Caitlin in Spain, which referenced a Bosnian refugee classmate and Turkish students, are also dropped.\n\nIn the conflict theory section, the original's pointed language describing conflict theorists as examining \"issues like class, gender, race, and age,\" its example of U.S. colonization of Native Americans being omitted from history, and its comparison to North Korean state media suppression are softened or removed. Marx's detailed argument about the proletariat becoming \"a class for itself\" is significantly condensed. The Protestant Work Ethic sidebar is removed entirely. The Florida version adds a new disclaimer stating that \"collective identities and cultural memory are used analytically to describe shared understandings within groups, rather than to promote or prescribe identity-based perspectives,\" which has no parallel in the original.",
+  "original_chapters": [
+    3,
+    4
+  ],
+  "summary": "The Florida version merges original Chapters 3 (Culture) and 4 (Society and Social Interaction) into a single chapter, with substantial condensation: many illustrative sidebars, narrative vignettes, and extended examples are removed. Most core sociological content is retained, though often shortened. The chapter outline is renumbered (3.1\u20133.6 instead of separate 3.1\u20133.4 and 4.1\u20134.3), and the original Chapter 4 introduction featuring Inayah's story is dropped entirely.\n\nSeveral politically sensitive passages are removed or softened. In the section on values and real versus ideal culture, the original explicitly names \"racial tension\" as a real-world problem and mentions teen celibacy and unplanned pregnancy as gaps between ideal and real culture; the Florida version omits both. A passage about the U.S. being dominated by white men at the highest political offices is also removed. The extended discussion of cultural relativism, including two paragraphs on female genital mutilation as a test case, is cut entirely. The sidebar on bilingualism and English-only laws, which references ACLU opposition, immigration from Asia and Mexico, and the politics of official English laws, is removed. The Garfinkel breaching experiment sidebar and the 'Overcoming Culture Shock' narrative about Caitlin in Spain, which referenced a Bosnian refugee classmate and Turkish students, are also dropped.\n\nIn the conflict theory section, the original's pointed language describing conflict theorists as examining \"issues like class, gender, race, and age,\" its example of U.S. colonization of Native Americans being omitted from history, and its comparison to North Korean state media suppression are softened or removed. Marx's detailed argument about the proletariat becoming \"a class for itself\" is significantly condensed. The Protestant Work Ethic sidebar is removed entirely. The Florida version adds a new disclaimer stating that \"collective identities and cultural memory are used analytically to describe shared understandings within groups, rather than to promote or prescribe identity-based perspectives,\" which has no parallel in the original.",
   "changes": [
     {
       "type": "added",
       "section": "3.1 (Florida intro)",
       "original_text": null,
       "florida_text": "In sociology, terms such as collective identities and cultural memory are used analytically to describe shared understandings within groups, rather than to promote or prescribe identity-based perspectives.",
-      "context": "New disclaimer added to the introductory definition of culture, not present in either original chapter. Appears to pre-emptively limit how identity-related concepts in the text can be interpreted."
+      "context": "New disclaimer added to the introductory definition of culture, not present in either original chapter. Appears to pre-emptively limit how identity-related concepts in the text can be interpreted.",
+      "florida_page": 46,
+      "florida_evidence": "img/evidence/ch03/change_0_florida.webp",
+      "original_page": null,
+      "original_evidence": null
     },
     {
       "type": "removed",
       "section": "3.1 (original intro)",
       "original_text": "We all adhere to various rules, expectations, and standards that are created and maintained in our specific culture. These rules and expectations have meaning, and there are many ways by which the meanings can be misinterpreted or misunderstood. When we do not meet those expectations, we may receive some form of disapproval such as a look or comment informing us that we did something unacceptable.",
       "florida_text": null,
-      "context": "Opening framing paragraph removed; Florida version begins more directly with a definition of culture."
+      "context": "Opening framing paragraph removed; Florida version begins more directly with a definition of culture.",
+      "original_page": 77,
+      "original_evidence": "img/evidence/ch03/change_1_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "4.1 (original Chapter 4 introduction)",
       "original_text": "It was a school day, and Inayah woke up at 5:15 a.m, checked her phone, and began a few chores. Her aunt had gone to work, but had left a pile of vegetables for be cut for dinner... How does Inayah's day compare with yours? How does it compare to the days of teenagers you know? Inayah interacts with her family and friends based on individual relationships and personalities, but societal norms and acceptable behaviors shape those interactions.",
       "florida_text": null,
-      "context": "The entire Chapter 4 introduction featuring Inayah (a girl in an African country) is dropped. This narrative introduced global diversity in daily life and led into Types of Societies."
+      "context": "The entire Chapter 4 introduction featuring Inayah (a girl in an African country) is dropped. This narrative introduced global diversity in daily life and led into Types of Societies.",
+      "original_page": 109,
+      "original_evidence": "img/evidence/ch03/change_2_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "3.1 (original)",
       "original_text": "According to many authors, international students studying in the U.S. report that there are personality traits and behaviors expected of them. Black African students report having to learn to 'be Black in the U.S.' and Chinese students report that they are naturally expected to be good at math. In African countries, people are identified by country or kin, not color.",
       "florida_text": null,
-      "context": "Passage about race-based expectations imposed on international students in the U.S. removed entirely from the culture shock discussion."
+      "context": "Passage about race-based expectations imposed on international students in the U.S. removed entirely from the culture shock discussion.",
+      "original_page": 82,
+      "original_evidence": "img/evidence/ch03/change_3_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "3.1 (original)",
-      "original_text": "However, indiscriminately embracing everything about a new culture is not always possible. Even the most culturally relativist people from egalitarian societies—ones in which women have political rights and control over their own bodies—question whether the widespread practice of female genital mutilation in countries such as Ethiopia and Sudan should be accepted as a part of cultural tradition. Sociologists attempting to engage in cultural relativism, then, may struggle to reconcile aspects of their own culture with aspects of a culture that they are studying. Sociologists may take issue with the practices of female genital mutilation in many countries to ensure virginity at marriage just as some male sociologists might take issue with scarring of the flesh to show membership.",
+      "original_text": "However, indiscriminately embracing everything about a new culture is not always possible. Even the most culturally relativist people from egalitarian societies\u2014ones in which women have political rights and control over their own bodies\u2014question whether the widespread practice of female genital mutilation in countries such as Ethiopia and Sudan should be accepted as a part of cultural tradition. Sociologists attempting to engage in cultural relativism, then, may struggle to reconcile aspects of their own culture with aspects of a culture that they are studying. Sociologists may take issue with the practices of female genital mutilation in many countries to ensure virginity at marriage just as some male sociologists might take issue with scarring of the flesh to show membership.",
       "florida_text": null,
-      "context": "Two full paragraphs on female genital mutilation as a test case for cultural relativism removed. These paragraphs grounded the limits of cultural relativism in a concrete human-rights example involving women's bodily autonomy."
+      "context": "Two full paragraphs on female genital mutilation as a test case for cultural relativism removed. These paragraphs grounded the limits of cultural relativism in a concrete human-rights example involving women's bodily autonomy.",
+      "original_page": 83,
+      "original_evidence": "img/evidence/ch03/change_4_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
-      "section": "3.1 (original — 'Overcoming Culture Shock' sidebar)",
+      "section": "3.1 (original \u2014 'Overcoming Culture Shock' sidebar)",
       "original_text": "During her summer vacation, Caitlin flew from Chicago, Illinois to Madrid, Spain to visit Maria, the exchange student she had befriended the previous semester... It helps to remember that culture is learned. Everyone is ethnocentric to an extent, and identifying with one's own country is natural. Caitlin's shock was minor compared to that of her friends Dayar and Mahlika, a Turkish couple living in married student housing on campus. And it was nothing like that of her classmate Sanai. Sanai had been forced to flee war-torn Bosnia with her family when she was fifteen.",
       "florida_text": null,
-      "context": "The full 'Overcoming Culture Shock' sidebar is removed. It included references to refugees (a Bosnian refugee) and immigrants navigating culture shock in the U.S."
+      "context": "The full 'Overcoming Culture Shock' sidebar is removed. It included references to refugees (a Bosnian refugee) and immigrants navigating culture shock in the U.S.",
+      "original_page": 83,
+      "original_evidence": "img/evidence/ch03/change_5_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
-      "section": "3.1 (original — 'Is Music a Cultural Universal?' sidebar)",
+      "section": "3.1 (original \u2014 'Is Music a Cultural Universal?' sidebar)",
       "original_text": "In 2009, a team of psychologists, led by Thomas Fritz of the Max Planck Institute for Human Cognitive and Brain Sciences in Leipzig, Germany, studied people's reactions to music that they'd never heard... Music, the study suggested, is a sort of universal language. Researchers also found that music can foster a sense of wholeness within a group.",
       "florida_text": null,
-      "context": "Sociological research sidebar on music as a cultural universal (Fritz 2009 study with Mafa tribal members) removed."
+      "context": "Sociological research sidebar on music as a cultural universal (Fritz 2009 study with Mafa tribal members) removed.",
+      "original_page": 81,
+      "original_evidence": "img/evidence/ch03/change_6_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
       "section": "3.2 (original)",
       "original_text": "In an ideal culture, there would be no traffic accidents, murders, poverty, or racial tension. But in real culture, police officers, lawmakers, educators, and social workers constantly strive to prevent or address these issues. American teenagers are encouraged to value celibacy. However, the number of unplanned pregnancies among teens reveals that the ideal alone is not enough to spare teenagers the potential consequences of having sex.",
       "florida_text": "In an ideal culture, there would be no traffic accidents, murders, or poverty. But in real culture, police officers, lawmakers, educators, and social workers constantly strive to prevent or address these issues.",
-      "context": "'Racial tension' removed from the list of real-culture problems. The two sentences about teen celibacy and unplanned pregnancies are cut entirely."
+      "context": "'Racial tension' removed from the list of real-culture problems. The two sentences about teen celibacy and unplanned pregnancies are cut entirely.",
+      "original_page": 85,
+      "original_evidence": "img/evidence/ch03/change_7_original.webp",
+      "florida_page": 49,
+      "florida_evidence": "img/evidence/ch03/change_7_florida.webp"
     },
     {
       "type": "removed",
       "section": "3.2 (original)",
       "original_text": "Consider the value that the U.S. places upon youth. Children represent innocence and purity, while a youthful adult appearance signifies sexuality. Shaped by this value, individuals spend millions of dollars each year on cosmetic products and surgeries to look young and beautiful. The U.S. also has an individualistic culture, meaning people place a high value on individuality and independence. In contrast, many other cultures are collectivist, meaning the welfare of the group takes priority over that of the individual. Fulfilling a society's values can be difficult. Marital monogamy is valued, but many spouses engage in infidelity. Cultural diversity and equal opportunities for all people are valued in the U.S., yet the country's highest political offices have been dominated by white men.",
       "florida_text": null,
-      "context": "Full paragraph on American values—including the reference to youthful sexuality, individualism vs. collectivism, marital infidelity, and the statement that 'the country's highest political offices have been dominated by white men'—is removed entirely."
+      "context": "Full paragraph on American values\u2014including the reference to youthful sexuality, individualism vs. collectivism, marital infidelity, and the statement that 'the country's highest political offices have been dominated by white men'\u2014is removed entirely.",
+      "original_page": 85,
+      "original_evidence": "img/evidence/ch03/change_8_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
-      "section": "3.2 (original — 'Is the U.S. Bilingual?' sidebar)",
+      "section": "3.2 (original \u2014 'Is the U.S. Bilingual?' sidebar)",
       "original_text": "Legally, the U.S. has no official language. But many believe English to be the rightful language of the U.S., and over thirty states have passed laws specifying English as their official tongue... Groups such as the American Civil Liberties Union (ACLU) oppose making English the official language and claim that it violates the rights of non-English speakers. English-only laws, they believe, deny the reality of our nation's diversity and unfairly target non-English speakers. They point to the fact that much of the debate on this topic has risen since 1970, a period during which the U.S. has experienced new waves of immigration from Asia and Mexico.",
       "florida_text": null,
-      "context": "The full 'Is the U.S. Bilingual?' Social Policy sidebar is removed. It addressed bilingual education, immigration, English-only laws, and the ACLU's position on language rights."
+      "context": "The full 'Is the U.S. Bilingual?' Social Policy sidebar is removed. It addressed bilingual education, immigration, English-only laws, and the ACLU's position on language rights.",
+      "original_page": 91,
+      "original_evidence": "img/evidence/ch03/change_9_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
-      "section": "3.2 (original — Breaching Experiments sidebar)",
-      "original_text": "Sociologist Harold Garfinkel (1917–2011) studied people's customs in order to find out how societal rules and norms not only influence behavior but also shape social order... One of Garfinkel's research methods was known as a 'breaching experiment,' in which the researcher behaves in a socially awkward manner in order to test the sociological concepts of social norms and conformity.",
+      "section": "3.2 (original \u2014 Breaching Experiments sidebar)",
+      "original_text": "Sociologist Harold Garfinkel (1917\u20132011) studied people's customs in order to find out how societal rules and norms not only influence behavior but also shape social order... One of Garfinkel's research methods was known as a 'breaching experiment,' in which the researcher behaves in a socially awkward manner in order to test the sociological concepts of social norms and conformity.",
       "florida_text": null,
-      "context": "The Garfinkel breaching experiments sidebar is removed entirely. The concept is not replaced with alternative content."
+      "context": "The Garfinkel breaching experiments sidebar is removed entirely. The concept is not replaced with alternative content.",
+      "original_page": 87,
+      "original_evidence": "img/evidence/ch03/change_10_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "3.2 (original)",
       "original_text": "Many sociologists believe that language can have a broad and lasting impact on perception. In 2002, Lera Boroditsky and her colleagues conducted experiments on native German and Spanish speakers in English... The team concluded that gender perceptions acquired in a person's native language carry forward to how they see the world even when they switch to a language without grammatical genders.",
       "florida_text": null,
-      "context": "Extended Boroditsky study on grammatical gender and perception removed. Also removed: a John Lucy study on Finnish vs. Swedish workplace safety and language structure."
+      "context": "Extended Boroditsky study on grammatical gender and perception removed. Also removed: a John Lucy study on Finnish vs. Swedish workplace safety and language structure.",
+      "original_page": 90,
+      "original_evidence": "img/evidence/ch03/change_11_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "3.3 (original)",
       "original_text": "This could be considered stereotyping by economic class rather than by race or gender, but sociologists use the term high culture... Can you identify the Chief Financial Officer of three major corporations? How about the name of the server at three local hangouts?",
       "florida_text": null,
-      "context": "Framing of high culture that acknowledged its connection to stereotyping by race or gender is removed, along with the class-based rhetorical questions."
+      "context": "Framing of high culture that acknowledged its connection to stereotyping by race or gender is removed, along with the class-based rhetorical questions.",
+      "original_page": 92,
+      "original_evidence": "img/evidence/ch03/change_12_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "3.3 (original)",
       "original_text": "Although high culture may be considered by some as superior to popular culture, the lines between high culture and popular culture vary over time and place. Shakespearean plays, considered to be popular culture when they were written, are now part of our society's high culture. Five hundred years from now, will our descendants consider Dancing with the Stars as fine performance art?",
       "florida_text": null,
-      "context": "Historical example (Shakespeare) and playful question about fluid boundaries between high and pop culture removed."
+      "context": "Historical example (Shakespeare) and playful question about fluid boundaries between high and pop culture removed.",
+      "original_page": 92,
+      "original_evidence": "img/evidence/ch03/change_13_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "3.3 (original)",
       "original_text": "When each of the three Abrahamic religions (Christianity, Islam, and Judaism) in the world began, they were treated as cults and suffered much oppression because of it.",
       "florida_text": null,
-      "context": "Sentence noting that the Abrahamic religions were once treated as cults is removed from the counterculture discussion, which retains the example of the YFZ cult."
+      "context": "Sentence noting that the Abrahamic religions were once treated as cults is removed from the counterculture discussion, which retains the example of the YFZ cult.",
+      "original_page": 93,
+      "original_evidence": "img/evidence/ch03/change_14_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "3.3 (original)",
       "original_text": "In 1610, when Galileo looked through his telescope and discovered Saturn, the planet was already there, but until then, no one had known about it. When Christopher Columbus encountered Hispaniola, the island was, of course, already well known to its inhabitants. However, his discovery was new knowledge for Europeans, and it opened the way to changes in European culture, as well as to the cultures of the discovered lands. For example, new foods such as potatoes and tomatoes transformed the European diet, and horses brought from Europe changed hunting practices of Great Plains Native Americans.",
       "florida_text": null,
-      "context": "Examples of discovery (Galileo, Columbus) removed, including the acknowledgment that Columbus's 'discovery' was already known to its inhabitants and the reference to Great Plains Native Americans."
+      "context": "Examples of discovery (Galileo, Columbus) removed, including the acknowledgment that Columbus's 'discovery' was already known to its inhabitants and the reference to Great Plains Native Americans.",
+      "original_page": 94,
+      "original_evidence": "img/evidence/ch03/change_15_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "3.3 (original)",
       "original_text": "Twitter feeds from public demonstrations in one nation have encouraged political protesters in other countries.",
       "florida_text": "Social media feeds from public demonstrations in one nation have encouraged political protesters in other countries.",
-      "context": "The specific reference to Twitter is replaced with the more generic 'Social media feeds,' likely a minor editorial update but worth noting given Twitter's political associations."
+      "context": "The specific reference to Twitter is replaced with the more generic 'Social media feeds,' likely a minor editorial update but worth noting given Twitter's political associations.",
+      "original_page": 95,
+      "original_evidence": "img/evidence/ch03/change_16_original.webp",
+      "florida_page": 53,
+      "florida_evidence": "img/evidence/ch03/change_16_florida.webp"
     },
     {
       "type": "modified",
-      "section": "3.1/3.3 (ethnocentrism — original 3.1)",
+      "section": "3.1/3.3 (ethnocentrism \u2014 original 3.1)",
       "original_text": "Some travelers pride themselves on their willingness to try unfamiliar foods, like the late celebrated food writer Anthony Bourdain (1956-2017). Often, however, people express disgust at another culture's cuisine. They might think that it's gross to eat raw meat from a donkey or parts of a rodent, while they don't question their own habit of eating cows or pigs.",
       "florida_text": "People sometimes express disgust at common behaviors or characteristics of other cultures. Such attitudes are sometimes a consequence of ethnocentrism...",
-      "context": "The specific example referencing Anthony Bourdain and unfamiliar foods is removed; the passage is made more abstract."
+      "context": "The specific example referencing Anthony Bourdain and unfamiliar foods is removed; the passage is made more abstract.",
+      "original_page": 81,
+      "original_evidence": "img/evidence/ch03/change_17_original.webp",
+      "florida_page": 48,
+      "florida_evidence": "img/evidence/ch03/change_17_florida.webp"
     },
     {
       "type": "modified",
       "section": "3.1 (original)",
       "original_text": "Individuals, government, non-government, private, and religious institutions with the best intentions sometimes travel to a society to 'help' its people, because they see them as uneducated, backward, or even inferior.",
       "florida_text": "Individuals, government, non-government, private, and religious institutions with the best intentions sometimes travel to a society to offer assistance because they view the people there as disadvantaged or lacking opportunity.",
-      "context": "Language softened: 'uneducated, backward, or even inferior' (the original, stronger characterization of ethnocentric aid) replaced with 'disadvantaged or lacking opportunity.'"
+      "context": "Language softened: 'uneducated, backward, or even inferior' (the original, stronger characterization of ethnocentric aid) replaced with 'disadvantaged or lacking opportunity.'",
+      "original_page": 81,
+      "original_evidence": "img/evidence/ch03/change_18_original.webp",
+      "florida_page": 48,
+      "florida_evidence": "img/evidence/ch03/change_18_florida.webp"
     },
     {
       "type": "removed",
       "section": "3.1 (original)",
       "original_text": "Colonial expansion by Portugal, Spain, Netherlands, and England grew quickly in the fifteenth century was accompanied by severe cultural imperialism. European colonizers often viewed the people in these new lands as uncultured savages who needed to adopt Catholic governance, Christianity, European dress, and other cultural practices.",
       "florida_text": null,
-      "context": "Paragraph on European colonialism as an example of cultural imperialism—including reference to the colonized being labeled 'uncultured savages'—is removed entirely."
+      "context": "Paragraph on European colonialism as an example of cultural imperialism\u2014including reference to the colonized being labeled 'uncultured savages'\u2014is removed entirely.",
+      "original_page": 81,
+      "original_evidence": "img/evidence/ch03/change_19_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
-      "section": "3.4 (original — Theoretical Perspectives on Culture)",
-      "original_text": "Conflict theorists, however, view social structure as inherently unequal, based on power differentials related to issues like class, gender, race, and age. For a conflict theorist, established educational methods are seen as reinforcing the dominant societal culture and issues of privilege. The historical experiences of certain groups—those based upon race, sex, or class, for instance, or those that portray a negative narrative about the dominant culture—are excluded from history books. For a long time, U.S. History education omitted the assaults on Native American people and society that were part of the colonization of the land that became the United States.",
+      "section": "3.4 (original \u2014 Theoretical Perspectives on Culture)",
+      "original_text": "Conflict theorists, however, view social structure as inherently unequal, based on power differentials related to issues like class, gender, race, and age. For a conflict theorist, established educational methods are seen as reinforcing the dominant societal culture and issues of privilege. The historical experiences of certain groups\u2014those based upon race, sex, or class, for instance, or those that portray a negative narrative about the dominant culture\u2014are excluded from history books. For a long time, U.S. History education omitted the assaults on Native American people and society that were part of the colonization of the land that became the United States.",
       "florida_text": null,
-      "context": "Original 3.4's conflict theory section specifically named Native American history omissions as an example of cultural exclusion. The Florida version (3.3 Perspectives on Culture) mentions the Tulsa Massacre but drops the Native American colonization example and the explicit list 'class, gender, race, and age.'"
+      "context": "Original 3.4's conflict theory section specifically named Native American history omissions as an example of cultural exclusion. The Florida version (3.3 Perspectives on Culture) mentions the Tulsa Massacre but drops the Native American colonization example and the explicit list 'class, gender, race, and age.'",
+      "original_page": 97,
+      "original_evidence": "img/evidence/ch03/change_20_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
-      "section": "3.4 (original — Theoretical Perspectives on Culture)",
+      "section": "3.4 (original \u2014 Theoretical Perspectives on Culture)",
       "original_text": "Historical omission is not restricted to the U.S. North Korean students learn of their benevolent leader without information about his mistreatment of large portions of the population. According to defectors and North Korea experts, while famines and dire economic conditions are obvious, state media and educational agencies work to ensure that North Koreans do not understand how different their country is from others (Jacobs 2019). Inequities exist within a culture's value system and become embedded in laws, policies, and procedures. This inclusion leads to the oppression of the powerless by the powerful.",
       "florida_text": null,
-      "context": "Paragraph comparing U.S. historical omissions to North Korean propaganda is removed, as is the explicit statement that cultural inequities 'leads to the oppression of the powerless by the powerful.'"
+      "context": "Paragraph comparing U.S. historical omissions to North Korean propaganda is removed, as is the explicit statement that cultural inequities 'leads to the oppression of the powerless by the powerful.'",
+      "original_page": 97,
+      "original_evidence": "img/evidence/ch03/change_21_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
-      "section": "3.4 (original — Theoretical Perspectives on Culture)",
+      "section": "3.4 (original \u2014 Theoretical Perspectives on Culture)",
       "original_text": "Elsewhere around the world, same-sex marriage is only legal in 31 of the planet's 195 countries.",
       "florida_text": null,
-      "context": "Global statistic contextualizing same-sex marriage rights internationally is removed. The basic mention of same-sex marriage rights in the U.S. (until 2015) is retained but with awkward sentence structure suggesting editing."
+      "context": "Global statistic contextualizing same-sex marriage rights internationally is removed. The basic mention of same-sex marriage rights in the U.S. (until 2015) is retained but with awkward sentence structure suggesting editing.",
+      "original_page": 97,
+      "original_evidence": "img/evidence/ch03/change_22_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
-      "section": "4.2 (original — Protestant Work Ethic sidebar)",
-      "original_text": "In a series of essays in 1904, Max Weber presented the idea of the Protestant work ethic, a new attitude toward work based on the Calvinist principle of predestination... John Calvin in particular popularized the Christian concept of predestination, the idea that all events—including salvation—have already been decided by God... Weber argued that this mentality encouraged people to work hard for personal gain; after all, why should one help the unfortunate if they were already damned? Over time, the Protestant work ethic spread and became the foundation for capitalism.",
+      "section": "4.2 (original \u2014 Protestant Work Ethic sidebar)",
+      "original_text": "In a series of essays in 1904, Max Weber presented the idea of the Protestant work ethic, a new attitude toward work based on the Calvinist principle of predestination... John Calvin in particular popularized the Christian concept of predestination, the idea that all events\u2014including salvation\u2014have already been decided by God... Weber argued that this mentality encouraged people to work hard for personal gain; after all, why should one help the unfortunate if they were already damned? Over time, the Protestant work ethic spread and became the foundation for capitalism.",
       "florida_text": null,
-      "context": "The full Protestant Work Ethic sidebar from original Chapter 4 is removed. It tied Calvinist theology (predestination, salvation) to the development of capitalism."
+      "context": "The full Protestant Work Ethic sidebar from original Chapter 4 is removed. It tied Calvinist theology (predestination, salvation) to the development of capitalism.",
+      "original_page": 121,
+      "original_evidence": "img/evidence/ch03/change_23_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
-      "section": "4.2 (original) → 3.5 (Florida)",
-      "original_text": "Karl Marx (1818–1883) is certainly among the most significant social thinkers in recent history. While there are many critics of his work, it is still widely respected and influential.",
-      "florida_text": "Karl Marx (1818–1883) is certainly among the most significant social thinkers in recent history. While there are many critics of his work, it is still influential.",
-      "context": "'Widely respected and' removed from the description of Marx's work, slightly downgrading its standing."
+      "section": "4.2 (original) \u2192 3.5 (Florida)",
+      "original_text": "Karl Marx (1818\u20131883) is certainly among the most significant social thinkers in recent history. While there are many critics of his work, it is still widely respected and influential.",
+      "florida_text": "Karl Marx (1818\u20131883) is certainly among the most significant social thinkers in recent history. While there are many critics of his work, it is still influential.",
+      "context": "'Widely respected and' removed from the description of Marx's work, slightly downgrading its standing.",
+      "original_page": 116,
+      "original_evidence": "img/evidence/ch03/change_24_original.webp",
+      "florida_page": 59,
+      "florida_evidence": "img/evidence/ch03/change_24_florida.webp"
     },
     {
       "type": "modified",
-      "section": "4.2 (original) → 3.5 (Florida)",
+      "section": "4.2 (original) \u2192 3.5 (Florida)",
       "original_text": "In order for society to overcome false consciousness, Marx proposed that it be replaced with class consciousness, the awareness of one's rank in society. Instead of existing as a 'class in itself,' the proletariat must become a 'class for itself' in order to produce social change (Marx and Engels 1848), meaning that instead of just being an inert strata of society, the class could become an advocate for social improvements. Only once society entered this state of political consciousness would it be ready for a social revolution.",
-      "florida_text": "Marx proposed false consciousness as the explanation—when prevailing cultural values lead people to accept social conditions that might not serve their interests. He argued that developing class consciousness—awareness of shared conditions—could inspire reform or revolution.",
-      "context": "Marx's detailed argument about proletariat becoming 'a class for itself' to produce social change is significantly condensed. The original three sentences of political mobilization theory become a single sentence. The word 'revolution' is retained but 'social revolution' is softened to 'reform or revolution.'"
+      "florida_text": "Marx proposed false consciousness as the explanation\u2014when prevailing cultural values lead people to accept social conditions that might not serve their interests. He argued that developing class consciousness\u2014awareness of shared conditions\u2014could inspire reform or revolution.",
+      "context": "Marx's detailed argument about proletariat becoming 'a class for itself' to produce social change is significantly condensed. The original three sentences of political mobilization theory become a single sentence. The word 'revolution' is retained but 'social revolution' is softened to 'reform or revolution.'",
+      "original_page": 119,
+      "original_evidence": "img/evidence/ch03/change_25_original.webp",
+      "florida_page": 60,
+      "florida_evidence": "img/evidence/ch03/change_25_florida.webp"
     },
     {
       "type": "removed",
-      "section": "4.1 (original — 'Where Societies Meet' sidebar)",
+      "section": "4.1 (original \u2014 'Where Societies Meet' sidebar)",
       "original_text": "When cultures meet, technology can help, hinder, and even destroy. The Exxon Valdez oil spillage in Alaska nearly destroyed the local inhabitants' entire way of life. Oil spills in the Nigerian Delta have forced many of the Ogoni tribe from their land and forced removal has meant that over 100,000 Ogoni have sought refuge in the country of Benin... Environmental disasters continue as Western technology and its need for energy expands into less developed (peripheral) regions of the globe.",
       "florida_text": null,
-      "context": "Sidebar on environmental and technological harm to indigenous communities (Exxon Valdez, Ogoni tribe, Deepwater Horizon) removed, along with a companion positive example of Barefoot College solar projects."
+      "context": "Sidebar on environmental and technological harm to indigenous communities (Exxon Valdez, Ogoni tribe, Deepwater Horizon) removed, along with a companion positive example of Barefoot College solar projects.",
+      "original_page": 112,
+      "original_evidence": "img/evidence/ch03/change_26_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
-      "section": "3.3 (Florida — Perspectives on Culture, conflict section)",
-      "original_text": "Where functionalists would see the purpose of culture—traditions, folkways, values—as helping individuals navigate through life and societies run smoothly, conflict theorists examine socio-cultural struggles, including the power and privilege created for some by using and reinforcing a dominate culture that sustains their position in society.",
-      "florida_text": "Functionalists, by contract, focus on the purpose of culture—traditions, folkways, values—as a means of helping individuals navigate their lives.  and privilege created for some by using and reinforcing a dominant culture that sustains their position in society.",
-      "context": "The sentence contrasting functionalism and conflict theory appears to have been edited in the Florida version but contains a garbled construction ('by contract' instead of 'by contrast' and a sentence fragment beginning 'and privilege'), suggesting unfinished editing that partially removed the conflict theory framing."
+      "section": "3.3 (Florida \u2014 Perspectives on Culture, conflict section)",
+      "original_text": "Where functionalists would see the purpose of culture\u2014traditions, folkways, values\u2014as helping individuals navigate through life and societies run smoothly, conflict theorists examine socio-cultural struggles, including the power and privilege created for some by using and reinforcing a dominate culture that sustains their position in society.",
+      "florida_text": "Functionalists, by contract, focus on the purpose of culture\u2014traditions, folkways, values\u2014as a means of helping individuals navigate their lives.  and privilege created for some by using and reinforcing a dominant culture that sustains their position in society.",
+      "context": "The sentence contrasting functionalism and conflict theory appears to have been edited in the Florida version but contains a garbled construction ('by contract' instead of 'by contrast' and a sentence fragment beginning 'and privilege'), suggesting unfinished editing that partially removed the conflict theory framing.",
+      "original_page": 97,
+      "original_evidence": "img/evidence/ch03/change_27_original.webp",
+      "florida_page": 55,
+      "florida_evidence": "img/evidence/ch03/change_27_florida.webp"
     }
   ],
   "change_count": 28,

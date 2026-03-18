@@ -10,140 +10,220 @@
       "section": "Introduction",
       "original_text": "Marijuana had for years been seen as a danger to society, especially to youth, and many people applied stereotypes to users, often considering them lazy or burdens on society, and often conflating marijuana use with negative stereotypes about race. In essence, marijuana users were considered deviants.",
       "florida_text": "For much of the twentieth century, marijuana use was widely viewed as a social problem, sometimes discussed through stereotypes about users, e.g., high school stoners, rock musicians, hippieds, or through inaccurate associations with particular groups.",
-      "context": "Original explicitly names race as a factor in marijuana stigma. Florida version replaces 'negative stereotypes about race' with vague 'inaccurate associations with particular groups' and substitutes cultural stereotypes (stoners, musicians) for racial ones."
+      "context": "Original explicitly names race as a factor in marijuana stigma. Florida version replaces 'negative stereotypes about race' with vague 'inaccurate associations with particular groups' and substitutes cultural stereotypes (stoners, musicians) for racial ones.",
+      "original_page": 185,
+      "original_evidence": "img/evidence/ch07/change_0_original.webp",
+      "florida_page": 153,
+      "florida_evidence": "img/evidence/ch07/change_0_florida.webp"
     },
     {
       "type": "removed",
       "section": "7.1",
       "original_text": "Why I Drive a Hearse\nWhen sociologist Todd Schoepflin ran into his childhood friend Bill, he was shocked to see him driving a hearse for everyday tasks, instead of an ordinary car. A professionally trained researcher, Schoepflin wondered what effect driving a hearse had on his friend and what effect it might have on others on the road...",
       "florida_text": null,
-      "context": "The entire 'Why I Drive a Hearse' Sociology in the Real World feature box is removed. This was a concrete pedagogical illustration of deviance and social reaction."
+      "context": "The entire 'Why I Drive a Hearse' Sociology in the Real World feature box is removed. This was a concrete pedagogical illustration of deviance and social reaction.",
+      "original_page": 187,
+      "original_evidence": "img/evidence/ch07/change_1_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "7.1",
       "original_text": "they may often be based on racial, ethnic, or related prejudices. When 15-year-old Elizabeth Eckford of the Little Rock Nine attempted to enter her legally desegregated high school, she was abiding by the law; but she was considered deviant by the crowd of White people that harassed and insulted her.",
       "florida_text": "Elizabeth Eckford from the Little Rock Nine obeyed the law by attending a desegregated school but was treated as deviant due to social norms of segregation.",
-      "context": "Original names 'racial, ethnic, or related prejudices' as driving perceptions of deviance and specifies the crowd was White people. Florida version strips racial identification of the crowd and removes the broader framing about racial/ethnic prejudice driving perceptions of crime."
+      "context": "Original names 'racial, ethnic, or related prejudices' as driving perceptions of deviance and specifies the crowd was White people. Florida version strips racial identification of the crowd and removes the broader framing about racial/ethnic prejudice driving perceptions of crime.",
+      "original_page": 188,
+      "original_evidence": "img/evidence/ch07/change_2_original.webp",
+      "florida_page": 154,
+      "florida_evidence": "img/evidence/ch07/change_2_florida.webp"
     },
     {
       "type": "removed",
       "section": "7.1",
       "original_text": "In the early 1900s, an influx of immigrants began entering the country from Mexico. These newcomers took up residence in White communities, spoke a different language, and began competing for jobs and resources. They used marijuana more frequently than most Americans. Police and others began to circulate rumors regarding the substance's link to violence and immorality. Newspapers and lawmakers spoke about the 'Marijuana Menace' and the 'evil weed,' and articles and images began to portray it as a corrupting force on America's youth. Beginning in 1916, state after state began passing laws prohibiting marijuana use, and in 1937 Congress passed a federal law banning it (White 2012). Penalties for its usage increased over time, spiking during the War on Drugs, with racially and ethnically disparate applications.",
       "florida_text": "Similarly, marijuana was widely accepted for centuries before early 20th-century laws, rooted partly in racialized fears, criminalized its use.",
-      "context": "Original provides detailed history of how anti-Mexican racism drove marijuana criminalization, including specific rhetoric ('Marijuana Menace'), timeline, and explicit statement of 'racially and ethnically disparate applications.' Florida reduces this to one brief clause ('rooted partly in racialized fears'), omitting the historical detail and specificity."
+      "context": "Original provides detailed history of how anti-Mexican racism drove marijuana criminalization, including specific rhetoric ('Marijuana Menace'), timeline, and explicit statement of 'racially and ethnically disparate applications.' Florida reduces this to one brief clause ('rooted partly in racialized fears'), omitting the historical detail and specificity.",
+      "original_page": 188,
+      "original_evidence": "img/evidence/ch07/change_3_original.webp",
+      "florida_page": 154,
+      "florida_evidence": "img/evidence/ch07/change_3_florida.webp"
     },
     {
       "type": "removed",
       "section": "7.1",
       "original_text": "Perceptions and proclamations of deviance have long been a means to oppress people by labeling their private behavior as criminal. Until the 1970s and 1980s, same-sex acts were prohibited by state laws. It was illegal to be gay or lesbian, and the restrictions extended to simple displays like holding hands. Other laws prohibited clothing deemed 'inappropriate' for one's biological sex. As a result, military service members and even war veterans were dishonorably discharged (losing all benefits) if they were discovered to be gay. Police harassed and humiliated LGBTQ people and regularly raided gay bars. And anti-LGBTQ street violence or hate crimes were tacitly permitted because they were rarely prosecuted and often lightly punished. While most states had eliminated their anti-LGBTQ laws by the time the Supreme Court struck them down in 2003, 14 states still had some version of them on the books.",
       "florida_text": null,
-      "context": "Entire LGBTQ criminalization history is removed entirely. This passage documented state-sponsored oppression of LGBTQ people through law and policing, with specific details on dishonorable discharges, police raids, and unprosecuted hate crimes."
+      "context": "Entire LGBTQ criminalization history is removed entirely. This passage documented state-sponsored oppression of LGBTQ people through law and policing, with specific details on dishonorable discharges, police raids, and unprosecuted hate crimes.",
+      "original_page": 189,
+      "original_evidence": "img/evidence/ch07/change_4_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "7.1",
       "original_text": "Deviance has also served as a tool of oppression...",
       "florida_text": "Deviance has also served as a tool of oppression and sometimes used as a tool for those in power to criminalize or establish mortality for certain behaviors.",
-      "context": "The Florida text truncates what in the original is a full multi-paragraph discussion of LGBTQ oppression into a single vague sentence, stripping all specific content."
+      "context": "The Florida text truncates what in the original is a full multi-paragraph discussion of LGBTQ oppression into a single vague sentence, stripping all specific content.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": 154,
+      "florida_evidence": "img/evidence/ch07/change_5_florida.webp"
     },
     {
       "type": "removed",
       "section": "7.2",
       "original_text": "The Right to Vote\nBefore she lost her job as an administrative assistant, Leola Strickland postdated and mailed a handful of checks... Because Mississippi is one of twelve states in the United States that bans convicted felons from voting... Some 5.3 million people in the United States are currently barred from voting because of felony convictions... Opponents of felony disfranchisement in the United States argue that voting is a basic human right... Many point out that felony disfranchisement has its roots in the 1800s, when it was used primarily to block Black citizens from voting. These laws disproportionately target poor minority members, denying them a chance to participate in a system that, as a social conflict theorist would point out, is already constructed to their disadvantage (Holding 2006).",
       "florida_text": null,
-      "context": "The entire 'Social Policy and Debate' sidebar on felony disenfranchisement is removed. The original explicitly tied these laws to their origins in blocking Black citizens from voting and noted they 'disproportionately target poor minority members.' This is a direct removal of content on racial voting rights suppression."
+      "context": "The entire 'Social Policy and Debate' sidebar on felony disenfranchisement is removed. The original explicitly tied these laws to their origins in blocking Black citizens from voting and noted they 'disproportionately target poor minority members.' This is a direct removal of content on racial voting rights suppression.",
+      "original_page": 195,
+      "original_evidence": "img/evidence/ch07/change_6_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "7.2",
       "original_text": "Cultural Deviance Theory | Clifford Shaw and Henry McKay | Conformity to the cultural norms of lower-class society",
       "florida_text": null,
-      "context": "Cultural Deviance Theory is removed from the theories summary table in Florida version, reducing the number of functionalist theories covered."
+      "context": "Cultural Deviance Theory is removed from the theories summary table in Florida version, reducing the number of functionalist theories covered.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
       "section": "7.2",
       "original_text": "This imbalance based on class power is also found within U.S. criminal law. In the 1980s, the use of crack cocaine (a less expensive but powerful drug) quickly became an epidemic that swept the country's poorest urban communities... Throughout the 1980s and early 1990s, states passed numerous laws increasing penalties... One outcome of these policies was the mass incarceration of Black and Hispanic people, which led to a cycle of poverty and reduced social mobility. The crack-cocaine punishment disparity remained until 2010, when President Obama signed the Fair Sentencing Act, which decreased the disparity to 1 to 18.",
-      "florida_text": "Class-based disparities are also reflected in drug laws—such as the harsher sentences for crack cocaine compared to powdered cocaine—even though they are chemically similar (New York Times Editorial Staff 2011). A conflict theorist would argue that these policies disproportionately harm minority and low-income communities, as seen with expanded sentencing laws in the 1980s and 1990s, contributing to mass incarceration and social inequality (The Sentencing Project 2010).",
-      "context": "Original stated explicitly 'One outcome of these policies was the mass incarceration of Black and Hispanic people, which led to a cycle of poverty and reduced social mobility' and named the Fair Sentencing Act signed by President Obama. Florida version reduces this to a brief paragraph attributing the analysis to 'a conflict theorist would argue,' hedging the factual claim about racial impact."
+      "florida_text": "Class-based disparities are also reflected in drug laws\u2014such as the harsher sentences for crack cocaine compared to powdered cocaine\u2014even though they are chemically similar (New York Times Editorial Staff 2011). A conflict theorist would argue that these policies disproportionately harm minority and low-income communities, as seen with expanded sentencing laws in the 1980s and 1990s, contributing to mass incarceration and social inequality (The Sentencing Project 2010).",
+      "context": "Original stated explicitly 'One outcome of these policies was the mass incarceration of Black and Hispanic people, which led to a cycle of poverty and reduced social mobility' and named the Fair Sentencing Act signed by President Obama. Florida version reduces this to a brief paragraph attributing the analysis to 'a conflict theorist would argue,' hedging the factual claim about racial impact.",
+      "original_page": 193,
+      "original_evidence": "img/evidence/ch07/change_8_original.webp",
+      "florida_page": 157,
+      "florida_evidence": "img/evidence/ch07/change_8_florida.webp"
     },
     {
       "type": "removed",
       "section": "7.3",
       "original_text": "her seat to a White man",
       "florida_text": "her seat",
-      "context": "Minor removal: original specifies Rosa Parks was asked to give up her seat 'to a White man.' Florida removes 'to a White man,' softening the racial context of the example."
+      "context": "Minor removal: original specifies Rosa Parks was asked to give up her seat 'to a White man.' Florida removes 'to a White man,' softening the racial context of the example.",
+      "original_page": 199,
+      "original_evidence": "img/evidence/ch07/change_9_original.webp",
+      "florida_page": 159,
+      "florida_evidence": "img/evidence/ch07/change_9_florida.webp"
     },
     {
       "type": "removed",
       "section": "7.3",
       "original_text": "Hate Crimes\nAttacks based on a person's race, religion, or other characteristics are known as hate crimes. Hate crimes in the United States evolved from the time of early European settlers and their violence toward Native Americans... The murders of Brandon Teena in 1993 and Matthew Shepard in 1998 significantly increased awareness of hate crimes based on gender expression and sexual orientation; LGBTQ people remain a major target of hate crimes. The motivation behind hate crimes can arise quickly, singling out specific groups who endure a rash of abuses in a short period of time. For example, beginning in 2020, people increasingly began committing violent crimes against people of Asian descent...",
       "florida_text": null,
-      "context": "The entire Hate Crimes section (including the Big Picture feature box, discussion of Brandon Teena, Matthew Shepard, anti-Asian violence during COVID-19, and the FBI hate crimes chart) is removed entirely from the Florida version."
+      "context": "The entire Hate Crimes section (including the Big Picture feature box, discussion of Brandon Teena, Matthew Shepard, anti-Asian violence during COVID-19, and the FBI hate crimes chart) is removed entirely from the Florida version.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
       "section": "7.3 / Policing and Race",
       "original_text": "As discussed earlier, during the 1980s, crack cocaine was exploding in usage among lower income, Black, and Hispanic people. White middle class and upper economic class Americans became terrified of the potential for their family and children to be involved with drugs and drug-related crime.",
       "florida_text": "As discussed earlier, during the 1980s, crack cocaine use was increasing within many lower-income communities, particularly affecting urban neighborhoods. Many middle- and upper-income Americans expressed concern about potential exposure to drug-related crime and substance use.",
-      "context": "Original explicitly names 'lower income, Black, and Hispanic people' as the affected population and states White middle and upper class Americans were 'terrified.' Florida version depersonalizes to 'lower-income communities' and 'urban neighborhoods' and softens the fear response to 'expressed concern.'"
+      "context": "Original explicitly names 'lower income, Black, and Hispanic people' as the affected population and states White middle and upper class Americans were 'terrified.' Florida version depersonalizes to 'lower-income communities' and 'urban neighborhoods' and softens the fear response to 'expressed concern.'",
+      "original_page": 203,
+      "original_evidence": "img/evidence/ch07/change_11_original.webp",
+      "florida_page": 163,
+      "florida_evidence": "img/evidence/ch07/change_11_florida.webp"
     },
     {
       "type": "modified",
       "section": "7.3 / Policing and Race",
       "original_text": "The additional funding sources and high likelihood of successful prosecution drove police forces toward more aggressive and inequitable tactics. After training by the Drug Enforcement Agency, police forces around the country began racial profiling in a focused, consistent manner. Black and Hispanic people were many times more likely than White people to be pulled over for routine traffic stops. Local police forces focused on patrolling minority-inhabited neighborhoods, resulting in more arrests and prosecutions of Black and Hispanic people (Harris 2020).",
-      "florida_text": "Harris (2020) argued that the additional funding sources and high likelihood of successful prosecution drove police forces toward more aggressive and inequitable tactics. After training by the Drug Enforcement Agency, police forces around the country began racial profiling which disproportionately affected certain racial or ethnic groups. Studies found that Black and Hispanic people were many times more likely than White people to be pulled over for routine traffic stops... Other work suggests that part of the observed racial disparity in stops may arise from differences in exposure to policing... and from socioeconomic and contextual factors... indicating that while racial disparities are clear, their causes cannot be reduced solely to formalized racial profiling policies (Miller, Bland and Quinton, 2002; Miller and Bland, 2017; Silva, Nazif-Muñoz, and Ospina-Escobar, 2021).",
-      "context": "Original states as fact that police 'began racial profiling in a focused, consistent manner.' Florida attributes this claim to Harris (2020) alone and adds a lengthy counter-argument suggesting racial disparities in stops may have alternative explanations beyond racial profiling. This significantly hedges what was presented as established fact."
+      "florida_text": "Harris (2020) argued that the additional funding sources and high likelihood of successful prosecution drove police forces toward more aggressive and inequitable tactics. After training by the Drug Enforcement Agency, police forces around the country began racial profiling which disproportionately affected certain racial or ethnic groups. Studies found that Black and Hispanic people were many times more likely than White people to be pulled over for routine traffic stops... Other work suggests that part of the observed racial disparity in stops may arise from differences in exposure to policing... and from socioeconomic and contextual factors... indicating that while racial disparities are clear, their causes cannot be reduced solely to formalized racial profiling policies (Miller, Bland and Quinton, 2002; Miller and Bland, 2017; Silva, Nazif-Mu\u00f1oz, and Ospina-Escobar, 2021).",
+      "context": "Original states as fact that police 'began racial profiling in a focused, consistent manner.' Florida attributes this claim to Harris (2020) alone and adds a lengthy counter-argument suggesting racial disparities in stops may have alternative explanations beyond racial profiling. This significantly hedges what was presented as established fact.",
+      "original_page": 204,
+      "original_evidence": "img/evidence/ch07/change_12_original.webp",
+      "florida_page": 163,
+      "florida_evidence": "img/evidence/ch07/change_12_florida.webp"
     },
     {
       "type": "removed",
       "section": "7.3 / Policing and Race",
       "original_text": "No issue related to race and policing is of more concern than the shooting of unarmed Black people by police. The lack of punishment of police officers for committing these acts perpetuates the issue of unequal justice. Eric Garner was killed by an officer using a prohibited chokehold after Garner had allegedly committed a misdemeanor. Breonna Taylor was killed by police who violently infiltrated the wrong home. None of the officers involved in those deaths were prosecuted, though several were fired. The officer who killed George Floyd was immediately charged with the crime, and was eventually convicted, but some believe that to be the case due to the clear and horrific video of the event (Abdollah 2021).",
       "florida_text": null,
-      "context": "The entire passage naming Eric Garner, Breonna Taylor, and George Floyd as victims of police killings — and noting that officers in the Garner and Taylor cases were not prosecuted — is completely removed from the Florida version. This is one of the most significant substantive removals, eliminating a direct discussion of unequal justice in policing by race."
+      "context": "The entire passage naming Eric Garner, Breonna Taylor, and George Floyd as victims of police killings \u2014 and noting that officers in the Garner and Taylor cases were not prosecuted \u2014 is completely removed from the Florida version. This is one of the most significant substantive removals, eliminating a direct discussion of unequal justice in policing by race.",
+      "original_page": 204,
+      "original_evidence": "img/evidence/ch07/change_13_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "added",
       "section": "8.3 / Policing and Race",
       "original_text": null,
       "florida_text": "The most recent major U.S. crime statistics for 2023 reveal pronounced racial and ethnic patterns in arrests, homicide offending, and victimization... In 2023, law enforcement agencies reported approximately 375,000 arrests for violent crimes, with 53.5% of those arrests involving White individuals, 42.6% Black or African American... Homicide victimization data show even starker disparities: in 2023, the homicide rate for Black persons was 21.3 per 100,000, compared to 3.2 per 100,000 for White persons... These patterns must be interpreted cautiously, as arrest and offender counts do not equate to per capita crime rates and are influenced by policing practices, reporting completeness, and structural inequalities...",
-      "context": "Florida adds a large block of 2023 crime statistics disaggregated by race, including arrest rates, homicide offending, and victimization. While a caveat is included, this section effectively replaces the named victims of police violence with aggregate criminal justice statistics, shifting the racial framing from state violence against Black people to crime statistics."
+      "context": "Florida adds a large block of 2023 crime statistics disaggregated by race, including arrest rates, homicide offending, and victimization. While a caveat is included, this section effectively replaces the named victims of police violence with aggregate criminal justice statistics, shifting the racial framing from state violence against Black people to crime statistics.",
+      "florida_page": 163,
+      "florida_evidence": "img/evidence/ch07/change_14_florida.webp",
+      "original_page": null,
+      "original_evidence": null
     },
     {
       "type": "modified",
       "section": "7.3 / Policing and Race",
       "original_text": "In at least some cases, decision makers are motivated by a desire to protect the status quo or improve their political or financial position.",
       "florida_text": "In at least some cases, decision makers may be influenced by institutional, political, or financial considerations when forming policy.",
-      "context": "Original states decision-makers are 'motivated by a desire to protect the status quo.' Florida softens to 'may be influenced by... considerations,' removing the direct attribution of status quo preservation as a motive."
+      "context": "Original states decision-makers are 'motivated by a desire to protect the status quo.' Florida softens to 'may be influenced by... considerations,' removing the direct attribution of status quo preservation as a motive.",
+      "original_page": 203,
+      "original_evidence": "img/evidence/ch07/change_15_original.webp",
+      "florida_page": 163,
+      "florida_evidence": "img/evidence/ch07/change_15_florida.webp"
     },
     {
       "type": "removed",
       "section": "Key Terms",
       "original_text": "cultural deviance theory\na theory that suggests conformity to the prevailing cultural norms of lower-class society causes crime\nhate crimes\nattacks based on a person's race, religion, or other characteristics",
       "florida_text": null,
-      "context": "Both 'cultural deviance theory' and 'hate crimes' are removed from the Key Terms section in the Florida version, consistent with the removal of the hate crimes section and cultural deviance theory from the main text."
+      "context": "Both 'cultural deviance theory' and 'hate crimes' are removed from the Key Terms section in the Florida version, consistent with the removal of the hate crimes section and cultural deviance theory from the main text.",
+      "original_page": 205,
+      "original_evidence": "img/evidence/ch07/change_16_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "Section Summary / Further Research / Section Quiz",
-      "original_text": "7 • Section Summary, Section Quiz, Short Answer, Further Research sections (full pedagogical apparatus)",
+      "original_text": "7 \u2022 Section Summary, Section Quiz, Short Answer, Further Research sections (full pedagogical apparatus)",
       "florida_text": null,
-      "context": "All end-of-chapter review materials — section summaries, section quiz questions, short answer questions, and further research suggestions — are entirely absent from the Florida version. This removes all guided pedagogy and self-assessment from the chapter."
+      "context": "All end-of-chapter review materials \u2014 section summaries, section quiz questions, short answer questions, and further research suggestions \u2014 are entirely absent from the Florida version. This removes all guided pedagogy and self-assessment from the chapter.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "Key Terms",
       "original_text": "negative sanctions\npunishments for violating norms",
       "florida_text": null,
-      "context": "Term removed from glossary."
+      "context": "Term removed from glossary.",
+      "original_page": 205,
+      "original_evidence": "img/evidence/ch07/change_18_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "Key Terms",
       "original_text": "positive sanctions\nrewards given for conforming to norms",
       "florida_text": null,
-      "context": "Term removed from glossary."
+      "context": "Term removed from glossary.",
+      "original_page": 205,
+      "original_evidence": "img/evidence/ch07/change_19_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     }
   ],
   "change_count": 19,

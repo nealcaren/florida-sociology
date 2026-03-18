@@ -10,169 +10,264 @@
       "section": "Introduction",
       "original_text": "In 2016, highly successful Fox News host Gretchen Carlson filed a lawsuit against Fox chairman, Roger Ailes, for sexual harassment. The suit led other women to come forward with similar allegations against Ailes and others in the entertainment industry. Soon after, actress Alyssa Milano posted this statement on Twitter: \"If all the women who have been sexually harassed or assaulted wrote 'Me too' as a status, we might give people a sense of the magnitude of the problem.\" The phrase, \"Me Too\" had been first used in this context in 2006 by activist Tarana Burke, in an effort to empower women of color. Within a day of Milano's post, the \"Me Too\" phrase or hashtag was used over 500,000 times on Twitter, and was used in over 12 million posts by 4.7 million people on Facebook...",
       "florida_text": "In 2016, Fox News host Gretchen Carlson sued chairman Roger Ailes for sexual harassment, prompting others to come forward with similar claims. Actress Alyssa Milano's 2017 Twitter post popularized the phrase \"Me Too,\" originally coined in 2006 by activist Tarana Burke to empower women of color. A 2017 New York Times article broke the story that Harvey Weinstein had paid off actresses that he had abused for decades (Kantor & Twohey, 2017). The viral hashtag #MeToo sparked global awareness, millions sharing stories, reforms in institutions, reshaping responses to sexual abuse (MeTooMvmt.org, 2020).",
-      "context": "The Florida version substantially condenses the MeToo origin narrative. It removes the detailed viral statistics (500,000 tweets in a day, 12 million Facebook posts), adds the Harvey Weinstein paragraph not present in the original introduction, and removes the narrative of Milano's exact tweet text and specific account of survivors coming forward."
+      "context": "The Florida version substantially condenses the MeToo origin narrative. It removes the detailed viral statistics (500,000 tweets in a day, 12 million Facebook posts), adds the Harvey Weinstein paragraph not present in the original introduction, and removes the narrative of Milano's exact tweet text and specific account of survivors coming forward.",
+      "original_page": 160,
+      "original_evidence": "img/evidence/ch06/change_0_original.webp",
+      "florida_page": 136,
+      "florida_evidence": "img/evidence/ch06/change_0_florida.webp"
     },
     {
       "type": "removed",
       "section": "6.1",
       "original_text": "Best Friends She's Never Met\nWriter Allison Levy worked alone. While she liked the freedom and flexibility of working from home, she sometimes missed having a community of coworkers, both for the practical purpose of brainstorming and socializing. Levy did what many do in the Internet age: she found a group of other writers online through a web forum...",
       "florida_text": null,
-      "context": "The entire 'Best Friends She Never Met' Sociology in the Real World sidebar about writer Allison Levy and her online writers' group is removed entirely from the Florida edition."
+      "context": "The entire 'Best Friends She Never Met' Sociology in the Real World sidebar about writer Allison Levy and her online writers' group is removed entirely from the Florida edition.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
       "section": "6.1",
-      "original_text": "While group affiliations can be neutral or positive, the concept of in-groups and out-groups can also explain some negative human behavior, such as white supremacist movements. By defining others as \"not like us\" and inferior, in-groups can end up practicing ethnocentrism, racism, sexism, ageism, and heterosexism—manners of judging others negatively based on their culture, race, sex, age, or sexuality.",
+      "original_text": "While group affiliations can be neutral or positive, the concept of in-groups and out-groups can also explain some negative human behavior, such as white supremacist movements. By defining others as \"not like us\" and inferior, in-groups can end up practicing ethnocentrism, racism, sexism, ageism, and heterosexism\u2014manners of judging others negatively based on their culture, race, sex, age, or sexuality.",
       "florida_text": "Group affiliations are not always neutral. They can sometimes lead to negative patterns, such as hostility or discrimination toward outsiders. For example, some extremist movements have used in-group loyalty to justify prejudice or violence.",
-      "context": "The explicit naming of 'white supremacist movements' as an example of negative in-group behavior is removed. The list of -isms (ethnocentrism, racism, sexism, ageism, heterosexism) is deleted. The Florida version substitutes vague language about 'extremist movements' and 'prejudice or violence.'"
+      "context": "The explicit naming of 'white supremacist movements' as an example of negative in-group behavior is removed. The list of -isms (ethnocentrism, racism, sexism, ageism, heterosexism) is deleted. The Florida version substitutes vague language about 'extremist movements' and 'prejudice or violence.'",
+      "original_page": 163,
+      "original_evidence": "img/evidence/ch06/change_2_original.webp",
+      "florida_page": 138,
+      "florida_evidence": "img/evidence/ch06/change_2_florida.webp"
     },
     {
       "type": "removed",
       "section": "6.1",
       "original_text": "College: A World of In-Groups, Out-Groups, and Reference Groups\nFor a student entering college, the sociological study of groups takes on an immediate and practical meaning. After all, when we arrive someplace new, most of us glance around to see how well we fit in or stand out in the ways we want...",
       "florida_text": null,
-      "context": "The entire 'College: A World of In-Groups, Out-Groups, and Reference Groups' Sociology in the Real World sidebar is removed from the Florida edition."
+      "context": "The entire 'College: A World of In-Groups, Out-Groups, and Reference Groups' Sociology in the Real World sidebar is removed from the Florida edition.",
+      "original_page": 165,
+      "original_evidence": "img/evidence/ch06/change_3_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
       "section": "6.1",
       "original_text": "Cyberbullying first made international headlines in 2010 when a fifteen-year-old girl, Phoebe Prince, in South Hadley, Massachusetts, committed suicide after being relentlessly bullied by girls at her school. In the aftermath of her death, the bullies were prosecuted and the state passed anti-bullying legislation. This marked a significant change in how bullying, including cyberbullying, is viewed in the United States. Now there are numerous resources for schools, families, and communities to provide education and prevention on this issue. The White House hosted a Bullying Prevention summit in March 2011, and President and First Lady Obama have used Facebook and other social media sites to discuss the importance of the issue.",
       "florida_text": "Cyberbullying first made international headlines in 2010 when a fifteen-year-old girl, Phoebe Prince, in South Hadley, Massachusetts, died by suicide after being relentlessly bullied by girls at her school. In the aftermath of her death, the bullies were prosecuted and the state passed anti-bullying legislation. This marked a significant change in how bullying, including cyberbullying, is viewed in the United States. Now there are numerous resources for schools, families, and communities to provide education and prevention on this issue. Social media platforms and their parent companies are also taking steps (often under pressure from communities) to improve cyberbullying detection and reporting capabilities.",
-      "context": "The phrase 'committed suicide' is changed to 'died by suicide' (a widely recommended language shift). References to a specific White House summit and President and First Lady Obama are removed and replaced with a generic reference to social media platforms addressing cyberbullying."
+      "context": "The phrase 'committed suicide' is changed to 'died by suicide' (a widely recommended language shift). References to a specific White House summit and President and First Lady Obama are removed and replaced with a generic reference to social media platforms addressing cyberbullying.",
+      "original_page": 163,
+      "original_evidence": "img/evidence/ch06/change_4_original.webp",
+      "florida_page": 139,
+      "florida_evidence": "img/evidence/ch06/change_4_florida.webp"
     },
     {
       "type": "modified",
       "section": "6.1",
       "original_text": "A 2010 study found that 20 percent of middle school students admitted to \"seriously thinking about committing suicide\" as a result of online bullying (Hinduja and Patchin 2010).",
       "florida_text": "Severe bullying can lead to suicidal thoughts and suicide attempts (John, 2018). Researchers noted that students who experienced in-person and online bullying were eleven times more likely to attempt suicide (Hinduja, 2018).",
-      "context": "The original 2010 statistic about middle school students thinking about suicide is replaced with more recent (2018) research citations. The Florida version adds a new sentence about LGBTQ youth and minority populations being disproportionately targeted by cyberbullying, which is an addition not in the original."
+      "context": "The original 2010 statistic about middle school students thinking about suicide is replaced with more recent (2018) research citations. The Florida version adds a new sentence about LGBTQ youth and minority populations being disproportionately targeted by cyberbullying, which is an addition not in the original.",
+      "original_page": 163,
+      "original_evidence": "img/evidence/ch06/change_5_original.webp",
+      "florida_page": 139,
+      "florida_evidence": "img/evidence/ch06/change_5_florida.webp"
     },
     {
       "type": "added",
       "section": "6.1",
       "original_text": null,
       "florida_text": "Overall, LGBTQ youth are targeted at a higher rate than other youth, and members of minority populations overall are more likely to be cyberbullying victims (Hinjuda & Patchin, 2020). Finally, adults (particularly college students) are also frequent cyberbullying victims and perpetrators.",
-      "context": "New sentence added in the Florida cyberbullying section noting that LGBTQ youth and minority populations face higher rates of cyberbullying. This is one of the rare additions in the Florida text."
+      "context": "New sentence added in the Florida cyberbullying section noting that LGBTQ youth and minority populations face higher rates of cyberbullying. This is one of the rare additions in the Florida text.",
+      "florida_page": 139,
+      "florida_evidence": "img/evidence/ch06/change_6_florida.webp",
+      "original_page": null,
+      "original_evidence": null
     },
     {
       "type": "modified",
       "section": "6.1",
       "original_text": "Cyberbullying can involve sending threatening texts, harassing someone in a public forum (such as Facebook), hacking someone's account and pretending to be him or her, posting embarrassing images online, and so on.",
       "florida_text": "Cyberbullying can involve sending threatening texts, harassing someone in a public forum (such as social media), hacking someone's account and pretending to be them, posting embarrassing images online, and so on. A study by the Cyberbullying Research Center found that 28 percent of teens have been a victim of cyberbullying (Hinduja and Patchin, 2019)... Cyberbullying can create a feeling of powerlessness and inescapability because victimization is not constrained to physical locations. Many victims report being harassed across multiple platforms or formats at the same time.",
-      "context": "Facebook is replaced with the generic 'social media.' 'Him or her' is changed to 'them.' Two sentences are added about the feelings of powerlessness and multi-platform harassment. These are relatively minor and modernizing edits."
+      "context": "Facebook is replaced with the generic 'social media.' 'Him or her' is changed to 'them.' Two sentences are added about the feelings of powerlessness and multi-platform harassment. These are relatively minor and modernizing edits.",
+      "original_page": 163,
+      "original_evidence": "img/evidence/ch06/change_7_original.webp",
+      "florida_page": 139,
+      "florida_evidence": "img/evidence/ch06/change_7_florida.webp"
     },
     {
       "type": "modified",
       "section": "Introduction",
       "original_text": "The Conflict perspective is another macroanalytical view, one that focuses on the genesis and growth of inequality. A conflict theorist studying the Tea Party Movement might look at how it checked interests that have manipulated the political system over the last 30 years. Or this perspective might explore how MeToo challenged organizations that have allowed sexual harassment to persist in order to protect those in power.",
       "florida_text": "The Conflict perspective is another macro-analytical view, one that highlights competition over scarce resources or influence. A scholar might explore how the Tea Party sought to counter interests it viewed as dominant in politics, or how #MeToo challenged institutional practices that hindered equity in workplaces.",
-      "context": "The conflict perspective description is toned down. The original language about 'genesis and growth of inequality' and interests that 'manipulated the political system' is removed. The Florida version uses more neutral language ('competition over scarce resources,' 'institutional practices that hindered equity')."
+      "context": "The conflict perspective description is toned down. The original language about 'genesis and growth of inequality' and interests that 'manipulated the political system' is removed. The Florida version uses more neutral language ('competition over scarce resources,' 'institutional practices that hindered equity').",
+      "original_page": 160,
+      "original_evidence": "img/evidence/ch06/change_8_original.webp",
+      "florida_page": 137,
+      "florida_evidence": "img/evidence/ch06/change_8_florida.webp"
     },
     {
       "type": "modified",
       "section": "6.2",
       "original_text": "Sometimes people expect men to take on instrumental roles and women to assume expressive roles. Women and men who exhibit the other-gender manner can be seen as deviants and can encounter resistance. Yet, both men and women prefer leaders who use a combination of expressive and instrumental leadership (Boatwright and Forrest, 2000).",
-      "florida_text": "Sociologists have long observed that cultures sometimes associate instrumental roles with men and expressive roles with women. Individuals who adopt leadership styles not traditionally linked with their gender may encounter social resistance. However, research suggests that effective leaders—regardless of gender—combine both instrumental and expressive skills (Boatwright and Forrest, 2000).",
-      "context": "The original language using 'deviants' to describe people who cross gender norms in leadership is softened. The rewrite neutralizes the framing while retaining the core sociological point."
+      "florida_text": "Sociologists have long observed that cultures sometimes associate instrumental roles with men and expressive roles with women. Individuals who adopt leadership styles not traditionally linked with their gender may encounter social resistance. However, research suggests that effective leaders\u2014regardless of gender\u2014combine both instrumental and expressive skills (Boatwright and Forrest, 2000).",
+      "context": "The original language using 'deviants' to describe people who cross gender norms in leadership is softened. The rewrite neutralizes the framing while retaining the core sociological point.",
+      "original_page": 167,
+      "original_evidence": "img/evidence/ch06/change_9_original.webp",
+      "florida_page": 141,
+      "florida_evidence": "img/evidence/ch06/change_9_florida.webp"
     },
     {
       "type": "modified",
       "section": "6.2",
       "original_text": "Kamala Harris broke a significant barrier when she became the first woman and first person of Black and South Asian descent to be elected vice president of the United States. A prominent presidential candidate in her own right during the 2020 primary election, Harris was asked by then-candidate Joe Biden to be his running mate in order to secure his electoral victory.\nYou may be surprised, however, to learn that more than ten other women were on the ballot for president or vice president on November 3, 2020...\nBeyond the implicit preference toward masculine qualities, women candidates face what is sometimes referred to the 'likability trap.'... when a female candidate, like Hillary Clinton, ranks low on feminine qualities, their likability is significantly impacted. Interestingly, the same survey found that Kamala Harris had a much more balanced gender quality rating than Clinton did...",
-      "florida_text": "Kamala Harris became the first woman and the first person of Black and South Asian descent elected vice president of the United States in 2020. Her candidacy followed a long history of women who have sought national office—including Shirley Chisholm, Lenora Fulani, Jill Stein, and Hillary Clinton—but the U.S. has not yet elected a woman president. In 2024, she became the first woman of color to run for president on a major party ticket.\nIn addition, some studies describe what they term the 'likability dilemma,' where social expectations about leadership and gender roles can conflict. When men display ambition or assertiveness, audiences may respond neutrally or positively; when women display the same traits, assessments may differ (Conroy, Martin, and Nadler, 2020).",
-      "context": "The 'Women Political Candidates' Big Picture sidebar is substantially condensed. Removed: the statement that Biden asked Harris to be his running mate 'to secure his electoral victory'; the list of ten other women on the 2020 ballot; detailed Bem Sex-Role Inventory study discussion; explicit comparison of Harris vs. Clinton likability scores. Added: a sentence noting Harris ran for president in 2024. The 'likability trap' framing is softened to 'likability dilemma' and the specific finding about Hillary Clinton scoring low on feminine qualities is removed."
+      "florida_text": "Kamala Harris became the first woman and the first person of Black and South Asian descent elected vice president of the United States in 2020. Her candidacy followed a long history of women who have sought national office\u2014including Shirley Chisholm, Lenora Fulani, Jill Stein, and Hillary Clinton\u2014but the U.S. has not yet elected a woman president. In 2024, she became the first woman of color to run for president on a major party ticket.\nIn addition, some studies describe what they term the 'likability dilemma,' where social expectations about leadership and gender roles can conflict. When men display ambition or assertiveness, audiences may respond neutrally or positively; when women display the same traits, assessments may differ (Conroy, Martin, and Nadler, 2020).",
+      "context": "The 'Women Political Candidates' Big Picture sidebar is substantially condensed. Removed: the statement that Biden asked Harris to be his running mate 'to secure his electoral victory'; the list of ten other women on the 2020 ballot; detailed Bem Sex-Role Inventory study discussion; explicit comparison of Harris vs. Clinton likability scores. Added: a sentence noting Harris ran for president in 2024. The 'likability trap' framing is softened to 'likability dilemma' and the specific finding about Hillary Clinton scoring low on feminine qualities is removed.",
+      "original_page": 168,
+      "original_evidence": "img/evidence/ch06/change_10_original.webp",
+      "florida_page": 144,
+      "florida_evidence": "img/evidence/ch06/change_10_florida.webp"
     },
     {
       "type": "removed",
       "section": "6.2",
       "original_text": "FIGURE 6.7 This gag gift demonstrates how female leaders may be viewed if they violate social norms. (Credit: istolethetv/flickr)",
       "florida_text": null,
-      "context": "The figure caption describing a 'gag gift' depicting how female leaders are viewed when they violate social norms is removed from the Florida edition."
+      "context": "The figure caption describing a 'gag gift' depicting how female leaders are viewed when they violate social norms is removed from the Florida edition.",
+      "original_page": 169,
+      "original_evidence": "img/evidence/ch06/change_11_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
       "section": "6.2",
       "original_text": "Stanley Milgram, a Yale psychologist, had similar results in his experiment that is now known simply as the Milgram Experiment. In 1962, Milgram found that research subjects were overwhelmingly willing to perform acts that directly conflicted with their consciences when directed by a person of authority. In the experiment, subjects were willing to administer painful, even supposedly deadly, shocks to others who answered questions incorrectly.",
       "florida_text": "Stanley Milgram, a Yale psychologist, had similar results in his experiment that is now known simply as the Milgram Experiment. In 1962, Milgram found that research subjects were willing to perform acts that directly conflicted with their consciences when directed by a person of authority. In the experiment, subjects were willing to administer painful, even supposedly deadly, shocks to others who answered questions incorrectly.",
-      "context": "The word 'overwhelmingly' is deleted from the description of Milgram subjects' willingness to perform harmful acts. A minor but meaningful tonal softening."
+      "context": "The word 'overwhelmingly' is deleted from the description of Milgram subjects' willingness to perform harmful acts. A minor but meaningful tonal softening.",
+      "original_page": 170,
+      "original_evidence": "img/evidence/ch06/change_12_original.webp",
+      "florida_page": 142,
+      "florida_evidence": "img/evidence/ch06/change_12_florida.webp"
     },
     {
       "type": "modified",
       "section": "6.3",
       "original_text": "Wealthy families hire tutors, interview coaches, test-prep services, and consultants to help their kids get into the best schools. This starts as early as kindergarten in New York City, where competition for the most highly-regarded schools is especially fierce. Are these schools, many of which have copious scholarship funds that are intended to make the school more democratic, really offering all applicants a fair shake?",
-      "florida_text": "Challenges can arise when access to preparation resources—such as tutoring or test coaching—is uneven. This may call into question how well institutions identify talent and opportunity fairly.",
-      "context": "A vivid, specific passage about wealthy families gaming elite school admissions—including reference to New York City kindergarten competition and scholarship fund hypocrisy—is replaced with two bland generic sentences. The critical class analysis is largely neutralized."
+      "florida_text": "Challenges can arise when access to preparation resources\u2014such as tutoring or test coaching\u2014is uneven. This may call into question how well institutions identify talent and opportunity fairly.",
+      "context": "A vivid, specific passage about wealthy families gaming elite school admissions\u2014including reference to New York City kindergarten competition and scholarship fund hypocrisy\u2014is replaced with two bland generic sentences. The critical class analysis is largely neutralized.",
+      "original_page": 173,
+      "original_evidence": "img/evidence/ch06/change_13_original.webp",
+      "florida_page": 147,
+      "florida_evidence": "img/evidence/ch06/change_13_florida.webp"
     },
     {
       "type": "removed",
       "section": "6.3",
       "original_text": "Finally, bureaucracies, grew as institutions at a time when privileged white males held all the power. While ostensibly based on meritocracy, bureaucracies can perpetuate the existing balance of power by only recognizing the merit in traditionally male and privileged paths.",
       "florida_text": null,
-      "context": "An entire sentence explicitly stating that bureaucracies perpetuate the power of 'privileged white males' is removed from the Florida edition with no replacement text."
+      "context": "An entire sentence explicitly stating that bureaucracies perpetuate the power of 'privileged white males' is removed from the Florida edition with no replacement text.",
+      "original_page": 173,
+      "original_evidence": "img/evidence/ch06/change_14_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
       "section": "6.3",
       "original_text": "Today's workplace requires a faster pace, more problem solving, and a flexible approach to work. Too much adherence to explicit rules and a division of labor can leave an organization behind. And unfortunately, once established, bureaucracies can take on a life of their own. Maybe you have heard the expression 'trying to turn a tanker around mid-ocean,' which refers to the difficulties of changing direction with something large and set in its ways. State governments and current budget crises are examples of this challenge. It is almost impossible to make quick changes, leading states to fail, year after year, to address increasingly unbalanced budgets.",
-      "florida_text": "Bureaucracies offer advantages—efficiency, scalability, and consistency—but can also become rigid or slow to adapt. Today's workplace requires a faster pace, more problem solving, and a flexible approach to work. Too much adherence to explicit rules and a division of labor can leave an organization behind. And unfortunately, once established, bureaucracies can take on a life of their own. Many originated during the Industrial Revolution, when fixed hierarchies suited factory production. Modern organizations, in contrast, often need flexibility to respond quickly to innovation.",
-      "context": "The original's specific reference to state government budget crises and a tanker analogy is removed. The Florida version adds a more neutral introductory sentence and replaces the political critique with a historical explanation about the Industrial Revolution."
+      "florida_text": "Bureaucracies offer advantages\u2014efficiency, scalability, and consistency\u2014but can also become rigid or slow to adapt. Today's workplace requires a faster pace, more problem solving, and a flexible approach to work. Too much adherence to explicit rules and a division of labor can leave an organization behind. And unfortunately, once established, bureaucracies can take on a life of their own. Many originated during the Industrial Revolution, when fixed hierarchies suited factory production. Modern organizations, in contrast, often need flexibility to respond quickly to innovation.",
+      "context": "The original's specific reference to state government budget crises and a tanker analogy is removed. The Florida version adds a more neutral introductory sentence and replaces the political critique with a historical explanation about the Industrial Revolution.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": 147,
+      "florida_evidence": "img/evidence/ch06/change_15_florida.webp"
     },
     {
       "type": "modified",
       "section": "6.3",
       "original_text": "The McDonaldization of Society (Ritzer 1993) refers to the increasing presence of the fast food business model in common social institutions, including government, education, and even relationships. The term itself isn't widely used in publications, research, or common conversation, but its effects are very familiar, even commonplace. The McDonald's model includes efficiency (the division of labor), predictability, calculability, and control (monitoring)... [multiple detailed paragraphs with examples in education and healthcare]",
       "florida_text": "The McDonaldization of Society (Ritzer 1993) describes the spread of the fast-food model to institutions like government, education, and relationships, based on efficiency, predictability, calculability, and control. For example, chain stores use specialized roles (efficiency), consistent products (predictability), quantifiable sales (calculability), and uniformed staff monitored by cameras (control). Though it boosts profits and accessibility, it reduces product variety and uniqueness, prompting some 'de-McDonaldization' trends like farmers markets. In education, standardized testing aims for efficiency but has mixed results, while healthcare sees consolidation, telemedicine, and AI to meet rising demands (Fuchs 1997).",
-      "context": "The extended multi-paragraph McDonaldization discussion is condensed into a single paragraph. Removed: the detailed grocery store example, the discussion of No Child Left Behind specifically, the hospital merger mania narrative, and the explicit critique that the desired education outcome is 'difficult to measure and far more difficult to achieve.' The Florida version also removes the sentence noting the term 'isn't widely used in publications.'"
+      "context": "The extended multi-paragraph McDonaldization discussion is condensed into a single paragraph. Removed: the detailed grocery store example, the discussion of No Child Left Behind specifically, the hospital merger mania narrative, and the explicit critique that the desired education outcome is 'difficult to measure and far more difficult to achieve.' The Florida version also removes the sentence noting the term 'isn't widely used in publications.'",
+      "original_page": 174,
+      "original_evidence": "img/evidence/ch06/change_16_original.webp",
+      "florida_page": 148,
+      "florida_evidence": "img/evidence/ch06/change_16_florida.webp"
     },
     {
       "type": "modified",
       "section": "6.3",
       "original_text": "Secrets of the McJob\nWe often talk about bureaucracies disparagingly, and no organization takes more heat than fast food restaurants. Several books and movies, such as Fast Food Nation: The Dark Side of the All-American Meal by Eric Schossler, paint an ugly picture of what goes in, what goes on, and what comes out of fast food chains. From their environmental impact to their role in the U.S. obesity epidemic, fast food chains are connected to numerous societal ills... But business school professor Jerry Newman went undercover and worked behind the counter at seven fast food restaurants to discover what really goes on there...",
       "florida_text": "Secrets of the McJob\nFast food restaurants often face criticism for their environmental impact, role in obesity, and low-wage jobs known as 'McJobs.' However, Jerry Newman's undercover work in seven fast food chains revealed hardworking employees, skilled management, and the importance of frontline workers. Some businesses like Costco and Chipotle offer better wages, benefits, or responsibly sourced food, challenging the stereotypical view of fast food jobs.",
-      "context": "The McJob sidebar is substantially condensed. The detailed quote from a pharmaceutical executive about fast food jobs on a résumé is removed. The Chipotle/Costco section is summarized without specifics (the original mentions $20/hour and 90% health insurance coverage at Costco). The narrative structure and depth of the original is reduced to a brief summary."
+      "context": "The McJob sidebar is substantially condensed. The detailed quote from a pharmaceutical executive about fast food jobs on a r\u00e9sum\u00e9 is removed. The Chipotle/Costco section is summarized without specifics (the original mentions $20/hour and 90% health insurance coverage at Costco). The narrative structure and depth of the original is reduced to a brief summary.",
+      "original_page": 174,
+      "original_evidence": "img/evidence/ch06/change_17_original.webp",
+      "florida_page": 148,
+      "florida_evidence": "img/evidence/ch06/change_17_florida.webp"
     },
     {
-      "type": "removed",
+      "type": "modified",
       "section": "6.3",
       "original_text": "authoritarian leaders issue orders and assign tasks with little to no feedback from group members. These leaders are often instrumental leaders with a strong focus on meeting goals. Often, entrepreneurs fall into this mold, like Facebook founder Mark Zuckerberg.",
       "florida_text": "Authoritarian is a term often used in popular culture as a negative characteristic describing people in ways that diminish the power and control of others. As a sociological term, this term refers to instrumental leaders with a strong focus on meeting goals. Often, entrepreneurs fall into this mold, like Facebook founder Mark Zuckerberg.",
       "context": "The Florida version adds a new definitional sentence clarifying that 'authoritarian' is a sociological term, not merely a pejorative. This may be an attempt to rehabilitate or contextualize the term, given its political associations.",
-      "type": "modified"
+      "original_page": 167,
+      "original_evidence": "img/evidence/ch06/change_18_original.webp",
+      "florida_page": 145,
+      "florida_evidence": "img/evidence/ch06/change_18_florida.webp"
     },
     {
       "type": "removed",
-      "section": "6.1–6.3",
-      "original_text": "LEARNING OBJECTIVES\nBy the end of this section, you should be able to:\n• Differentiate between primary and secondary groups...",
+      "section": "6.1\u20136.3",
+      "original_text": "LEARNING OBJECTIVES\nBy the end of this section, you should be able to:\n\u2022 Differentiate between primary and secondary groups...",
       "florida_text": null,
-      "context": "All learning objectives headers throughout the chapter (for sections 6.1, 6.2, and 6.3) are removed in the Florida version."
+      "context": "All learning objectives headers throughout the chapter (for sections 6.1, 6.2, and 6.3) are removed in the Florida version.",
+      "original_page": 20,
+      "original_evidence": "img/evidence/ch06/change_19_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
-      "section": "6.1–6.3",
+      "section": "6.1\u20136.3",
       "original_text": "Section Quiz\n6.1 Types of Groups\n1. What does a Functionalist consider when studying a phenomenon like the Tea Party movement?...",
       "florida_text": null,
-      "context": "The entire Section Quiz (19 multiple-choice questions covering all three sections) is removed from the Florida edition."
+      "context": "The entire Section Quiz (19 multiple-choice questions covering all three sections) is removed from the Florida edition.",
+      "original_page": 177,
+      "original_evidence": "img/evidence/ch06/change_20_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
-      "section": "6.1–6.3",
+      "section": "6.1\u20136.3",
       "original_text": "Short Answer\n6.1 Types of Groups\n1. How has technology changed your primary groups and secondary groups?...",
       "florida_text": null,
-      "context": "The entire Short Answer section (10 discussion questions) is removed from the Florida edition."
+      "context": "The entire Short Answer section (10 discussion questions) is removed from the Florida edition.",
+      "original_page": 180,
+      "original_evidence": "img/evidence/ch06/change_21_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
-      "section": "6.1–6.3",
+      "section": "6.1\u20136.3",
       "original_text": "Further Research\n6.1 Types of Groups\nFor more information about cyberbullying causes and statistics, check out this website on cyberbullying research...",
       "florida_text": null,
-      "context": "The entire Further Research section with links to external resources is removed from the Florida edition."
+      "context": "The entire Further Research section with links to external resources is removed from the Florida edition.",
+      "original_page": 181,
+      "original_evidence": "img/evidence/ch06/change_22_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "6.1",
       "original_text": "Section Summary\n6.1 Types of Groups\nGroups largely define how we think of ourselves. There are two main types of groups: primary and secondary. As the names suggest, the primary group is the long-term, complex one...",
       "florida_text": null,
-      "context": "The Section Summary for all three sections is removed from the Florida edition."
+      "context": "The Section Summary for all three sections is removed from the Florida edition.",
+      "original_page": 177,
+      "original_evidence": "img/evidence/ch06/change_23_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     }
   ],
   "change_count": 21,

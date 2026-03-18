@@ -2,141 +2,216 @@
   "chapter": 2,
   "title": "Sociological Research",
   "florida_title": "Sociological Research & Methods of Inquiry",
-  "summary": "The Florida version's most significant deletion is the entire \"Critical Sociology\" subsection, which explained how scholars including the Frankfurt School and Karl Marx understood research as embedded in systems of class, race, gender, and power. Florida replaces it with a vague \"Other Frameworks in Sociology\" paragraph that dismisses these approaches as material for \"more advanced courses\" outside the scope of the text. The \"Institutional Ethnography\" subsection covering Dorothy E. Smith's feminist-inspired approach, which challenged sociology's historical exclusion of women and critiqued male-dominated power structures, is also removed entirely.\n\nThree research examples are edited to suppress racial and social justice content. The Lady Gaga fan study loses its sentence noting that \"Many of Lady Gaga's fans are members of the LGBTQ community.\" The Buchanan (2019) study of Beyoncé and Rihanna fandom originally concluded that \"the media thus sustains a myth of rivalry between the two most commercially successful Black women vocal artists\"; Florida replaces this with a neutral statement about \"within-group solidarity.\" The Heussenstamm Black Panther bumper sticker experiment is reframed: where the original called the Black Panthers \"a revolutionary group actively fighting racism,\" Florida describes them as \"a controversial group\" viewed by the FBI as \"a radical organization and a threat to national security\" with confrontations with law enforcement, shifting the framing of a study about police racial profiling toward a law enforcement legitimation narrative.\n\nThe Florida version also makes substantive pedagogical additions: a detailed new SAT/school-start-time survey example, expanded discussion of correlation versus causation, a new section on AI in social science research, and corrected language about hypothesis testing. Some language modernization occurs (\"prisoners\" becomes \"people who are incarcerated\"), and the Rodney Rothman \"My Fake Job\" anecdote illustrating participant observation is removed. The removal of critical sociology, feminist ethnography, LGBTQ content, and racial analysis, combined with the reframing of a race-and-policing study, constitutes a pattern that goes well beyond routine editing.",
+  "summary": "The Florida version's most significant deletion is the entire \"Critical Sociology\" subsection, which explained how scholars including the Frankfurt School and Karl Marx understood research as embedded in systems of class, race, gender, and power. Florida replaces it with a vague \"Other Frameworks in Sociology\" paragraph that dismisses these approaches as material for \"more advanced courses\" outside the scope of the text. The \"Institutional Ethnography\" subsection covering Dorothy E. Smith's feminist-inspired approach, which challenged sociology's historical exclusion of women and critiqued male-dominated power structures, is also removed entirely.\n\nThree research examples are edited to suppress racial and social justice content. The Lady Gaga fan study loses its sentence noting that \"Many of Lady Gaga's fans are members of the LGBTQ community.\" The Buchanan (2019) study of Beyonc\u00e9 and Rihanna fandom originally concluded that \"the media thus sustains a myth of rivalry between the two most commercially successful Black women vocal artists\"; Florida replaces this with a neutral statement about \"within-group solidarity.\" The Heussenstamm Black Panther bumper sticker experiment is reframed: where the original called the Black Panthers \"a revolutionary group actively fighting racism,\" Florida describes them as \"a controversial group\" viewed by the FBI as \"a radical organization and a threat to national security\" with confrontations with law enforcement, shifting the framing of a study about police racial profiling toward a law enforcement legitimation narrative.\n\nThe Florida version also makes substantive pedagogical additions: a detailed new SAT/school-start-time survey example, expanded discussion of correlation versus causation, a new section on AI in social science research, and corrected language about hypothesis testing. Some language modernization occurs (\"prisoners\" becomes \"people who are incarcerated\"), and the Rodney Rothman \"My Fake Job\" anecdote illustrating participant observation is removed. The removal of critical sociology, feminist ethnography, LGBTQ content, and racial analysis, combined with the reframing of a race-and-policing study, constitutes a pattern that goes well beyond routine editing.",
   "changes": [
     {
       "type": "modified",
       "section": "Introduction",
       "original_text": "As sociology made its way into American universities, scholars developed it into a science...",
       "florida_text": "As sociology made its way into U.S. universities, scholars developed it into a science...",
-      "context": "Minor terminology change from 'American' to 'U.S.' — consistent with similar substitutions elsewhere in the text."
+      "context": "Minor terminology change from 'American' to 'U.S.' \u2014 consistent with similar substitutions elsewhere in the text.",
+      "original_page": 47,
+      "original_evidence": "img/evidence/ch02/change_0_original.webp",
+      "florida_page": 25,
+      "florida_evidence": "img/evidence/ch02/change_0_florida.webp"
     },
     {
       "type": "modified",
       "section": "2.1",
       "original_text": "When sociologists apply the sociological perspective and begin to ask questions, no topic is off limits.",
       "florida_text": "When sociologists apply the sociological perspective and begin to ask questions, almost no topic is off limits.",
-      "context": "Addition of 'almost' subtly narrows the claim that sociology can study anything, possibly to leave room for excluding certain topics."
+      "context": "Addition of 'almost' subtly narrows the claim that sociology can study anything, possibly to leave room for excluding certain topics.",
+      "original_page": 48,
+      "original_evidence": "img/evidence/ch02/change_1_original.webp",
+      "florida_page": 25,
+      "florida_evidence": "img/evidence/ch02/change_1_florida.webp"
     },
     {
       "type": "removed",
       "section": "2.1",
       "original_text": "Critical Sociology\nCritical sociology focuses on deconstruction of existing sociological research and theory. Informed by the work of Karl Marx, scholars known collectively as the Frankfurt School proposed that social science, as much as any academic pursuit, is embedded in the system of power constituted by the set of class, caste, race, gender, and other relationships that exist in the society. Consequently, it cannot be treated as purely objective. Critical sociologists view theories, methods, and the conclusions as serving one of two purposes: they can either legitimate and rationalize systems of social power and oppression or liberate humans from inequality and restriction on human freedom. Deconstruction can involve data collection, but the analysis of this data is not empirical or positivist.",
       "florida_text": null,
-      "context": "Entire Critical Sociology subsection removed. This section introduced students to Marxist and Frankfurt School critiques of social science as embedded in power structures of class, race, and gender. Florida replaces it with a dismissive placeholder paragraph directing students to 'more advanced courses.'"
+      "context": "Entire Critical Sociology subsection removed. This section introduced students to Marxist and Frankfurt School critiques of social science as embedded in power structures of class, race, and gender. Florida replaces it with a dismissive placeholder paragraph directing students to 'more advanced courses.'",
+      "original_page": 52,
+      "original_evidence": "img/evidence/ch02/change_2_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "added",
       "section": "2.1",
       "original_text": null,
       "florida_text": "Other Frameworks in Sociology\nThere are other frameworks used by sociologists to describe, analytically investigate, and to inform our scientific understanding of various social phenomena. These frameworks may be taught in more advanced courses where students take on more challenging problems at more advanced levels of analysis. The goal of this text is to introduce you to the fundamental tools used by sociologists so that you can benefit from the insights they provide to everyone, regardless of one's major or areas of interest.",
-      "context": "Replaces the Critical Sociology section with a vague acknowledgment that 'other frameworks' exist, explicitly deferring them to 'more advanced courses' and framing the text's goal as broadly accessible rather than critical. Suppresses engagement with power-analysis frameworks."
+      "context": "Replaces the Critical Sociology section with a vague acknowledgment that 'other frameworks' exist, explicitly deferring them to 'more advanced courses' and framing the text's goal as broadly accessible rather than critical. Suppresses engagement with power-analysis frameworks.",
+      "florida_page": 29,
+      "florida_evidence": "img/evidence/ch02/change_3_florida.webp",
+      "original_page": null,
+      "original_evidence": null
     },
     {
       "type": "removed",
       "section": "2.2",
       "original_text": "In 2000, a comic writer named Rodney Rothman wanted an insider's view of white-collar work. He slipped into the sterile, high-rise offices of a New York 'dot com' agency. Every day for two weeks, he pretended to work there... Rothman had conducted a form of study called participant observation...",
       "florida_text": null,
-      "context": "The Rodney Rothman 'My Fake Job' anecdote, used to introduce and illustrate participant observation, is removed entirely. The Florida version introduces participant observation more briefly without this narrative hook."
+      "context": "The Rodney Rothman 'My Fake Job' anecdote, used to introduce and illustrate participant observation, is removed entirely. The Florida version introduces participant observation more briefly without this narrative hook.",
+      "original_page": 57,
+      "original_evidence": "img/evidence/ch02/change_4_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "2.2",
       "original_text": "Institutional Ethnography\nInstitutional ethnography is an extension of basic ethnographic research principles that focuses intentionally on everyday concrete social relationships. Developed by Canadian sociologist Dorothy E. Smith (1990), institutional ethnography is often considered a feminist-inspired approach to social analysis and primarily considers women's experiences within male-dominated societies and power structures. Smith's work is seen to challenge sociology's exclusion of women, both academically and in the study of women's lives (Fenstermaker, n.d.).\nHistorically, social science research tended to objectify women and ignore their experiences except as viewed from the male perspective. Modern feminists note that describing women, and other marginalized groups, as subordinates helps those in authority maintain their own dominant positions... Smith's three major works explored what she called 'the conceptual practices of power' and are still considered seminal works in feminist theory and ethnography.",
       "florida_text": null,
-      "context": "Entire Institutional Ethnography subsection removed. This section described Dorothy E. Smith's feminist methodology, critiqued the historical objectification of women in social science, and discussed how describing marginalized groups as subordinates reinforces dominant power. Its removal eliminates feminist theory and power-structure critique from the methods discussion."
+      "context": "Entire Institutional Ethnography subsection removed. This section described Dorothy E. Smith's feminist methodology, critiqued the historical objectification of women in social science, and discussed how describing marginalized groups as subordinates reinforces dominant power. Its removal eliminates feminist theory and power-structure critique from the methods discussion.",
+      "original_page": 60,
+      "original_evidence": "img/evidence/ch02/change_5_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
       "section": "2.2",
-      "original_text": "In their study, Click, Lee & Holiday (2013) interviewed 45 Lady Gaga fans who utilized social media to communicate with the artist. These fans viewed Lady Gaga as a mirror of themselves and a source of inspiration. Like her, they embrace not being a part of mainstream culture. Many of Lady Gaga's fans are members of the LGBTQ community. They see the 'song \"Born This Way\"' as a rallying cry and answer her calls for 'Paws Up' with a physical expression of solidarity—outstretched arms and fingers bent and curled to resemble monster claws.\"",
-      "florida_text": "In their study, Click, Lee & Holiday (2013) interviewed 45 Lady Gaga fans who utilized social media to communicate with the artist. These fans viewed Lady Gaga as a mirror of themselves and a source of inspiration. Like her, they embrace not being a part of mainstream culture. Some of her fans report that they view the 'song \"Born This Way\"' as a rallying cry and answer her calls for 'Paws Up' with a physical expression of solidarity—outstretched arms and fingers bent and curled to resemble monster claws.\"",
-      "context": "The sentence 'Many of Lady Gaga's fans are members of the LGBTQ community' is deleted. 'They see' is replaced by 'Some of her fans report that they view' — weakening the connection to LGBTQ identity and making the statement more hedged. This removes LGBTQ content from a research methods example."
+      "original_text": "In their study, Click, Lee & Holiday (2013) interviewed 45 Lady Gaga fans who utilized social media to communicate with the artist. These fans viewed Lady Gaga as a mirror of themselves and a source of inspiration. Like her, they embrace not being a part of mainstream culture. Many of Lady Gaga's fans are members of the LGBTQ community. They see the 'song \"Born This Way\"' as a rallying cry and answer her calls for 'Paws Up' with a physical expression of solidarity\u2014outstretched arms and fingers bent and curled to resemble monster claws.\"",
+      "florida_text": "In their study, Click, Lee & Holiday (2013) interviewed 45 Lady Gaga fans who utilized social media to communicate with the artist. These fans viewed Lady Gaga as a mirror of themselves and a source of inspiration. Like her, they embrace not being a part of mainstream culture. Some of her fans report that they view the 'song \"Born This Way\"' as a rallying cry and answer her calls for 'Paws Up' with a physical expression of solidarity\u2014outstretched arms and fingers bent and curled to resemble monster claws.\"",
+      "context": "The sentence 'Many of Lady Gaga's fans are members of the LGBTQ community' is deleted. 'They see' is replaced by 'Some of her fans report that they view' \u2014 weakening the connection to LGBTQ identity and making the statement more hedged. This removes LGBTQ content from a research methods example.",
+      "original_page": 57,
+      "original_evidence": "img/evidence/ch02/change_6_original.webp",
+      "florida_page": 34,
+      "florida_evidence": "img/evidence/ch02/change_6_florida.webp"
     },
     {
       "type": "modified",
       "section": "2.2",
       "original_text": "Buchanan argues that the media thus sustains a myth of rivalry between the two most commercially successful Black women vocal artists.",
       "florida_text": "The study showed how within-group solidarity is strengthened through competition.",
-      "context": "The original conclusion of the Buchanan (2019) study—a critique of media construction of rivalry between Black women artists—is replaced with a neutral sociological observation about in-group solidarity. Removes both the racial analysis ('Black women') and the media critique from the research example."
+      "context": "The original conclusion of the Buchanan (2019) study\u2014a critique of media construction of rivalry between Black women artists\u2014is replaced with a neutral sociological observation about in-group solidarity. Removes both the racial analysis ('Black women') and the media critique from the research example.",
+      "original_page": 57,
+      "original_evidence": "img/evidence/ch02/change_7_original.webp",
+      "florida_page": 34,
+      "florida_evidence": "img/evidence/ch02/change_7_florida.webp"
     },
     {
       "type": "modified",
       "section": "2.2",
       "original_text": "She discovered the obvious, that it's almost impossible to get by on minimum wage work. She also experienced and observed attitudes many middle and upper-class people never think about. She witnessed firsthand the treatment of working class employees.",
       "florida_text": "She discovered that it's almost impossible to get by on minimum wage work. She also experienced and observed attitudes some people might not think about. She witnessed firsthand the treatment of the employees.",
-      "context": "The phrase 'many middle and upper-class people never think about' is softened to 'some people might not think about,' removing class analysis. 'Working class employees' becomes 'the employees,' eliminating the class identification."
+      "context": "The phrase 'many middle and upper-class people never think about' is softened to 'some people might not think about,' removing class analysis. 'Working class employees' becomes 'the employees,' eliminating the class identification.",
+      "original_page": null,
+      "original_evidence": null,
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "modified",
       "section": "2.2",
       "original_text": "Next, she placed a Black Panther bumper sticker on each car. That sticker, a representation of a social value, was the independent variable. In the 1970s, the Black Panthers were a revolutionary group actively fighting racism.",
       "florida_text": "Next, she placed a Black Panther bumper sticker on each car. That sticker, a representation of a social value, was the independent variable. In the 1970s, the Black Panthers were a controversial group. The group was viewed by the FBI as a radical organization and a threat to national security. The group regularly had confrontations with law enforcement.",
-      "context": "The original's characterization of the Black Panthers as 'a revolutionary group actively fighting racism' is replaced with 'a controversial group' framed through FBI surveillance and confrontations with law enforcement. This fundamentally reframes a study about racial profiling by police: the original highlights racial justice context; the Florida version emphasizes a law enforcement/national security narrative, implicitly justifying the police stops the study was designed to expose as discriminatory."
+      "context": "The original's characterization of the Black Panthers as 'a revolutionary group actively fighting racism' is replaced with 'a controversial group' framed through FBI surveillance and confrontations with law enforcement. This fundamentally reframes a study about racial profiling by police: the original highlights racial justice context; the Florida version emphasizes a law enforcement/national security narrative, implicitly justifying the police stops the study was designed to expose as discriminatory.",
+      "original_page": 64,
+      "original_evidence": "img/evidence/ch02/change_9_original.webp",
+      "florida_page": 39,
+      "florida_evidence": "img/evidence/ch02/change_9_florida.webp"
     },
     {
       "type": "modified",
       "section": "2.2",
       "original_text": "She chose fifteen students from three ethnic backgrounds: Black, White, and Hispanic.",
       "florida_text": "She chose fifteen students who routinely drove to and from campus along Los Angeles freeway routes, and who had had perfect driving records for longer than a year.",
-      "context": "The description of students' ethnic backgrounds (Black, White, Hispanic) is removed from the Heussenstamm experiment. This omits information central to understanding the study as a test of racial profiling."
+      "context": "The description of students' ethnic backgrounds (Black, White, Hispanic) is removed from the Heussenstamm experiment. This omits information central to understanding the study as a test of racial profiling.",
+      "original_page": 64,
+      "original_evidence": "img/evidence/ch02/change_10_original.webp",
+      "florida_page": 39,
+      "florida_evidence": "img/evidence/ch02/change_10_florida.webp"
     },
     {
       "type": "modified",
       "section": "2.3",
-      "original_text": "Is value neutrality possible? Many sociologists believe it is impossible to retain complete objectivity. They caution readers, rather, to understand that sociological studies may contain a certain amount of value bias. This does not discredit the results, but allows readers to view them as one form of truth—one fact-based perspective. Some sociologists attempt to remain uncritical and as objective as possible...",
+      "original_text": "Is value neutrality possible? Many sociologists believe it is impossible to retain complete objectivity. They caution readers, rather, to understand that sociological studies may contain a certain amount of value bias. This does not discredit the results, but allows readers to view them as one form of truth\u2014one fact-based perspective. Some sociologists attempt to remain uncritical and as objective as possible...",
       "florida_text": "Is value neutrality possible? Many sociologists believe it is impossible to retain complete objectivity. Sociologists attempt to remain uncritical and as objective as possible...",
-      "context": "The sentences acknowledging that studies 'may contain a certain amount of value bias' and that results should be viewed as 'one form of truth—one fact-based perspective' are removed. Florida's version jumps directly to prescriptions for objectivity, removing the epistemological nuance about multiple perspectives."
+      "context": "The sentences acknowledging that studies 'may contain a certain amount of value bias' and that results should be viewed as 'one form of truth\u2014one fact-based perspective' are removed. Florida's version jumps directly to prescriptions for objectivity, removing the epistemological nuance about multiple perspectives.",
+      "original_page": 65,
+      "original_evidence": "img/evidence/ch02/change_11_original.webp",
+      "florida_page": 39,
+      "florida_evidence": "img/evidence/ch02/change_11_florida.webp"
     },
     {
       "type": "modified",
       "section": "2.3",
       "original_text": "Laud Humphrey: In the 1960s, Laud Humphrey conducted an experiment at a restroom in a park known for same-sex sexual encounters. His objective was to understand the diversity of backgrounds and motivations of people seeking same-sex relationships.",
       "florida_text": "Finally, in the 1960s, Laud Humphreys conducted a field experiment at a restroom in a park known for same-sex sexual encounters. His objective was to understand the diversity of backgrounds and motivations of people seeking same-sex relationships.",
-      "context": "Name corrected from 'Humphrey' to 'Humphreys.' The content about studying same-sex encounters is retained; this appears to be a genuine factual correction rather than censorship."
+      "context": "Name corrected from 'Humphrey' to 'Humphreys.' The content about studying same-sex encounters is retained; this appears to be a genuine factual correction rather than censorship.",
+      "original_page": 67,
+      "original_evidence": "img/evidence/ch02/change_12_original.webp",
+      "florida_page": 40,
+      "florida_evidence": "img/evidence/ch02/change_12_florida.webp"
     },
     {
       "type": "added",
       "section": "2.3",
       "original_text": null,
       "florida_text": "These examples are important because they provide insights about the importance of conducting research that does not harm research participants... Another challenge for social scientists is related to drawing conclusions about causality... Identifying those who are 'at risk' will become increasingly important as Artificial Intelligence (AI) tools become more central to how people conduct social science studies. AI can be leveraged to study relationships between a massive number of variables without any theoretical basis (i.e., atheoretical exploratory analysis)...",
-      "context": "New content added to Ethical Concerns section covering: the importance of ethical research for public trust in science; a lengthy discussion of correlation vs. causation with an allergy medication example; and a new section on AI tools in social science research. These are substantive pedagogical additions, not censorship."
+      "context": "New content added to Ethical Concerns section covering: the importance of ethical research for public trust in science; a lengthy discussion of correlation vs. causation with an allergy medication example; and a new section on AI tools in social science research. These are substantive pedagogical additions, not censorship.",
+      "florida_page": 41,
+      "florida_evidence": "img/evidence/ch02/change_13_florida.webp",
+      "original_page": null,
+      "original_evidence": null
     },
     {
       "type": "modified",
       "section": "2.2",
-      "original_text": "Surveys often collect both quantitative and qualitative data. For example, a researcher interviewing prisoners might receive quantitative data, such as demographics – race, age, sex, that can be analyzed statistically. For example, the researcher might discover that 20 percent of prisoners are above the age of 50. The researcher might also collect qualitative data, such as why prisoners take advantage of educational opportunities while they serve.",
-      "florida_text": "Surveys often collect both quantitative and qualitative data. For example, a researcher interviewing people who are incarcerated might receive quantitative data, such as demographics – race, age, sex, that can be analyzed statistically. For example, the researcher might discover that 20 percent of incarcerated people are above the age of 50. The researcher might also collect qualitative data, such as why people take advantage of educational opportunities during their sentence.",
-      "context": "'Prisoners' replaced with 'people who are incarcerated' and 'while they serve' becomes 'during their sentence.' This is person-first language modernization, a reasonable editorial update rather than censorship."
+      "original_text": "Surveys often collect both quantitative and qualitative data. For example, a researcher interviewing prisoners might receive quantitative data, such as demographics \u2013 race, age, sex, that can be analyzed statistically. For example, the researcher might discover that 20 percent of prisoners are above the age of 50. The researcher might also collect qualitative data, such as why prisoners take advantage of educational opportunities while they serve.",
+      "florida_text": "Surveys often collect both quantitative and qualitative data. For example, a researcher interviewing people who are incarcerated might receive quantitative data, such as demographics \u2013 race, age, sex, that can be analyzed statistically. For example, the researcher might discover that 20 percent of incarcerated people are above the age of 50. The researcher might also collect qualitative data, such as why people take advantage of educational opportunities during their sentence.",
+      "context": "'Prisoners' replaced with 'people who are incarcerated' and 'while they serve' becomes 'during their sentence.' This is person-first language modernization, a reasonable editorial update rather than censorship.",
+      "original_page": 55,
+      "original_evidence": "img/evidence/ch02/change_14_original.webp",
+      "florida_page": 32,
+      "florida_evidence": "img/evidence/ch02/change_14_florida.webp"
     },
     {
       "type": "modified",
       "section": "2.2",
       "original_text": "These results are then subjected to the scrutiny of other sociologists in the field.",
       "florida_text": "These results are then subjected to the scrutiny of other researchers and experts.",
-      "context": "'Sociologists' replaced with 'researchers and experts,' slightly deprofessionalizing the peer review process for sociology specifically."
+      "context": "'Sociologists' replaced with 'researchers and experts,' slightly deprofessionalizing the peer review process for sociology specifically.",
+      "original_page": 52,
+      "original_evidence": "img/evidence/ch02/change_15_original.webp",
+      "florida_page": 29,
+      "florida_evidence": "img/evidence/ch02/change_15_florida.webp"
     },
     {
       "type": "modified",
       "section": "2.2",
       "original_text": "A survey targets a specific population, people who are the focus of a study, such as college athletes, international students, or teenagers living with type 1 (juvenile-onset) diabetes... After selecting subjects, the researcher develops a specific plan to ask questions and record responses. It is important to inform subjects of the nature and purpose of the survey up front... The researcher presents the subjects with an instrument, which is a means of gathering the information.\nA common instrument is a questionnaire...",
       "florida_text": "Surveys are used for a variety of different purposes... A social science survey targets a specific population, or a sample... The sample they use may be designed to represent all people in a given geographic area... After selecting the specific population of interest, a social scientist develops a plan to ask questions and record responses. Researchers must provide 'informed consent,' an overview of the nature and purpose of the survey, and any potential problems or risks associated with participation...",
-      "context": "The survey section is substantially rewritten and expanded in Florida. Original's American Idol/Nielsen Ratings examples replaced with detailed SAT/school-start-time example. Adds formal informed consent language, discussion of protecting participant identity, and a more technical treatment of sampling. Largely a pedagogical upgrade, not ideological censorship."
-    }
-  ,
+      "context": "The survey section is substantially rewritten and expanded in Florida. Original's American Idol/Nielsen Ratings examples replaced with detailed SAT/school-start-time example. Adds formal informed consent language, discussion of protecting participant identity, and a more technical treatment of sampling. Largely a pedagogical upgrade, not ideological censorship.",
+      "original_page": 54,
+      "original_evidence": "img/evidence/ch02/change_16_original.webp",
+      "florida_page": 30,
+      "florida_evidence": "img/evidence/ch02/change_16_florida.webp"
+    },
     {
       "type": "removed",
       "section": "Key Terms",
       "original_text": "content analysis\napplying a systematic approach to record and value information gleaned from secondary data as it relates to the study at hand",
       "florida_text": null,
-      "context": "Term removed from glossary."
+      "context": "Term removed from glossary.",
+      "original_page": 68,
+      "original_evidence": "img/evidence/ch02/change_17_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     },
     {
       "type": "removed",
       "section": "Key Terms",
       "original_text": "debunking\nlooking beyond the obvious to expose falseness by examining merit, logic, and evidence.",
       "florida_text": null,
-      "context": "Term removed from glossary. \"Debunking\" is a foundational concept in sociological inquiry (associated with Peter Berger) that describes sociology's role in exposing surface-level assumptions. Its removal from the glossary aligns with the chapter's broader pattern of reducing critical-inquiry framing."
+      "context": "Term removed from glossary. \"Debunking\" is a foundational concept in sociological inquiry (associated with Peter Berger) that describes sociology's role in exposing surface-level assumptions. Its removal from the glossary aligns with the chapter's broader pattern of reducing critical-inquiry framing.",
+      "original_page": 68,
+      "original_evidence": "img/evidence/ch02/change_18_original.webp",
+      "florida_page": null,
+      "florida_evidence": null
     }
   ],
   "change_count": 19,
