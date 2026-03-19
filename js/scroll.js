@@ -38,17 +38,6 @@
         }
       });
 
-    // Show/hide nav based on scroll past hero
-    var nav = document.getElementById("site-nav");
-    if (nav) {
-      nav.style.opacity = "0";
-      nav.style.transition = "opacity 0.4s ease";
-      window.addEventListener("scroll", function () {
-        var heroHeight = document.querySelector(".beat-hero").offsetHeight;
-        nav.style.opacity = window.scrollY > heroHeight * 0.6 ? "1" : "0";
-      });
-    }
-
     // Handle resize
     window.addEventListener("resize", scroller.resize);
   }
@@ -226,9 +215,7 @@
       { value: index.word_count_difference, label: "Words Cut", suffix: "", accent: true, primary: true },
       { value: index.original_content_cut_pct, label: "Of Original Removed", suffix: "%", accent: true, primary: true },
       { value: index.chapters_removed, label: "Chapters Eliminated", suffix: "", accent: true, primary: false },
-      { value: index.total_changes, label: "Total Changes", suffix: "", accent: false, primary: false },
       { value: index.sections_removed, label: "Sections Removed", suffix: "", accent: true, primary: false },
-      { value: index.glossary_terms_changed, label: "Glossary Terms Changed", suffix: "", accent: false, primary: false },
     ];
 
     container.innerHTML = stats.map(function (s) {
