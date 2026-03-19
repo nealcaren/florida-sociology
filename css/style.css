@@ -673,3 +673,334 @@ main {
   .nav-chapter-select.open #chapter-select { max-width: 100%; }
   .menu-toggle { display: flex; }
 }
+
+/* ==============================================
+   SCROLLYTELLING NARRATIVE PAGE
+   ============================================== */
+
+/* --- Page-level --- */
+.scroll-page main {
+  max-width: none;
+  padding: 0;
+}
+
+/* --- Scroll Beats --- */
+.scroll-beat {
+  opacity: 0;
+  transform: translateY(2rem);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  padding: 4rem 1.5rem;
+}
+
+.scroll-beat.is-active {
+  opacity: 1;
+  transform: none;
+}
+
+/* Hero is always visible (no scroll trigger needed) */
+.beat-hero {
+  opacity: 1;
+  transform: none;
+  text-align: center;
+  padding: 6rem 1.5rem 3rem;
+}
+
+.beat-hero h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.beat-hero .hero-sub {
+  font-size: 1.125rem;
+  color: var(--color-text-muted);
+  max-width: 36rem;
+  margin: 0 auto;
+}
+
+/* --- The "almost" beat --- */
+.beat-almost {
+  text-align: center;
+  padding: 4rem 1.5rem;
+}
+
+.almost-sentence {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  max-width: 36rem;
+  margin: 0 auto 1.5rem;
+  border: none;
+  padding: 0;
+}
+
+.almost-word {
+  display: inline-block;
+  max-width: 0;
+  overflow: hidden;
+  vertical-align: bottom;
+  opacity: 0;
+  transition: max-width 0.6s ease, opacity 0.4s ease 0.2s;
+  background: rgba(22, 163, 74, 0.2);
+  border-bottom: 2px solid #16a34a;
+  border-radius: 2px;
+  padding: 0 0.15em;
+  white-space: nowrap;
+}
+
+.beat-almost.is-active .almost-word {
+  max-width: 6rem;
+  opacity: 1;
+}
+
+.beat-caption {
+  font-family: system-ui, sans-serif;
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+/* --- Pivot --- */
+.beat-pivot {
+  text-align: center;
+  padding: 5rem 1.5rem;
+}
+
+.pivot-text {
+  font-size: 1.5rem;
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+.pivot-text strong {
+  font-size: 2rem;
+  color: var(--color-severity-major);
+}
+
+/* --- Stats --- */
+.beat-stats {
+  background: #1c1917;
+  color: #fafaf9;
+  padding: 5rem 1.5rem;
+}
+
+.stats-grid {
+  max-width: 52rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 2.5rem;
+  text-align: center;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-item.primary .stat-number {
+  font-size: 3.5rem;
+}
+
+.stat-item .stat-number {
+  font-family: system-ui, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.stat-item .stat-number.accent {
+  color: #dc2626;
+}
+
+.stat-item .stat-label {
+  font-family: system-ui, sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #a8a29e;
+  margin-top: 0.25rem;
+}
+
+/* --- Bridge / Prose Column --- */
+.prose-column {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.prose-column p {
+  margin-bottom: 1rem;
+}
+
+.beat-bridge {
+  padding: 3rem 1.5rem;
+}
+
+/* --- Theme sections --- */
+.theme-beat-header {
+  padding: 4rem 1.5rem 2rem;
+  text-align: center;
+}
+
+.theme-beat-header h2 {
+  font-size: 2rem;
+  line-height: 1.3;
+  margin-bottom: 0;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--color-severity-major);
+}
+
+.theme-beat-prose {
+  padding: 2rem 1.5rem;
+}
+
+.theme-beat-prose .theme-eliminated {
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-removed-text);
+  background: var(--color-removed-bg);
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.theme-beat-example {
+  padding: 2rem 1.5rem;
+}
+
+.theme-beat-example .example-inner {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1.25rem;
+  border-radius: 6px;
+}
+
+.theme-beat-example .example-inner.removed {
+  background: var(--color-removed-bg);
+}
+
+.theme-beat-example .example-inner.modified {
+  background: rgba(245, 245, 244, 1);
+  border-left: 3px solid var(--color-border);
+}
+
+.theme-beat-example .example-header {
+  font-family: system-ui, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.theme-beat-example .example-header .change-type-tag {
+  display: inline-block;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.7rem;
+}
+
+.theme-beat-example .example-header .change-type-tag.removed {
+  background: #fee2e2;
+  color: var(--color-removed-text);
+}
+
+.theme-beat-example .example-header .change-type-tag.modified {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.theme-beat-example .example-context {
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin-bottom: 0.75rem;
+}
+
+.theme-beat-example .example-text.removed {
+  text-decoration: line-through;
+  color: var(--color-removed-text);
+}
+
+.theme-beat-example .example-text {
+  line-height: 1.7;
+}
+
+.theme-beat-example .example-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-family: system-ui, sans-serif;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  text-decoration: none;
+}
+.theme-beat-example .example-link:hover {
+  color: var(--color-text);
+}
+
+/* --- Close & CTA --- */
+.beat-close {
+  padding: 4rem 1.5rem;
+}
+
+.beat-cta {
+  text-align: center;
+  padding: 3rem 1.5rem 5rem;
+  opacity: 1;
+  transform: none;
+}
+
+.cta-button {
+  display: inline-block;
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fafaf9;
+  background: #1c1917;
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+.cta-button:hover {
+  background: #292524;
+}
+
+/* --- Nav link for chapters page --- */
+.nav-link-chapters {
+  font-family: system-ui, sans-serif;
+  font-size: 0.875rem;
+  color: var(--color-nav-text);
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.15s;
+}
+.nav-link-chapters:hover {
+  opacity: 1;
+}
+
+/* --- Scrollytelling Responsive --- */
+@media (max-width: 768px) {
+  .beat-hero h1 { font-size: 1.75rem; }
+  .almost-sentence { font-size: 1.25rem; }
+  .pivot-text { font-size: 1.25rem; }
+  .pivot-text strong { font-size: 1.5rem; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+  .stat-item .stat-number { font-size: 2rem; }
+  .stat-item.primary .stat-number { font-size: 2.5rem; }
+  .theme-beat-header h2 { font-size: 1.5rem; }
+}
