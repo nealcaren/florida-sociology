@@ -6,6 +6,14 @@
   "chapters_major": 21,
   "original_chapter_count": 21,
   "florida_chapter_count": 12,
+  "original_word_count": 280089,
+  "florida_word_count": 129022,
+  "word_count_difference": 151067,
+  "original_content_cut_pct": 53.9,
+  "original_section_count": 75,
+  "florida_section_count": 47,
+  "sections_removed": 28,
+  "glossary_terms_changed": 0,
   "chapters": [
     {
       "chapter": 1,

@@ -62,6 +62,28 @@ def main():
     removed_count = sum(1 for c in chapters if c["status"] == "removed")
     major_count = sum(1 for c in chapters if c["severity"] == "major")
 
+    # Word counts from extracted text files
+    text_dir = project_root / "text"
+    original_words = 0
+    florida_words = 0
+    for f in sorted((text_dir / "original").glob("ch*.txt")):
+        original_words += len(f.read_text().split())
+    for f in sorted((text_dir / "florida").glob("ch*.txt")):
+        florida_words += len(f.read_text().split())
+
+    # Section counts
+    original_sections = len(list((text_dir / "original_sections").glob("ch*.txt")))
+    florida_sections = len(list((text_dir / "florida_sections").glob("ch*.txt")))
+
+    # Glossary terms changed (from chapter JSON key_terms arrays)
+    glossary_changed = 0
+    for path in sorted(data_dir.glob("ch*.json")):
+        if path.name == "chapters.json":
+            continue
+        with open(path) as f:
+            ch = json.load(f)
+        glossary_changed += len(ch.get("key_terms", []))
+
     index = {
         "title": "What Florida Changed in Your Sociology Textbook",
         "description": "A chapter-by-chapter comparison of the original OpenStax Introduction to Sociology 3e with Florida's state-modified version, highlighting every edit, deletion, and relocation.",
@@ -70,6 +92,14 @@ def main():
         "chapters_major": major_count,
         "original_chapter_count": 21,
         "florida_chapter_count": 12,
+        "original_word_count": original_words,
+        "florida_word_count": florida_words,
+        "word_count_difference": original_words - florida_words,
+        "original_content_cut_pct": round((original_words - florida_words) / original_words * 100, 1),
+        "original_section_count": original_sections,
+        "florida_section_count": florida_sections,
+        "sections_removed": original_sections - florida_sections,
+        "glossary_terms_changed": glossary_changed,
         "chapters": chapters,
     }
 
