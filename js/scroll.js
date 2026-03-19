@@ -9,7 +9,7 @@
     scroller
       .setup({
         step: ".scroll-beat",
-        offset: 0.7,
+        offset: 0.85,
         once: true,
       })
       .onStepEnter(function (response) {
@@ -19,10 +19,45 @@
         if (response.element.id === "stats-beat") {
           animateCounters();
         }
+
+        // Trigger pivot counter
+        if (response.element.classList.contains("beat-pivot")) {
+          animatePivotCounter();
+        }
       });
+
+    // Show/hide nav based on scroll past hero
+    var nav = document.getElementById("site-nav");
+    if (nav) {
+      nav.style.opacity = "0";
+      nav.style.transition = "opacity 0.4s ease";
+      window.addEventListener("scroll", function () {
+        var heroHeight = document.querySelector(".beat-hero").offsetHeight;
+        nav.style.opacity = window.scrollY > heroHeight * 0.6 ? "1" : "0";
+      });
+    }
 
     // Handle resize
     window.addEventListener("resize", scroller.resize);
+  }
+
+  // --- Pivot Counter Animation ---
+
+  function animatePivotCounter() {
+    var el = document.querySelector(".pivot-count");
+    if (!el) return;
+    var target = parseInt(el.dataset.target, 10);
+    var duration = 1600;
+    var start = performance.now();
+
+    function update(now) {
+      var elapsed = now - start;
+      var progress = Math.min(elapsed / duration, 1);
+      var eased = 1 - Math.pow(1 - progress, 4);
+      el.textContent = Math.round(eased * target).toLocaleString();
+      if (progress < 1) requestAnimationFrame(update);
+    }
+    requestAnimationFrame(update);
   }
 
   // --- Stat Counter Animation ---

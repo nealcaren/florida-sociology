@@ -2,7 +2,6 @@
   "use strict";
 
   let chaptersIndex = null;
-  let themesData = null;
   const chapterCache = {};
 
   // --- Data Loading ---
@@ -13,11 +12,6 @@
     return res.json();
   }
 
-  async function loadThemes() {
-    const res = await fetch("data/themes.json");
-    if (!res.ok) throw new Error("Failed to load themes.json");
-    return res.json();
-  }
 
   async function loadChapter(num) {
     if (chapterCache[num]) return chapterCache[num];
@@ -40,33 +34,6 @@
 
     if (!chaptersIndex) return;
 
-    // Stats
-    const totalChanges = chaptersIndex.total_changes;
-    const removedCount = chaptersIndex.chapters_removed ||
-      chaptersIndex.chapters.filter((c) => c.status === "removed").length;
-    const majorCount = chaptersIndex.chapters.filter(
-      (c) => c.severity === "major"
-    ).length;
-    const statsEl = document.getElementById("stats");
-    statsEl.innerHTML = `
-      <div class="stat">
-        <span class="stat-number">${chaptersIndex.original_chapter_count || 21}</span>
-        <span class="stat-label">Original Chapters</span>
-      </div>
-      <div class="stat">
-        <span class="stat-number">${removedCount}</span>
-        <span class="stat-label">Chapters Eliminated</span>
-      </div>
-      <div class="stat">
-        <span class="stat-number">${totalChanges}</span>
-        <span class="stat-label">Changes Found</span>
-      </div>
-      <div class="stat">
-        <span class="stat-number">${majorCount}</span>
-        <span class="stat-label">Heavily Modified</span>
-      </div>
-    `;
-
     // Chapter grid
     const grid = document.getElementById("chapter-grid");
     grid.innerHTML = chaptersIndex.chapters
@@ -83,63 +50,6 @@
     `
       )
       .join("");
-
-    // Themes view
-    if (themesData) renderThemes();
-
-    // Tab switching
-    var tabBar = document.getElementById("tab-bar");
-    if (tabBar && !tabBar.dataset.bound) {
-      tabBar.dataset.bound = "true";
-      tabBar.addEventListener("click", function (e) {
-        var btn = e.target.closest(".tab");
-        if (!btn) return;
-        var tab = btn.dataset.tab;
-        tabBar.querySelectorAll(".tab").forEach(function (t) { t.classList.remove("active"); });
-        btn.classList.add("active");
-        document.getElementById("themes-view").hidden = (tab !== "themes");
-        document.getElementById("chapters-view").hidden = (tab !== "chapters");
-      });
-    }
-  }
-
-  function renderThemes() {
-    var container = document.getElementById("themes-view");
-    if (!container || !themesData) return;
-
-    container.innerHTML = themesData.themes.map(function (theme) {
-      var prose = theme.prose.split("\n\n")
-        .map(function (p) { return "<p>" + escapeHtml(p.trim()) + "</p>"; })
-        .join("");
-
-      var eliminated = "";
-      if (theme.eliminated_chapters && theme.eliminated_chapters.length > 0) {
-        var chNames = theme.eliminated_chapters.map(function (num) {
-          var ch = chaptersIndex.chapters.find(function (c) { return c.chapter === num; });
-          return ch ? "Ch.\u00a0" + num + ": " + ch.title : "Ch.\u00a0" + num;
-        });
-        eliminated = '<div class="theme-eliminated">Entire chapter' +
-          (chNames.length > 1 ? "s" : "") + ' eliminated: ' +
-          escapeHtml(chNames.join(", ")) + '</div>';
-      }
-
-      var examples = theme.examples.map(function (ex) {
-        var ch = chaptersIndex.chapters.find(function (c) { return c.chapter === ex.chapter; });
-        var chTitle = ch ? ch.title : "Chapter " + ex.chapter;
-        return '<a class="theme-example-card" href="#chapter-' + ex.chapter + '">' +
-          '<div class="theme-example-ref">Chapter ' + ex.chapter + '</div>' +
-          '<div class="theme-example-desc">' + escapeHtml(ex.description) + '</div>' +
-          '<div class="theme-example-link">See in context \u2192</div>' +
-          '</a>';
-      }).join("");
-
-      return '<div class="theme-section">' +
-        '<h2>' + escapeHtml(theme.title) + '</h2>' +
-        '<div class="theme-prose">' + prose + '</div>' +
-        eliminated +
-        '<div class="theme-examples">' + examples + '</div>' +
-        '</div>';
-    }).join("");
   }
 
   // --- Rendering: Chapter View ---
@@ -535,7 +445,6 @@
   async function init() {
     try {
       chaptersIndex = await loadIndex();
-      themesData = await loadThemes();
       setupNav();
       handleRoute();
     } catch (e) {
