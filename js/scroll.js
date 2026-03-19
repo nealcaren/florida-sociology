@@ -15,9 +15,9 @@
       .onStepEnter(function (response) {
         response.element.classList.add("is-active");
 
-        // Trigger stat counter animation when stats beat enters
+        // Trigger stat counter animation after pivot number finishes
         if (response.element.id === "stats-beat") {
-          animateCounters();
+          setTimeout(animateCounters, 1800);
         }
 
         // Trigger pivot counter only when it's actually centered on screen
@@ -70,7 +70,7 @@
   // --- Stat Counter Animation ---
 
   function animateCounters() {
-    var counters = document.querySelectorAll("[data-target]");
+    var counters = document.querySelectorAll("#narrative-stats [data-target]");
     counters.forEach(function (el) {
       var target = parseFloat(el.dataset.target);
       var decimals = (String(target).split(".")[1] || "").length;
@@ -178,6 +178,25 @@
 
   // --- Theme Rendering ---
 
+  function computeThemeStats(theme, chaptersIndex) {
+    var chapterNums = {};
+    if (theme.eliminated_chapters) {
+      theme.eliminated_chapters.forEach(function (n) { chapterNums[n] = true; });
+    }
+    theme.examples.forEach(function (ex) { chapterNums[ex.chapter] = true; });
+
+    var totalChanges = 0;
+    var chapterCount = 0;
+    Object.keys(chapterNums).forEach(function (num) {
+      var ch = chaptersIndex.chapters.find(function (c) { return c.chapter === parseInt(num, 10); });
+      if (ch) {
+        totalChanges += ch.change_count;
+        chapterCount++;
+      }
+    });
+    return { changeCount: totalChanges, chapterCount: chapterCount };
+  }
+
   async function renderThemes(themesData, chaptersIndex) {
     var container = document.getElementById("themes-container");
     var html = "";
@@ -185,9 +204,12 @@
     for (var t = 0; t < themesData.themes.length; t++) {
       var theme = themesData.themes[t];
 
-      // Theme header beat
+      // Theme header beat with anchor number
+      var stats = computeThemeStats(theme, chaptersIndex);
       html += '<section class="scroll-beat theme-beat-header">' +
+        '<span class="theme-anchor-number">' + stats.changeCount + '</span>' +
         '<h2>' + escapeHtml(theme.title) + '</h2>' +
+        '<span class="theme-anchor-label">changes across ' + stats.chapterCount + ' chapter' + (stats.chapterCount !== 1 ? 's' : '') + '</span>' +
         '</section>';
 
       // Theme prose beat
@@ -222,6 +244,15 @@
         } catch (err) {
           console.error("Failed to load example:", ex, err);
         }
+      }
+
+      // Inject word chart between 2nd and 3rd themes
+      if (t === 1) {
+        html += '<section class="scroll-beat beat-words" id="words-beat">' +
+          '<h2 class="words-heading">Words that nearly disappeared</h2>' +
+          '<div class="words-chart" id="words-chart"></div>' +
+          '<p class="words-caption">Word counts across all chapters. Bars show original frequency; each shrinks to the Florida count.</p>' +
+          '</section>';
       }
     }
 
@@ -312,15 +343,13 @@
   // --- Init ---
 
   async function init() {
-    // Words chart has no data dependencies — render immediately
-    renderWordsChart();
-
     try {
       var chaptersIndex = await loadJSON("data/chapters.json");
       var themesData = await loadJSON("data/themes.json");
 
       renderStats(chaptersIndex);
       await renderThemes(themesData, chaptersIndex);
+      renderWordsChart();
       initScrollama();
     } catch (e) {
       console.error("Failed to initialize narrative:", e);
