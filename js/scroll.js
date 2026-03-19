@@ -20,6 +20,11 @@
           setTimeout(animateCounters, 1800);
         }
 
+        // Trigger typing animation for "almost" beat
+        if (response.element.id === "almost-beat") {
+          typeAlmostSentence();
+        }
+
         // Trigger pivot counter only when it's actually centered on screen
         if (response.element.classList.contains("beat-pivot")) {
           var pivotEl = response.element;
@@ -46,6 +51,66 @@
 
     // Handle resize
     window.addEventListener("resize", scroller.resize);
+  }
+
+  // --- Typing Animation for "almost" beat ---
+
+  function typeAlmostSentence() {
+    var preEl = document.querySelector(".almost-pre");
+    var wordEl = document.querySelector(".almost-word");
+    var postEl = document.querySelector(".almost-post");
+    var cursor = document.querySelector(".typing-cursor");
+    var beat = document.getElementById("almost-beat");
+    if (!preEl || !wordEl || !postEl || !cursor) return;
+
+    var preText = "When sociologists apply the sociological perspective and begin to ask questions, ";
+    var postText = "no topic is off limits.";
+    var insertWord = "almost ";
+    var charDelay = 35;
+    var idx = 0;
+    var fullText = preText + postText;
+
+    cursor.classList.add("active");
+
+    // Phase 1: Type the full sentence (without "almost")
+    function typeMain() {
+      if (idx < fullText.length) {
+        if (idx < preText.length) {
+          preEl.textContent = fullText.substring(0, idx + 1);
+        } else {
+          postEl.textContent = fullText.substring(preText.length, idx + 1);
+        }
+        idx++;
+        setTimeout(typeMain, charDelay);
+      } else {
+        // Pause, then insert "almost"
+        setTimeout(startInsertion, 1200);
+      }
+    }
+
+    // Phase 2: Insert "almost" character by character
+    function startInsertion() {
+      cursor.classList.add("inserting");
+      // Move cursor position: hide it briefly, reposition between pre and post
+      var insertIdx = 0;
+
+      function typeInsert() {
+        if (insertIdx < insertWord.length) {
+          wordEl.textContent = insertWord.substring(0, insertIdx + 1);
+          insertIdx++;
+          setTimeout(typeInsert, 80);
+        } else {
+          // Done — hide cursor, show caption
+          setTimeout(function () {
+            cursor.classList.remove("active");
+            beat.classList.add("typing-done");
+          }, 800);
+        }
+      }
+      typeInsert();
+    }
+
+    typeMain();
   }
 
   // --- Pivot Counter Animation ---
