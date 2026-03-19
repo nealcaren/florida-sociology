@@ -20,9 +20,16 @@
           animateCounters();
         }
 
-        // Trigger pivot counter
+        // Trigger pivot counter only when it's actually centered on screen
         if (response.element.classList.contains("beat-pivot")) {
-          animatePivotCounter();
+          var pivotEl = response.element;
+          var observer = new IntersectionObserver(function (entries) {
+            if (entries[0].isIntersecting) {
+              animatePivotCounter();
+              observer.disconnect();
+            }
+          }, { threshold: 0.6 });
+          observer.observe(pivotEl);
         }
       });
 

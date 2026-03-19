@@ -932,12 +932,12 @@ main {
 /* ====== PIVOT ====== */
 .beat-pivot {
   text-align: center;
-  min-height: 90vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 6rem 1.5rem;
+  justify-content: flex-end;
+  padding: 6rem 1.5rem 30vh;
   background: var(--color-bg);
 }
 
