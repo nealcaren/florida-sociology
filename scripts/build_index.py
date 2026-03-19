@@ -15,6 +15,7 @@ def main():
 
     chapters = []
     total_changes = 0
+    glossary_changed = 0
     seen_chapters = set()
 
     # Read all chapter JSON files (both comparison and removed)
@@ -41,6 +42,7 @@ def main():
         seen_chapters.add(chapter_num)
         change_count = ch.get("change_count", 0)
         total_changes += change_count
+        glossary_changed += len(ch.get("key_terms", []))
 
         florida_title = ch.get("florida_title")
         status = "removed" if florida_title is None else "modified" if change_count > 0 else "unchanged"
@@ -74,15 +76,6 @@ def main():
     # Section counts
     original_sections = len(list((text_dir / "original_sections").glob("ch*.txt")))
     florida_sections = len(list((text_dir / "florida_sections").glob("ch*.txt")))
-
-    # Glossary terms changed (from chapter JSON key_terms arrays)
-    glossary_changed = 0
-    for path in sorted(data_dir.glob("ch*.json")):
-        if path.name == "chapters.json":
-            continue
-        with open(path) as f:
-            ch = json.load(f)
-        glossary_changed += len(ch.get("key_terms", []))
 
     index = {
         "title": "What Florida Changed in Your Sociology Textbook",
