@@ -140,9 +140,6 @@
     }
 
     container.innerHTML = html;
-
-    // Resize Scrollama to pick up new beats
-    if (window.__scroller) window.__scroller.resize();
   }
 
   var chapterCache = {};
@@ -234,8 +231,8 @@
       var themesData = await loadJSON("data/themes.json");
 
       renderStats(chaptersIndex);
-      initScrollama();
       await renderThemes(themesData, chaptersIndex);
+      initScrollama();
     } catch (e) {
       console.error("Failed to initialize narrative:", e);
     }
