@@ -20,11 +20,6 @@
           setTimeout(animateCounters, 1800);
         }
 
-        // Trigger typing animation for "almost" beat
-        if (response.element.id === "almost-beat") {
-          typeAlmostSentence();
-        }
-
         // Trigger pivot counter only when it's actually centered on screen
         if (response.element.classList.contains("beat-pivot")) {
           var pivotEl = response.element;
@@ -40,6 +35,22 @@
 
     // Handle resize
     window.addEventListener("resize", scroller.resize);
+  }
+
+  // --- "Almost" beat observer ---
+
+  function initAlmostObserver() {
+    var beat = document.getElementById("almost-beat");
+    if (!beat) return;
+    var fired = false;
+    var observer = new IntersectionObserver(function (entries) {
+      if (entries[0].isIntersecting && !fired) {
+        fired = true;
+        typeAlmostSentence();
+        observer.disconnect();
+      }
+    }, { threshold: 0.5 });
+    observer.observe(beat);
   }
 
   // --- Typing Animation for "almost" beat ---
@@ -403,6 +414,7 @@
       await renderThemes(themesData, chaptersIndex);
       renderWordsChart();
       initScrollama();
+      initAlmostObserver();
     } catch (e) {
       console.error("Failed to initialize narrative:", e);
     }
