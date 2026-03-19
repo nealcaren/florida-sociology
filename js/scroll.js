@@ -87,6 +87,50 @@
     });
   }
 
+  // --- Words Chart ---
+
+  var wordsData = [
+    { word: "poverty", original: 237, florida: 55 },
+    { word: "inequality", original: 152, florida: 24 },
+    { word: "discrimination", original: 118, florida: 18 },
+    { word: "racism", original: 108, florida: 6 },
+    { word: "prejudice", original: 80, florida: 7 },
+    { word: "transgender", original: 65, florida: 1 },
+    { word: "socialism", original: 43, florida: 0 },
+    { word: "feminist", original: 41, florida: 1 },
+    { word: "slavery", original: 39, florida: 1 },
+    { word: "privilege", original: 28, florida: 1 },
+    { word: "genocide", original: 21, florida: 0 },
+    { word: "sexism", original: 14, florida: 0 },
+  ];
+
+  function renderWordsChart() {
+    var container = document.getElementById("words-chart");
+    if (!container) return;
+
+    var maxCount = wordsData[0].original;
+
+    container.innerHTML = wordsData.map(function (d, i) {
+      var origPct = (d.original / maxCount * 100).toFixed(1) + "%";
+      var flPct = (d.florida / maxCount * 100).toFixed(1) + "%";
+      var stagger = (i * 0.12).toFixed(2) + "s";
+
+      var countDelay = (i * 0.12 + 1.2).toFixed(2) + "s";
+
+      return '<div class="word-row" style="--stagger-counts:' + countDelay + ';">' +
+        '<span class="word-label">' + d.word + '</span>' +
+        '<div class="word-bar-track">' +
+          '<div class="word-bar-fill" style="--bar-original:' + origPct + '; --bar-florida:' + flPct + '; --stagger:' + stagger + ';"></div>' +
+        '</div>' +
+        '<span class="word-counts">' +
+          '<span class="word-count-original">' + d.original + '</span>' +
+          '<span class="word-count-arrow"> \u2192 </span>' +
+          '<span class="word-count-florida">' + d.florida + '</span>' +
+        '</span>' +
+        '</div>';
+    }).join("");
+  }
+
   // --- Data Loading & Rendering ---
 
   async function loadJSON(url) {
@@ -261,6 +305,9 @@
   // --- Init ---
 
   async function init() {
+    // Words chart has no data dependencies — render immediately
+    renderWordsChart();
+
     try {
       var chaptersIndex = await loadJSON("data/chapters.json");
       var themesData = await loadJSON("data/themes.json");
