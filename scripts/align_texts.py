@@ -19,6 +19,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from chapter_map import CHAPTER_MAP, PROJECT_ROOT
 from text_parser import clean_text, detect_section_header, split_paragraphs
 from aligner import align_paragraphs
+from parse_cnxml import get_chapter_sections
 
 DATA_DIR = PROJECT_ROOT / "data"
 ALIGNED_DIR = DATA_DIR / "aligned"
@@ -37,10 +38,60 @@ def load_change_data(chapter: int) -> dict:
     return {"changes": []}
 
 
+def _remove_outline_blocks(lines: list[str]) -> list[str]:
+    """Remove chapter outline blocks from PDF-extracted text.
+
+    Chapter outlines are consecutive lines that all match section header
+    patterns (e.g., "2.1 ...\n2.2 ...\n2.3 ..."). These are tables of
+    contents embedded in the PDF, not actual section boundaries.
+    """
+    # Find runs of consecutive section-header lines (2+ in a row)
+    outline_lines = set()
+    i = 0
+    while i < len(lines):
+        stripped = lines[i].strip()
+        if not stripped:
+            i += 1
+            continue
+        sid = detect_section_header(stripped)
+        if sid and sid != "intro":
+            # Look ahead for consecutive headers
+            run_start = i
+            j = i + 1
+            while j < len(lines):
+                s2 = lines[j].strip()
+                if not s2:
+                    j += 1
+                    continue
+                sid2 = detect_section_header(s2)
+                if sid2 and sid2 != "intro":
+                    j += 1
+                else:
+                    break
+            # Count actual header lines in this run
+            header_count = sum(
+                1 for k in range(run_start, j)
+                if lines[k].strip() and detect_section_header(lines[k].strip())
+                and detect_section_header(lines[k].strip()) != "intro"
+            )
+            if header_count >= 2:
+                # This is a chapter outline block — mark all lines for removal
+                for k in range(run_start, j):
+                    outline_lines.add(k)
+            i = j
+        else:
+            i += 1
+
+    return [line for idx, line in enumerate(lines) if idx not in outline_lines]
+
+
 def parse_chapter_text(text: str) -> list[dict]:
     """Parse chapter text into a list of {section_id, heading, paragraphs} groups."""
     cleaned = clean_text(text)
     lines = cleaned.split("\n")
+
+    # Remove chapter outline blocks (consecutive section headers from PDF TOC)
+    lines = _remove_outline_blocks(lines)
 
     sections = []
     current_section = {"section_id": "intro", "heading": "Introduction", "paragraphs": []}
@@ -85,7 +136,19 @@ def parse_chapter_text(text: str) -> list[dict]:
     if current_section["paragraphs"]:
         sections.append(current_section)
 
-    return sections
+    # Consolidate duplicate section IDs (PDF extraction may still have
+    # re-detected section headers from inline references).
+    consolidated = []
+    seen = {}
+    for sec in sections:
+        sid = sec["section_id"]
+        if sid in seen:
+            seen[sid]["paragraphs"].extend(sec["paragraphs"])
+        else:
+            seen[sid] = sec
+            consolidated.append(sec)
+
+    return consolidated
 
 
 def match_change_id(block: dict, changes: list[dict], chapter: int) -> str | None:
@@ -167,8 +230,17 @@ def align_chapter(chapter: int, dry_run: bool = False) -> dict:
     change_data = load_change_data(chapter)
     changes = change_data.get("changes", [])
 
-    orig_text = "\n\n".join(load_text(f) for f in entry["original_texts"])
-    orig_sections = parse_chapter_text(orig_text)
+    # Use CNXML source for original text (cleaner than PDF extraction).
+    # For merged chapters, original_texts lists multiple files like
+    # ["text/original/ch03.txt", "text/original/ch04.txt"] — extract the
+    # chapter numbers and concatenate CNXML sections from each.
+    import re as _re
+    orig_sections = []
+    for orig_path in entry["original_texts"]:
+        m = _re.search(r"ch(\d+)\.txt$", orig_path)
+        if m:
+            orig_ch = int(m.group(1))
+            orig_sections.extend(get_chapter_sections(orig_ch))
 
     if entry["florida_text"]:
         fl_text = load_text(entry["florida_text"])
@@ -189,13 +261,44 @@ def align_chapter(chapter: int, dry_run: bool = False) -> dict:
             })
     else:
         fl_by_id = {s["section_id"]: s for s in fl_sections}
+        # Also build a lookup by sub-section number (e.g., "1" from "5.1")
+        # to handle renumbered chapters where "5.1" in original = "4.1" in Florida
+        fl_by_sub = {}
+        for s in fl_sections:
+            parts = s["section_id"].split(".")
+            if len(parts) == 2:
+                fl_by_sub[parts[1]] = s
         used_fl_sections = set()
 
         for orig_sec in orig_sections:
             fl_sec = fl_by_id.get(orig_sec["section_id"])
+            # Try matching by sub-section number for renumbered (non-merged) chapters
+            # e.g., original "5.1" -> Florida "4.1" (both sub ".1")
+            # Skip this for merged chapters where multiple orig chapters share sub-numbers
+            if fl_sec is None and entry["type"] != "merged":
+                orig_parts = orig_sec["section_id"].split(".")
+                if len(orig_parts) == 2:
+                    fl_sec = fl_by_sub.get(orig_parts[1])
+
+            # For merged chapters (or any unmatched section), try content-based matching
+            if fl_sec is None and orig_sec["section_id"] != "intro":
+                from difflib import SequenceMatcher as _SM
+                orig_words = " ".join(orig_sec["paragraphs"]).split()
+                best_ratio = 0.3  # minimum threshold
+                best_fl = None
+                for candidate in fl_sections:
+                    if candidate["section_id"] in used_fl_sections:
+                        continue
+                    fl_words = " ".join(candidate["paragraphs"]).split()
+                    ratio = _SM(None, orig_words[:200], fl_words[:200]).ratio()
+                    if ratio > best_ratio:
+                        best_ratio = ratio
+                        best_fl = candidate
+                if best_fl:
+                    fl_sec = best_fl
 
             if fl_sec:
-                used_fl_sections.add(orig_sec["section_id"])
+                used_fl_sections.add(fl_sec["section_id"])
                 blocks = align_paragraphs(orig_sec["paragraphs"], fl_sec["paragraphs"])
             else:
                 blocks = [{"type": "removed", "original_text": p} for p in orig_sec["paragraphs"]]
