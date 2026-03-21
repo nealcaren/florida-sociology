@@ -14,7 +14,7 @@ A full-text, two-column companion site that presents the complete OpenStax *Intr
 - **Divergent text:** Two columns — original on the left, Florida on the right
 - **Identical text:** Columns merge into a single centered column
 - **Removed chapters** (8, 9, 10, 11, 12): Single column (original only) with a banner explaining the chapter was removed entirely
-- **Merged-away chapters** (4, 16, 17, 18): No separate page — their content is covered in the merge target's page (ch03, ch15, ch14 respectively). Table of contents lists them with a note like "→ see Chapter 3: Culture and Society"
+- **Merged-away chapters** (4, 16, 17, 18): No separate page — their content is covered in the merge target's page (ch04→ch03, ch16→ch15, ch17→ch15, ch18→ch14). Table of contents lists them with a note like "→ see Chapter 3: Culture and Society"
 - **Removed sections within modified chapters:** Left column shows the original text with deletion highlighting; right column shows a "Section removed" placeholder or is simply absent for that block
 
 ### Page Image Thumbnails in Margins
@@ -95,7 +95,9 @@ No aligned files are produced for ch04, ch16, ch17, ch18 — those are merged-aw
 4. **Align unchanged paragraphs** between anchors using sequence matching (difflib or similar). Paragraphs that match above a similarity threshold are paired; unmatched paragraphs are marked as additions or deletions
 5. **Section boundaries:** Detect section headers (e.g., "2.1 Approaches to Sociological Research") in both texts to provide structural alignment points
 6. **Cross-chapter moved text:** When text from one original chapter appears in a different Florida chapter (common with merged chapters), mark it as `type: "moved"` with `original_location` and `florida_location` fields. The alignment script checks all documented `type: "moved"` changes in the source data to identify these.
-7. **Page mapping:** Use the existing `original_page` and `florida_page` fields from changes, plus the PDF text extraction coordinates, to map paragraphs to page numbers. For paragraphs with no change data (unchanged text), interpolate page numbers from the nearest anchored paragraph.
+7. **Page mapping:** Use the existing `original_page` and `florida_page` fields from changes to anchor page numbers. For unchanged paragraphs, use the page number of the nearest preceding anchored paragraph; if no preceding anchor exists, use the nearest following anchor. This is approximate but sufficient for thumbnail tracking.
+8. **Section header detection:** Use the existing `text/original_sections/` and `text/florida_sections/` directory structure as the authoritative section boundaries. These files are already split by section. The alignment script reads section-level files and uses their filenames (e.g., `ch02_s2.1.txt`) as section IDs.
+9. **Unanchored differences:** If the alignment script detects a difference (via difflib) that has no matching entry in the curated change data, it is included as a `type: "modified"` block with `change_id: null` and no `context` field. The frontend renders it with diff highlighting but without editorial commentary.
 
 **Aligned output format:**
 
@@ -153,7 +155,7 @@ No aligned files are produced for ch04, ch16, ch17, ch18 — those are merged-aw
 }
 ```
 
-The `change_id` field uses the format `ch{NN}_change_{N}` (e.g., `ch02_change_1`) to stably link back to the corresponding entry in the original `data/ch{NN}.json`. The alignment script assigns these IDs based on matching `original_text`/`florida_text` content against the source change data, so they survive reordering of the changes array.
+The `change_id` field uses the format `ch{NN}_change_{N}` (e.g., `ch02_change_1`) to stably link back to the corresponding entry in the original `data/ch{NN}.json`. The `{N}` is the 0-based index in the source JSON's `changes` array at the time the alignment script runs. The alignment script matches blocks to source changes by fuzzy-matching `original_text`/`florida_text` content (difflib ratio ≥ 0.85). Unmatched blocks get `change_id: null`.
 
 For removed chapters (ch08–ch12), the aligned file contains only original text with no Florida column — all blocks are `type: "removed"` or the full original text rendered as-is with a chapter-level banner.
 
@@ -246,3 +248,4 @@ Reuse the existing LCS `wordDiff()` algorithm from `app.js`, but render differen
 
 1. **Text quality:** The extracted text files have some OCR artifacts and line-break issues from PDF extraction. May need a cleanup pass before the alignment script can produce clean output.
 2. **Performance:** Full chapter text could be large. Merged chapters (ch03 covers originals 3+4, ch15 covers 15+16+17) will be especially long. Start with full rendering; add lazy section loading if performance is poor. Since aligned JSON is loaded per-chapter and sections render sequentially, this is straightforward to add later.
+3. **Full-page image disk footprint:** Both PDFs are ~500 pages total. At 150 DPI and medium WebP quality, this could produce ~50-100MB of page images — significant for GitHub Pages. Consider rendering at lower DPI (100), using aggressive compression, or lazy-loading page images on demand rather than bundling them all in the repo.
