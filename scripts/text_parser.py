@@ -1,0 +1,81 @@
+"""Utilities for parsing extracted textbook text into paragraphs."""
+
+import re
+
+
+def clean_text(text: str) -> str:
+    """Clean OCR artifacts and normalize whitespace in extracted text."""
+    lines = text.split("\n")
+    cleaned = []
+    skip_until_blank = False
+
+    for line in lines:
+        stripped = line.strip()
+
+        # Skip figure captions
+        if re.match(r"^FIGURE\s+\d+\.\d+\s", stripped):
+            continue
+
+        # Skip CHAPTER OUTLINE blocks (header + following section list)
+        if stripped == "CHAPTER OUTLINE":
+            skip_until_blank = True
+            continue
+
+        # Skip LEARNING OBJECTIVES blocks
+        if stripped == "LEARNING OBJECTIVES":
+            skip_until_blank = True
+            continue
+
+        if skip_until_blank:
+            if stripped == "":
+                skip_until_blank = False
+            continue
+
+        # Skip bullet-only lines (lone bullet points from learning objectives)
+        if stripped == "•":
+            continue
+
+        cleaned.append(stripped)
+
+    text = "\n".join(cleaned)
+    # Normalize multiple spaces to single
+    text = re.sub(r"  +", " ", text)
+    return text.strip()
+
+
+def detect_section_header(line: str) -> str | None:
+    """Detect if a line is a section header. Returns section ID or None.
+
+    Matches patterns like '2.1 Title' or '14.2 Title'.
+    Also matches 'INTRODUCTION' / 'Introduction' as section 'intro'.
+    """
+    stripped = line.strip()
+
+    if stripped.upper() == "INTRODUCTION":
+        return "intro"
+
+    match = re.match(r"^(\d+\.\d+)\s+[A-Z]", stripped)
+    if match:
+        return match.group(1)
+
+    return None
+
+
+def split_paragraphs(text: str) -> list[str]:
+    """Split text into paragraphs, joining broken lines within paragraphs.
+
+    Paragraphs are separated by blank lines (double newline).
+    Within a paragraph, single newlines are treated as line breaks
+    from PDF extraction and joined with spaces.
+    """
+    # Split on blank lines
+    raw_paragraphs = re.split(r"\n\s*\n", text)
+
+    result = []
+    for para in raw_paragraphs:
+        # Join broken lines within paragraph
+        joined = " ".join(line.strip() for line in para.split("\n") if line.strip())
+        if joined:
+            result.append(joined)
+
+    return result
