@@ -13,7 +13,8 @@ A full-text, two-column companion site that presents the complete OpenStax *Intr
 
 - **Divergent text:** Two columns — original on the left, Florida on the right
 - **Identical text:** Columns merge into a single centered column
-- **Removed chapters** (11, 12, 13, 17, 8): Single column (original only) with a banner explaining the chapter was removed entirely
+- **Removed chapters** (8, 9, 10, 11, 12): Single column (original only) with a banner explaining the chapter was removed entirely
+- **Merged-away chapters** (4, 16, 17, 18): No separate page — their content is covered in the merge target's page (ch03, ch15, ch14 respectively). Table of contents lists them with a note like "→ see Chapter 3: Culture and Society"
 - **Removed sections within modified chapters:** Left column shows the original text with deletion highlighting; right column shows a "Section removed" placeholder or is simply absent for that block
 
 ### Page Image Thumbnails in Margins
@@ -55,19 +56,46 @@ A full-text, two-column companion site that presents the complete OpenStax *Intr
 ### New: Paragraph Alignment Script (`scripts/align_texts.py`)
 
 **Input:**
-- Full chapter text files: `text/original/ch{NN}.txt` and `text/florida/ch{NN}.txt`
+- Full chapter text files from `text/original/` and `text/florida/`
 - Existing change data: `data/ch{NN}.json` (used as alignment anchors)
+- Chapter mapping (derived from `florida_chapter` and `original_chapters` fields in existing JSON)
+
+**Chapter mapping table** (original → Florida text file):
+
+| Aligned file | Original text | Florida text | Notes |
+|---|---|---|---|
+| ch01.json | original/ch01.txt | florida/ch01.txt | 1:1 |
+| ch02.json | original/ch02.txt | florida/ch02.txt | 1:1 |
+| ch03.json | original/ch03.txt + ch04.txt | florida/ch03.txt | Merged (orig 3+4 → FL 3) |
+| ch05.json | original/ch05.txt | florida/ch04.txt | Renumbered |
+| ch06.json | original/ch06.txt | florida/ch07.txt | Renumbered |
+| ch07.json | original/ch07.txt | florida/ch08.txt | Renumbered |
+| ch08.json | original/ch08.txt | — | Removed entirely |
+| ch09.json | original/ch09.txt | — | Removed entirely |
+| ch10.json | original/ch10.txt | — | Removed entirely |
+| ch11.json | original/ch11.txt | — | Removed entirely |
+| ch12.json | original/ch12.txt | — | Removed entirely |
+| ch13.json | original/ch13.txt | florida/ch05.txt | Renumbered |
+| ch14.json | original/ch14.txt + ch18.txt | florida/ch09.txt | Merged (orig 14+18 → FL 9) |
+| ch15.json | original/ch15.txt + ch16.txt + ch17.txt | florida/ch10.txt | Merged (orig 15+16+17 → FL 10) |
+| ch19.json | original/ch19.txt | florida/ch06.txt | Renumbered |
+| ch20.json | original/ch20.txt | florida/ch11.txt | Renumbered |
+| ch21.json | original/ch21.txt | florida/ch12.txt | Renumbered |
+
+No aligned files are produced for ch04, ch16, ch17, ch18 — those are merged-away stubs. The table of contents links them to their merge target.
 
 **Output:**
-- Aligned chapter files: `data/aligned/ch{NN}.json`
+- Aligned chapter files: `data/aligned/ch{NN}.json` (one per row in the table above — 17 files total)
 
 **Alignment strategy:**
 
 1. **Split** each chapter's full text into paragraphs (double-newline or section-header boundaries)
-2. **Use existing changes as anchors:** The `original_text` and `florida_text` fields in documented changes provide known correspondence points between the two texts
-3. **Align unchanged paragraphs** between anchors using sequence matching (difflib or similar). Paragraphs that match above a similarity threshold are paired; unmatched paragraphs are marked as additions or deletions
-4. **Section boundaries:** Detect section headers (e.g., "2.1 Approaches to Sociological Research") in both texts to provide structural alignment points
-5. **Page mapping:** Use the existing `original_page` and `florida_page` fields from changes, plus the PDF text extraction coordinates, to map paragraphs to page numbers
+2. **For merged chapters** (ch03, ch14, ch15): concatenate the multiple original text files in chapter order before splitting into paragraphs
+3. **Use existing changes as anchors:** The `original_text` and `florida_text` fields in documented changes provide known correspondence points between the two texts
+4. **Align unchanged paragraphs** between anchors using sequence matching (difflib or similar). Paragraphs that match above a similarity threshold are paired; unmatched paragraphs are marked as additions or deletions
+5. **Section boundaries:** Detect section headers (e.g., "2.1 Approaches to Sociological Research") in both texts to provide structural alignment points
+6. **Cross-chapter moved text:** When text from one original chapter appears in a different Florida chapter (common with merged chapters), mark it as `type: "moved"` with `original_location` and `florida_location` fields. The alignment script checks all documented `type: "moved"` changes in the source data to identify these.
+7. **Page mapping:** Use the existing `original_page` and `florida_page` fields from changes, plus the PDF text extraction coordinates, to map paragraphs to page numbers. For paragraphs with no change data (unchanged text), interpolate page numbers from the nearest anchored paragraph.
 
 **Aligned output format:**
 
@@ -94,20 +122,20 @@ A full-text, two-column companion site that presents the complete OpenStax *Intr
           "florida_text": "When sociologists apply the sociological perspective and begin to ask questions, almost no topic is off limits.",
           "original_page": 48,
           "florida_page": 25,
-          "change_index": 1
+          "change_id": "ch02_change_1"
         },
         {
           "type": "removed",
           "original_text": "Critical Sociology focuses on deconstruction...",
           "original_page": 52,
-          "change_index": 2,
+          "change_id": "ch02_change_2",
           "context": "Entire Critical Sociology subsection removed."
         },
         {
           "type": "added",
           "florida_text": "Other Frameworks in Sociology...",
           "florida_page": 29,
-          "change_index": 3,
+          "change_id": "ch02_change_3",
           "context": "Replaces Critical Sociology with vague placeholder."
         },
         {
@@ -125,7 +153,9 @@ A full-text, two-column companion site that presents the complete OpenStax *Intr
 }
 ```
 
-Key: `change_index` links back to the corresponding entry in the original `data/ch{NN}.json` for editorial context and evidence images.
+The `change_id` field uses the format `ch{NN}_change_{N}` (e.g., `ch02_change_1`) to stably link back to the corresponding entry in the original `data/ch{NN}.json`. The alignment script assigns these IDs based on matching `original_text`/`florida_text` content against the source change data, so they survive reordering of the changes array.
+
+For removed chapters (ch08–ch12), the aligned file contains only original text with no Florida column — all blocks are `type: "removed"` or the full original text rendered as-is with a chapter-level banner.
 
 ### New: Full-Page Render Script (`scripts/render_pages.py`)
 
@@ -206,8 +236,13 @@ Reuse the existing LCS `wordDiff()` algorithm from `app.js`, but render differen
 - Cross-links between the two: the existing chapter view can link to "View full comparison" and vice versa
 - Shared assets: same CSS variables, same evidence images, same data directory
 
+## Accessibility
+
+- Color-coded diffs must also have non-color indicators: deleted text gets strikethrough styling, added text gets a subtle left-border or underline, moved text gets a dashed border
+- ARIA labels on column containers ("Original text" / "Florida text")
+- Tooltips on moved text should also be accessible via keyboard focus (use `tabindex` + `aria-describedby`)
+
 ## Open Questions
 
 1. **Text quality:** The extracted text files have some OCR artifacts and line-break issues from PDF extraction. May need a cleanup pass before the alignment script can produce clean output.
-2. **Performance:** Full chapter text could be large. May need virtual scrolling or lazy section loading for longer chapters.
-3. **Section mapping between versions:** Florida reorganized chapters — some original sections map to different Florida sections. The alignment script needs to handle cross-section moves gracefully.
+2. **Performance:** Full chapter text could be large. Merged chapters (ch03 covers originals 3+4, ch15 covers 15+16+17) will be especially long. Start with full rendering; add lazy section loading if performance is poor. Since aligned JSON is loaded per-chapter and sections render sequentially, this is straightforward to add later.
