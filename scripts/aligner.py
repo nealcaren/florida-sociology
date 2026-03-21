@@ -13,6 +13,7 @@ from difflib import SequenceMatcher
 SIMILARITY_THRESHOLD = 0.5
 SAME_THRESHOLD = 0.95  # Word-level similarity above this => "same"
 CONTAINMENT_THRESHOLD = 0.80  # Fraction of orig words found in FL paragraph
+MATCH_THRESHOLD = 0.55  # Minimum of max(similarity, containment) to consider a match
 
 
 def _word_similarity(a: str, b: str) -> float:
@@ -81,7 +82,7 @@ def align_paragraphs(
                 best_score = score
                 best_j = j
 
-        if best_score >= CONTAINMENT_THRESHOLD and best_j >= 0:
+        if best_score >= MATCH_THRESHOLD and best_j >= 0:
             matches.append((i, best_j, best_score))
             fl_matched_by.setdefault(best_j, []).append(i)
 

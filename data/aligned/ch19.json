@@ -44,10 +44,10 @@
           "original_evidence": "img/evidence/ch19/change_2_original.webp"
         },
         {
-          "type": "removed",
-          "original_text": "Both those opposed to heavy restrictions and those who used them to fight the disease acknowledge that the impacts went far beyond physical health. Families shattered by the loss of a loved one had to go through the pain without relatives to support them at funerals or other gatherings. Many who recovered from the virus had serious health issues to contend with, while other people who delayed important treatments had larger problems than they normally would have. Fear, isolation, and strained familial relationships led to emotional problems. Many families lost income. Learning was certainly impacted as education practices went through sudden shifts. The true outcomes will likely not be fully understood for years after the pandemic is under control.",
-          "change_id": null,
-          "original_page": 572
+          "type": "same",
+          "text": "Both those opposed to heavy restrictions and those who used them to fight the disease acknowledge that the impacts went far beyond physical health. Families shattered by the loss of a loved one had to go through the pain without relatives to support them at funerals or other gatherings. Many who recovered from the virus had serious health issues to contend with, while other people who delayed important treatments had larger problems than they normally would have. Fear, isolation, and strained familial relationships led to emotional problems. Many families lost income. Learning was certainly impacted as education practices went through sudden shifts. The true outcomes will likely not be fully understood for years after the pandemic is under control.",
+          "original_page": 572,
+          "florida_page": 118
         },
         {
           "type": "removed",
@@ -93,10 +93,10 @@
           "florida_page": 118
         },
         {
-          "type": "removed",
-          "original_text": "Sociologists Conrad and Barker (2010) offer a comprehensive framework for understanding the major findings of the last fifty years of development in this concept. Their summary categorizes the findings in the field under three subheadings: the cultural meaning of illness, the social construction of the illness experience, and the social construction of medical knowledge.",
-          "change_id": null,
-          "original_page": 572
+          "type": "same",
+          "text": "Sociologists Conrad and Barker (2010) offer a comprehensive framework for understanding the major findings of the last fifty years of development in this concept. Their summary categorizes the findings in the field under three subheadings: the cultural meaning of illness, the social construction of the illness experience, and the social construction of medical knowledge.",
+          "original_page": 572,
+          "florida_page": 118
         },
         {
           "type": "same",
@@ -129,10 +129,10 @@
           "florida_page": 118
         },
         {
-          "type": "removed",
-          "original_text": "Today, many institutions of wellness acknowledge the degree to which individual perceptions shape the nature of health and illness. Regarding physical activity, for instance, the Centers for Disease Control (CDC) recommends that individuals use a standard level of exertion to assess their physical activity. This Rating of Perceived Exertion (RPE) gives a more complete view of an individual’s actual exertion level, since heartrate or pulse measurements may be affected by medication or other issues (Centers for Disease Control 2011a). Similarly, many medical professionals use a comparable scale for perceived pain to help determine pain management strategies.",
-          "change_id": null,
-          "original_page": 572
+          "type": "same",
+          "text": "Today, many institutions of wellness acknowledge the degree to which individual perceptions shape the nature of health and illness. Regarding physical activity, for instance, the Centers for Disease Control (CDC) recommends that individuals use a standard level of exertion to assess their physical activity. This Rating of Perceived Exertion (RPE) gives a more complete view of an individual’s actual exertion level, since heartrate or pulse measurements may be affected by medication or other issues (Centers for Disease Control 2011a). Similarly, many medical professionals use a comparable scale for perceived pain to help determine pain management strategies.",
+          "original_page": 572,
+          "florida_page": 118
         },
         {
           "type": "removed",
@@ -367,10 +367,10 @@
           "florida_page": 118
         },
         {
-          "type": "removed",
-          "original_text": "Autism Spectrum Disorders (ASD) encompass a group of developmental brain disorders that are characterized by \"deficits in social interaction, verbal and nonverbal communication, and engagement in repetitive behaviors or interests” (National Institute of Mental Health). As of 2021, the CDC estimates that 1 in 54 children has an autism spectrum disorder. Beyond the very high incidence, the rate of diagnosis has been increasing steadily as awareness became more widespread. In 2005, the rate was 1 in 166 children; in 2012 it was 1 in 88 children. The rate of increase and awareness has assisted diagnosis and treatment, but autism is a cause of significant fear among parents and families. Because of its impact on relationships and especially verbal communication, children with autism (and their parents) can be shunned, grossly misunderstood, and mistreated. For example, people with an autism spectrum disorder who cannot verbalize are often assumed to be unintelligent, or are sometimes left out of conversations or activities because others feel they cannot participate. Parents may be reluctant to let their children play with or associate with children with ASD. Adults with ASD go through many of the same misconceptions and mistreatments, such as being denied opportunities or being made to feel unwelcome (Applied Behavior Analysis).",
-          "change_id": null,
-          "original_page": 577
+          "type": "same",
+          "text": "Autism Spectrum Disorders (ASD) encompass a group of developmental brain disorders that are characterized by \"deficits in social interaction, verbal and nonverbal communication, and engagement in repetitive behaviors or interests” (National Institute of Mental Health). As of 2021, the CDC estimates that 1 in 54 children has an autism spectrum disorder. Beyond the very high incidence, the rate of diagnosis has been increasing steadily as awareness became more widespread. In 2005, the rate was 1 in 166 children; in 2012 it was 1 in 88 children. The rate of increase and awareness has assisted diagnosis and treatment, but autism is a cause of significant fear among parents and families. Because of its impact on relationships and especially verbal communication, children with autism (and their parents) can be shunned, grossly misunderstood, and mistreated. For example, people with an autism spectrum disorder who cannot verbalize are often assumed to be unintelligent, or are sometimes left out of conversations or activities because others feel they cannot participate. Parents may be reluctant to let their children play with or associate with children with ASD. Adults with ASD go through many of the same misconceptions and mistreatments, such as being denied opportunities or being made to feel unwelcome (Applied Behavior Analysis).",
+          "original_page": 577,
+          "florida_page": 118
         },
         {
           "type": "same",
@@ -498,16 +498,16 @@
           "original_evidence": "img/evidence/ch19/change_12_original.webp"
         },
         {
-          "type": "removed",
-          "original_text": "Clearly, healthcare in the United States has some areas for improvement. But how does it compare to healthcare in other countries? Many people in the United States are fond of saying that this country has the best healthcare in the world, and while it is true that the United States has a higher quality of care available than many peripheral or semi-peripheral nations, it is not necessarily the “best in the world.” In a report on how U.S. healthcare compares to that of other countries, researchers found that the United States does “relatively well in some areas—such as cancer care—and less well in others—such as mortality from conditions amenable to prevention and treatment” (Docteur and Berenson 2009).",
-          "change_id": null,
-          "original_page": 585
+          "type": "same",
+          "text": "Clearly, healthcare in the United States has some areas for improvement. But how does it compare to healthcare in other countries? Many people in the United States are fond of saying that this country has the best healthcare in the world, and while it is true that the United States has a higher quality of care available than many peripheral or semi-peripheral nations, it is not necessarily the “best in the world.” In a report on how U.S. healthcare compares to that of other countries, researchers found that the United States does “relatively well in some areas—such as cancer care—and less well in others—such as mortality from conditions amenable to prevention and treatment” (Docteur and Berenson 2009).",
+          "original_page": 585,
+          "florida_page": 118
         },
         {
-          "type": "removed",
-          "original_text": "One critique of the Patient Protection and Affordable Care Act is that it will create a system of socialized medicine, a term that for many people in the United States has negative connotations lingering from the Cold War era and earlier. Under a socialized medicine system, the government owns and runs the system. It employs the doctors, nurses, and other staff, and it owns and runs the hospitals (Klein 2009). The best example of socialized medicine is in Great Britain, where the National Health System (NHS) gives free healthcare to all its residents. And despite some U.S. citizens’ knee-jerk reaction to any healthcare changes that hint of socialism, the United States has one socialized system with the Veterans Health Administration.",
-          "change_id": null,
-          "original_page": 585
+          "type": "same",
+          "text": "One critique of the Patient Protection and Affordable Care Act is that it will create a system of socialized medicine, a term that for many people in the United States has negative connotations lingering from the Cold War era and earlier. Under a socialized medicine system, the government owns and runs the system. It employs the doctors, nurses, and other staff, and it owns and runs the hospitals (Klein 2009). The best example of socialized medicine is in Great Britain, where the National Health System (NHS) gives free healthcare to all its residents. And despite some U.S. citizens’ knee-jerk reaction to any healthcare changes that hint of socialism, the United States has one socialized system with the Veterans Health Administration.",
+          "original_page": 585,
+          "florida_page": 118
         },
         {
           "type": "same",
@@ -613,10 +613,10 @@
           "florida_page": 118
         },
         {
-          "type": "removed",
-          "original_text": "Alongside the health disparities created by class inequalities, there are a number of health disparities created by racism, sexism, ageism, and heterosexism. When health is a commodity, the poor are more likely to experience illness caused by poor diet, to live and work in unhealthy environments, and are less likely to challenge the system. In the United States, a disproportionate number of racial minorities also have less economic power, so they bear a great deal of the burden of poor health. It is not only the poor who suffer from the conflict between dominant and subordinate groups. For many years now, same-sex couples have been denied spousal benefits, either in the form of health insurance or in terms of medical responsibility. Further adding to the issue, doctors hold a disproportionate amount of power in the doctor/patient relationship, which provides them with extensive social and economic benefits.",
-          "change_id": null,
-          "original_page": 585
+          "type": "same",
+          "text": "Alongside the health disparities created by class inequalities, there are a number of health disparities created by racism, sexism, ageism, and heterosexism. When health is a commodity, the poor are more likely to experience illness caused by poor diet, to live and work in unhealthy environments, and are less likely to challenge the system. In the United States, a disproportionate number of racial minorities also have less economic power, so they bear a great deal of the burden of poor health. It is not only the poor who suffer from the conflict between dominant and subordinate groups. For many years now, same-sex couples have been denied spousal benefits, either in the form of health insurance or in terms of medical responsibility. Further adding to the issue, doctors hold a disproportionate amount of power in the doctor/patient relationship, which provides them with extensive social and economic benefits.",
+          "original_page": 585,
+          "florida_page": 118
         },
         {
           "type": "same",

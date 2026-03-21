@@ -278,12 +278,6 @@
           "florida_page": 171
         },
         {
-          "type": "removed",
-          "original_text": "In some cases, parents can no longer care for their children. In 2018, three million children lived with a guardian who was neither their biological nor adoptive parent. The causes range from parental mental health issues, drug use, or incarceration, as well as physical or sexual abuse of the children by the parent, or abandonment by the parent. The wide array of causes leads to a similarly wide array of arrangements and types of people and organizations involved. About half of these children live with grandparents, and about 20 percent live with other relatives (ChildStats 2019). Sometimes a grandparent or other relative temporarily assumes care of children, perhaps informally, while other times the arrangement is longer term and the state or city child welfare or similar department is involved.",
-          "change_id": null,
-          "original_page": 424
-        },
-        {
           "type": "added",
           "florida_text": "Figure 9.3 The ability for parents to socialize and the types of events they can attend is often influenced by the ages and characteristics of their children. Preparing to go out with a four-year- old is usually much easier than doing so with a four-month-old, but the four-year-old needs to be watched more carefully. As children grow and families have more children, and perhaps include extended families, members’ lives and perspective change. (Credit: Elvert Barnes/flickr)",
           "change_id": null,
@@ -293,6 +287,12 @@
           "type": "added",
           "florida_text": "Figure 9.4 Military families sometimes have to endure long parental absences. The other parent or other family members, including older siblings, often take on more responsibility during deployments. The serving parent faces stress and detachment when they are away. (Credit: The National Guard)",
           "change_id": null,
+          "florida_page": 171
+        },
+        {
+          "type": "same",
+          "text": "In some cases, parents can no longer care for their children. In 2018, three million children lived with a guardian who was neither their biological nor adoptive parent. The causes range from parental mental health issues, drug use, or incarceration, as well as physical or sexual abuse of the children by the parent, or abandonment by the parent. The wide array of causes leads to a similarly wide array of arrangements and types of people and organizations involved. About half of these children live with grandparents, and about 20 percent live with other relatives (ChildStats 2019). Sometimes a grandparent or other relative temporarily assumes care of children, perhaps informally, while other times the arrangement is longer term and the state or city child welfare or similar department is involved.",
+          "original_page": 424,
           "florida_page": 171
         },
         {
@@ -1227,10 +1227,10 @@
           "florida_page": 171
         },
         {
-          "type": "removed",
-          "original_text": "In the past, rising education levels in the United States had been able to keep pace with the rise in the number of education-dependent jobs. However, since the late 1970s, men have been enrolling in college at a lower rate than women, and graduating at a rate of almost 10 percent less. The lack of male candidates reaching the education levels needed for skilled positions has opened opportunities for women, minorities, and immigrants (Wang 2011).",
-          "change_id": null,
-          "original_page": 439
+          "type": "same",
+          "text": "In the past, rising education levels in the United States had been able to keep pace with the rise in the number of education-dependent jobs. However, since the late 1970s, men have been enrolling in college at a lower rate than women, and graduating at a rate of almost 10 percent less. The lack of male candidates reaching the education levels needed for skilled positions has opened opportunities for women, minorities, and immigrants (Wang 2011).",
+          "original_page": 439,
+          "florida_page": 171
         },
         {
           "type": "same",

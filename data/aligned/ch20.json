@@ -50,16 +50,16 @@
           "original_evidence": "img/evidence/ch20/change_2_original.webp"
         },
         {
-          "type": "removed",
-          "original_text": "As the discussion of fracking illustrates, there are important societal issues connected to the environment and how and where people live. Sociologists begin to examine these issues through demography, or the study of population and how it relates to urbanization, the study of the social, political, and economic relationships in cities. Environmental sociologists look at the study of how humans interact with their environments. Today, as has been the case many times in history, we are at a point of conflict in a number of these areas. The world’s population reached seven billion between 2011 and 2012. When will it reach eight billion? Can our planet sustain such a population? We generate more trash than ever, from Starbucks cups to obsolete cell phones containing toxic chemicals to food waste that could be composted. You may be unaware of where your trash ends up. And while this problem exists worldwide, trash issues are often more acute in urban areas. Cities and city living create new challenges for both society and the environment that make interactions between people and places of critical importance.",
-          "change_id": null,
-          "original_page": 602
+          "type": "same",
+          "text": "As the discussion of fracking illustrates, there are important societal issues connected to the environment and how and where people live. Sociologists begin to examine these issues through demography, or the study of population and how it relates to urbanization, the study of the social, political, and economic relationships in cities. Environmental sociologists look at the study of how humans interact with their environments. Today, as has been the case many times in history, we are at a point of conflict in a number of these areas. The world’s population reached seven billion between 2011 and 2012. When will it reach eight billion? Can our planet sustain such a population? We generate more trash than ever, from Starbucks cups to obsolete cell phones containing toxic chemicals to food waste that could be composted. You may be unaware of where your trash ends up. And while this problem exists worldwide, trash issues are often more acute in urban areas. Cities and city living create new challenges for both society and the environment that make interactions between people and places of critical importance.",
+          "original_page": 602,
+          "florida_page": 231
         },
         {
-          "type": "removed",
-          "original_text": "How do sociologists study population and urbanization issues? Functionalist sociologists might focus on the way all aspects of population, urbanization, and the environment serve as vital and cohesive elements, ensuring the continuing stability of society. They might study how the growth of the global population encourages emigration and immigration, and how emigration and immigration serve to strengthen ties between nations. Or they might research the way migration affects environmental issues; for example, how have forced migrations, and the resulting changes in a region’s ability to support a new group, affected both the displaced people and the area of relocation? Another topic a functionalist might research is the way various urban neighborhoods specialize to serve cultural and financial needs.",
-          "change_id": null,
-          "original_page": 602
+          "type": "same",
+          "text": "How do sociologists study population and urbanization issues? Functionalist sociologists might focus on the way all aspects of population, urbanization, and the environment serve as vital and cohesive elements, ensuring the continuing stability of society. They might study how the growth of the global population encourages emigration and immigration, and how emigration and immigration serve to strengthen ties between nations. Or they might research the way migration affects environmental issues; for example, how have forced migrations, and the resulting changes in a region’s ability to support a new group, affected both the displaced people and the area of relocation? Another topic a functionalist might research is the way various urban neighborhoods specialize to serve cultural and financial needs.",
+          "original_page": 602,
+          "florida_page": 231
         },
         {
           "type": "removed",
@@ -72,10 +72,10 @@
           "florida_evidence": "img/evidence/ch20/change_3_florida.webp"
         },
         {
-          "type": "removed",
-          "original_text": "A symbolic interactionist interested in the day-to-day interaction of groups and individuals might research topics like the way family-planning information is presented to and understood by different population groups, the way people experience and understand urban life, and the language people use to convince others of the presence (or absence) of global climate change. For example, some politicians wish to present the study of global warming as junk science, and other politicians insist it is a proven fact.",
-          "change_id": null,
-          "original_page": 603
+          "type": "same",
+          "text": "A symbolic interactionist interested in the day-to-day interaction of groups and individuals might research topics like the way family-planning information is presented to and understood by different population groups, the way people experience and understand urban life, and the language people use to convince others of the presence (or absence) of global climate change. For example, some politicians wish to present the study of global warming as junk science, and other politicians insist it is a proven fact.",
+          "original_page": 603,
+          "florida_page": 231
         },
         {
           "type": "added",
@@ -91,10 +91,12 @@
       "florida_heading": "11.1 Demography and Population",
       "blocks": [
         {
-          "type": "removed",
+          "type": "modified",
           "original_text": "Between 2011 and 2012, we reached a population milestone of 7 billion humans on the earth’s surface. The rapidity with which this happened demonstrated an exponential increase from the time it took to grow from 5 billion to 6 billion people. In short, the planet is filling up. We'll have 8 billion people in this decade. While the population is increasing overall, there are certain countries and regions where growth is slowing. Relocation and migration also change the makeup and quantity of people in an area. In order to properly understand these dynamics and make decisions regarding them, we turn to demography, or the study of populations. Three critical aspects of demography are fertility, mortality, and migration.",
+          "florida_text": "Between 2011 and 2025, the number of people on earth increased from 7 to 8.2 billion. The rapidity with which this happened demonstrated an exponential increase from the time it took to grow from 5 billion to 6 billion people. However, the rate of growth of the global population is on the decline, with more recent population projections suggesting that the global population will stabilize and likely begin to decline in the 21st century. To properly understand these dynamics and make decisions regarding them, we turn to demography, or the study of populations. Three critical aspects of demography are fertility, mortality, and migration.",
           "change_id": null,
-          "original_page": 603
+          "original_page": 603,
+          "florida_page": 231
         },
         {
           "type": "removed",
@@ -103,10 +105,22 @@
           "original_page": 603
         },
         {
-          "type": "removed",
-          "original_text": "Another key element in studying populations is the movement of people into and out of an area. Migration may take the form of immigration, which describes movement into an area to take up permanent residence, or emigration, which refers to movement out of an area to another place of permanent residence. Migration might be voluntary (as when college students study abroad), involuntary (as when Syrians evacuated war-torn areas), or forced (as when many Native American tribes were removed from the lands they’d lived in for generations).",
+          "type": "added",
+          "florida_text": "Figure 11.2 This is a Marcellus shale gas- drilling site in Lycoming County, Pennsylvania. (Credit: Nicholas A. Tonelli/flickr)",
           "change_id": null,
-          "original_page": 603
+          "florida_page": 231
+        },
+        {
+          "type": "added",
+          "florida_text": "Fertility is the most basic way populations grow – through children being born. The general fertility rate of a society equals the number of live births per 1000 women of childbearing age (15-44). Mortality, on the other hand, obviously removes people of all ages from the population. Just as fertility measures childbearing, the mortality rate is a measure of the number of people who die. The most common measure of mortality is the crude death rate that equals the Big Picture Mass Migration Crises At least once during each of the last three Presidential administrations, the United States has faced a crisis at its southern border. While images of children in crowded holding areas, covered in piles of shiny plastic emergency blankets, were often associated with the Trump Presidency, Presidents Obama and Biden saw children in the same conditions. The holding facilities, described as cages by some and often referred to as “perreras” (dog kennels) or “hieleras” (ice boxes) by the migrating people, are meant to be temporary stopovers while people await hearings or related refugee processes. But during several occasions, the number of people crossing the border was so large – including, at times, tens of thousands of children – that the system became overwhelmed. The conditions are deplorable. The outcomes are uncertain. But the people cross the border anyway. How did we get here? Bipartisan legislation passed in 2008 guarantees unaccompanied minors a hearing with an immigration judge where they may request asylum based on a “credible” fear of persecution or torture (U.S. Congress 2008). In some cases, these children are looking for relatives and can be placed with family while awaiting a hearing on their immigration status; in other cases, they become involved with the foster system or are placed in of the 170 housing facilities run by nonprofit or for-profit groups. Finally, for people who turn 18 while still in the process, they may be transferred to detention centers, sometimes on their birthday (Montoya-Galvez 2021). Many people in America were either accepting or unaware of these policies and situations until crises occurred in 2014 and 2018-19. At those points of incredible influxes of migrant children, border control, refugee services, and advocacy organizations were overwhelmed by the surge. Both the Obama and Trump administrations pushed for changes in laws or guidelines for enforcement (Gomez 2014 and Kanno-Youngs 2020). The Obama administration sought to make the decision process faster. In 2014, over 50,000 unaccompanied minors were taken into custody, creating the backlog discussed above. Initially, the Trump administration sought to discourage immigration through policies such as separating parents and children who arrived together. After concerns about this were raised, President Trump reversed this policy. While the situations at the border are extremely threatening to children's health and safety, people and policymakers in the United States are divided on how to address the situation. In many cases, these children are fleeing various kinds of violence and extreme poverty. The U.S. government has repeatedly indicated that the best way to avoid these crises is to address those conditions in the migrants' home countries. But even with financial aid for those nations and pressure on their governments to crack down on illegal activity, it is unlikely that the situation will change quickly or consistently.",
+          "change_id": null,
+          "florida_page": 231
+        },
+        {
+          "type": "same",
+          "text": "Another key element in studying populations is the movement of people into and out of an area. Migration may take the form of immigration, which describes movement into an area to take up permanent residence, or emigration, which refers to movement out of an area to another place of permanent residence. Migration might be voluntary (as when college students study abroad), involuntary (as when Syrians evacuated war-torn areas), or forced (as when many Native American tribes were removed from the lands they’d lived in for generations).",
+          "original_page": 603,
+          "florida_page": 231
         },
         {
           "type": "removed",
@@ -131,30 +145,6 @@
           "original_text": "Sociologists have long looked at population issues as central to understanding human interactions. Below we will look at four theories about population that inform sociological thought: Malthusian, zero population growth, cornucopian, and demographic transition theories.",
           "change_id": null,
           "original_page": 603
-        },
-        {
-          "type": "added",
-          "florida_text": "Between 2011 and 2025, the number of people on earth increased from 7 to 8.2 billion. The rapidity with which this happened demonstrated an exponential increase from the time it took to grow from 5 billion to 6 billion people. However, the rate of growth of the global population is on the decline, with more recent population projections suggesting that the global population will stabilize and likely begin to decline in the 21st century. To properly understand these dynamics and make decisions regarding them, we turn to demography, or the study of populations. Three critical aspects of demography are fertility, mortality, and migration.",
-          "change_id": null,
-          "florida_page": 231
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 11.2 This is a Marcellus shale gas- drilling site in Lycoming County, Pennsylvania. (Credit: Nicholas A. Tonelli/flickr)",
-          "change_id": null,
-          "florida_page": 231
-        },
-        {
-          "type": "added",
-          "florida_text": "Fertility is the most basic way populations grow – through children being born. The general fertility rate of a society equals the number of live births per 1000 women of childbearing age (15-44). Mortality, on the other hand, obviously removes people of all ages from the population. Just as fertility measures childbearing, the mortality rate is a measure of the number of people who die. The most common measure of mortality is the crude death rate that equals the Big Picture Mass Migration Crises At least once during each of the last three Presidential administrations, the United States has faced a crisis at its southern border. While images of children in crowded holding areas, covered in piles of shiny plastic emergency blankets, were often associated with the Trump Presidency, Presidents Obama and Biden saw children in the same conditions. The holding facilities, described as cages by some and often referred to as “perreras” (dog kennels) or “hieleras” (ice boxes) by the migrating people, are meant to be temporary stopovers while people await hearings or related refugee processes. But during several occasions, the number of people crossing the border was so large – including, at times, tens of thousands of children – that the system became overwhelmed. The conditions are deplorable. The outcomes are uncertain. But the people cross the border anyway. How did we get here? Bipartisan legislation passed in 2008 guarantees unaccompanied minors a hearing with an immigration judge where they may request asylum based on a “credible” fear of persecution or torture (U.S. Congress 2008). In some cases, these children are looking for relatives and can be placed with family while awaiting a hearing on their immigration status; in other cases, they become involved with the foster system or are placed in of the 170 housing facilities run by nonprofit or for-profit groups. Finally, for people who turn 18 while still in the process, they may be transferred to detention centers, sometimes on their birthday (Montoya-Galvez 2021). Many people in America were either accepting or unaware of these policies and situations until crises occurred in 2014 and 2018-19. At those points of incredible influxes of migrant children, border control, refugee services, and advocacy organizations were overwhelmed by the surge. Both the Obama and Trump administrations pushed for changes in laws or guidelines for enforcement (Gomez 2014 and Kanno-Youngs 2020). The Obama administration sought to make the decision process faster. In 2014, over 50,000 unaccompanied minors were taken into custody, creating the backlog discussed above. Initially, the Trump administration sought to discourage immigration through policies such as separating parents and children who arrived together. After concerns about this were raised, President Trump reversed this policy. While the situations at the border are extremely threatening to children's health and safety, people and policymakers in the United States are divided on how to address the situation. In many cases, these children are fleeing various kinds of violence and extreme poverty. The U.S. government has repeatedly indicated that the best way to avoid these crises is to address those conditions in the migrants' home countries. But even with financial aid for those nations and pressure on their governments to crack down on illegal activity, it is unlikely that the situation will change quickly or consistently.",
-          "change_id": null,
-          "florida_page": 231
-        },
-        {
-          "type": "added",
-          "florida_text": "number of deaths per 1,000 people per year. When analyzed together, fertility and mortality rates help researchers understand the overall growth occurring in a population. Another critical element to understanding how populations change is the movement of people into and out of an area. Migration includes both immigration, which describes movement into an area to take up permanent residence, and emigration, which refers to the movement out of an area to another place of permanent residence. Migration might be voluntary (like when college students go to another country to earn a degree) or involuntary (as when Syrians evacuate war-torn areas). Population Growth The social forces of fertility, mortality, and migration all work together to determine the shape and composition of a society’s population. Demographers pay special attention to the number of people in different age groups over time. Population composition projections tell compelling stories about societal changes and what to expect in the future. Of particular interest to demographers are the number of people who are likely to be in the labor force (ages 25-64) versus those who are not likely to be in the labor force (children and those likely to be retired from the labor force). The population composition provides insights about potential economic capability of a population and potential childcare and caregiving needs of a population based on chronological age. Of course, chronological age does not provide information about the health or capacity to of a",
-          "change_id": null,
-          "florida_page": 231
         },
         {
           "type": "added",
@@ -320,10 +310,10 @@
           "florida_page": 231
         },
         {
-          "type": "removed",
-          "original_text": "Urbanization in the United States proceeded rapidly during the Industrial Era. As more and more opportunities for work appeared in factories, workers left farms (and the rural communities that housed them) to move to the cities. From mill towns in Massachusetts to tenements in New York, the industrial era saw an influx of poor workers into U.S. cities. At various times throughout the country’s history, certain demographic groups, from post-Civil War southern Black people to more recent immigrants, have made their way to urban centers to seek a better life in the city.",
-          "change_id": null,
-          "original_page": 603
+          "type": "same",
+          "text": "Urbanization in the United States proceeded rapidly during the Industrial Era. As more and more opportunities for work appeared in factories, workers left farms (and the rural communities that housed them) to move to the cities. From mill towns in Massachusetts to tenements in New York, the industrial era saw an influx of poor workers into U.S. cities. At various times throughout the country’s history, certain demographic groups, from post-Civil War southern Black people to more recent immigrants, have made their way to urban centers to seek a better life in the city.",
+          "original_page": 603,
+          "florida_page": 231
         },
         {
           "type": "added",
@@ -435,10 +425,10 @@
           "florida_page": 231
         },
         {
-          "type": "removed",
-          "original_text": "While you might be more familiar with the phrase “global warming,” climate change is the term now used to refer to long-term shifts in temperatures due to human activity and, in particular, the release of greenhouse gases into the environment. The planet as a whole is warming, but the term climate change acknowledges that the short-term variations in this process can include both higher and lower temperatures, despite the overarching trend toward warmth.",
-          "change_id": null,
-          "original_page": 614
+          "type": "same",
+          "text": "While you might be more familiar with the phrase “global warming,” climate change is the term now used to refer to long-term shifts in temperatures due to human activity and, in particular, the release of greenhouse gases into the environment. The planet as a whole is warming, but the term climate change acknowledges that the short-term variations in this process can include both higher and lower temperatures, despite the overarching trend toward warmth.",
+          "original_page": 614,
+          "florida_page": 231
         },
         {
           "type": "removed",
@@ -487,10 +477,10 @@
           "florida_page": 240
         },
         {
-          "type": "removed",
-          "original_text": "The water crisis is exacerbated by many of the other issues we've discussed. Global pandemics, pollution, and climate change all have more severe impacts when coupled with lack of access to clean water. Finally, the cost of obtaining that clean water can interfere with other important aspects of survival and social mobility. Children serve as water haulers, traveling long distances on foot to collect potable water for their family. Those same children (as well as those who similarly collect firewood) are less able to focus on their education, either missing school or not completing the associated work (Water.org 2021). Regular water hauling–which for some people involves carrying 20 kilograms (40 pounds) for 30 minutes or more–also has negative effects on people's bodies, especially pregnant women who often undertake the task. The situation is only getting more dire as the global population increases. Water is a key resource battleground in the twenty-first century.",
-          "change_id": null,
-          "original_page": 617
+          "type": "same",
+          "text": "The water crisis is exacerbated by many of the other issues we've discussed. Global pandemics, pollution, and climate change all have more severe impacts when coupled with lack of access to clean water. Finally, the cost of obtaining that clean water can interfere with other important aspects of survival and social mobility. Children serve as water haulers, traveling long distances on foot to collect potable water for their family. Those same children (as well as those who similarly collect firewood) are less able to focus on their education, either missing school or not completing the associated work (Water.org 2021). Regular water hauling–which for some people involves carrying 20 kilograms (40 pounds) for 30 minutes or more–also has negative effects on people's bodies, especially pregnant women who often undertake the task. The situation is only getting more dire as the global population increases. Water is a key resource battleground in the twenty-first century.",
+          "original_page": 617,
+          "florida_page": 240
         },
         {
           "type": "same",
@@ -571,12 +561,6 @@
           "original_page": 617
         },
         {
-          "type": "removed",
-          "original_text": "Radioactivity is a form of air pollution. While nuclear energy promises a safe and abundant power source, increasingly it is looked upon as a danger to the environment and to those who inhabit it. We accumulate nuclear waste, which we must then keep track of long term and ultimately figure out how to store the toxic waste material without damaging the environment or putting future generations at risk.",
-          "change_id": null,
-          "original_page": 617
-        },
-        {
           "type": "added",
           "florida_text": "Figure 11.15 Where should garbage go when you’ve run out of room? This is a question that is increasingly pressing the planet. (Credit: Department of Environmental Protection Recycling/flickr)",
           "change_id": null,
@@ -586,6 +570,12 @@
           "type": "added",
           "florida_text": "Figure 11.16 An aerial view of the Gulf Coast, taken in May 2010, illustrates the damage done by the BP Deep Water Horizon spill. (Credit: Jeff Warren/flickr)",
           "change_id": null,
+          "florida_page": 240
+        },
+        {
+          "type": "same",
+          "text": "Radioactivity is a form of air pollution. While nuclear energy promises a safe and abundant power source, increasingly it is looked upon as a danger to the environment and to those who inhabit it. We accumulate nuclear waste, which we must then keep track of long term and ultimately figure out how to store the toxic waste material without damaging the environment or putting future generations at risk.",
+          "original_page": 617,
           "florida_page": 240
         },
         {

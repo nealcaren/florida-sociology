@@ -42,15 +42,11 @@
       "florida_heading": "2.1 Approaches to Sociological Research",
       "blocks": [
         {
-          "type": "removed",
+          "type": "modified",
           "original_text": "When sociologists apply the sociological perspective and begin to ask questions, no topic is off limits. Every aspect of human behavior is a source of possible investigation. Sociologists question the world that humans have created and live in. They notice patterns of behavior as people move through that world. Using sociological methods and systematic research within the framework of the scientific method and a scholarly interpretive perspective, sociologists have discovered social patterns in the workplace that have transformed industries, in families that have enlightened family members, and in education that have aided structural changes in classrooms.",
+          "florida_text": "When sociologists apply the sociological perspective and begin to ask questions, almost no topic is off limits. Every aspect of human behavior is a source of possible investigation. Sociologists question the world that humans have created and live in. They notice patterns of behavior as people move through that world. Using sociological methods and Figure 2.1 Many believe that crime rates go up during the full moon, but scientific research does not support this conclusion. (Credit: Arman Thanvir/flickr)",
           "change_id": null,
           "original_page": 52
-        },
-        {
-          "type": "added",
-          "florida_text": "When sociologists apply the sociological perspective and begin to ask questions, almost no topic is off limits. Every aspect of human behavior is a source of possible investigation. Sociologists question the world that humans have created and live in. They notice patterns of behavior as people move through that world. Using sociological methods and Figure 2.1 Many believe that crime rates go up during the full moon, but scientific research does not support this conclusion. (Credit: Arman Thanvir/flickr)",
-          "change_id": null
         },
         {
           "type": "same",
@@ -88,9 +84,8 @@
           "original_page": 52
         },
         {
-          "type": "removed",
-          "original_text": "With its systematic approach, the scientific method has proven useful in shaping sociological studies. The scientific method provides a systematic, organized series of steps that help ensure objectivity and consistency in exploring a social problem. They provide the means for accuracy, reliability, and validity. In the end, the scientific method provides a shared basis for discussion and analysis (Merton 1963). Typically, the scientific method has 6 steps which are described below.",
-          "change_id": null,
+          "type": "same",
+          "text": "With its systematic approach, the scientific method has proven useful in shaping sociological studies. The scientific method provides a systematic, organized series of steps that help ensure objectivity and consistency in exploring a social problem. They provide the means for accuracy, reliability, and validity. In the end, the scientific method provides a shared basis for discussion and analysis (Merton 1963). Typically, the scientific method has 6 steps which are described below.",
           "original_page": 52
         },
         {
@@ -216,9 +211,8 @@
       "florida_heading": "2.2 Research Methods",
       "blocks": [
         {
-          "type": "removed",
-          "original_text": "Sociologists examine the social world, see a problem or interesting pattern, and set out to study it. They use research methods to design a study. Planning the research design is a key step in any sociological study. Sociologists generally choose from widely used methods of social investigation: primary source data collection such as survey, participant observation, ethnography, case study, unobtrusive observations, experiment, and secondary data analysis, or use of existing sources. Every research method comes with plusses and minuses, and the topic of study strongly influences which method or methods are put to use. When you are conducting research think about the best way to gather or obtain knowledge about your topic, think of yourself as an architect. An architect needs a blueprint to build a house, as a sociologist your blueprint is your research design including your data collection method.",
-          "change_id": null,
+          "type": "same",
+          "text": "Sociologists examine the social world, see a problem or interesting pattern, and set out to study it. They use research methods to design a study. Planning the research design is a key step in any sociological study. Sociologists generally choose from widely used methods of social investigation: primary source data collection such as survey, participant observation, ethnography, case study, unobtrusive observations, experiment, and secondary data analysis, or use of existing sources. Every research method comes with plusses and minuses, and the topic of study strongly influences which method or methods are put to use. When you are conducting research think about the best way to gather or obtain knowledge about your topic, think of yourself as an architect. An architect needs a blueprint to build a house, as a sociologist your blueprint is your research design including your data collection method.",
           "original_page": 52
         },
         {
@@ -244,15 +238,14 @@
           "original_page": 52
         },
         {
-          "type": "removed",
-          "original_text": "Not all surveys are considered sociological research, however, and many surveys people commonly encounter focus on identifying marketing needs and strategies rather than testing a hypothesis or contributing to social science knowledge. Questions such as, “How many hot dogs do you eat in a month?” or “Were the staff helpful?” are not usually designed as scientific research. The Nielsen Ratings determine the popularity of television programming through scientific market research. However, polls conducted by television programs such as American Idol or So You Think You Can Dance cannot be generalized, because they are administered to an unrepresentative population, a specific show’s audience. You might receive polls through your cell phones or emails, from grocery stores, restaurants, and retail stores. They often provide you incentives for completing the survey.",
-          "change_id": null,
-          "original_page": 52
-        },
-        {
           "type": "added",
           "florida_text": "Figure 2.3 Questionnaires are a common research method. (Credit: CDC Global/flickr)",
           "change_id": null
+        },
+        {
+          "type": "same",
+          "text": "Not all surveys are considered sociological research, however, and many surveys people commonly encounter focus on identifying marketing needs and strategies rather than testing a hypothesis or contributing to social science knowledge. Questions such as, “How many hot dogs do you eat in a month?” or “Were the staff helpful?” are not usually designed as scientific research. The Nielsen Ratings determine the popularity of television programming through scientific market research. However, polls conducted by television programs such as American Idol or So You Think You Can Dance cannot be generalized, because they are administered to an unrepresentative population, a specific show’s audience. You might receive polls through your cell phones or emails, from grocery stores, restaurants, and retail stores. They often provide you incentives for completing the survey.",
+          "original_page": 52
         },
         {
           "type": "same",
@@ -272,9 +265,8 @@
           "original_page": 52
         },
         {
-          "type": "removed",
-          "original_text": "A common instrument is a questionnaire. Subjects often answer a series of closed-ended questions. The researcher might ask yes-or-no or multiple-choice questions, allowing subjects to choose possible responses to each question. This kind of questionnaire collects quantitative data—data in numerical form that can be counted and statistically analyzed. Just count up the number of “yes” and “no” responses or correct answers, and chart them into percentages.",
-          "change_id": null,
+          "type": "same",
+          "text": "A common instrument is a questionnaire. Subjects often answer a series of closed-ended questions. The researcher might ask yes-or-no or multiple-choice questions, allowing subjects to choose possible responses to each question. This kind of questionnaire collects quantitative data—data in numerical form that can be counted and statistically analyzed. Just count up the number of “yes” and “no” responses or correct answers, and chart them into percentages.",
           "original_page": 52
         },
         {
@@ -324,9 +316,8 @@
           "original_page": 52
         },
         {
-          "type": "removed",
-          "original_text": "While field research often begins in a specific setting, the study’s purpose is to observe specific behaviors in that setting. Field work is optimal for observing how people think and behave. It seeks to understand why they behave that way. However, researchers may struggle to narrow down cause and effect when there are so many variables floating around in a natural environment. And while field research looks for correlation, its small sample size does not allow for establishing a causal relationship between two variables. Indeed, much of the data gathered in sociology do not identify a cause and effect but a correlation.",
-          "change_id": null,
+          "type": "same",
+          "text": "While field research often begins in a specific setting, the study’s purpose is to observe specific behaviors in that setting. Field work is optimal for observing how people think and behave. It seeks to understand why they behave that way. However, researchers may struggle to narrow down cause and effect when there are so many variables floating around in a natural environment. And while field research looks for correlation, its small sample size does not allow for establishing a causal relationship between two variables. Indeed, much of the data gathered in sociology do not identify a cause and effect but a correlation.",
           "original_page": 52
         },
         {
@@ -400,9 +391,8 @@
           "original_page": 52
         },
         {
-          "type": "removed",
-          "original_text": "The book she wrote upon her return to her real life as a well-paid writer, has been widely read and used in many college classrooms.",
-          "change_id": null,
+          "type": "same",
+          "text": "The book she wrote upon her return to her real life as a well-paid writer, has been widely read and used in many college classrooms.",
           "original_page": 52
         },
         {
@@ -448,9 +438,8 @@
           "original_page": 52
         },
         {
-          "type": "removed",
-          "original_text": "Researchers might use this method to study a single case of a foster child, drug lord, cancer patient, criminal, or rape victim. However, a major criticism of the case study as a method is that while offering depth on a topic, it does not provide enough evidence to form a generalized conclusion. In other words, it is difficult to make universal claims based on just one person, since one person does not verify a pattern. This is why most sociologists do not use case studies as a primary research method.",
-          "change_id": null,
+          "type": "same",
+          "text": "Researchers might use this method to study a single case of a foster child, drug lord, cancer patient, criminal, or rape victim. However, a major criticism of the case study as a method is that while offering depth on a topic, it does not provide enough evidence to form a generalized conclusion. In other words, it is difficult to make universal claims based on just one person, since one person does not verify a pattern. This is why most sociologists do not use case studies as a primary research method.",
           "original_page": 52
         },
         {
@@ -469,9 +458,8 @@
           "original_page": 52
         },
         {
-          "type": "removed",
-          "original_text": "You have probably tested some of your own personal social theories. “If I study at night and review in the morning, I’ll improve my retention skills.” Or, “If I stop drinking soda, I’ll feel better.” Cause and effect. If this, then that. When you test the theory, your results either prove or disprove your hypothesis.",
-          "change_id": null,
+          "type": "same",
+          "text": "You have probably tested some of your own personal social theories. “If I study at night and review in the morning, I’ll improve my retention skills.” Or, “If I stop drinking soda, I’ll feel better.” Cause and effect. If this, then that. When you test the theory, your results either prove or disprove your hypothesis.",
           "original_page": 52
         },
         {
@@ -581,9 +569,8 @@
           "original_page": 52
         },
         {
-          "type": "removed",
-          "original_text": "Is value neutrality possible? Many sociologists believe it is impossible to retain complete objectivity. They caution readers, rather, to understand that sociological studies may contain a certain amount of value bias. This does not discredit the results, but allows readers to view them as one form of truth—one fact-based perspective. Some sociologists attempt to remain uncritical and as objective as possible when studying social institutions. They strive to overcome personal biases, particularly subconscious biases, when collecting and analyzing data. They avoid skewing data in order to match a predetermined outcome that aligns with a particular agenda, such as a political or moral point of view. Investigators are ethically obligated to report results, even when they contradict personal views, predicted outcomes, or widely accepted beliefs.",
-          "change_id": null,
+          "type": "same",
+          "text": "Is value neutrality possible? Many sociologists believe it is impossible to retain complete objectivity. They caution readers, rather, to understand that sociological studies may contain a certain amount of value bias. This does not discredit the results, but allows readers to view them as one form of truth—one fact-based perspective. Some sociologists attempt to remain uncritical and as objective as possible when studying social institutions. They strive to overcome personal biases, particularly subconscious biases, when collecting and analyzing data. They avoid skewing data in order to match a predetermined outcome that aligns with a particular agenda, such as a political or moral point of view. Investigators are ethically obligated to report results, even when they contradict personal views, predicted outcomes, or widely accepted beliefs.",
           "original_page": 52
         },
         {
@@ -618,9 +605,8 @@
           "original_page": 52
         },
         {
-          "type": "removed",
-          "original_text": "Laud Humphreys: In the 1960s, Laud Humphreys conducted an experiment at a restroom in a park known for same-sex sexual encounters. His objective was to understand the diversity of backgrounds and motivations of people seeking same-sex relationships. His ethics were questioned because he misrepresented his identity and intent while observing and questioning the men he interviewed (Nardi, 1995).",
-          "change_id": null,
+          "type": "same",
+          "text": "Laud Humphreys: In the 1960s, Laud Humphreys conducted an experiment at a restroom in a park known for same-sex sexual encounters. His objective was to understand the diversity of backgrounds and motivations of people seeking same-sex relationships. His ethics were questioned because he misrepresented his identity and intent while observing and questioning the men he interviewed (Nardi, 1995).",
           "original_page": 52
         },
         {

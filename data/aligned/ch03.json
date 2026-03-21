@@ -48,10 +48,10 @@
           "original_page": 77
         },
         {
-          "type": "removed",
-          "original_text": "Within the U.S., many groups of people share a community and a culture. By “community,” sociologists refer to a definable region of a society, real terra firma—as small as a neighborhood (Brooklyn, or “the east side of town”), as large as a country (Ethiopia, Nepal or the U.S.), or somewhere in between (in the U.S., this might include someone who identifies with Southern or Midwestern society).",
-          "change_id": null,
-          "original_page": 77
+          "type": "same",
+          "text": "Within the U.S., many groups of people share a community and a culture. By “community,” sociologists refer to a definable region of a society, real terra firma—as small as a neighborhood (Brooklyn, or “the east side of town”), as large as a country (Ethiopia, Nepal or the U.S.), or somewhere in between (in the U.S., this might include someone who identifies with Southern or Midwestern society).",
+          "original_page": 77,
+          "florida_page": 48
         },
         {
           "type": "removed",
@@ -67,16 +67,16 @@
       "florida_heading": "3.1 What Is Culture?",
       "blocks": [
         {
-          "type": "removed",
-          "original_text": "Humans are social creatures. According to Smithsonian Institution research, humans have been forming groups for almost 3 million years in order to survive. Living together, people formed common habits and behaviors, from specific methods of childrearing to preferred techniques for obtaining food.",
-          "change_id": null,
-          "original_page": 77
+          "type": "same",
+          "text": "Humans are social creatures. According to Smithsonian Institution research, humans have been forming groups for almost 3 million years in order to survive. Living together, people formed common habits and behaviors, from specific methods of childrearing to preferred techniques for obtaining food.",
+          "original_page": 77,
+          "florida_page": 48
         },
         {
-          "type": "removed",
-          "original_text": "Almost every human behavior, from shopping to marriage, is learned. In the U.S., marriage is generally seen as an individual choice made by two adults, based on mutual feelings of love. In other nations and in other times, marriages have been arranged through an intricate process of interviews and negotiations between entire families. In Papua New Guinea, almost 30 percent of women marry before the age of 18, and 8 percent of men have more than one wife (National Statistical Office, 2019). To people who are not from such a culture, arranged marriages may seem to have risks of incompatibility or the absence of romantic love. But many people from cultures where marriages are arranged, which includes a number of highly populated and modern countries, often prefer the approach because it reduces stress and increases stability (Jankowiak 2021).",
-          "change_id": null,
-          "original_page": 77
+          "type": "same",
+          "text": "Almost every human behavior, from shopping to marriage, is learned. In the U.S., marriage is generally seen as an individual choice made by two adults, based on mutual feelings of love. In other nations and in other times, marriages have been arranged through an intricate process of interviews and negotiations between entire families. In Papua New Guinea, almost 30 percent of women marry before the age of 18, and 8 percent of men have more than one wife (National Statistical Office, 2019). To people who are not from such a culture, arranged marriages may seem to have risks of incompatibility or the absence of romantic love. But many people from cultures where marriages are arranged, which includes a number of highly populated and modern countries, often prefer the approach because it reduces stress and increases stability (Jankowiak 2021).",
+          "original_page": 77,
+          "florida_page": 48
         },
         {
           "type": "removed",
@@ -85,22 +85,22 @@
           "original_page": 77
         },
         {
-          "type": "removed",
-          "original_text": "Take the case of going to work on public transportation. Whether people are commuting in Egypt, Ireland, India, Japan, and the U.S., many behaviors will be the same and may reveal patterns. Others will be different. In many societies that enjoy public transportation, a passenger will find a marked bus stop or station, wait for the bus or train, pay an agent before or after boarding, and quietly take a seat if one is available. But when boarding a bus in Cairo, Egypt, passengers might board while the bus is moving, because buses often do not come to a full stop to take on patrons. In Dublin, Ireland, bus riders would be expected to extend an arm to indicate that they want the bus to stop for them. And when boarding a commuter train in Mumbai, India, passengers must squeeze into overstuffed cars amid a lot of pushing and shoving on the crowded platforms. That kind of behavior might be considered rude in other societies, but in Mumbai it reflects the daily challenges of getting around on a train system that is taxed to capacity.",
-          "change_id": null,
-          "original_page": 77
+          "type": "same",
+          "text": "Take the case of going to work on public transportation. Whether people are commuting in Egypt, Ireland, India, Japan, and the U.S., many behaviors will be the same and may reveal patterns. Others will be different. In many societies that enjoy public transportation, a passenger will find a marked bus stop or station, wait for the bus or train, pay an agent before or after boarding, and quietly take a seat if one is available. But when boarding a bus in Cairo, Egypt, passengers might board while the bus is moving, because buses often do not come to a full stop to take on patrons. In Dublin, Ireland, bus riders would be expected to extend an arm to indicate that they want the bus to stop for them. And when boarding a commuter train in Mumbai, India, passengers must squeeze into overstuffed cars amid a lot of pushing and shoving on the crowded platforms. That kind of behavior might be considered rude in other societies, but in Mumbai it reflects the daily challenges of getting around on a train system that is taxed to capacity.",
+          "original_page": 77,
+          "florida_page": 48
         },
         {
-          "type": "removed",
-          "original_text": "Culture can be material or nonmaterial. Metro passes and bus tokens are part of material culture, as are the buses, subway cars, and the physical structures of the bus stop. Think of material culture as items you can touch-they are tangible. Nonmaterial culture, in contrast, consists of the ideas, attitudes, and beliefs of a society. These are things you cannot touch. They are intangible. You may believe that a line should be formed to enter the subway car or that other passengers should not stand so close to you. Those beliefs are intangible because they do not have physical properties and can be touched.",
-          "change_id": null,
-          "original_page": 77
+          "type": "same",
+          "text": "Culture can be material or nonmaterial. Metro passes and bus tokens are part of material culture, as are the buses, subway cars, and the physical structures of the bus stop. Think of material culture as items you can touch-they are tangible. Nonmaterial culture, in contrast, consists of the ideas, attitudes, and beliefs of a society. These are things you cannot touch. They are intangible. You may believe that a line should be formed to enter the subway car or that other passengers should not stand so close to you. Those beliefs are intangible because they do not have physical properties and can be touched.",
+          "original_page": 77,
+          "florida_page": 48
         },
         {
-          "type": "removed",
-          "original_text": "Material and nonmaterial aspects of culture are linked, and physical objects often symbolize cultural ideas. A metro pass is a material object, but it represents a form of nonmaterial culture, namely, capitalism, and the acceptance of paying for transportation. Clothing, hairstyles, and jewelry are part of material culture, but the appropriateness of wearing certain clothing for specific events reflects nonmaterial culture. A school building belongs to material culture symbolizing education, but the teaching methods and educational standards are part of education’s nonmaterial culture.",
-          "change_id": null,
-          "original_page": 77
+          "type": "same",
+          "text": "Material and nonmaterial aspects of culture are linked, and physical objects often symbolize cultural ideas. A metro pass is a material object, but it represents a form of nonmaterial culture, namely, capitalism, and the acceptance of paying for transportation. Clothing, hairstyles, and jewelry are part of material culture, but the appropriateness of wearing certain clothing for specific events reflects nonmaterial culture. A school building belongs to material culture symbolizing education, but the teaching methods and educational standards are part of education’s nonmaterial culture.",
+          "original_page": 77,
+          "florida_page": 48
         },
         {
           "type": "removed",
@@ -109,10 +109,10 @@
           "original_page": 77
         },
         {
-          "type": "removed",
-          "original_text": "Although cultures vary, they also share common elements. Cultural universals are patterns or traits that are globally common to all societies. One example of a cultural universal is the family unit: every human society recognizes a family structure that regulates sexual reproduction and the care of children. Even so, how that family unit is defined and how it functions vary. In many Asian cultures, for example, family members from all generations commonly live together in one household. In these cultures, young adults continue to live in the extended household family structure until they marry and join their spouse’s household, or they may remain and raise their nuclear family within the extended family’s homestead. In the U.S., by contrast, individuals are expected to leave home and live independently for a period before forming a family unit that consists of parents and their offspring. Other cultural universals include customs like funeral rites, weddings, and celebrations of births. However, each culture may view and conduct the ceremonies quite differently.",
-          "change_id": null,
-          "original_page": 77
+          "type": "same",
+          "text": "Although cultures vary, they also share common elements. Cultural universals are patterns or traits that are globally common to all societies. One example of a cultural universal is the family unit: every human society recognizes a family structure that regulates sexual reproduction and the care of children. Even so, how that family unit is defined and how it functions vary. In many Asian cultures, for example, family members from all generations commonly live together in one household. In these cultures, young adults continue to live in the extended household family structure until they marry and join their spouse’s household, or they may remain and raise their nuclear family within the extended family’s homestead. In the U.S., by contrast, individuals are expected to leave home and live independently for a period before forming a family unit that consists of parents and their offspring. Other cultural universals include customs like funeral rites, weddings, and celebrations of births. However, each culture may view and conduct the ceremonies quite differently.",
+          "original_page": 77,
+          "florida_page": 48
         },
         {
           "type": "removed",
@@ -135,12 +135,6 @@
           "context": "The specific example referencing Anthony Bourdain and unfamiliar foods is removed; the passage is made more abstract.",
           "original_evidence": "img/evidence/ch03/change_17_original.webp",
           "florida_evidence": "img/evidence/ch03/change_17_florida.webp"
-        },
-        {
-          "type": "added",
-          "florida_text": "Humans have been forming groups for almost 3 million years in order to survive. Living together, people form common habits and behaviors ranging from specific methods of childrearing to preferred techniques for obtaining food. Almost every human behavior is learned. In the U.S., marriage is generally seen as an individual choice made by two adults, based on mutual feelings of love. In other nations and in other periods of history, marriages were arranged through an intricate process of interviews and negotiations between entire families. In Papua New Guinea, almost 30 percent of women marry before the age of 18, and 8 percent of men have more than one wife (National Statistical Office, 2019). Arranged marriages may seem incompatibility with romantic love for those in cultures where marriage is viewed as a personal choice. People from cultures where marriages are arranged report perceive it to reduce stress and increase stability of marriages (Jankowiak 2021). Knowing unwritten rules is fundamental in understanding how to behave. Take the case of going to work on public transportation. In many societies that enjoy public transportation, a passenger will find a marked bus stop or station, wait for the bus or train, pay an agent before or after boarding, and quietly take a seat if one is available. But when boarding a bus in Cairo, Egypt, passengers might board while the bus is moving, because buses often do not come to a full stop to take on patrons. In Dublin, Ireland, bus riders would be expected to extend an arm to indicate that they want the bus to stop for them. And when boarding a commuter train in Mumbai, India, passengers must squeeze into overstuffed cars amid a lot of pushing and shoving on the crowded platforms, which could be viewed as rude in other societies. Culture can be material or nonmaterial. Material culture are items you can touch-they are tangible. Nonmaterial culture, in contrast, consists of the ideas, attitudes, and beliefs of a society. These are things you cannot touch. You may believe that a line should be formed to enter the subway car or that other passengers should not stand so close to you. Those beliefs are intangible because they do not have physical properties and can be touched. Material and nonmaterial aspects of culture are linked. Physical objects often symbolize cultural ideas. A metro pass is a material object that can symbolize broader social and economic systems—for example, the exchange of money for services within a capitalist economy. Clothing, hairstyles, and jewelry are part of material culture, but the appropriateness of wearing certain clothing for specific events reflects nonmaterial culture. A school building belongs to material culture symbolizing education, but the teaching methods and educational standards are part of education’s nonmaterial culture. What happens when we encounter different cultures? As we interact with cultures other than our own, we become more aware of the differences and commonalities between others and our own. By examining cultures other than our own, we can develop a deeper understanding of both their distinct characteristics and the universal patterns of human behavior. Cultural Universals Cultural universals are patterns or traits that are globally common to all societies. Anthropologist George Murdock first investigated the existence of cultural universals while studying systems of kinship around the world. One example of a cultural universal is the family unit: every human society recognizes a family structure that regulates sexual reproduction and the care of children. Even so, how that family unit is defined and how it functions vary. In many Asian cultures, for example, family members from all generations commonly live together in one household. In these cultures, young adults continue to live in the extended household family structure until they marry and join their spouse’s household, or they may remain and raise their nuclear family within the extended family’s homestead. In the U.S., by contrast, individuals usually leave home and live independently before forming a family unit that consists of parents and their offspring. Murdock also identified humor as a universal way to release tensions and create a sense of unity among people (Murdock, 1949). Sociologists consider humor necessary to human interaction because it helps individuals navigate otherwise tense situations. Ethnocentrism and Cultural Relativism Cultural differences are far more prevalent than cultural universals. For example, while all cultures have language, analysis of conversational etiquette reveals tremendous differences. In some Middle Eastern cultures, it is common to",
-          "change_id": null,
-          "florida_page": 48
         },
         {
           "type": "added",
@@ -226,10 +220,12 @@
       "florida_heading": "3.2 Elements of Culture",
       "blocks": [
         {
-          "type": "removed",
+          "type": "modified",
           "original_text": "The first, and perhaps most crucial, elements of culture we will discuss are values and beliefs. Value does not mean monetary worth in sociology, but rather ideals, or principles and standards members of a culture hold in high regard. Most cultures in any society hold “knowledge” (education) in high regard. Values are deeply embedded and are critical for learning a culture’s beliefs, which are the tenets or convictions that people hold to be true. Individual cultures in a society have personal beliefs, but they also shared collective values. To illustrate the difference, U.S. citizens may believe in the American Dream—that anyone who works hard enough will be successful and wealthy. Underlying this belief is the American value that wealth is important. In other cultures, success may be tied less to wealth and more to having many healthy children. Values shape a society by suggesting what is good and bad, beautiful and ugly, sought or avoided.",
+          "florida_text": "Values and Beliefs The first, and perhaps most crucial, elements of culture are values and beliefs. Value does not mean monetary worth in sociology, but rather ideals, or principles and standards members of a culture hold in high regard. A key value for most cultures in any society is “knowledge” (education). Values are deeply embedded and are critical for learning a culture’s beliefs, which are the tenets or convictions that people hold to be true.",
           "change_id": null,
-          "original_page": 83
+          "original_page": 83,
+          "florida_page": 48
         },
         {
           "type": "removed",
@@ -240,27 +236,21 @@
           "original_evidence": "img/evidence/ch03/change_8_original.webp"
         },
         {
-          "type": "removed",
-          "original_text": "Values often suggest how people should behave, but they don’t accurately reflect how people do behave. Values portray an ideal culture, the standards society would like to embrace and live up to. But ideal culture differs from real culture. In an ideal culture, there would be no traffic accidents, murders, poverty, or racial tension. But in real culture, police officers, lawmakers, educators, and social workers constantly strive to prevent or address these issues. American teenagers are encouraged to value celibacy. However, the number of unplanned pregnancies among teens reveals that the ideal alone is not enough to spare teenagers the potential consequences of having sex.",
-          "change_id": null,
-          "original_page": 85
-        },
-        {
-          "type": "removed",
-          "original_text": "One of the ways societies strive to maintain its values is through rewards and punishments. When people observe the norms of society and uphold its values, they are often rewarded. A boy who helps an elderly woman board a bus may receive a smile and a “thank you.” A business manager who raises profit margins may receive a quarterly bonus. People sanction unwanted or inappropriate behaviors by withholding support, approval, or permission, or by implementing sanctions. We may think of ‘sanction’ as a negative term, but sanctions are forms of social control, ways to encourage conformity to cultural norms or rules. Sometimes people conform to norms in anticipation or expectation of positive sanctions. Receiving good grades, for instance, may mean praise from parents and teachers. Sanctions can also be negative. . A boy who shoves an elderly woman aside to board the bus first may receive frowns or even a scolding from other passengers. A business manager who drives away customers will likely be fired. Breaking norms and rejecting values can lead to cultural sanctions such as earning a negative label like ‘lazy’ or to legal sanctions, such as traffic tickets, fines, or imprisonment. Utilizing social control encourages most people to conform regardless of whether authority figures (such as law enforcement) are present.",
-          "change_id": null,
-          "original_page": 85
-        },
-        {
           "type": "added",
-          "florida_text": "Values and Beliefs The first, and perhaps most crucial, elements of culture are values and beliefs. Value does not mean monetary worth in sociology, but rather ideals, or principles and standards members of a culture hold in high regard. A key value for most cultures in any society is “knowledge” (education). Values are deeply embedded and are critical for learning a culture’s beliefs, which are the tenets or convictions that people hold to be true.",
+          "florida_text": "Figure 3.2 Experiencing an entirely new practice may lead to a high degree of interest or a level of criticism. The Indegenous people of Sagada, in the Philippines, have for thousands of years placed the bodies of deceased people into coffins hung on the cliffs near their villages. Some visitors may find this practice admirable, while others may think it’s inappropriate. (Credit: Arian Zwegers/flickr)",
           "change_id": null,
           "florida_page": 48
         },
         {
-          "type": "added",
-          "florida_text": "Figure 3.2 Experiencing an entirely new practice may lead to a high degree of interest or a level of criticism. The Indegenous people of Sagada, in the Philippines, have for thousands of years placed the bodies of deceased people into coffins hung on the cliffs near their villages. Some visitors may find this practice admirable, while others may think it’s inappropriate. (Credit: Arian Zwegers/flickr)",
-          "change_id": null,
+          "type": "same",
+          "text": "Values often suggest how people should behave, but they don’t accurately reflect how people do behave. Values portray an ideal culture, the standards society would like to embrace and live up to. But ideal culture differs from real culture. In an ideal culture, there would be no traffic accidents, murders, poverty, or racial tension. But in real culture, police officers, lawmakers, educators, and social workers constantly strive to prevent or address these issues. American teenagers are encouraged to value celibacy. However, the number of unplanned pregnancies among teens reveals that the ideal alone is not enough to spare teenagers the potential consequences of having sex.",
+          "original_page": 85,
+          "florida_page": 48
+        },
+        {
+          "type": "same",
+          "text": "One of the ways societies strive to maintain its values is through rewards and punishments. When people observe the norms of society and uphold its values, they are often rewarded. A boy who helps an elderly woman board a bus may receive a smile and a “thank you.” A business manager who raises profit margins may receive a quarterly bonus. People sanction unwanted or inappropriate behaviors by withholding support, approval, or permission, or by implementing sanctions. We may think of ‘sanction’ as a negative term, but sanctions are forms of social control, ways to encourage conformity to cultural norms or rules. Sometimes people conform to norms in anticipation or expectation of positive sanctions. Receiving good grades, for instance, may mean praise from parents and teachers. Sanctions can also be negative. . A boy who shoves an elderly woman aside to board the bus first may receive frowns or even a scolding from other passengers. A business manager who drives away customers will likely be fired. Breaking norms and rejecting values can lead to cultural sanctions such as earning a negative label like ‘lazy’ or to legal sanctions, such as traffic tickets, fines, or imprisonment. Utilizing social control encourages most people to conform regardless of whether authority figures (such as law enforcement) are present.",
+          "original_page": 85,
           "florida_page": 48
         },
         {
@@ -276,10 +266,10 @@
           "original_page": 85
         },
         {
-          "type": "removed",
-          "original_text": "Formal norms are established, written rules existing in all societies. They support many social institutions, such as the military, criminal justice and healthcare systems, and public schools. Functionalists may question what purpose these norms serve, conflict theorists might be interested in who creates, benefits, and suffers under these formal norms, and symbolic interactionists wonder about how a group that benefits interacts. Laws are formal norms, but so are employee manuals, college entrance exam requirements, and “no running” signs at swimming pools. Formal norms are the most specific and clearly stated of the various types of norms, and they are the most strictly enforced. But they are enforced to varying degrees.",
-          "change_id": null,
-          "original_page": 85
+          "type": "same",
+          "text": "Formal norms are established, written rules existing in all societies. They support many social institutions, such as the military, criminal justice and healthcare systems, and public schools. Functionalists may question what purpose these norms serve, conflict theorists might be interested in who creates, benefits, and suffers under these formal norms, and symbolic interactionists wonder about how a group that benefits interacts. Laws are formal norms, but so are employee manuals, college entrance exam requirements, and “no running” signs at swimming pools. Formal norms are the most specific and clearly stated of the various types of norms, and they are the most strictly enforced. But they are enforced to varying degrees.",
+          "original_page": 85,
+          "florida_page": 48
         },
         {
           "type": "removed",
@@ -288,10 +278,10 @@
           "original_page": 85
         },
         {
-          "type": "removed",
-          "original_text": "There are plenty of formal norms, but the list of informal norms—casual behaviors that are generally and widely conformed to—is longer. People learn informal norms by observation, imitation, and general socialization. Some informal norms are taught directly— “Kiss your Aunt Edna” or “Use your napkin”—while others are learned by observation, including understanding consequences when someone else violates a norm. Informal norms dictate appropriate behaviors without the need of written rules and so may be difficult to learn when you are new to or not familiar with the culture.",
-          "change_id": null,
-          "original_page": 85
+          "type": "same",
+          "text": "There are plenty of formal norms, but the list of informal norms—casual behaviors that are generally and widely conformed to—is longer. People learn informal norms by observation, imitation, and general socialization. Some informal norms are taught directly— “Kiss your Aunt Edna” or “Use your napkin”—while others are learned by observation, including understanding consequences when someone else violates a norm. Informal norms dictate appropriate behaviors without the need of written rules and so may be difficult to learn when you are new to or not familiar with the culture.",
+          "original_page": 85,
+          "florida_page": 48
         },
         {
           "type": "removed",
@@ -324,10 +314,10 @@
           "original_page": 85
         },
         {
-          "type": "removed",
-          "original_text": "Folkways are actions that people everywhere take for granted. People need to act without thinking in order to get seamlessly through daily routines. They can’t stop and analyze every action (Sumner, 1906). Folkways might be small actions, learned by observation and imitated, but they are by no means trivial. An important folkway in many cultures is kissing Grandmother on the cheek. Fail to do so and you will likely be scolded.",
-          "change_id": null,
-          "original_page": 85
+          "type": "same",
+          "text": "Folkways are actions that people everywhere take for granted. People need to act without thinking in order to get seamlessly through daily routines. They can’t stop and analyze every action (Sumner, 1906). Folkways might be small actions, learned by observation and imitated, but they are by no means trivial. An important folkway in many cultures is kissing Grandmother on the cheek. Fail to do so and you will likely be scolded.",
+          "original_page": 85,
+          "florida_page": 48
         },
         {
           "type": "same",
@@ -348,10 +338,10 @@
           "original_page": 85
         },
         {
-          "type": "removed",
-          "original_text": "Some symbols represent only one side of the story and elicit strong emotions, which can lead to social unrest. Their presence is a reminder of a nation’s worst times and not something to celebrate. Many of these symbols are targets of vandalism as the destruction of these representations is symbolic. Effigies representing public figures are burned to demonstrate anger at certain leaders. In 1989, crowds tore down the Berlin Wall, a decades-old symbol of the division between East and West Germany, communism, and capitalism. In the U.S. beginning in 2019, statues associated with slavery and the Civil War were removed from state capitols, college campuses, and public parks. In Germany, any display of Hitler or Nazi memorabilia or to deny the Holocaust is illegal.",
-          "change_id": null,
-          "original_page": 85
+          "type": "same",
+          "text": "Some symbols represent only one side of the story and elicit strong emotions, which can lead to social unrest. Their presence is a reminder of a nation’s worst times and not something to celebrate. Many of these symbols are targets of vandalism as the destruction of these representations is symbolic. Effigies representing public figures are burned to demonstrate anger at certain leaders. In 1989, crowds tore down the Berlin Wall, a decades-old symbol of the division between East and West Germany, communism, and capitalism. In the U.S. beginning in 2019, statues associated with slavery and the Civil War were removed from state capitols, college campuses, and public parks. In Germany, any display of Hitler or Nazi memorabilia or to deny the Holocaust is illegal.",
+          "original_page": 85,
+          "florida_page": 48
         },
         {
           "type": "same",
@@ -372,10 +362,10 @@
           "florida_page": 48
         },
         {
-          "type": "removed",
-          "original_text": "English today contains an English and French version for the same concept. For example, in the English version, one eats, but in French version, one dines. In the English version, we meet someone. In the French version, we encounter someone. Readers of American English may be surprised by the inclusion of a ‘u’ in some spellings of words like ‘behaviour’ or ‘flavour.’ Americans have dropped that ‘u’ that writers of British English include. Billions of people speak English, and there are almost as many pronunciations of it.",
-          "change_id": null,
-          "original_page": 85
+          "type": "same",
+          "text": "English today contains an English and French version for the same concept. For example, in the English version, one eats, but in French version, one dines. In the English version, we meet someone. In the French version, we encounter someone. Readers of American English may be surprised by the inclusion of a ‘u’ in some spellings of words like ‘behaviour’ or ‘flavour.’ Americans have dropped that ‘u’ that writers of British English include. Billions of people speak English, and there are almost as many pronunciations of it.",
+          "original_page": 85,
+          "florida_page": 48
         },
         {
           "type": "removed",
@@ -911,15 +901,15 @@
           "florida_page": 48
         },
         {
-          "type": "removed",
-          "original_text": "In industrial societies, mechanical solidarity is replaced with organic solidarity, which is social order based around an acceptance of economic and social differences. In capitalist societies, Durkheim wrote, division of labor becomes so specialized that everyone is doing different things. Instead of punishing members of a society for failure to assimilate to common values, organic solidarity allows people with differing values to coexist. Laws exist as formalized morals and are based on restitution rather than revenge.",
-          "change_id": null,
-          "original_page": 85
-        },
-        {
           "type": "added",
           "florida_text": "Figure 3.9 Billionaire philanthropist and former corporate CEO Warren Buffett’s ideas about taxation and spending habits of the very wealthy are controversial, particularly since they raise questions about America’s embedded system of class structure and social power. The three major sociological paradigms differ in their perspectives on these issues. (Credit: Medill DC/flickr)",
           "change_id": null,
+          "florida_page": 48
+        },
+        {
+          "type": "same",
+          "text": "In industrial societies, mechanical solidarity is replaced with organic solidarity, which is social order based around an acceptance of economic and social differences. In capitalist societies, Durkheim wrote, division of labor becomes so specialized that everyone is doing different things. Instead of punishing members of a society for failure to assimilate to common values, organic solidarity allows people with differing values to coexist. Laws exist as formalized morals and are based on restitution rather than revenge.",
+          "original_page": 85,
           "florida_page": 48
         },
         {
@@ -953,15 +943,15 @@
           "original_page": 85
         },
         {
-          "type": "removed",
-          "original_text": "Add to that the long hours, the use of child labor, and exposure to extreme conditions of heat, cold, and toxic chemicals, and it is no wonder that Marx and Engels referred to capitalism, which is a way of organizing an economy so that the things that are used to make and transport products (such as land, oil, factories, ships, etc.) are owned by individual people and companies rather than by the government, as the “dictatorship of the bourgeoisie.”",
-          "change_id": null,
-          "original_page": 85
-        },
-        {
           "type": "added",
           "florida_text": "Figure 3.10 Karl Marx asserted that all elements of a society’s structure depend on its economic structure.",
           "change_id": null,
+          "florida_page": 48
+        },
+        {
+          "type": "same",
+          "text": "Add to that the long hours, the use of child labor, and exposure to extreme conditions of heat, cold, and toxic chemicals, and it is no wonder that Marx and Engels referred to capitalism, which is a way of organizing an economy so that the things that are used to make and transport products (such as land, oil, factories, ships, etc.) are owned by individual people and companies rather than by the government, as the “dictatorship of the bourgeoisie.”",
+          "original_page": 85,
           "florida_page": 48
         },
         {
@@ -1080,10 +1070,10 @@
           "florida_page": 60
         },
         {
-          "type": "removed",
-          "original_text": "In 1966 sociologists Peter Berger and Thomas Luckmann wrote a book called The Social Construction of Reality. In it, they argued that society is created by humans and human interaction, which they call habitualization. Habitualization describes how “any action that is repeated frequently becomes cast into a pattern, which can then be … performed again in the future in the same manner and with the same economical effort” (Berger and Luckmann 1966). Not only do we construct our own society but we also accept it as it is because others have created it before us. Society is, in fact, “habit.”",
-          "change_id": null,
-          "original_page": 119
+          "type": "same",
+          "text": "In 1966 sociologists Peter Berger and Thomas Luckmann wrote a book called The Social Construction of Reality. In it, they argued that society is created by humans and human interaction, which they call habitualization. Habitualization describes how “any action that is repeated frequently becomes cast into a pattern, which can then be … performed again in the future in the same manner and with the same economical effort” (Berger and Luckmann 1966). Not only do we construct our own society but we also accept it as it is because others have created it before us. Society is, in fact, “habit.”",
+          "original_page": 119,
+          "florida_page": 60
         },
         {
           "type": "added",
@@ -1116,10 +1106,10 @@
           "florida_page": 60
         },
         {
-          "type": "removed",
-          "original_text": "As you can imagine, people employ many types of behaviors in day-to-day life. Roles are patterns of behavior that we recognize in each other that are representative of a person’s social status. Currently, while reading this text, you are playing the role of a student. However, you also play other roles in your life, such as “daughter,” “neighbor,” or “employee.” These various roles are each associated with a different status.",
-          "change_id": null,
-          "original_page": 119
+          "type": "same",
+          "text": "As you can imagine, people employ many types of behaviors in day-to-day life. Roles are patterns of behavior that we recognize in each other that are representative of a person’s social status. Currently, while reading this text, you are playing the role of a student. However, you also play other roles in your life, such as “daughter,” “neighbor,” or “employee.” These various roles are each associated with a different status.",
+          "original_page": 119,
+          "florida_page": 60
         },
         {
           "type": "added",

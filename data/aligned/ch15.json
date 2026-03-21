@@ -1025,22 +1025,22 @@
           "florida_page": 203
         },
         {
-          "type": "removed",
-          "original_text": "Endeavors to gain power and influence do not necessarily lead to violence, exploitation, or abuse. Leaders such as Martin Luther King Jr. and Mohandas Gandhi, for example, commanded powerful movements that effected positive change without military force. Both men organized nonviolent protests to combat corruption and injustice and succeeded in inspiring major reform. They relied on a variety of nonviolent protest strategies, such as rallies, sit-ins, marches, petitions, and boycotts.",
+          "type": "added",
+          "florida_text": "Figure 10.13 Government buildings are built to symbolize authority, but they also represent a specific perspective or message. The Capitol Complex in Bangladesh, Sher-e-Bangla Nagar, was designed to capture the essence of an entirely new country. Rather than the fortress- like, Greek- and Roman-inspired structures of many government buildings, architect Louis Kahn set the rounded, asymmetrical, modern complex within an artificial lake, with many open spaces exposed to the elements (Credit: Lykantrop/Wikimedia Commons)",
           "change_id": null,
-          "original_page": 467
+          "florida_page": 203
+        },
+        {
+          "type": "same",
+          "text": "Endeavors to gain power and influence do not necessarily lead to violence, exploitation, or abuse. Leaders such as Martin Luther King Jr. and Mohandas Gandhi, for example, commanded powerful movements that effected positive change without military force. Both men organized nonviolent protests to combat corruption and injustice and succeeded in inspiring major reform. They relied on a variety of nonviolent protest strategies, such as rallies, sit-ins, marches, petitions, and boycotts.",
+          "original_page": 467,
+          "florida_page": 203
         },
         {
           "type": "removed",
           "original_text": "Modern technology has made such forms of nonviolent reform easier to implement. Often, protesters can use cell phones and the Internet to disseminate information and plans to masses of protesters in a rapid and efficient manner. Some governments like Myanmar, China, and Russia tamp down communication and protest through platform bans or Internet blocks (see the Media and Technology chapter for more information). But in the Arab Spring uprisings of 2010-11, for example, Twitter feeds and other social media helped protesters coordinate their movements, share ideas, and bolster morale, as well as gain global support for their causes. Social media was also important in getting accurate accounts of the demonstrations out to the world, in contrast to many earlier situations in which government control of the media censored news reports. Notice that in these examples, the users of power were the citizens rather than the governments. They found they had power because they were able to exercise their will over their own leaders. Thus, government power does not necessarily equate to absolute power.",
           "change_id": null,
           "original_page": 467
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 10.13 Government buildings are built to symbolize authority, but they also represent a specific perspective or message. The Capitol Complex in Bangladesh, Sher-e-Bangla Nagar, was designed to capture the essence of an entirely new country. Rather than the fortress- like, Greek- and Roman-inspired structures of many government buildings, architect Louis Kahn set the rounded, asymmetrical, modern complex within an artificial lake, with many open spaces exposed to the elements (Credit: Lykantrop/Wikimedia Commons)",
-          "change_id": null,
-          "florida_page": 203
         },
         {
           "type": "same",
@@ -1067,21 +1067,21 @@
           "florida_page": 203
         },
         {
-          "type": "removed",
-          "original_text": "A more modern form of traditional authority is patrimonialism, which is traditional domination facilitated by an administration and military that are purely personal instruments of the master (Eisenberg 1998). In this form of authority, all officials are personal favorites appointed by the ruler. These officials have no rights, and their privileges can be increased or withdrawn based on the caprices of the leader. The political organization of ancient Egypt typified such a system: when the royal household decreed that a pyramid be built, every Egyptian was forced to work toward its construction.",
-          "change_id": null,
-          "original_page": 467
-        },
-        {
-          "type": "removed",
-          "original_text": "Traditional authority can be intertwined with race, class, and gender. In most societies, for instance, men are more likely to be privileged than women and thus are more likely to hold roles of authority. Similarly, members of dominant racial groups or upper-class families also win respect more readily. In the United States, the Kennedy family, which has produced many prominent politicians, exemplifies this model.",
-          "change_id": null,
-          "original_page": 467
+          "type": "same",
+          "text": "A more modern form of traditional authority is patrimonialism, which is traditional domination facilitated by an administration and military that are purely personal instruments of the master (Eisenberg 1998). In this form of authority, all officials are personal favorites appointed by the ruler. These officials have no rights, and their privileges can be increased or withdrawn based on the caprices of the leader. The political organization of ancient Egypt typified such a system: when the royal household decreed that a pyramid be built, every Egyptian was forced to work toward its construction.",
+          "original_page": 467,
+          "florida_page": 203
         },
         {
           "type": "added",
           "florida_text": "Figure 10.14 Nazi leader Adolf Hitler was one of the most powerful and destructive dictators in modern history. He is pictured here with fascist Benito Mussolini of Italy. (Credit: U.S. National Archives and Records Administration)",
           "change_id": null,
+          "florida_page": 203
+        },
+        {
+          "type": "same",
+          "text": "Traditional authority can be intertwined with race, class, and gender. In most societies, for instance, men are more likely to be privileged than women and thus are more likely to hold roles of authority. Similarly, members of dominant racial groups or upper-class families also win respect more readily. In the United States, the Kennedy family, which has produced many prominent politicians, exemplifies this model.",
+          "original_page": 467,
           "florida_page": 203
         },
         {

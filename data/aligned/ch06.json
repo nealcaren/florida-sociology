@@ -230,16 +230,10 @@
           "florida_page": 138
         },
         {
-          "type": "removed",
-          "original_text": "Leadership function refers to the main goal of the leader, which may be instrumental or expressive. An instrumental leader is one who is goal-oriented and largely concerned with accomplishing set tasks. We can imagine that an army general or a Fortune 500 CEO would be an instrumental leader. In contrast, expressive leaders are more concerned with promoting emotional strength and health, and ensuring that people feel supported. Social and religious leaders—rabbis, priests, imams, directors of youth homes and social service programs—are often perceived as expressive leaders. Sometimes people expect men to take on instrumental roles and women to assume expressive roles. Women and men who exhibit the other-gender manner can be seen as deviants and can encounter resistance. Yet, both men and women prefer leaders who use a combination of expressive and instrumental leadership (Boatwright and Forrest, 2000).",
-          "change_id": null,
-          "original_page": 163
-        },
-        {
-          "type": "removed",
-          "original_text": "Sociologists recognize three leadership styles. Democratic leaders encourage group participation in all decision making. They work hard to build consensus before choosing a course of action and moving forward. This type of leader is particularly common, for example, in a club where the members vote on which activities or projects to pursue. Democratic leaders can be well liked, but there is often a danger that decisions will proceed slowly since consensus building is time-consuming. A further risk is that group members might pick sides and entrench themselves into opposing factions rather than reaching a solution.",
-          "change_id": null,
-          "original_page": 163
+          "type": "same",
+          "text": "Leadership function refers to the main goal of the leader, which may be instrumental or expressive. An instrumental leader is one who is goal-oriented and largely concerned with accomplishing set tasks. We can imagine that an army general or a Fortune 500 CEO would be an instrumental leader. In contrast, expressive leaders are more concerned with promoting emotional strength and health, and ensuring that people feel supported. Social and religious leaders—rabbis, priests, imams, directors of youth homes and social service programs—are often perceived as expressive leaders. Sometimes people expect men to take on instrumental roles and women to assume expressive roles. Women and men who exhibit the other-gender manner can be seen as deviants and can encounter resistance. Yet, both men and women prefer leaders who use a combination of expressive and instrumental leadership (Boatwright and Forrest, 2000).",
+          "original_page": 163,
+          "florida_page": 138
         },
         {
           "type": "added",
@@ -248,9 +242,9 @@
           "florida_page": 138
         },
         {
-          "type": "added",
-          "florida_text": "resistance. However, research suggests that effective leaders—regardless of gender—combine both instrumental and expressive skills (Boatwright and Forrest, 2000). Sociologists recognize three leadership styles. Democratic leaders encourage group participation in all decision making. They work hard to build consensus before choosing a course of action and moving forward. This type of leader is particularly common, for example, in a club where the members vote on which activities or projects to pursue. Democratic leaders can be well liked, but there is often a danger that decisions will proceed slowly since consensus Sociological Research Conforming to Expectations In 1951, psychologist Solomon Asch sat a small group of about eight people around a table. Only one of the people sitting there was the true subject; the rest were associates of the experimenter. However, the subject was led to believe that the others were all, like him, people brought in for an experiment in visual judgments. The group was shown two cards, the first card with a single vertical line, and the second card with three vertical lines differing in length. The experimenter polled the group and asked each participant one at a time which line on the second card matched up with the line on the first card. However, this was not really a test of visual judgment. Rather, it was Asch’s study on the pressures of conformity. He was curious to see what the effect of multiple wrong answers would be on the subject, who presumably was able to tell which lines matched. To test this, Asch had each planted respondent answer in a specific way. The subject was seated in such a way that he had to hear almost everyone else’s answers before it was his turn. Sometimes the non-subject members would unanimously choose an answer that was clearly wrong. So what was the conclusion? Asch found that thirty-seven out of fifty test subjects responded with an “obviously erroneous” answer at least once. When faced by a unanimous wrong answer from the rest of the group, the subject conformed to a mean of four of the staged answers. Asch revised the study and repeated it, wherein the subject still heard the staged wrong answers, but was allowed to write down his answer rather than speak it aloud. In this version, the number of examples of conformity––giving an incorrect answer so as not to contradict the group––fell by two thirds. He also found that group size had an impact on how much pressure the subject felt to conform. The results showed that speaking up when only one other person gave an erroneous answer was far more common than when five or six people defended the incorrect position. Finally, Asch discovered that people were far more likely to give the correct answer in the face of near-unanimous consent if they had a single ally. If even one person in the group also dissented, the subject conformed only a quarter as often. Clearly, it was easier to be a minority of two than a minority of one. Asch concluded that there are two main causes for conformity: people want to be liked by the group or they believe the group is better informed than they are. He found his study results disturbing. To him, they revealed that intelligent, well-educated people would, with very little coaxing, go along with an untruth. He believed this result highlighted real problems with the education system and values in our society (Asch 1956). Stanley Milgram, a Yale psychologist, had similar results in his experiment that is now known simply as the Milgram Experiment. In 1962, Milgram found that research subjects were willing to perform acts that directly conflicted with their consciences when directed by a person of authority. In the experiment, subjects were willing to administer painful, even supposedly deadly, shocks to others who answered questions incorrectly. To learn more about similar research, visit http://www.prisonexp.org/",
-          "change_id": null,
+          "type": "same",
+          "text": "Sociologists recognize three leadership styles. Democratic leaders encourage group participation in all decision making. They work hard to build consensus before choosing a course of action and moving forward. This type of leader is particularly common, for example, in a club where the members vote on which activities or projects to pursue. Democratic leaders can be well liked, but there is often a danger that decisions will proceed slowly since consensus building is time-consuming. A further risk is that group members might pick sides and entrench themselves into opposing factions rather than reaching a solution.",
+          "original_page": 163,
           "florida_page": 138
         },
         {
@@ -345,15 +339,11 @@
       "florida_heading": "7.3 Formal Organizations",
       "blocks": [
         {
-          "type": "removed",
+          "type": "modified",
           "original_text": "A complaint of modern life is that society is dominated by large and impersonal secondary organizations. From schools to businesses to healthcare to government, these organizations, referred to as formal organizations, are highly bureaucratized. Indeed, all formal organizations are, or likely will become, bureaucracies. We will discuss the purpose of formal organizations and the structure of their bureaucracies.",
-          "change_id": null,
-          "original_page": 163
-        },
-        {
-          "type": "added",
           "florida_text": "A complaint of modern life is that society is dominated by large and impersonal secondary organizations. From schools to businesses to healthcare to government, these organizations, referred to as formal organizations, are highly",
           "change_id": null,
+          "original_page": 163,
           "florida_page": 138
         },
         {
@@ -387,10 +377,10 @@
           "florida_page": 138
         },
         {
-          "type": "removed",
-          "original_text": "Bureaucracies have a clear division of labor: each individual has a specialized task to perform. For example, at a university, psychology professors teach psychology, but they do not attempt to provide students with financial aid forms. The Office of Admissions often takes on this task. In this case, it is a clear and commonsense division. But what about in a restaurant where food is backed up in the kitchen and a hostess is standing nearby texting on her phone? Her job is to seat customers, not to deliver food. Is this a smart division of labor?",
-          "change_id": null,
-          "original_page": 163
+          "type": "same",
+          "text": "Bureaucracies have a clear division of labor: each individual has a specialized task to perform. For example, at a university, psychology professors teach psychology, but they do not attempt to provide students with financial aid forms. The Office of Admissions often takes on this task. In this case, it is a clear and commonsense division. But what about in a restaurant where food is backed up in the kitchen and a hostess is standing nearby texting on her phone? Her job is to seat customers, not to deliver food. Is this a smart division of labor?",
+          "original_page": 163,
+          "florida_page": 138
         },
         {
           "type": "added",
