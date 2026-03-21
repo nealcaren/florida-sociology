@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Side-by-Side Comparison — What Florida Changed</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/compare.css">
+</head>
+<body>
+  <nav id="site-nav">
+    <div class="nav-inner">
+      <a href="./" class="nav-title" aria-label="Home">&larr;</a>
+      <div class="nav-chapter-select">
+        <select id="chapter-select" aria-label="Select chapter">
+          <option value="">Jump to chapter...</option>
+        </select>
+      </div>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="compare-layout">
+    <!-- Sidebar TOC -->
+    <aside id="toc-sidebar" class="toc-sidebar" aria-label="Table of contents">
+      <div class="toc-header">
+        <h2>Chapters</h2>
+        <button id="toc-close" class="toc-close" aria-label="Close table of contents">&times;</button>
+      </div>
+      <ol id="toc-list" class="toc-list"></ol>
+    </aside>
+
+    <!-- Main content area -->
+    <main id="compare-main" class="compare-main">
+      <!-- Landing state -->
+      <section id="compare-landing" class="view">
+        <header class="hero">
+          <h1>Side-by-Side Comparison</h1>
+          <p class="hero-sub">Read the original and Florida texts paragraph by paragraph. Differences are highlighted inline.</p>
+          <p class="hero-pdfs">Read the full textbooks: <a href="https://openstax.org/details/books/introduction-sociology-3e" target="_blank" rel="noopener">Original (OpenStax)</a> &middot; <a href="https://chronicle.brightspotcdn.com/4a/1e/5a8ff7dd4964ad792dd0cbdaf885/the-new-introduction-to-sociology-textbook.pdf" target="_blank" rel="noopener">Florida Version (PDF)</a></p>
+        </header>
+        <p style="text-align:center;color:var(--color-text-muted);">Select a chapter from the sidebar to begin.</p>
+      </section>
+
+      <!-- Chapter view -->
+      <section id="compare-chapter" class="view" hidden>
+        <div id="chapter-banner"></div>
+        <div class="chapter-header">
+          <h2 id="chapter-title"></h2>
+          <div id="chapter-subtitle" class="chapter-subtitle"></div>
+        </div>
+        <div id="chapter-content" class="chapter-content"></div>
+        <div class="chapter-footer">
+          <a id="prev-chapter" href="#" class="chapter-nav-link">&larr; Previous</a>
+          <a id="next-chapter" href="#" class="chapter-nav-link">Next &rarr;</a>
+        </div>
+      </section>
+
+      <!-- Error state -->
+      <section id="error-view" class="view" hidden>
+        <div class="error-content">
+          <p>Unable to load chapter data. Please try refreshing.</p>
+          <button onclick="location.reload()">Retry</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Page thumbnail sidebar (scroll-tracked) -->
+  <div id="page-thumb" class="page-thumb" hidden aria-label="Page thumbnail">
+    <div class="page-thumb-label" id="page-thumb-label"></div>
+    <img id="page-thumb-img" src="" alt="" class="page-thumb-img">
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" hidden>
+    <div class="lightbox-backdrop"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+      <div class="lightbox-label" id="lightbox-label"></div>
+      <div class="lightbox-img-wrap">
+        <img id="lightbox-img" src="" alt="">
+      </div>
+    </div>
+  </div>
+
+  <footer id="site-footer">
+    <p>Data sourced from <a href="https://openstax.org/details/books/introduction-sociology-3e" target="_blank" rel="noopener">OpenStax Introduction to Sociology 3e</a> (CC BY 4.0) and the Florida state-modified edition.</p>
+  </footer>
+
+  <script src="js/compare.js"></script>
+</body>
+</html>

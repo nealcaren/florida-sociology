@@ -1,0 +1,591 @@
+/* === Compare Site Layout === */
+
+/* Override main max-width for wider two-column layout */
+.compare-layout {
+  display: flex;
+  min-height: calc(100vh - 3.5rem);
+}
+
+.compare-main {
+  flex: 1;
+  min-width: 0;
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* === TOC Sidebar === */
+.toc-sidebar {
+  width: 16rem;
+  flex-shrink: 0;
+  background: #f5f5f4;
+  border-right: 1px solid var(--color-border);
+  padding: 1rem 0;
+  position: sticky;
+  top: 3.5rem;
+  height: calc(100vh - 3.5rem);
+  overflow-y: auto;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 0.85rem;
+  z-index: 50;
+}
+
+.toc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem 0.75rem;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: 0.5rem;
+}
+
+.toc-header h2 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+}
+
+.toc-close {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: var(--color-text-muted);
+  padding: 0.25rem;
+  line-height: 1;
+}
+
+.toc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.toc-list li {
+  margin: 0;
+}
+
+.toc-item {
+  display: block;
+  padding: 0.4rem 1rem;
+  color: var(--color-text);
+  text-decoration: none;
+  line-height: 1.3;
+  border-left: 3px solid transparent;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.toc-item:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.toc-item.active {
+  background: rgba(0, 0, 0, 0.07);
+  border-left-color: var(--color-text);
+  font-weight: 600;
+}
+
+.toc-item.removed {
+  color: var(--color-removed-text);
+  font-style: italic;
+}
+
+.toc-item .toc-ch-num {
+  font-weight: 600;
+  margin-right: 0.25rem;
+}
+
+.toc-item .toc-redirect {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+/* === Mobile TOC toggle === */
+.toc-toggle {
+  display: none;
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 60;
+  background: var(--color-nav-bg);
+  color: var(--color-nav-text);
+  border: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  font-family: system-ui, sans-serif;
+}
+
+/* === Chapter Header === */
+.chapter-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--color-border);
+}
+
+.chapter-header h2 {
+  font-size: 1.75rem;
+  line-height: 1.3;
+  margin-bottom: 0.5rem;
+}
+
+.chapter-subtitle {
+  font-family: system-ui, sans-serif;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+/* === Removed Chapter Banner === */
+.removed-banner {
+  background: var(--color-removed-bg);
+  border: 1px solid rgba(220, 38, 38, 0.3);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  font-family: system-ui, sans-serif;
+  font-size: 0.95rem;
+  color: var(--color-removed-text);
+}
+
+.removed-banner strong {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+/* === Section Headings === */
+.section-block {
+  margin-bottom: 2.5rem;
+}
+
+.section-heading {
+  display: flex;
+  gap: 1.5rem;
+  align-items: baseline;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.section-heading-original,
+.section-heading-florida {
+  flex: 1;
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-family: system-ui, sans-serif;
+}
+
+.section-heading-original {
+  color: var(--color-text);
+}
+
+.section-heading-florida {
+  color: var(--color-text-muted);
+}
+
+.section-heading-full {
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-family: system-ui, sans-serif;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* === Diff Rows === */
+.diff-row {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 0.75rem;
+  position: relative;
+}
+
+.diff-col {
+  flex: 1;
+  min-width: 0;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  line-height: 1.65;
+}
+
+/* Same text: single merged column */
+.diff-row.type-same .diff-col {
+  background: transparent;
+}
+
+.diff-row.type-same {
+  display: block;
+}
+
+/* Removed text: left column only */
+.diff-row.type-removed .diff-col-original {
+  background: var(--color-removed-bg);
+  border-left: 3px solid rgba(220, 38, 38, 0.4);
+}
+
+.diff-row.type-removed .diff-col-florida {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-muted);
+  font-style: italic;
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 8px,
+    rgba(0, 0, 0, 0.02) 8px,
+    rgba(0, 0, 0, 0.02) 16px
+  );
+}
+
+/* Added text: right column only */
+.diff-row.type-added .diff-col-florida {
+  background: rgba(22, 163, 74, 0.12);
+  border-left: 3px solid rgba(22, 163, 74, 0.4);
+}
+
+.diff-row.type-added .diff-col-original {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-muted);
+  font-style: italic;
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 8px,
+    rgba(0, 0, 0, 0.02) 8px,
+    rgba(0, 0, 0, 0.02) 16px
+  );
+}
+
+/* Modified text: both columns with highlights */
+.diff-row.type-modified .diff-col-original {
+  background: rgba(220, 38, 38, 0.05);
+  border-left: 3px solid rgba(220, 38, 38, 0.3);
+}
+
+.diff-row.type-modified .diff-col-florida {
+  background: rgba(22, 163, 74, 0.05);
+  border-left: 3px solid rgba(22, 163, 74, 0.3);
+}
+
+/* Moved text */
+.diff-row.type-moved .diff-col {
+  background: var(--color-moved-bg);
+  border-left: 3px dashed var(--color-moved-border);
+}
+
+.moved-tooltip {
+  cursor: help;
+  border-bottom: 1px dashed var(--color-moved-border);
+  position: relative;
+}
+
+.moved-tooltip-text {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  background: var(--color-nav-bg);
+  color: var(--color-nav-text);
+  padding: 0.35rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-family: system-ui, sans-serif;
+  white-space: nowrap;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.moved-tooltip:hover .moved-tooltip-text,
+.moved-tooltip:focus .moved-tooltip-text {
+  display: block;
+}
+
+/* === Word-level Diff Highlights === */
+.wdiff-del {
+  background: rgba(220, 38, 38, 0.18);
+  color: #991b1b;
+  text-decoration: line-through;
+  text-decoration-color: rgba(220, 38, 38, 0.5);
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+.wdiff-add {
+  background: rgba(22, 163, 74, 0.18);
+  color: #166534;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: rgba(22, 163, 74, 0.5);
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+/* === Column Headers === */
+.diff-col-headers {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-border);
+  font-family: system-ui, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+  position: sticky;
+  top: 3.5rem;
+  background: var(--color-bg);
+  z-index: 5;
+  padding-top: 0.5rem;
+}
+
+.diff-col-headers span {
+  flex: 1;
+}
+
+/* === Removed Chapter (single column readable) === */
+.removed-chapter-content .diff-row {
+  display: block;
+}
+
+.removed-chapter-content .diff-col-florida {
+  display: none;
+}
+
+.removed-chapter-content .diff-col-original {
+  background: transparent;
+  border-left: none;
+}
+
+.removed-chapter-content .diff-col-headers {
+  display: none;
+}
+
+/* === Page Thumbnail (fixed position) === */
+.page-thumb {
+  position: fixed;
+  right: 0.5rem;
+  bottom: 1rem;
+  z-index: 40;
+  background: white;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 0.25rem;
+  max-width: 100px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  opacity: 0.85;
+}
+
+.page-thumb:hover {
+  opacity: 1;
+}
+
+.page-thumb-label {
+  font-family: system-ui, sans-serif;
+  font-size: 0.7rem;
+  text-align: center;
+  color: var(--color-text-muted);
+  padding: 0.15rem 0;
+}
+
+.page-thumb-img {
+  width: 100%;
+  display: block;
+  border-radius: 3px;
+}
+
+/* === Lightbox === */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox[hidden] { display: none; }
+
+.lightbox-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox-content {
+  position: relative;
+  background: white;
+  border-radius: 8px;
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow: auto;
+  padding: 1rem;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--color-text-muted);
+  z-index: 1;
+}
+
+.lightbox-label {
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.lightbox-img-wrap img {
+  max-width: 100%;
+  max-height: 80vh;
+  display: block;
+  margin: 0 auto;
+}
+
+/* === Chapter Navigation Footer === */
+.chapter-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  border-top: 1px solid var(--color-border);
+  margin-top: 2rem;
+}
+
+.chapter-nav-link {
+  font-family: system-ui, sans-serif;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  text-decoration: none;
+}
+
+.chapter-nav-link:hover {
+  color: var(--color-text);
+}
+
+/* === Error State === */
+.error-content {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.error-content button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  background: var(--color-nav-bg);
+  color: var(--color-nav-text);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: system-ui, sans-serif;
+}
+
+/* === Responsive === */
+
+/* Tablet: sidebar collapses */
+@media (max-width: 1024px) {
+  .toc-sidebar {
+    position: fixed;
+    left: -17rem;
+    top: 3.5rem;
+    height: calc(100vh - 3.5rem);
+    transition: left 0.25s ease;
+    box-shadow: 2px 0 12px rgba(0, 0, 0, 0.15);
+    z-index: 80;
+  }
+
+  .toc-sidebar.open {
+    left: 0;
+  }
+
+  .toc-close {
+    display: block;
+  }
+
+  .toc-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page-thumb {
+    display: none;
+  }
+}
+
+/* Mobile: stack columns */
+@media (max-width: 768px) {
+  .diff-row {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .diff-col-headers {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .compare-main {
+    padding: 1rem;
+  }
+
+  .chapter-header h2 {
+    font-size: 1.35rem;
+  }
+
+  .section-heading {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  /* On mobile, show empty columns as small labels instead of full-height */
+  .diff-row.type-removed .diff-col-florida,
+  .diff-row.type-added .diff-col-original {
+    min-height: 1.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+  }
+}
+
+/* === Footer override for wider layout === */
+#site-footer {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* === ARIA / Accessibility === */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
