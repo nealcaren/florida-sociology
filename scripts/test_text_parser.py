@@ -33,9 +33,10 @@ def test_clean_text_normalizes_whitespace():
 
 def test_clean_text_strips_figure_captions():
     """FIGURE lines from PDF extraction should be removed."""
-    text = "FIGURE 2.1 Some caption here.\nActual paragraph text."
+    text = "FIGURE 2.1 Some caption here.\nCaption continued.\n\nActual paragraph text."
     result = clean_text(text)
     assert "FIGURE" not in result
+    assert "Caption continued" not in result
     assert "Actual paragraph text." in result
 
 def test_clean_text_strips_chapter_outline():

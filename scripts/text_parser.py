@@ -87,6 +87,10 @@ def split_paragraphs(text: str) -> list[str]:
     Paragraphs are separated by blank lines (double newline).
     Within a paragraph, single newlines are treated as line breaks
     from PDF extraction and joined with spaces.
+
+    Handles PDF page/column breaks that insert blank lines mid-sentence:
+    if a chunk ends with non-terminal punctuation (comma, semicolon, etc.),
+    the next chunk is merged rather than treated as a new paragraph.
     """
     # Split on blank lines
     raw_paragraphs = re.split(r"\n\s*\n", text)
@@ -95,7 +99,14 @@ def split_paragraphs(text: str) -> list[str]:
     for para in raw_paragraphs:
         # Join broken lines within paragraph
         joined = " ".join(line.strip() for line in para.split("\n") if line.strip())
-        if joined:
+        if not joined:
+            continue
+
+        # If previous paragraph ended mid-sentence (non-terminal punctuation),
+        # merge this chunk into it — it's a page break, not a paragraph break
+        if result and re.search(r"[,;:\-—]$", result[-1].rstrip()):
+            result[-1] = result[-1].rstrip() + " " + joined
+        else:
             result.append(joined)
 
     return result

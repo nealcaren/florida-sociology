@@ -97,12 +97,32 @@ def parse_chapter_text(text: str) -> list[dict]:
     current_section = {"section_id": "intro", "heading": "Introduction", "paragraphs": []}
     current_para_lines = []
 
+    pending_para = None  # holds a paragraph that ended mid-sentence
+
     def flush_para():
+        nonlocal pending_para
         if current_para_lines:
             para = " ".join(current_para_lines)
             if para.strip():
-                current_section["paragraphs"].append(para.strip())
+                para = para.strip()
+                # If previous paragraph ended mid-sentence, merge
+                if pending_para:
+                    para = pending_para + " " + para
+                    pending_para = None
+
+                # Check if this paragraph ends mid-sentence (page break)
+                if re.search(r"[,;:\-—]$", para):
+                    pending_para = para
+                else:
+                    current_section["paragraphs"].append(para)
             current_para_lines.clear()
+
+    def commit_pending():
+        """Commit any pending mid-sentence paragraph."""
+        nonlocal pending_para
+        if pending_para:
+            current_section["paragraphs"].append(pending_para)
+            pending_para = None
 
     for line in lines:
         stripped = line.strip()
@@ -114,6 +134,7 @@ def parse_chapter_text(text: str) -> list[dict]:
         sec_id = detect_section_header(stripped)
         if sec_id and sec_id != "intro":
             flush_para()
+            commit_pending()
             if current_section["paragraphs"]:
                 sections.append(current_section)
             current_section = {
@@ -126,6 +147,7 @@ def parse_chapter_text(text: str) -> list[dict]:
                 continue
             else:
                 flush_para()
+                commit_pending()
                 if current_section["paragraphs"]:
                     sections.append(current_section)
                 current_section = {"section_id": "intro", "heading": "Introduction", "paragraphs": []}
@@ -133,6 +155,7 @@ def parse_chapter_text(text: str) -> list[dict]:
             current_para_lines.append(stripped)
 
     flush_para()
+    commit_pending()
     if current_section["paragraphs"]:
         sections.append(current_section)
 

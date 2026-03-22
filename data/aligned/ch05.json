@@ -304,10 +304,8 @@
       "florida_heading": "4.3 Agents of Socialization",
       "blocks": [
         {
-          "type": "modified",
-          "original_text": "Socialization helps people learn to function successfully in their social worlds. How does the process of socialization occur? How do we learn to use the objects of our society’s material culture? How do we come to adopt the beliefs, values, and norms that represent its nonmaterial culture? This learning takes place through interaction with various agents of socialization, like peer groups and families, plus both formal and informal social institutions.",
-          "florida_text": "Socialization helps people learn to function successfully in their social worlds. How does the process of socialization occur? How do we learn to use the objects of our society’s material culture? How do we come to adopt the beliefs,",
-          "change_id": null,
+          "type": "same",
+          "text": "Socialization helps people learn to function successfully in their social worlds. How does the process of socialization occur? How do we learn to use the objects of our society’s material culture? How do we come to adopt the beliefs, values, and norms that represent its nonmaterial culture? This learning takes place through interaction with various agents of socialization, like peer groups and families, plus both formal and informal social institutions.",
           "original_page": 138
         },
         {
