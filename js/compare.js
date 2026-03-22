@@ -162,6 +162,13 @@
     const titleEl = document.getElementById("chapter-title");
     titleEl.textContent = `Chapter ${data.chapter}: ${data.title}`;
 
+    // Cross-link to highlighted changes view
+    const changesLink = document.getElementById("changes-link");
+    if (changesLink) {
+      changesLink.href = `chapters.html#chapter-${data.chapter}`;
+      changesLink.hidden = false;
+    }
+
     // Subtitle showing Florida title if different
     const subtitleEl = document.getElementById("chapter-subtitle");
     if (data.florida_title && data.florida_title !== data.title) {

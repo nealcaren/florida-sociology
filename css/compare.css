@@ -1,3 +1,12 @@
+/* === Cross-links === */
+.compare-link {
+  font-family: system-ui, sans-serif;
+  font-size: 0.8rem;
+  color: var(--color-added-border);
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
 /* === Compare Site Layout === */
 
 /* Override main max-width for wider two-column layout */

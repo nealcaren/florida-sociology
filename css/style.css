@@ -334,6 +334,14 @@ main {
   margin-bottom: 0.5rem;
 }
 
+.compare-link {
+  font-family: system-ui, sans-serif;
+  font-size: 0.8rem;
+  color: var(--color-added-border);
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
 .severity-badge {
   display: inline-block;
   font-family: system-ui, sans-serif;

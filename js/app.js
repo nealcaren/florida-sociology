@@ -62,6 +62,13 @@
     document.getElementById("chapter-title").textContent =
       `Chapter ${data.chapter}: ${data.title}`;
 
+    // Cross-link to companion full-text comparison
+    const crossLink = document.getElementById("compare-link");
+    if (crossLink) {
+      crossLink.href = `compare.html#ch-${data.chapter}`;
+      crossLink.hidden = false;
+    }
+
     const badge = document.getElementById("chapter-severity");
     badge.className = `severity-badge ${data.severity}`;
     badge.textContent = data.severity === "none" ? "No changes" : `${data.severity} changes`;
