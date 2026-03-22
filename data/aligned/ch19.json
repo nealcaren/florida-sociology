@@ -118,9 +118,15 @@
         },
         {
           "type": "modified",
-          "original_text": "Both those opposed to heavy restrictions and those who used them to fight the disease acknowledge that the impacts went far beyond physical health. Families shattered by the loss of a loved one had to go through the pain without relatives to support them at funerals or other gatherings. Many who recovered from the virus had serious health issues to contend with, while other people who delayed important treatments had larger problems than they normally would have. Fear, isolation, and strained familial relationships led to emotional problems.",
-          "florida_text": "Both those who opposed heavy restrictions – like Brazil - and those who used them to fight the disease – like New Zealand - acknowledge that the impacts had significant consequences, despite intentions to preserve life and physical health. In the United States, families who were shattered by the loss of a loved one to COVID-19 or another cause had to go through the pain without relatives to support them at funerals or other gatherings due to regulations restricting social gatherings in the early months of the pandemic. Many who recovered from the virus had serious health issues to contend with, and others had to delay medical treatments for other conditions like cancer and consequently, faced more significant health issues than they normally would have. Fear, isolation, and strained familial relationships led to increases in emotional problems.",
+          "original_text": "Both those opposed to heavy restrictions and those who used them to fight the disease acknowledge that the impacts went far beyond physical health. Families shattered by the loss of a loved one had to go through the pain without relatives to support them at funerals or other gatherings. Many who recovered from the virus had serious health issues to contend with, while other people who delayed important treatments had larger problems than they normally would have.",
+          "florida_text": "Both those who opposed heavy restrictions – like Brazil - and those who used them to fight the disease – like New Zealand - acknowledge that the impacts had significant consequences, despite intentions to preserve life and physical health. In the United States, families who were shattered by the loss of a loved one to COVID-19 or another cause had to go through the pain without relatives to support them at funerals or other gatherings due to regulations restricting social gatherings in the early months of the pandemic. Many who recovered from the virus had serious health issues to contend with, and others had to delay medical treatments for other conditions like cancer and consequently, faced more significant health issues than they normally would have.",
           "change_id": null,
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "same",
+          "text": "Fear, isolation, and strained familial relationships led to emotional problems.",
           "original_page": 571,
           "florida_page": 113
         },
@@ -170,16 +176,8 @@
           "florida_page": 113
         },
         {
-          "type": "modified",
-          "original_text": "Many medical sociologists contend that illnesses have both a biological and an experiential component and that these components exist independently of each other. Our culture, not our biology, dictates which illnesses are stigmatized and which are not, which are considered disabilities and which are not, and which are deemed contestable (meaning some medical professionals may find the existence of this ailment questionable) as opposed to definitive (illnesses that are unquestionably recognized in the medical profession) (Conrad and Barker 2010).",
-          "florida_text": "The Cultural Meaning of Illness Many medical sociologists contend that illnesses have both a biological and an experiential component and that these components exist independently of each other. Our culture, not our biology, dictates which illnesses are stigmatized and which are not, which are considered disabilities and which are not, and which are deemed contestable (meaning some medical professionals may find the existence of this ailment questionable, like chronic fatigue symptom) as opposed to definitive (illnesses that are unquestionably recognized in the medical profession, like diabetes) (Conrad and Barker 2010).",
-          "change_id": null,
-          "original_page": 571,
-          "florida_page": 113
-        },
-        {
           "type": "same",
-          "text": "For instance, sociologist Erving Goffman (1963) described how social stigmas hinder individuals from fully integrating into society.",
+          "text": "Many medical sociologists contend that illnesses have both a biological and an experiential component and that these components exist independently of each other. Our culture, not our biology, dictates which illnesses are stigmatized and which are not, which are considered disabilities and which are not, and which are deemed contestable (meaning some medical professionals may find the existence of this ailment questionable) as opposed to definitive (illnesses that are unquestionably recognized in the medical profession) (Conrad and Barker 2010). For instance, sociologist Erving Goffman (1963) described how social stigmas hinder individuals from fully integrating into society.",
           "original_page": 571,
           "florida_page": 113
         },
@@ -217,28 +215,8 @@
         },
         {
           "type": "same",
-          "text": "In terms of constructing the illness experience, culture and individual personality both play a significant role. For some people, a long-term illness can have the effect of making their world smaller, more defined by the illness than anything else. For others, illness can be a chance for discovery, for re-imaging a new self (Conrad and Barker 2007).",
+          "text": "In terms of constructing the illness experience, culture and individual personality both play a significant role. For some people, a long-term illness can have the effect of making their world smaller, more defined by the illness than anything else. For others, illness can be a chance for discovery, for re-imaging a new self (Conrad and Barker 2007). Culture plays a huge role in how an individual experiences illness. Widespread diseases like AIDS or breast cancer have specific cultural markers that have changed over the years and that govern how individuals—and society—view them. Today, many institutions of wellness acknowledge the degree to which individual perceptions shape the nature of health and illness. Regarding physical activity, for instance, the Centers for Disease Control (CDC) recommends that individuals use a standard level of exertion to assess their physical activity.",
           "original_page": 571,
-          "florida_page": 113
-        },
-        {
-          "type": "modified",
-          "original_text": "Culture plays a huge role in how an individual experiences illness.",
-          "florida_text": "Culture also plays a role in how an individual experiences illness.",
-          "change_id": null,
-          "original_page": 571,
-          "florida_page": 113
-        },
-        {
-          "type": "same",
-          "text": "Widespread diseases like AIDS or breast cancer have specific cultural markers that have changed over the years and that govern how individuals—and society—view them. Today, many institutions of wellness acknowledge the degree to which individual perceptions shape the nature of health and illness. Regarding physical activity, for instance, the Centers for Disease Control (CDC) recommends that individuals use a standard level of exertion to assess their physical activity.",
-          "original_page": 571,
-          "florida_page": 113
-        },
-        {
-          "type": "added",
-          "florida_text": "This Rating of Perceived Exertion (RPE) gives a more",
-          "change_id": null,
           "florida_page": 113
         },
         {
@@ -355,14 +333,22 @@
         },
         {
           "type": "removed",
-          "original_text": "We can see an example of institutionalized sexism in the way that women are more likely than men to be diagnosed with certain kinds of mental disorders. Psychologist Dana Becker notes that 75 percent of all diagnoses of Borderline Personality Disorder (BPD) are for women according to the Diagnostic Statistical Manual of Mental Disorders. This diagnosis is characterized by instability of identity, of mood, and of behavior, and Becker argues that it has been used as a catch-all diagnosis for too many women. She further decries the pejorative connotation of the diagnosis, saying that it predisposes many people, both within and outside of the profession of psychotherapy, against women who have been so diagnosed (Becker). Many critics also point to the medicalization of women’s issues as an example of institutionalized sexism. Medicalization refers to the process by which previously normal aspects of life are redefined as deviant and needing medical attention to remedy.",
+          "original_text": "We can see an example of institutionalized sexism in the way that women are more likely than men to be diagnosed with certain kinds of mental disorders. Psychologist Dana Becker notes that 75 percent of all diagnoses of Borderline Personality Disorder (BPD) are for women according to the Diagnostic Statistical Manual of Mental Disorders. This diagnosis is characterized by instability of identity, of mood, and of behavior, and Becker argues that it has been used as a catch-all diagnosis for too many women. She further decries the pejorative connotation of the diagnosis, saying that it predisposes many people, both within and outside of the profession of psychotherapy, against women who have been so diagnosed (Becker). Many critics also point to the medicalization of women’s issues as an example of institutionalized sexism.",
           "change_id": null,
           "original_page": 571
         },
         {
           "type": "added",
-          "florida_text": "A recent study focused on cardiovascular disease (Daher et al 2021) examined 1.7 million adults in the United States surveyed in the BRFSS similarly showed that women have significantly higher odds of reporting delayed healthcare due to cost. Beyond healthcare access, another key issue for women relates to treatment. The concept of medicalization means that previously “normal” aspects of life are redefined as deviant and needing medical attention to remedy for women who face particular health issues.",
+          "florida_text": "A recent study focused on cardiovascular disease (Daher et al 2021) examined 1.7 million adults in the United States surveyed in the BRFSS similarly showed that women have significantly higher odds of reporting delayed healthcare due to cost. Beyond healthcare access, another key issue for women relates to treatment.",
           "change_id": null,
+          "florida_page": 113
+        },
+        {
+          "type": "modified",
+          "original_text": "Medicalization refers to the process by which previously normal aspects of life are redefined as deviant and needing medical attention to remedy.",
+          "florida_text": "The concept of medicalization means that previously “normal” aspects of life are redefined as deviant and needing medical attention to remedy for women who face particular health issues.",
+          "change_id": null,
+          "original_page": 571,
           "florida_page": 113
         },
         {
@@ -395,7 +381,7 @@
         },
         {
           "type": "added",
-          "florida_text": "Bad habits that can lead to sleeplessness include inconsistent bedtimes, lack of exercise, late- night employment, napping during the day, and sleep environments that include noise, lights, or screen time (National Institutes of Health 2011a). According to the National Institute of Health, examining sleep hygiene is the first step in trying to solve a problem with sleeplessness. For many people in the United States, however, making changes in sleep hygiene does not seem to be enough. According to a 2006 report from the Institute of Medicine, sleeplessness is an underrecognized public health problem affecting up to 70 million people. It is interesting to note that in the months (or years) after this report was released, advertising by the pharmaceutical companies behind Ambien, Lunesta, and Sepracor (three sleep aids) averaged $188 million weekly promoting these drugs (Gellene 2009). According to a study in the American Journal of Public Health (2011), prescriptions for sleep medications increased dramatically from 1993 to 2007. While complaints of sleeplessness during doctor’s office visits more than doubled during this time, insomnia diagnoses increased more than sevenfold, from about 840,000 to 6.1 million. The authors of the study conclude that sleeplessness has been medicalized as insomnia, and that “insomnia may be a public health concern, but potential overtreatment with marginally effective, expensive medications with nontrivial side effects raises definite population health concerns” (Moloney, Konrad, and Zimmer 2011). Indeed, a study published in 2004 in the Archives of Internal Medicine shows that cognitive behavioral therapy, not medication, was the most effective sleep intervention (Jacobs, Pace-Schott, Stickgold, and Otto 2004). A century ago, people who couldn’t sleep were told to count sheep. Now they pop a pill, and all those pills add up to a very lucrative market for the pharmaceutical industry. Is this industry behind the medicalization of sleeplessness, or is it just responding to a need? others feel they cannot participate.",
+          "florida_text": "Bad habits that can lead to sleeplessness include inconsistent bedtimes, lack of exercise, late- night employment, napping during the day, and sleep environments that include noise, lights, or screen time (National Institutes of Health 2011a). According to the National Institute of Health, examining sleep hygiene is the first step in trying to solve a problem with sleeplessness. For many people in the United States, however, making changes in sleep hygiene does not seem to be enough. According to a 2006 report from the Institute of Medicine, sleeplessness is an underrecognized public health problem affecting up to 70 million people. It is interesting to note that in the months (or years) after this report was released, advertising by the pharmaceutical companies behind Ambien, Lunesta, and Sepracor (three sleep aids) averaged $188 million weekly promoting these drugs (Gellene 2009). According to a study in the American Journal of Public Health (2011), prescriptions for sleep medications increased dramatically from 1993 to 2007. While complaints of sleeplessness during doctor’s office visits more than doubled during this time, insomnia diagnoses increased more than sevenfold, from about 840,000 to 6.1 million. The authors of the study conclude that sleeplessness has been medicalized as insomnia, and that “insomnia may be a public health concern, but potential overtreatment with marginally effective, expensive medications with nontrivial side effects raises definite population health concerns” (Moloney, Konrad, and Zimmer 2011). Indeed, a study published in 2004 in the Archives of Internal Medicine shows that cognitive behavioral therapy, not medication, was the most effective sleep intervention (Jacobs, Pace-Schott, Stickgold, and Otto 2004). A century ago, people who couldn’t sleep were told to count sheep. Now they pop a pill, and all those pills add up to a very lucrative market for the pharmaceutical industry. Is this industry behind the medicalization of sleeplessness, or is it just responding to a need?",
           "change_id": null,
           "florida_page": 113
         },
@@ -474,27 +460,7 @@
       "blocks": [
         {
           "type": "same",
-          "text": "There are broad, structural differences among the healthcare systems of different countries. In core nations, those differences might arise in the administration of healthcare, while the care itself is similar. In peripheral and semi-peripheral countries, a lack of basic healthcare administration can be the defining feature of the system. Most countries rely on some combination of modern and traditional medicine. In core countries with large investments in technology, research, and equipment, the focus is usually on modern medicine, with traditional (also called alternative or complementary) medicine playing a secondary role. In the United States, for instance, the American Medical Association (AMA) resolved to support the incorporation of complementary and alternative medicine in medical education. In developing countries, even quickly modernizing ones like China, traditional medicine (often understood as “complementary” by the western world) may still play a larger role.",
-          "original_page": 571,
-          "florida_page": 113
-        },
-        {
-          "type": "added",
-          "florida_text": "U.S.",
-          "change_id": null,
-          "florida_page": 113
-        },
-        {
-          "type": "modified",
-          "original_text": "U.S. healthcare coverage can broadly be divided into two main categories: public healthcare (government-funded) and private healthcare (privately funded).",
-          "florida_text": "Healthcare U.S. healthcare coverage can broadly be divided into two main categories: public healthcare (government- funded) and private healthcare (privately funded).",
-          "change_id": null,
-          "original_page": 571,
-          "florida_page": 113
-        },
-        {
-          "type": "same",
-          "text": "The two main publicly funded healthcare programs are Medicare, which provides health services to people over sixty-five years old as well as people who meet other standards for disability, and Medicaid, which provides services to people with very low incomes who meet other eligibility requirements. Other government-funded programs include service agencies focused on Native Americans (the Indian Health Service), Veterans (the Veterans Health Administration), and children (the Children’s Health Insurance Program). Private insurance is typically categorized as either employment-based insurance or direct-purchase insurance. Employment-based insurance is health plan coverage that is provided in whole or in part by an employer or union; it can cover just the employee, or the employee and their family. Direct purchase insurance is coverage that an individual buys directly from a private company. Even with all these options, a sizable portion of the U.S. population remains uninsured.",
+          "text": "There are broad, structural differences among the healthcare systems of different countries. In core nations, those differences might arise in the administration of healthcare, while the care itself is similar. In peripheral and semi-peripheral countries, a lack of basic healthcare administration can be the defining feature of the system. Most countries rely on some combination of modern and traditional medicine. In core countries with large investments in technology, research, and equipment, the focus is usually on modern medicine, with traditional (also called alternative or complementary) medicine playing a secondary role. In the United States, for instance, the American Medical Association (AMA) resolved to support the incorporation of complementary and alternative medicine in medical education. In developing countries, even quickly modernizing ones like China, traditional medicine (often understood as “complementary” by the western world) may still play a larger role. U.S. healthcare coverage can broadly be divided into two main categories: public healthcare (government-funded) and private healthcare (privately funded). The two main publicly funded healthcare programs are Medicare, which provides health services to people over sixty-five years old as well as people who meet other standards for disability, and Medicaid, which provides services to people with very low incomes who meet other eligibility requirements. Other government-funded programs include service agencies focused on Native Americans (the Indian Health Service), Veterans (the Veterans Health Administration), and children (the Children’s Health Insurance Program). Private insurance is typically categorized as either employment-based insurance or direct-purchase insurance. Employment-based insurance is health plan coverage that is provided in whole or in part by an employer or union; it can cover just the employee, or the employee and their family. Direct purchase insurance is coverage that an individual buys directly from a private company. Even with all these options, a sizable portion of the U.S. population remains uninsured.",
           "original_page": 571,
           "florida_page": 113
         },
@@ -504,12 +470,6 @@
           "florida_text": "In 2019, about 26 million people, or 8 percent of U.S. residents, had no health insurance.",
           "change_id": null,
           "original_page": 571,
-          "florida_page": 113
-        },
-        {
-          "type": "added",
-          "florida_text": "In 2020, that number went up to 31 million (Keith 2020).",
-          "change_id": null,
           "florida_page": 113
         },
         {
@@ -680,12 +640,6 @@
           "florida_page": 125
         },
         {
-          "type": "added",
-          "florida_text": "and who is sick—a relationship in which the doctor has all the power.",
-          "change_id": null,
-          "florida_page": 125
-        },
-        {
           "type": "same",
           "text": "But is it appropriate to allow doctors so much power over deciding who is sick? And what about people who are sick, but are unwilling to leave their positions for any number of reasons (personal/social obligations, financial need, or lack of insurance, for instance).",
           "original_page": 585,
@@ -740,12 +694,6 @@
           "text": "While conflict theorists are accurate in pointing out certain inequalities in the healthcare system, they do not give enough credit to medical advances that would not have been made without an economic structure to support and reward researchers: a structure dependent on profitability. Additionally, in their criticism of the power differential between doctor and patient, they are perhaps dismissive of the hard-won medical expertise possessed by doctors and not patients, which renders a truly egalitarian relationship more elusive. According to theorists working in this perspective, health and illness are both socially constructed. As we discussed in the beginning of the chapter, interactionists focus on the specific meanings and causes people attribute to illness. The term medicalization of deviance refers to the process that changes “bad” behavior into “sick” behavior. A related process is demedicalization, in which “sick” behavior is normalized again. Medicalization and demedicalization affect who responds to the patient, how people respond to the patient, and how people view the personal responsibility of the patient (Conrad and Schneider 1992). An example of medicalization is illustrated by the history of how our society views alcohol and alcoholism. During the nineteenth century, people who drank too much were considered bad, lazy people. They were called drunks, and it was not uncommon for them to be arrested or run out of a town. Drunks were not treated in a sympathetic way because, at that time, it was thought that it was their own fault that they could not stop drinking. During the latter half of the twentieth century, however, people who drank too much were increasingly defined as alcoholics: people with a disease or a genetic predisposition to addiction who were not responsible for their drinking. With alcoholism defined as a disease and not a personal choice, alcoholics came to be viewed with more compassion and understanding.",
           "original_page": 585,
           "florida_page": 125
-        },
-        {
-          "type": "removed",
-          "original_text": "Thus, “badness” was transformed into “sickness.”",
-          "change_id": null,
-          "original_page": 585
         },
         {
           "type": "modified",

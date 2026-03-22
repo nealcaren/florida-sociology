@@ -80,12 +80,6 @@
           "florida_page": 251
         },
         {
-          "type": "removed",
-          "original_text": "On July 13, 2011, the organization Adbusters posted on its blog, \"Are you ready for a Tahrir moment?",
-          "change_id": null,
-          "original_page": 637
-        },
-        {
           "type": "same",
           "text": "On September 17th, flood into lower Manhattan, set up tents, kitchens, peaceful barricades and occupy Wall Street\" (Castells 2012). The \"Tahrir moment\" was a reference to the 2010 political uprising that began in Tunisia and spread throughout the Middle East and North Africa, including Egypt’s Tahrir Square in Cairo. Although OWS was a reaction to the continuing financial chaos that resulted from the 2008 market meltdown and not a political movement, the Arab Spring was its catalyst.",
           "original_page": 637,
@@ -146,21 +140,26 @@
           "florida_page": 251
         },
         {
-          "type": "removed",
-          "original_text": "What did they want?",
-          "change_id": null,
-          "original_page": 638
-        },
-        {
           "type": "added",
-          "florida_text": "A sociological study of OWS might engage with the following questions: What did they want?",
-          "change_id": null,
-          "florida_page": 251
+          "florida_text": "A sociological study of OWS might engage with the following questions: What did they want? Using Facebook, Twitter, Tumblr, and live-stream video, the protesters conveyed a multifold message with a long list of reforms and social change, including the need to address the rising disparity of wealth, the influence of money on election outcomes, political favoring of the rich, and rising student debt.",
+          "change_id": "ch21_change_5",
+          "original_page": 638,
+          "florida_page": 252,
+          "context": "Castells's quote describing OWS as 'A non-demand movement' is removed, and the movement's demands of 'corporate personhood' critique and replacement of 'corporatized political system' with 'direct democracy' are deleted.",
+          "original_evidence": "img/evidence/ch21/change_5_original.webp",
+          "florida_evidence": "img/evidence/ch21/change_5_florida.webp"
         },
         {
           "type": "modified",
+          "original_text": "What did they want?",
+          "florida_text": "What did they accomplish?",
+          "change_id": null,
+          "original_page": 638,
+          "florida_page": 252
+        },
+        {
+          "type": "removed",
           "original_text": "Castells has dubbed OWS \"A non-demand movement: The process is the message.\" Using Facebook, Twitter, Tumblr, and live-stream video, the protesters conveyed a multifold message with a long list of reforms and social change, including the need to address the rising disparity of wealth, the influence of money on election outcomes, the notion of \"corporate personhood,\" a corporatized political system (to be replaced by \"direct democracy”), political favoring of the rich, and rising student debt.",
-          "florida_text": "Using Facebook, Twitter, Tumblr, and live-stream video, the protesters conveyed a multifold message with a long list of reforms and social change, including the need to address the rising disparity of wealth, the influence of money on election outcomes, political favoring of the rich, and rising student debt.",
           "change_id": "ch21_change_5",
           "original_page": 638,
           "florida_page": 252,
@@ -170,7 +169,7 @@
         },
         {
           "type": "same",
-          "text": "What did they accomplish? Despite headlines at the time softly mocking OWS for lack of cohesion and lack of clear messaging, the movement is credited with bringing attention to income inequality and the seemingly preferential treatment of financial institutions accused of wrongdoing.",
+          "text": "Despite headlines at the time softly mocking OWS for lack of cohesion and lack of clear messaging, the movement is credited with bringing attention to income inequality and the seemingly preferential treatment of financial institutions accused of wrongdoing.",
           "original_page": 638,
           "florida_page": 252
         },
@@ -317,15 +316,15 @@
         },
         {
           "type": "modified",
-          "original_text": "For example, think about human behavior during Hurricane Katrina. New Orleans was decimated and people were trapped without supplies or a way to evacuate.",
-          "florida_text": "For example, think about human behavior during Hurricane Katrina in August 2005. New Orleans was decimated and some residents were trapped without supplies or a way to evacuate.",
+          "original_text": "For example, think about human behavior during Hurricane Katrina.",
+          "florida_text": "For example, think about human behavior during Hurricane Katrina in August 2005.",
           "change_id": null,
           "original_page": 638,
           "florida_page": 252
         },
         {
           "type": "same",
-          "text": "In these extraordinary circumstances, what outsiders saw as “looting” was defined by those involved as seeking needed supplies for survival. Normally, individuals would not wade into a corner gas station and take canned goods without paying, but given that they were suddenly in a greatly changed situation, they established a norm that they felt was reasonable. Once individuals find themselves in a situation ungoverned by previously established norms, they interact in small groups to develop new guidelines on how to behave. According to the emergent-norm perspective, crowds are not viewed as irrational, impulsive, uncontrolled groups. Instead, norms develop and are accepted as they fit the situation. While this theory offers insight into why norms develop, it leaves undefined the nature of norms, how they come to be accepted by the crowd, and how they spread through the crowd.",
+          "text": "New Orleans was decimated and people were trapped without supplies or a way to evacuate. In these extraordinary circumstances, what outsiders saw as “looting” was defined by those involved as seeking needed supplies for survival. Normally, individuals would not wade into a corner gas station and take canned goods without paying, but given that they were suddenly in a greatly changed situation, they established a norm that they felt was reasonable. Once individuals find themselves in a situation ungoverned by previously established norms, they interact in small groups to develop new guidelines on how to behave. According to the emergent-norm perspective, crowds are not viewed as irrational, impulsive, uncontrolled groups. Instead, norms develop and are accepted as they fit the situation. While this theory offers insight into why norms develop, it leaves undefined the nature of norms, how they come to be accepted by the crowd, and how they spread through the crowd.",
           "original_page": 638,
           "florida_page": 252
         },
@@ -342,9 +341,15 @@
           "florida_page": 252
         },
         {
+          "type": "same",
+          "text": "The first condition is structural conduciveness, which occurs when people are aware of the problem and have the opportunity to gather, ideally in an open area.",
+          "original_page": 638,
+          "florida_page": 252
+        },
+        {
           "type": "modified",
-          "original_text": "The first condition is structural conduciveness, which occurs when people are aware of the problem and have the opportunity to gather, ideally in an open area. Structural strain, the second condition, refers to people’s expectations about the situation at hand being unmet, causing tension and strain.",
-          "florida_text": "The first condition is structural conduciveness, which occurs when people are aware of a social issue or problem and have the opportunity to gather, ideally in an open area. Structural strain, the second condition, refers to when people’s expectations about a situation are unmet, leading to tension and strain.",
+          "original_text": "Structural strain, the second condition, refers to people’s expectations about the situation at hand being unmet, causing tension and strain.",
+          "florida_text": "Structural strain, the second condition, refers to when people’s expectations about a situation are unmet, leading to tension and strain.",
           "change_id": null,
           "original_page": 638,
           "florida_page": 252
@@ -433,12 +438,6 @@
       "florida_heading": "12.2 Social Movements",
       "blocks": [
         {
-          "type": "added",
-          "florida_text": "Social movements are subtype of collective behavior.",
-          "change_id": null,
-          "florida_page": 252
-        },
-        {
           "type": "modified",
           "original_text": "Social movements are purposeful, organized groups that strive to work toward a common social goal.",
           "florida_text": "They are purposeful, organized groups that strive to work toward a common social goal.",
@@ -487,22 +486,14 @@
         {
           "type": "modified",
           "original_text": "The past decade has seen an increase in rhetoric and campaigns to drive interest and support for a public referendum (a direct vote on the matter by the people). The Texas Nationalist Movement, Texas Secede!, and other groups have provided formal proposals and programs designed to make the idea seem more feasible.",
-          "florida_text": "The past decade has seen an increase in rhetoric and campaigns to drive interest and support for a public referendum on secession. The Texas Nationalist Movement “Texas Secede!” and other groups have created formal proposals and run public information campaigns to make the idea seem more feasible. “Texit” has become a widely used nickname and hashtag for the movement.",
+          "florida_text": "The past decade has seen an increase in rhetoric and campaigns to drive interest and support for a public referendum on secession. The Texas Nationalist Movement “Texas Secede!” and other groups have created formal proposals and run public information campaigns to make the idea seem more feasible.",
           "change_id": null,
           "original_page": 638,
           "florida_page": 252
         },
         {
-          "type": "removed",
-          "original_text": "Texit has become a widely used nickname and hashtag for the movement.",
-          "change_id": null,
-          "original_page": 638
-        },
-        {
-          "type": "modified",
-          "original_text": "And in February 2021, a bill was introduced to hold a referendum that would begin formal discussions on creating an independent nation—though the bill's sponsor indicated that it was mainly intended to begin conversation and evaluations rather than directly lead to secession (De Alba 2021).",
-          "florida_text": "In February 2021, a bill was introduced to hold a referendum that would begin formal discussions on creating an independent nation— though the bill's sponsor indicated that it was mainly intended to begin a conversation rather than directly lead to secession (De Alba 2021).",
-          "change_id": null,
+          "type": "same",
+          "text": "Texit has become a widely used nickname and hashtag for the movement. And in February 2021, a bill was introduced to hold a referendum that would begin formal discussions on creating an independent nation—though the bill's sponsor indicated that it was mainly intended to begin conversation and evaluations rather than directly lead to secession (De Alba 2021).",
           "original_page": 638,
           "florida_page": 252
         },
@@ -598,21 +589,7 @@
         },
         {
           "type": "same",
-          "text": "The phrase later grew into a massive movement when people began using it on Twitter to drive empathy and support regarding experiences of sexual harassment or sexual assault.",
-          "original_page": 638,
-          "florida_page": 252
-        },
-        {
-          "type": "modified",
-          "original_text": "In a similar way, Black Lives Matter began as a social media message after George Zimmerman was acquitted in the shooting death of 17-year-old Trayvon Martin, and the phrase burgeoned into a formalized (though decentralized) movement in subsequent years.",
-          "florida_text": "In a similar way, Black Lives Matter began as a social media message after George Zimmerman was acquitted in the shooting death of 17- year-old Trayvon Martin, and the phrase burgeoned into a much larger and formalized movement in subsequent years.",
-          "change_id": null,
-          "original_page": 638,
-          "florida_page": 252
-        },
-        {
-          "type": "same",
-          "text": "Social media has the potential to dramatically transform how people get involved in movements ranging from local school district decisions to presidential campaigns.",
+          "text": "The phrase later grew into a massive movement when people began using it on Twitter to drive empathy and support regarding experiences of sexual harassment or sexual assault. In a similar way, Black Lives Matter began as a social media message after George Zimmerman was acquitted in the shooting death of 17-year-old Trayvon Martin, and the phrase burgeoned into a formalized (though decentralized) movement in subsequent years. Social media has the potential to dramatically transform how people get involved in movements ranging from local school district decisions to presidential campaigns.",
           "original_page": 638,
           "florida_page": 252
         },
@@ -766,15 +743,7 @@
         },
         {
           "type": "same",
-          "text": "The civil rights movement had also existed well before Rosa Parks refused to give up her bus seat to a white man.",
-          "original_page": 638,
-          "florida_page": 252
-        },
-        {
-          "type": "modified",
-          "original_text": "Less known is that Parks was a member of the NAACP and trained in leadership (A&E Television Networks, LLC. 2014).",
-          "florida_text": "What is less well known is that Parks was a member of the NAACP and trained in leadership (A&E Television Networks, LLC.",
-          "change_id": null,
+          "text": "The civil rights movement had also existed well before Rosa Parks refused to give up her bus seat to a white man. Less known is that Parks was a member of the NAACP and trained in leadership (A&E Television Networks, LLC. 2014).",
           "original_page": 638,
           "florida_page": 252
         },
@@ -934,21 +903,7 @@
         },
         {
           "type": "same",
-          "text": "In the amplification model, organizations seek to expand their core ideas to gain a wider, more universal appeal. By expanding their ideas to include a broader range, they can mobilize more people for their cause. For example, the Slow Food movement extends its arguments in support of local food to encompass reduced energy consumption, pollution, obesity from eating more healthfully, and more. In extension, social movements agree to mutually promote each other, even when the two social movement organization’s goals don’t necessarily relate to each other’s immediate goals. This often occurs when organizations are sympathetic to each others’ causes, even if they are not directly aligned, such as women’s equal rights and the civil rights movement. Transformation means a complete revision of goals. Once a movement has succeeded, it risks losing relevance.",
-          "original_page": 650,
-          "florida_page": 260
-        },
-        {
-          "type": "modified",
-          "original_text": "If it wants to remain active, the movement has to change with the transformation or risk becoming obsolete.",
-          "florida_text": "If it wants to remain active, the movement has to change or risk becoming obsolete.",
-          "change_id": null,
-          "original_page": 650,
-          "florida_page": 260
-        },
-        {
-          "type": "same",
-          "text": "For instance, when the women’s suffrage movement gained women the right to vote, members turned their attention to advocating equal rights and campaigning to elect women to office. In short, transformation is an evolution in the existing diagnostic or prognostic frames that generally achieves a total conversion of the movement. New social movement theory, a development of European social scientists in the 1950s and 1960s, attempts to explain the proliferation of postindustrial and postmodern movements that are difficult to analyze using traditional social movement theories. Rather than being one specific theory, it is more of a perspective that revolves around understanding movements as they relate to politics, identity, culture, and social change. Some of these more complex interrelated movements include ecofeminism, which focuses on the patriarchal society as the source of environmental problems, and the transgender rights movement. Sociologist Steven Buechler (2000) suggests that we should be looking at the bigger picture in which these movements arise—shifting to a macro-level, global analysis of social movements.",
+          "text": "In the amplification model, organizations seek to expand their core ideas to gain a wider, more universal appeal. By expanding their ideas to include a broader range, they can mobilize more people for their cause. For example, the Slow Food movement extends its arguments in support of local food to encompass reduced energy consumption, pollution, obesity from eating more healthfully, and more. In extension, social movements agree to mutually promote each other, even when the two social movement organization’s goals don’t necessarily relate to each other’s immediate goals. This often occurs when organizations are sympathetic to each others’ causes, even if they are not directly aligned, such as women’s equal rights and the civil rights movement. Transformation means a complete revision of goals. Once a movement has succeeded, it risks losing relevance. If it wants to remain active, the movement has to change with the transformation or risk becoming obsolete. For instance, when the women’s suffrage movement gained women the right to vote, members turned their attention to advocating equal rights and campaigning to elect women to office. In short, transformation is an evolution in the existing diagnostic or prognostic frames that generally achieves a total conversion of the movement. New social movement theory, a development of European social scientists in the 1950s and 1960s, attempts to explain the proliferation of postindustrial and postmodern movements that are difficult to analyze using traditional social movement theories. Rather than being one specific theory, it is more of a perspective that revolves around understanding movements as they relate to politics, identity, culture, and social change. Some of these more complex interrelated movements include ecofeminism, which focuses on the patriarchal society as the source of environmental problems, and the transgender rights movement. Sociologist Steven Buechler (2000) suggests that we should be looking at the bigger picture in which these movements arise—shifting to a macro-level, global analysis of social movements.",
           "original_page": 650,
           "florida_page": 260
         }
@@ -1004,10 +959,8 @@
           "florida_page": 260
         },
         {
-          "type": "modified",
-          "original_text": "A given technology can create beneficiaries, but that same technology—especially if it is disruptive—can lead others to lose their jobs, suffer from pollution, or be monitored or victimized.",
-          "florida_text": "In every case, a given technology can create beneficiaries, but that same technology—especially if it is disruptive—can lead others to lose their jobs, suffer from pollution, or be monitored or victimized.",
-          "change_id": null,
+          "type": "same",
+          "text": "A given technology can create beneficiaries, but that same technology—especially if it is disruptive—can lead others to lose their jobs, suffer from pollution, or be monitored or victimized.",
           "original_page": 650,
           "florida_page": 260
         },

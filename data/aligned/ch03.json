@@ -206,7 +206,7 @@
         },
         {
           "type": "added",
-          "florida_text": "Physical objects often symbolize cultural ideas. A metro pass is a material object that can symbolize broader social and economic systems—for example, the exchange of money for services within a capitalist economy.",
+          "florida_text": "A metro pass is a material object that can symbolize broader social and economic systems—for example, the exchange of money for services within a capitalist economy.",
           "change_id": null,
           "florida_page": 48
         },
@@ -309,12 +309,6 @@
           "florida_page": 48
         },
         {
-          "type": "added",
-          "florida_text": "stand close to others in conversation.",
-          "change_id": null,
-          "florida_page": 48
-        },
-        {
           "type": "same",
           "text": "Americans keep more distance and maintain a large “personal space.” Additionally, behaviors as simple as eating and drinking vary greatly from culture to culture. Some cultures use tools to put the food in the mouth while others use their fingers.",
           "original_page": 77,
@@ -333,16 +327,8 @@
           "florida_page": 48
         },
         {
-          "type": "modified",
-          "original_text": "Such attitudes are examples of ethnocentrism, which means to evaluate and judge another culture based on one’s own cultural norms.",
-          "florida_text": "Such attitudes are sometimes a consequence of ethnocentrism, which means to evaluate and judge another culture based on one’s own cultural norms.",
-          "change_id": null,
-          "original_page": 77,
-          "florida_page": 48
-        },
-        {
           "type": "same",
-          "text": "Ethnocentrism is believing your group is the correct measuring standard and if other cultures do not measure up to it, they are wrong. As sociologist William Graham Sumner (1906) described the term, it is a belief or attitude that one’s own culture is better than all others.",
+          "text": "Such attitudes are examples of ethnocentrism, which means to evaluate and judge another culture based on one’s own cultural norms. Ethnocentrism is believing your group is the correct measuring standard and if other cultures do not measure up to it, they are wrong. As sociologist William Graham Sumner (1906) described the term, it is a belief or attitude that one’s own culture is better than all others.",
           "original_page": 77,
           "florida_page": 48
         },
@@ -513,16 +499,18 @@
           "florida_page": 48
         },
         {
-          "type": "removed",
-          "original_text": "When people observe the norms of society and uphold its values, they are often rewarded. A boy who helps an elderly woman board a bus may receive a smile and a “thank you.” A business manager who raises profit margins may receive a quarterly bonus.",
-          "change_id": null,
-          "original_page": 85
-        },
-        {
-          "type": "added",
+          "type": "modified",
+          "original_text": "When people observe the norms of society and uphold its values, they are often rewarded.",
           "florida_text": "People are often rewarded when they observe the norms of society and uphold its values.",
           "change_id": null,
+          "original_page": 85,
           "florida_page": 48
+        },
+        {
+          "type": "removed",
+          "original_text": "A boy who helps an elderly woman board a bus may receive a smile and a “thank you.” A business manager who raises profit margins may receive a quarterly bonus.",
+          "change_id": null,
+          "original_page": 85
         },
         {
           "type": "modified",
@@ -534,15 +522,7 @@
         },
         {
           "type": "same",
-          "text": "We may think of ‘sanction’ as a negative term, but sanctions are forms of social control, ways to encourage conformity to cultural norms or rules. Sometimes people conform to norms in anticipation or expectation of positive sanctions. Receiving good grades, for instance, may mean praise from parents and teachers.",
-          "original_page": 85,
-          "florida_page": 48
-        },
-        {
-          "type": "modified",
-          "original_text": "Sanctions can also be negative. .",
-          "florida_text": "Sanctions can also be negative.",
-          "change_id": null,
+          "text": "We may think of ‘sanction’ as a negative term, but sanctions are forms of social control, ways to encourage conformity to cultural norms or rules. Sometimes people conform to norms in anticipation or expectation of positive sanctions. Receiving good grades, for instance, may mean praise from parents and teachers. Sanctions can also be negative. .",
           "original_page": 85,
           "florida_page": 48
         },
@@ -554,15 +534,7 @@
         },
         {
           "type": "same",
-          "text": "Breaking norms and rejecting values can lead to cultural sanctions such as earning a negative label like ‘lazy’ or to legal sanctions, such as traffic tickets, fines, or imprisonment. Utilizing social control encourages most people to conform regardless of whether authority figures (such as law enforcement) are present. Values are not static. They change across time and between groups as people evaluate, debate, and change collective social beliefs. Values also vary from culture to culture. For example, cultures differ in their values about what kinds of physical closeness are appropriate in public. It’s rare to see two male friends or coworkers holding hands in the U.S. where that behavior often symbolizes romantic feelings. But in many nations, masculine physical intimacy is considered natural in public. This difference in cultural values came to light when people reacted to photos of former president G.W. Bush holding hands with the Crown Prince of Saudi Arabia in 2005.",
-          "original_page": 85,
-          "florida_page": 48
-        },
-        {
-          "type": "modified",
-          "original_text": "Simple gestures, such as hand-holding, carry great symbolic differences across cultures.",
-          "florida_text": "Simple gestures, such as handholding, carry great symbolic differences across cultures.",
-          "change_id": null,
+          "text": "Breaking norms and rejecting values can lead to cultural sanctions such as earning a negative label like ‘lazy’ or to legal sanctions, such as traffic tickets, fines, or imprisonment. Utilizing social control encourages most people to conform regardless of whether authority figures (such as law enforcement) are present. Values are not static. They change across time and between groups as people evaluate, debate, and change collective social beliefs. Values also vary from culture to culture. For example, cultures differ in their values about what kinds of physical closeness are appropriate in public. It’s rare to see two male friends or coworkers holding hands in the U.S. where that behavior often symbolizes romantic feelings. But in many nations, masculine physical intimacy is considered natural in public. This difference in cultural values came to light when people reacted to photos of former president G.W. Bush holding hands with the Crown Prince of Saudi Arabia in 2005. Simple gestures, such as hand-holding, carry great symbolic differences across cultures.",
           "original_page": 85,
           "florida_page": 48
         },
@@ -664,21 +636,7 @@
         },
         {
           "type": "same",
-          "text": "Folkways might be small actions, learned by observation and imitated, but they are by no means trivial. An important folkway in many cultures is kissing Grandmother on the cheek. Fail to do so and you will likely be scolded.",
-          "original_page": 85,
-          "florida_page": 48
-        },
-        {
-          "type": "modified",
-          "original_text": "Humans, consciously and subconsciously, are always striving to make sense of their surrounding world.",
-          "florida_text": "Symbols and Culture Humans, consciously and subconsciously, are always striving to make sense of their surrounding world.",
-          "change_id": null,
-          "original_page": 85,
-          "florida_page": 48
-        },
-        {
-          "type": "same",
-          "text": "Symbols—such as gestures, signs, objects, signals, and words—help people understand that world. They provide communication methods to understanding experiences by conveying recognizable meanings that are shared by societies.",
+          "text": "Folkways might be small actions, learned by observation and imitated, but they are by no means trivial. An important folkway in many cultures is kissing Grandmother on the cheek. Fail to do so and you will likely be scolded. Humans, consciously and subconsciously, are always striving to make sense of their surrounding world. Symbols—such as gestures, signs, objects, signals, and words—help people understand that world. They provide communication methods to understanding experiences by conveying recognizable meanings that are shared by societies.",
           "original_page": 85,
           "florida_page": 48
         },
@@ -726,21 +684,7 @@
         },
         {
           "type": "same",
-          "text": "In 1989, crowds tore down the Berlin Wall, a decades-old symbol of the division between East and West Germany, communism, and capitalism. In the U.S. beginning in 2019, statues associated with slavery and the Civil War were removed from state capitols, college campuses, and public parks. In Germany, any display of Hitler or Nazi memorabilia or to deny the Holocaust is illegal.",
-          "original_page": 85,
-          "florida_page": 48
-        },
-        {
-          "type": "modified",
-          "original_text": "While different cultures have varying systems of symbols, one system is common to all: language.",
-          "florida_text": "Language and Symbols While different cultures have varying systems of symbols, one system is common to all: language.",
-          "change_id": null,
-          "original_page": 85,
-          "florida_page": 48
-        },
-        {
-          "type": "same",
-          "text": "Whatever its form, people learn social and cultural norms through it. Language is a system that uses symbols with which people communicate and through which culture is transmitted. Letters (which make up words), pictographs, and hand gestures are all symbols that create a language used for communication.",
+          "text": "In 1989, crowds tore down the Berlin Wall, a decades-old symbol of the division between East and West Germany, communism, and capitalism. In the U.S. beginning in 2019, statues associated with slavery and the Civil War were removed from state capitols, college campuses, and public parks. In Germany, any display of Hitler or Nazi memorabilia or to deny the Holocaust is illegal. While different cultures have varying systems of symbols, one system is common to all: language. Whatever its form, people learn social and cultural norms through it. Language is a system that uses symbols with which people communicate and through which culture is transmitted. Letters (which make up words), pictographs, and hand gestures are all symbols that create a language used for communication.",
           "original_page": 85,
           "florida_page": 48
         },
@@ -765,12 +709,6 @@
           "florida_page": 48
         },
         {
-          "type": "added",
-          "florida_text": "‘behaviour’ or ‘flavour.’ Americans have dropped that ‘u’ that writers of British English include.",
-          "change_id": null,
-          "florida_page": 48
-        },
-        {
           "type": "same",
           "text": "Billions of people speak English, and there are almost as many pronunciations of it. Rules for speaking and writing vary even within cultures, most notably by region. Do you eat a grinder, a sub, or a hero/gyro? Do you refer to a can of carbonated liquid as “soda” or “pop”?",
           "original_page": 85,
@@ -783,16 +721,8 @@
           "original_page": 85
         },
         {
-          "type": "modified",
-          "original_text": "Even while it constantly evolves, language shapes our perception of reality and our behavior.",
-          "florida_text": "Language and Culture Even while it constantly evolves, language shapes our perception of reality and our behavior.",
-          "change_id": null,
-          "original_page": 85,
-          "florida_page": 48
-        },
-        {
           "type": "same",
-          "text": "In the 1920s, linguists Edward Sapir and Benjamin Whorf advanced this idea which became known as Sapir-Whorf hypothesis or linguistic relativity. It is based on the idea that people experience their world through their language, and therefore understand their world through the cultural meanings embedded in their language.",
+          "text": "Even while it constantly evolves, language shapes our perception of reality and our behavior. In the 1920s, linguists Edward Sapir and Benjamin Whorf advanced this idea which became known as Sapir-Whorf hypothesis or linguistic relativity. It is based on the idea that people experience their world through their language, and therefore understand their world through the cultural meanings embedded in their language.",
           "original_page": 85,
           "florida_page": 48
         },
@@ -811,16 +741,22 @@
           "original_page": 85
         },
         {
+          "type": "same",
+          "text": "In the U.S. where the number thirteen is associated with bad luck, many high-rise buildings do not have a 13th floor.",
+          "original_page": 85,
+          "florida_page": 48
+        },
+        {
           "type": "modified",
-          "original_text": "In the U.S. where the number thirteen is associated with bad luck, many high-rise buildings do not have a 13th floor. In Japan, however, the number four is considered unlucky, since it is pronounced similarly to the Japanese word for “death.”",
-          "florida_text": "For example, in the U.S. where the number thirteen is associated with bad luck, many high-rise buildings do not have a 13th floor. In Japan, however, the number four is considered unlucky, since it is pronounced similarly to the Japanese word for “death.” The Sapir-Whorf hypothesis has been interpreted to suggest that if a word does not exist in a language then users of that language cannot have the experience.",
+          "original_text": "In Japan, however, the number four is considered unlucky, since it is pronounced similarly to the Japanese word for “death.”",
+          "florida_text": "In Japan, however, the number four is considered unlucky, since it is pronounced similarly to the Japanese word for “death.” The Sapir-Whorf hypothesis has been interpreted to suggest that if a word does not exist in a language then users of that language cannot have the experience.",
           "change_id": null,
           "original_page": 85,
           "florida_page": 48
         },
         {
           "type": "removed",
-          "original_text": "Many sociologists believe that language can have a broad and lasting impact on perception. In 2002, Lera Boroditsky and her colleagues conducted experiments on native German and Spanish speakers in English. Unlike English, these languages assign genders to nouns. In German, for example, the word for sun, die Sonne, is feminine, but the word for moon, der Mond, is masculine. The team chose a set of nouns with opposite genders in German and Spanish and asked participants to provide adjectives to describe them. They found that German speakers used more masculine adjectives than Spanish speakers when describing a noun that was grammatically masculine in German but feminine in Spanish. For example, the word for key is masculine in German and feminine in Spanish. German speakers described keys as hard, heavy, jagged, metal, serrated, and useful, while Spanish speakers used the adjectives, golden, intricate, little, lovely, shiny, and tiny. The team concluded that gender perceptions acquired in a person’s native language carry forward to how they see the world even when they switch to a language without grammatical genders (Boroditsky, Schmidt, and Phillips, 2002). Some sociologists also believe the structure of language can have consequences on both individual and group behavior. For example, a series of studies have found that Finland has a significantly higher rate of workplace accidents than Sweden despite the fact that the languages have similar workplace regulations (Salminen & Johansson, 2000). John A. Lucy explained this discrepancy through differences in the structure of these languages. Swedish places a greater emphasis on the timing of movement in three-dimensional space. Consequently, Lucy argued, the Swedish factories are physically arranged in a manner that supports the smooth running of the product process. Finnish factors experience frequent disruptions, so that workers must rush and have more accidents (Lucy, 1997). The Sapir-Whorf hypothesis has been interpreted to suggest that if a word does not exist in a language then users of that language cannot have the experience.",
+          "original_text": "Many sociologists believe that language can have a broad and lasting impact on perception. In 2002, Lera Boroditsky and her colleagues conducted experiments on native German and Spanish speakers in English. Unlike English, these languages assign genders to nouns. In German, for example, the word for sun, die Sonne, is feminine, but the word for moon, der Mond, is masculine. The team chose a set of nouns with opposite genders in German and Spanish and asked participants to provide adjectives to describe them. They found that German speakers used more masculine adjectives than Spanish speakers when describing a noun that was grammatically masculine in German but feminine in Spanish. For example, the word for key is masculine in German and feminine in Spanish. German speakers described keys as hard, heavy, jagged, metal, serrated, and useful, while Spanish speakers used the adjectives, golden, intricate, little, lovely, shiny, and tiny. The team concluded that gender perceptions acquired in a person’s native language carry forward to how they see the world even when they switch to a language without grammatical genders (Boroditsky, Schmidt, and Phillips, 2002). Some sociologists also believe the structure of language can have consequences on both individual and group behavior. For example, a series of studies have found that Finland has a significantly higher rate of workplace accidents than Sweden despite the fact that the languages have similar workplace regulations (Salminen & Johansson, 2000). John A. Lucy explained this discrepancy through differences in the structure of these languages. Swedish places a greater emphasis on the timing of movement in three-dimensional space. Consequently, Lucy argued, the Swedish factories are physically arranged in a manner that supports the smooth running of the product process. Finnish factors experience frequent disruptions, so that workers must rush and have more accidents (Lucy, 1997).",
           "change_id": null,
           "original_page": 85
         },
@@ -1017,10 +953,8 @@
           "original_page": 85
         },
         {
-          "type": "modified",
-          "original_text": "The historical experiences of certain groups— those based upon race, sex, or class, for instance, or those that portray a negative narrative about the dominant culture—are excluded from history books.",
-          "florida_text": "Conflict theorists argue that the historical experiences of certain groups— those based upon race, sex, or class, for instance, or those that portray a negative narrative about the dominant culture—are sometimes excluded from history books.",
-          "change_id": null,
+          "type": "same",
+          "text": "The historical experiences of certain groups— those based upon race, sex, or class, for instance, or those that portray a negative narrative about the dominant culture—are excluded from history books.",
           "original_page": 85,
           "florida_page": 48
         },
@@ -1058,15 +992,7 @@
         },
         {
           "type": "same",
-          "text": "Women were not allowed to vote in the U.S. until 1920, making it hard for them to get laws passed that protected their rights in the home and in the workplace.",
-          "original_page": 97,
-          "florida_page": 48
-        },
-        {
-          "type": "modified",
-          "original_text": "Same-sex couples were denied the right to marry in the U.S. until 2015.",
-          "florida_text": "Same-sex couples were denied the right to marry in the U.S.",
-          "change_id": null,
+          "text": "Women were not allowed to vote in the U.S. until 1920, making it hard for them to get laws passed that protected their rights in the home and in the workplace. Same-sex couples were denied the right to marry in the U.S. until 2015.",
           "original_page": 97,
           "florida_page": 48
         },
@@ -1100,9 +1026,15 @@
         },
         {
           "type": "modified",
-          "original_text": "Conflict theorists believe that a society’s system of material production has an effect on the rest of culture. People who have less power also have fewer opportunities to adapt to cultural change.",
-          "florida_text": "Conflict theorists believe that a society’s system of material production influences the rest of culture. They believe that people who have less power also have fewer opportunities to adapt to cultural change.",
+          "original_text": "Conflict theorists believe that a society’s system of material production has an effect on the rest of culture.",
+          "florida_text": "Conflict theorists believe that a society’s system of material production influences the rest of culture.",
           "change_id": null,
+          "original_page": 97,
+          "florida_page": 48
+        },
+        {
+          "type": "same",
+          "text": "People who have less power also have fewer opportunities to adapt to cultural change.",
           "original_page": 97,
           "florida_page": 48
         },
@@ -1317,22 +1249,8 @@
         },
         {
           "type": "modified",
-          "original_text": "When resources became scarce, the group moved to a new area to find sustenance, meaning they were nomadic.",
-          "florida_text": "When resources became scarce, the group moved to a new area to find",
-          "change_id": null,
-          "original_page": 97,
-          "florida_page": 55
-        },
-        {
-          "type": "added",
-          "florida_text": "sustenance, meaning they were nomadic.",
-          "change_id": null,
-          "florida_page": 55
-        },
-        {
-          "type": "modified",
-          "original_text": "These societies were common until several hundred years ago, but today only a few hundred remain in existence, such as indigenous Australian tribes sometimes referred to as “aborigines,” or the Bambuti, a group of pygmy hunter-gatherers residing in the Democratic Republic of Congo.",
-          "florida_text": "These societies were common until several hundred years ago, but today only a few hundred remain in existence.",
+          "original_text": "When resources became scarce, the group moved to a new area to find sustenance, meaning they were nomadic. These societies were common until several hundred years ago, but today only a few hundred remain in existence, such as indigenous Australian tribes sometimes referred to as “aborigines,” or the Bambuti, a group of pygmy hunter-gatherers residing in the Democratic Republic of Congo.",
+          "florida_text": "When resources became scarce, the group moved to a new area to find These societies were common until several hundred years ago, but today only a few hundred remain in existence.",
           "change_id": null,
           "original_page": 97,
           "florida_page": 55
@@ -1607,12 +1525,6 @@
           "florida_page": 55
         },
         {
-          "type": "removed",
-          "original_text": "As a functionalist, Émile Durkheim’s (1858–1917) perspective on society stressed the necessary interconnectivity of all of its elements.",
-          "change_id": null,
-          "original_page": 97
-        },
-        {
           "type": "same",
           "text": "To Durkheim, society was greater than the sum of its parts. He asserted that individual behavior was not the same as collective behavior and that studying collective behavior was quite different from studying an individual’s actions. Durkheim called the communal beliefs, morals, and attitudes of a society the collective conscience. In his quest to understand what causes individuals to act in similar and predictable ways, he wrote, “If I do not submit to the conventions of society, if in my dress I do not conform to the customs observed in my country and in my class, the ridicule I provoke, the social isolation in which I am kept, produce, although in an attenuated form, the same effects as punishment” (Durkheim 1895). Durkheim also believed that social integration, or the strength of ties that people have to their social groups, was a key factor in social life. Following the ideas of Comte and Spencer, Durkheim likened society to a living organism, in which each organ plays a necessary role in keeping the being alive. Even the socially deviant members of society are necessary, Durkheim argued, as punishments for deviance affirm established cultural values and norms. That is, punishment of a crime reaffirms our moral consciousness. “A crime is a crime because we condemn it,” Durkheim wrote in 1893. “An act offends the common consciousness not because it is criminal, but it is criminal because it offends that consciousness” (Durkheim 1893). Durkheim called these elements of society “social facts.” By this, he meant that social forces were to be considered real and existed outside the individual. As an observer of his social world, Durkheim was not entirely satisfied with the direction of society in his day. His primary concern was that the cultural glue that held society together was failing, and people were becoming more divided. In his book The Division of Labor in Society (1893), Durkheim argued that as society grew more complex, social order made the transition from mechanical to organic. Preindustrial societies, Durkheim explained, were held together by mechanical solidarity, a type of social order maintained by the collective conscience of a culture. Societies with mechanical solidarity act in a mechanical fashion; things are done mostly because they have always been done that way. This type of thinking was common in preindustrial societies where strong bonds of kinship and a low division of labor created shared morals and values among people, such as hunter-gatherer groups. When people tend to do the same type of work, Durkheim argued, they tend to think and act alike. In industrial societies, mechanical solidarity is replaced with organic solidarity, which is social order based around an acceptance of economic and social differences.",
           "original_page": 97,
@@ -1624,12 +1536,6 @@
           "florida_text": "In capitalist societies, Durkheim wrote, division of labor becomes so",
           "change_id": null,
           "original_page": 97,
-          "florida_page": 55
-        },
-        {
-          "type": "added",
-          "florida_text": "specialized that everyone is doing different things.",
-          "change_id": null,
           "florida_page": 55
         },
         {
@@ -1669,22 +1575,8 @@
         },
         {
           "type": "modified",
-          "original_text": "Add to that the long hours, the use of child labor, and exposure to extreme conditions of heat, cold, and toxic chemicals, and it is no wonder that Marx and Engels referred to capitalism, which is a way of organizing an economy so that the things that are used to make and transport products (such as land, oil, factories, ships, etc.) are owned by individual people and companies rather than by the government, as the “dictatorship of the bourgeoisie.”",
-          "florida_text": "Marx and Engels referred to capitalism, which is a way of organizing an economy so that the things that are used to make and transport products (such as land, oil, factories, ships, etc.) are owned by individual people and companies rather than by the government, as the “dictatorship of the bourgeoisie.” For Marx, what we do defines who we are.",
-          "change_id": null,
-          "original_page": 116,
-          "florida_page": 59
-        },
-        {
-          "type": "removed",
-          "original_text": "For Marx, what we do defines who we are.",
-          "change_id": null,
-          "original_page": 116
-        },
-        {
-          "type": "modified",
-          "original_text": "In historical terms, in spite of the persistent nature of one class dominating another, some element of humanity existed.",
-          "florida_text": "In historical terms, despite the persistent nature of one class dominating another, some element of humanity existed.",
+          "original_text": "Add to that the long hours, the use of child labor, and exposure to extreme conditions of heat, cold, and toxic chemicals, and it is no wonder that Marx and Engels referred to capitalism, which is a way of organizing an economy so that the things that are used to make and transport products (such as land, oil, factories, ships, etc.) are owned by individual people and companies rather than by the government, as the “dictatorship of the bourgeoisie.” In historical terms, in spite of the persistent nature of one class dominating another, some element of humanity existed.",
+          "florida_text": "Marx and Engels referred to capitalism, which is a way of organizing an economy so that the things that are used to make and transport products (such as land, oil, factories, ships, etc.) are owned by individual people and companies rather than by the government, as the “dictatorship of the bourgeoisie.” For Marx, what we do defines who we are. In historical terms, despite the persistent nature of one class dominating another, some element of humanity existed.",
           "change_id": null,
           "original_page": 116,
           "florida_page": 59
@@ -1697,22 +1589,8 @@
         },
         {
           "type": "modified",
-          "original_text": "Marx defined four specific types of alienation.",
-          "florida_text": "Marx defined four specific types of alienation: 1.",
-          "change_id": null,
-          "original_page": 116,
-          "florida_page": 59
-        },
-        {
-          "type": "removed",
-          "original_text": "Alienation from the product of one’s labor.",
-          "change_id": null,
-          "original_page": 116
-        },
-        {
-          "type": "modified",
-          "original_text": "An industrial worker does not have the opportunity to relate to the product he labors on.",
-          "florida_text": "Alienation from the product of one’s labor: An industrial worker does not have the opportunity to relate to the product he labors on.",
+          "original_text": "Marx defined four specific types of alienation. An industrial worker does not have the opportunity to relate to the product he labors on.",
+          "florida_text": "Marx defined four specific types of alienation: 1. Alienation from the product of one’s labor: An industrial worker does not have the opportunity to relate to the product he labors on.",
           "change_id": null,
           "original_page": 116,
           "florida_page": 59
@@ -1734,12 +1612,6 @@
           "text": "A worker on a Ford assembly line may spend all day installing windows on car doors without ever seeing the rest of the car. A cannery worker can spend a lifetime cleaning fish without ever knowing what product they are used for.",
           "original_page": 116,
           "florida_page": 59
-        },
-        {
-          "type": "removed",
-          "original_text": "Alienation from the process of one’s labor.",
-          "change_id": null,
-          "original_page": 116
         },
         {
           "type": "modified",
@@ -1816,9 +1688,15 @@
           "florida_page": 59
         },
         {
+          "type": "same",
+          "text": "While Karl Marx may be one of the best-known thinkers of the nineteenth century, Max Weber is certainly one of the greatest influences in the field of sociology.",
+          "original_page": 116,
+          "florida_page": 59
+        },
+        {
           "type": "modified",
-          "original_text": "While Karl Marx may be one of the best-known thinkers of the nineteenth century, Max Weber is certainly one of the greatest influences in the field of sociology. Like the other social thinkers discussed here, he was concerned with the important changes taking place in Western society with the advent of industrialization.",
-          "florida_text": "Max Weber and Symbolic Interactionism While Karl Marx may be one of the best-known thinkers of the nineteenth century, Max Weber is certainly one of the greatest influences in the field of sociology. Like others, he was concerned with the important changes taking place in Western society with the advent of industrialization.",
+          "original_text": "Like the other social thinkers discussed here, he was concerned with the important changes taking place in Western society with the advent of industrialization.",
+          "florida_text": "Like others, he was concerned with the important changes taking place in Western society with the advent of industrialization.",
           "change_id": null,
           "original_page": 116,
           "florida_page": 59
@@ -1831,22 +1709,8 @@
         },
         {
           "type": "modified",
-          "original_text": "Indeed, today we even have a recognized medical condition that results from such tasks, known as “repetitive stress syndrome.”",
-          "florida_text": "Indeed, today we even have a recognized medical condition that results from such tasks, known as “repetitive stress syndrome.” Weber was also unlike his predecessors in that he was more interested in how individuals experienced societal divisions than in the divisions themselves.",
-          "change_id": null,
-          "original_page": 116,
-          "florida_page": 59
-        },
-        {
-          "type": "removed",
-          "original_text": "Weber was also unlike his predecessors in that he was more interested in how individuals experienced societal divisions than in the divisions themselves.",
-          "change_id": null,
-          "original_page": 116
-        },
-        {
-          "type": "modified",
-          "original_text": "The symbolic interactionism theory, the third of the three most recognized theories of sociology, is based on Weber’s early ideas that emphasize the viewpoint of the individual and how that individual relates to society.",
-          "florida_text": "Symbolic interactionism, the third of the three most recognized perspectives in sociology, is based on Weber’s early ideas that emphasize the viewpoint of the individual and how that individual relates to society.",
+          "original_text": "Indeed, today we even have a recognized medical condition that results from such tasks, known as “repetitive stress syndrome.” The symbolic interactionism theory, the third of the three most recognized theories of sociology, is based on Weber’s early ideas that emphasize the viewpoint of the individual and how that individual relates to society.",
+          "florida_text": "Indeed, today we even have a recognized medical condition that results from such tasks, known as “repetitive stress syndrome.” Weber was also unlike his predecessors in that he was more interested in how individuals experienced societal divisions than in the divisions themselves. Symbolic interactionism, the third of the three most recognized perspectives in sociology, is based on Weber’s early ideas that emphasize the viewpoint of the individual and how that individual relates to society.",
           "change_id": null,
           "original_page": 116,
           "florida_page": 59
@@ -1872,30 +1736,10 @@
         },
         {
           "type": "modified",
-          "original_text": "In 1966 sociologists Peter Berger and Thomas Luckmann wrote a book called The Social Construction of Reality.",
-          "florida_text": "In 1966 sociologists Peter Berger and Thomas Luckmann wrote a book called “The Social Construction of Reality.” In it, they argued that society is created by humans and human interaction, which they call habitualization.",
+          "original_text": "In 1966 sociologists Peter Berger and Thomas Luckmann wrote a book called The Social Construction of Reality. Habitualization describes how “any action that is repeated frequently becomes cast into a pattern, which can then be … performed again in the future in the same manner and with the same economical effort” (Berger and Luckmann 1966).",
+          "florida_text": "In 1966 sociologists Peter Berger and Thomas Luckmann wrote a book called “The Social Construction of Reality.” In it, they argued that society is created by humans and human interaction, which they call habitualization. Habitualization describes how “any action that is repeated frequently becomes cast into a pattern, which can then be … performed",
           "change_id": null,
           "original_page": 116,
-          "florida_page": 59
-        },
-        {
-          "type": "removed",
-          "original_text": "In it, they argued that society is created by humans and human interaction, which they call habitualization.",
-          "change_id": null,
-          "original_page": 116
-        },
-        {
-          "type": "modified",
-          "original_text": "Habitualization describes how “any action that is repeated frequently becomes cast into a pattern, which can then be … performed again in the future in the same manner and with the same economical effort” (Berger and Luckmann 1966).",
-          "florida_text": "Habitualization describes how “any action that is repeated frequently becomes cast into a pattern, which can then be … performed",
-          "change_id": null,
-          "original_page": 116,
-          "florida_page": 59
-        },
-        {
-          "type": "added",
-          "florida_text": "again in the future in the same manner and with the same economical effort” (Berger and Luckmann 1966).",
-          "change_id": null,
           "florida_page": 59
         },
         {
@@ -1911,16 +1755,8 @@
           "original_page": 116
         },
         {
-          "type": "modified",
-          "original_text": "For example, your school exists as a school and not just as a building because you and others agree that it is a school.",
-          "florida_text": "Society is, in fact, “habit.” For example, your school exists as a school and not just as a building because you and others agree that it is a school.",
-          "change_id": null,
-          "original_page": 116,
-          "florida_page": 59
-        },
-        {
           "type": "same",
-          "text": "If your school is older than you are, it was created by the agreement of others before you. In a sense, it exists by consensus, both prior and current. This is an example of the process of institutionalization, the act of implanting a convention or norm into society. Bear in mind that the institution, while socially constructed, is still quite real. Another way of looking at this concept is through W.I. Thomas’s notable Thomas theorem which states, “If men define situations as real, they are real in their consequences” (Thomas and Thomas 1928). That is, people’s behavior can be determined by their subjective construction of reality rather than by objective reality.",
+          "text": "For example, your school exists as a school and not just as a building because you and others agree that it is a school. If your school is older than you are, it was created by the agreement of others before you. In a sense, it exists by consensus, both prior and current. This is an example of the process of institutionalization, the act of implanting a convention or norm into society. Bear in mind that the institution, while socially constructed, is still quite real. Another way of looking at this concept is through W.I. Thomas’s notable Thomas theorem which states, “If men define situations as real, they are real in their consequences” (Thomas and Thomas 1928). That is, people’s behavior can be determined by their subjective construction of reality rather than by objective reality.",
           "original_page": 116,
           "florida_page": 59
         },
@@ -1976,19 +1812,7 @@
         },
         {
           "type": "same",
-          "text": "Roles are patterns of behavior that we recognize in each other that are representative of a person’s social status. Currently, while reading this text, you are playing the role of a student.",
-          "original_page": 116,
-          "florida_page": 59
-        },
-        {
-          "type": "added",
-          "florida_text": "However, you also",
-          "change_id": null,
-          "florida_page": 59
-        },
-        {
-          "type": "same",
-          "text": "However, you also play other roles in your life, such as “daughter,” “neighbor,” or “employee.” These various roles are each associated with a different status. Sociologists use the term status to describe the responsibilities and benefits that a person experiences according to their rank and role in society. Some statuses are ascribed—those you do not select, such as son, elderly person, or female. Others, called achieved statuses, are obtained by choice, such as a high school dropout, self-made millionaire, or nurse. As a daughter or son, you occupy a different status than as a neighbor or employee. One person can be associated with a multitude of roles and statuses. Even a single status such as “student” has a complex role-set, or array of roles, attached to it (Merton 1957). It is important to note that status refers to the rank in social hierarchy, while role is the behavior expected of a person holding a certain status. If too much is required of a single role, individuals can experience role strain. Consider the duties of a parent: cooking, cleaning, driving, problem-solving, acting as a source of moral guidance—the list goes on. Similarly, a person can experience role conflict when one or more roles are contradictory. A parent who also has a full-time career can experience role conflict on a daily basis. When there is a deadline at the office but a sick child needs to be picked up from school, which comes first? When you are working toward a promotion but your children want you to come to their school play, which do you choose? Being a college student can conflict with being an employee, being an athlete, or even being a friend. Our roles in life have a great effect on our decisions and who we become. Of course, it is impossible to look inside a person’s head and study what role they are playing. All we can observe is behavior, or role performance. Role performance is how a person expresses his or her role. Sociologist Erving Goffman presented the idea that a person is like an actor on a stage. Calling his theory dramaturgy, Goffman believed that we use “impression management” to present ourselves to others as we hope to be perceived. Each situation is a new scene, and individuals perform different roles depending on who is present (Goffman 1959). Think about the way you behave around your coworkers versus the way you behave around your grandparents versus the way you behave with a blind date. Even if you’re not consciously trying to alter your personality, your grandparents, coworkers, and date probably see different sides of you. As in a play, the setting matters as well. If you have a group of friends over to your house for dinner, you are playing the role of a host. It is agreed upon that you will provide food and seating and probably be stuck with a lot of the cleanup at the end of the night. Similarly, your friends are playing the roles of guests, and they are expected to respect your property and any rules you may set forth (“Don’t leave the door open or the cat will get out.”). In any scene, there needs to be a shared reality between players. In this case, if you view yourself as a guest and others view you as a host, there are likely to be problems. Impression management is a critical component of symbolic interactionism. For example, a judge in a courtroom has many “props” to create an impression of fairness, gravity, and control—like their robe and gavel. Those entering the courtroom are expected to adhere to the scene being set. Just imagine the “impression” that can be made by how a person dresses. This is the reason that attorneys frequently select the hairstyle and apparel for witnesses and defendants in courtroom proceedings. Goffman’s dramaturgy ideas expand on the ideas of Charles Cooley and the looking-glass self. According to Cooley, we base our image on what we think other people see (Cooley 1902). We imagine how we must appear to others, then react to this speculation. We don certain clothes, prepare our hair in a particular manner, wear makeup, use cologne, and the like—all with the notion that our presentation of ourselves is going to affect how others perceive us. We expect a certain reaction, and, if lucky, we get the one we desire and feel good about it. But more than that, Cooley believed that our sense of self is based upon this idea: we imagine how we look to others, draw conclusions based upon their reactions to us, and then we develop our personal sense of self. In other words, people’s reactions to us are like a mirror in which we are reflected.",
+          "text": "Roles are patterns of behavior that we recognize in each other that are representative of a person’s social status. Currently, while reading this text, you are playing the role of a student. However, you also play other roles in your life, such as “daughter,” “neighbor,” or “employee.” These various roles are each associated with a different status. Sociologists use the term status to describe the responsibilities and benefits that a person experiences according to their rank and role in society. Some statuses are ascribed—those you do not select, such as son, elderly person, or female. Others, called achieved statuses, are obtained by choice, such as a high school dropout, self-made millionaire, or nurse. As a daughter or son, you occupy a different status than as a neighbor or employee. One person can be associated with a multitude of roles and statuses. Even a single status such as “student” has a complex role-set, or array of roles, attached to it (Merton 1957). It is important to note that status refers to the rank in social hierarchy, while role is the behavior expected of a person holding a certain status. If too much is required of a single role, individuals can experience role strain. Consider the duties of a parent: cooking, cleaning, driving, problem-solving, acting as a source of moral guidance—the list goes on. Similarly, a person can experience role conflict when one or more roles are contradictory. A parent who also has a full-time career can experience role conflict on a daily basis. When there is a deadline at the office but a sick child needs to be picked up from school, which comes first? When you are working toward a promotion but your children want you to come to their school play, which do you choose? Being a college student can conflict with being an employee, being an athlete, or even being a friend. Our roles in life have a great effect on our decisions and who we become. Of course, it is impossible to look inside a person’s head and study what role they are playing. All we can observe is behavior, or role performance. Role performance is how a person expresses his or her role. Sociologist Erving Goffman presented the idea that a person is like an actor on a stage. Calling his theory dramaturgy, Goffman believed that we use “impression management” to present ourselves to others as we hope to be perceived. Each situation is a new scene, and individuals perform different roles depending on who is present (Goffman 1959). Think about the way you behave around your coworkers versus the way you behave around your grandparents versus the way you behave with a blind date. Even if you’re not consciously trying to alter your personality, your grandparents, coworkers, and date probably see different sides of you. As in a play, the setting matters as well. If you have a group of friends over to your house for dinner, you are playing the role of a host. It is agreed upon that you will provide food and seating and probably be stuck with a lot of the cleanup at the end of the night. Similarly, your friends are playing the roles of guests, and they are expected to respect your property and any rules you may set forth (“Don’t leave the door open or the cat will get out.”). In any scene, there needs to be a shared reality between players. In this case, if you view yourself as a guest and others view you as a host, there are likely to be problems. Impression management is a critical component of symbolic interactionism. For example, a judge in a courtroom has many “props” to create an impression of fairness, gravity, and control—like their robe and gavel. Those entering the courtroom are expected to adhere to the scene being set. Just imagine the “impression” that can be made by how a person dresses. This is the reason that attorneys frequently select the hairstyle and apparel for witnesses and defendants in courtroom proceedings. Goffman’s dramaturgy ideas expand on the ideas of Charles Cooley and the looking-glass self. According to Cooley, we base our image on what we think other people see (Cooley 1902). We imagine how we must appear to others, then react to this speculation. We don certain clothes, prepare our hair in a particular manner, wear makeup, use cologne, and the like—all with the notion that our presentation of ourselves is going to affect how others perceive us. We expect a certain reaction, and, if lucky, we get the one we desire and feel good about it. But more than that, Cooley believed that our sense of self is based upon this idea: we imagine how we look to others, draw conclusions based upon their reactions to us, and then we develop our personal sense of self. In other words, people’s reactions to us are like a mirror in which we are reflected.",
           "original_page": 116,
           "florida_page": 59
         }

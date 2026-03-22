@@ -75,21 +75,7 @@
         },
         {
           "type": "same",
-          "text": "Census Bureau, 2020).",
-          "original_page": 21,
-          "florida_page": 6
-        },
-        {
-          "type": "modified",
-          "original_text": "Increasingly, single people and cohabitating couples are choosing to raise children outside of marriage through surrogates or adoption.",
-          "florida_text": "Single people and cohabitating couples are choosing to raise children outside of marriage through surrogates or adoption.",
-          "change_id": null,
-          "original_page": 21,
-          "florida_page": 6
-        },
-        {
-          "type": "same",
-          "text": "Some sociologists study social facts—the laws, morals, values, religious beliefs, customs, fashions, rituals, and cultural rules that govern social life—that may contribute to these changes in the family. Do people in the United States view marriage and family differently over the years?",
+          "text": "Census Bureau, 2020). Increasingly, single people and cohabitating couples are choosing to raise children outside of marriage through surrogates or adoption. Some sociologists study social facts—the laws, morals, values, religious beliefs, customs, fashions, rituals, and cultural rules that govern social life—that may contribute to these changes in the family. Do people in the United States view marriage and family differently over the years?",
           "original_page": 21,
           "florida_page": 6
         },
@@ -168,7 +154,7 @@
         },
         {
           "type": "added",
-          "florida_text": "Social? mobility, and new kinds of employment. It was within this context that sociology was born.",
+          "florida_text": "It was within this context that sociology was born.",
           "change_id": null,
           "florida_page": 6
         },
@@ -228,9 +214,15 @@
         },
         {
           "type": "modified",
-          "original_text": "She pointed out the faults with the free enterprise system in which workers were exploited and impoverished while business owners became wealthy. She further noted that the belief that all are created equal was inconsistent with the lack of women’s rights.",
-          "florida_text": "She pointed out what she observed about business practices at that time in which workers were exploited and impoverished while business owners became wealthy. She further noted that the belief that all are created equal was inconsistent with what she saw as the lack of women’s rights.",
+          "original_text": "She pointed out the faults with the free enterprise system in which workers were exploited and impoverished while business owners became wealthy.",
+          "florida_text": "She pointed out what she observed about business practices at that time in which workers were exploited and impoverished while business owners became wealthy.",
           "change_id": null,
+          "original_page": 23,
+          "florida_page": 6
+        },
+        {
+          "type": "same",
+          "text": "She further noted that the belief that all are created equal was inconsistent with the lack of women’s rights.",
           "original_page": 23,
           "florida_page": 6
         },
@@ -273,15 +265,7 @@
         },
         {
           "type": "same",
-          "text": "It also presents Marx’s theory of society, which differed from what Comte proposed. Marx rejected Comte’s positivism.",
-          "original_page": 25,
-          "florida_page": 8
-        },
-        {
-          "type": "modified",
-          "original_text": "He believed that societies grew and changed as a result of the struggles of different social classes over the means of production.",
-          "florida_text": "He believed that societies grew and changed because of the struggles of different social classes over the means of production.",
-          "change_id": null,
+          "text": "It also presents Marx’s theory of society, which differed from what Comte proposed. Marx rejected Comte’s positivism. He believed that societies grew and changed as a result of the struggles of different social classes over the means of production.",
           "original_page": 25,
           "florida_page": 8
         },
@@ -309,29 +293,9 @@
         },
         {
           "type": "same",
-          "text": "In 1873, the English philosopher Herbert Spencer published The Study of Sociology, the first book with the term “sociology” in the title. Spencer rejected much of Comte’s philosophy as well as Marx’s theory of class struggle and his support of communism. Instead, he favored a form of government that allowed market forces to control capitalism. His work influenced many early sociologists including Émile Durkheim (1858–1917). Spencer, using Charles Darwin’s work as a comparison said, “This survival of the fittest, which I have here sought to express in mechanical terms, is that which Mr. Darwin has called ‘natural selection,’ or the preservation of favoured races in the struggle for life.” (Spencer, 1864) The statement is often misinterpreted and adopted by those who believe in the superiority of one race over another.",
+          "text": "In 1873, the English philosopher Herbert Spencer published The Study of Sociology, the first book with the term “sociology” in the title. Spencer rejected much of Comte’s philosophy as well as Marx’s theory of class struggle and his support of communism. Instead, he favored a form of government that allowed market forces to control capitalism. His work influenced many early sociologists including Émile Durkheim (1858–1917). Spencer, using Charles Darwin’s work as a comparison said, “This survival of the fittest, which I have here sought to express in mechanical terms, is that which Mr. Darwin has called ‘natural selection,’ or the preservation of favoured races in the struggle for life.” (Spencer, 1864) The statement is often misinterpreted and adopted by those who believe in the superiority of one race over another. Georg Simmel was a German art critic who wrote widely on social and political issues as well. Simmel took an anti-positivism stance and addressed topics such as social conflict, the function of money, individual identity in city life, and the European fear of outsiders (Stapley 2010). Much of his work focused on micro-level theories and analyzed the dynamics of two-person and three-person groups.",
           "original_page": 25,
           "florida_page": 8
-        },
-        {
-          "type": "modified",
-          "original_text": "Georg Simmel was a German art critic who wrote widely on social and political issues as well.",
-          "florida_text": "Georg Simmel (1858–1918) Georg Simmel was a German art critic who wrote widely on social and political issues as well.",
-          "change_id": null,
-          "original_page": 25,
-          "florida_page": 8
-        },
-        {
-          "type": "same",
-          "text": "Simmel took an anti-positivism stance and addressed topics such as social conflict, the function of money, individual identity in city life, and the European fear of outsiders (Stapley 2010). Much of his work focused on micro-level theories and analyzed the dynamics of two-person and three-person groups.",
-          "original_page": 25,
-          "florida_page": 8
-        },
-        {
-          "type": "removed",
-          "original_text": "His work also emphasized individual culture as the creative capacities of individuals (Ritzer and Goodman 2004).",
-          "change_id": null,
-          "original_page": 25
         },
         {
           "type": "modified",
@@ -377,28 +341,8 @@
         },
         {
           "type": "same",
-          "text": "His groundbreaking 1896-1897 study of the African American community in Philadelphia incorporated hundreds of interviews Du Bois conducted in order to document the familial and employment structures and assess the chief challenges of the community. These new, comprehensive research methods stood in stark contrast to the less scientific practices of the time, which Du Bois critiqued as being similar to doing research as if through the window of a moving car. His scientific approach became highly influential to entire schools of sociological study, and is considered a forerunner to contemporary practices. Additionally, Du Bois’ 1899 publication provided empirical evidence to challenge pseudoscientific ideas of biological racism (Morris, 2015; Green & Wortham, 2018), which had been used as justification to oppress people of different races. Du Bois also played a prominent role in the effort to increase rights for Black people. Concerned at the slow pace of progress and advice from some Black leaders to be more accommodating of racism, Du Bois became a leader in what would later be known as the Niagara Movement. In 1905, he and others drafted a declaration that called for immediate political, economic, and social equality for African Americans. A few years later, he helped found the National Association for the Advancement of Colored People (NAACP) and served as its director of publications. After a brief stint as an unemployed college graduate, Thorstein Veblen began to study the economy through a social lens, writing about the leisure class, the business class, and other areas that touched on the idea of ‘working’ itself. He researched the chronically unemployed, the currently unemployed, the working classes, and the impact of technology and business within society. Veblen is known as a co-founder of the branch (or school) of institutional economics. Jane Addams founded Hull House, a center that served needy immigrants through social and educational programs while providing extensive opportunities for sociological research. Founded in Chicago, Addams worked closely with University of Chicago’s Chicago School of Sociology.",
+          "text": "His groundbreaking 1896-1897 study of the African American community in Philadelphia incorporated hundreds of interviews Du Bois conducted in order to document the familial and employment structures and assess the chief challenges of the community. These new, comprehensive research methods stood in stark contrast to the less scientific practices of the time, which Du Bois critiqued as being similar to doing research as if through the window of a moving car. His scientific approach became highly influential to entire schools of sociological study, and is considered a forerunner to contemporary practices. Additionally, Du Bois’ 1899 publication provided empirical evidence to challenge pseudoscientific ideas of biological racism (Morris, 2015; Green & Wortham, 2018), which had been used as justification to oppress people of different races. Du Bois also played a prominent role in the effort to increase rights for Black people. Concerned at the slow pace of progress and advice from some Black leaders to be more accommodating of racism, Du Bois became a leader in what would later be known as the Niagara Movement. In 1905, he and others drafted a declaration that called for immediate political, economic, and social equality for African Americans. A few years later, he helped found the National Association for the Advancement of Colored People (NAACP) and served as its director of publications. After a brief stint as an unemployed college graduate, Thorstein Veblen began to study the economy through a social lens, writing about the leisure class, the business class, and other areas that touched on the idea of ‘working’ itself. He researched the chronically unemployed, the currently unemployed, the working classes, and the impact of technology and business within society. Veblen is known as a co-founder of the branch (or school) of institutional economics. Jane Addams founded Hull House, a center that served needy immigrants through social and educational programs while providing extensive opportunities for sociological research. Founded in Chicago, Addams worked closely with University of Chicago’s Chicago School of Sociology. This school of thought places much importance on environment in which relationships and behaviors develop. Research conducted at Hull House informed child labor, immigration, health care, and other areas of public policy. Charles Horton Cooley posited that individuals compare themselves to others in order to check themselves against social standards and remain part of the group. Calling this idea ‘the looking-glass self,’ Cooley argued that we ‘see’ ourselves by the reactions of others with whom we interact. If someone reacts positively to our behavior, theoretically we will continue that behavior. He wrote substantially on what he saw as the order of life in Human Nature and the Social Order (1902) followed by Social Organization in 1909.",
           "original_page": 25,
-          "florida_page": 8
-        },
-        {
-          "type": "modified",
-          "original_text": "This school of thought places much importance on environment in which relationships and behaviors develop.",
-          "florida_text": "This school of thought places much importance on social contexts in which relationships and behaviors develop.",
-          "change_id": null,
-          "original_page": 25,
-          "florida_page": 8
-        },
-        {
-          "type": "same",
-          "text": "Research conducted at Hull House informed child labor, immigration, health care, and other areas of public policy. Charles Horton Cooley posited that individuals compare themselves to others in order to check themselves against social standards and remain part of the group. Calling this idea ‘the looking-glass self,’ Cooley argued that we ‘see’ ourselves by the reactions of others with whom we interact. If someone reacts positively to our behavior, theoretically we will continue that behavior. He wrote substantially on what he saw as the order of life in Human Nature and the Social Order (1902) followed by Social Organization in 1909.",
-          "original_page": 25,
-          "florida_page": 8
-        },
-        {
-          "type": "added",
-          "florida_text": "He was very concerned with the increasing individualism",
-          "change_id": null,
           "florida_page": 8
         },
         {
@@ -513,12 +457,6 @@
           "florida_page": 8
         },
         {
-          "type": "removed",
-          "original_text": "Émile Durkheim applied Spencer’s theory to explain how societies change and survive over time.",
-          "change_id": null,
-          "original_page": 29
-        },
-        {
           "type": "same",
           "text": "Durkheim believed that society is a complex system of interrelated and interdependent parts that work together to maintain stability (Durkheim, 1893), and that society is held together by shared values, languages, and symbols. He believed that to study society, a sociologist must look beyond individuals to social facts such as laws, morals, values, religious beliefs, customs, fashion, and rituals, which all serve to govern social life (Durkheim, 1895). Alfred Radcliffe-Brown (1881–1955), a social anthropologist, defined the function of any recurrent activity as the part it played in social life as a whole, and therefore the contribution it makes to social stability and continuity (Radcliffe-Brown 1952). In a healthy society, all parts work together to maintain stability, a state called dynamic equilibrium by later sociologists such as Parsons (1961). Durkheim believed that individuals may make up society, but in order to study society, sociologists have to look beyond individuals to social facts. Each of these social facts serves one or more functions within a society.",
           "original_page": 29,
@@ -582,15 +520,15 @@
         },
         {
           "type": "modified",
-          "original_text": "The perpetuation of power results in the perpetuation of oppression. Several theorists suggested variations on this basic theme like Polish-Austrian sociologist Ludwig Gumplowicz (1838–1909) who expanded on Marx’s ideas by arguing that war and conquest are the bases of civilizations.",
-          "florida_text": "The perpetuation of power results in the perpetuation of oppression of those with less power. Several theorists introduced variations on this basic theme like Polish-Austrian sociologist Ludwig Gumplowicz (1838– 1909) who expanded on Marx’s ideas by arguing that war and conquest are the bases of civilizations.",
+          "original_text": "The perpetuation of power results in the perpetuation of oppression.",
+          "florida_text": "The perpetuation of power results in the perpetuation of oppression of those with less power.",
           "change_id": null,
           "original_page": 29,
           "florida_page": 8
         },
         {
           "type": "same",
-          "text": "He believed that cultural and ethnic conflicts led to states being identified and defined by a dominant group that had power over other groups (Irving, 2007). German sociologist Max Weber (1864–1920) agreed with Marx but also believed that, in addition to economic inequalities, inequalities of political power and social structure cause conflict. Weber noted that different groups were affected differently based on education, race, and gender, and that people’s reactions to inequality were moderated by class differences and rates of social mobility, as well as by perceptions about the legitimacy of those in power. A reader of Marx, Georg Simmel believed that conflict can help integrate and stabilize a society. He said that the intensity of the conflict varies depending on the emotional involvement of the parties, the degree of solidarity within the opposing groups, and the clarity and limited nature of the goals.",
+          "text": "Several theorists suggested variations on this basic theme like Polish-Austrian sociologist Ludwig Gumplowicz (1838–1909) who expanded on Marx’s ideas by arguing that war and conquest are the bases of civilizations. He believed that cultural and ethnic conflicts led to states being identified and defined by a dominant group that had power over other groups (Irving, 2007). German sociologist Max Weber (1864–1920) agreed with Marx but also believed that, in addition to economic inequalities, inequalities of political power and social structure cause conflict. Weber noted that different groups were affected differently based on education, race, and gender, and that people’s reactions to inequality were moderated by class differences and rates of social mobility, as well as by perceptions about the legitimacy of those in power. A reader of Marx, Georg Simmel believed that conflict can help integrate and stabilize a society. He said that the intensity of the conflict varies depending on the emotional involvement of the parties, the degree of solidarity within the opposing groups, and the clarity and limited nature of the goals.",
           "original_page": 29,
           "florida_page": 8
         },
@@ -623,16 +561,8 @@
           "original_evidence": "img/evidence/ch01/change_11_original.webp"
         },
         {
-          "type": "modified",
-          "original_text": "Just as structural functionalism was criticized for focusing too much on the stability of societies, conflict theory has been criticized because it tends to focus on conflict to the exclusion of recognizing stability.",
-          "florida_text": "Criticism of Conflict Perspective Just as structural functionalism was criticized for focusing too much on the stability of societies, conflict perspective has been criticized because it tends to focus on conflict to the exclusion of recognizing stability.",
-          "change_id": null,
-          "original_page": 32,
-          "florida_page": 8
-        },
-        {
           "type": "same",
-          "text": "Many social structures are extremely stable or have gradually progressed over time rather than changing abruptly as conflict theory would suggest.",
+          "text": "Just as structural functionalism was criticized for focusing too much on the stability of societies, conflict theory has been criticized because it tends to focus on conflict to the exclusion of recognizing stability. Many social structures are extremely stable or have gradually progressed over time rather than changing abruptly as conflict theory would suggest.",
           "original_page": 32,
           "florida_page": 8
         },
@@ -658,7 +588,7 @@
         },
         {
           "type": "added",
-          "florida_text": "Meaning is derived through a shared definition of a situation. Theorists Herman and",
+          "florida_text": "Meaning is derived through a shared definition of a situation.",
           "change_id": null,
           "florida_page": 8
         },
@@ -721,9 +651,15 @@
           "florida_page": 8
         },
         {
+          "type": "same",
+          "text": "Structural-functionalism was a dominant force after World War II and until the 1960s and 1970s.",
+          "original_page": 32,
+          "florida_page": 8
+        },
+        {
           "type": "modified",
-          "original_text": "Structural-functionalism was a dominant force after World War II and until the 1960s and 1970s. At that time, sociologists began to feel that structural-functionalism did not sufficiently explain the rapid social changes happening in the United States at that time.",
-          "florida_text": "Structural functionalism was a dominant force after World War II and until the 1960s and 1970s. At that time, sociologists began to feel that structural functionalism did not sufficiently explain the rapid social changes happening in the United States.",
+          "original_text": "At that time, sociologists began to feel that structural-functionalism did not sufficiently explain the rapid social changes happening in the United States at that time.",
+          "florida_text": "At that time, sociologists began to feel that structural functionalism did not sufficiently explain the rapid social changes happening in the United States.",
           "change_id": null,
           "original_page": 32,
           "florida_page": 8

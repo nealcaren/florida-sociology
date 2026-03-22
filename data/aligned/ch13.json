@@ -38,30 +38,10 @@
           "florida_page": 86
         },
         {
-          "type": "removed",
-          "original_text": "The kids burst into peals of laughter.",
-          "change_id": null,
-          "original_page": 380
-        },
-        {
           "type": "same",
-          "text": "Bibi joined in as she moved a pan. Suddenly the stove erupted in flame. The oil in the pan had spilled over. Bibi grabbed a glass of water on the table. Joli screamed at her to stop, but Bibi had already thrown the water onto the oil. The flames flared and splattered across the stove and onto the counter. A paper towel caught fire. Everyone was screaming. Osiris and Joli's mother, Gloria, was in the room a moment later. Pushing Bibi away, she turned off the stove and threw a towel on some of the flames.",
+          "text": "Bibi joined in as she moved a pan. Suddenly the stove erupted in flame. The oil in the pan had spilled over. Bibi grabbed a glass of water on the table. Joli screamed at her to stop, but Bibi had already thrown the water onto the oil. The flames flared and splattered across the stove and onto the counter. A paper towel caught fire. Everyone was screaming. Osiris and Joli's mother, Gloria, was in the room a moment later. Pushing Bibi away, she turned off the stove and threw a towel on some of the flames. She took a fire extinguisher from the cabinet and, after a few seconds of fiddling with the pin and hose, emptied it onto the fire. “Mom!” Gloria yelled. “Why would you put water on an oil fire?",
           "original_page": 380,
           "florida_page": 86
-        },
-        {
-          "type": "modified",
-          "original_text": "She took a fire extinguisher from the cabinet and, after a few seconds of fiddling with the pin and hose, emptied it onto the fire.",
-          "florida_text": "She took a fire extinguisher from the cabinet and, after a few seconds of fiddling with the pin and hose, emptied it onto the fire. “Mom!” Gloria yelled. “Why would you put water on an oil fire?",
-          "change_id": null,
-          "original_page": 380,
-          "florida_page": 86
-        },
-        {
-          "type": "removed",
-          "original_text": "“Mom!” Gloria yelled. “Why would you put water on an oil fire? You know that's the last thing to do!”",
-          "change_id": null,
-          "original_page": 380
         },
         {
           "type": "modified",
@@ -86,12 +66,6 @@
           "florida_page": 86
         },
         {
-          "type": "removed",
-          "original_text": "“No you don't.",
-          "change_id": null,
-          "original_page": 380
-        },
-        {
           "type": "same",
           "text": "You taught me never to do that. You told me to use salt...anything but water.",
           "original_page": 380,
@@ -104,12 +78,6 @@
           "change_id": null,
           "original_page": 380,
           "florida_page": 86
-        },
-        {
-          "type": "removed",
-          "original_text": "Bibi was crying.",
-          "change_id": null,
-          "original_page": 380
         },
         {
           "type": "same",
@@ -200,12 +168,6 @@
           "florida_page": 86
         },
         {
-          "type": "added",
-          "florida_text": "Social gerontologists work as",
-          "change_id": null,
-          "florida_page": 86
-        },
-        {
           "type": "modified",
           "original_text": "Social gerontologists work as social researchers, counselors, community organizers, and service providers for older adults.",
           "florida_text": "social researchers, counselors, community organizers, and service providers for older adults.",
@@ -215,20 +177,9 @@
         },
         {
           "type": "same",
-          "text": "Because of their specialization, social gerontologists are in a strong position to advocate for older adults. Scholars in these disciplines have learned that “aging” reflects not only the physiological process of growing older but also our attitudes and beliefs about the aging process. You’ve likely seen online calculators that promise to determine your “real age” as opposed to your chronological age. These ads target the notion that people may “feel” a different age than their actual years.",
+          "text": "Because of their specialization, social gerontologists are in a strong position to advocate for older adults. Scholars in these disciplines have learned that “aging” reflects not only the physiological process of growing older but also our attitudes and beliefs about the aging process. You’ve likely seen online calculators that promise to determine your “real age” as opposed to your chronological age. These ads target the notion that people may “feel” a different age than their actual years. Some sixty-year-olds feel frail and elderly, while some eighty-year-olds feel sprightly.",
           "original_page": 380,
           "florida_page": 86
-        },
-        {
-          "type": "modified",
-          "original_text": "Some sixty-year-olds feel frail and elderly, while some eighty-year-olds feel sprightly.",
-          "florida_text": "Some sixty-year-olds feel frail and old, while some eighty-year-olds feel sprightly.",
-          "change_id": "ch13_change_4",
-          "original_page": 381,
-          "florida_page": 87,
-          "context": "\"Elderly\" replaced with \"old\" — part of a systematic word substitution throughout the Florida version.",
-          "original_evidence": "img/evidence/ch13/change_4_original.webp",
-          "florida_evidence": "img/evidence/ch13/change_4_florida.webp"
         },
         {
           "type": "removed",
@@ -242,7 +193,7 @@
           "type": "same",
           "text": "In the United States, the experience of being elderly has changed greatly over the past century. In the late 1800s and early 1900s, many U.S. households were home to multigenerational families, and the experiences and wisdom of elders was respected.",
           "original_page": 381,
-          "florida_page": 87
+          "florida_page": 86
         },
         {
           "type": "removed",
@@ -252,166 +203,163 @@
         },
         {
           "type": "same",
-          "text": "Multigenerational U.S. families began to decline after World War II, and their numbers reached a low point around 1980, but they are consistently on the rise. A 2010 Pew Research Center analysis of census data found that 49 million people in the United States lived in a family household with at least two adult generations—or a grandparent and at least one other generation a record at the time. By 2016, that number had grown to 64 million people living in multigenerational households, roughly 20 percent of the population (Cohn 2018).",
+          "text": "Multigenerational U.S. families began to decline after World War II, and their numbers reached a low point around 1980, but they are consistently on the rise. A 2010 Pew Research Center analysis of census data found that 49 million people in the United States lived in a family household with at least two adult generations—or a grandparent and at least one other generation a record at the time. By 2016, that number had grown to 64 million people living in multigenerational households, roughly 20 percent of the population (Cohn 2018). Attitudes toward the elderly have also been affected by large societal changes that have happened over the past 100 years.",
           "original_page": 381,
-          "florida_page": 87
+          "florida_page": 86
         },
         {
           "type": "modified",
-          "original_text": "Attitudes toward the elderly have also been affected by large societal changes that have happened over the past 100 years. Researchers believe industrialization and modernization have contributed greatly to lowering the power, influence, and prestige the elderly once held.",
-          "florida_text": "Attitudes toward older adults have also been affected by large societal changes that have happened over the past 100 years. Researchers believe industrialization and modernization have contributed greatly to lowering the power, influence, and prestige older adults once held.",
-          "change_id": "ch13_change_6",
-          "original_page": 382,
-          "florida_page": 87,
-          "context": "Florida adds a sentence about COVID-19 pandemic debates over age-based rationing of hospital lifesaving treatments — a new contemporary example of ageism discourse.",
-          "original_evidence": "img/evidence/ch13/change_6_original.webp",
-          "florida_evidence": "img/evidence/ch13/change_6_florida.webp"
+          "original_text": "Researchers believe industrialization and modernization have contributed greatly to lowering the power, influence, and prestige the elderly once held.",
+          "florida_text": "Researchers believe industrialization and modernization have contributed greatly to lowering the power, influence, and prestige older adults once held.",
+          "change_id": null,
+          "original_page": 381,
+          "florida_page": 86
         },
         {
           "type": "same",
           "text": "On the other hand, the sheer numbers of elderly people in certain societies can have other effects, such as older people's influence on policies and politics based on their voting influence.",
-          "original_page": 382,
-          "florida_page": 87
+          "original_page": 381,
+          "florida_page": 86
         },
         {
           "type": "added",
           "florida_text": "During the COVID-19 pandemic, experts weighed in about whether age should be a factor in determining whether hospitals should perform lifesaving treatments, leading to heated debates about age discrimination.",
           "change_id": null,
-          "florida_page": 87
+          "florida_page": 86
         },
         {
           "type": "modified",
           "original_text": "The elderly have both benefited and suffered from these rapid social changes.",
           "florida_text": "Older adults have both benefited and suffered from these rapid social changes.",
           "change_id": null,
-          "original_page": 382,
-          "florida_page": 87
+          "original_page": 381,
+          "florida_page": 86
         },
         {
           "type": "same",
           "text": "In modern societies, a strong economy created new levels of prosperity for many people.",
-          "original_page": 382,
-          "florida_page": 87
+          "original_page": 381,
+          "florida_page": 86
         },
         {
           "type": "modified",
           "original_text": "Healthcare has become more widely accessible, and medicine has advanced, which allows the elderly to live longer.",
           "florida_text": "Healthcare has become more widely accessible, and medicine has advanced, which allows older adults to live longer.",
           "change_id": null,
-          "original_page": 382,
-          "florida_page": 87
+          "original_page": 381,
+          "florida_page": 86
         },
         {
           "type": "same",
           "text": "However, older people are not as essential to the economic survival of their families and communities as they were in the past.",
-          "original_page": 382,
-          "florida_page": 87
+          "original_page": 381,
+          "florida_page": 86
         },
         {
           "type": "modified",
           "original_text": "Since its creation in 1790, the U.S.",
           "florida_text": "Studying Aging Populations Since its creation in 1790, the U.S.",
           "change_id": null,
-          "original_page": 382,
-          "florida_page": 87
+          "original_page": 381,
+          "florida_page": 86
         },
         {
           "type": "same",
           "text": "Census Bureau has been tracking age in the population. Age is an important factor to analyze with accompanying demographic figures, such as income and health. The population chart below shows projected age distribution patterns for the next several decades. Statisticians use data to calculate the median age of a population, that is, the number that marks the halfway point in a group’s age range. In the United States, the median age is about forty (U.S. Census Bureau 2010). That means that about half of the people in the United States are under forty and about half are over forty. This median age has been increasing, which indicates the population as a whole is growing older. A cohort is a group of people who share a statistical or demographic trait. People belonging to the same age cohort were born in the same time frame. Understanding a population’s age composition can point to certain social and cultural factors and help governments and societies plan for future social and economic challenges. Sociological studies on aging might help explain the difference between Native American age cohorts and the general population. While Native American societies have a strong tradition of revering their elders, they also have a lower life expectancy because of lack of access to healthcare and high levels of mercury in fish, which is a traditional part of their diet.",
-          "original_page": 382,
-          "florida_page": 87
+          "original_page": 381,
+          "florida_page": 86
         },
         {
           "type": "modified",
           "original_text": "In the United States, all people over eighteen years old are considered adults, but there is a large difference between a person who is twenty-one years old and a person who is forty-five years old.",
           "florida_text": "Phases of Aging: The Young-Old, Middle-Old, and Old-Old In the United States, all people over eighteen years old are considered adults, but there is a large difference between a person who is twenty-one years old and a person who is forty-five years old.",
           "change_id": null,
-          "original_page": 382,
-          "florida_page": 87
+          "original_page": 381,
+          "florida_page": 86
         },
         {
           "type": "same",
           "text": "More specific breakdowns, such as “young adult” and “middle-aged adult,” are helpful.",
-          "original_page": 382,
-          "florida_page": 87
+          "original_page": 381,
+          "florida_page": 86
         },
         {
           "type": "removed",
           "original_text": "In the same way, groupings are helpful in understanding the elderly.",
           "change_id": null,
-          "original_page": 382
+          "original_page": 381
         },
         {
           "type": "added",
           "florida_text": "In the same way, groupings clarify different phases in later life.",
           "change_id": null,
-          "florida_page": 87
+          "florida_page": 86
         },
         {
           "type": "modified",
           "original_text": "The elderly are often lumped together to include everyone over the age of sixty-five.",
           "florida_text": "Older adults are often lumped together to include everyone over the age of sixty-five.",
           "change_id": null,
-          "original_page": 382,
-          "florida_page": 87
+          "original_page": 381,
+          "florida_page": 86
         },
         {
           "type": "same",
           "text": "But a sixty-five-year-old’s experience of life is much different from a ninety-year-old’s.",
-          "original_page": 382,
-          "florida_page": 87
+          "original_page": 381,
+          "florida_page": 86
         },
         {
           "type": "modified",
           "original_text": "The United States’ older adult population can be divided into three life-stage subgroups: the young-old (approximately sixty-five to seventy-four years old), the middle-old (ages seventy-five to eighty-four years old), and the old-old (over age eighty-five).",
           "florida_text": "Some researchers think about later life as consisting of three life-stage subgroups: the young-old (approximately sixty- five to seventy-four years old), the middle-old (ages seventy-five to eighty-four years old), and the old-old (over age eighty-five).",
           "change_id": null,
-          "original_page": 382,
-          "florida_page": 87
+          "original_page": 381,
+          "florida_page": 86
         },
         {
           "type": "added",
           "florida_text": "Centenarians (i.e., those 100 and older) are often evaluated as a subset of the oldest-old.",
           "change_id": null,
-          "florida_page": 87
+          "florida_page": 86
         },
         {
           "type": "same",
           "text": "Today’s young-old age group is generally happier, healthier, and financially better off than the young-old of previous generations. In the United States, people are better able to prepare for aging because resources are more widely available.",
-          "original_page": 382,
-          "florida_page": 87
+          "original_page": 381,
+          "florida_page": 86
         },
         {
           "type": "removed",
           "original_text": "Also, many people are making proactive quality-of-life decisions about their old age while they are still young. In the past, family members made care decisions when an elderly person reached a health crisis, often leaving the elderly person with little choice about what would happen. The elderly are now able to choose housing, for example, that allows them some independence while still providing care when it is needed.",
           "change_id": null,
-          "original_page": 382
+          "original_page": 381
         },
         {
           "type": "added",
           "florida_text": "Paying attention to these life stages is important because different life decisions are needed for different phases of late life. For instance, as we get older, our likelihood of needing care from others increases. Family members may respond to these growing needs only once an old person reaches a health crisis. In this case, older people may be faced with having fewer choices about how they want to be cared for because they haven’t created any specific plans. By being more aware of what the future holds by discussing plans or making legal arrangements or even preparing financially, older adults are able to have more autonomy and control if and when their health declines.",
           "change_id": null,
-          "florida_page": 87
+          "florida_page": 86
         },
         {
           "type": "same",
           "text": "Living wills, retirement planning, and medical power of attorney are other concerns that are increasingly handled in advance.",
-          "original_page": 382,
-          "florida_page": 87
+          "original_page": 381,
+          "florida_page": 86
         },
         {
           "type": "modified",
           "original_text": "What does it mean to be elderly?",
           "florida_text": "The Graying of the US What does it mean to be old?",
           "change_id": null,
-          "original_page": 382,
-          "florida_page": 87
+          "original_page": 381,
+          "florida_page": 86
         },
         {
           "type": "same",
           "text": "Some define it as an issue of physical health, while others simply define it by chronological age.",
-          "original_page": 382,
-          "florida_page": 87
+          "original_page": 381,
+          "florida_page": 86
         },
         {
           "type": "removed",
@@ -435,35 +383,7 @@
         },
         {
           "type": "same",
-          "text": "It is interesting to note AARP’s name change; by taking the word “retired” out of its name, the organization can broaden its base to any older people in the United States, not just retirees. This is especially important now that many people are working to age seventy and beyond. There is an element of social construction, both local and global, in the way individuals and nations define who is elderly; that is, the shared meaning of the concept of elderly is created through interactions among people in society.",
-          "original_page": 384,
-          "florida_page": 88
-        },
-        {
-          "type": "modified",
-          "original_text": "As the table demonstrates, different generations have varying perspectives on aging.",
-          "florida_text": "As Table 5.1 demonstrates, different generations have varying perspectives on aging.",
-          "change_id": null,
-          "original_page": 384,
-          "florida_page": 88
-        },
-        {
-          "type": "same",
-          "text": "Researchers asked questions about the ages at which people reach certain milestones or new categories in life. Members of the Baby Boom generation indicate that a person is officially \"old\" when they turn 73 years old. Millennials, a much younger group, felt that people became old when they turned 59. The same survey asked questions about the end of youth and the prime of life (Emling 2017). Interestingly, Boomers and GenXers both felt that youth \"ended\" by age 31 and that the prime of life didn't start until many years later. Millennials felt that people reached the prime of life at age 36, before youth ended at age 40. It's worth noting that at the time of the survey, the Millennials were all 36 and younger.",
-          "original_page": 384,
-          "florida_page": 88
-        },
-        {
-          "type": "modified",
-          "original_text": "Demographically, the U.S. population has undergone a massive shift both in the overall population of elderly people and their share of the total population.",
-          "florida_text": "Demographically, the U.S. population has undergone a massive shift both in the overall population of older adults and their share of the total population.",
-          "change_id": null,
-          "original_page": 384,
-          "florida_page": 88
-        },
-        {
-          "type": "same",
-          "text": "Both are significant and impactful on major policy decisions and day-to-day life. In 1900, the population of U.S people over sixty-five years old was 3 million, representing about 4 percent of the total population. That number increased to 33 million in 1994, and was roughly 12 percent of the total population (Hobbs 1994). By 2016 that number had grown to 49 million, about 15 percent of the total population (U.S.",
+          "text": "It is interesting to note AARP’s name change; by taking the word “retired” out of its name, the organization can broaden its base to any older people in the United States, not just retirees. This is especially important now that many people are working to age seventy and beyond. There is an element of social construction, both local and global, in the way individuals and nations define who is elderly; that is, the shared meaning of the concept of elderly is created through interactions among people in society. As the table demonstrates, different generations have varying perspectives on aging. Researchers asked questions about the ages at which people reach certain milestones or new categories in life. Members of the Baby Boom generation indicate that a person is officially \"old\" when they turn 73 years old. Millennials, a much younger group, felt that people became old when they turned 59. The same survey asked questions about the end of youth and the prime of life (Emling 2017). Interestingly, Boomers and GenXers both felt that youth \"ended\" by age 31 and that the prime of life didn't start until many years later. Millennials felt that people reached the prime of life at age 36, before youth ended at age 40. It's worth noting that at the time of the survey, the Millennials were all 36 and younger. Demographically, the U.S. population has undergone a massive shift both in the overall population of elderly people and their share of the total population. Both are significant and impactful on major policy decisions and day-to-day life. In 1900, the population of U.S people over sixty-five years old was 3 million, representing about 4 percent of the total population. That number increased to 33 million in 1994, and was roughly 12 percent of the total population (Hobbs 1994). By 2016 that number had grown to 49 million, about 15 percent of the total population (U.S.",
           "original_page": 384,
           "florida_page": 88
         },
@@ -507,7 +427,7 @@
         },
         {
           "type": "removed",
-          "original_text": "Nevertheless, as the graph shows, the sex ratio actually increased over time, indicating that men are closing the gap between their life spans and those of women (U.S. Census Bureau 2010).",
+          "original_text": "Nevertheless, as the graph shows, the sex ratio actually increased over time, indicating that men are closing the gap between their life spans and those of women (U.S.",
           "change_id": null,
           "original_page": 384
         },
@@ -668,10 +588,8 @@
           "florida_page": 88
         },
         {
-          "type": "modified",
-          "original_text": "By 2050, nearly a third of the Chinese population will be age sixty or older, which will put a significant burden on the labor force and impact China’s economic growth (Bannister, Bloom, and Rosenberg 2010).",
-          "florida_text": "By 2050, nearly a third of the Chinese population will be age sixty or older, which will put a significant burden on typical working age populations and impact China’s economic growth (Bannister, Bloom, and Rosenberg 2010).",
-          "change_id": null,
+          "type": "same",
+          "text": "By 2050, nearly a third of the Chinese population will be age sixty or older, which will put a significant burden on the labor force and impact China’s economic growth (Bannister, Bloom, and Rosenberg 2010).",
           "original_page": 384,
           "florida_page": 88
         },
@@ -683,15 +601,15 @@
         },
         {
           "type": "modified",
-          "original_text": "As healthcare improves and life expectancy increases across the world, elder care will be an emerging issue. Wienclaw (2009) suggests that with fewer working-age citizens available to provide home care and long-term assisted care to the elderly, the costs of elder care will increase.",
-          "florida_text": "If life expectancy increases across the world, care for older adults will be an increasingly pressing issue. Wienclaw (2009) suggests that with fewer working-age citizens available to provide home care and long-term assisted care to older adults, the costs of care will increase.",
+          "original_text": "As healthcare improves and life expectancy increases across the world, elder care will be an emerging issue.",
+          "florida_text": "If life expectancy increases across the world, care for older adults will be an increasingly pressing issue.",
           "change_id": null,
           "original_page": 384,
           "florida_page": 88
         },
         {
           "type": "same",
-          "text": "Worldwide, the expectation governing the amount and type of elder care varies from culture to culture.",
+          "text": "Wienclaw (2009) suggests that with fewer working-age citizens available to provide home care and long-term assisted care to the elderly, the costs of elder care will increase. Worldwide, the expectation governing the amount and type of elder care varies from culture to culture.",
           "original_page": 384,
           "florida_page": 88
         },
@@ -711,21 +629,7 @@
         },
         {
           "type": "same",
-          "text": "In China, several studies have noted the attitude of filial piety (deference and respect to one’s parents and ancestors in all things) as defining all other virtues (Hsu 1971; Hamilton 1990).",
-          "original_page": 384,
-          "florida_page": 88
-        },
-        {
-          "type": "modified",
-          "original_text": "Cultural attitudes in Japan prior to approximately 1986 supported the idea that the elderly deserve assistance (Ogawa and Retherford 1993).",
-          "florida_text": "Cultural attitudes in Japan prior to approximately 1986 supported the idea that older adults deserve assistance (Ogawa and Retherford 1993).",
-          "change_id": null,
-          "original_page": 384,
-          "florida_page": 88
-        },
-        {
-          "type": "same",
-          "text": "However, seismic shifts in major social institutions (like family and economy) have created an increased demand for community and government care.",
+          "text": "In China, several studies have noted the attitude of filial piety (deference and respect to one’s parents and ancestors in all things) as defining all other virtues (Hsu 1971; Hamilton 1990). Cultural attitudes in Japan prior to approximately 1986 supported the idea that the elderly deserve assistance (Ogawa and Retherford 1993). However, seismic shifts in major social institutions (like family and economy) have created an increased demand for community and government care.",
           "original_page": 384,
           "florida_page": 88
         },
@@ -811,22 +715,8 @@
           "florida_page": 88
         },
         {
-          "type": "added",
-          "florida_text": "children, age prejudice leads to a negative view of aging.",
-          "change_id": null,
-          "florida_page": 88
-        },
-        {
           "type": "same",
-          "text": "This, in turn, can lead to a widespread segregation between the old and the young at the institutional, societal, and cultural levels (Hagestad and Uhlenberg 2006).",
-          "original_page": 384,
-          "florida_page": 88
-        },
-        {
-          "type": "modified",
-          "original_text": "Each person experiences age-related changes based on many factors.",
-          "florida_text": "Biological Changes Each person experiences age-related changes based on many factors.",
-          "change_id": null,
+          "text": "This, in turn, can lead to a widespread segregation between the old and the young at the institutional, societal, and cultural levels (Hagestad and Uhlenberg 2006). Each person experiences age-related changes based on many factors.",
           "original_page": 384,
           "florida_page": 88
         },
@@ -885,16 +775,8 @@
           "florida_page": 94
         },
         {
-          "type": "modified",
-          "original_text": "Male or female, growing older means confronting the psychological issues that come with entering the last phase of life.",
-          "florida_text": "Social and Psychological Changes Male or female, growing older means confronting the psychological issues that come with entering the last phase of life.",
-          "change_id": null,
-          "original_page": 391,
-          "florida_page": 94
-        },
-        {
           "type": "same",
-          "text": "Young people moving into adulthood take on new roles and responsibilities as their lives expand, but an opposite arc can be observed in old age. What are the hallmarks of social and psychological change? Retirement—the withdrawal from paid work at a certain age—is a relatively recent idea. Up until the late nineteenth century, people worked about sixty hours a week until they were physically incapable of continuing. Following the American Civil War, veterans receiving pensions were able to withdraw from the workforce, and the number of working older men began declining. A second large decline in the number of working men began in the post-World War II era, probably due to the availability of Social Security, and a third large decline in the 1960s and 1970s was probably due to the social support offered by Medicare and the increase in Social Security benefits (Munnell 2011). In the twenty-first century, most people hope that at some point they will be able to stop working and enjoy the fruits of their labor. But do we look forward to this time or fear it? When people retire from familiar work routines, some easily seek new hobbies, interests, and forms of recreation. Many find new groups and explore new activities, but others may find it more difficult to adapt to new routines and loss of social roles, losing their sense of self-worth in the process. Each phase of life has challenges that come with the potential for fear. Erik H. Erikson (1902–1994), in his view of socialization, broke the typical lifespan into eight phases. Each phase presents a particular challenge that must be overcome. In the final stage, old age, the challenge is to embrace integrity over despair. Some people are unable to successfully overcome the challenge. They may have to confront regrets, such as being disappointed in their children’s lives or perhaps their own. They may have to accept that they will never reach certain career goals. Or they must come to terms with what their career success has cost them, such as time with their family or declining personal health. Others, however, are able to achieve a strong sense of integrity and are able to embrace the new phase in life. When that happens, there is tremendous potential for creativity. They can learn new skills, practice new activities, and peacefully prepare for the end of life. For some, overcoming despair might entail remarriage after the death of a spouse. A study conducted by Kate Davidson (2002) reviewed demographic data that asserted men were more likely to remarry after the death of a spouse and suggested that widows (the surviving female spouse of a deceased male partner) and widowers (the surviving male spouse of a deceased female partner) experience their postmarital lives differently. Many surviving women enjoyed a new sense of freedom, since they were living alone for the first time. On the other hand, for surviving men, there was a greater sense of having lost something, because they were now deprived of a constant source of care as well as the focus of their emotional life.",
+          "text": "Male or female, growing older means confronting the psychological issues that come with entering the last phase of life. Young people moving into adulthood take on new roles and responsibilities as their lives expand, but an opposite arc can be observed in old age. What are the hallmarks of social and psychological change? Retirement—the withdrawal from paid work at a certain age—is a relatively recent idea. Up until the late nineteenth century, people worked about sixty hours a week until they were physically incapable of continuing. Following the American Civil War, veterans receiving pensions were able to withdraw from the workforce, and the number of working older men began declining. A second large decline in the number of working men began in the post-World War II era, probably due to the availability of Social Security, and a third large decline in the 1960s and 1970s was probably due to the social support offered by Medicare and the increase in Social Security benefits (Munnell 2011). In the twenty-first century, most people hope that at some point they will be able to stop working and enjoy the fruits of their labor. But do we look forward to this time or fear it? When people retire from familiar work routines, some easily seek new hobbies, interests, and forms of recreation. Many find new groups and explore new activities, but others may find it more difficult to adapt to new routines and loss of social roles, losing their sense of self-worth in the process. Each phase of life has challenges that come with the potential for fear. Erik H. Erikson (1902–1994), in his view of socialization, broke the typical lifespan into eight phases. Each phase presents a particular challenge that must be overcome. In the final stage, old age, the challenge is to embrace integrity over despair. Some people are unable to successfully overcome the challenge. They may have to confront regrets, such as being disappointed in their children’s lives or perhaps their own. They may have to accept that they will never reach certain career goals. Or they must come to terms with what their career success has cost them, such as time with their family or declining personal health. Others, however, are able to achieve a strong sense of integrity and are able to embrace the new phase in life. When that happens, there is tremendous potential for creativity. They can learn new skills, practice new activities, and peacefully prepare for the end of life. For some, overcoming despair might entail remarriage after the death of a spouse. A study conducted by Kate Davidson (2002) reviewed demographic data that asserted men were more likely to remarry after the death of a spouse and suggested that widows (the surviving female spouse of a deceased male partner) and widowers (the surviving male spouse of a deceased female partner) experience their postmarital lives differently. Many surviving women enjoyed a new sense of freedom, since they were living alone for the first time. On the other hand, for surviving men, there was a greater sense of having lost something, because they were now deprived of a constant source of care as well as the focus of their emotional life.",
           "original_page": 391,
           "florida_page": 94
         },
@@ -933,28 +815,8 @@
           "florida_page": 95
         },
         {
-          "type": "added",
-          "florida_text": "make assumptions about older adults in romantic relationships with younger people (and vice versa).",
-          "change_id": null,
-          "florida_page": 95
-        },
-        {
           "type": "same",
-          "text": "Research into age-gap relationships indicates that social pressure can have impacts on relationship commitment or lead to break ups. The life stages of the people can also have impacts, especially if one of them is elderly and the other is not (Karantzas 2018). A relationship between a 30-year-old and a 45-year-old most likely involves fewer discussions about serious health issues and retirement decisions than one between a 55-year-old and a 70-year-old. Both have 15-year age gaps, but the circumstances are quite different.",
-          "original_page": 391,
-          "florida_page": 95
-        },
-        {
-          "type": "modified",
-          "original_text": "For most of human history, the standard of living was significantly lower than it is now.",
-          "florida_text": "Death and Dying For most of human history, the standard of living was significantly lower than it is now.",
-          "change_id": null,
-          "original_page": 391,
-          "florida_page": 95
-        },
-        {
-          "type": "same",
-          "text": "Humans struggled to survive with few amenities and very limited medical technology. The risk of death due to disease or accident was high in any life stage, and life expectancy was low. As people began to live longer, death became associated with old age. For many teenagers and young adults, losing a grandparent or another older relative can be the first loss of a loved one they experience. It may be their first encounter with grief, a psychological, emotional, and social response to the feelings of loss that accompanies death or a similar event. People tend to perceive death, their own and that of others, based on the values of their culture. While some may look upon death as the natural conclusion to a long, fruitful life, others may find the prospect of dying frightening to contemplate. People tend to have strong resistance to the idea of their own death, and strong emotional reactions of loss to the death of loved ones. Viewing death as a loss, as opposed to a natural or tranquil transition, is often considered normal in the United States. What may be surprising is how few studies were conducted on death and dying prior to the 1960s. Death and dying were fields that had received little attention until a psychologist named Elisabeth Kübler-Ross began observing people who were in the process of dying. As Kübler-Ross witnessed people’s transition toward death, she found some common threads in their experiences. She observed that the process had five distinct stages: denial, anger, bargaining, depression, and acceptance. She published her findings in a 1969 book called On Death and Dying.",
+          "text": "Research into age-gap relationships indicates that social pressure can have impacts on relationship commitment or lead to break ups. The life stages of the people can also have impacts, especially if one of them is elderly and the other is not (Karantzas 2018). A relationship between a 30-year-old and a 45-year-old most likely involves fewer discussions about serious health issues and retirement decisions than one between a 55-year-old and a 70-year-old. Both have 15-year age gaps, but the circumstances are quite different. For most of human history, the standard of living was significantly lower than it is now. Humans struggled to survive with few amenities and very limited medical technology. The risk of death due to disease or accident was high in any life stage, and life expectancy was low. As people began to live longer, death became associated with old age. For many teenagers and young adults, losing a grandparent or another older relative can be the first loss of a loved one they experience. It may be their first encounter with grief, a psychological, emotional, and social response to the feelings of loss that accompanies death or a similar event. People tend to perceive death, their own and that of others, based on the values of their culture. While some may look upon death as the natural conclusion to a long, fruitful life, others may find the prospect of dying frightening to contemplate. People tend to have strong resistance to the idea of their own death, and strong emotional reactions of loss to the death of loved ones. Viewing death as a loss, as opposed to a natural or tranquil transition, is often considered normal in the United States. What may be surprising is how few studies were conducted on death and dying prior to the 1960s. Death and dying were fields that had received little attention until a psychologist named Elisabeth Kübler-Ross began observing people who were in the process of dying. As Kübler-Ross witnessed people’s transition toward death, she found some common threads in their experiences. She observed that the process had five distinct stages: denial, anger, bargaining, depression, and acceptance. She published her findings in a 1969 book called On Death and Dying.",
           "original_page": 391,
           "florida_page": 95
         },
@@ -985,12 +847,6 @@
           "florida_page": 95
         },
         {
-          "type": "added",
-          "florida_text": "inevitable by reforming or changing the way he or she lives.",
-          "change_id": null,
-          "florida_page": 95
-        },
-        {
           "type": "same",
           "text": "The fourth stage, psychological depression, allows for resignation as the situation begins to seem hopeless. In the final stage, a person adjusts to the idea of death and reaches acceptance. At this point, the person can face death honestly, by regarding it as a natural and inevitable part of life and can make the most of their remaining time. The work of Kübler-Ross was eye-opening when it was introduced. It broke new ground and opened the doors for sociologists, social workers, health practitioners, and therapists to study death and help those who were facing death. Kübler-Ross’s work is generally considered a major contribution to thanatology: the systematic study of death and dying. Of special interests to thanatologists is the concept of “dying with dignity.” Modern medicine includes advanced medical technology that may prolong life without a parallel improvement to the quality of life one may have. In some cases, people may not want to continue living when they are in constant pain and no longer enjoying life. Should patients have the right to choose to die with dignity?",
           "original_page": 391,
@@ -998,7 +854,7 @@
         },
         {
           "type": "removed",
-          "original_text": "Dr. Jack Kevorkian was a staunch advocate for physician-assisted suicide: the voluntary or physician-assisted use of lethal medication provided by a medical doctor to end one’s life. This right to have a doctor help a patient die with dignity is controversial.",
+          "original_text": "Jack Kevorkian was a staunch advocate for physician-assisted suicide: the voluntary or physician-assisted use of lethal medication provided by a medical doctor to end one’s life. This right to have a doctor help a patient die with dignity is controversial.",
           "change_id": null,
           "original_page": 391
         },
@@ -1108,28 +964,8 @@
           "florida_page": 95
         },
         {
-          "type": "added",
-          "florida_text": "national average of 13.2 percent (U.S.",
-          "change_id": null,
-          "florida_page": 95
-        },
-        {
           "type": "same",
-          "text": "Census Bureau 2009).",
-          "original_page": 391,
-          "florida_page": 95
-        },
-        {
-          "type": "modified",
-          "original_text": "However, given the subsequent recession, which severely reduced the retirement savings of many while taxing public support systems, how are the elderly affected?",
-          "florida_text": "However, given the subsequent recession, which severely reduced the retirement savings of many while taxing public support systems, how are older adults affected?",
-          "change_id": null,
-          "original_page": 391,
-          "florida_page": 95
-        },
-        {
-          "type": "same",
-          "text": "According to the Kaiser Commission on Medicaid and the Uninsured, the national poverty rate among the elderly had risen to 14 percent by 2010 (Urban Institute and Kaiser Commission 2010).",
+          "text": "Census Bureau 2009). However, given the subsequent recession, which severely reduced the retirement savings of many while taxing public support systems, how are the elderly affected? According to the Kaiser Commission on Medicaid and the Uninsured, the national poverty rate among the elderly had risen to 14 percent by 2010 (Urban Institute and Kaiser Commission 2010).",
           "original_page": 391,
           "florida_page": 95
         },
@@ -1173,7 +1009,7 @@
         },
         {
           "type": "removed",
-          "original_text": "By 1990, senior citizens reported earning 36 percent more income on average than they did in 1980; that was five times the rate of increase for people under age thirty-five (U.S. Census Bureau 2009). In addition, many people were gaining access to better healthcare. New trends encouraged people to live more healthful lifestyles by placing an emphasis on exercise and nutrition.",
+          "original_text": "By 1990, senior citizens reported earning 36 percent more income on average than they did in 1980; that was five times the rate of increase for people under age thirty-five (U.S. In addition, many people were gaining access to better healthcare. New trends encouraged people to live more healthful lifestyles by placing an emphasis on exercise and nutrition.",
           "change_id": null,
           "original_page": 391
         },
@@ -1231,27 +1067,7 @@
         },
         {
           "type": "same",
-          "text": "At the grocery store, Peter waited in the checkout line behind an older woman. She paid for her groceries, lifted her bags of food into her cart, and toddled toward the exit. Peter, guessing her to be about eighty years old, was reminded of his grandmother. He paid for his groceries and caught up with her.",
-          "original_page": 391,
-          "florida_page": 95
-        },
-        {
-          "type": "modified",
-          "original_text": "“Can I help you with your cart?” he asked.",
-          "florida_text": "“Can I help you with your cart?” he asked. “No, thank you.",
-          "change_id": null,
-          "original_page": 391,
-          "florida_page": 95
-        },
-        {
-          "type": "removed",
-          "original_text": "“No, thank you.",
-          "change_id": null,
-          "original_page": 391
-        },
-        {
-          "type": "same",
-          "text": "I can get it myself,” she said and marched off toward her car.",
+          "text": "At the grocery store, Peter waited in the checkout line behind an older woman. She paid for her groceries, lifted her bags of food into her cart, and toddled toward the exit. Peter, guessing her to be about eighty years old, was reminded of his grandmother. He paid for his groceries and caught up with her. “Can I help you with your cart?” he asked. “No, thank you. I can get it myself,” she said and marched off toward her car.",
           "original_page": 391,
           "florida_page": 95
         },
@@ -1279,7 +1095,7 @@
         },
         {
           "type": "removed",
-          "original_text": "Responses like Peter’s toward older people are fairly common. He didn’t intend to treat people differently based on personal or cultural biases, but he did. Ageism is discrimination (when someone acts on a prejudice) based on age. Dr. Robert Butler coined the term in 1968, noting that ageism exists in all cultures (Brownell).",
+          "original_text": "Responses like Peter’s toward older people are fairly common. He didn’t intend to treat people differently based on personal or cultural biases, but he did. Ageism is discrimination (when someone acts on a prejudice) based on age. Robert Butler coined the term in 1968, noting that ageism exists in all cultures (Brownell).",
           "change_id": null,
           "original_page": 391
         },
@@ -1463,35 +1279,7 @@
         },
         {
           "type": "same",
-          "text": "How prevalent is elder abuse?",
-          "original_page": 399,
-          "florida_page": 95
-        },
-        {
-          "type": "modified",
-          "original_text": "Two recent U.S. studies found that roughly one in ten elderly people surveyed had suffered at least one form of elder abuse.",
-          "florida_text": "Two recent U.S. studies found that roughly one in ten older adults surveyed had suffered at least one form of elder abuse.",
-          "change_id": null,
-          "original_page": 399,
-          "florida_page": 95
-        },
-        {
-          "type": "same",
-          "text": "Some social researchers believe elder abuse is underreported and that the number may be higher.",
-          "original_page": 399,
-          "florida_page": 95
-        },
-        {
-          "type": "modified",
-          "original_text": "The risk of abuse also increases in people with health issues such as dementia (Kohn and Verhoek-Oftedahl 2011).",
-          "florida_text": "The risk of abuse also increases in people with health issues such as dementia (Kohn and Verhoek- Oftedahl 2011).",
-          "change_id": null,
-          "original_page": 399,
-          "florida_page": 95
-        },
-        {
-          "type": "same",
-          "text": "Older women were found to be victims of verbal abuse more often than their male counterparts. In Acierno’s study, which included a sample of 5,777 respondents aged sixty and older, 5.2 percent of respondents reported financial abuse, 5.1 percent said they’d been neglected, and 4.6 endured emotional abuse (Acierno 2010). The prevalence of physical and sexual abuse was lower at 1.6 and 0.6 percent, respectively (Acierno 2010).",
+          "text": "How prevalent is elder abuse? Two recent U.S. studies found that roughly one in ten elderly people surveyed had suffered at least one form of elder abuse. Some social researchers believe elder abuse is underreported and that the number may be higher. The risk of abuse also increases in people with health issues such as dementia (Kohn and Verhoek-Oftedahl 2011). Older women were found to be victims of verbal abuse more often than their male counterparts. In Acierno’s study, which included a sample of 5,777 respondents aged sixty and older, 5.2 percent of respondents reported financial abuse, 5.1 percent said they’d been neglected, and 4.6 endured emotional abuse (Acierno 2010). The prevalence of physical and sexual abuse was lower at 1.6 and 0.6 percent, respectively (Acierno 2010).",
           "original_page": 399,
           "florida_page": 95
         },
@@ -1505,21 +1293,41 @@
         },
         {
           "type": "removed",
-          "original_text": "Researchers identified factors that increased the likelihood of caregivers perpetrating abuse against those in their care. Those factors include inexperience, having other demands such as jobs (for those who weren’t professionally employed as caregivers), caring for children, living full-time with the dependent elder, and experiencing high stress, isolation, and lack of support (Kohn and Verhoek-Oftedahl 2011). A history of depression in the caregiver was also found to increase the likelihood of elder abuse. Neglect was more likely when care was provided by paid caregivers.",
+          "original_text": "Researchers identified factors that increased the likelihood of caregivers perpetrating abuse against those in their care.",
           "change_id": null,
           "original_page": 399
         },
         {
           "type": "added",
-          "florida_text": "Regarding elder fraud, a growing number of strategies are being used to scam older adults, with Artificial Intelligence tools making it increasingly easy to trick people of all ages into situations that lead to financial fraud. Scammers rely on older adults who have reduced cognitive functioning, and many older adults are unwilling to report experiences of fraud because they are embarrassed or worried that family members will think that they are no longer able to live independently. To help with this, organizations like AARP have created helplines to support older adults who face these issues and help bring attention to resources that can reduce these issues. Researchers studying elder abuse have focused on those most likely to perpetuate these crimes – caregivers. Caregivers are more likely to perpetrating abuse against those in their care when they lack experience with providing care, they are facing other demands such as jobs (for those who weren’t professionally employed as caregivers), they are also caring for children, they are living full-time with the older people they are caring for, and if they are experiencing high stress, isolation, lack of support, and or have a history of depression (Kohn and Verhoek-Oftedahl 2011).",
+          "florida_text": "Regarding elder fraud, a growing number of strategies are being used to scam older adults, with Artificial Intelligence tools making it increasingly easy to trick people of all ages into situations that lead to financial fraud. Scammers rely on older adults who have reduced cognitive functioning, and many older adults are unwilling to report experiences of fraud because they are embarrassed or worried that family members will think that they are no longer able to live independently. To help with this, organizations like AARP have created helplines to support older adults who face these issues and help bring attention to resources that can reduce these issues. Researchers studying elder abuse have focused on those most likely to perpetuate these crimes – caregivers.",
           "change_id": null,
           "florida_page": 95
         },
         {
           "type": "modified",
-          "original_text": "Many of the caregivers who physically abused elders were themselves abused—in many cases, when they were children. Family members with some sort of dependency on the elder in their care were more likely to physically abuse that elder. For example, an adult child caring for an elderly parent while at the same time depending on some form of income from that parent, is considered more likely to perpetrate physical abuse (Kohn and Verhoek-Oftedahl 2011).",
-          "florida_text": "Many of the caregivers who physically abuse elders have a personal history with abuse, often when they were children. Family members with some sort of dependency on the older adult in their care are also more likely to physically abuse that person. For example, an adult child who is caring for an old parent while at the same time depending on some form of income from that parent, is more likely to perpetrate abuse (Kohn and Verhoek-Oftedahl 2011).",
+          "original_text": "Those factors include inexperience, having other demands such as jobs (for those who weren’t professionally employed as caregivers), caring for children, living full-time with the dependent elder, and experiencing high stress, isolation, and lack of support (Kohn and Verhoek-Oftedahl 2011).",
+          "florida_text": "Caregivers are more likely to perpetrating abuse against those in their care when they lack experience with providing care, they are facing other demands such as jobs (for those who weren’t professionally employed as caregivers), they are also caring for children, they are living full-time with the older people they are caring for, and if they are experiencing high stress, isolation, lack of support, and or have a history of depression (Kohn and Verhoek-Oftedahl 2011).",
           "change_id": null,
+          "original_page": 399,
+          "florida_page": 95
+        },
+        {
+          "type": "removed",
+          "original_text": "A history of depression in the caregiver was also found to increase the likelihood of elder abuse. Neglect was more likely when care was provided by paid caregivers.",
+          "change_id": null,
+          "original_page": 399
+        },
+        {
+          "type": "modified",
+          "original_text": "Many of the caregivers who physically abused elders were themselves abused—in many cases, when they were children. Family members with some sort of dependency on the elder in their care were more likely to physically abuse that elder.",
+          "florida_text": "Many of the caregivers who physically abuse elders have a personal history with abuse, often when they were children. Family members with some sort of dependency on the older adult in their care are also more likely to physically abuse that person.",
+          "change_id": null,
+          "original_page": 399,
+          "florida_page": 95
+        },
+        {
+          "type": "same",
+          "text": "For example, an adult child caring for an elderly parent while at the same time depending on some form of income from that parent, is considered more likely to perpetrate physical abuse (Kohn and Verhoek-Oftedahl 2011).",
           "original_page": 399,
           "florida_page": 95
         },
@@ -1683,44 +1491,8 @@
           "original_page": 399
         },
         {
-          "type": "modified",
-          "original_text": "The medical bills of the nation’s elderly population are rising dramatically.",
-          "florida_text": "The medical bills of the nation’s old population are rising dramatically.",
-          "change_id": null,
-          "original_page": 399,
-          "florida_page": 95
-        },
-        {
           "type": "same",
-          "text": "While there is more care available to certain segments of the senior community, it must be noted that the financial resources available to the aging can vary tremendously by race, social class, and gender. There are three classic theories of aging within the conflict perspective. Modernization theory (Cowgill and Holmes 1972) suggests that the primary cause of the elderly losing power and influence in society are the parallel forces of industrialization and modernization.",
-          "original_page": 399,
-          "florida_page": 95
-        },
-        {
-          "type": "modified",
-          "original_text": "As societies modernize, the status of elders decreases, and they are increasingly likely to experience social exclusion.",
-          "florida_text": "As societies modernize, the status of older adults decreases, and they are increasingly likely to experience social exclusion.",
-          "change_id": null,
-          "original_page": 399,
-          "florida_page": 95
-        },
-        {
-          "type": "same",
-          "text": "Before industrialization, strong social norms bound the younger generation to care for the older. Now, as societies industrialize, the nuclear family replaces the extended family. Societies become increasingly individualistic, and norms regarding the care of older people change. In an individualistic industrial society, caring for an elderly relative is seen as a voluntary obligation that may be ignored without fear of social censure. The central reasoning of modernization theory is that as long as the extended family is the standard family, as in preindustrial economies, elders will have a place in society and a clearly defined role.",
-          "original_page": 399,
-          "florida_page": 95
-        },
-        {
-          "type": "modified",
-          "original_text": "As societies modernize, the elderly, unable to work outside of the home, have less to offer economically and are seen as a burden.",
-          "florida_text": "As societies modernize, older adults, unable to work outside of the home, have less to offer economically and are seen as a burden.",
-          "change_id": null,
-          "original_page": 399,
-          "florida_page": 95
-        },
-        {
-          "type": "same",
-          "text": "This model may be applied to both the developed and the developing world, and it suggests that as people age they will be abandoned and lose much of their familial support since they become a nonproductive economic burden. Another theory in the conflict perspective is age stratification theory (Riley, Johnson, and Foner 1972). Though it may seem obvious now, with our awareness of ageism, age stratification theorists were the first to suggest that members of society might be stratified by age, just as they are stratified by race, class, and gender. Because age serves as a basis of social control, different age groups will have varying access to social resources such as political and economic power.",
+          "text": "The medical bills of the nation’s elderly population are rising dramatically. While there is more care available to certain segments of the senior community, it must be noted that the financial resources available to the aging can vary tremendously by race, social class, and gender. There are three classic theories of aging within the conflict perspective. Modernization theory (Cowgill and Holmes 1972) suggests that the primary cause of the elderly losing power and influence in society are the parallel forces of industrialization and modernization. As societies modernize, the status of elders decreases, and they are increasingly likely to experience social exclusion. Before industrialization, strong social norms bound the younger generation to care for the older. Now, as societies industrialize, the nuclear family replaces the extended family. Societies become increasingly individualistic, and norms regarding the care of older people change. In an individualistic industrial society, caring for an elderly relative is seen as a voluntary obligation that may be ignored without fear of social censure. The central reasoning of modernization theory is that as long as the extended family is the standard family, as in preindustrial economies, elders will have a place in society and a clearly defined role. As societies modernize, the elderly, unable to work outside of the home, have less to offer economically and are seen as a burden. This model may be applied to both the developed and the developing world, and it suggests that as people age they will be abandoned and lose much of their familial support since they become a nonproductive economic burden. Another theory in the conflict perspective is age stratification theory (Riley, Johnson, and Foner 1972). Though it may seem obvious now, with our awareness of ageism, age stratification theorists were the first to suggest that members of society might be stratified by age, just as they are stratified by race, class, and gender. Because age serves as a basis of social control, different age groups will have varying access to social resources such as political and economic power.",
           "original_page": 399,
           "florida_page": 95
         },
@@ -1733,22 +1505,10 @@
           "florida_page": 95
         },
         {
-          "type": "added",
-          "florida_text": "cohorts may reasonably do.",
-          "change_id": null,
-          "florida_page": 95
-        },
-        {
           "type": "same",
           "text": "For example, it might be considered deviant for an elderly woman to wear a bikini because it violates norms denying the sexuality of older females.",
           "original_page": 399,
           "florida_page": 95
-        },
-        {
-          "type": "removed",
-          "original_text": "These norms are specific to each age strata, developing from culturally based ideas about how people should “act their age.”",
-          "change_id": null,
-          "original_page": 399
         },
         {
           "type": "modified",
@@ -1816,14 +1576,14 @@
         },
         {
           "type": "same",
-          "text": "Baltes and Baltes (1990) based their theory on the idea that successful personal development throughout the life course and subsequent mastery of the challenges associated with everyday life are based on the components of selection, optimization, and compensation. Though this happens at all stages in the life course, in the field of gerontology, researchers focus attention on balancing the losses associated with aging with the gains stemming from the same. Here, aging is a process and not an outcome, and the goals (compensation) are specific to the individual. According to this theory, our energy diminishes as we age, and we select (selection) personal goals to get the most (optimize) for the effort we put into activities, in this way making up for (compensation) the loss of a wider range of goals and activities. In this theory, the physical decline postulated by disengagement theory may result in more dependence, but that is not necessarily negative, as it allows aging individuals to save their energy for the most meaningful activities. For example, a professor who values teaching sociology may participate in a phased retirement, never entirely giving up teaching, but acknowledging personal physical limitations that allow teaching only one or two classes per year. Swedish sociologist Lars Tornstam developed a symbolic interactionist theory called gerotranscendence: the idea that as people age, they transcend the limited views of life they held in earlier times.",
+          "text": "Baltes and Baltes (1990) based their theory on the idea that successful personal development throughout the life course and subsequent mastery of the challenges associated with everyday life are based on the components of selection, optimization, and compensation. Though this happens at all stages in the life course, in the field of gerontology, researchers focus attention on balancing the losses associated with aging with the gains stemming from the same. Here, aging is a process and not an outcome, and the goals (compensation) are specific to the individual. According to this theory, our energy diminishes as we age, and we select (selection) personal goals to get the most (optimize) for the effort we put into activities, in this way making up for (compensation) the loss of a wider range of goals and activities. In this theory, the physical decline postulated by disengagement theory may result in more dependence, but that is not necessarily negative, as it allows aging individuals to save their energy for the most meaningful activities. For example, a professor who values teaching sociology may participate in a phased retirement, never entirely giving up teaching, but acknowledging personal physical limitations that allow teaching only one or two classes per year. Swedish sociologist Lars Tornstam developed a symbolic interactionist theory called gerotranscendence: the idea that as people age, they transcend the limited views of life they held in earlier times. Tornstam believes that throughout the aging process, the elderly become less self-centered and feel more peaceful and connected to the natural world.",
           "original_page": 406,
           "florida_page": 95
         },
         {
           "type": "modified",
-          "original_text": "Tornstam believes that throughout the aging process, the elderly become less self-centered and feel more peaceful and connected to the natural world. Wisdom comes to the elderly, Tornstam’s theory states, and as the elderly tolerate ambiguities and seeming contradictions, they let go of conflict and develop softer views of right and wrong (Tornstam 2005).",
-          "florida_text": "Tornstam believes that throughout the aging process, older adults become less self-centered and feel more peaceful and connected to the natural world. Wisdom comes to older adults, Tornstam’s theory states, and as older adults tolerate ambiguities and seeming contradictions, they let go of conflict and develop softer views of right and wrong (Tornstam 2005).",
+          "original_text": "Wisdom comes to the elderly, Tornstam’s theory states, and as the elderly tolerate ambiguities and seeming contradictions, they let go of conflict and develop softer views of right and wrong (Tornstam 2005).",
+          "florida_text": "Wisdom comes to older adults, Tornstam’s theory states, and as older adults tolerate ambiguities and seeming contradictions, they let go of conflict and develop softer views of right and wrong (Tornstam 2005).",
           "change_id": null,
           "original_page": 406,
           "florida_page": 95

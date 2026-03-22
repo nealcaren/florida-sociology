@@ -83,15 +83,11 @@
           "florida_page": 29
         },
         {
-          "type": "removed",
+          "type": "modified",
           "original_text": "Sociologists can use the scientific method not only to collect but also to interpret and analyze data.",
-          "change_id": null,
-          "original_page": 52
-        },
-        {
-          "type": "added",
           "florida_text": "Although sociologists often choose topics that have personal interest to them, they use the scientific method not only to collect but also to interpret and analyze data, striving for objectivity in designing and evaluating their studies.",
           "change_id": null,
+          "original_page": 52,
           "florida_page": 29
         },
         {
@@ -106,12 +102,6 @@
           "florida_text": "In the end, the scientific method provides a",
           "change_id": null,
           "original_page": 52,
-          "florida_page": 29
-        },
-        {
-          "type": "added",
-          "florida_text": "shared basis for discussion and analysis (Merton 1963).",
-          "change_id": null,
           "florida_page": 29
         },
         {
@@ -156,14 +146,14 @@
         },
         {
           "type": "same",
-          "text": "To study crime, a researcher might also sort through existing data from the court system, police database, prison information, interviews with criminals, guards, wardens, etc. It’s important to examine this information in addition to existing research to determine how these resources might be used to fill holes in existing knowledge.",
+          "text": "To study crime, a researcher might also sort through existing data from the court system, police database, prison information, interviews with criminals, guards, wardens, etc. It’s important to examine this information in addition to existing research to determine how these resources might be used to fill holes in existing knowledge. Reviewing existing sources educates researchers and helps refine and improve a research study design.",
           "original_page": 52,
           "florida_page": 29
         },
         {
           "type": "modified",
-          "original_text": "Reviewing existing sources educates researchers and helps refine and improve a research study design. A hypothesis is an explanation for a phenomenon based on a conjecture about the relationship between the phenomenon and one or more causal factors.",
-          "florida_text": "Reviewing reputable and unbiased existing sources educates researchers and helps refine and improve a research study design. Step 3: Formulate a Hypothesis A hypothesis is a supposition about a phenomenon based on a conjecture about the relationship between the phenomenon and one or more causal factors and informed by previous research findings.",
+          "original_text": "A hypothesis is an explanation for a phenomenon based on a conjecture about the relationship between the phenomenon and one or more causal factors.",
+          "florida_text": "Step 3: Formulate a Hypothesis A hypothesis is a supposition about a phenomenon based on a conjecture about the relationship between the phenomenon and one or more causal factors and informed by previous research findings.",
           "change_id": null,
           "original_page": 52,
           "florida_page": 29
@@ -173,12 +163,6 @@
           "text": "In sociology, the hypothesis will often predict how one form of human behavior influences another.",
           "original_page": 52,
           "florida_page": 29
-        },
-        {
-          "type": "removed",
-          "original_text": "For example, a hypothesis might be in the form of an “if, then” statement.",
-          "change_id": null,
-          "original_page": 52
         },
         {
           "type": "modified",
@@ -333,9 +317,15 @@
         },
         {
           "type": "modified",
-          "original_text": "Sociologists generally choose from widely used methods of social investigation: primary source data collection such as survey, participant observation, ethnography, case study, unobtrusive observations, experiment, and secondary data analysis, or use of existing sources. Every research method comes with plusses and minuses, and the topic of study strongly influences which method or methods are put to use.",
-          "florida_text": "Sociologists generally choose from widely used methods of social investigation: primary source data collection such as a survey, participant observation, ethnography, case study, unobtrusive observations, experiment, or secondary data analysis (i.e., evaluation of existing data, such as survey data collected on a representative population sample). Every research method comes with plusses and minuses, and the topic of study strongly influences which method or methods are used.",
+          "original_text": "Sociologists generally choose from widely used methods of social investigation: primary source data collection such as survey, participant observation, ethnography, case study, unobtrusive observations, experiment, and secondary data analysis, or use of existing sources.",
+          "florida_text": "Sociologists generally choose from widely used methods of social investigation: primary source data collection such as a survey, participant observation, ethnography, case study, unobtrusive observations, experiment, or secondary data analysis (i.e., evaluation of existing data, such as survey data collected on a representative population sample).",
           "change_id": null,
+          "original_page": 52,
+          "florida_page": 29
+        },
+        {
+          "type": "same",
+          "text": "Every research method comes with plusses and minuses, and the topic of study strongly influences which method or methods are put to use.",
           "original_page": 52,
           "florida_page": 29
         },
@@ -364,12 +354,6 @@
           "change_id": null,
           "original_page": 52,
           "florida_page": 29
-        },
-        {
-          "type": "removed",
-          "original_text": "Making sociologists’ presence invisible is not always realistic for other reasons.",
-          "change_id": null,
-          "original_page": 52
         },
         {
           "type": "same",
@@ -439,29 +423,27 @@
         },
         {
           "type": "modified",
-          "original_text": "Questions such as, “How many hot dogs do you eat in a month?” or “Were the staff helpful?” are not usually designed as scientific research.",
-          "florida_text": "Questions such as, “How many hot dogs do you eat in a month?” or “Were the staff helpful?” are rarely used to support scientific research, but some do leverage important use scientific analysis tools.",
+          "original_text": "Questions such as, “How many hot dogs do you eat in a month?” or “Were the staff helpful?” are not usually designed as scientific research. The Nielsen Ratings determine the popularity of television programming through scientific market research.",
+          "florida_text": "Questions such as, “How many hot dogs do you eat in a month?” or “Were the staff helpful?” are rarely used to support scientific research, but some do leverage important use scientific analysis tools. For example, the Nielsen Ratings are based on a survey designed to assess the popularity of television programming using scientific market research strategies.",
           "change_id": null,
           "original_page": 52,
           "florida_page": 29
         },
         {
           "type": "removed",
-          "original_text": "The Nielsen Ratings determine the popularity of television programming through scientific market research. However, polls conducted by television programs such as American Idol or So You Think You Can Dance cannot be generalized, because they are administered to an unrepresentative population, a specific show’s audience.",
+          "original_text": "However, polls conducted by television programs such as American Idol or So You Think You Can Dance cannot be generalized, because they are administered to an unrepresentative population, a specific show’s audience.",
           "change_id": null,
           "original_page": 52
         },
         {
           "type": "added",
-          "florida_text": "For example, the Nielsen Ratings are based on a survey designed to assess the popularity of television programming using scientific market research strategies. On the other hand, polls conducted by television programs are not used to assess population level data that can be generalized to one or more groups. These surveys are administered to an unrepresentative population, a specific show’s audience.",
+          "florida_text": "On the other hand, polls conducted by television programs are not used to assess population level data that can be generalized to one or more groups. These surveys are administered to an unrepresentative population, a specific show’s audience.",
           "change_id": null,
           "florida_page": 29
         },
         {
-          "type": "modified",
-          "original_text": "You might receive polls through your cell phones or emails, from grocery stores, restaurants, and retail stores.",
-          "florida_text": "Similarly, you might receive polls through your cell phones or emails, from grocery stores, restaurants, and retail stores.",
-          "change_id": null,
+          "type": "same",
+          "text": "You might receive polls through your cell phones or emails, from grocery stores, restaurants, and retail stores.",
           "original_page": 52,
           "florida_page": 29
         },
@@ -649,21 +631,7 @@
         },
         {
           "type": "same",
-          "text": "Rather, sociologists go out into the world. They meet subjects where they live, work, and play. Field research refers to gathering primary data from a natural environment. To conduct field research, the sociologist must be willing to step into new environments and observe, participate, or experience those worlds. In field work, the sociologists, rather than the subjects, are the ones out of their element. The researcher interacts with or observes people and gathers data along the way. The key point in field research is that it takes place in the subject’s natural environment, whether it’s a coffee shop or tribal village, a homeless shelter or the DMV, a hospital, airport, mall, or beach resort. While field research often begins in a specific setting, the study’s purpose is to observe specific behaviors in that setting.",
-          "original_page": 52,
-          "florida_page": 29
-        },
-        {
-          "type": "modified",
-          "original_text": "Field work is optimal for observing how people think and behave.",
-          "florida_text": "Field work is optimal for observing how people behave.",
-          "change_id": null,
-          "original_page": 52,
-          "florida_page": 29
-        },
-        {
-          "type": "same",
-          "text": "It seeks to understand why they behave that way.",
+          "text": "Rather, sociologists go out into the world. They meet subjects where they live, work, and play. Field research refers to gathering primary data from a natural environment. To conduct field research, the sociologist must be willing to step into new environments and observe, participate, or experience those worlds. In field work, the sociologists, rather than the subjects, are the ones out of their element. The researcher interacts with or observes people and gathers data along the way. The key point in field research is that it takes place in the subject’s natural environment, whether it’s a coffee shop or tribal village, a homeless shelter or the DMV, a hospital, airport, mall, or beach resort. While field research often begins in a specific setting, the study’s purpose is to observe specific behaviors in that setting. Field work is optimal for observing how people think and behave. It seeks to understand why they behave that way.",
           "original_page": 52,
           "florida_page": 29
         },
@@ -888,30 +856,26 @@
           "florida_page": 29
         },
         {
-          "type": "modified",
-          "original_text": "However, case studies are useful when the single case is unique.",
-          "florida_text": "Case studies are useful when the single case is unique.",
-          "change_id": null,
+          "type": "same",
+          "text": "However, case studies are useful when the single case is unique. In these instances, a single case study can contribute tremendous insight. For example, a feral child, also called “wild child,” is one who grows up isolated from human beings. Feral children grow up without social contact and language, which are elements crucial to a “civilized” child’s development. These children mimic the behaviors and movements of animals, and often invent their own language. There are only about one hundred cases of “feral children” in the world. As you may imagine, a feral child is a subject of great interest to researchers. Feral children provide unique information about child development because they have grown up outside of the parameters of “normal” growth and nurturing. And since there are very few feral children, the case study is the most appropriate method for researchers to use in studying the subject. At age three, a Ukranian girl named Oxana Malaya suffered severe parental neglect. She lived in a shed with dogs, and she ate raw meat and scraps. Five years later, a neighbor called authorities and reported seeing a girl who ran on all fours, barking. Officials brought Oxana into society, where she was cared for and taught some human behaviors, but she never became fully socialized. She has been designated as unable to support herself and now lives in a mental institution (Grice 2011). Case studies like this offer a way for sociologists to collect data that may not be obtained by any other method.",
           "original_page": 52,
+          "florida_page": 29
+        },
+        {
+          "type": "removed",
+          "original_text": "You have probably tested some of your own personal social theories.",
+          "change_id": null,
+          "original_page": 52
+        },
+        {
+          "type": "added",
+          "florida_text": "Experiments You have probably run informal experiments in your own life.",
+          "change_id": null,
           "florida_page": 29
         },
         {
           "type": "same",
-          "text": "In these instances, a single case study can contribute tremendous insight. For example, a feral child, also called “wild child,” is one who grows up isolated from human beings. Feral children grow up without social contact and language, which are elements crucial to a “civilized” child’s development. These children mimic the behaviors and movements of animals, and often invent their own language. There are only about one hundred cases of “feral children” in the world. As you may imagine, a feral child is a subject of great interest to researchers. Feral children provide unique information about child development because they have grown up outside of the parameters of “normal” growth and nurturing. And since there are very few feral children, the case study is the most appropriate method for researchers to use in studying the subject. At age three, a Ukranian girl named Oxana Malaya suffered severe parental neglect. She lived in a shed with dogs, and she ate raw meat and scraps. Five years later, a neighbor called authorities and reported seeing a girl who ran on all fours, barking. Officials brought Oxana into society, where she was cared for and taught some human behaviors, but she never became fully socialized. She has been designated as unable to support herself and now lives in a mental institution (Grice 2011). Case studies like this offer a way for sociologists to collect data that may not be obtained by any other method.",
-          "original_page": 52,
-          "florida_page": 29
-        },
-        {
-          "type": "modified",
-          "original_text": "You have probably tested some of your own personal social theories. “If I study at night and review in the morning, I’ll improve my retention skills.” Or, “If I stop drinking soda, I’ll feel better.” Cause and effect.",
-          "florida_text": "Experiments You have probably run informal experiments in your own life. “If I study at night and review in the morning, I’ll improve my retention skills.” Or, “If I stop drinking soda, I’ll feel better.” Cause and effect.",
-          "change_id": null,
-          "original_page": 52,
-          "florida_page": 29
-        },
-        {
-          "type": "same",
-          "text": "If this, then that.",
+          "text": "“If I study at night and review in the morning, I’ll improve my retention skills.” Or, “If I stop drinking soda, I’ll feel better.” Cause and effect. If this, then that.",
           "original_page": 52,
           "florida_page": 29
         },
@@ -957,22 +921,22 @@
         },
         {
           "type": "modified",
-          "original_text": "Classically, the sociologist selects a set of people with similar characteristics, such as age, class, race, or education. Those people are divided into two groups. One is the experimental group and the other is the control group.",
-          "florida_text": "Classically, the sociologist selects a set of people with similar characteristics, such as age, class, race, or education to control or hold constant the impact of those important factors. The people selected are randomly divided into two groups. One is the experimental group, and the other is the control group.",
+          "original_text": "Classically, the sociologist selects a set of people with similar characteristics, such as age, class, race, or education. Those people are divided into two groups.",
+          "florida_text": "Classically, the sociologist selects a set of people with similar characteristics, such as age, class, race, or education to control or hold constant the impact of those important factors. The people selected are randomly divided into two groups.",
           "change_id": null,
           "original_page": 52,
           "florida_page": 29
         },
         {
           "type": "same",
-          "text": "The experimental group is exposed to the independent variable(s) and the control group is not. To test the benefits of tutoring, for example, the sociologist might provide tutoring to the experimental group of students but not to the control group.",
+          "text": "One is the experimental group and the other is the control group. The experimental group is exposed to the independent variable(s) and the control group is not. To test the benefits of tutoring, for example, the sociologist might provide tutoring to the experimental group of students but not to the control group. Then both groups would be tested for differences in performance to see if tutoring had an effect on the experimental group of students.",
           "original_page": 52,
           "florida_page": 29
         },
         {
           "type": "modified",
-          "original_text": "Then both groups would be tested for differences in performance to see if tutoring had an effect on the experimental group of students. As you can imagine, in a case like this, the researcher would not want to jeopardize the accomplishments of either group of students, so the setting would be somewhat artificial.",
-          "florida_text": "Then both groups are then tested for differences in performance to see if tutoring had an effect on the experimental group of students. As you can imagine, in a case like this, the researcher would not jeopardize the accomplishments of either group of students in an actual classroom setting where the grade would be part of the students’ permanent records, so the experimental setting would likely be somewhat artificial.",
+          "original_text": "As you can imagine, in a case like this, the researcher would not want to jeopardize the accomplishments of either group of students, so the setting would be somewhat artificial.",
+          "florida_text": "As you can imagine, in a case like this, the researcher would not jeopardize the accomplishments of either group of students in an actual classroom setting where the grade would be part of the students’ permanent records, so the experimental setting would likely be somewhat artificial.",
           "change_id": null,
           "original_page": 52,
           "florida_page": 29
@@ -1018,16 +982,8 @@
           "original_page": 52
         },
         {
-          "type": "modified",
-          "original_text": "One of the advantages of secondary data like old movies or WHO statistics is that it is nonreactive research (or unobtrusive research), meaning that it does not involve direct contact with subjects and will not alter or influence people’s behaviors.",
-          "florida_text": "One of the advantages of secondary data is that it is nonreactive research (or unobtrusive research), meaning that it does not involve direct contact with subjects and will not alter or influence people’s behaviors.",
-          "change_id": null,
-          "original_page": 52,
-          "florida_page": 29
-        },
-        {
           "type": "same",
-          "text": "Unlike studies requiring direct contact with people, using previously published data does not require entering a population and the investment and risks inherent in that research process. Using available data does have its challenges. Public records are not always easy to access.",
+          "text": "One of the advantages of secondary data like old movies or WHO statistics is that it is nonreactive research (or unobtrusive research), meaning that it does not involve direct contact with subjects and will not alter or influence people’s behaviors. Unlike studies requiring direct contact with people, using previously published data does not require entering a population and the investment and risks inherent in that research process. Using available data does have its challenges. Public records are not always easy to access.",
           "original_page": 52,
           "florida_page": 29
         },
@@ -1091,16 +1047,8 @@
           "original_page": 52
         },
         {
-          "type": "modified",
-          "original_text": "Some sociologists attempt to remain uncritical and as objective as possible when studying social institutions.",
-          "florida_text": "Sociologists attempt to remain uncritical and as objective as possible when studying social institutions.",
-          "change_id": null,
-          "original_page": 52,
-          "florida_page": 29
-        },
-        {
           "type": "same",
-          "text": "They strive to overcome personal biases, particularly subconscious biases, when collecting and analyzing data. They avoid skewing data in order to match a predetermined outcome that aligns with a particular agenda, such as a political or moral point of view. Investigators are ethically obligated to report results, even when they contradict personal views, predicted outcomes, or widely accepted beliefs.",
+          "text": "Some sociologists attempt to remain uncritical and as objective as possible when studying social institutions. They strive to overcome personal biases, particularly subconscious biases, when collecting and analyzing data. They avoid skewing data in order to match a predetermined outcome that aligns with a particular agenda, such as a political or moral point of view. Investigators are ethically obligated to report results, even when they contradict personal views, predicted outcomes, or widely accepted beliefs.",
           "original_page": 52,
           "florida_page": 29
         },
@@ -1132,7 +1080,7 @@
         },
         {
           "type": "added",
-          "florida_text": "Maintain objectivity and integrity in research 2. Respect participants’ rights to privacy and dignity Sociological Research A real-life example will help illustrate the process. In 1971, Frances Heussenstamm, a sociology professor at California State University at Los Angeles, had a hypothesis about police prejudice. To test that, she conducted a field experiment research study. She chose fifteen students who routinely drove to and from campus along Los Angeles freeway routes, and who had had perfect driving records for longer than a year. Next, she placed a Black Panther bumper sticker on each car. That sticker, a representation of a social value, was the independent variable. In the 1970s, the Black Panthers were a controversial group. The group was viewed by the FBI as a radical organization and a threat to national security. The group regularly had confrontations with law enforcement. Heussenstamm asked the students to follow their normal driving patterns. She wanted to see whether seeming support for the Black Panthers would change how these good drivers were treated by the police patrolling the highways. The dependent variable would be the number of traffic stops/citations. The first arrest, for an incorrect lane change, was made two hours after the experiment began. One participant was pulled over three times in three days. He quit the study. After seventeen days, the fifteen drivers had collected a total of thirty-three traffic citations. The research was halted. The funding to pay traffic fines had run out and so had the enthusiasm of the participants (Heussenstamm, 1971). 3. Protect participants from personal harm 4. Preserve confidentiality 5. Seek informed consent 6. Acknowledge collaboration and assistance 7. Disclose sources of financial support Unfortunately, researchers in the past did not always follow these guidelines, and they created unethical environments for humans involved in research studies that caused significant harm to participants. Among the most well-known is the Tuskegee Experiment.",
+          "florida_text": "Maintain objectivity and integrity in research 2. Respect participants’ rights to privacy and dignity Sociological Research A real-life example will help illustrate the process. In 1971, Frances Heussenstamm, a sociology professor at California State University at Los Angeles, had a hypothesis about police prejudice. To test that, she conducted a field experiment research study. She chose fifteen students who routinely drove to and from campus along Los Angeles freeway routes, and who had had perfect driving records for longer than a year. Next, she placed a Black Panther bumper sticker on each car. That sticker, a representation of a social value, was the independent variable. In the 1970s, the Black Panthers were a controversial group. The group was viewed by the FBI as a radical organization and a threat to national security. The group regularly had confrontations with law enforcement. Heussenstamm asked the students to follow their normal driving patterns. She wanted to see whether seeming support for the Black Panthers would change how these good drivers were treated by the police patrolling the highways. The dependent variable would be the number of traffic stops/citations. The first arrest, for an incorrect lane change, was made two hours after the experiment began. One participant was pulled over three times in three days. He quit the study. After seventeen days, the fifteen drivers had collected a total of thirty-three traffic citations. The research was halted. The funding to pay traffic fines had run out and so had the enthusiasm of the participants (Heussenstamm, 1971). Protect participants from personal harm 4. Preserve confidentiality 5. Seek informed consent 6. Acknowledge collaboration and assistance 7. Disclose sources of financial support Unfortunately, researchers in the past did not always follow these guidelines, and they created unethical environments for humans involved in research studies that caused significant harm to participants. Among the most well-known is the Tuskegee Experiment.",
           "change_id": null,
           "florida_page": 29
         },

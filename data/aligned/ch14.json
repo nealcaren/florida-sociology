@@ -120,21 +120,9 @@
           "florida_page": 185
         },
         {
-          "type": "removed",
-          "original_text": "In some cases, parents can no longer care for their children.",
-          "change_id": null,
-          "original_page": 439
-        },
-        {
           "type": "same",
           "text": "In 2018, three million children lived with a guardian who was neither their biological nor adoptive parent.",
           "original_page": 439,
-          "florida_page": 185
-        },
-        {
-          "type": "added",
-          "florida_text": "The causes range from parental mental or physical health",
-          "change_id": null,
           "florida_page": 185
         },
         {
@@ -180,12 +168,6 @@
           "florida_page": 185
         },
         {
-          "type": "removed",
-          "original_text": "When children are placed into foster care or other non-parental care, agencies and families usually do their best to keep siblings together.",
-          "change_id": null,
-          "original_page": 439
-        },
-        {
           "type": "same",
           "text": "Brothers and sisters usually provide each other with someone to navigate social challenges and provide continuity over time. Studies have shown that siblings placed together show more closeness to their foster caregivers and like living in the foster home more than those not placed with a sibling (Hegar and Rosenthal, 2011). Separating siblings can cause them to worry about each other or their birth families, and slows acceptance of their new home (Affronti, Rittner, & Semanchin Jones, 2015). Siblings sometimes play more of a parental role themselves, especially when there are large age gaps or if there are very young children involved. These older siblings may take on some parental responsibilities during a divorce or when children are sent to live with others. \"Parentified\" siblings may have trouble navigating the complexities of parental roles when they themselves are often still very young.",
           "original_page": 439,
@@ -200,14 +182,8 @@
           "florida_page": 185
         },
         {
-          "type": "removed",
-          "original_text": "Changes in the traditional family structure raise questions about how such societal shifts affect children.",
-          "change_id": null,
-          "original_page": 439
-        },
-        {
           "type": "same",
-          "text": "U.S. Census statistics have long shown that children living in homes with both parents grow up with more financial and educational advantages than children who are raised in single-parent homes (U.S. Census 1997). Parental marital status seems to be a significant indicator of advancement in a child’s life. Children living with a divorced parent typically have more advantages than children living with a parent who never married; this is particularly true of children who live with divorced fathers. This correlates with the statistic that never-married parents are typically younger, have fewer years of schooling, and have lower incomes (U.S. Census 1997). Six in ten children living with only their mother live near or below the poverty level. Of those being raised by single mothers, 69 percent live in or near poverty compared to 45 percent for divorced mothers (U.S. Census 1997).",
+          "text": "Census statistics have long shown that children living in homes with both parents grow up with more financial and educational advantages than children who are raised in single-parent homes (U.S. Census 1997). Parental marital status seems to be a significant indicator of advancement in a child’s life. Children living with a divorced parent typically have more advantages than children living with a parent who never married; this is particularly true of children who live with divorced fathers. This correlates with the statistic that never-married parents are typically younger, have fewer years of schooling, and have lower incomes (U.S. Census 1997). Six in ten children living with only their mother live near or below the poverty level. Of those being raised by single mothers, 69 percent live in or near poverty compared to 45 percent for divorced mothers (U.S. Census 1997).",
           "original_page": 439,
           "florida_page": 185
         },
@@ -1067,16 +1043,8 @@
           "florida_page": 185
         },
         {
-          "type": "modified",
-          "original_text": "When people lose their jobs during a recession or in a changing job market, it takes longer to find a new one, if they can find one at all.",
-          "florida_text": "Poverty in the United States When people lose their jobs during a recession or in a changing job market, it often takes longer to find a new one, if they can find one at all.",
-          "change_id": null,
-          "original_page": 555,
-          "florida_page": 185
-        },
-        {
           "type": "same",
-          "text": "If they do, it is often at a much lower wage or not full time. This can force people into poverty. In the United States, we tend to have what is called relative poverty, defined as being unable to live the lifestyle of the average person in your country. This must be contrasted with the absolute poverty that is frequently found in underdeveloped countries and defined as the inability, or near-inability, to afford basic necessities such as food (Byrns 2011). We cannot even rely on unemployment statistics to provide a clear picture of total unemployment in the United States. First, unemployment statistics do not take into account underemployment, a state in which a person accepts a lower paying, lower status job than their education and experience qualifies them to perform.",
+          "text": "When people lose their jobs during a recession or in a changing job market, it takes longer to find a new one, if they can find one at all. If they do, it is often at a much lower wage or not full time. This can force people into poverty. In the United States, we tend to have what is called relative poverty, defined as being unable to live the lifestyle of the average person in your country. This must be contrasted with the absolute poverty that is frequently found in underdeveloped countries and defined as the inability, or near-inability, to afford basic necessities such as food (Byrns 2011). We cannot even rely on unemployment statistics to provide a clear picture of total unemployment in the United States. First, unemployment statistics do not take into account underemployment, a state in which a person accepts a lower paying, lower status job than their education and experience qualifies them to perform.",
           "original_page": 555,
           "florida_page": 185
         },

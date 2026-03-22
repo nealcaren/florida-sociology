@@ -43,7 +43,7 @@
         },
         {
           "type": "removed",
-          "original_text": "Once mixed with fracking chemicals, water is unsuitable for human and animal consumption, though it is estimated that between 10 percent and 90 percent of the contaminated water is returned to the water cycle. Second, the chemicals used in a fracking mix are potentially carcinogenic.",
+          "original_text": "Once mixed with fracking chemicals, water is unsuitable for human and animal consumption, though it is estimated that between 10 percent and 90 percent of the contaminated water is returned to the water cycle.",
           "change_id": null,
           "original_page": 608
         },
@@ -105,15 +105,15 @@
         },
         {
           "type": "modified",
-          "original_text": "How do sociologists study population and urbanization issues? Functionalist sociologists might focus on the way all aspects of population, urbanization, and the environment serve as vital and cohesive elements, ensuring the continuing stability of society.",
-          "florida_text": "How do sociologists study population and urbanization? Sociologists using a functionalist perspective might focus on the way all aspects of population, urbanization, and the environment serve as vital and cohesive elements, ensuring the continuing stability of society.",
+          "original_text": "How do sociologists study population and urbanization issues?",
+          "florida_text": "How do sociologists study population and urbanization?",
           "change_id": null,
           "original_page": 608,
           "florida_page": 236
         },
         {
           "type": "same",
-          "text": "They might study how the growth of the global population encourages emigration and immigration, and how emigration and immigration serve to strengthen ties between nations.",
+          "text": "Functionalist sociologists might focus on the way all aspects of population, urbanization, and the environment serve as vital and cohesive elements, ensuring the continuing stability of society. They might study how the growth of the global population encourages emigration and immigration, and how emigration and immigration serve to strengthen ties between nations.",
           "original_page": 608,
           "florida_page": 236
         },
@@ -187,16 +187,8 @@
           "florida_page": 236
         },
         {
-          "type": "modified",
-          "original_text": "In order to properly understand these dynamics and make decisions regarding them, we turn to demography, or the study of populations.",
-          "florida_text": "To properly understand these dynamics and make decisions regarding them, we turn to demography, or the study of populations.",
-          "change_id": null,
-          "original_page": 608,
-          "florida_page": 236
-        },
-        {
           "type": "same",
-          "text": "Three critical aspects of demography are fertility, mortality, and migration.",
+          "text": "In order to properly understand these dynamics and make decisions regarding them, we turn to demography, or the study of populations. Three critical aspects of demography are fertility, mortality, and migration.",
           "original_page": 608,
           "florida_page": 236
         },
@@ -474,26 +466,14 @@
         },
         {
           "type": "same",
-          "text": "As more and more opportunities for work appeared in factories, workers left farms (and the rural communities that housed them) to move to the cities. From mill towns in Massachusetts to tenements in New York, the industrial era saw an influx of poor workers into U.S. cities.",
-          "original_page": 608,
-          "florida_page": 236
-        },
-        {
-          "type": "added",
-          "florida_text": "At",
-          "change_id": null,
-          "florida_page": 236
-        },
-        {
-          "type": "same",
-          "text": "At various times throughout the country’s history, certain demographic groups, from post-Civil War southern Black people to more recent immigrants, have made their way to urban centers to seek a better life in the city. As cities grew more crowded, and often more impoverished and costly, more and more people began to migrate back out of them. But instead of returning to rural small towns (like they’d resided in before moving to the city), these people needed close access to the cities for their jobs. In the 1850s, as the urban population greatly expanded and transportation options improved, suburbs developed.",
+          "text": "As more and more opportunities for work appeared in factories, workers left farms (and the rural communities that housed them) to move to the cities. From mill towns in Massachusetts to tenements in New York, the industrial era saw an influx of poor workers into U.S. cities. At various times throughout the country’s history, certain demographic groups, from post-Civil War southern Black people to more recent immigrants, have made their way to urban centers to seek a better life in the city. As cities grew more crowded, and often more impoverished and costly, more and more people began to migrate back out of them. But instead of returning to rural small towns (like they’d resided in before moving to the city), these people needed close access to the cities for their jobs. In the 1850s, as the urban population greatly expanded and transportation options improved, suburbs developed. Suburbs are the communities surrounding cities, typically close enough for a daily commute in, but far enough away to allow for more space than city living affords.",
           "original_page": 608,
           "florida_page": 236
         },
         {
           "type": "modified",
-          "original_text": "Suburbs are the communities surrounding cities, typically close enough for a daily commute in, but far enough away to allow for more space than city living affords. The bucolic suburban landscape of the early twentieth century has largely disappeared due to sprawl.",
-          "florida_text": "Suburbs are the communities surrounding cities, typically close enough for commuting, but far enough away to allow for more space than city living affords. The bucolic suburban landscape of the early twentieth century has largely disappeared due to the growth of suburbs and city sprawl that leads to new problems.",
+          "original_text": "The bucolic suburban landscape of the early twentieth century has largely disappeared due to sprawl.",
+          "florida_text": "The bucolic suburban landscape of the early twentieth century has largely disappeared due to the growth of suburbs and city sprawl that leads to new problems.",
           "change_id": null,
           "original_page": 608,
           "florida_page": 236
@@ -609,25 +589,14 @@
         },
         {
           "type": "modified",
-          "original_text": "World systems analysis suggests that while, historically, core nations (like the United States and Western Europe) were the greatest source of greenhouse gases, they have now evolved into postindustrial societies. Industrialized semi-peripheral and peripheral nations are releasing increasing quantities of greenhouse gases, such as carbon dioxide.",
-          "florida_text": "Historically, core nations (like the United States and Western Europe) were the greatest source of greenhouse gases, they have now evolved into postindustrial societies and produce much lower greenhouse gases than in the past. Industrialized semi-peripheral and peripheral nations are releasing ever increasing quantities of greenhouse",
-          "change_id": null,
+          "original_text": "World systems analysis suggests that while, historically, core nations (like the United States and Western Europe) were the greatest source of greenhouse gases, they have now evolved into postindustrial societies. Industrialized semi-peripheral and peripheral nations are releasing increasing quantities of greenhouse gases, such as carbon dioxide. The core nations, now post-industrial and less dependent on greenhouse-gas-causing industries, wish to enact strict protocols regarding the causes of global warming, but the semi-peripheral and peripheral nations rightly point out that they only want the same economic chance to evolve their economies.",
+          "florida_text": "Historically, core nations (like the United States and Western Europe) were the greatest source of greenhouse gases, they have now evolved into postindustrial societies and produce much lower greenhouse gases than in the past. Industrialized semi-peripheral and peripheral nations are releasing ever increasing quantities of greenhouse Some of the core nations now wish to enact strict protocols regarding what is believed to be the causes of global warming, but some of the semi-peripheral and peripheral nations oppose these restrictions claiming they want the same lower cost economic chance to evolve their economies.",
+          "change_id": "ch20_change_11",
           "original_page": 617,
-          "florida_page": 240
-        },
-        {
-          "type": "added",
-          "florida_text": "gases, such as carbon dioxide. The core nations, now post-industrial and less dependent on greenhouse-gas-causing industries.",
-          "change_id": null,
-          "florida_page": 240
-        },
-        {
-          "type": "modified",
-          "original_text": "The core nations, now post-industrial and less dependent on greenhouse-gas-causing industries, wish to enact strict protocols regarding the causes of global warming, but the semi-peripheral and peripheral nations rightly point out that they only want the same economic chance to evolve their economies.",
-          "florida_text": "Some of the core nations now wish to enact strict protocols regarding what is believed to be the causes of global warming, but some of the semi-peripheral and peripheral nations oppose these restrictions claiming they want the same lower cost economic chance to evolve their economies.",
-          "change_id": null,
-          "original_page": 617,
-          "florida_page": 240
+          "florida_page": 240,
+          "context": "The Florida version: removes the world systems framing; introduces epistemic hedging with 'what is believed to be the causes of global warming'; removes that peripheral nations 'rightly' raise equity concerns; removes the suggestion that core nations should pay offsets or subsidies; removes acknowledgment that it was not 'fair' that core nations benefited from polluting industrialization. The global equity dimension of climate change is substantially softened.",
+          "original_evidence": "img/evidence/ch20/change_11_original.webp",
+          "florida_evidence": "img/evidence/ch20/change_11_florida.webp"
         },
         {
           "type": "removed",
@@ -648,16 +617,8 @@
           "original_page": 617
         },
         {
-          "type": "modified",
-          "original_text": "Finally, the cost of obtaining that clean water can interfere with other important aspects of survival and social mobility.",
-          "florida_text": "The cost of obtaining clean water can interfere with other important aspects of survival and social mobility.",
-          "change_id": null,
-          "original_page": 617,
-          "florida_page": 240
-        },
-        {
           "type": "same",
-          "text": "Children serve as water haulers, traveling long distances on foot to collect potable water for their family. Those same children (as well as those who similarly collect firewood) are less able to focus on their education, either missing school or not completing the associated work (Water.org 2021).",
+          "text": "Finally, the cost of obtaining that clean water can interfere with other important aspects of survival and social mobility. Children serve as water haulers, traveling long distances on foot to collect potable water for their family. Those same children (as well as those who similarly collect firewood) are less able to focus on their education, either missing school or not completing the associated work (Water.org 2021).",
           "original_page": 617,
           "florida_page": 240
         },
