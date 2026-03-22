@@ -294,16 +294,23 @@ def align_chapter(chapter: int, dry_run: bool = False) -> dict:
         used_fl_sections = set()
 
         for orig_sec in orig_sections:
-            fl_sec = fl_by_id.get(orig_sec["section_id"])
-            # Try matching by sub-section number for renumbered (non-merged) chapters
-            # e.g., original "5.1" -> Florida "4.1" (both sub ".1")
-            # Skip this for merged chapters where multiple orig chapters share sub-numbers
-            if fl_sec is None and entry["type"] != "merged":
-                orig_parts = orig_sec["section_id"].split(".")
-                if len(orig_parts) == 2:
-                    fl_sec = fl_by_sub.get(orig_parts[1])
+            fl_sec = None
 
-            # For merged chapters (or any unmatched section), try content-based matching
+            if entry["type"] == "merged":
+                # For merged chapters, always use content-based matching
+                # since section numbers are meaningless across merged chapters
+                pass
+            else:
+                # Try matching by section ID first
+                fl_sec = fl_by_id.get(orig_sec["section_id"])
+                # Try matching by sub-section number for renumbered chapters
+                # e.g., original "5.1" -> Florida "4.1" (both sub ".1")
+                if fl_sec is None:
+                    orig_parts = orig_sec["section_id"].split(".")
+                    if len(orig_parts) == 2:
+                        fl_sec = fl_by_sub.get(orig_parts[1])
+
+            # Content-based matching for unmatched sections
             if fl_sec is None and orig_sec["section_id"] != "intro":
                 from difflib import SequenceMatcher as _SM
                 orig_words = " ".join(orig_sec["paragraphs"]).split()

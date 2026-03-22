@@ -1,19 +1,16 @@
-"""Paragraph-level alignment between original and Florida textbook versions.
+"""Sentence-level alignment between original and Florida textbook versions.
 
-Handles the case where paragraph boundaries differ between sources:
-CNXML source has proper paragraph breaks while PDF extraction often
-merges multiple paragraphs into large text blocks. Uses word-level
-subsequence matching to detect when an original paragraph's content
-appears within a (potentially larger) Florida paragraph.
+Splits paragraphs into sentences, aligns at sentence granularity using
+SequenceMatcher, then groups consecutive same-type sentences back into
+blocks for display. This handles PDF extraction issues where paragraph
+boundaries differ between the two sources.
 """
 
 import re
 from difflib import SequenceMatcher
 
-SIMILARITY_THRESHOLD = 0.5
-SAME_THRESHOLD = 0.95  # Word-level similarity above this => "same"
-CONTAINMENT_THRESHOLD = 0.80  # Fraction of orig words found in FL paragraph
-MATCH_THRESHOLD = 0.55  # Minimum of max(similarity, containment) to consider a match
+SAME_THRESHOLD = 0.92  # Word-level similarity above this => "same"
+MODIFIED_THRESHOLD = 0.55  # Above this => "modified" (word changes)
 
 
 def _word_similarity(a: str, b: str) -> float:
@@ -21,30 +18,30 @@ def _word_similarity(a: str, b: str) -> float:
     return SequenceMatcher(None, a.split(), b.split()).ratio()
 
 
-def _containment_ratio(needle: str, haystack: str) -> float:
-    """What fraction of needle's words appear (in order) in haystack?
+def _split_sentences(text: str) -> list[str]:
+    """Split text into sentences. Handles common abbreviations."""
+    # Split on sentence-ending punctuation followed by space + capital letter
+    # But not on common abbreviations like "U.S." or "Dr."
+    parts = re.split(r'(?<=[.!?])\s+(?=[A-Z"\'])', text)
+    return [s.strip() for s in parts if s.strip()]
 
-    Uses LCS on word lists to handle minor word changes.
-    """
-    n_words = needle.lower().split()
-    h_words = haystack.lower().split()
-    if not n_words:
-        return 0.0
 
-    # LCS length
-    matcher = SequenceMatcher(None, n_words, h_words)
-    lcs_len = sum(block.size for block in matcher.get_matching_blocks())
-    return lcs_len / len(n_words)
+def _flatten_to_sentences(paragraphs: list[str]) -> list[str]:
+    """Flatten a list of paragraphs into a list of sentences."""
+    sentences = []
+    for para in paragraphs:
+        sentences.extend(_split_sentences(para))
+    return sentences
 
 
 def align_paragraphs(
     original: list[str],
     florida: list[str],
 ) -> list[dict]:
-    """Align two lists of paragraphs, producing typed blocks.
+    """Align two lists of paragraphs via sentence-level matching.
 
-    For each original paragraph, tries to find a Florida paragraph that
-    contains its content (handling merged paragraphs in PDF extraction).
+    Splits both sides into sentences, aligns them, then groups
+    consecutive same-type sentences into blocks.
 
     Returns list of dicts with keys:
       type: "same" | "modified" | "removed" | "added"
@@ -61,98 +58,128 @@ def align_paragraphs(
     if not original:
         return [{"type": "added", "florida_text": p} for p in florida]
 
-    # For each original paragraph, find the best matching Florida paragraph.
-    # Use both word similarity and containment ratio (for merged FL paragraphs).
-    matches = []  # (orig_idx, fl_idx, score, is_same)
-    fl_matched_by = {}  # fl_idx -> list of orig_idx that matched it
+    # Split into sentences
+    orig_sents = _flatten_to_sentences(original)
+    fl_sents = _flatten_to_sentences(florida)
 
-    for i, orig in enumerate(original):
-        best_score = 0.0
-        best_j = -1
+    if not orig_sents and not fl_sents:
+        return []
+    if not orig_sents:
+        return [{"type": "added", "florida_text": " ".join(fl_sents)}]
+    if not fl_sents:
+        return [{"type": "removed", "original_text": " ".join(orig_sents)}]
 
-        for j, fl in enumerate(florida):
-            # Try direct similarity
-            sim = _word_similarity(orig, fl)
+    # Use SequenceMatcher on sentence lists to find alignment
+    # We need a custom equality that handles minor differences
+    # First, try exact matching via SequenceMatcher
+    matcher = SequenceMatcher(None, orig_sents, fl_sents)
 
-            # Try containment (orig paragraph contained within larger FL paragraph)
-            cont = _containment_ratio(orig, fl)
+    raw_blocks = []  # list of (type, orig_text, fl_text)
 
-            score = max(sim, cont)
-            if score > best_score:
-                best_score = score
-                best_j = j
+    for tag, i1, i2, j1, j2 in matcher.get_opcodes():
+        if tag == "equal":
+            for k in range(i2 - i1):
+                raw_blocks.append(("same", orig_sents[i1 + k], None))
 
-        if best_score >= MATCH_THRESHOLD and best_j >= 0:
-            matches.append((i, best_j, best_score))
-            fl_matched_by.setdefault(best_j, []).append(i)
+        elif tag == "replace":
+            # Check sentence-by-sentence similarity
+            orig_slice = orig_sents[i1:i2]
+            fl_slice = fl_sents[j1:j2]
+            raw_blocks.extend(_pair_sentences(orig_slice, fl_slice))
 
-    # Enforce monotonicity
-    monotonic = []
-    last_fl = -1
-    for orig_idx, fl_idx, score in matches:
-        if fl_idx >= last_fl:  # >= allows multiple orig to map to same fl
-            monotonic.append((orig_idx, fl_idx, score))
-            if fl_idx > last_fl:
-                last_fl = fl_idx
+        elif tag == "delete":
+            for k in range(i1, i2):
+                raw_blocks.append(("removed", orig_sents[k], None))
 
-    matched_orig = {}
-    fl_used = set()
-    for orig_idx, fl_idx, score in monotonic:
-        matched_orig[orig_idx] = (fl_idx, score)
-        fl_used.add(fl_idx)
+        elif tag == "insert":
+            for k in range(j1, j2):
+                raw_blocks.append(("added", None, fl_sents[k]))
 
-    # Build output blocks
-    blocks = []
-    fl_cursor = 0
+    # Group consecutive same-type sentences into blocks
+    return _group_blocks(raw_blocks)
 
-    for i, orig in enumerate(original):
-        if i in matched_orig:
-            fl_idx, score = matched_orig[i]
 
-            # Emit unmatched Florida paragraphs before this match
-            while fl_cursor < fl_idx:
-                if fl_cursor not in fl_used:
-                    blocks.append({"type": "added", "florida_text": florida[fl_cursor]})
-                fl_cursor += 1
+def _pair_sentences(
+    orig_sents: list[str],
+    fl_sents: list[str],
+) -> list[tuple]:
+    """Pair sentences from a 'replace' opcode by similarity."""
+    results = []
+    used_fl = set()
 
-            # Check if this FL paragraph was matched by multiple orig paragraphs
-            # If so, only emit it once as context
-            fl_multi = fl_matched_by.get(fl_idx, [])
-            is_first_match = (fl_multi[0] == i) if fl_multi else True
+    for orig in orig_sents:
+        best_ratio = 0.0
+        best_idx = -1
 
-            # Determine block type
-            direct_sim = _word_similarity(orig, florida[fl_idx])
-            if direct_sim >= SAME_THRESHOLD:
-                blocks.append({"type": "same", "text": orig})
-            elif direct_sim >= SIMILARITY_THRESHOLD:
-                blocks.append({
-                    "type": "modified",
-                    "original_text": orig,
-                    "florida_text": florida[fl_idx] if is_first_match else None,
-                })
-            else:
-                # Contained within but not directly similar (merged FL paragraph)
-                blocks.append({
-                    "type": "same",
-                    "text": orig,
-                })
+        for idx, fl in enumerate(fl_sents):
+            if idx in used_fl:
+                continue
+            ratio = _word_similarity(orig, fl)
+            if ratio > best_ratio:
+                best_ratio = ratio
+                best_idx = idx
 
-            if fl_idx >= fl_cursor:
-                fl_cursor = fl_idx + 1
+        if best_ratio >= SAME_THRESHOLD and best_idx >= 0:
+            # Emit unmatched FL sentences before this match
+            for j in range(best_idx):
+                if j not in used_fl:
+                    results.append(("added", None, fl_sents[j]))
+                    used_fl.add(j)
+            results.append(("same", orig, None))
+            used_fl.add(best_idx)
+        elif best_ratio >= MODIFIED_THRESHOLD and best_idx >= 0:
+            for j in range(best_idx):
+                if j not in used_fl:
+                    results.append(("added", None, fl_sents[j]))
+                    used_fl.add(j)
+            results.append(("modified", orig, fl_sents[best_idx]))
+            used_fl.add(best_idx)
         else:
-            blocks.append({"type": "removed", "original_text": orig})
+            results.append(("removed", orig, None))
 
-    # Emit remaining unmatched Florida paragraphs
-    while fl_cursor < len(florida):
-        if fl_cursor not in fl_used:
-            blocks.append({"type": "added", "florida_text": florida[fl_cursor]})
-        fl_cursor += 1
+    # Remaining unmatched FL sentences
+    for idx, fl in enumerate(fl_sents):
+        if idx not in used_fl:
+            results.append(("added", None, fl))
 
-    # Clean up: remove None florida_text from modified blocks
-    for block in blocks:
-        if block.get("type") == "modified" and block.get("florida_text") is None:
-            block["type"] = "same"
-            block["text"] = block.pop("original_text")
-            block.pop("florida_text", None)
+    return results
 
-    return blocks
+
+def _group_blocks(raw_blocks: list[tuple]) -> list[dict]:
+    """Group consecutive same-type sentence results into paragraph-like blocks."""
+    if not raw_blocks:
+        return []
+
+    grouped = []
+    current_type = raw_blocks[0][0]
+    current_orig = []
+    current_fl = []
+
+    def flush():
+        if current_type == "same":
+            grouped.append({"type": "same", "text": " ".join(current_orig)})
+        elif current_type == "modified":
+            grouped.append({
+                "type": "modified",
+                "original_text": " ".join(current_orig),
+                "florida_text": " ".join(current_fl),
+            })
+        elif current_type == "removed":
+            grouped.append({"type": "removed", "original_text": " ".join(current_orig)})
+        elif current_type == "added":
+            grouped.append({"type": "added", "florida_text": " ".join(current_fl)})
+
+    for block_type, orig, fl in raw_blocks:
+        if block_type != current_type:
+            flush()
+            current_type = block_type
+            current_orig = []
+            current_fl = []
+
+        if orig:
+            current_orig.append(orig)
+        if fl:
+            current_fl.append(fl)
+
+    flush()
+    return grouped

@@ -11,49 +11,136 @@
       "blocks": [
         {
           "type": "same",
-          "text": "On March 19, 2014 a \"mystery\" hemorrhagic fever outbreak occurred in Liberia and Sierra Leone. This outbreak was later confirmed to be Ebola, a disease first discovered in what is now the Democratic Republic of Congo. The 2014-2016 outbreak sickened more than 28,000 people and left more than 11,000 dead (CDC 2020).",
-          "original_page": 572,
-          "florida_page": 118
+          "text": "On March 19, 2014 a \"mystery\" hemorrhagic fever outbreak occurred in Liberia and Sierra Leone. This outbreak was later confirmed to be Ebola, a disease first discovered in what is now the Democratic Republic of Congo. The 2014-2016 outbreak sickened more than 28,000 people and left more than 11,000 dead (CDC 2020). For the people in West Africa, the outbreak was personally tragic and terrifying. In much of the rest of the world, the outbreak increased tensions, but did not change anyone's behavior.",
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "modified",
+          "original_text": "Infection of U.S. medical staff (both in West Africa and at home) led to fear and distrust, and restrictions on flights from West Africa was one proposed way to stop the spread of the disease.",
+          "florida_text": "The U.S. placed restrictions on flights from West Africa was one proposed way to stop the spread of the disease.",
+          "change_id": "ch19_change_0",
+          "original_page": 571,
+          "florida_page": 113,
+          "context": "Florida version removes the mention of U.S. medical staff infections causing fear and distrust, softening criticism of the U.S. response.",
+          "original_evidence": "img/evidence/ch19/change_0_original.webp",
+          "florida_evidence": "img/evidence/ch19/change_0_florida.webp"
         },
         {
           "type": "same",
-          "text": "For the people in West Africa, the outbreak was personally tragic and terrifying. In much of the rest of the world, the outbreak increased tensions, but did not change anyone's behavior. Infection of U.S. medical staff (both in West Africa and at home) led to fear and distrust, and restrictions on flights from West Africa was one proposed way to stop the spread of the disease. Ebola first entered the United States via U.S. missionary medical staff who were infected in West Africa and then transported home for treatment. Several other Ebola outbreaks occurred in West Africa in subsequent years, killing thousands of people.",
-          "original_page": 572,
-          "florida_page": 118
+          "text": "Ebola first entered the United States via U.S. missionary medical staff who were infected in West Africa and then transported home for treatment. Several other Ebola outbreaks occurred in West Africa in subsequent years, killing thousands of people.",
+          "original_page": 571,
+          "florida_page": 113
         },
         {
-          "type": "removed",
-          "original_text": "Six years after the massive 2014 epidemic, the people of West Africa faced another disease, but this time they were not alone. The Coronavirus pandemic swept across the globe in a matter of months. While some countries managed the disease far better than others, it affected everyone. Highly industrialized countries, such as China, Italy, and the United States, were early centers of the outbreak. Brazil and India had later increases, as did the U.K. and Russia. Most countries took measures that were considered extreme—closing their borders, forcing schools and businesses to close, transforming their people's lives. Other nations went further, completely shutting down at the discovery of just a few cases. And some countries had mixed responses, typically resulting in high rates of infection and overwhelming losses of life. In Brazil and the United States, for example, political leaders and large swaths of the populations rejected measures to contain the virus. By the time vaccines became widely available, those two countries had the highest numbers of coronavirus death worldwide.",
-          "change_id": "ch19_change_1",
-          "original_page": 572,
-          "context": "The original's explicit naming of the United States alongside Brazil as countries whose political leaders 'rejected measures to contain the virus' with 'the highest numbers of coronavirus death worldwide' is removed from the Florida version.",
-          "original_evidence": "img/evidence/ch19/change_1_original.webp"
-        },
-        {
-          "type": "removed",
-          "original_text": "Did the world learn from the Ebola virus epidemics? Or did only parts of it learn? Prior to the United States facing the worst COVID-19 outbreak in the world, the government shut down travel, as did many countries in Europe. This was certainly an important step, but other measures fell short; conflicting messages about mask wearing and social distancing became political weapons amid the country's Presidential election, and localized outbreaks and spikes of deaths were continually traced to gatherings that occurred against scientific guidance. Brazil's president actively disputed medical opinions, rejected any travel or business restrictions, and was in conflict with many people in his own government (even his political allies); with Brazil's slower pace of vaccination compared to the U.S., it saw a steep increase in cases and deaths just as the United States' numbers started to decline.",
-          "change_id": "ch19_change_2",
-          "original_page": 572,
-          "context": "The reflective paragraph critically examining U.S. COVID failures (mask wearing as 'political weapons,' linkage to the Presidential election) is removed, replaced with a more neutral account that does name Bolsonaro but not Trump or the U.S. political context.",
-          "original_evidence": "img/evidence/ch19/change_2_original.webp"
-        },
-        {
-          "type": "same",
-          "text": "Both those opposed to heavy restrictions and those who used them to fight the disease acknowledge that the impacts went far beyond physical health. Families shattered by the loss of a loved one had to go through the pain without relatives to support them at funerals or other gatherings. Many who recovered from the virus had serious health issues to contend with, while other people who delayed important treatments had larger problems than they normally would have. Fear, isolation, and strained familial relationships led to emotional problems. Many families lost income. Learning was certainly impacted as education practices went through sudden shifts. The true outcomes will likely not be fully understood for years after the pandemic is under control.",
-          "original_page": 572,
-          "florida_page": 118
-        },
-        {
-          "type": "removed",
-          "original_text": "So now, after the height of the coronavirus pandemic, what does “health” mean to you? Does your opinion of it differ from your pre-COVID attitudes? Many people who became severely ill or died from COVID had other health issues (known as comorbidities) such as hypertension and obesity. Do you know people whose attitudes about their general health changed? Do you know people who are more or less suspicious of the government, more or less likely to listen to doctors or scientists? What do you think will be the best way to prevent illness and death should another pandemic strike?",
+          "type": "added",
+          "florida_text": "However, these deaths were largely confined to West Africa because transmission of Ebola occurred through contact with bodily fluids.",
           "change_id": null,
-          "original_page": 572
+          "florida_page": 113
+        },
+        {
+          "type": "same",
+          "text": "Six years after the massive 2014 epidemic, the people of West Africa faced another disease, but this time they were not alone.",
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "modified",
+          "original_text": "The Coronavirus pandemic swept across the globe in a matter of months.",
+          "florida_text": "The Coronavirus pandemic swept across the globe in a matter of months because transmission could rapidly move between persons via airborne particles.",
+          "change_id": null,
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "removed",
+          "original_text": "While some countries managed the disease far better than others, it affected everyone.",
+          "change_id": null,
+          "original_page": 571
+        },
+        {
+          "type": "same",
+          "text": "Highly industrialized countries, such as China, Italy, and the United States, were early centers of the outbreak.",
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "removed",
+          "original_text": "Brazil and India had later increases, as did the U.K. and Russia.",
+          "change_id": null,
+          "original_page": 571
+        },
+        {
+          "type": "added",
+          "florida_text": "Other countries experienced spikes that followed.",
+          "change_id": null,
+          "florida_page": 113
+        },
+        {
+          "type": "modified",
+          "original_text": "Most countries took measures that were considered extreme—closing their borders, forcing schools and businesses to close, transforming their people's lives. Other nations went further, completely shutting down at the discovery of just a few cases.",
+          "florida_text": "Most countries took measures that were considered extreme at the time — closing their borders and forcing schools and businesses to close once the virus had spread. Other nations completely shut down at the discovery of just a few cases.",
+          "change_id": null,
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "removed",
+          "original_text": "And some countries had mixed responses, typically resulting in high rates of infection and overwhelming losses of life. In Brazil and the United States, for example, political leaders and large swaths of the populations rejected measures to contain the virus. By the time vaccines became widely available, those two countries had the highest numbers of coronavirus death worldwide. Did the world learn from the Ebola virus epidemics? Or did only parts of it learn?",
+          "change_id": null,
+          "original_page": 571
+        },
+        {
+          "type": "added",
+          "florida_text": "And some countries had mixed responses.",
+          "change_id": null,
+          "florida_page": 113
+        },
+        {
+          "type": "modified",
+          "original_text": "Prior to the United States facing the worst COVID-19 outbreak in the world, the government shut down travel, as did many countries in Europe.",
+          "florida_text": "In the early days of the pandemic in the United States, the government shut down travel, as did many countries in Europe.",
+          "change_id": null,
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "removed",
+          "original_text": "This was certainly an important step, but other measures fell short; conflicting messages about mask wearing and social distancing became political weapons amid the country's Presidential election, and localized outbreaks and spikes of deaths were continually traced to gatherings that occurred against scientific guidance. Brazil's president actively disputed medical opinions, rejected any travel or business restrictions, and was in conflict with many people in his own government (even his political allies); with Brazil's slower pace of vaccination compared to the U.S., it saw a steep increase in cases and deaths just as the United States' numbers started to decline.",
+          "change_id": null,
+          "original_page": 571
+        },
+        {
+          "type": "added",
+          "florida_text": "However, conflicting regulations and recommendations related to mask wearing and social distancing lead to many in the population rejecting the public health recommendations. Localized outbreaks and spikes of deaths were frequently traced to gatherings that occurred against scientific guidance. National responses were also highly politicized. In Brazil, then-president Jair Bolsonaro actively disputed medical recommendations, rejected any travel or business restrictions, and conflicted with many people in his own government (even his political allies). When vaccines became available, Brazil had a slower pace of vaccination compared to the U.S., and deaths significantly increased even as COVID-19 deaths significantly decreased in the United States. In the end, as shown in Figure 6.2, there were significant variations across the globe in the number of deaths related to the pandemic, which is likely associated with variations in policy responses and differences in individuals’ adherence to public health protocols. Given the strong association between old age and COVID-19 related mortality risks, it would be expected that countries with a higher proportion of older (versus younger) aged individuals would experience similar COVID-19 deaths. However, countries with similar age structures had significant differences in the number of deaths that occurred, ranging from Russia which had more than 1,000 deaths for each 100,000 people to New Zealand that had only 19 deaths for each 100,000 people. Why did New Zealand fare so well? In the very early days of the outburst, Prime Minister (PM) Jacinda Ardern, recognized a ‘small window of opportunity’ to get ahead of the virus. She gave 48 hours’ notice before nation moved into full national lockdown for four weeks in a ‘go hard, go early’ response to the virus.3 This was a switch from a ‘mitigation’ strategy to one of elimination, and introduced some of the toughest restrictions in the world (Manning, 2022).",
+          "change_id": null,
+          "florida_page": 113
+        },
+        {
+          "type": "modified",
+          "original_text": "Both those opposed to heavy restrictions and those who used them to fight the disease acknowledge that the impacts went far beyond physical health. Families shattered by the loss of a loved one had to go through the pain without relatives to support them at funerals or other gatherings. Many who recovered from the virus had serious health issues to contend with, while other people who delayed important treatments had larger problems than they normally would have. Fear, isolation, and strained familial relationships led to emotional problems.",
+          "florida_text": "Both those who opposed heavy restrictions – like Brazil - and those who used them to fight the disease – like New Zealand - acknowledge that the impacts had significant consequences, despite intentions to preserve life and physical health. In the United States, families who were shattered by the loss of a loved one to COVID-19 or another cause had to go through the pain without relatives to support them at funerals or other gatherings due to regulations restricting social gatherings in the early months of the pandemic. Many who recovered from the virus had serious health issues to contend with, and others had to delay medical treatments for other conditions like cancer and consequently, faced more significant health issues than they normally would have. Fear, isolation, and strained familial relationships led to increases in emotional problems.",
+          "change_id": null,
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "removed",
+          "original_text": "Many families lost income. Learning was certainly impacted as education practices went through sudden shifts. The true outcomes will likely not be fully understood for years after the pandemic is under control. So now, after the height of the coronavirus pandemic, what does “health” mean to you? Does your opinion of it differ from your pre-COVID attitudes? Many people who became severely ill or died from COVID had other health issues (known as comorbidities) such as hypertension and obesity. Do you know people whose attitudes about their general health changed? Do you know people who are more or less suspicious of the government, more or less likely to listen to doctors or scientists? What do you think will be the best way to prevent illness and death should another pandemic strike?",
+          "change_id": null,
+          "original_page": 571
+        },
+        {
+          "type": "added",
+          "florida_text": "Many people lost income due to businesses being closed temporarily or permanently. Children were impacted with schooling shifting to online venues, in some cases, for over a year. Most Americans and people in a variety of other countries experienced significant decreases in social engagement and increases in reports of loneliness. As of March of 2025, survivors of the pandemic report that the dip in mental and physical health that occurred during the pandemic has persisted with certain groups, especially men and women under 50, experiencing poorer mental health that has persisted over time (Gallup, 2025). The Ebola epidemic and the COVID-19 pandemic are both examples of illnesses that are studied by sociologists.",
+          "change_id": null,
+          "florida_page": 113
         },
         {
           "type": "same",
           "text": "Medical sociology is the systematic study of how humans manage issues of health and illness, disease and disorders, and healthcare for both the sick and the healthy. Medical sociologists study the physical, mental, and social components of health and illness. Major topics for medical sociologists include the doctor/patient relationship, the structure and socioeconomics of healthcare, and how culture impacts attitudes toward disease and wellness.",
-          "original_page": 572,
-          "florida_page": 118
+          "original_page": 571,
+          "florida_page": 113
         }
       ]
     },
@@ -65,74 +152,114 @@
         {
           "type": "same",
           "text": "The social construction of health is a major research topic within medical sociology. At first glance, the concept of a social construction of health does not seem to make sense. After all, if disease is a measurable, physiological problem, then there can be no question of socially constructing disease, right? Well, it’s not that simple. The idea of the social construction of health emphasizes the socio-cultural aspects of the discipline’s approach to physical, objectively definable phenomena.",
-          "original_page": 572,
-          "florida_page": 118
+          "original_page": 571,
+          "florida_page": 113
         },
         {
-          "type": "same",
-          "text": "Sociologists Conrad and Barker (2010) offer a comprehensive framework for understanding the major findings of the last fifty years of development in this concept. Their summary categorizes the findings in the field under three subheadings: the cultural meaning of illness, the social construction of the illness experience, and the social construction of medical knowledge.",
-          "original_page": 572,
-          "florida_page": 118
-        },
-        {
-          "type": "same",
-          "text": "Many medical sociologists contend that illnesses have both a biological and an experiential component and that these components exist independently of each other. Our culture, not our biology, dictates which illnesses are stigmatized and which are not, which are considered disabilities and which are not, and which are deemed contestable (meaning some medical professionals may find the existence of this ailment questionable) as opposed to definitive (illnesses that are unquestionably recognized in the medical profession) (Conrad and Barker 2010).",
-          "original_page": 572,
-          "florida_page": 118
-        },
-        {
-          "type": "same",
-          "text": "For instance, sociologist Erving Goffman (1963) described how social stigmas hinder individuals from fully integrating into society. In essence, Goffman (1963) suggests we might view illness as a stigma that can push others to view the ill in an undesirable manner. The stigmatization of illness often has the greatest effect on the patient and the kind of care they receive. Many contend that our society and even our healthcare institutions discriminate against certain diseases—like mental disorders, AIDS, sexually transmitted diseases, and skin disorders (Sartorius 2007). Facilities for these diseases may be sub-par; they may be segregated from other healthcare areas or relegated to a poorer environment. The stigma may keep people from seeking help for their illness, making it worse than it needs to be.",
-          "original_page": 572,
-          "florida_page": 118
-        },
-        {
-          "type": "removed",
-          "original_text": "Contested illnesses are those that are questioned or questionable by some medical professionals. Disorders like fibromyalgia or chronic fatigue syndrome may be either true illnesses or only in the patients’ heads, depending on the opinion of the medical professional. This dynamic can affect how a patient seeks treatment and what kind of treatment they receive.",
+          "type": "modified",
+          "original_text": "Sociologists Conrad and Barker (2010) offer a comprehensive framework for understanding the major findings of the last fifty years of development in this concept. Their summary categorizes the findings in the field under three subheadings: the cultural meaning of illness, the social construction of the illness experience, and the social construction of medical knowledge.",
+          "florida_text": "Sociologists Conrad and Barker (2010) introduced a comprehensive framework for understanding fifty years of development in this concept. They identify key three aspects: (a) the cultural meaning of illness, (b) the social construction of the illness experience, and (c) the social construction of medical knowledge.",
           "change_id": null,
-          "original_page": 572
-        },
-        {
-          "type": "removed",
-          "original_text": "The idea of the social construction of the illness experience is based on the concept of reality as a social construction. In other words, there is no objective reality; there are only our own perceptions of it. The social construction of the illness experience deals with such issues as the way some patients control the manner in which they reveal their diseases and the lifestyle adaptations patients develop to cope with their illnesses.",
-          "change_id": null,
-          "original_page": 572
-        },
-        {
-          "type": "same",
-          "text": "In terms of constructing the illness experience, culture and individual personality both play a significant role. For some people, a long-term illness can have the effect of making their world smaller, more defined by the illness than anything else. For others, illness can be a chance for discovery, for re-imaging a new self (Conrad and Barker 2007). Culture plays a huge role in how an individual experiences illness. Widespread diseases like AIDS or breast cancer have specific cultural markers that have changed over the years and that govern how individuals—and society—view them.",
-          "original_page": 572,
-          "florida_page": 118
-        },
-        {
-          "type": "same",
-          "text": "Today, many institutions of wellness acknowledge the degree to which individual perceptions shape the nature of health and illness. Regarding physical activity, for instance, the Centers for Disease Control (CDC) recommends that individuals use a standard level of exertion to assess their physical activity. This Rating of Perceived Exertion (RPE) gives a more complete view of an individual’s actual exertion level, since heartrate or pulse measurements may be affected by medication or other issues (Centers for Disease Control 2011a). Similarly, many medical professionals use a comparable scale for perceived pain to help determine pain management strategies.",
-          "original_page": 572,
-          "florida_page": 118
-        },
-        {
-          "type": "removed",
-          "original_text": "Conrad and Barker show how medical knowledge is socially constructed; that is, it can both reflect and reproduce inequalities in gender, class, race, and ethnicity. Conrad and Barker (2011) use the example of the social construction of women’s health and how medical knowledge has changed significantly in the course of a few generations. For instance, in the early nineteenth century, pregnant women were discouraged from driving or dancing for fear of harming the unborn child, much as they are discouraged, with more valid reason, from smoking or drinking alcohol today.",
-          "change_id": null,
-          "original_page": 572
+          "original_page": 571,
+          "florida_page": 113
         },
         {
           "type": "added",
-          "florida_text": "complete view of an individual’s actual exertion level, since heartrate or pulse measurements may be affected by medication or other issues (Centers for Disease Control 2011a). Similarly, although pain may produce physical reactions, pain is experienced differently for each individual. As a result, it is impossible to measure objectively by a professional. Pain can be acute (i.e., immediate or sudden) or it can be chronic (i.e., occurring over a long period of time). Pain was once viewed as a byproduct of other illnesses or problems, but chronic pain has become so prevalent and independent from other conditions it is now recognized as its own chronic condition. Because pain cannot be evaluated from the outside, treatment typically involves patient self-reported changes in pain. As a result, many medical professionals use a scale similar to what is shown in Figure 6.3 to help patients of all ages, even children, rate their pain and to help determine if pain management strategies are working. The Social Construction of Medical Knowledge Medical knowledge is socially constructed. For example, Conrad and Barker (2011) studied how medical knowledge has changed significantly over a few generations when it comes to women’s health. Recommended treatments are related to research or, alternatively, clinical traditions that developed even though evidence wasn’t available. Treatments or recommendations may be designed to reduce specific health-related risks or improve health outcomes. One example showing the problems that may occur when research on women’s health is limited is related to recommendations for pregnant women. In the early 20th century, pregnant women were discouraged from engaging in normal everyday activities like driving or dancing because doctors feared that these activities might harm a fetus, and it was safer to encourage low levels of activity. Today, exercise and other physical activities have been shown to be protective of mothers and by extension, their unborn children, and sedentary behavior, alternatively, has been shown to increase a wide variety of health complications in pregnant women and their unborn children. Medical knowledge changes as scientific evidence accumulates. A single study can offer useful exploratory research findings, but changes in clinical treatment recommendations requires significant and robust evidence showing better or worse health outcomes. 6.2. Global Health Social epidemiology is the study of the causes and distribution of diseases. Social epidemiology can reveal how social problems are connected to the health of different populations. These epidemiological studies show that the health problems of high-income nations differ significantly from those of low-income nations, but also that diseases and their diagnoses have changed. Cardiovascular disease, for example, has traditionally been a health problem of high-income nations, but it is now the most prevalent disease and the disease most likely to be fatal in lower-income countries. Globally, 70 percent of cardiovascular disease cases and deaths are due to modifiable risks (Dagenais 2019). Some theorists differentiate among three types of countries: core nations, semi-peripheral nations, and peripheral nations. Core nations are those that we think of as highly industrialized, semi- peripheral nations are those that are often called newly industrialized, and peripheral nations are those that are not industrialized. While the most pervasive",
+          "florida_text": "Each are explained below.",
           "change_id": null,
-          "florida_page": 118
+          "florida_page": 113
+        },
+        {
+          "type": "modified",
+          "original_text": "Many medical sociologists contend that illnesses have both a biological and an experiential component and that these components exist independently of each other. Our culture, not our biology, dictates which illnesses are stigmatized and which are not, which are considered disabilities and which are not, and which are deemed contestable (meaning some medical professionals may find the existence of this ailment questionable) as opposed to definitive (illnesses that are unquestionably recognized in the medical profession) (Conrad and Barker 2010).",
+          "florida_text": "The Cultural Meaning of Illness Many medical sociologists contend that illnesses have both a biological and an experiential component and that these components exist independently of each other. Our culture, not our biology, dictates which illnesses are stigmatized and which are not, which are considered disabilities and which are not, and which are deemed contestable (meaning some medical professionals may find the existence of this ailment questionable, like chronic fatigue symptom) as opposed to definitive (illnesses that are unquestionably recognized in the medical profession, like diabetes) (Conrad and Barker 2010).",
+          "change_id": null,
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "same",
+          "text": "For instance, sociologist Erving Goffman (1963) described how social stigmas hinder individuals from fully integrating into society.",
+          "original_page": 571,
+          "florida_page": 113
         },
         {
           "type": "added",
-          "florida_text": "issue in the U.S. healthcare system is affordable access to healthcare, other core countries have different issues, and semi-peripheral and peripheral nations are faced with a host of additional concerns. Reviewing the status of global health offers insight into the various ways that policy and wealth shape health and healthcare. Health in High-Income Nations While ischemic heart disease is the single most prevalent cause of death in higher-income countries, cancers of all types combine to be a higher overall cause of death. Cancer accounts for twice as many deaths as cardiovascular disease in higher-income countries (Mahase 2019). However, both of these conditions are correlated with obesity, which has become one of the most important health problems facing many high-income countries. Obesity is a chronic condition involving having excessive fat deposits in the body and measured based on body mass index with having a BMI of 25+ indicating overweight and 30+ as obese. BMI is calculated as weight (kg)/height² (m²). Having a high BMI is associated with a wide range of health problems including increased risk of diabetes, heart disease, bone health problems, issues with reproductive health, and certain cancers. It also is associated with poorer quality of life and interferes with sleeping and physical mobility. According to the World Health Organization (WHO) (2025a), obesity rates are rising in all countries. Worldwide, in 2022, 43% of adults 18+ were overweight (2.5 billion people) and 16% were living with obesity (890 million people), and another 390 million children 5-19 were overweight or obese and another 35 million children under age 5 were overweight. Although obesity affects most nations worldwide, it began as a significant problem in high-income nations. Most notable, however, are the significant variations across countries. About half of the total number of overweight and obese individuals worldwide live in China (402 million), India (180 million), or the United States (172 million) (GBD 2021 BMI Collaborators, 2025). Even though many of the countries with the highest proportion of overweight or obese adults are in countries not considered high-income (in Oceania, North Africa, and the Middle East), almost 9 out of every 10 adults are overweight or obese in these countries. For instance, in Nauru which used to be wealthy nation but has faced economic collapse over the last two decades, two out of every three adults are obese. The United States has the highest obesity rates among all (current) high-income countries with obesity rates of 42% among adult men and 46% among adult women. On the other hand, high-income South Asian countries have among the lowest male obesity rates worldwide with only 4.6% and high-income Asia Pacific countries have the lowest female obesity rates at only 6.5%. In terms of economic costs, recent projections indicate that worldwide, the direct and indirect yearly costs associated with overweight and obesity will equate to a loss of $4 trillion in the overall global domestic product. The National Institute on Health Heart, Lung, and Blood institutes have identified a variety of individual factors that contribute to increase risk of obesity in adulthood, including inadequate physical activity, poor eating habits, poor sleep, elevated stress and medications that disrupt hunger signals. However, by evaluating the widely varying worldwide trends, the primary drivers of obesity are only partly related to individual behaviors. Differences across high income countries show important ways that social policies likely influence healthcare and health behaviors including regulations shaping food environments, especially access to healthy food options over unhealthy food options and safe walkable neighborhoods. Because adulthood obesity is directly connected to childhood overweight and obesity patterns, experts argue that policies most likely to improve healthy weight in adult populations are those that heavily emphasize health behaviors in children. Key barriers relate to food access and marketing. If children and teenagers eat (and have easy access to) healthy foods like fruits and vegetables, and they are not exposed to/marketed (primarily processed) foods that are associated with overweight and obesity (e.g., highly processed foods with high fat, sugar, and salt), they are significantly more likely to maintain a healthy weight throughout childhood and into adulthood. However, research on policies worldwide that increase the number of children who are a healthy weight are still in early stages and the willingness of countries to regulate food production companies widely varies (Musuwo, 2019). Health in Low-Income Nations In peripheral nations with low per capita income, problems like infectious disease, high infant mortality rates, scarce medical personnel, and inadequate water and sewer systems pose the greatest health threats. Due to such health concerns, low-income nations have higher rates of infant mortality and lower average life spans.",
+          "florida_text": "Goffman noted different types of stigma. 'Bodily abominations' were described as visually unappealing and thus devalued by observers, like skin diseases. Other stigmas refer to \"characterological\" flaws; some people may erroneously believe that diseases like alcoholism are due to a trait like \"weakness\" rather than an underlying biological disease.",
           "change_id": null,
-          "florida_page": 118
+          "florida_page": 113
+        },
+        {
+          "type": "modified",
+          "original_text": "In essence, Goffman (1963) suggests we might view illness as a stigma that can push others to view the ill in an undesirable manner.",
+          "florida_text": "In essence, Goffman argued that we might view illness itself as a stigma that can push others to view ill persons in an undesirable manner.",
+          "change_id": null,
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "same",
+          "text": "The stigmatization of illness often has the greatest effect on the patient and the kind of care they receive. Many contend that our society and even our healthcare institutions discriminate against certain diseases—like mental disorders, AIDS, sexually transmitted diseases, and skin disorders (Sartorius 2007). Facilities for these diseases may be sub-par; they may be segregated from other healthcare areas or relegated to a poorer environment. The stigma may keep people from seeking help for their illness, making it worse than it needs to be. Contested illnesses are those that are questioned or questionable by some medical professionals.",
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "removed",
+          "original_text": "Disorders like fibromyalgia or chronic fatigue syndrome may be either true illnesses or only in the patients’ heads, depending on the opinion of the medical professional. This dynamic can affect how a patient seeks treatment and what kind of treatment they receive. The idea of the social construction of the illness experience is based on the concept of reality as a social construction. In other words, there is no objective reality; there are only our own perceptions of it. The social construction of the illness experience deals with such issues as the way some patients control the manner in which they reveal their diseases and the lifestyle adaptations patients develop to cope with their illnesses.",
+          "change_id": null,
+          "original_page": 571
         },
         {
           "type": "added",
-          "florida_text": "One of the biggest contributors to medical issues in low-income countries is the lack of access to clean water and basic sanitation resources. According to a 2025 UNICEF report, about 1 in 4 people worldwide lack access to safe drinking water. However, that is a significant improvement. Between 2015 and 2024, the rate of access to clean drinking water improved from 68% to 74%, directly attributed to the increase from 50% to 60% in rural areas. Today, about 2 billion people still lack access to safe drinking water, with 106 million drinking untreated surface water (which is down from 167 million). Despite improvements, there continue to be important health challenges for people living in low-income countries. The World Health Organization (WHO) tracks health-related data for 193 countries and organizes them by region. In their 2023 World Health Statistics report, they document the following statistics: Globally in 2021, the rate of mortality for children under five was 38 per 1,000 live births, which is a dramatic decline from 2000 when it was 76 per 1,000. In low-income countries, however, that rate is much higher. The child mortality rate in low-income nations was nine times higher than that of high-income countries. To consider it regionally, the highest under-five mortality rate remains in the WHO African Region (72 per 1000 live births), around 9 times higher than that in the WHO European Region (8 per 1000 live births) (World Health Organization 2023). The most frequent causes of neonatal deaths are related to the birth process – birth asphyxia, birth trauma, congenital anomalies, and among newborns are acute respiratory infections, neonatal sepsis and meningitis. The most frequent causes of death in children under five years old are acute respiratory infections, diarrhea, and malaria. Worldwide, factors most predictive of high infant/early childhood mortality include: immunization coverage, care-seeking for respiratory symptoms, and access to primary care. Between 2014 and 2021, there were significant differences by geographic region in access to primary care. For instance, there were only 2.9 medical doctors per 10,000 in the population in Africa, whereas there were 36.6 in Europe. Challenges in access to medical education and access to patients exacerbate this issue for would-be medical professionals in low-income countries (World Health Statistics 2023).",
+          "florida_text": "Disorders like fibromyalgia or chronic fatigue syndrome are generally recognized as a true illness today that requires medical intervention, but for many years they were identified and treated as psychological conditions. The way an illness is perceived in the medical field affects which types of treatments are available and how people are treated if they present with a given condition. The Social Construction of the Illness Experience Medical sociologists sometimes study health using the social construction of illness perspective. The theory of social construction contends that how we perceive “reality” is created through social interactions, and meaning is shaped by cultural, historical and social contexts.",
           "change_id": null,
-          "florida_page": 118
+          "florida_page": 113
+        },
+        {
+          "type": "same",
+          "text": "In terms of constructing the illness experience, culture and individual personality both play a significant role. For some people, a long-term illness can have the effect of making their world smaller, more defined by the illness than anything else. For others, illness can be a chance for discovery, for re-imaging a new self (Conrad and Barker 2007).",
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "modified",
+          "original_text": "Culture plays a huge role in how an individual experiences illness.",
+          "florida_text": "Culture also plays a role in how an individual experiences illness.",
+          "change_id": null,
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "same",
+          "text": "Widespread diseases like AIDS or breast cancer have specific cultural markers that have changed over the years and that govern how individuals—and society—view them. Today, many institutions of wellness acknowledge the degree to which individual perceptions shape the nature of health and illness. Regarding physical activity, for instance, the Centers for Disease Control (CDC) recommends that individuals use a standard level of exertion to assess their physical activity.",
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "added",
+          "florida_text": "This Rating of Perceived Exertion (RPE) gives a more",
+          "change_id": null,
+          "florida_page": 113
+        },
+        {
+          "type": "modified",
+          "original_text": "This Rating of Perceived Exertion (RPE) gives a more complete view of an individual’s actual exertion level, since heartrate or pulse measurements may be affected by medication or other issues (Centers for Disease Control 2011a).",
+          "florida_text": "complete view of an individual’s actual exertion level, since heartrate or pulse measurements may be affected by medication or other issues (Centers for Disease Control 2011a).",
+          "change_id": null,
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "removed",
+          "original_text": "Similarly, many medical professionals use a comparable scale for perceived pain to help determine pain management strategies. Conrad and Barker show how medical knowledge is socially constructed; that is, it can both reflect and reproduce inequalities in gender, class, race, and ethnicity. Conrad and Barker (2011) use the example of the social construction of women’s health and how medical knowledge has changed significantly in the course of a few generations. For instance, in the early nineteenth century, pregnant women were discouraged from driving or dancing for fear of harming the unborn child, much as they are discouraged, with more valid reason, from smoking or drinking alcohol today.",
+          "change_id": null,
+          "original_page": 571
+        },
+        {
+          "type": "added",
+          "florida_text": "Similarly, although pain may produce physical reactions, pain is experienced differently for each individual. As a result, it is impossible to measure objectively by a professional. Pain can be acute (i.e., immediate or sudden) or it can be chronic (i.e., occurring over a long period of time). Pain was once viewed as a byproduct of other illnesses or problems, but chronic pain has become so prevalent and independent from other conditions it is now recognized as its own chronic condition. Because pain cannot be evaluated from the outside, treatment typically involves patient self-reported changes in pain. As a result, many medical professionals use a scale similar to what is shown in Figure 6.3 to help patients of all ages, even children, rate their pain and to help determine if pain management strategies are working. The Social Construction of Medical Knowledge Medical knowledge is socially constructed. For example, Conrad and Barker (2011) studied how medical knowledge has changed significantly over a few generations when it comes to women’s health. Recommended treatments are related to research or, alternatively, clinical traditions that developed even though evidence wasn’t available. Treatments or recommendations may be designed to reduce specific health-related risks or improve health outcomes. One example showing the problems that may occur when research on women’s health is limited is related to recommendations for pregnant women. In the early 20th century, pregnant women were discouraged from engaging in normal everyday activities like driving or dancing because doctors feared that these activities might harm a fetus, and it was safer to encourage low levels of activity. Today, exercise and other physical activities have been shown to be protective of mothers and by extension, their unborn children, and sedentary behavior, alternatively, has been shown to increase a wide variety of health complications in pregnant women and their unborn children. Medical knowledge changes as scientific evidence accumulates. A single study can offer useful exploratory research findings, but changes in clinical treatment recommendations requires significant and robust evidence showing better or worse health outcomes. 6.2. Global Health Social epidemiology is the study of the causes and distribution of diseases. Social epidemiology can reveal how social problems are connected to the health of different populations. These epidemiological studies show that the health problems of high-income nations differ significantly from those of low-income nations, but also that diseases and their diagnoses have changed. Cardiovascular disease, for example, has traditionally been a health problem of high-income nations, but it is now the most prevalent disease and the disease most likely to be fatal in lower-income countries. Globally, 70 percent of cardiovascular disease cases and deaths are due to modifiable risks (Dagenais 2019). Some theorists differentiate among three types of countries: core nations, semi-peripheral nations, and peripheral nations. Core nations are those that we think of as highly industrialized, semi- peripheral nations are those that are often called newly industrialized, and peripheral nations are those that are not industrialized. While the most pervasive issue in the U.S. healthcare system is affordable access to healthcare, other core countries have different issues, and semi-peripheral and peripheral nations are faced with a host of additional concerns. Reviewing the status of global health offers insight into the various ways that policy and wealth shape health and healthcare. Health in High-Income Nations While ischemic heart disease is the single most prevalent cause of death in higher-income countries, cancers of all types combine to be a higher overall cause of death. Cancer accounts for twice as many deaths as cardiovascular disease in higher-income countries (Mahase 2019). However, both of these conditions are correlated with obesity, which has become one of the most important health problems facing many high-income countries. Obesity is a chronic condition involving having excessive fat deposits in the body and measured based on body mass index with having a BMI of 25+ indicating overweight and 30+ as obese. BMI is calculated as weight (kg)/height² (m²). Having a high BMI is associated with a wide range of health problems including increased risk of diabetes, heart disease, bone health problems, issues with reproductive health, and certain cancers. It also is associated with poorer quality of life and interferes with sleeping and physical mobility. According to the World Health Organization (WHO) (2025a), obesity rates are rising in all countries. Worldwide, in 2022, 43% of adults 18+ were overweight (2.5 billion people) and 16% were living with obesity (890 million people), and another 390 million children 5-19 were overweight or obese and another 35 million children under age 5 were overweight. Although obesity affects most nations worldwide, it began as a significant problem in high-income nations. Most notable, however, are the significant variations across countries. About half of the total number of overweight and obese individuals worldwide live in China (402 million), India (180 million), or the United States (172 million) (GBD 2021 BMI Collaborators, 2025). Even though many of the countries with the highest proportion of overweight or obese adults are in countries not considered high-income (in Oceania, North Africa, and the Middle East), almost 9 out of every 10 adults are overweight or obese in these countries. For instance, in Nauru which used to be wealthy nation but has faced economic collapse over the last two decades, two out of every three adults are obese. The United States has the highest obesity rates among all (current) high-income countries with obesity rates of 42% among adult men and 46% among adult women. On the other hand, high-income South Asian countries have among the lowest male obesity rates worldwide with only 4.6% and high-income Asia Pacific countries have the lowest female obesity rates at only 6.5%. In terms of economic costs, recent projections indicate that worldwide, the direct and indirect yearly costs associated with overweight and obesity will equate to a loss of $4 trillion in the overall global domestic product. The National Institute on Health Heart, Lung, and Blood institutes have identified a variety of individual factors that contribute to increase risk of obesity in adulthood, including inadequate physical activity, poor eating habits, poor sleep, elevated stress and medications that disrupt hunger signals. However, by evaluating the widely varying worldwide trends, the primary drivers of obesity are only partly related to individual behaviors. Differences across high income countries show important ways that social policies likely influence healthcare and health behaviors including regulations shaping food environments, especially access to healthy food options over unhealthy food options and safe walkable neighborhoods. Because adulthood obesity is directly connected to childhood overweight and obesity patterns, experts argue that policies most likely to improve healthy weight in adult populations are those that heavily emphasize health behaviors in children. Key barriers relate to food access and marketing. If children and teenagers eat (and have easy access to) healthy foods like fruits and vegetables, and they are not exposed to/marketed (primarily processed) foods that are associated with overweight and obesity (e.g., highly processed foods with high fat, sugar, and salt), they are significantly more likely to maintain a healthy weight throughout childhood and into adulthood. However, research on policies worldwide that increase the number of children who are a healthy weight are still in early stages and the willingness of countries to regulate food production companies widely varies (Musuwo, 2019). Health in Low-Income Nations In peripheral nations with low per capita income, problems like infectious disease, high infant mortality rates, scarce medical personnel, and inadequate water and sewer systems pose the greatest health threats. Due to such health concerns, low-income nations have higher rates of infant mortality and lower average life spans. One of the biggest contributors to medical issues in low-income countries is the lack of access to clean water and basic sanitation resources. According to a 2025 UNICEF report, about 1 in 4 people worldwide lack access to safe drinking water. However, that is a significant improvement. Between 2015 and 2024, the rate of access to clean drinking water improved from 68% to 74%, directly attributed to the increase from 50% to 60% in rural areas. Today, about 2 billion people still lack access to safe drinking water, with 106 million drinking untreated surface water (which is down from 167 million). Despite improvements, there continue to be important health challenges for people living in low-income countries. The World Health Organization (WHO) tracks health-related data for 193 countries and organizes them by region. In their 2023 World Health Statistics report, they document the following statistics: Globally in 2021, the rate of mortality for children under five was 38 per 1,000 live births, which is a dramatic decline from 2000 when it was 76 per 1,000. In low-income countries, however, that rate is much higher. The child mortality rate in low-income nations was nine times higher than that of high-income countries. To consider it regionally, the highest under-five mortality rate remains in the WHO African Region (72 per 1000 live births), around 9 times higher than that in the WHO European Region (8 per 1000 live births) (World Health Organization 2023). The most frequent causes of neonatal deaths are related to the birth process – birth asphyxia, birth trauma, congenital anomalies, and among newborns are acute respiratory infections, neonatal sepsis and meningitis. The most frequent causes of death in children under five years old are acute respiratory infections, diarrhea, and malaria. Worldwide, factors most predictive of high infant/early childhood mortality include: immunization coverage, care-seeking for respiratory symptoms, and access to primary care. Between 2014 and 2021, there were significant differences by geographic region in access to primary care. For instance, there were only 2.9 medical doctors per 10,000 in the population in Africa, whereas there were 36.6 in Europe. Challenges in access to medical education and access to patients exacerbate this issue for would-be medical professionals in low-income countries (World Health Statistics 2023).",
+          "change_id": null,
+          "florida_page": 113
         }
       ]
     },
@@ -145,55 +272,55 @@
           "type": "removed",
           "original_text": "Social epidemiology is the study of the causes and distribution of diseases. Social epidemiology can reveal how social problems are connected to the health of different populations. These epidemiological studies show that the health problems of high-income nations differ from those of low-income nations, but also that diseases and their diagnosis are changing. Cardiovascular disease, for example, is now the both most prevalent disease and the disease most likely to be fatal in lower-income countries. And globally, 70 percent of cardiovascular disease cases and deaths are due to modifiable risks (Dagenais 2019).",
           "change_id": null,
-          "original_page": 572
+          "original_page": 571
         },
         {
           "type": "removed",
           "original_text": "Some theorists differentiate among three types of countries: core nations, semi-peripheral nations, and peripheral nations. Core nations are those that we think of as highly developed or industrialized, semi-peripheral nations are those that are often called developing or newly industrialized, and peripheral nations are those that are relatively undeveloped. While the most pervasive issue in the U.S. healthcare system is affordable access to healthcare, other core countries have different issues, and semi-peripheral and peripheral nations are faced with a host of additional concerns. Reviewing the status of global health offers insight into the various ways that politics and wealth shape access to healthcare, and it shows which populations are most affected by health disparities.",
           "change_id": null,
-          "original_page": 572
+          "original_page": 571
         },
         {
           "type": "removed",
           "original_text": "Obesity, which is on the rise in high-income nations, has been linked to many diseases, including cardiovascular problems, musculoskeletal problems, diabetes, and respiratory issues. According to the Organization for Economic Cooperation and Development (2011), obesity rates are rising in all countries, with the greatest gains being made in the highest-income countries. The United States has the highest obesity rate at 42 percent; some of these people are considered severely obese, which occurs in 9 percent of U.S. adults (Hales 2020).",
           "change_id": null,
-          "original_page": 572
+          "original_page": 571
         },
         {
           "type": "removed",
           "original_text": "Wallace Huffman and his fellow researchers (2006) contend that several factors are contributing to the rise in obesity in developed countries:",
           "change_id": null,
-          "original_page": 572
+          "original_page": 571
         },
         {
           "type": "removed",
           "original_text": "Obesity and weight issues have significant societal costs, including lower life expectancies and higher shared healthcare costs.",
           "change_id": null,
-          "original_page": 572
+          "original_page": 571
         },
         {
           "type": "removed",
           "original_text": "While ischemic heart disease is the single most prevalent cause of death in higher-income countries, cancers of all types combine to be a higher overall cause of death. Cancer accounts for twice as many deaths as cardiovascular disease in higher-income countries (Mahase 2019).",
           "change_id": null,
-          "original_page": 572
+          "original_page": 571
         },
         {
           "type": "removed",
           "original_text": "In peripheral nations with low per capita income, it is not the cost of healthcare that is the most pressing concern. Rather, low-income countries must manage such problems as infectious disease, high infant mortality rates, scarce medical personnel, and inadequate water and sewer systems. Due to such health concerns, low-income nations have higher rates of infant mortality and lower average life spans.",
           "change_id": null,
-          "original_page": 572
+          "original_page": 571
         },
         {
           "type": "removed",
           "original_text": "One of the biggest contributors to medical issues in low-income countries is the lack of access to clean water and basic sanitation resources. According to a 2014 UNICEF report, almost half of the developing world’s population lacks improved sanitation facilities. The World Health Organization (WHO) tracks health-related data for 193 countries, and organizes them by region. In their 2011 World Health Statistics report, they document the following statistics:",
           "change_id": null,
-          "original_page": 572
+          "original_page": 571
         },
         {
           "type": "removed",
           "original_text": "The availability of doctors and nurses in low-income countries is one-tenth that of nations with a high income. Challenges in access to medical education and access to patients exacerbate this issue for would-be medical professionals in low-income countries (World Health Organization 2011).",
           "change_id": null,
-          "original_page": 572
+          "original_page": 571
         }
       ]
     },
@@ -205,136 +332,138 @@
         {
           "type": "same",
           "text": "Health in the United States is a complex and often contradictory issue. On the one hand, as one of the wealthiest nations, the United States fares well in health comparisons with the rest of the world. However, the United States also lags behind almost every industrialized country in terms of providing care to all its citizens. The following sections look at different aspects of health in the United States.",
-          "original_page": 572,
-          "florida_page": 118
+          "original_page": 571,
+          "florida_page": 113
         },
         {
           "type": "removed",
-          "original_text": "When looking at the social epidemiology of the United States, it is hard to miss the disparities among races. The discrepancy between Black and White Americans shows the gap clearly; in 2018, the average life expectancy for White males was approximately five years longer than for Black males: 78.8 compared to 74.7 (Wamsley 2021). (Note that in 2020 life expectancies of all races declined further, though the unprecedented COVID-19 pandemic was a significant cause.) Other indicates show a similar disparity. The 2018 infant mortality rates for different races and ethnicities are as follows:",
+          "original_text": "When looking at the social epidemiology of the United States, it is hard to miss the disparities among races. The discrepancy between Black and White Americans shows the gap clearly; in 2018, the average life expectancy for White males was approximately five years longer than for Black males: 78.8 compared to 74.7 (Wamsley 2021). (Note that in 2020 life expectancies of all races declined further, though the unprecedented COVID-19 pandemic was a significant cause.) Other indicates show a similar disparity. The 2018 infant mortality rates for different races and ethnicities are as follows: According to a report from the Henry J. Kaiser Foundation (2007), African Americans also have higher incidence of several diseases and causes of mortality, from cancer to heart disease to diabetes. In a similar vein, it is important to note that ethnic minorities, including Mexican Americans and Native Americans, also have higher rates of these diseases and causes of mortality than White people. Lisa Berkman (2009) notes that this gap started to narrow during the Civil Rights movement in the 1960s, but it began widening again in the early 1980s. What accounts for these perpetual disparities in health among different ethnic groups? Much of the answer lies in the level of healthcare that these groups receive. The National Healthcare Disparities Report shows that even after adjusting for insurance differences, racial and ethnic minority groups receive poorer quality of care and less access to care than dominant groups. The Report identified these racial inequalities in care: Discussions of health by race and ethnicity often overlap with discussions of health by socioeconomic status, since the two concepts are intertwined in the United States. As the Agency for Health Research and Quality (2010) notes, “racial and ethnic minorities are more likely than non-Hispanic whites to be poor or near poor,” so much of the data pertaining to subordinate groups is also likely to be pertinent to low socioeconomic groups. Marilyn Winkleby and her research associates (1992) state that “one of the strongest and most consistent predictors of a person's morbidity and mortality experience is that person's socioeconomic status (SES). This finding persists across all diseases with few exceptions, continues throughout the entire lifespan, and extends across numerous risk factors for disease.” Morbidity is the incidence of disease. It is important to remember that economics are only part of the SES picture; research suggests that education also plays an important role. Phelan and Link (2003) note that many behavior-influenced diseases like lung cancer (from smoking), coronary artery disease (from poor eating and exercise habits), and AIDS initially were widespread across SES groups. However, once information linking habits to disease was disseminated, these diseases decreased in high SES groups and increased in low SES groups. This illustrates the important role of education initiatives regarding a given disease, as well as possible inequalities in how those initiatives effectively reach different SES groups. Women are affected adversely both by unequal access to and institutionalized sexism in the healthcare industry. According to a recent report from the Kaiser Family Foundation, women experienced a decline in their ability to see needed specialists between 2001 and 2008. In 2008, one quarter of women questioned the quality of their healthcare (Ranji and Salganico 2011). Quality is partially indicated by access and cost.",
           "change_id": null,
-          "original_page": 572
+          "original_page": 571
         },
         {
-          "type": "removed",
-          "original_text": "According to a report from the Henry J. Kaiser Foundation (2007), African Americans also have higher incidence of several diseases and causes of mortality, from cancer to heart disease to diabetes. In a similar vein, it is important to note that ethnic minorities, including Mexican Americans and Native Americans, also have higher rates of these diseases and causes of mortality than White people.",
-          "change_id": "ch19_change_16",
-          "original_page": 577,
-          "context": "The original Kaiser Foundation (2007) citation directly naming disease disparities for African Americans, Mexican Americans, and Native Americans is removed from the Florida version. The Florida version instead uses more aggregated and less specific language.",
-          "original_evidence": "img/evidence/ch19/change_16_original.webp"
-        },
-        {
-          "type": "removed",
-          "original_text": "Lisa Berkman (2009) notes that this gap started to narrow during the Civil Rights movement in the 1960s, but it began widening again in the early 1980s. What accounts for these perpetual disparities in health among different ethnic groups? Much of the answer lies in the level of healthcare that these groups receive. The National Healthcare Disparities Report shows that even after adjusting for insurance differences, racial and ethnic minority groups receive poorer quality of care and less access to care than dominant groups. The Report identified these racial inequalities in care:",
-          "change_id": "ch19_change_5",
-          "original_page": 577,
-          "florida_page": 118,
-          "context": "The original's historical framing—noting health gap narrowed during Civil Rights movement then widened in the 1980s (implying political causation)—is removed. The Florida version shifts to ACA-era data and a less structurally critical framing. The specific quality-of-care breakdown by racial group (40%, 30%, etc.) is replaced with more general language.",
-          "original_evidence": "img/evidence/ch19/change_5_original.webp",
-          "florida_evidence": "img/evidence/ch19/change_5_florida.webp"
-        },
-        {
-          "type": "removed",
-          "original_text": "Discussions of health by race and ethnicity often overlap with discussions of health by socioeconomic status, since the two concepts are intertwined in the United States. As the Agency for Health Research and Quality (2010) notes, “racial and ethnic minorities are more likely than non-Hispanic whites to be poor or near poor,” so much of the data pertaining to subordinate groups is also likely to be pertinent to low socioeconomic groups. Marilyn Winkleby and her research associates (1992) state that “one of the strongest and most consistent predictors of a person's morbidity and mortality experience is that person's socioeconomic status (SES). This finding persists across all diseases with few exceptions, continues throughout the entire lifespan, and extends across numerous risk factors for disease.” Morbidity is the incidence of disease.",
+          "type": "added",
+          "florida_text": "Health by Race and Ethnicity One of the starkest differences in health outcomes across different groups in the United States are differences when evaluating people based on race and ethnicity. For babies born in 2022, non-Hispanic White (NHW) babies could expect to live 77.5 years and non-Hispanic Black (NHB) babies could expect to live 72.8 years, with American Indian and Alaska Native (AIAN) babies expected to only live 67.9 years. The 2022 infant mortality rates (i.e., number of infant deaths per 1,000 born) for different races and ethnicities were as follows: NHB: 10.9, AIAN: 9.1, Hispanic: 4.9, and NHW: 4.5. There remain important differences in health coverage and access to care, which contribute to these differences. Following the introduction of the Affordable Care Act (ACA) in 2014, there were significant increases in healthcare coverage across all groups not otherwise eligible for Medicare (i.e., under age 65). Relative to 2010, the percent uninsured reduced from about 33% for Hispanics and AIAN to about 18% in 2023. For NHB, the percent reduced from about 20% to about 10% in 2023. Among NHW, rates halved from 13% to 6.5% in 2023. Beyond access, the Agency for Healthcare Research and Quality reports that when care is provided, NHB, AIAN, and Hispanics receive significantly poorer quality of care compared to NHW individuals (Agency for Healthcare Research and Quality 2020). For instance, they were likely to report lower quality communication and shared-decision-making with their health care providers, be provided fewer evidence-based interventions, resulting in poorer pain management and poorer chronic disease management. These findings suggest that healthcare environments play an important role in shaping health outcomes across different race and ethnicity groups. Health by Socioeconomic Status Differences in socio-economic status play a central role in shaping health-related differences across groups in the United States, which is strongly linked with other differences by health, including race and ethnicity differences in the United States. Decades of research has shown that socio-economic status in the United States is particularly correlated with physical, mental, cognitive, and psychological health and wellbeing. For instance, a growing area of interest among medical sociologists is the problem of “deaths of despair” which includes deaths related to alcohol, drugs, or suicide. There are stark differences in deaths of despair based on education whereby non-Hispanic white individuals without a college degree are experiencing increasing risks over time (Case & Deaton, 2020). Most studies use a single source of data, or an isolated age-group in the United States to examine differences in health based on various measures of socio-economic status. However, a recent study (Kim, Vazquez, & Cubbin, 2023) used four nationally representative long-standing health surveys in the United States - the National Health and Nutrition Examination Survey (NHANES), the Behavioral Risk Factor Surveillance System (BRFSS), the Health and Retirement Study (HRS), and the National Health Interview Study (NHIS), to provide a comprehensive evaluation of health status across individuals at all ages in the United States (examining health prior to the COVID-19 pandemic). This study showed persistent health gradients across age by socioeconomic status (i.e., lower education and income associated with poorer health). These differences particularly influenced young Hispanic and Black Americans, who had poorer health at all levels of socio-economic status and at all ages, but faced greater health consequences of low socio-economic status. Health by Gender Women’s health has been shown to be disproportionately influenced by poorer access to healthcare, and differences in treatment for similar diseases (Ranji and Salganico 2011; Kaiser Family Foundation 2018).",
           "change_id": null,
-          "original_page": 577
-        },
-        {
-          "type": "removed",
-          "original_text": "It is important to remember that economics are only part of the SES picture; research suggests that education also plays an important role. Phelan and Link (2003) note that many behavior-influenced diseases like lung cancer (from smoking), coronary artery disease (from poor eating and exercise habits), and AIDS initially were widespread across SES groups. However, once information linking habits to disease was disseminated, these diseases decreased in high SES groups and increased in low SES groups. This illustrates the important role of education initiatives regarding a given disease, as well as possible inequalities in how those initiatives effectively reach different SES groups.",
-          "change_id": null,
-          "original_page": 577
-        },
-        {
-          "type": "removed",
-          "original_text": "Women are affected adversely both by unequal access to and institutionalized sexism in the healthcare industry. According to a recent report from the Kaiser Family Foundation, women experienced a decline in their ability to see needed specialists between 2001 and 2008. In 2008, one quarter of women questioned the quality of their healthcare (Ranji and Salganico 2011). Quality is partially indicated by access and cost. In 2018, roughly one in four (26%) women—compared to one in five (19%) men—reported delaying healthcare or letting conditions go untreated due to cost. Because of costs, approximately one in five women postponed preventive care, skipped a recommended test or treatment, or reduced their use of medication due to cost (Kaiser Family Foundation 2018).",
-          "change_id": null,
-          "original_page": 577
-        },
-        {
-          "type": "removed",
-          "original_text": "We can see an example of institutionalized sexism in the way that women are more likely than men to be diagnosed with certain kinds of mental disorders. Psychologist Dana Becker notes that 75 percent of all diagnoses of Borderline Personality Disorder (BPD) are for women according to the Diagnostic Statistical Manual of Mental Disorders. This diagnosis is characterized by instability of identity, of mood, and of behavior, and Becker argues that it has been used as a catch-all diagnosis for too many women. She further decries the pejorative connotation of the diagnosis, saying that it predisposes many people, both within and outside of the profession of psychotherapy, against women who have been so diagnosed (Becker).",
-          "change_id": null,
-          "original_page": 577
+          "florida_page": 113
         },
         {
           "type": "same",
-          "text": "Many critics also point to the medicalization of women’s issues as an example of institutionalized sexism. Medicalization refers to the process by which previously normal aspects of life are redefined as deviant and needing medical attention to remedy. Historically and contemporaneously, many aspects of women’s lives have been medicalized, including menstruation, premenstrual syndrome, pregnancy, childbirth, and menopause. The medicalization of pregnancy and childbirth has been particularly contentious in recent decades, with many women opting against the medical process and choosing a more natural childbirth. Fox and Worts (1999) find that all women experience pain and anxiety during the birth process, but that social support relieves both as effectively as medical support. In other words, medical interventions are no more effective than social ones at helping with the difficulties of pain and childbirth. Fox and Worts further found that women with supportive partners ended up with less medical intervention and fewer cases of postpartum depression. Of course, access to quality birth care outside the standard medical models may not be readily available to women of all social classes.",
-          "original_page": 577,
-          "florida_page": 118
+          "text": "In 2018, roughly one in four (26%) women—compared to one in five (19%) men—reported delaying healthcare or letting conditions go untreated due to cost. Because of costs, approximately one in five women postponed preventive care, skipped a recommended test or treatment, or reduced their use of medication due to cost (Kaiser Family Foundation 2018).",
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "removed",
+          "original_text": "We can see an example of institutionalized sexism in the way that women are more likely than men to be diagnosed with certain kinds of mental disorders. Psychologist Dana Becker notes that 75 percent of all diagnoses of Borderline Personality Disorder (BPD) are for women according to the Diagnostic Statistical Manual of Mental Disorders. This diagnosis is characterized by instability of identity, of mood, and of behavior, and Becker argues that it has been used as a catch-all diagnosis for too many women. She further decries the pejorative connotation of the diagnosis, saying that it predisposes many people, both within and outside of the profession of psychotherapy, against women who have been so diagnosed (Becker). Many critics also point to the medicalization of women’s issues as an example of institutionalized sexism. Medicalization refers to the process by which previously normal aspects of life are redefined as deviant and needing medical attention to remedy.",
+          "change_id": null,
+          "original_page": 571
+        },
+        {
+          "type": "added",
+          "florida_text": "A recent study focused on cardiovascular disease (Daher et al 2021) examined 1.7 million adults in the United States surveyed in the BRFSS similarly showed that women have significantly higher odds of reporting delayed healthcare due to cost. Beyond healthcare access, another key issue for women relates to treatment. The concept of medicalization means that previously “normal” aspects of life are redefined as deviant and needing medical attention to remedy for women who face particular health issues.",
+          "change_id": null,
+          "florida_page": 113
         },
         {
           "type": "same",
-          "text": "The treatment received by those defined as mentally ill or disabled varies greatly from country to country. In the post-millennial United States, those of us who have never experienced such a disadvantage take for granted the rights our society guarantees for each citizen. We do not think about the relatively recent nature of the protections, unless, of course, we know someone constantly inconvenienced by the lack of accommodations or misfortune of suddenly experiencing a temporary disability.",
-          "original_page": 577,
-          "florida_page": 118
-        },
-        {
-          "type": "same",
-          "text": "People with mental disorders (a condition that makes it more difficult to cope with everyday life) and people with mental illness (a severe, lasting mental disorder that requires long-term treatment) experience a wide range of effects. According to the National Institute of Mental Health (NIMH), the United States has over 50 million adults with mental illness or mental disorder, or 20 percent of the total adult population. Of these, 13 million have what is considered serious mental illness or mental disorder (5 percent of the adult population); serious mental illness is that which causes impairment or disability (National Institute of Mental Health 2021). Finally, 16.5 percent of children aged 6-17 experienced mental illness or disorder (National Alliance on Mental Illness 2021).",
-          "original_page": 577,
-          "florida_page": 118
-        },
-        {
-          "type": "same",
-          "text": "The most common mental disorders in the United States are anxiety disorders. Almost 18 percent of U.S. adults are likely to be affected in a single year, and 28 percent are likely to be affected over the course of a lifetime (Anxiety and Depression Institute of America 2021). It is important to distinguish between occasional feelings of anxiety and a true anxiety disorder. Anxiety is a normal reaction to stress that we all feel at some point, but anxiety disorders are feelings of worry and fearfulness that last for months at a time. Anxiety disorders include obsessive compulsive disorder (OCD), panic disorders, posttraumatic stress disorder (PTSD), and both social and specific phobias.",
-          "original_page": 577,
-          "florida_page": 118
-        },
-        {
-          "type": "same",
-          "text": "The second most common mental disorders in the United States are mood disorders; roughly 10 percent of U.S. adults are likely to be affected yearly, while 21 percent are likely to be affected over the course of a lifetime (National Institute of Mental Health 2005). Mood disorders are the most common causes of illness-related hospitalization in the U.S. (Agency for Healthcare Research and Quality 2021). Major mood disorders are depression and dysthymic disorder. Like anxiety, depression might seem like something that everyone experiences at some point, and it is true that most people feel sad or “blue” at times in their lives. A true depressive episode, however, is more than just feeling sad for a short period. It is a long-term, debilitating illness that usually needs treatment to cure. Bipolar disorder is characterized by dramatic shifts in energy and mood, often affecting the individual’s ability to carry out day-to-day tasks. Bipolar disorder used to be called manic depression because of the way people would swing between manic and depressive episodes.",
-          "original_page": 577,
-          "florida_page": 118
+          "text": "Historically and contemporaneously, many aspects of women’s lives have been medicalized, including menstruation, premenstrual syndrome, pregnancy, childbirth, and menopause. The medicalization of pregnancy and childbirth has been particularly contentious in recent decades, with many women opting against the medical process and choosing a more natural childbirth. Fox and Worts (1999) find that all women experience pain and anxiety during the birth process, but that social support relieves both as effectively as medical support. In other words, medical interventions are no more effective than social ones at helping with the difficulties of pain and childbirth. Fox and Worts further found that women with supportive partners ended up with less medical intervention and fewer cases of postpartum depression. Of course, access to quality birth care outside the standard medical models may not be readily available to women of all social classes.",
+          "original_page": 571,
+          "florida_page": 113
         },
         {
           "type": "modified",
-          "original_text": "Depending on what definition is used, there is some overlap between mood disorders and personality disorders, which affect 9 percent of people in the United States yearly. A personality disorder is an enduring and inflexible pattern of long duration leading to significant distress or impairment, that is not due to use of substances or another medical condition. In other words, personality disorders cause people to behave in ways that are seen as abnormal to society but seem normal to them.",
-          "florida_text": "Depending on what definition is used, there is some overlap between mood disorders and personality disorders, which affect 9 percent of people in the United States yearly. A personality disorder is an enduring and inflexible pattern of long duration leading to significant distress or impairment, that is not due to use of substances or another medical condition. In other words, personality disorders cause people to behave in ways that are seen as abnormal to society but seem normal to them. The diagnosis and classification regarding personality disorders have been evolving and is somewhat controversial. To guide diagnosis and potential treatments of mental disorders, the American Psychological Association publishes the Diagnostic and Statistical Manual on Mental Disorders (DSM). Experts working on the latest version initially proposed changing the categories of personality disorders. However, the final publication retains the original ten categories but contains an alternate/emerging approach for classifying them. This evolution demonstrates the challenges and the wide array of treating conditions, and also represents areas of difference between theorists, practitioners, governing bodies, and other stakeholders. As discussed in the Sociological Research chapter, study and investigation is a diligent and multi-dimensional process. As the diagnostic application evolves, we will see how their definitions help scholars across disciplines understand the intersection of health issues and how they are defined by social institutions and cultural norms.",
+          "original_text": "The treatment received by those defined as mentally ill or disabled varies greatly from country to country.",
+          "florida_text": "Mental Health and Disability The treatment received by those defined as mentally ill or disabled varies greatly from country to country.",
           "change_id": null,
-          "original_page": 577,
-          "florida_page": 118
+          "original_page": 571,
+          "florida_page": 113
         },
         {
           "type": "same",
-          "text": "The diagnosis and classification regarding personality disorders has been evolving and is somewhat controversial. To guide diagnosis and potential treatments of mental disorders, the American Psychiatric Association publishes the Diagnostic and Statistical Manual on Mental Disorders (DSM). Experts working on the latest version initially proposed changing the categories of personality disorders. However, the final publication retains the original ten categories, but contains an alternate/emerging approach for classifying them. This evolution demonstrates the challenges and the wide array of treating conditions, and also represents areas of difference between theorists, practitioners, governing bodies, and other stakeholders. As discussed in the Sociological Research chapter, study and investigation is a diligent and multi-dimensional process. As the diagnostic application evolves, we will see how their definitions help scholars across disciplines understand the intersection of health issues and how they are defined by social institutions and cultural norms.",
-          "original_page": 577,
-          "florida_page": 118
+          "text": "In the post-millennial United States, those of us who have never experienced such a disadvantage take for granted the rights our society guarantees for each citizen. We do not think about the relatively recent nature of the protections, unless, of course, we know someone constantly inconvenienced by the lack of accommodations or misfortune of suddenly experiencing a temporary disability. People with mental disorders (a condition that makes it more difficult to cope with everyday life) and people with mental illness (a severe, lasting mental disorder that requires long-term treatment) experience a wide range of effects. According to the National Institute of Mental Health (NIMH), the United States has over 50 million adults with mental illness or mental disorder, or 20 percent of the total adult population. Of these, 13 million have what is considered serious mental illness or mental disorder (5 percent of the adult population); serious mental illness is that which causes impairment or disability (National Institute of Mental Health 2021). Finally, 16.5 percent of children aged 6-17 experienced mental illness or disorder (National Alliance on Mental Illness 2021). The most common mental disorders in the United States are anxiety disorders. Almost 18 percent of U.S. adults are likely to be affected in a single year, and 28 percent are likely to be affected over the course of a lifetime (Anxiety and Depression Institute of America 2021). It is important to distinguish between occasional feelings of anxiety and a true anxiety disorder. Anxiety is a normal reaction to stress that we all feel at some point, but anxiety disorders are feelings of worry and fearfulness that last for months at a time. Anxiety disorders include obsessive compulsive disorder (OCD), panic disorders, posttraumatic stress disorder (PTSD), and both social and specific phobias. The second most common mental disorders in the United States are mood disorders; roughly 10 percent of U.S. adults are likely to be affected yearly, while 21 percent are likely to be affected over the course of a lifetime (National Institute of Mental Health 2005). Mood disorders are the most common causes of illness-related hospitalization in the U.S. (Agency for Healthcare Research and Quality 2021). Major mood disorders are depression and dysthymic disorder. Like anxiety, depression might seem like something that everyone experiences at some point, and it is true that most people feel sad or “blue” at times in their lives. A true depressive episode, however, is more than just feeling sad for a short period. It is a long-term, debilitating illness that usually needs treatment to cure. Bipolar disorder is characterized by dramatic shifts in energy and mood, often affecting the individual’s ability to carry out day-to-day tasks. Bipolar disorder used to be called manic depression because of the way people would swing between manic and depressive episodes. Depending on what definition is used, there is some overlap between mood disorders and personality disorders, which affect 9 percent of people in the United States yearly. A personality disorder is an enduring and inflexible pattern of long duration leading to significant distress or impairment, that is not due to use of substances or another medical condition. In other words, personality disorders cause people to behave in ways that are seen as abnormal to society but seem normal to them. The diagnosis and classification regarding personality disorders has been evolving and is somewhat controversial. To guide diagnosis and potential treatments of mental disorders, the American Psychiatric Association publishes the Diagnostic and Statistical Manual on Mental Disorders (DSM). Experts working on the latest version initially proposed changing the categories of personality disorders. However, the final publication retains the original ten categories, but contains an alternate/emerging approach for classifying them. This evolution demonstrates the challenges and the wide array of treating conditions, and also represents areas of difference between theorists, practitioners, governing bodies, and other stakeholders. As discussed in the Sociological Research chapter, study and investigation is a diligent and multi-dimensional process. As the diagnostic application evolves, we will see how their definitions help scholars across disciplines understand the intersection of health issues and how they are defined by social institutions and cultural norms. Another commonly diagnosed mental disorder is Attention-Deficit/Hyperactivity Disorder (ADHD), which affects 9 percent of U.S. children and 4 percent of adults on a lifetime basis (Danielson 2018). Since ADHD is one of the most common childhood disorders, it is often incorrectly considered only a disease found in children. But ADHD can be a serious issue for adults who either had been diagnosed as children or who are diagnosed as adults. ADHD is marked by difficulty paying attention, difficulty controlling behavior, and hyperactivity. As a result, it can lead to educational and behavioral issues in children, success issues in college, and challenges in workplace and family life. However, there is some social debate over whether such drugs are being overprescribed (American Psychological Association). A significant difficulty in diagnosis, treatment, and societal understanding of ADHD is that it changes in expression based on a wide range of factors, including age (CHADD 2020). Autism Spectrum Disorders (ASD) encompass a group of developmental brain disorders that are characterized by \"deficits in social interaction, verbal and nonverbal communication, and engagement in repetitive behaviors or interests” (National Institute of Mental Health). As of 2021, the CDC estimates that 1 in 54 children has an autism spectrum disorder. Beyond the very high incidence, the rate of diagnosis has been increasing steadily as awareness became more widespread. In 2005, the rate was 1 in 166 children; in 2012 it was 1 in 88 children. The rate of increase and awareness has assisted diagnosis and treatment, but autism is a cause of significant fear among parents and families. Because of its impact on relationships and especially verbal communication, children with autism (and their parents) can be shunned, grossly misunderstood, and mistreated.",
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "modified",
+          "original_text": "For example, people with an autism spectrum disorder who cannot verbalize are often assumed to be unintelligent, or are sometimes left out of conversations or activities because others feel they cannot participate.",
+          "florida_text": "For example, people with an autism spectrum disorder who cannot verbalize are often assumed to be unintelligent or are sometimes left out of conversations or activities because Sociology in the Real World Medicalization of Sleeplessness How is your “sleep hygiene?” Sleep hygiene refers to the lifestyle and sleep habits that contribute to sleeplessness.",
+          "change_id": null,
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "added",
+          "florida_text": "Bad habits that can lead to sleeplessness include inconsistent bedtimes, lack of exercise, late- night employment, napping during the day, and sleep environments that include noise, lights, or screen time (National Institutes of Health 2011a). According to the National Institute of Health, examining sleep hygiene is the first step in trying to solve a problem with sleeplessness. For many people in the United States, however, making changes in sleep hygiene does not seem to be enough. According to a 2006 report from the Institute of Medicine, sleeplessness is an underrecognized public health problem affecting up to 70 million people. It is interesting to note that in the months (or years) after this report was released, advertising by the pharmaceutical companies behind Ambien, Lunesta, and Sepracor (three sleep aids) averaged $188 million weekly promoting these drugs (Gellene 2009). According to a study in the American Journal of Public Health (2011), prescriptions for sleep medications increased dramatically from 1993 to 2007. While complaints of sleeplessness during doctor’s office visits more than doubled during this time, insomnia diagnoses increased more than sevenfold, from about 840,000 to 6.1 million. The authors of the study conclude that sleeplessness has been medicalized as insomnia, and that “insomnia may be a public health concern, but potential overtreatment with marginally effective, expensive medications with nontrivial side effects raises definite population health concerns” (Moloney, Konrad, and Zimmer 2011). Indeed, a study published in 2004 in the Archives of Internal Medicine shows that cognitive behavioral therapy, not medication, was the most effective sleep intervention (Jacobs, Pace-Schott, Stickgold, and Otto 2004). A century ago, people who couldn’t sleep were told to count sheep. Now they pop a pill, and all those pills add up to a very lucrative market for the pharmaceutical industry. Is this industry behind the medicalization of sleeplessness, or is it just responding to a need? others feel they cannot participate.",
+          "change_id": null,
+          "florida_page": 113
         },
         {
           "type": "same",
-          "text": "Another commonly diagnosed mental disorder is Attention-Deficit/Hyperactivity Disorder (ADHD), which affects 9 percent of U.S. children and 4 percent of adults on a lifetime basis (Danielson 2018). Since ADHD is one of the most common childhood disorders, it is often incorrectly considered only a disease found in children. But ADHD can be a serious issue for adults who either had been diagnosed as children or who are diagnosed as adults. ADHD is marked by difficulty paying attention, difficulty controlling behavior, and hyperactivity. As a result, it can lead to educational and behavioral issues in children, success issues in college, and challenges in workplace and family life. However, there is some social debate over whether such drugs are being overprescribed (American Psychological Association). A significant difficulty in diagnosis, treatment, and societal understanding of ADHD is that it changes in expression based on a wide range of factors, including age (CHADD 2020).",
-          "original_page": 577,
-          "florida_page": 118
+          "text": "Parents may be reluctant to let their children play with or associate with children with ASD. Adults with ASD go through many of the same misconceptions and mistreatments, such as being denied opportunities or being made to feel unwelcome (Applied Behavior Analysis).",
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "added",
+          "florida_text": "In recent years, however, persons with neurodiversity have publicly spoken out about how their condition, and some researchers have documented the special strengths and skills of persons with ASD. In addition, Argentine soccer great Lionel Messi has spoken openly about his own diagnosis with Asperger's syndrome. A renowned animal behaviorist Dr. Temple Grandin has become an autism advocate who acknowledges her own challenges with social interaction and communication.",
+          "change_id": null,
+          "florida_page": 113
         },
         {
           "type": "same",
-          "text": "Autism Spectrum Disorders (ASD) encompass a group of developmental brain disorders that are characterized by \"deficits in social interaction, verbal and nonverbal communication, and engagement in repetitive behaviors or interests” (National Institute of Mental Health). As of 2021, the CDC estimates that 1 in 54 children has an autism spectrum disorder. Beyond the very high incidence, the rate of diagnosis has been increasing steadily as awareness became more widespread. In 2005, the rate was 1 in 166 children; in 2012 it was 1 in 88 children. The rate of increase and awareness has assisted diagnosis and treatment, but autism is a cause of significant fear among parents and families. Because of its impact on relationships and especially verbal communication, children with autism (and their parents) can be shunned, grossly misunderstood, and mistreated. For example, people with an autism spectrum disorder who cannot verbalize are often assumed to be unintelligent, or are sometimes left out of conversations or activities because others feel they cannot participate. Parents may be reluctant to let their children play with or associate with children with ASD. Adults with ASD go through many of the same misconceptions and mistreatments, such as being denied opportunities or being made to feel unwelcome (Applied Behavior Analysis).",
-          "original_page": 577,
-          "florida_page": 118
+          "text": "Disability refers to a reduction in one’s ability to perform everyday tasks.",
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "modified",
+          "original_text": "The World Health Organization makes a distinction between the various terms used to describe disabilities.",
+          "florida_text": "The World Health Organization makes a distinction between the various terms used to describe handicaps that’s important to the sociological perspective.",
+          "change_id": null,
+          "original_page": 571,
+          "florida_page": 113
         },
         {
           "type": "same",
-          "text": "Disability refers to a reduction in one’s ability to perform everyday tasks. The World Health Organization makes a distinction between the various terms used to describe disabilities. They use the term impairment to describe the physical limitations, while reserving the term disability to refer to the social limitation.",
-          "original_page": 577,
-          "florida_page": 118
+          "text": "They use the term impairment to describe the physical limitations, while reserving the term disability to refer to the social limitation. Before the passage of the Americans with Disabilities Act (ADA) in 1990, people in the United States with disabilities were often excluded from opportunities and social institutions many of us take for granted. This occurred not only through employment and other kinds of discrimination but also through casual acceptance by most people in the United States of a world designed for the convenience of the able-bodied. Imagine being in a wheelchair and trying to use a sidewalk without the benefit of wheelchair-accessible curbs. Imagine as a blind person trying to access information without the widespread availability of Braille.",
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "modified",
+          "original_text": "Imagine having limited motor control and being faced with a difficult-to-grasp round door handle.",
+          "florida_text": "Imagine having limited motor control and being faced with a difficult-to- grasp round door handle.",
+          "change_id": null,
+          "original_page": 571,
+          "florida_page": 113
         },
         {
           "type": "same",
-          "text": "Before the passage of the Americans with Disabilities Act (ADA) in 1990, people in the United States with disabilities were often excluded from opportunities and social institutions many of us take for granted. This occurred not only through employment and other kinds of discrimination but also through casual acceptance by most people in the United States of a world designed for the convenience of the able-bodied. Imagine being in a wheelchair and trying to use a sidewalk without the benefit of wheelchair-accessible curbs. Imagine as a blind person trying to access information without the widespread availability of Braille. Imagine having limited motor control and being faced with a difficult-to-grasp round door handle. Issues like these are what the ADA tries to address. Ramps on sidewalks, Braille instructions, and more accessible door levers are all accommodations to help people with disabilities.",
-          "original_page": 577,
-          "florida_page": 118
+          "text": "Issues like these are what the ADA tries to address. Ramps on sidewalks, Braille instructions, and more accessible door levers are all accommodations to help people with disabilities. People with disabilities can be stigmatized by their illnesses. Stigmatization means their identity is spoiled; they are labeled as different, discriminated against, and sometimes even shunned.",
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "modified",
+          "original_text": "They are labeled (as an interactionist might point out) and ascribed a master status (as a functionalist might note), becoming “the blind girl” or “the boy in the wheelchair” instead of someone afforded a full identity by society.",
+          "florida_text": "They are labeled (as an interactionist might point out – and described further in Section 6.5) and ascribed a master status (as a functionalist might note), becoming “the blind girl” or “the boy in the wheelchair” instead of someone afforded a full identity by society.",
+          "change_id": null,
+          "original_page": 571,
+          "florida_page": 113
         },
         {
           "type": "same",
-          "text": "People with disabilities can be stigmatized by their illnesses. Stigmatization means their identity is spoiled; they are labeled as different, discriminated against, and sometimes even shunned. They are labeled (as an interactionist might point out) and ascribed a master status (as a functionalist might note), becoming “the blind girl” or “the boy in the wheelchair” instead of someone afforded a full identity by society. This can be especially true for people who are disabled due to mental illness or disorders.",
-          "original_page": 577,
-          "florida_page": 118
+          "text": "This can be especially true for people who are disabled due to mental illness or disorders. As discussed in the section on mental health, many mental health disorders can be debilitating and can affect a person’s ability to cope with everyday life. This can affect social status, housing, and especially employment. According to the Bureau of Labor Statistics (2011), people with a disability had a higher rate of unemployment than people without a disability in 2010: 14.8 percent to 9.4 percent. This unemployment rate refers only to people actively looking for a job. In fact, eight out of ten people with a disability are considered “out of the labor force;” that is, they do not have jobs and are not looking for them. The combination of this population and the high unemployment rate leads to an employment-population ratio of 18.6 percent among those with disabilities. The employment-population ratio for people without disabilities was much higher, at 63.5 percent (U.S. Bureau of Labor Statistics 2011).",
+          "original_page": 571,
+          "florida_page": 113
         },
         {
-          "type": "same",
-          "text": "As discussed in the section on mental health, many mental health disorders can be debilitating and can affect a person’s ability to cope with everyday life. This can affect social status, housing, and especially employment. According to the Bureau of Labor Statistics (2011), people with a disability had a higher rate of unemployment than people without a disability in 2010: 14.8 percent to 9.4 percent. This unemployment rate refers only to people actively looking for a job. In fact, eight out of ten people with a disability are considered “out of the labor force;” that is, they do not have jobs and are not looking for them. The combination of this population and the high unemployment rate leads to an employment-population ratio of 18.6 percent among those with disabilities. The employment-population ratio for people without disabilities was much higher, at 63.5 percent (U.S. Bureau of Labor Statistics 2011).",
-          "original_page": 577,
-          "florida_page": 118
+          "type": "added",
+          "florida_text": "Even among those currently working, persons with disability are significantly more likely than those without a disability to report discrimination, such as being passed over for promotion or being treated unfairly by bosses and coworkers (Namkung & Carr, 2019).",
+          "change_id": null,
+          "florida_page": 113
         }
       ]
     },
@@ -346,32 +475,48 @@
         {
           "type": "same",
           "text": "There are broad, structural differences among the healthcare systems of different countries. In core nations, those differences might arise in the administration of healthcare, while the care itself is similar. In peripheral and semi-peripheral countries, a lack of basic healthcare administration can be the defining feature of the system. Most countries rely on some combination of modern and traditional medicine. In core countries with large investments in technology, research, and equipment, the focus is usually on modern medicine, with traditional (also called alternative or complementary) medicine playing a secondary role. In the United States, for instance, the American Medical Association (AMA) resolved to support the incorporation of complementary and alternative medicine in medical education. In developing countries, even quickly modernizing ones like China, traditional medicine (often understood as “complementary” by the western world) may still play a larger role.",
-          "original_page": 577,
-          "florida_page": 118
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "added",
+          "florida_text": "U.S.",
+          "change_id": null,
+          "florida_page": 113
+        },
+        {
+          "type": "modified",
+          "original_text": "U.S. healthcare coverage can broadly be divided into two main categories: public healthcare (government-funded) and private healthcare (privately funded).",
+          "florida_text": "Healthcare U.S. healthcare coverage can broadly be divided into two main categories: public healthcare (government- funded) and private healthcare (privately funded).",
+          "change_id": null,
+          "original_page": 571,
+          "florida_page": 113
         },
         {
           "type": "same",
-          "text": "U.S. healthcare coverage can broadly be divided into two main categories: public healthcare (government-funded) and private healthcare (privately funded).",
-          "original_page": 577,
-          "florida_page": 118
+          "text": "The two main publicly funded healthcare programs are Medicare, which provides health services to people over sixty-five years old as well as people who meet other standards for disability, and Medicaid, which provides services to people with very low incomes who meet other eligibility requirements. Other government-funded programs include service agencies focused on Native Americans (the Indian Health Service), Veterans (the Veterans Health Administration), and children (the Children’s Health Insurance Program). Private insurance is typically categorized as either employment-based insurance or direct-purchase insurance. Employment-based insurance is health plan coverage that is provided in whole or in part by an employer or union; it can cover just the employee, or the employee and their family. Direct purchase insurance is coverage that an individual buys directly from a private company. Even with all these options, a sizable portion of the U.S. population remains uninsured.",
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "modified",
+          "original_text": "In 2019, about 26 million people, or 8 percent of U.S. residents, had no health insurance. 2020 saw that number go up to 31 million (Keith 2020).",
+          "florida_text": "In 2019, about 26 million people, or 8 percent of U.S. residents, had no health insurance.",
+          "change_id": null,
+          "original_page": 571,
+          "florida_page": 113
+        },
+        {
+          "type": "added",
+          "florida_text": "In 2020, that number went up to 31 million (Keith 2020).",
+          "change_id": null,
+          "florida_page": 113
         },
         {
           "type": "same",
-          "text": "The two main publicly funded healthcare programs are Medicare, which provides health services to people over sixty-five years old as well as people who meet other standards for disability, and Medicaid, which provides services to people with very low incomes who meet other eligibility requirements. Other government-funded programs include service agencies focused on Native Americans (the Indian Health Service), Veterans (the Veterans Health Administration), and children (the Children’s Health Insurance Program).",
-          "original_page": 577,
-          "florida_page": 118
-        },
-        {
-          "type": "same",
-          "text": "Private insurance is typically categorized as either employment-based insurance or direct-purchase insurance. Employment-based insurance is health plan coverage that is provided in whole or in part by an employer or union; it can cover just the employee, or the employee and their family. Direct purchase insurance is coverage that an individual buys directly from a private company.",
-          "original_page": 577,
-          "florida_page": 118
-        },
-        {
-          "type": "same",
-          "text": "Even with all these options, a sizable portion of the U.S. population remains uninsured. In 2019, about 26 million people, or 8 percent of U.S. residents, had no health insurance. 2020 saw that number go up to 31 million (Keith 2020). Several more million had health insurance for part of the year (Keisler-Starkey 2020). Uninsured people are at risk of both severe illness and also chronic illnesses that develop over time. Fewer uninsured people engage in regular check-ups or preventative medicine, and rely on urgent care for a range of acute health issues.",
-          "original_page": 577,
-          "florida_page": 118
+          "text": "Several more million had health insurance for part of the year (Keisler-Starkey 2020). Uninsured people are at risk of both severe illness and also chronic illnesses that develop over time. Fewer uninsured people engage in regular check-ups or preventative medicine, and rely on urgent care for a range of acute health issues.",
+          "original_page": 571,
+          "florida_page": 113
         },
         {
           "type": "removed",
@@ -383,83 +528,123 @@
         },
         {
           "type": "same",
-          "text": "People having some insurance may mask the fact that they could be underinsured; that is, people who pay at least 10 percent of their income on healthcare costs not covered by insurance or, for low-income adults, those whose medical expenses or deductibles are at least 5 percent of their income (Schoen, Doty, Robertson, and Collins 2011).",
+          "text": "People having some insurance may mask the fact that they could be underinsured; that is, people who pay at least 10 percent of their income on healthcare costs not covered by insurance or, for low-income adults, those whose medical expenses or deductibles are at least 5 percent of their income (Schoen, Doty, Robertson, and Collins 2011). Why are so many people uninsured or underinsured? Skyrocketing healthcare costs are part of the issue. While most people get their insurance through their employer, not all employers offer it, especially retail companies or small businesses in which many of the workers may be part time.",
           "original_page": 584,
-          "florida_page": 118
+          "florida_page": 113
+        },
+        {
+          "type": "modified",
+          "original_text": "Finally, for many years insurers could deny coverage to people with pre-existing conditions--previous illnesses or chronic diseases.",
+          "florida_text": "And, many years insurers deny coverage to people with pre-existing conditions--previous illnesses or chronic diseases.",
+          "change_id": null,
+          "original_page": 584,
+          "florida_page": 113
+        },
+        {
+          "type": "added",
+          "florida_text": "As a result, unlike most other wealthy nations, people in the United States carry significant medical debt. In fact, 6% of adults have at least $1000 in medical debt, totally over $220 billion (Rakshit et al, 2024).",
+          "change_id": null,
+          "florida_page": 113
         },
         {
           "type": "same",
-          "text": "Why are so many people uninsured or underinsured? Skyrocketing healthcare costs are part of the issue. While most people get their insurance through their employer, not all employers offer it, especially retail companies or small businesses in which many of the workers may be part time. Finally, for many years insurers could deny coverage to people with pre-existing conditions--previous illnesses or chronic diseases.",
+          "text": "The Patient Protection and Affordable Care Act (often abbreviated ACA or nicknamed Obamacare) was a landmark change in U.S. healthcare. Passed in 2010 and fully implemented in 2014, it increased eligibility to programs like Medicaid, helped guarantee insurance coverage for people with pre-existing conditions, and established regulations to make sure that the premium funds collected by insurers and care providers go directly to medical care. It also included an individual mandate, which requires everyone to have insurance coverage by 2014 or pay a penalty. A series of provisions, including significant subsidies, are intended to address the discrepancies in income that are currently contributing to high rates of uninsurance and underinsurance. In 2012 the U.S. Supreme Court upheld the constitutionality of the ACA's individual mandate. 29 million people in the United States have gained health insurance under ACA (Economic Policy Institute 2021).",
           "original_page": 584,
-          "florida_page": 118
-        },
-        {
-          "type": "same",
-          "text": "The Patient Protection and Affordable Care Act (often abbreviated ACA or nicknamed Obamacare) was a landmark change in U.S. healthcare. Passed in 2010 and fully implemented in 2014, it increased eligibility to programs like Medicaid, helped guarantee insurance coverage for people with pre-existing conditions, and established regulations to make sure that the premium funds collected by insurers and care providers go directly to medical care. It also included an individual mandate, which requires everyone to have insurance coverage by 2014 or pay a penalty. A series of provisions, including significant subsidies, are intended to address the discrepancies in income that are currently contributing to high rates of uninsurance and underinsurance. In 2012 the U.S. Supreme Court upheld the constitutionality of the ACA's individual mandate. 29 million people in the United States have gained health insurance under ACA (Economic Policy Institute 2021). The individual mandate required by the ACA was abolished via subsequent legislation in 2019.",
-          "original_page": 584,
-          "florida_page": 118
+          "florida_page": 113
         },
         {
           "type": "removed",
-          "original_text": "The ACA remains contentious. The Supreme Court ruled in the case of National Federation of Independent Businesses v. Sebelius in 2012, that states cannot be forced to participate in the PPACA's Medicaid expansion. This ruling opened the door to further challenges to the ACA in Congress and the Federal courts, some state governments, conservative groups and independent businesses. The ACA has been a driving factor in elections and public opinion. In 2010 and 2014, many Republican gains in Congressional seats were related to fierce concern about Obamacare. However, once millions of people were covered by the law and the economy continued to improve, public sentiment and elections swung the other way. Healthcare was the top issue for voters, and desire to preserve the law was credited for many of the Democratic gains in the election, which carried over to 2020.",
+          "original_text": "The individual mandate required by the ACA was abolished via subsequent legislation in 2019. The ACA remains contentious. The Supreme Court ruled in the case of National Federation of Independent Businesses v. Sebelius in 2012, that states cannot be forced to participate in the PPACA's Medicaid expansion. This ruling opened the door to further challenges to the ACA in Congress and the Federal courts, some state governments, conservative groups and independent businesses. The ACA has been a driving factor in elections and public opinion. In 2010 and 2014, many Republican gains in Congressional seats were related to fierce concern about Obamacare. However, once millions of people were covered by the law and the economy continued to improve, public sentiment and elections swung the other way. Healthcare was the top issue for voters, and desire to preserve the law was credited for many of the Democratic gains in the election, which carried over to 2020. Clearly, healthcare in the United States has some areas for improvement.",
           "change_id": "ch19_change_12",
           "original_page": 585,
           "context": "The original's discussion of the ACA's partisan political history—Republican opposition, Democratic electoral gains due to voter support for healthcare—is entirely removed from the Florida version. This is a significant political edit removing content favorable to the ACA and the Democratic Party.",
           "original_evidence": "img/evidence/ch19/change_12_original.webp"
         },
         {
-          "type": "same",
-          "text": "Clearly, healthcare in the United States has some areas for improvement. But how does it compare to healthcare in other countries? Many people in the United States are fond of saying that this country has the best healthcare in the world, and while it is true that the United States has a higher quality of care available than many peripheral or semi-peripheral nations, it is not necessarily the “best in the world.” In a report on how U.S. healthcare compares to that of other countries, researchers found that the United States does “relatively well in some areas—such as cancer care—and less well in others—such as mortality from conditions amenable to prevention and treatment” (Docteur and Berenson 2009).",
-          "original_page": 585,
-          "florida_page": 118
+          "type": "added",
+          "florida_text": "However, in late 2025, President Trump removed this mandate, which may reverse these effects.",
+          "change_id": "ch19_change_11",
+          "florida_page": 125,
+          "context": "The Florida version adds a sentence noting Trump's removal of the individual mandate in 2025, presented neutrally as a factual update. This is the only mention of Trump by name and softens the ACA's overall framing.",
+          "florida_evidence": "img/evidence/ch19/change_11_florida.webp"
         },
         {
-          "type": "same",
-          "text": "One critique of the Patient Protection and Affordable Care Act is that it will create a system of socialized medicine, a term that for many people in the United States has negative connotations lingering from the Cold War era and earlier. Under a socialized medicine system, the government owns and runs the system. It employs the doctors, nurses, and other staff, and it owns and runs the hospitals (Klein 2009). The best example of socialized medicine is in Great Britain, where the National Health System (NHS) gives free healthcare to all its residents. And despite some U.S. citizens’ knee-jerk reaction to any healthcare changes that hint of socialism, the United States has one socialized system with the Veterans Health Administration.",
-          "original_page": 585,
-          "florida_page": 118
-        },
-        {
-          "type": "same",
-          "text": "It is important to distinguish between socialized medicine, in which the government owns the healthcare system, and universal healthcare, which is simply a system that guarantees healthcare coverage for everyone. Germany, Singapore, and Canada all have universal healthcare. People often look to Canada’s universal healthcare system, Medicare, as a model for the system. In Canada, healthcare is publicly funded and is administered by the separate provincial and territorial governments. However, the care itself comes from private providers. This is the main difference between universal healthcare and socialized medicine. The Canada Health Act of 1970 required that all health insurance plans must be “available to all eligible Canadian residents, comprehensive in coverage, accessible, portable among provinces, and publicly administered” (International Health Systems Canada 2010).",
-          "original_page": 585,
-          "florida_page": 118
-        },
-        {
-          "type": "same",
-          "text": "Heated discussions about socialization of medicine and managed-care options seem frivolous when compared with the issues of healthcare systems in developing or underdeveloped countries. In many countries, per capita income is so low, and governments are so fractured, that healthcare as we know it is virtually non-existent. Care that people in developed countries take for granted—like hospitals, healthcare workers, immunizations, antibiotics and other medications, and even sanitary water for drinking and washing—are unavailable to much of the population. Organizations like Doctors Without Borders, UNICEF, and the World Health Organization have played an important role in helping these countries get their most basic health needs met.",
-          "original_page": 585,
-          "florida_page": 118
-        },
-        {
-          "type": "removed",
-          "original_text": "WHO, which is the health arm of the United Nations, set eight Millennium Development Goals (MDGs) in 2000 with the aim of reaching these goals by 2015. Some of the goals deal more broadly with the socioeconomic factors that influence health, but MDGs 4, 5, and 6 all relate specifically to large-scale health concerns, the likes of which most people in the United States will never contemplate. MDG 4 is to reduce child mortality, MDG 5 aims to improve maternal health, and MDG 6 strives to combat HIV/AIDS, malaria, and other diseases. The goals may not seem particularly dramatic, but the numbers behind them show how serious they are.",
+          "type": "modified",
+          "original_text": "But how does it compare to healthcare in other countries? Many people in the United States are fond of saying that this country has the best healthcare in the world, and while it is true that the United States has a higher quality of care available than many peripheral or semi-peripheral nations, it is not necessarily the “best in the world.” In a report on how U.S. healthcare compares to that of other countries, researchers found that the United States does “relatively well in some areas—such as cancer care—and less well in others—such as mortality from conditions amenable to prevention and treatment” (Docteur and Berenson 2009).",
+          "florida_text": "Healthcare Elsewhere How does healthcare in the United States compare to healthcare in other countries? Many people in the United States are fond of saying that this country has the best healthcare in the world, and while it is true that the United States has a higher quality of care available than many peripheral or semi-peripheral nations, not everyone agrees that it is the “best in the world.” In evaluating U.S. healthcare compared to other countries, the United States has been shown to do “relatively well in some areas—such as cancer care—and less well in others—such as mortality from conditions amenable to prevention and treatment” (Docteur and Berenson 2009).",
           "change_id": null,
-          "original_page": 585
+          "original_page": 585,
+          "florida_page": 125
         },
         {
           "type": "removed",
-          "original_text": "For MDG 4, the WHO reports that 2009 infant mortality rates in “children under 5 years old in the WHO African Region (127 per 1000 live births) and in low-income countries (117 per 1000 live births) [had dropped], but they were still higher than the 1990 global level of 89 per 1000 live births” (World Health Organization 2011). The fact that these deaths could have been avoided through appropriate medicine and clean drinking water shows the importance of healthcare.",
-          "change_id": null,
-          "original_page": 585
-        },
-        {
-          "type": "removed",
-          "original_text": "Much progress has been made on MDG 5, with maternal deaths decreasing by 34 percent. However, almost all maternal deaths occurred in developing countries, with the African region still experiencing high numbers (World Health Organization 2011).",
-          "change_id": null,
-          "original_page": 585
-        },
-        {
-          "type": "removed",
-          "original_text": "On MDG 6, the WHO is seeing some decreases in per capita incidence rates of malaria, tuberculosis, HIV/AIDS, and other diseases. However, the decreases are often offset by population increases (World Health Organization 2011). Again, the lowest-income countries, especially in the African region, experience the worst problems with disease. An important component of disease prevention and control is epidemiology, or the study of the incidence, distribution, and possible control of diseases. Fear of Ebola contamination, primarily in Western Africa but also to a smaller degree in the United States, became national news in the summer and fall of 2014.",
+          "original_text": "One critique of the Patient Protection and Affordable Care Act is that it will create a system of socialized medicine, a term that for many people in the United States has negative connotations lingering from the Cold War era and earlier.",
           "change_id": null,
           "original_page": 585
         },
         {
           "type": "added",
-          "florida_text": "(Goal 2), and good health and wellbeing (Goal 3). Regarding Goal 3, the target goals focus on important issues such as reduction of global maternal mortality to below 70 per 100,000 births and ending preventable deaths of newborns and children under age five to 12 per 1,000 live births for infant deaths and 25 per 1,000 live births for children under age five. Another key goal relates to healthcare access. Specifically, goal 3.8 is to achieve universal health coverage, including financial risk protection and access to quality essential health-care services for all. One target that has been a key issue for the WHO for decades is related to reducing malaria. Malaria is an easy to treat condition with appropriate medical intervention. However, it has remained a persistent cause of death in certain parts of the world despite well-established treatments. Africa, the continent with the lowest average life expectancy and the highest average infant and child mortality rate, is also the continent that has the majority of malaria deaths. Figure 6.8 shows a figure created by Our World in Data, that malaria-related deaths primarily influence young children. With adequate access to malaria-related and other infectious diseases with well-established prevention and treatment methods (e.g., meningitis, whooping cough, measles, tuberculosis, and other diarrheal diseases, almost half of child- related deaths would be eliminated worldwide.",
+          "florida_text": "One concern that many raised about the ACA was that it would provide “socialized medicine,” a term that for many people in the United States has negative connotations.",
           "change_id": null,
-          "florida_page": 118
+          "florida_page": 125
+        },
+        {
+          "type": "same",
+          "text": "Under a socialized medicine system, the government owns and runs the system. It employs the doctors, nurses, and other staff, and it owns and runs the hospitals (Klein 2009). The best example of socialized medicine is in Great Britain, where the National Health System (NHS) gives free healthcare to all its residents.",
+          "original_page": 585,
+          "florida_page": 125
+        },
+        {
+          "type": "removed",
+          "original_text": "And despite some U.S. citizens’ knee-jerk reaction to any healthcare changes that hint of socialism, the United States has one socialized system with the Veterans Health Administration.",
+          "change_id": null,
+          "original_page": 585
+        },
+        {
+          "type": "added",
+          "florida_text": "However, the ACA is far from a socialized system of healthcare – it is a program that provides care by contracting with private companies. The only socialized healthcare in the United States is the Veterans Health Administration.",
+          "change_id": null,
+          "florida_page": 125
+        },
+        {
+          "type": "same",
+          "text": "It is important to distinguish between socialized medicine, in which the government owns the healthcare system, and universal healthcare, which is simply a system that guarantees healthcare coverage for everyone. Germany, Singapore, and Canada all have universal healthcare.",
+          "original_page": 585,
+          "florida_page": 125
+        },
+        {
+          "type": "modified",
+          "original_text": "People often look to Canada’s universal healthcare system, Medicare, as a model for the system.",
+          "florida_text": "People often look to Canada’s universal healthcare system, Medicare, as a model.",
+          "change_id": null,
+          "original_page": 585,
+          "florida_page": 125
+        },
+        {
+          "type": "same",
+          "text": "In Canada, healthcare is publicly funded and is administered by the separate provincial and territorial governments. However, the care itself comes from private providers. This is the main difference between universal healthcare and socialized medicine. The Canada Health Act of 1970 required that all health insurance plans must be “available to all eligible Canadian residents, comprehensive in coverage, accessible, portable among provinces, and publicly administered” (International Health Systems Canada 2010). Heated discussions about socialization of medicine and managed-care options seem frivolous when compared with the issues of healthcare systems in developing or underdeveloped countries. In many countries, per capita income is so low, and governments are so fractured, that healthcare as we know it is virtually non-existent. Care that people in developed countries take for granted—like hospitals, healthcare workers, immunizations, antibiotics and other medications, and even sanitary water for drinking and washing—are unavailable to much of the population. Organizations like Doctors Without Borders, UNICEF, and the World Health Organization have played an important role in helping these countries get their most basic health needs met.",
+          "original_page": 585,
+          "florida_page": 125
+        },
+        {
+          "type": "modified",
+          "original_text": "WHO, which is the health arm of the United Nations, set eight Millennium Development Goals (MDGs) in 2000 with the aim of reaching these goals by 2015.",
+          "florida_text": "WHO, which is the health arm of the United Nations, set 17 sustainable development goals (SDGs) in 2015 with the aim of reaching these goals by 2030.",
+          "change_id": null,
+          "original_page": 585,
+          "florida_page": 125
+        },
+        {
+          "type": "removed",
+          "original_text": "Some of the goals deal more broadly with the socioeconomic factors that influence health, but MDGs 4, 5, and 6 all relate specifically to large-scale health concerns, the likes of which most people in the United States will never contemplate. MDG 4 is to reduce child mortality, MDG 5 aims to improve maternal health, and MDG 6 strives to combat HIV/AIDS, malaria, and other diseases. The goals may not seem particularly dramatic, but the numbers behind them show how serious they are. For MDG 4, the WHO reports that 2009 infant mortality rates in “children under 5 years old in the WHO African Region (127 per 1000 live births) and in low-income countries (117 per 1000 live births) [had dropped], but they were still higher than the 1990 global level of 89 per 1000 live births” (World Health Organization 2011). The fact that these deaths could have been avoided through appropriate medicine and clean drinking water shows the importance of healthcare. Much progress has been made on MDG 5, with maternal deaths decreasing by 34 percent. However, almost all maternal deaths occurred in developing countries, with the African region still experiencing high numbers (World Health Organization 2011). On MDG 6, the WHO is seeing some decreases in per capita incidence rates of malaria, tuberculosis, HIV/AIDS, and other diseases. However, the decreases are often offset by population increases (World Health Organization 2011). Again, the lowest-income countries, especially in the African region, experience the worst problems with disease. An important component of disease prevention and control is epidemiology, or the study of the incidence, distribution, and possible control of diseases. Fear of Ebola contamination, primarily in Western Africa but also to a smaller degree in the United States, became national news in the summer and fall of 2014.",
+          "change_id": null,
+          "original_page": 585
+        },
+        {
+          "type": "added",
+          "florida_text": "Some of the goals deal more broadly with the socioeconomic factors that influence health, others relate specifically to large-scale health concerns, like clean water and sanitation (Goal 6), zero hunger Healthcare System Designs Across Industrialized Nations Universal (guaranteed coverage) Socialized (government owned/run) Private Canada Switzerland United Kingdom New Zealand United States Germany Brazil Spain Finland France Taiwan Norway Iceland Japan Belgium Denmark Italy Australia Netherlands Sweden Cuba South Korea US VA Health System (Goal 2), and good health and wellbeing (Goal 3). Regarding Goal 3, the target goals focus on important issues such as reduction of global maternal mortality to below 70 per 100,000 births and ending preventable deaths of newborns and children under age five to 12 per 1,000 live births for infant deaths and 25 per 1,000 live births for children under age five. Another key goal relates to healthcare access. Specifically, goal 3.8 is to achieve universal health coverage, including financial risk protection and access to quality essential health-care services for all. One target that has been a key issue for the WHO for decades is related to reducing malaria. Malaria is an easy to treat condition with appropriate medical intervention. However, it has remained a persistent cause of death in certain parts of the world despite well-established treatments. Africa, the continent with the lowest average life expectancy and the highest average infant and child mortality rate, is also the continent that has the majority of malaria deaths. Figure 6.8 shows a figure created by Our World in Data, that malaria-related deaths primarily influence young children. With adequate access to malaria-related and other infectious diseases with well-established prevention and treatment methods (e.g., meningitis, whooping cough, measles, tuberculosis, and other diarrheal diseases, almost half of child- related deaths would be eliminated worldwide.",
+          "change_id": null,
+          "florida_page": 125
         }
       ]
     },
@@ -469,78 +654,112 @@
       "florida_heading": "6.5 Theoretical Perspectives on Health and Medicine",
       "blocks": [
         {
+          "type": "same",
+          "text": "Each of the three major theoretical perspectives approaches the topics of health, illness, and medicine differently.",
+          "original_page": 585,
+          "florida_page": 125
+        },
+        {
           "type": "removed",
-          "original_text": "Each of the three major theoretical perspectives approaches the topics of health, illness, and medicine differently. You may prefer just one of the theories that follow, or you may find that combining theories and perspectives provides a fuller picture of how we experience health and wellness.",
+          "original_text": "You may prefer just one of the theories that follow, or you may find that combining theories and perspectives provides a fuller picture of how we experience health and wellness.",
           "change_id": null,
           "original_page": 585
         },
         {
           "type": "same",
-          "text": "According to the functionalist perspective, health is vital to the stability of the society, and therefore sickness is a sanctioned form of deviance. Talcott Parsons (1951) was the first to discuss this in terms of the sick role: patterns of expectations that define appropriate behavior for the sick and for those who take care of them.",
+          "text": "According to the functionalist perspective, health is vital to the stability of the society, and therefore sickness is a sanctioned form of deviance. Talcott Parsons (1951) was the first to discuss this in terms of the sick role: patterns of expectations that define appropriate behavior for the sick and for those who take care of them. According to Parsons, the sick person has a specific role with both rights and responsibilities. To start with, the sick person has not chosen to be sick and should not be treated as responsible for her condition. The sick person also has the right of being exempt from normal social roles; they are not required to fulfill the obligation of a well person and can avoid her normal responsibilities without censure. However, this exemption is temporary and relative to the severity of the illness. The exemption also requires legitimation by a physician; that is, a physician must certify that the illness is genuine. The responsibility of the sick person is twofold: to try to get well and to seek technically competent help from a physician. If the sick person stays ill longer than is appropriate (malingers), they may be stigmatized. Parsons argues that since the sick are unable to fulfill their normal societal roles, their sickness weakens the society. Therefore, it is sometimes necessary for various forms of social control to bring the behavior of a sick person back in line with normal expectations.",
           "original_page": 585,
-          "florida_page": 118
+          "florida_page": 125
         },
         {
-          "type": "same",
-          "text": "According to Parsons, the sick person has a specific role with both rights and responsibilities. To start with, the sick person has not chosen to be sick and should not be treated as responsible for her condition. The sick person also has the right of being exempt from normal social roles; they are not required to fulfill the obligation of a well person and can avoid her normal responsibilities without censure. However, this exemption is temporary and relative to the severity of the illness. The exemption also requires legitimation by a physician; that is, a physician must certify that the illness is genuine.",
-          "original_page": 585,
-          "florida_page": 118
-        },
-        {
-          "type": "same",
-          "text": "The responsibility of the sick person is twofold: to try to get well and to seek technically competent help from a physician. If the sick person stays ill longer than is appropriate (malingers), they may be stigmatized.",
-          "original_page": 585,
-          "florida_page": 118
-        },
-        {
-          "type": "removed",
-          "original_text": "Parsons argues that since the sick are unable to fulfill their normal societal roles, their sickness weakens the society. Therefore, it is sometimes necessary for various forms of social control to bring the behavior of a sick person back in line with normal expectations. In this model of health, doctors serve as gatekeepers, deciding who is healthy and who is sick—a relationship in which the doctor has all the power. But is it appropriate to allow doctors so much power over deciding who is sick? And what about people who are sick, but are unwilling to leave their positions for any number of reasons (personal/social obligations, financial need, or lack of insurance, for instance).",
+          "type": "modified",
+          "original_text": "In this model of health, doctors serve as gatekeepers, deciding who is healthy and who is sick—a relationship in which the doctor has all the power.",
+          "florida_text": "In this model of health, doctors serve as gatekeepers, deciding who is healthy",
           "change_id": null,
-          "original_page": 585
+          "original_page": 585,
+          "florida_page": 125
+        },
+        {
+          "type": "added",
+          "florida_text": "and who is sick—a relationship in which the doctor has all the power.",
+          "change_id": null,
+          "florida_page": 125
+        },
+        {
+          "type": "same",
+          "text": "But is it appropriate to allow doctors so much power over deciding who is sick? And what about people who are sick, but are unwilling to leave their positions for any number of reasons (personal/social obligations, financial need, or lack of insurance, for instance).",
+          "original_page": 585,
+          "florida_page": 125
+        },
+        {
+          "type": "added",
+          "florida_text": "And finally, what about people with “invisible disabilities,” or those with diseases that people cannot see so people look fine but may be in significant pain making their disability invisible to others?",
+          "change_id": null,
+          "florida_page": 125
         },
         {
           "type": "same",
           "text": "Theorists using the conflict perspective suggest that issues with the healthcare system, as with most other social problems, are rooted in capitalist society. According to conflict theorists, capitalism and the pursuit of profit lead to the commodification of health: the changing of something not generally thought of as a commodity into something that can be bought and sold in a marketplace. In this view, people with money and power—the dominant group—are the ones who make decisions about how the healthcare system will be run. They therefore ensure that they will have healthcare coverage, while simultaneously ensuring that subordinate groups stay subordinate through lack of access. This creates significant healthcare—and health—disparities between the dominant and subordinate groups.",
           "original_page": 585,
-          "florida_page": 118
+          "florida_page": 125
         },
         {
-          "type": "same",
-          "text": "Alongside the health disparities created by class inequalities, there are a number of health disparities created by racism, sexism, ageism, and heterosexism. When health is a commodity, the poor are more likely to experience illness caused by poor diet, to live and work in unhealthy environments, and are less likely to challenge the system. In the United States, a disproportionate number of racial minorities also have less economic power, so they bear a great deal of the burden of poor health. It is not only the poor who suffer from the conflict between dominant and subordinate groups. For many years now, same-sex couples have been denied spousal benefits, either in the form of health insurance or in terms of medical responsibility. Further adding to the issue, doctors hold a disproportionate amount of power in the doctor/patient relationship, which provides them with extensive social and economic benefits.",
-          "original_page": 585,
-          "florida_page": 118
+          "type": "removed",
+          "original_text": "Alongside the health disparities created by class inequalities, there are a number of health disparities created by racism, sexism, ageism, and heterosexism. When health is a commodity, the poor are more likely to experience illness caused by poor diet, to live and work in unhealthy environments, and are less likely to challenge the system.",
+          "change_id": null,
+          "original_page": 585
         },
         {
-          "type": "same",
-          "text": "While conflict theorists are accurate in pointing out certain inequalities in the healthcare system, they do not give enough credit to medical advances that would not have been made without an economic structure to support and reward researchers: a structure dependent on profitability. Additionally, in their criticism of the power differential between doctor and patient, they are perhaps dismissive of the hard-won medical expertise possessed by doctors and not patients, which renders a truly egalitarian relationship more elusive.",
-          "original_page": 585,
-          "florida_page": 118
-        },
-        {
-          "type": "same",
-          "text": "According to theorists working in this perspective, health and illness are both socially constructed. As we discussed in the beginning of the chapter, interactionists focus on the specific meanings and causes people attribute to illness. The term medicalization of deviance refers to the process that changes “bad” behavior into “sick” behavior. A related process is demedicalization, in which “sick” behavior is normalized again. Medicalization and demedicalization affect who responds to the patient, how people respond to the patient, and how people view the personal responsibility of the patient (Conrad and Schneider 1992).",
-          "original_page": 585,
-          "florida_page": 118
+          "type": "added",
+          "florida_text": "Conflict theorists think about health and healthcare from a perspective of access and power, viewing health as a commodity in which the poor have poorer access, leading to greater risk of illness caused by poor diet and living/working in unhealthy environments. Poor people also do not have the power to change the system.",
+          "change_id": null,
+          "florida_page": 125
         },
         {
           "type": "modified",
-          "original_text": "An example of medicalization is illustrated by the history of how our society views alcohol and alcoholism. During the nineteenth century, people who drank too much were considered bad, lazy people. They were called drunks, and it was not uncommon for them to be arrested or run out of a town. Drunks were not treated in a sympathetic way because, at that time, it was thought that it was their own fault that they could not stop drinking. During the latter half of the twentieth century, however, people who drank too much were increasingly defined as alcoholics: people with a disease or a genetic predisposition to addiction who were not responsible for their drinking. With alcoholism defined as a disease and not a personal choice, alcoholics came to be viewed with more compassion and understanding. Thus, “badness” was transformed into “sickness.”",
-          "florida_text": "An example of medicalization is illustrated by the history of how our society views alcohol and alcoholism. During the nineteenth century, people who drank too much were considered bad, lazy people. They were called drunks, and it was not uncommon for them to be arrested or run out of a town. Drunks were not treated in a sympathetic way because, at that time, it was thought that it was their own fault that they could not stop drinking. During the latter half of the twentieth century, however, people who drank too much were increasingly defined as alcoholics: people with a disease or a genetic predisposition to addiction who were not responsible for their drinking. With alcoholism defined as a disease and not a personal choice, alcoholics came to be viewed with more compassion and understanding. Thus, “badness” was transformed into “sickness.” There are numerous examples of demedicalization in history as well. During the Civil War era, enslaved people who escaped from their enslavers were diagnosed with a mental disorder called drapetomania. This has since been reinterpreted as a completely appropriate response to being enslaved. A more recent example is homosexuality, which was labeled a mental disorder or a sexual orientation disturbance by the American Psychological Association until 1973. While interactionism does acknowledge the subjective nature of diagnosis, it is important to remember who most benefits when a behavior becomes defined as illness. Pharmaceutical companies make billions treating illnesses such as fatigue, insomnia, and hyperactivity that may not actually be illnesses in need of treatment, but opportunities for companies to make more money.",
+          "original_text": "In the United States, a disproportionate number of racial minorities also have less economic power, so they bear a great deal of the burden of poor health.",
+          "florida_text": "In the United States, a disproportionate number of racial minorities also have fewer financial assets, so they have poorer health outcomes.",
           "change_id": null,
           "original_page": 585,
-          "florida_page": 118
+          "florida_page": 125
         },
         {
           "type": "same",
-          "text": "There are numerous examples of demedicalization in history as well. During the Civil War era, enslaved people who escaped from their enslavers were diagnosed with a mental disorder called drapetomania. This has since been reinterpreted as a completely appropriate response to being enslaved. A more recent example is homosexuality, which was labeled a mental disorder or a sexual orientation disturbance by the American Psychiatric Association until 1973.",
+          "text": "It is not only the poor who suffer from the conflict between dominant and subordinate groups. For many years now, same-sex couples have been denied spousal benefits, either in the form of health insurance or in terms of medical responsibility. Further adding to the issue, doctors hold a disproportionate amount of power in the doctor/patient relationship, which provides them with extensive social and economic benefits.",
           "original_page": 585,
-          "florida_page": 118
+          "florida_page": 125
+        },
+        {
+          "type": "added",
+          "florida_text": "Big companies like pharmaceutical companies have lobbyists to shape policies that benefit their companies.",
+          "change_id": null,
+          "florida_page": 125
         },
         {
           "type": "same",
-          "text": "While interactionism does acknowledge the subjective nature of diagnosis, it is important to remember who most benefits when a behavior becomes defined as illness. Pharmaceutical companies make billions treating illnesses such as fatigue, insomnia, and hyperactivity that may not actually be illnesses in need of treatment, but opportunities for companies to make more money.",
+          "text": "While conflict theorists are accurate in pointing out certain inequalities in the healthcare system, they do not give enough credit to medical advances that would not have been made without an economic structure to support and reward researchers: a structure dependent on profitability. Additionally, in their criticism of the power differential between doctor and patient, they are perhaps dismissive of the hard-won medical expertise possessed by doctors and not patients, which renders a truly egalitarian relationship more elusive. According to theorists working in this perspective, health and illness are both socially constructed. As we discussed in the beginning of the chapter, interactionists focus on the specific meanings and causes people attribute to illness. The term medicalization of deviance refers to the process that changes “bad” behavior into “sick” behavior. A related process is demedicalization, in which “sick” behavior is normalized again. Medicalization and demedicalization affect who responds to the patient, how people respond to the patient, and how people view the personal responsibility of the patient (Conrad and Schneider 1992). An example of medicalization is illustrated by the history of how our society views alcohol and alcoholism. During the nineteenth century, people who drank too much were considered bad, lazy people. They were called drunks, and it was not uncommon for them to be arrested or run out of a town. Drunks were not treated in a sympathetic way because, at that time, it was thought that it was their own fault that they could not stop drinking. During the latter half of the twentieth century, however, people who drank too much were increasingly defined as alcoholics: people with a disease or a genetic predisposition to addiction who were not responsible for their drinking. With alcoholism defined as a disease and not a personal choice, alcoholics came to be viewed with more compassion and understanding.",
           "original_page": 585,
-          "florida_page": 118
+          "florida_page": 125
+        },
+        {
+          "type": "removed",
+          "original_text": "Thus, “badness” was transformed into “sickness.”",
+          "change_id": null,
+          "original_page": 585
+        },
+        {
+          "type": "modified",
+          "original_text": "There are numerous examples of demedicalization in history as well.",
+          "florida_text": "Thus, “badness” was transformed into “sickness.” There are numerous examples of demedicalization in history as well.",
+          "change_id": null,
+          "original_page": 585,
+          "florida_page": 125
+        },
+        {
+          "type": "same",
+          "text": "During the Civil War era, enslaved people who escaped from their enslavers were diagnosed with a mental disorder called drapetomania. This has since been reinterpreted as a completely appropriate response to being enslaved. A more recent example is homosexuality, which was labeled a mental disorder or a sexual orientation disturbance by the American Psychiatric Association until 1973. While interactionism does acknowledge the subjective nature of diagnosis, it is important to remember who most benefits when a behavior becomes defined as illness. Pharmaceutical companies make billions treating illnesses such as fatigue, insomnia, and hyperactivity that may not actually be illnesses in need of treatment, but opportunities for companies to make more money.",
+          "original_page": 585,
+          "florida_page": 125
         }
       ]
     }
