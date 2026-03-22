@@ -38,6 +38,14 @@
     return div.innerHTML;
   }
 
+  function textToHtml(str) {
+    // Convert text with \n\n paragraph breaks into <p> elements
+    if (!str) return "";
+    return str.split("\n\n")
+      .map(p => `<p>${escapeHtml(p.trim())}</p>`)
+      .join("");
+  }
+
   // --- Word Diff (LCS) ---
 
   function wordDiff(oldText, newText) {
@@ -75,19 +83,40 @@
   }
 
   function renderInlineDiff(oldText, newText) {
-    // Single-column inline diff: strikethrough deletions, underline additions
-    const diff = wordDiff(oldText, newText);
-    let html = "";
+    // Find paragraph break positions in the original text
+    // so we can insert <p> tags at the right places
+    const origParas = oldText.split("\n\n");
+    const paraBreakWords = new Set();
+    let wordCount = 0;
+    for (let p = 0; p < origParas.length; p++) {
+      if (p > 0) paraBreakWords.add(wordCount);
+      wordCount += origParas[p].split(/\s+/).filter(w => w).length;
+    }
+
+    // Run word diff on the flattened text
+    const flatOld = oldText.replace(/\n\n/g, " ");
+    const diff = wordDiff(flatOld, newText);
+
+    let html = "<p>";
+    let origWordIdx = 0;
     for (const part of diff) {
+      // Check if we need a paragraph break before this word
+      if ((part.type === "same" || part.type === "del") && paraBreakWords.has(origWordIdx) && part.text.trim()) {
+        html += "</p><p>";
+      }
+
       const escaped = escapeHtml(part.text);
       if (part.type === "same") {
         html += escaped;
+        if (part.text.trim()) origWordIdx++;
       } else if (part.type === "del") {
-        html += `<span class="wdiff-del" aria-label="deleted text">${escaped}</span>`;
+        html += `<span class="wdiff-del">${escaped}</span>`;
+        if (part.text.trim()) origWordIdx++;
       } else if (part.type === "add") {
-        html += `<span class="wdiff-add" aria-label="added text">${escaped}</span>`;
+        html += `<span class="wdiff-add">${escaped}</span>`;
       }
     }
+    html += "</p>";
     return html;
   }
 
@@ -251,30 +280,27 @@
     switch (block.type) {
       case "same":
         return `<div id="${blockId}" class="diff-row type-same"${pageAttrStr}>
-          <div class="diff-col">${escapeHtml(block.text)}</div>
+          <div class="diff-col">${textToHtml(block.text)}</div>
         </div>`;
 
       case "removed":
         if (isRemoved) {
-          // For removed chapters, show as plain readable text
           return `<div id="${blockId}" class="diff-row type-same"${pageAttrStr}>
-            <div class="diff-col">${escapeHtml(block.original_text)}</div>
+            <div class="diff-col">${textToHtml(block.original_text)}</div>
           </div>`;
         }
-        // Single column: red block showing what was removed
         return `<div id="${blockId}" class="diff-row type-removed"${pageAttrStr} aria-label="Removed from Florida version">
           <div class="diff-col">
             <span class="diff-label removed-label">Removed from Florida version</span>
-            ${escapeHtml(block.original_text)}
+            ${textToHtml(block.original_text)}
           </div>
         </div>`;
 
       case "added":
-        // Single column: green block showing what was added
         return `<div id="${blockId}" class="diff-row type-added"${pageAttrStr} aria-label="Added in Florida version">
           <div class="diff-col">
             <span class="diff-label added-label">Added in Florida version</span>
-            ${escapeHtml(block.florida_text)}
+            ${textToHtml(block.florida_text)}
           </div>
         </div>`;
 
