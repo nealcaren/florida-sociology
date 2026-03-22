@@ -74,7 +74,8 @@
     return result;
   }
 
-  function renderWordDiffOriginal(oldText, newText) {
+  function renderInlineDiff(oldText, newText) {
+    // Single-column inline diff: strikethrough deletions, underline additions
     const diff = wordDiff(oldText, newText);
     let html = "";
     for (const part of diff) {
@@ -83,23 +84,9 @@
         html += escaped;
       } else if (part.type === "del") {
         html += `<span class="wdiff-del" aria-label="deleted text">${escaped}</span>`;
-      }
-      // skip "add" tokens for original column
-    }
-    return html;
-  }
-
-  function renderWordDiffFlorida(oldText, newText) {
-    const diff = wordDiff(oldText, newText);
-    let html = "";
-    for (const part of diff) {
-      const escaped = escapeHtml(part.text);
-      if (part.type === "same") {
-        html += escaped;
       } else if (part.type === "add") {
         html += `<span class="wdiff-add" aria-label="added text">${escaped}</span>`;
       }
-      // skip "del" tokens for florida column
     }
     return html;
   }
@@ -198,12 +185,7 @@
 
     let html = "";
 
-    if (!isRemoved) {
-      html += `<div class="diff-col-headers" role="presentation">
-        <span>Original (OpenStax)</span>
-        <span>Florida Version</span>
-      </div>`;
-    }
+    // No column headers needed — hybrid inline layout
 
     if (isRemoved) {
       html += '<div class="removed-chapter-content">';
@@ -268,59 +250,56 @@
 
     switch (block.type) {
       case "same":
-        return `<div id="${blockId}" class="diff-row type-same"${pageAttrStr} role="row">
-          <div class="diff-col" role="cell">${escapeHtml(block.text)}</div>
+        return `<div id="${blockId}" class="diff-row type-same"${pageAttrStr}>
+          <div class="diff-col">${escapeHtml(block.text)}</div>
         </div>`;
 
       case "removed":
         if (isRemoved) {
           // For removed chapters, show as plain readable text
-          return `<div id="${blockId}" class="diff-row type-same"${pageAttrStr} role="row">
-            <div class="diff-col" role="cell">${escapeHtml(block.original_text)}</div>
+          return `<div id="${blockId}" class="diff-row type-same"${pageAttrStr}>
+            <div class="diff-col">${escapeHtml(block.original_text)}</div>
           </div>`;
         }
-        return `<div id="${blockId}" class="diff-row type-removed"${pageAttrStr} role="row" aria-label="Removed text">
-          <div class="diff-col diff-col-original" role="cell">${escapeHtml(block.original_text)}</div>
-          <div class="diff-col diff-col-florida" role="cell" aria-label="Text not present in Florida version">Removed</div>
+        // Single column: red block showing what was removed
+        return `<div id="${blockId}" class="diff-row type-removed"${pageAttrStr} aria-label="Removed from Florida version">
+          <div class="diff-col">
+            <span class="diff-label removed-label">Removed from Florida version</span>
+            ${escapeHtml(block.original_text)}
+          </div>
         </div>`;
 
       case "added":
-        return `<div id="${blockId}" class="diff-row type-added"${pageAttrStr} role="row" aria-label="Added text">
-          <div class="diff-col diff-col-original" role="cell" aria-label="Text not present in original">Added in Florida</div>
-          <div class="diff-col diff-col-florida" role="cell">${escapeHtml(block.florida_text)}</div>
+        // Single column: green block showing what was added
+        return `<div id="${blockId}" class="diff-row type-added"${pageAttrStr} aria-label="Added in Florida version">
+          <div class="diff-col">
+            <span class="diff-label added-label">Added in Florida version</span>
+            ${escapeHtml(block.florida_text)}
+          </div>
         </div>`;
 
       case "modified":
-        return `<div id="${blockId}" class="diff-row type-modified"${pageAttrStr} role="row" aria-label="Modified text">
-          <div class="diff-col diff-col-original" role="cell">${renderWordDiffOriginal(block.original_text, block.florida_text)}</div>
-          <div class="diff-col diff-col-florida" role="cell">${renderWordDiffFlorida(block.original_text, block.florida_text)}</div>
+        // Inline diff: one column with strikethrough deletions and underlined additions
+        return `<div id="${blockId}" class="diff-row type-modified"${pageAttrStr}>
+          <div class="diff-col">${renderInlineDiff(block.original_text, block.florida_text)}</div>
         </div>`;
 
       case "moved": {
         const origLoc = block.original_location ? escapeHtml(block.original_location) : "";
         const flLoc = block.florida_location ? escapeHtml(block.florida_location) : "";
-        const tooltipOrig = flLoc ? `<span class="moved-tooltip" tabindex="0" aria-label="Moved to ${flLoc}">Moved to: ${flLoc}<span class="moved-tooltip-text">Moved to ${flLoc}</span></span>` : "";
-        const tooltipFl = origLoc ? `<span class="moved-tooltip" tabindex="0" aria-label="Moved from ${origLoc}">Moved from: ${origLoc}<span class="moved-tooltip-text">Moved from ${origLoc}</span></span>` : "";
+        const moveLabel = flLoc ? `Moved to ${flLoc}` : origLoc ? `Moved from ${origLoc}` : "Moved";
 
-        // If both texts exist and differ, show word diff; otherwise show same text
-        let origHtml, flHtml;
+        let contentHtml;
         if (block.original_text && block.florida_text && block.original_text !== block.florida_text) {
-          origHtml = renderWordDiffOriginal(block.original_text, block.florida_text);
-          flHtml = renderWordDiffFlorida(block.original_text, block.florida_text);
+          contentHtml = renderInlineDiff(block.original_text, block.florida_text);
         } else {
-          const text = block.original_text || block.florida_text || "";
-          origHtml = escapeHtml(text);
-          flHtml = escapeHtml(text);
+          contentHtml = escapeHtml(block.original_text || block.florida_text || "");
         }
 
-        return `<div id="${blockId}" class="diff-row type-moved"${pageAttrStr} role="row" aria-label="Moved text">
-          <div class="diff-col diff-col-original" role="cell">
-            ${tooltipOrig ? `<div style="margin-bottom:0.35rem;font-family:system-ui,sans-serif;font-size:0.8rem;">${tooltipOrig}</div>` : ""}
-            ${origHtml}
-          </div>
-          <div class="diff-col diff-col-florida" role="cell">
-            ${tooltipFl ? `<div style="margin-bottom:0.35rem;font-family:system-ui,sans-serif;font-size:0.8rem;">${tooltipFl}</div>` : ""}
-            ${flHtml}
+        return `<div id="${blockId}" class="diff-row type-moved"${pageAttrStr} aria-label="Moved text">
+          <div class="diff-col">
+            <span class="diff-label moved-label">${moveLabel}</span>
+            ${contentHtml}
           </div>
         </div>`;
       }

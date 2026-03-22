@@ -208,98 +208,74 @@
   border-bottom: 1px solid var(--color-border);
 }
 
-/* === Diff Rows === */
+/* === Diff Rows (single-column hybrid layout) === */
 .diff-row {
-  display: flex;
-  gap: 1.5rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.75rem;
   position: relative;
-}
-
-/* Add subtle separator when switching between same and diff block types */
-.diff-row.type-same + .diff-row:not(.type-same),
-.diff-row:not(.type-same) + .diff-row.type-same {
-  margin-top: 1.5rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--color-border);
+  max-width: 52rem;
 }
 
 .diff-col {
-  flex: 1;
-  min-width: 0;
   padding: 0.5rem 0.75rem;
   border-radius: 4px;
-  line-height: 1.65;
+  line-height: 1.7;
 }
 
-/* Same text: single merged column */
+/* Same text: no decoration */
 .diff-row.type-same .diff-col {
   background: transparent;
 }
 
-.diff-row.type-same {
-  display: block;
-}
-
-/* Removed text: left column only */
-.diff-row.type-removed .diff-col-original {
+/* Removed text: red left border + light red background */
+.diff-row.type-removed .diff-col {
   background: var(--color-removed-bg);
   border-left: 3px solid rgba(220, 38, 38, 0.4);
+  color: var(--color-removed-text);
 }
 
-.diff-row.type-removed .diff-col-florida {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-text-muted);
-  font-style: italic;
-  font-family: system-ui, sans-serif;
-  font-size: 0.85rem;
-  background: repeating-linear-gradient(
-    -45deg,
-    transparent,
-    transparent 8px,
-    rgba(0, 0, 0, 0.02) 8px,
-    rgba(0, 0, 0, 0.02) 16px
-  );
-}
-
-/* Added text: right column only */
-.diff-row.type-added .diff-col-florida {
-  background: rgba(22, 163, 74, 0.12);
+/* Added text: green left border + light green background */
+.diff-row.type-added .diff-col {
+  background: rgba(22, 163, 74, 0.08);
   border-left: 3px solid rgba(22, 163, 74, 0.4);
 }
 
-.diff-row.type-added .diff-col-original {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-text-muted);
-  font-style: italic;
-  font-family: system-ui, sans-serif;
-  font-size: 0.85rem;
-  background: repeating-linear-gradient(
-    -45deg,
-    transparent,
-    transparent 8px,
-    rgba(0, 0, 0, 0.02) 8px,
-    rgba(0, 0, 0, 0.02) 16px
-  );
-}
-
-/* Modified text: neutral background, only the changed words get color */
-.diff-row.type-modified .diff-col-original {
-  border-left: 3px solid rgba(220, 38, 38, 0.3);
-}
-
-.diff-row.type-modified .diff-col-florida {
-  border-left: 3px solid rgba(22, 163, 74, 0.3);
+/* Modified text: subtle left border, inline diff handles the highlights */
+.diff-row.type-modified .diff-col {
+  border-left: 3px solid var(--color-border);
 }
 
 /* Moved text */
 .diff-row.type-moved .diff-col {
   background: var(--color-moved-bg);
   border-left: 3px dashed var(--color-moved-border);
+}
+
+/* Block labels (Removed, Added, Moved) */
+.diff-label {
+  display: inline-block;
+  font-family: system-ui, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  margin-bottom: 0.35rem;
+}
+
+.removed-label {
+  background: rgba(220, 38, 38, 0.15);
+  color: var(--color-removed-text);
+}
+
+.added-label {
+  background: rgba(22, 163, 74, 0.15);
+  color: #166534;
+}
+
+.moved-label {
+  background: rgba(217, 119, 6, 0.15);
+  color: #92400e;
 }
 
 .moved-tooltip {
@@ -349,46 +325,15 @@
   padding: 0 1px;
 }
 
-/* === Column Headers === */
-.diff-col-headers {
-  display: flex;
-  gap: 1.5rem;
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--color-border);
-  font-family: system-ui, sans-serif;
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--color-text-muted);
-  position: sticky;
-  top: 3.5rem;
-  background: var(--color-bg);
-  z-index: 5;
-  padding-top: 0.5rem;
-}
-
-.diff-col-headers span {
-  flex: 1;
-}
-
-/* === Removed Chapter (single column readable) === */
-.removed-chapter-content .diff-row {
-  display: block;
-}
-
-.removed-chapter-content .diff-col-florida {
+/* === Removed Chapter (no diff labels) === */
+.removed-chapter-content .diff-label {
   display: none;
 }
 
-.removed-chapter-content .diff-col-original {
+.removed-chapter-content .diff-row .diff-col {
   background: transparent;
   border-left: none;
-}
-
-.removed-chapter-content .diff-col-headers {
-  display: none;
+  color: var(--color-text);
 }
 
 /* === Page Thumbnail (fixed position) === */
@@ -551,18 +496,8 @@
   }
 }
 
-/* Mobile: stack columns */
+/* Mobile */
 @media (max-width: 768px) {
-  .diff-row {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .diff-col-headers {
-    flex-direction: column;
-    gap: 0.25rem;
-  }
-
   .compare-main {
     padding: 1rem;
   }
@@ -574,14 +509,6 @@
   .section-heading {
     flex-direction: column;
     gap: 0.25rem;
-  }
-
-  /* On mobile, show empty columns as small labels instead of full-height */
-  .diff-row.type-removed .diff-col-florida,
-  .diff-row.type-added .diff-col-original {
-    min-height: 1.5rem;
-    padding: 0.25rem 0.5rem;
-    font-size: 0.75rem;
   }
 }
 
