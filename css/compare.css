@@ -287,14 +287,12 @@
   );
 }
 
-/* Modified text: both columns with highlights */
+/* Modified text: neutral background, only the changed words get color */
 .diff-row.type-modified .diff-col-original {
-  background: rgba(220, 38, 38, 0.05);
   border-left: 3px solid rgba(220, 38, 38, 0.3);
 }
 
 .diff-row.type-modified .diff-col-florida {
-  background: rgba(22, 163, 74, 0.05);
   border-left: 3px solid rgba(22, 163, 74, 0.3);
 }
 
