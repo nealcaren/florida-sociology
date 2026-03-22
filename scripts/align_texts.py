@@ -293,28 +293,51 @@ def align_chapter(chapter: int, dry_run: bool = False) -> dict:
                 fl_by_sub[parts[1]] = s
         used_fl_sections = set()
 
+        # Build title lookup for matching by section heading
+        fl_by_title = {}
+        for s in fl_sections:
+            # Extract the title part after the section number (e.g., "10.1 Foo" -> "foo")
+            heading = s.get("heading", "")
+            title_part = re.sub(r"^\d+\.\d+\s+", "", heading).strip().lower()
+            if title_part:
+                fl_by_title[title_part] = s
+
         for orig_sec in orig_sections:
             fl_sec = None
 
             if entry["type"] == "merged":
-                # For merged chapters, always use content-based matching
-                # since section numbers are meaningless across merged chapters
-                pass
+                # For merged chapters, match by title similarity first
+                orig_heading = orig_sec.get("heading", "")
+                orig_title = re.sub(r"^\d+\.\d+\s+", "", orig_heading).strip().lower()
+                if orig_title:
+                    # Exact title match
+                    if orig_title in fl_by_title and fl_by_title[orig_title]["section_id"] not in used_fl_sections:
+                        fl_sec = fl_by_title[orig_title]
+                    else:
+                        # Fuzzy title match
+                        from difflib import SequenceMatcher as _SM
+                        best_title_ratio = 0.5
+                        for fl_title, fl_candidate in fl_by_title.items():
+                            if fl_candidate["section_id"] in used_fl_sections:
+                                continue
+                            ratio = _SM(None, orig_title, fl_title).ratio()
+                            if ratio > best_title_ratio:
+                                best_title_ratio = ratio
+                                fl_sec = fl_candidate
             else:
                 # Try matching by section ID first
                 fl_sec = fl_by_id.get(orig_sec["section_id"])
                 # Try matching by sub-section number for renumbered chapters
-                # e.g., original "5.1" -> Florida "4.1" (both sub ".1")
                 if fl_sec is None:
                     orig_parts = orig_sec["section_id"].split(".")
                     if len(orig_parts) == 2:
                         fl_sec = fl_by_sub.get(orig_parts[1])
 
-            # Content-based matching for unmatched sections
+            # Content-based matching fallback for unmatched sections
             if fl_sec is None and orig_sec["section_id"] != "intro":
                 from difflib import SequenceMatcher as _SM
                 orig_words = " ".join(orig_sec["paragraphs"]).split()
-                best_ratio = 0.3  # minimum threshold
+                best_ratio = 0.3
                 best_fl = None
                 for candidate in fl_sections:
                     if candidate["section_id"] in used_fl_sections:
