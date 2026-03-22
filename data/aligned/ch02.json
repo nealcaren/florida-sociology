@@ -10,11 +10,6 @@
       "florida_heading": "Introduction",
       "blocks": [
         {
-          "type": "added",
-          "florida_text": "Chapter 2: Sociological Research & Methods of Inquiry",
-          "change_id": null
-        },
-        {
           "type": "same",
           "text": "As sociology made its way into American universities, scholars developed it into a science that relies on research to build a body of knowledge. Sociologists began collecting data (observations and documentation) and applying the scientific method or an interpretative framework to increase understanding of societies and social interactions.",
           "original_page": 52
@@ -28,11 +23,6 @@
           "type": "same",
           "text": "Consider a study on the relationship between COVID-19 and crime rates published in Crime Science, a scholarly journal. Researchers hypothesized that COVID-19 stay-at-home restrictions would lead to a drop both in street crimes and home burglaries. Researchers collected the data Swedish police used to track and project future crimes. They found that assaults, pickpocketing and burglary had decreased significantly (Gerell, Kardell, and Kindgren, 2020). In this way, researchers used empirical evidence and statistical analysis to answer the question how did COVID-19 restrictions impact crime rates. In this chapter, we will explore the approaches and methods sociologists use to conduct studies like this one.",
           "original_page": 52
-        },
-        {
-          "type": "added",
-          "florida_text": "Arkowitz, Hal, and Scott O. Lilienfeld. 2009. “Lunacy and the Full Moon: Does a full moon really trigger strange behavior?” Scientific American. Retrieved December 30, 2014 (http://www.scientificamerican.com/article/lunacy-and-the-full-moon/). Bradbury Jones, C. and Isham, L. (2020), The pandemic paradox: The consequences of COVID 19 on domestic violence. J Clin Nurs, 29: 2047-2049. doi:10.1111/jocn.15296 Gerell, M., Kardell, J., & Kindgren, J. (2020, May 2). Minor covid-19 association with crime in Sweden, a ten week follow up. https://doi.org/10.31235/osf.io/w7gka Rotton, James, and Ivan W. Kelly. 1985. “Much Ado about the Full Moon: A Meta-analysis of Lunar-Lunacy Research.” Psychological Bulletin 97 (no. 2): 286–306.",
-          "change_id": null
         }
       ]
     },
@@ -42,10 +32,8 @@
       "florida_heading": "2.1 Approaches to Sociological Research",
       "blocks": [
         {
-          "type": "modified",
-          "original_text": "When sociologists apply the sociological perspective and begin to ask questions, no topic is off limits. Every aspect of human behavior is a source of possible investigation. Sociologists question the world that humans have created and live in. They notice patterns of behavior as people move through that world. Using sociological methods and systematic research within the framework of the scientific method and a scholarly interpretive perspective, sociologists have discovered social patterns in the workplace that have transformed industries, in families that have enlightened family members, and in education that have aided structural changes in classrooms.",
-          "florida_text": "When sociologists apply the sociological perspective and begin to ask questions, almost no topic is off limits. Every aspect of human behavior is a source of possible investigation. Sociologists question the world that humans have created and live in. They notice patterns of behavior as people move through that world. Using sociological methods and Figure 2.1 Many believe that crime rates go up during the full moon, but scientific research does not support this conclusion. (Credit: Arman Thanvir/flickr)",
-          "change_id": null,
+          "type": "same",
+          "text": "When sociologists apply the sociological perspective and begin to ask questions, no topic is off limits. Every aspect of human behavior is a source of possible investigation. Sociologists question the world that humans have created and live in. They notice patterns of behavior as people move through that world. Using sociological methods and systematic research within the framework of the scientific method and a scholarly interpretive perspective, sociologists have discovered social patterns in the workplace that have transformed industries, in families that have enlightened family members, and in education that have aided structural changes in classrooms.",
           "original_page": 52
         },
         {
@@ -87,11 +75,6 @@
           "type": "same",
           "text": "With its systematic approach, the scientific method has proven useful in shaping sociological studies. The scientific method provides a systematic, organized series of steps that help ensure objectivity and consistency in exploring a social problem. They provide the means for accuracy, reliability, and validity. In the end, the scientific method provides a shared basis for discussion and analysis (Merton 1963). Typically, the scientific method has 6 steps which are described below.",
           "original_page": 52
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 2.2 The Scientific Method. 6 steps of the scientific method are an essential tool in research.",
-          "change_id": null
         },
         {
           "type": "same",
@@ -197,11 +180,6 @@
           "type": "added",
           "florida_text": "you to the fundamental tools used by sociologists so that you can benefit from the insights they provide to everyone, regardless of one’s major or areas of interest.",
           "change_id": null
-        },
-        {
-          "type": "added",
-          "florida_text": "Arkowitz, Hal, and Scott O. Lilienfeld. 2009. “Lunacy and the Full Moon: Does a full moon really trigger strange behavior?” Scientific American. Retrieved October 20, 2014 (http://www.scientificamerican.com/article/lunacy- and-the-full-moon/). Berger, Peter L. 1963. Invitation to Sociology: A Humanistic Perspective. New York: Anchor Books. Merton, Robert. 1968 [1949]. Social Theory and Social Structure. New York: Free Press. “Scientific Method Lab,” the University of Utah, (http://aspire.cosmic- ray.org/labs/scientific_method/sci_method_main.html).",
-          "change_id": null
         }
       ]
     },
@@ -236,11 +214,6 @@
           "original_text": "At some point, most people in the United States respond to some type of survey. The 2020 U.S. Census is an excellent example of a large-scale survey intended to gather sociological data. Since 1790, the United States government has conducted a survey consisting of six questions designed to collect demographic data about residents. Currently, the Census is received by residents in the United Stated and five territories, and consists of 12 questions.",
           "change_id": null,
           "original_page": 52
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 2.3 Questionnaires are a common research method. (Credit: CDC Global/flickr)",
-          "change_id": null
         },
         {
           "type": "same",
@@ -301,11 +274,6 @@
           "original_page": 52
         },
         {
-          "type": "added",
-          "florida_text": "Figure 2.4 Real-time surveys are common in classrooms, live-audience events, and even popular media. Twitter polls have often replaced physical devices such as the one pictured. (Credit: Sam Howzit/flickr)",
-          "change_id": null
-        },
-        {
           "type": "same",
           "text": "The work of sociology rarely happens in limited, confined spaces. Rather, sociologists go out into the world. They meet subjects where they live, work, and play. Field research refers to gathering primary data from a natural environment. To conduct field research, the sociologist must be willing to step into new environments and observe, participate, or experience those worlds. In field work, the sociologists, rather than the subjects, are the ones out of their element.",
           "original_page": 52
@@ -343,11 +311,6 @@
           "original_page": 52
         },
         {
-          "type": "added",
-          "florida_text": "Figure 2.5 Sociological researchers travel across countries and cultures to interact with and observe subjects in their natural environments. (Credit: IMLS Digital Collections and Content/flickr)",
-          "change_id": null
-        },
-        {
           "type": "same",
           "text": "In a study of small towns in the United States conducted by sociological researchers John S. Lynd and Helen Merrell Lynd, the team altered their purpose as they gathered data. They initially planned to focus their study on the role of religion in U.S. towns. As they gathered observations, they realized that the effect of industrialization and urbanization was the more relevant topic of this social group. The Lynds did not change their methods, but they revised the purpose of their study.",
           "original_page": 52
@@ -364,11 +327,6 @@
           "florida_text": "The townspeople of Muncie, Indiana, knew why the researchers were in their midst. But some sociologists prefer not to alert people to their presence. The main advantage of covert participant observation is that it allows the researcher access to authentic, natural behaviors of a group’s members. The challenge, however, is gaining access to a setting without disrupting the pattern of others’ behavior. Becoming an inside member of a group, organization, or subculture takes time and effort. Researchers must pretend to be something they are not. The process could involve role playing, making contacts, networking, or applying for a job. Once inside a group, some researchers spend months or even years Sociology in the Real World Beyoncé and Lady Gaga as Sociological Subjects",
           "change_id": null,
           "original_page": 52
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 2.6 Researchers have used surveys and participant observations to accumulate data on Lady Gaga and Beyonce as multifaceted performers. (Credit a: John Robert Chartlon/flickr, b: Kristopher Harris/flickr) Sociologists have studied Lady Gaga and Beyoncé and their impact on music, movies, social media, fan participation, and social equality. In their studies, researchers have used several research methods including secondary analysis, participant observation, and surveys from concert participants. In their study, Click, Lee & Holiday (2013) interviewed 45 Lady Gaga fans who utilized social media to communicate with the artist. These fans viewed Lady Gaga as a mirror of themselves and a source of inspiration. Like her, they embrace not being a part of mainstream culture. Some of her fans report that they view the “song “Born This Way” as a rallying cry and answer her calls for “Paws Up” with a physical expression of solidarity—outstretched arms and ﬁngers bent and curled to resemble monster claws.” Sascha Buchanan (2019) made use of participant observation to study the relationship between two fan groups, that of Beyoncé and that of Rihanna. She observed award shows sponsored by iHeartRadio, MTV EMA, and BET that pit one group against another as they competed for Best Fan Army, Biggest Fans, and FANdemonium. The study showed how within-group solidarity is strengthened through competition.",
-          "change_id": null
         },
         {
           "type": "same",
@@ -423,16 +381,6 @@
           "original_page": 52
         },
         {
-          "type": "added",
-          "florida_text": "Figure 2.7 Is she a working waitress or a sociologist conducting a study using participant observation? A field researcher may take a job or take other steps to get firsthand knowledge of their subjects. (Credit: Gareth Williams/flickr)",
-          "change_id": null
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 2.8 Field research happens in real locations. What type of environment do workspaces foster? What would a sociologist discover after blending in? (Credit: Lyncconf Games/flickr)",
-          "change_id": null
-        },
-        {
           "type": "same",
           "text": "Sometimes a researcher wants to study one specific person or event. A case study is an in-depth analysis of a single event, situation, or individual. To conduct a case study, a researcher examines existing sources like documents and archival records, conducts interviews, engages in direct observation and even participant observation, if possible.",
           "original_page": 52
@@ -480,11 +428,6 @@
         {
           "type": "added",
           "florida_text": "Secondary Data Analysis Sociological Research The Making of Middletown: A Study in Modern U.S. Culture In 1924, a young married couple named Robert and Helen Lynd undertook an unprecedented ethnography: to apply sociological methods to the study of one U.S. city to discover what “ordinary” people in the United States did and believed. Choosing Muncie, Indiana (population about 30,000) as their subject, they moved to the small town and lived there for eighteen months. Ethnographers had been examining other cultures for decades—groups considered minorities or outsiders—like gangs, immigrants, and the poor. But no one had studied the so-called average American. Recording interviews and using surveys to gather data, the Lynds objectively described what they observed. Researching existing sources, they compared Muncie in 1890 to the Muncie they observed in 1924. Most Muncie adults, they found, had grown up on farms but now lived in homes inside the city. As a result, the Lynds focused their study on the impact of industrialization and urbanization. They observed that Muncie was divided into business and working-class groups. They defined business class as dealing with abstract concepts and symbols, while working class people used tools to create concrete objects. The two classes led different lives with different goals and hopes. However, the Lynds observed, mass production offered both classes the same amenities. Like wealthy families, the working class was now able to own radios, cars, washing machines, telephones, vacuum cleaners, and refrigerators. This was an emerging material reality of the 1920s. As the Lynds worked, they divided their manuscript into six chapters: Getting a Living, Making a Home, Training the Young, Using Leisure, Engaging in Religious Practices, and Engaging in Community Activities. When the study was completed, the Lynds encountered a big problem. The Rockefeller Foundation, which had commissioned the book, claimed it was useless and refused to publish it. The Lynds asked if they could seek a publisher themselves. Middletown: A Study in Modern American Culture was not only published in 1929 but also became an instant bestseller, a status unheard of for a sociological study. The book sold out six printings in its first year of publication (Caplow, Hicks, & Wattenberg. 2000). Nothing like it had ever been done before. Middletown was reviewed on the front page of the New York Times. Readers in the 1920s and 1930s identified with the citizens of Muncie, Indiana, but they were equally fascinated by the sociological methods and the use of scientific data to define ordinary people in the United States. The book was proof that social data was important—and interesting—to the U.S. public.",
-          "change_id": null
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 2.9 A classroom in Muncie, Indiana, in 1917, five years before John and Helen Lynd began researching this “typical” U.S. community. (Credit: Don O’Brien/flickr)",
           "change_id": null
         },
         {
@@ -540,16 +483,6 @@
           "original_text": "When conducting content analysis, it is important to consider the date of publication of an existing source and to take into account attitudes and common cultural ideals that may have influenced the research. For example, when Robert S. Lynd and Helen Merrell Lynd gathered research in the 1920s, attitudes and cultural norms were vastly different then than they are now. Beliefs about gender roles, race, education, and work have changed significantly since then. At the time, the study’s purpose was to reveal insights about small U.S. communities. Today, it is an illustration of 1920s attitudes and values.",
           "change_id": null,
           "original_page": 52
-        },
-        {
-          "type": "added",
-          "florida_text": "Bureau of Justice Statistics (BJS). 2025. Homicide Victimization in the United States, 2023. Washington, DC: U.S. Department of Justice. Butsch, Richard. 2000. The Making of American Audiences: From Stage to Television, 1750–1990. Cambridge: Cambridge UP. Caplow, Theodore, Louis Hicks, and Ben Wattenberg. 2000. “The First Measured Century: Middletown.” The First Measured Century. PBS. Retrieved February 23, 2012 (http://www.pbs.org/fmc/index.htm). Click, M., Lee, H., & Holladay, H. (2013). Making monsters: Lady Gaga, fan identification, and social media. Popular Music and Society, 36(3), 360–379. https://doi.org/10.1080/03007766.2013.798546 Dilling-Hansen, Lise. 2015. “Affective Fan Experiences of Lady Gaga.” Transformative Works and Cultures, no. 20. https://doi.org/10.3983/twc.2015.0662. Durkheim, Émile. 1966 [1897]. Suicide. New York: Free Press. Federal Bureau of Investigation (FBI). 2023a. Crime in the United States, 2023. Washington, DC: U.S. Department of Justice. Franke, Richard, and James Kaul. 1978. “The Hawthorne Experiments: First Statistical Interpretation.” American Sociological Review 43(5):632–643. Grice, Elizabeth. “Cry of an Enfant Sauvage.” The Telegraph. Retrieved July 20, 2011 (http://www.telegraph.co.uk/culture/tvandradio/3653890/Cry-of-an-enfant-sauvage.html).",
-          "change_id": null
-        },
-        {
-          "type": "added",
-          "florida_text": "Griffin, F. J. (2011). At last . . . ? : Michelle obama, beyoncé, race & history. Daedalus, 140(1), 131-141,8. Retrieved from https://libproxy.uhcl.edu/login?url=https://search.proquest.com/docview/848998668?accountid=7108 Heussenstamm, Frances K. 1971. “Bumper Stickers and Cops” Trans-action: Social Science and Modern Society 4:32– 33. Igo, Sarah E. 2008. The Averaged American: Surveys, Citizens, and the Making of a Mass Public. Cambridge, MA: Harvard University Press. Kumari, A. (2016), “Yoü and I”: Identity and the Performance of Self in Lady Gaga and Beyoncé. J Pop Cult, 49: 403-416. doi:10.1111/jpcu.12405 Jang, S. M., & Lee, H. (2014). When Pop Music Meets a Political Issue: Examining How “Born This Way” Influences Attitudes Toward Gays and Gay Rights Policies. Journal of Broadcasting & Electronic Media, 58(1), 114–130. https://doi-org.libproxy.uhcl.edu/10.1080/08838151.2013.875023 Lynd, Robert S., and Helen Merrell Lynd. 1959. Middletown: A Study in Modern American Culture. San Diego, CA: Harcourt Brace Javanovich. Lynd, Staughton. 2005. “Making Middleton.” Indiana Magazine of History 101(3):226–238. Pew Research Center. 2014. “Ebola Worries Rise, But Most Are ‘Fairly’ Confident in Government, Hospitals to Deal with Disease: Broad Support for U.S. Efforts to Deal with Ebola in West Africa.” Pew Research Center for the People & the Press, October 21. Retrieved October 25, 2014 (http://www.people-press.org/2014/10/21/ebola-worries- rise-but-most-are-fairly-confident-in-government-hospitals-to-deal-with-disease/). Social Sciences and Humanities Research Council of Canada. n.d. “Institutional Ethnography.” Retrieved October 19, 2014 (http://web.uvic.ca/~mariecam/kgSite/institutionalEthnography.html). Sonnenfeld, Jeffery A. 1985. “Shedding Light on the Hawthorne Studies.” Journal of Occupational Behavior 6:125. Sascha Buchanan. (2019). Competition and controlling images as the fuel igniting Beyoncé and Rihanna fandom fights. Transformative Works and Cultures, 29. https://doaj.org/article/557dc6f3b65a4e168f22a243eed914e2 Turbek, S.P., Chock, T.M., Donahue, K., Havrilla, C.A., Oliverio, A.M., Polutchko, S.K., Shoemaker, L.G. and Vimercati, L. (2016), Scientific Writing Made Easy: A Step by Step Guide to Undergraduate Writing in the Biological Sciences. Bull Ecol Soc Am, 97: 417-426. doi:10.1002/bes2.1258",
-          "change_id": null
         }
       ]
     },
@@ -611,37 +544,7 @@
         },
         {
           "type": "added",
-          "florida_text": "Figure 2.10 Participants in the Tuskegee study were denied important information about their diagnosis, leading to significant health issues. (Credit: Centers for Disease Control)",
-          "change_id": null
-        },
-        {
-          "type": "added",
           "florida_text": "relationships. His ethics were questioned because he misrepresented his identity and intent while observing and questioning the men he interviewed (Nardi, 1995). These examples are important because they provide insights about the importance of conducting research that does not harm research participants. When researchers do not engage in ethical behaviors, it hurts all social scientists because people lose trust in science and scientists, and social scientists can only do the work to solve important problems in society when people volunteer to participate in well-designed research studies. In addition to ethical study designs, researchers also work hard to design studies that are objective, replicate previous findings, and challenge previous theories. Science is an incremental process. Almost no scientific discoveries are based on a single study, and it is up to scientists to continue to question and re-evaluate (i.e., think again) our assumptions. Social scientists have a responsibility to identify new ways to test various phenomena, and to hold other scientists accountable by using the highest quality data and the best methods available to replicate previous study findings. Another challenge for social scientists is related to drawing conclusions about causality. Most social science studies are not explicitly designed to establish causal connections. Studies instead may be designed to identify correlations between two variables, but these variables may only be related to each other because they are both connected to another factor (i.e., they are “spurious”). For example, a study using a large amount of data in a population may show a statistically significant association between regularly taking allergy medicine and frequency of sinus infections. In the absence of a theory to support this connection, a researcher might draw a conclusion that this association is causal such that taking allergy medications increase risk of sinus infections. However, people who take allergy medication usually do so because they have allergic responses to their environment, which commonly include a runny nose, sneezing, and other sinus issues that are also known to increase risk of sinus infections. That is, these individuals are uniquely at risk of having regular sinus infection, so the significant association is likely a consequence of the population being studied, not about the medication. To determine if allergy medication increases or decreases risk of sinus infections, the researchers must first use a different sample – they must identify individuals who have regular allergy symptoms (i.e., the population at risk) and compare those who take allergy medications with those who do not in this sample. Identifying those who are “at risk” will become increasingly important as Artificial Intelligence (AI) tools become more central to how people conduct social science studies. AI can be leveraged to study relationships between a massive number of variables without any theoretical basis (i.e., atheoretical exploratory analysis) at such a large scale that significant associations may emerge even if they have no causal connection. As a result, the next phase of AI is likely to be most important for exploratory research, and, if leveraged effectively, may help researchers come up with new questions that they may not have ever considered. It may also help researchers identify possible alternative hypotheses to established research findings. That is, AI is likely to become a pathway for inspiring new sociological research, but it is up to researchers to ensure that we use ethical standards in the way that it is leveraged.",
-          "change_id": null
-        },
-        {
-          "type": "added",
-          "florida_text": "Key Terms accuracy: using a tool makes the measuring more precise. case study: in-depth analysis of a single event, situation, or individual code of ethics: a set of guidelines that the American Sociological Association has established to foster ethical research and professionally responsible scholarship in sociology correlation: when a change in one variable coincides with a change in another variable, but does not necessarily indicate causation dependent variables: a variable changed by other variables empirical evidence: evidence that comes from direct observations, scientifically gathered data, or experimentation",
-          "change_id": null
-        },
-        {
-          "type": "added",
-          "florida_text": "ethnography: participating and observing thinking and behavior in a social setting experiment: the testing of a hypothesis under controlled conditions field research: gathering data from a natural environment without doing a lab experiment or a survey Hawthorne effect: when study subjects behave in a certain manner due to their awareness of being observed by a researcher hypothesis: a testable educated guess about predicted outcomes between two or more variables independent variables: variables that cause changes in dependent variables interpretive framework: a sociological research approach that seeks in-depth understanding of a topic or subject through observation or interaction; this approach is not based on hypothesis testing interview: a one-on-one conversation between the researcher and the subject literature review: a scholarly research step that entails identifying and studying all existing studies on a topic to create a basis for new research nonreactive research: using secondary data, does not include direct contact with research subjects and does not alter or influence people’s behaviors operational definitions: specific explanations of abstract concepts that a researcher plans to study participant observation: when a researcher immerses herself in a group or social setting in order to make observations from an “insider” perspective population: a defined group serving as the subject of a study primary data: data that are collected directly from firsthand experience qualitative data: non-numerical, descriptive data that is often subjective and based on what is experienced in a natural setting quantitative data: data collected in numerical form that can be counted and analyzed using statistics random sample: a study’s participants being randomly selected to serve as a representation of a larger population reliability: a measure of a study’s consistency that considers how likely results are to be replicated if a study is reproduced samples: small, manageable number of subjects that represent the population scientific method: Uses rules of logic and accepted methods of discovery to conduct research that involves asking a question, researching existing sources, forming a hypothesis, designing a data collection method, gathering data, and drawing conclusions secondary data analysis: using data collected by others and applying new interpretations surveys: collect data from subjects who respond to a series of questions about thinking, behaviors, and opinions, often in the form of a questionnaire validity: the degree to which a sociological measure accurately reflects the topic of study value neutrality: a practice of remaining impartial, without bias or judgment during the course of a study and in publishing results",
-          "change_id": null
-        },
-        {
-          "type": "added",
-          "florida_text": "References",
-          "change_id": null
-        },
-        {
-          "type": "added",
-          "florida_text": "Caplain, Arthur (2007). Bad blood: The Tuskegee syphilis experiment. BioSocieties, 2(2). https://doi.org/10.1017/S1745855207225529 Code of Ethics. 1999. American Sociological Association. Retrieved July 1, 2011 (http://www.asanet.org/about/ethics.cfm). Khan FA. The Immortal Life of Henrietta Lacks. J IMA. 2011;43(2):93-94. doi:10.5915/43-2-8609 Nardi, P. (1995). “The Breastplate of Righteousness”: Twenty-Five Years After Laud Humphreys’ Tearoom Trade; Impersonal Sex in Public Places. Journal of Homosexuality, 30(2), 1–10. http://search.proquest.com/docview/204986635/ Rossi, Peter H. 1987. “No Good Applied Social Research Goes Unpunished.” Society 25(1):73–79. Shah, S. (2010). Henrietta Lacks’ story. The Lancet, 375(9721), 1154–1154. https://doi.org/10.1016/S0140- 6736(10)60500-4",
-          "change_id": null
-        },
-        {
-          "type": "added",
-          "florida_text": "Valentine, Austin, “A Look Into the Tuskegee Study of Untreated Syphilis in the Negro Male in Macon County, Alabama“ (2019). Student Scholarship & Creative Works. 9. https://digitalcommons.murraystate.edu/sscw/9 Vogels, S. (2014). The Milgram experiment: Its impact and interpretation. Weber, Max. 1949. Methodology of the Social Sciences. Translated by H. Shils and E. Finch. Glencoe, IL: Free Press. Wikipedia contributors. (2020, June 28). Milgram experiment. In Wikipedia, The Free Encyclopedia. Retrieved 19:33, July 18, 2020, from https://en.wikipedia.org/w/index.php?title=Milgram_experiment&oldid=964989892 Wikipedia contributors. (2020, July 14). Laud Humphreys. In Wikipedia, The Free Encyclopedia. Retrieved 21:24, July 18, 2020, from https://en.wikipedia.org/w/index.php?title=Laud_Humphreys&oldid=967693266 Zimbardo, P., & Musen, K. (2004). Quiet Rage The Stanford Prison Experiment. Philip G. Zimbardo and Stanford University.",
           "change_id": null
         }
       ]

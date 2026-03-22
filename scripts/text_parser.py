@@ -8,12 +8,24 @@ def clean_text(text: str) -> str:
     lines = text.split("\n")
     cleaned = []
     skip_until_blank = False
+    stop_processing = False
 
     for line in lines:
         stripped = line.strip()
 
-        # Skip figure captions
-        if re.match(r"^FIGURE\s+\d+\.\d+\s", stripped):
+        # Stop at back-matter sections (key terms, references, etc.)
+        if stripped in ("Key Terms", "KEY TERMS", "References", "REFERENCES",
+                        "Section Summary", "SECTION SUMMARY",
+                        "Further Research", "FURTHER RESEARCH",
+                        "Short Answer", "SHORT ANSWER"):
+            stop_processing = True
+        if stop_processing:
+            continue
+
+        # Skip figure captions (both "FIGURE 2.1 ..." and "Figure 2.1 ...")
+        # These can span multiple lines, so skip until blank line
+        if re.match(r"^(?:FIGURE|Figure)\s+\d+\.\d+\s", stripped):
+            skip_until_blank = True
             continue
 
         # Skip CHAPTER OUTLINE blocks (header + following section list)
@@ -22,7 +34,7 @@ def clean_text(text: str) -> str:
             continue
 
         # Skip LEARNING OBJECTIVES blocks
-        if stripped == "LEARNING OBJECTIVES":
+        if stripped in ("LEARNING OBJECTIVES", "Learning Objectives"):
             skip_until_blank = True
             continue
 
@@ -33,6 +45,14 @@ def clean_text(text: str) -> str:
 
         # Skip bullet-only lines (lone bullet points from learning objectives)
         if stripped == "•":
+            continue
+
+        # Skip page headers like "1.4 • Why Study Sociology?" or "2 • Sociological Research"
+        if re.match(r"^\d+(\.\d+)?\s*[•·]\s", stripped):
+            continue
+
+        # Skip "Chapter N: Title" lines from Florida PDF
+        if re.match(r"^Chapter\s+\d+:", stripped):
             continue
 
         cleaned.append(stripped)

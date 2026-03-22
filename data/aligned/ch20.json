@@ -10,22 +10,16 @@
       "florida_heading": "Introduction",
       "blocks": [
         {
-          "type": "added",
-          "florida_text": "Chapter 11: Population and Urbanization",
-          "change_id": null,
-          "florida_page": 231
-        },
-        {
           "type": "same",
           "text": "Fracking, another word for hydraulic fracturing, is a method used to recover gas and oil from shale by drilling down into the earth and directing a high-pressure mixture of water, sand, and proprietary chemicals into the rock. While energy companies view fracking as a profitable revolution in the industry, there are a number of concerns associated with the practice.",
           "original_page": 602,
           "florida_page": 231
         },
         {
-          "type": "removed",
-          "original_text": "First, fracking requires huge amounts of water. Water transportation comes at a high environmental cost. Once mixed with fracking chemicals, water is unsuitable for human and animal consumption, though it is estimated that between 10 percent and 90 percent of the contaminated water is returned to the water cycle. Second, the chemicals used in a fracking mix are potentially carcinogenic. These chemicals may pollute groundwater near the extraction site (Colborn, Kwiatkowski, Schultz, and Bachran 2011; United States 2011). Industry leaders suggest that such contamination is unlikely, and that when it does occur, it is incidental and related to unavoidable human error rather than an expected risk of the practice, but the U.S. Environmental Protection Agency’s study of fracking is ongoing (Environmental Protection Agency 2014). The third concern is that fracking causes minor earthquakes by undermining the seismic stability of an area, though far more induced earthquakes are caused by traditional oil and gas production (USGS n.d.) Finally, gas is not a renewable source of energy; this is a negative in the eyes of those who oppose continued reliance on fossil fuels.",
-          "change_id": null,
-          "original_page": 602
+          "type": "same",
+          "text": "First, fracking requires huge amounts of water. Water transportation comes at a high environmental cost. Once mixed with fracking chemicals, water is unsuitable for human and animal consumption, though it is estimated that between 10 percent and 90 percent of the contaminated water is returned to the water cycle. Second, the chemicals used in a fracking mix are potentially carcinogenic. These chemicals may pollute groundwater near the extraction site (Colborn, Kwiatkowski, Schultz, and Bachran 2011; United States 2011). Industry leaders suggest that such contamination is unlikely, and that when it does occur, it is incidental and related to unavoidable human error rather than an expected risk of the practice, but the U.S. Environmental Protection Agency’s study of fracking is ongoing (Environmental Protection Agency 2014). The third concern is that fracking causes minor earthquakes by undermining the seismic stability of an area, though far more induced earthquakes are caused by traditional oil and gas production (USGS n.d.) Finally, gas is not a renewable source of energy; this is a negative in the eyes of those who oppose continued reliance on fossil fuels.",
+          "original_page": 602,
+          "florida_page": 231
         },
         {
           "type": "same",
@@ -56,10 +50,10 @@
           "florida_page": 231
         },
         {
-          "type": "same",
-          "text": "How do sociologists study population and urbanization issues? Functionalist sociologists might focus on the way all aspects of population, urbanization, and the environment serve as vital and cohesive elements, ensuring the continuing stability of society. They might study how the growth of the global population encourages emigration and immigration, and how emigration and immigration serve to strengthen ties between nations. Or they might research the way migration affects environmental issues; for example, how have forced migrations, and the resulting changes in a region’s ability to support a new group, affected both the displaced people and the area of relocation? Another topic a functionalist might research is the way various urban neighborhoods specialize to serve cultural and financial needs.",
-          "original_page": 602,
-          "florida_page": 231
+          "type": "removed",
+          "original_text": "How do sociologists study population and urbanization issues? Functionalist sociologists might focus on the way all aspects of population, urbanization, and the environment serve as vital and cohesive elements, ensuring the continuing stability of society. They might study how the growth of the global population encourages emigration and immigration, and how emigration and immigration serve to strengthen ties between nations. Or they might research the way migration affects environmental issues; for example, how have forced migrations, and the resulting changes in a region’s ability to support a new group, affected both the displaced people and the area of relocation? Another topic a functionalist might research is the way various urban neighborhoods specialize to serve cultural and financial needs.",
+          "change_id": null,
+          "original_page": 602
         },
         {
           "type": "removed",
@@ -75,12 +69,6 @@
           "type": "same",
           "text": "A symbolic interactionist interested in the day-to-day interaction of groups and individuals might research topics like the way family-planning information is presented to and understood by different population groups, the way people experience and understand urban life, and the language people use to convince others of the presence (or absence) of global climate change. For example, some politicians wish to present the study of global warming as junk science, and other politicians insist it is a proven fact.",
           "original_page": 603,
-          "florida_page": 231
-        },
-        {
-          "type": "added",
-          "florida_text": "Colborn, Theo, Carol Kwiatkowski, Kim Schultz, and Mary Bachran. 2011. “Natural Gas Operations from a Public Health Perspective.” Human & Ecological Risk Assessment 17 (5): 1039-1056. Environmental Protection Agency. 2014. “EPA’s Study of Hydraulic Fracturing and Its Potential Impact on Drinking Water Resources.” U.S. EPA, September 14. Retrieved October 29, 2014. (http://www2.epa.gov/hfstudy). Henry, Terrence. 2012. “How Fracking Disposal Wells Are Causing Earthquakes in Dallas-Fort Worth.” Texas RSS. N.p., August 6. Retrieved October 29, 2014 (http://stateimpact.npr.org/texas/2012/08/06/how-fracking-disposal- wells-are-causing-earthquakes-in-dallas-fort-worth/). IHS Global Insights. 2012. “The Economic and Employment Contributions of Unconventional Gas Development in State Economies.” Prepared for America’s Natural Gas Alliance, June 2012. Retrieved October 29, 2014 (http://www.anga.us/media/content/F7D4500D-DD3A-1073- DA3480BE3CA41595/files/state_unconv_gas_economic_contribution.pdf). Money Illusion. 2016. “Coal jobs were lost to automation, not trade.” TheMoneyIllusion.com. December 21 2016. (https://www.themoneyillusion.com/coal-jobs-were-lost-to-automation-not-trade/) USGS. “Does Fracking Cause Earthquakes.” United States Geological Survey. Retrieved April 1, 2021. (https://www.usgs.gov/faqs/does-fracking-cause-earthquakes) Vavra, Shannon. 2017. “Mining By Machine: Automation Hits Coal Industry.” June 29 2017. (https://www.axios.com/mining-by-machine-automation-hits-coal-industry-1513303325-ba4cf237-d636-4987- 88fc-0b277410fa79.html)",
-          "change_id": null,
           "florida_page": 231
         }
       ]
@@ -103,12 +91,6 @@
           "original_text": "The fertility rate of a society is a measure noting the number of children born. The fertility number is generally lower than the fecundity number, which measures the potential number of children that could be born to women of childbearing age. Sociologists measure fertility using the crude birthrate (the number of live births per 1,000 people per year). Just as fertility measures childbearing, the mortality rate is a measure of the number of people who die. The crude death rate is a number derived from the number of deaths per 1,000 people per year. When analyzed together, fertility and mortality rates help researchers understand the overall growth occurring in a population.",
           "change_id": null,
           "original_page": 603
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 11.2 This is a Marcellus shale gas- drilling site in Lycoming County, Pennsylvania. (Credit: Nicholas A. Tonelli/flickr)",
-          "change_id": null,
-          "florida_page": 231
         },
         {
           "type": "added",
@@ -148,37 +130,7 @@
         },
         {
           "type": "added",
-          "florida_text": "Figure 11.4 Population Pyramids with the number of men and women by age group in the United States in 1980 and 2020 (Source: US Census (https://www.census.gov/library/visualizations/interactive/age-sex-pyramid-for-the- united-states.html) (Retrieved November, 2025).",
-          "change_id": null,
-          "florida_page": 231
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 11.3 This picture provides an image of dozens of children in plastic- lined holding areas from 2021, which was one of a group of photos that sparked a public outcry in the early days of the Biden administration (Credit: Defense Visual Information Distribution Service)",
-          "change_id": null,
-          "florida_page": 231
-        },
-        {
-          "type": "added",
           "florida_text": "population to participate in the labor force, but it does offer useful trends that can provide insights that can be used to guide policy making. In the United States, the composition of the population has changed significantly over time. One way that demographers evaluate changes in the composition of the population is using a tool called a population pyramid. A population pyramid provides the total number of men and women by age in the population in stacked bars, and as the composition of the population changes, the shape of the pyramid changes. A population that has mostly young people and very few older people will have a population pyramid that is shaped like a triangle, whereas a population that has a lot of older people will have a population pyramid that is shaped more like a rectangle. Figure 11.4 shows population pyramids provided by the United States Census, which shows the 1980 and the 2020 population. In looking at the two side by side, it is possible to see a significant shift in the shape of the population. Another way to look at the population is to evaluate the population in different age groups over time. Figure 11.5 shows how the population has grown in the United States since 1950, and that the proportion of the population in different age groups has changed over time. On the one hand, the total number of children under 5 has not changed since 1950 even though the overall population as more than doubled. On the other hand, the size of the age 25-64 age population has grown dramatically, as has the age 65+ population. The result is a very different composition of the population today than in the past. Demographers also predict future population growth based on patterns of fertility, mortality, and migration in particular geographic areas. Demographic methods make it possible to make predictions about the size and composition of the population. Figure 11.6 shows the United States population extending to 2100. This makes it possible to get a sense about what we can expect over the next five decades or so given the number of people currently alive and their ages and life expectancies as well as current and predicted fertility rates. These projections show that the age group that will increase the most in the next 50+ years will be the population age 65+ population while the size of the under age 25 population will be stable during this same period and only very small increases in the age 25-64 population.",
-          "change_id": null,
-          "florida_page": 231
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 11.6 Age structure of the population in the United States over time (Source: Our World in Data (https://ourworldindata.org/age- structure) (retrieved November, 2025).",
-          "change_id": null,
-          "florida_page": 231
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 11.7 Number of babies per woman by region over time (Source: Our World in Data (https://ourworldindata.org/global- decline-fertility-rate) (retrieved November, 2025).",
-          "change_id": null,
-          "florida_page": 231
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 11.5 United States population by age group since 1950. (Source: Our World in Data (https://ourworldindata.org/age- structure) (retrieved November, 2025).",
           "change_id": null,
           "florida_page": 231
         },
@@ -195,14 +147,10 @@
           "florida_page": 231
         },
         {
-          "type": "added",
-          "florida_text": "Figure 11.8 Life expectancy at birth over time by geographic area. Source: Our World in Data (https://ourworldindata.org/life- expectancy) (retrieved November, 2025).",
+          "type": "modified",
+          "original_text": "A neo-Malthusian researcher named Paul Ehrlich brought Malthus’s predictions into the twentieth century. However, according to Ehrlich, it is the environment, not specifically the food supply, that will play a crucial role in the continued health of the planet’s population (Ehrlich 1968). Ehrlich's ideas suggest that the human population is moving rapidly toward complete environmental collapse, as privileged people use up or pollute a number of environmental resources such as water and air. He advocated for a goal of zero population growth (ZPG), in which the number of people entering a population through birth or immigration is equal to the number of people leaving it via death or emigration. While support for this concept is mixed, it is still considered a possible solution to global overpopulation.",
+          "florida_text": "Zero Population Growth A neo-Malthusian researcher named Paul Ehrlich brought Malthus’s predictions into the twentieth century. However, according to Ehrlich, it is the environment, not specifically the food supply, that will play a crucial role in the continued health of the planet’s population (Ehrlich 1968). Ehrlich's ideas suggest that the human population is moving rapidly toward complete environmental collapse, as people use up or pollute finite resources such as water and air. He advocated for a goal of zero population growth (ZPG), in which the number of people entering a population through birth or immigration is equal to the number of people leaving it via death or emigration. While support for this concept is mixed, it is still considered a possible solution to global overpopulation. Cornucopian Theory Of course, some theories are less focused on the pessimistic hypothesis that the world’s population will meet a detrimental challenge to sustaining itself. Cornucopian theory scoffs at the idea of humans wiping themselves out; it asserts that human ingenuity can resolve any environmental or social issues that develop. As an example, it points to the issue of food supply. If we need more food, the theory contends, agricultural scientists will figure out how to grow it, as they have been doing for centuries. After all, in this perspective, human ingenuity has been up to the task for thousands of years and there is no reason for that pattern not to continue (Simon 1981). Demographic Transition Theory Whether you believe that we are headed for environmental disaster and the end of human existence as we know it, or you think people will always adapt to changing circumstances, we can see clear patterns in population growth. Societies develop along a predictable continuum as they evolve from unindustrialized to postindustrial. Demographic transition theory (Caldwell and Caldwell 2006) suggests that future population growth will develop along a predictable four-stage model.",
           "change_id": null,
-          "florida_page": 231
-        },
-        {
-          "type": "same",
-          "text": "A neo-Malthusian researcher named Paul Ehrlich brought Malthus’s predictions into the twentieth century. However, according to Ehrlich, it is the environment, not specifically the food supply, that will play a crucial role in the continued health of the planet’s population (Ehrlich 1968). Ehrlich's ideas suggest that the human population is moving rapidly toward complete environmental collapse, as privileged people use up or pollute a number of environmental resources such as water and air. He advocated for a goal of zero population growth (ZPG), in which the number of people entering a population through birth or immigration is equal to the number of people leaving it via death or emigration. While support for this concept is mixed, it is still considered a possible solution to global overpopulation.",
           "original_page": 603,
           "florida_page": 231
         },
@@ -219,16 +167,10 @@
           "florida_page": 231
         },
         {
-          "type": "same",
-          "text": "In Stage 1, birth, death, and infant mortality rates are all high, while life expectancy is short. An example of this stage is the 1800s in the United States. As countries begin to industrialize, they enter Stage 2, where birth rates are higher while infant mortality and the death rates drop. Life expectancy also increases. Afghanistan is currently in this stage. Stage 3 occurs once a society is thoroughly industrialized; birth rates decline, while life expectancy continues to increase. Death rates continue to decrease. Mexico’s population is at this stage. In the final phase, Stage 4, we see the postindustrial era of a society. Birth and death rates are low, people are healthier and live longer, and society enters a phase of population stability. Overall population may even decline. For example, Sweden is considered to be in Stage 4.",
-          "original_page": 603,
-          "florida_page": 231
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 11.9 The Demographic Transition theory and related population patterns (Source: Our World in Data (https://ourworldindata.org/demographic-transition) (Accessed November, 2025).",
+          "type": "removed",
+          "original_text": "In Stage 1, birth, death, and infant mortality rates are all high, while life expectancy is short. An example of this stage is the 1800s in the United States. As countries begin to industrialize, they enter Stage 2, where birth rates are higher while infant mortality and the death rates drop. Life expectancy also increases. Afghanistan is currently in this stage. Stage 3 occurs once a society is thoroughly industrialized; birth rates decline, while life expectancy continues to increase. Death rates continue to decrease. Mexico’s population is at this stage. In the final phase, Stage 4, we see the postindustrial era of a society. Birth and death rates are low, people are healthier and live longer, and society enters a phase of population stability. Overall population may even decline. For example, Sweden is considered to be in Stage 4.",
           "change_id": null,
-          "florida_page": 231
+          "original_page": 603
         },
         {
           "type": "modified",
@@ -263,30 +205,6 @@
           "original_text": "Most citizens agree that our national immigration policies need adjustment. More than two-thirds (69 percent) of those in a recent national survey believed unauthorized immigrants should have a path to citizenship provided they meet other requirements, such as paying taxes and passing a background check. Even more people (72 percent) supported passing a DREAM Act, which would allow people who immigrated as children to earn citizenship. In both parts of the survey, majorities of both Republicans and Democrats as well as independents supported the pathway to citizenship (Vox and Data for Progress 2021).",
           "change_id": null,
           "original_page": 603
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 11.10 Population proportions worldwide. Source: Our World in Data (https://ourworldindata.org/grapher/population-regions-with-projections) (retrieved November, 2025).",
-          "change_id": null,
-          "florida_page": 231
-        },
-        {
-          "type": "added",
-          "florida_text": "Budiman, Abby. 2020. “Key Findings About US Immigrants.” Pew Research Center. August 20, 2020. (https://www.pewresearch.org/fact-tank/2020/08/20/key-findings-about-u-s-immigrants/) Caldwell, John Charles and Bruce Caldwell. 2006. Demographic Transition Theory. The Netherlands: Springer. CIA World Factbook. 2014. “Guide to Country Comparisons.” Central Intelligence Agency World Factbook. Retrieved October 31, 2014 (https://www.cia.gov/library/publications/the-world- factbook/rankorder/rankorderguide.html). Colborn, Theo, Carol Kwiatkowski, Kim Schultz, and Mary Bachran. 2011. “Natural Gas Operations from a Public Health Perspective.” Human & Ecological Risk Assessment. 17 (5): 1039-1056 Connor, Phillip, D'Vera Cohn, and Ana Gonzalez-Barrera. 2013. “Changing Patterns of Global Migration and Remittances.” Pew Research Centers Social Demographic Trends Project RSS. N.p., Retrieved October 31, 2014 (http://www.pewsocialtrends.org/2013/12/17/changing-patterns-of-global-migration-and-remittances/).",
-          "change_id": null,
-          "florida_page": 231
-        },
-        {
-          "type": "added",
-          "florida_text": "Dart, Tom. 2014. \"Child Migrants at Texas Border: An Immigration Crisis That's Hardly New.\" The Guardian [Houston]. www.theguardian.com. Guardian News and Media Limited. Retrieved October 30, 2014 (http://www.theguardian.com/world/2014/jul/09/us-immigration-undocumented-children-texas). Ehrlich, Paul R. 1968. The Population Bomb. New York: Ballantine. Environmental Protection Agency. 2014. \"EPA's Study of Hydraulic Fracturing and Its Potential Impact on Drinking Water Resources.\" U.S. EPA, September 14. Retrieved October 29, 2014. (http://www2.epa.gov/hfstudy). Fox News, and Associated Press. 2014. \"Protests Turn Back Buses Carrying Illegal Immigrant Children.\" Fox News. FOX News Network. Retrieved October 30, 2014 (http://www.foxnews.com/us/2014/07/02/protests-force-buses- carrying-illegal-immigrant-children-to-be-rerouted/). Gomez, Alan. 2014. \"Obama Seeks Change to Law That Protects Immigrant Kids.\" USA Today. July 2 2014. (https://www.usatoday.com/story/news/nation/2014/07/02/immigration-obama-deportation-children- border/11915723/) Henry, Terrence. 2012. \"How Fracking Disposal Wells Are Causing Earthquakes in Dallas-Fort Worth.\" Texas RSS. N.p., August 6. Retrieved October 29, 2014 (http://stateimpact.npr.org/texas/2012/08/06/how-fracking-disposal- wells-are-causing-earthquakes-in-dallas-fort-worth/). IHS Global Insights. 2012. \"The Economic and Employment Contributions of Unconventional Gas Development in State Economies.\" Prepared for America's Natural Gas Alliance, June 2012. Retrieved October 29, 2014. (http://www.anga.us/media/content/F7D4500D-DD3A-1073- DA3480BE3CA41595/files/state_unconv_gas_economic_contribution.pdf). Kanno-Youngs, Zolan and Maggie Haberman. 2020. “Trump Administration Moves to Solidify Restrictive Immigration Policies.” New York Times, June 12, 2020. Malthus, Thomas R. 1965 [1798]. An Essay on Population. New York: Augustus Kelley. Montoya-Galvez, Camilo. 2021. \"The Facts About How The US Processes Unaccompanied Migrant Children At The Border.\" CBS News. February 25 2021. (https://www.cbsnews.com/news/unaccompanied-migrant-children- united-states-processing-housing/) Passel, Jeffrey, D'Vera Cohn, and Ana Gonzalez-Barrera. 2013. \"Population Decline of Unauthorized Immigrants Stalls, May Have Reversed.\" Pew Research Centers Hispanic Trends Project RSS. N.p., Retrieved October 31, 2014 (http://www.pewhispanic.org/2013/09/23/population-decline-of-unauthorized-immigrants-stalls-may-have- reversed/). Pew Research Center. 2013. \"Immigration: Key Data Points from Pew Research.\" Pew Research Center RSS. N.p., Retrieved October 31, 2014 (http://www.pewresearch.org/key-data-points/immigration-tip-sheet-on-u-s-public- opinion/). Popescu, Roxana. 2014. \"Frequently Asked Questions about the Migrant Crisis.\" U-T San Diego. San Diego Union-Tribue, Retrieved October 31, 2014 (http://www.utsandiego.com/news/2014/jul/22/Migrant-crisis-FAQ/). Reyes, Raul A. 2014. \"Murrieta Immigration Protests Were Unfortunate, Unnecessary.\" The Huffington Post. TheHuffingtonPost.com, Retrieved October 31, 2014 (http://www.huffingtonpost.com/raul-a-reyes/murrieta- immigration-prot_b_5569351.html). Simon, Julian Lincoln. 1981. The Ultimate Resource. Princeton, NJ: Princeton University Press. Spagat, Elliot. 2019. \"US Sees Limitations on Reuniting Migrant Families.\" Associated Press. February 2 2019. (https://apnews.com/article/48210bbf243e423ea151ff04e4878ce6)",
-          "change_id": null,
-          "florida_page": 231
-        },
-        {
-          "type": "added",
-          "florida_text": "The United Nations Refugee Agency. 2014. \"World Refugee Day: Global Forced Displacement Tops 50 Million for First Time in Post-World War II Era.\" UNHCR News. N.p., Retrieved October 31, 2014 (http://www.unhcr.org/53a155bc6.html). U.S. Congress. 2008. The William Wilberforce Trafficking Victims Protection Reauthorization Act of 2008. 7311, 110 Cong., U.S. G.P.O. (enacted). Print. World Bank. 2019. \"Fertility Rate.\" \"Mortality Rate.\" The World Bank Data. Retrieved April 1, 2021. (https://data.worldbank.org/indicator/SP.DYN.TFRT.IN)",
-          "change_id": null,
-          "florida_page": 231
         }
       ]
     },
@@ -316,12 +234,6 @@
           "florida_page": 231
         },
         {
-          "type": "added",
-          "florida_text": "Figure 11.11 The lights of New York City are an iconic image of city life. (Credit: Jauher Ali Nasir/flickr)",
-          "change_id": null,
-          "florida_page": 231
-        },
-        {
           "type": "modified",
           "original_text": "As cities grew more crowded, and often more impoverished and costly, more and more people began to migrate back out of them. But instead of returning to rural small towns (like they’d resided in before moving to the city), these people needed close access to the cities for their jobs. In the 1850s, as the urban population greatly expanded and transportation options improved, suburbs developed. Suburbs are the communities surrounding cities, typically close enough for a daily commute in, but far enough away to allow for more space than city living affords. The bucolic suburban landscape of the early twentieth century has largely disappeared due to sprawl. Suburban sprawl contributes to traffic congestion, which in turn contributes to commuting time. And commuting times and distances have continued to increase as new suburbs developed farther and farther from city centers. Simultaneously, this dynamic contributed to an exponential increase in natural resource use, like petroleum, which sequentially increased pollution in the form of carbon emissions.",
           "florida_text": "various times throughout the country’s history, certain demographic groups, from post-Civil War southern Black people to more recent immigrants, have made their way to urban centers to seek a better life in the city. Suburbs and Exurbs As cities grew more crowded, and often more impoverished and costly, more and more people began to migrate back out of them. But instead of returning to rural small towns (like they’d resided in before moving to the city), these people needed close access to the cities for their jobs. In the 1850s, as the urban population greatly expanded and transportation options improved, suburbs developed. Suburbs are the communities surrounding cities, typically close enough for commuting, but far enough away to allow for more space than city living affords. The bucolic suburban landscape of the early twentieth century has largely disappeared due to the growth of suburbs and city sprawl that leads to new problems. Suburban sprawl contributes to traffic congestion, which in turn contributes to commuting time. And commuting times and distances have continued to increase as new suburbs developed farther and farther from city centers. Simultaneously, this dynamic increased natural resource use and pollution in the form of carbon emissions. As the suburbs became more crowded and lost their charm, those who could afford it turned to the exurbs, communities that exist outside the ring of suburbs and are typically populated by even wealthier families who want more space and have the resources to lengthen their commute. Together, the suburbs, exurbs, and metropolitan areas all combine to form a metropolis. New York was the first U.S. megalopolis, a huge urban corridor encompassing multiple cities and their Suburbs Are Not All White Picket Fences: The Banlieues of Paris What makes a suburb a suburb? Simply, a suburb is a community surrounding a city. But when you picture a suburb in your mind, your image may vary widely depending on which nation you call home. In the United States, most consider the suburbs home to upper— and middle—class people with private homes. In other countries, like France, the suburbs, or “banlieues,” are synonymous with housing projects and impoverished communities. In fact, the banlieues of Paris are notorious for their ethnic violence and crime, with higher unemployment and more residents living in poverty than in the city center. Further, the banlieues have a much higher immigrant population, which in Paris is mostly Arabic and African immigrants. This contradicts the clichéd U.S. image of a typical white- picket-fence suburb.",
@@ -342,18 +254,6 @@
           "original_page": 614,
           "context": "The entire 'White flight' discussion, including its analysis of racial dynamics in suburban migration, Brown v. Board of Education reference, and reverse gentrification trends, is removed from the Florida version.",
           "original_evidence": "img/evidence/ch20/change_8_original.webp"
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 11.13 The sprawl in Los Angeles means long commutes and traffic congestion. (Credit: Doc Searles/flickr)",
-          "change_id": null,
-          "florida_page": 231
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 11.12 Percent of U.S. Population. As this chart illustrates, the shift from rural to urban living in the United States has been dramatic and continuous. (Credit: the U.S. Census Bureau)",
-          "change_id": null,
-          "florida_page": 231
         },
         {
           "type": "modified",
@@ -398,18 +298,6 @@
           "original_text": "For example, sociologists Feagin and Parker (1990) suggested three factors by which political and economic leaders control urban growth. First, these leaders work alongside each other to influence urban growth and decline, determining where money flows and how land use is regulated. Second, exchange value and use value of land are balanced to favor the middle and upper classes so that, for example, public land in poor neighborhoods may be rezoned for use as industrial land. Finally, urban development is dependent on both structure (groups such as local government) and agency (individuals including businessmen and activists), and these groups engage in a push-pull dynamic that determines where and how land is actually used. For example, Not In My Back Yard (NIMBY) movements are more likely to emerge in middle and upper-class neighborhoods as engaged citizens protest poor environmental practices they fear will affect them, so these groups have more control over the use of local land.",
           "change_id": null,
           "original_page": 614
-        },
-        {
-          "type": "added",
-          "florida_text": "BBC. 2005. “Timeline: French Riots—A Chronology of Key Events.” November 14. Retrieved December 9, 2011 (http://news.bbc.co.uk/2/hi/europe/4413964.stm). Burgess, Ernest. 1925. “The Growth of the City.” Pp. 47–62 in The City, edited by R. Park and E. Burgess. Chicago: University of Chicago Press. Chandler, Tertius and Gerald Fox. 1974. 3000 Years of Urban History. New York: Academic Press. Dougherty, Connor. 2008. “The End of White Flight.” Wall Street Journal, July 19. Retrieved December 12, 2011 (http://online.wsj.com/article/SB121642866373567057.html). Feagin, Joe, and Robert Parker. 1990. Building American Cities: The Urban Real Estate Game. 2nd ed. Englewood Cliffs, NJ: Prentice Hall. France24. 2010. “Sarkozy Promises War without Mercy for Paris Suburbs.” France 24, April 10. Retrieved December 9, 2011 (http://www.france24.com/en/20100420-sarkozy-war-suburbs-drugs-crime-violence-truancy-tremblay-en- france-saint-denis-france). LeBlanc, Adrien Nicole. 2003. Random Family: Love, Drugs, Trouble and Coming of Age in the Bronx. New York: Scribner. Park, Robert. 1934 [1915]. “The City: Suggestions for Investigations of Human Behavior in the City.” American Journal of Sociology 20:577–612. Park, Robert. 1936. “Human Ecology.” American Journal of Sociology 42:1–15. Old Bailey Proceedings Online. 2011. “Population History of London.” Retrieved December 11, 2011 (http://www.oldbaileyonline.org/static/Population-history-of-london.jsp). Sciolino, Elaine, and Ariane Bernand. 2006. “Anger Festering in French Areas Scarred in Riots.” New York Times, October 21. Retrieved December 11, 2011 (http://www.nytimes.com/2006/10/21/world/europe/21france.html?scp=2&sq=paris+suburb&st=nyt). Sjoberg, Gideon. 1965. The Preindustrial City: Past and Present. New York: Free Press. Talbot, Margaret. 2003. “Review: Random Family. Love, Drugs, Trouble and Coming of Age in the Bronx.” New York Times, February 9. Retrieved December 12, 2011 (http://www.nytimes.com/2003/02/09/books/in-the-other- country.html?pagewanted=all&src=pm). United Nations, Department of Economic and Social Affairs, Population Division. 2014. “World Urbanization Prospects: The 2014 Revision, Highlights” (ST/ESA/SER.A/352). Retrieved November 3, 2014 (http://esa.un.org/unpd/wup/Highlights/WUP2014-Highlights.pdf). United Nations, Department of Economic and Social Affairs, Population Division. 2018. \"68% of the world population projected to live in urban areas by 2050, says UN.\" May 16, 2018. (https://www.un.org/development/desa/en/news/population/2018-revision-of-world-urbanization- prospects.html)",
-          "change_id": null,
-          "florida_page": 231
-        },
-        {
-          "type": "added",
-          "florida_text": "United States Census Bureau. 2014, \"2010 Census Urban and Rural Classification and Urban Area Criteria.\" Retrieved December 16, 2014 (http://www.census.gov/geo/reference/ua/urban-rural-2010.html).",
-          "change_id": null,
-          "florida_page": 231
         }
       ]
     },
@@ -457,12 +345,6 @@
           "context": "The Florida version: removes the world systems framing; introduces epistemic hedging with 'what is believed to be the causes of global warming'; removes that peripheral nations 'rightly' raise equity concerns; removes the suggestion that core nations should pay offsets or subsidies; removes acknowledgment that it was not 'fair' that core nations benefited from polluting industrialization. The global equity dimension of climate change is substantially softened.",
           "original_evidence": "img/evidence/ch20/change_11_original.webp",
           "florida_evidence": "img/evidence/ch20/change_11_florida.webp"
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 11.14 Too little land for grazing means starving cattle. (Credit: newbeatphoto/flickr)",
-          "change_id": null,
-          "florida_page": 240
         },
         {
           "type": "same",
@@ -561,18 +443,6 @@
           "original_page": 617
         },
         {
-          "type": "added",
-          "florida_text": "Figure 11.15 Where should garbage go when you’ve run out of room? This is a question that is increasingly pressing the planet. (Credit: Department of Environmental Protection Recycling/flickr)",
-          "change_id": null,
-          "florida_page": 240
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 11.16 An aerial view of the Gulf Coast, taken in May 2010, illustrates the damage done by the BP Deep Water Horizon spill. (Credit: Jeff Warren/flickr)",
-          "change_id": null,
-          "florida_page": 240
-        },
-        {
           "type": "same",
           "text": "Radioactivity is a form of air pollution. While nuclear energy promises a safe and abundant power source, increasingly it is looked upon as a danger to the environment and to those who inhabit it. We accumulate nuclear waste, which we must then keep track of long term and ultimately figure out how to store the toxic waste material without damaging the environment or putting future generations at risk.",
           "original_page": 617,
@@ -609,42 +479,6 @@
           "original_page": 625,
           "context": "The concluding analytical paragraphs explaining why environmental racism persists — through resource-based political power and NIMBY dynamics pushing pollution toward lower-resource communities — are removed along with the rest of the Environmental Racism section.",
           "original_evidence": "img/evidence/ch20/change_17_original.webp"
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 11.17 Oil on the gulf shore beaches caused great destruction, killing marine and land animals and devastating local business. (Credit: AV8ter/flickr)",
-          "change_id": null,
-          "florida_page": 240
-        },
-        {
-          "type": "added",
-          "florida_text": "Key Terms sustainable development: development that occurs without depleting or damaging the natural environment asylum-seekers: those whose claim to refugee status have not been validated cancer cluster: a geographic area with high levels of cancer within its population carrying capacity: the amount of people that can live in a given area considering the amount of available resources climate change: long-term shifts in temperature and climate due to human activity concentric zone model: a model of human ecology that views cities as a series of circular rings or zones cornucopian theory: a theory concentric zone model that asserts human ingenuity will rise to the challenge of providing adequate resources for a growing population demographic transition theory: a theory that describes four stages of population growth, following patterns that connect birth and death rates with stages of industrial development demography: the study of population environmental racism: the burdening of economically and socially disadvantaged communities with a disproportionate share of environmental hazards environmental sociology: the sociological subfield that addresses the relationship between humans and the environment exurbs: communities that arise farther out than the suburbs and are typically populated by residents of high socioeconomic status fertility rate: a measure noting the actual number of children born fracking: hydraulic fracturing, a method used to recover gas and oil from shale by drilling down into the earth and directing a high-pressure mixture of water, sand, and proprietary chemicals into the rock gentrification: the entry of upper- and middle-class residents to city areas or communities that have been historically less affluent human ecology: a functional perspective that looks at the relationship between people and their built and natural environment Malthusian theory: a theory asserting that population is controlled through positive checks (war, famine, disease) and preventive checks (measures to reduce fertility) megalopolis: a large urban corridor that encompasses several cities and their surrounding suburbs and exurbs metropolis: the area that includes a city and its suburbs and exurbs mortality rate: measure of the number of people in a population who die pollution: the introduction of contaminants into an environment at levels that are damaging population composition: a snapshot of the demographic profile of a population based on fertility, mortality, and migration rates population pyramid: a graphic representation that depicts population distribution according to age and sex",
-          "change_id": null,
-          "florida_page": 240
-        },
-        {
-          "type": "added",
-          "florida_text": "refugee: an individual who has been forced to leave their country in order to escape war, persecution, or natural disaster suburbs: the communities surrounding cities, typically close enough for a daily commute urbanization: the study of the social, political, and economic relationships of cities zero population growth: a theoretical goal in which the number of people entering a population through birth or immigration is equal to the number of people leaving it via death or emigration",
-          "change_id": null,
-          "florida_page": 240
-        },
-        {
-          "type": "added",
-          "florida_text": "References",
-          "change_id": null,
-          "florida_page": 240
-        },
-        {
-          "type": "added",
-          "florida_text": "American Indian Cultural Support. 2006. “Short History of Big Mountain—Black Mesa.” Retrieved January 22, 2012 (http://www.aics.org/BM/bm.html). Bertolucci, Jeff. 2009. “How Green Is Your Apple?” Macworld, April 22. Retrieved December 14, 2011 (http://www.macworld.com/article/140122/2009/04/greenapple3.html). Blanchard, Ben. 2007. “Coke Vows to Reduce Water Used in Drink Production.” Reuters, June 5. Retrieved December 14, 2011 (http://www.reuters.com/article/2007/06/05/environment-coke-water-dc- idUSSP28630420070605). Bullard, Robert D., Paul Mohai, Robin Saha, and Beverly Wright. 2007. Toxic Wastes and Race at Twenty: 1987–2007. United Church of Christ Commission for Racial Justice. Retrieved January 22, 2012 (http://www.ucc.org/assets/pdfs/toxic20.pdf). Bureau of Indian Affairs. 2012. “FAQs.” Retrieved January 22, 2012 (http://www.bia.gov/FAQ/index/htm). Centers for Disease Control. 2016. \"Global WASH Fast Facts.\" Updated 2016. (https://www.cdc.gov/healthywater/global/wash_statistics.html) DeKok, David. 1986. Unseen Danger: A Tragedy of People, Government, and the Centralia Mine Fire. Philadelphia, PA: University of Pennsylvania Press. Environmental Justice Case Studies. 2004. University of Michigan. Retrieved January 22, 2012 (http://www.umich.edu/~snre492/cses.html). Frosch, Dan. 2009. “Uranium Contamination Haunts Navajo Country.” New York Times, July 27. Retrieved January 22, 2012 (http://www.newyorktimes.com/2009/07/27/us/navajo.html). Greenpeace. 2011. “Greenpeace Guide to Greener Electronics.” November. Retrieved December 13, 2011 (http://www.greenpeace.org/international/en/campaigns/toxics/electronics). Greenpeace. 2012. \"Greenpeace Guide to Greener Electronics.\" November. Retrieved December 17, 2014 (http://www.greenpeace.org/international/en/campaigns/climate-change/cool-it/Campaign-analysis/Guide-to- Greener-Electronics/). Hardin, Garrett. 1968. “The Tragedy of the Commons,” Science 162(3859):1243–1248. Retrieved December 10, 2011 (http://www.sciencemag.org/content/162/3859/1243.full). Kamps, Kevin. 2001. “Environmental Racism, Tribal Sovereignty and Nuclear Waste.” Nuclear Information and Resource Service. Retrieved January 22, 2012 (http://www.nirs.org/factsheets/pfsejfactsheet.htm). Kennedy, Brian, and Tyson, Alec. 2024. How Americans view climate change and policies to address the issue. Pew Research Center. Accessed November, 2025 at: https://www.pewresearch.org/science/2024/12/09/how- americans-view-climate-change-and-policies-to-address-the-issue/ NASA. 2014. “NASA Finds 2013 Sustained Long-Term Climate Warming Trend.” NASA, January 21. Retrieved October 27, 2014(http://www.giss.nasa.gov/research/news/20140121/). NASA. 2021. \"2020 Tied for Warmest Year on Record, NASA Analysis Shows.\" January 14 2021. (https://www.nasa.gov/press-release/2020-tied-for-warmest-year-on-record-nasa-analysis-shows)",
-          "change_id": null,
-          "florida_page": 240
-        },
-        {
-          "type": "added",
-          "florida_text": "Ogunseitanl, Oladele, Julie M. Stoning, Jean-Daniel M. Sapphires, and Andrew A. Shapiro. 2009. “The Electronics Revolution: From E-Wonderland to E-Wasteland.” Science 326(5953):670–671. Retrieved December 14, 2011 (http://www.sciencemag.org/content/326/5953/670.summary). Papenfuss, Mary. 2011. “Cynical Chinese Taking Own Smog Readings.” Newser, December 8. Retrieved January 23, 2012 (http://www.newser.com/story/134966/cynical-chinese-taking-own-smog-readings.html). Sadoff E-Recycling. 2019. \"Electronics Recycling and Business.\" September 17, 2019. (https://sadoffelectronicsrecycling.com/blog/4-companies-electronic-recycling/) Stone, Maddie. 2020. \"Solar Panels Are Starting to Die, Leaving Behind Toxic Trash.\" Wired. August 22 2020. (https://www.wired.com/story/solar-panels-are-starting-to-die-leaving-behind-toxic-trash/) Troilo, Pete. 2012. \"Yes, We Can? Obama's Global Climate Change Initiative.\" International Development. Devex, January 30. Retrieved October 27, 2014 (https://www.devex.com/news/yes-we-can-obama-s-global-climate-change- initiative-77363). Turneffe Atoll Trust. 2008. “Improper Development: Recommendations of the Turneffe Atoll Coastal Advisory Committee.” Retrieved December 14, 2011 (http://www.turneffeatoll.org/threats-to-turneffe-atoll/improper- development-practices). UNDP. 2021. \"The People's Climate Vote.\" United Nations Development Programme. January 26 2021. (https://www.undp.org/content/undp/en/home/librarypage/climate-and-disaster-resilience-/The-Peoples- Climate-Vote-Results.html) United States. 2011. “Chemicals Used in Hydraulic Fracturing.” Washington, D.C: U.S. House of Representatives, Committee on Energy and Commerce. Retrieved October 29, 2014 (http://democrats.energycommerce.house.gov/sites/default/files/documents/Hydraulic%20Fracturing%20Rep ort%204.18.11.pdf). Water.org. 2021. \"The Water Crisis.\" Retrieved April 1 2021. (https://water.org/our-impact/water-crisis/) WaterCalculator.org. 2020. \"Food's Big Water Footprint.\" April 25 2020. (https://www.watercalculator.org/footprint/foods-big-water-footprint/)",
-          "change_id": null,
-          "florida_page": 240
         }
       ]
     }

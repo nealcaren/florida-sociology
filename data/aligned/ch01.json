@@ -10,11 +10,6 @@
       "florida_heading": "Introduction",
       "blocks": [
         {
-          "type": "added",
-          "florida_text": "Chapter 1: Understanding Sociology",
-          "change_id": null
-        },
-        {
           "type": "same",
           "text": "A busy commuter train station might seem like a very individualized place. Tens of thousands or hundreds of thousands of strangers flow through with a singular purpose: to get where they need to go. Whether walking through main doors at a pace of a dozen people each second, or arriving by train hundreds at a time, the station can feel a bit like a balloon being pumped too full. Throngs of people cluster in tight bottlenecks until they burst through corridors and stairways and tunnels to reach the next stage of their journey. In some stations, walking against the crowd can be a tedious, nearly impossible process. And cutting across a river of determined commuters can be almost dangerous. Things are fast, relentless, and necessary.",
           "original_page": 21
@@ -30,16 +25,9 @@
           "original_page": 21
         },
         {
-          "type": "modified",
-          "original_text": "Very few of these behaviors are taught. None are written down. But the transit hub, that pocket of constant flow, is an echo of its society. It takes on some aspects of the city and country around it, but its people also form an informal group of their own. Sociologists, as you will learn, may study these people. Sociologists may seek to understand how they feel about their trip, be it proud or annoyed or just plain exhausted. Sociologists might study how length of commute relates to job satisfaction or family relationships. They may study the ways that conditions of a train station affect attitudes about government, or how the difficulty of commuting may lead people to relocate. This understanding isn’t just a collection of interesting facts; it can influence government policy and spending decisions, employer interventions, and healthcare practices. The work sociologists do to understand our society, and the work you will do in learning about it, is meaningful to our lives and our futures.",
-          "florida_text": "about their trip, be it proud or annoyed or just plain exhausted. Sociologists might study how length of commute relates to job satisfaction or family relationships. They may study the ways that conditions of a train station affect attitudes about government, or how the difficulty of commuting may lead people to relocate. This understanding isn’t just a collection of interesting facts; it can influence government policy and spending decisions, employer interventions, and healthcare practices. The work sociologists do to understand our society, and the work you will do in learning about it, is meaningful to our lives and our futures.",
-          "change_id": null,
+          "type": "same",
+          "text": "Very few of these behaviors are taught. None are written down. But the transit hub, that pocket of constant flow, is an echo of its society. It takes on some aspects of the city and country around it, but its people also form an informal group of their own. Sociologists, as you will learn, may study these people. Sociologists may seek to understand how they feel about their trip, be it proud or annoyed or just plain exhausted. Sociologists might study how length of commute relates to job satisfaction or family relationships. They may study the ways that conditions of a train station affect attitudes about government, or how the difficulty of commuting may lead people to relocate. This understanding isn’t just a collection of interesting facts; it can influence government policy and spending decisions, employer interventions, and healthcare practices. The work sociologists do to understand our society, and the work you will do in learning about it, is meaningful to our lives and our futures.",
           "original_page": 21
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 1.2 Sociologists learn about society while studying one-to-one and group interactions. (Credit: GlacierNPS/flickr)",
-          "change_id": null
         }
       ]
     },
@@ -100,11 +88,6 @@
           "original_evidence": "img/evidence/ch01/change_3_original.webp"
         },
         {
-          "type": "added",
-          "florida_text": "Figure 1.3 Modern U.S. families may be very different in makeup from what was historically typical. (Credit: Paul Brody/flickr (left); Tony Alter/Wikimedia Commons (right))",
-          "change_id": null
-        },
-        {
           "type": "same",
           "text": "A key component of the sociological perspective is the idea that the individual and society are inseparable. It is impossible to study one without the other. German sociologist Norbert Elias called the process of simultaneously analyzing the behavior of individuals and the society that shapes that behavior figuration.",
           "original_page": 22
@@ -113,11 +96,6 @@
           "type": "same",
           "text": "Consider religion. While people experience religion in a distinctly individual manner, religion exists in a larger social context as a social institution. For instance, an individual’s religious practice may be influenced by what government dictates, holidays, teachers, places of worship, rituals, and so on. These influences underscore the important relationship between individual practices of religion and social pressures that influence that religious experience (Elias, 1978). In simpler terms, figuration means that as one analyzes the social institutions in a society, the individuals using that institution in any fashion need to be ‘figured’ in to the analysis.",
           "original_page": 22
-        },
-        {
-          "type": "added",
-          "florida_text": "Chily, M. (2013). Kids of Tarashing, Astore District, Gilgit-Baltistan, Pakistan. [Photograph]. Retrieved from https://www.flickr.com/photos/mariachily/3334450816/in/photostream/#/photos/mariachily/3334450816/i n/photostream/lightbox/. Elias, N. (1978). What Is Sociology? New York: Columbia University Press. Ludden, J. (2012). “Single Dads By Choice: More Men Going It Alone.” National Public Radio. Retrieved from http://www.npr.org/2012/06/19/154860588/single-dads-by-choice-more-men-going-it-alone. Mills, C. Wright. (2000 [1959]). The Sociological Imagination. 40th ed. New York: Oxford University Press. Roggi, S. (2014). Storia di un genitore che ama troppo [Photograph]. immagini tratte da Google Immagini. (Trans: Story of a parent who loves too much [Photograph]. Images taken from Google Images). Unknown Photographer. 2013. Million People March in Laneta Park, Manila, Philippines. [Photograph] This Photo by is licensed under CC BY-SA. Retrieved from www.wikicommons.com. Unknown Photographer. 2013. The Young Family in NJ hosted Sarah from France in 2012-13. Attribution 2.0 Generic (CC BY 2.0) Retrieved from https://www.flickr.com/photos/afsusa/8682763589. Unknown Photographer. 2017. Zairean Students. [Photograph]. Retrieved from https://dgmt.co.za. U.S. Census Bureau. 2020. “America’s Families and Living Arrangements: 2020.” Retrieved from https://www.census.gov/data/tables/2020/demo/families/cps-2020.html.",
-          "change_id": null
         }
       ]
     },
@@ -170,16 +148,6 @@
           "type": "same",
           "text": "The term sociology was first coined in 1780 by the French essayist Emmanuel-Joseph Sieyès (1748–1836) in an unpublished manuscript (Fauré et al. 1999). In 1838, the term was reintroduced by Auguste Comte (1798–1857). Comte originally studied to be an engineer, but later became a pupil of social philosopher Claude Henri de Rouvroy Comte de Saint-Simon (1760–1825). They both thought that social scientists could study society using the same scientific methods utilized in natural sciences. Comte also believed in the potential of social scientists to work toward the betterment of society. He held that once scholars identified the laws that governed society, sociologists could address problems such as poor education and poverty (Abercrombie et al. 2000).",
           "original_page": 22
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 1.4 People have been thinking like sociologists long before sociology became a distinct academic discipline (left to right): Plato and Aristotle, Confucius, Khaldun, Voltaire, and Mary Wollstonecraft set the stage for modern sociology. (Credit: Wikimedia Commons, and publicdomainfiles.com)",
-          "change_id": null
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 1.5 Early major European theorists. Top row, left to right: Auguste Comte, Harriet Martineau, and Herbert Spencer. Bottom row, left to right: Georg Simmel, Émile Durkheim, and Max Weber. (Credit: Wikimedia Commons; Julius Cornelius Schaarwächter/Public domain)",
-          "change_id": null
         },
         {
           "type": "same",
@@ -292,11 +260,6 @@
           "original_page": 22
         },
         {
-          "type": "added",
-          "florida_text": "Figure 1.6 From left to right, William Sumner, W.E.B. Du Bois, and Jane Addams. (Credit: Wikimedia Commons)",
-          "change_id": null
-        },
-        {
           "type": "modified",
           "original_text": "George Herbert Mead was a philosopher and sociologist whose work focused on the ways in which the mind and the self were developed as a result of social processes (Cronk, n.d.). He argued that how an individual comes to view himself or herself is based to a very large extent on interactions with others. Though Mead adopted Cooley’s concept of ‘looking-glasses,’ Mead felt that an individual’s reaction to a positive or negative reflection depended on who the ‘other’ was. Individuals that had the greatest impact on a person’s life were significant others while generalized others were the organized and generalized attitude of a social group. Mead often shares the title of father of symbolic interactionism with Cooley and Erving Goffman.",
           "florida_text": "and competitiveness of US society, fearing it would disrupt families as primary groups lost their importance, with a particular focus on small groups and dyads. George Herbert Mead (1863–1931) George Herbert Mead also focused on small groups. He was a philosopher and sociologist whose work focused on the ways in which the mind and the self were developed as a result of social processes (Cronk, n.d.). He argued that how an individual comes to view himself or herself is based to a very large extent on interactions with others. Though Mead adopted Cooley’s concept of ‘looking-glasses,’ Mead felt that an individual’s reaction to a positive or negative reflection depended on who the ‘other’ was. Individuals that had the greatest impact on a person’s life were significant others while generalized others were the organized and generalized attitude of a social group. Mead often shares the title of father of symbolic interactionism with Cooley and Erving Goffman. Robert E. Park (1864-1944) Robert E. Park is best known as the founder of social ecology. Attached to the Chicago School, Park focused on how individuals lived within their communities. One of the first sociologists to focus on ethnic minorities, he wrote on the Belgian oppression of the Congolese. When he returned to the US, he and Ernest Burgess researched the inner city to show that no matter who lived there, social chaos was prevalent. As such, it was not the residents who caused the chaos but the sociopolitical context",
@@ -307,11 +270,6 @@
           "type": "same",
           "text": "Robert E. Park is best known as the founder of social ecology. Attached to the Chicago School, Park focused on how individuals lived within their environment. One of the first sociologists to focus on ethnic minorities, he wrote on the Belgian oppression of the Congolese. When he returned to the US, he and Ernest Burgess researched the inner city to show that no matter who lived there, social chaos was prevalent. As such, it was not the residents who caused the chaos but the environment.",
           "original_page": 22
-        },
-        {
-          "type": "added",
-          "florida_text": "Abercrombie, N., S. Hill, & B. S. Turner. (2000). The Penguin Dictionary of Sociology. London: Penguin. Armstrong, D. (2019). Years that Changed History: 1215. The Teaching Company. Buroway, M. (2005). “2004 Presidential Address: For Public Sociology.” American Sociological Review 70 (February): 4– 28. Retrieved from http://burawoy.berkeley.edu/Public%20Sociology,%20Live/Burawoy.pdf. Cronk, G. n.d. “George Herbert Mead.” Internet Encyclopedia of Philosophy: A Peer-Reviewed Academic Resource. Retrieved from http://www.iep.utm.edu/mead/. Daileader, P. (2007). The Early Middle Ages. The Teaching Company. Datar, R., Alatas, S., van den Bent, J., & Irwin, R. (2019). The Forum. Ibn Khaldun: 14th Century Sage. Retrieved from https://www.bbc.co.uk/sounds/play/w3csyp5t. Durkheim, É. (1964 [1895]). The Rules of Sociological Method, edited by J. Mueller, E. George & E. Caitlin. 8th ed. Translated by S. Solovay. New York: Free Press. The Editors of Encyclopaedia Britannica. (2020). Ma Duanlin Chinese Historian. Retrieved from https://www.britannica.com/biography/Ma-Duanlin. Fauré, C., J. Guilhaumou, J. Vallier, & F. Weil. (2007 [1999]). Des Manuscrits de Sieyès, 1773–1799, Volumes I and II. Paris: Champion. Green, D.S. and Wortham, R.A. (2018), The Sociological Insight of W.E.B. Du Bois. Sociological Inquiry, 88: 56-78. Retrieved January 10, 2021, from https://doi.org/10.1111/soin.12179 Hannoum, A. (2003). Translation and the Colonial Imaginary: Ibn Khaldun Orientalist. Middletown, CT: Wesleyan University. Retrieved from http://www.jstor.org/pss/3590803. Hill, M. (1991). “Harriet Martineau.” Women in Sociology: A Bio-Bibliographic Sourcebook, edited by Mary Jo Deegan. New York: Greenwood Press. Johnson, B. (2003). “Harriet Martineau: Theories and Contributions to Sociology.” Education Portal. Retrieved from http://education-portal.com/academy/lesson/harriet-martineau-theories-and-contributions-to- sociology.html#lesson. Morris, A. (2015). The Scholar Denied: W. E. B. Du Bois and the Birth of Modern Sociology. Oakland, California: University of California Press. Retrieved January 10, 2021, from http://www.jstor.org/stable/10.1525/j.ctv1xxtc2 Poggi, Gianfranco. (2000). Durkheim. Oxford, United Kingdom: Oxford University Press. Ritzer, G. & Goodman, D. (2004). Sociological Theory, 6th Edition. New York: McGraw Hill Education. Stapley, Pierre. (2010). “Georg Simmel.” Cardiff University School of Social Sciences. Retrieved from http://www.cf.ac.uk/socsi/undergraduate/introsoc/simmel.html. U.S. Congress Joint Economic Committee. (2010). Women and the Economy, 2010: 25 Years of Progress But Challenges Remain. August. Washington, DC: Congressional Printing Office. Retrieved from http://jec.senate.gov/public/?a=Files.Serve&File_id=8be22cb0-8ed0-4a1a-841b-aa91dc55fa81",
-          "change_id": null
         }
       ]
     },
@@ -361,11 +319,6 @@
           "original_page": 22
         },
         {
-          "type": "added",
-          "florida_text": "Figure 1.7 Sociologists develop theories to explain social occurrences such as protest rallies. (Credit: David Shankbone/flickr)",
-          "change_id": null
-        },
-        {
           "type": "same",
           "text": "One criticism of the structural-functional theory is that it can’t adequately explain social change even though the functions are processes. Also problematic is the somewhat circular nature of this theory: repetitive behavior patterns are assumed to have a function, yet we profess to know that they have a function only because they are repeated. Furthermore, dysfunctions may continue, even though they don’t serve a function, which seemingly contradicts the basic premise of the theory. Many sociologists now believe that functionalism is no longer useful as a macro-level theory, but that it does serve a useful purpose in some mid-level analyses.",
           "original_page": 22
@@ -413,11 +366,6 @@
           "florida_text": "Symbolic Interactionist Symbolic interactionism is a micro-level approach that focuses on the relationships among individuals within a society. Communication—the exchange of meaning through language and symbols—is believed to be the way in which people make sense of their social worlds. Meaning is derived through a shared definition of a situation. Theorists Herman and",
           "change_id": null,
           "original_page": 22
-        },
-        {
-          "type": "added",
-          "florida_text": "Figure 1.8 Some sociologists see the online world contributing to the creation of an emerging global culture. Are you a part of any global communities? This Indiana rabbi is participating in what was recognized as the longest Zoom meeting, which started in Australia after the Sabbath and proceeded through each of the world’s time zones, effectively lasting much longer than a day. (Credit: Chabad Lubavitch/flickr)",
-          "change_id": null
         },
         {
           "type": "modified",
@@ -472,21 +420,6 @@
           "original_text": "Gaining prominence in the wake of Mead’s work in the 1920s and 1930s, symbolic interactionism declined in influence during the 1960s and 1970s only to be revitalized at the turn of the twenty-first century (Stryker, 1987). Postmodern social theory developed in the 1980s to look at society through an entirely new lens by rejecting previous macro-level attempts to explain social phenomena. Its growth in popularity coincides with the rise of constructivist views of symbolic interactionism.",
           "change_id": null,
           "original_page": 22
-        },
-        {
-          "type": "added",
-          "florida_text": "Allan, K. Contemporary Social and Sociological Theory: Visualizing Social Worlds. Thousand Oaks, CA: Pine Forge Press. Blau, P. M. (1964). Exchange and Power in Social Life. Wiley.",
-          "change_id": null
-        },
-        {
-          "type": "added",
-          "florida_text": "Blumer, H. (1969). Symbolic Interactionism: Perspective and Method. Englewood Cliffs, NJ: Prentice Hall. Broce, G. (1973). History of Anthropology. Minneapolis: Burgess Publishing Company. Calhoun, C. (2002). Classical Sociological Theory. Malden, MA: Wiley-Blackwell. Cooley, C. (1902). Human nature and the social order. NY: Charles Schribner’s Sons. Retrieved from https://www.asanet.org/charles-h-cooley. Durkheim, É. (1984 [1893]). The Division of Labor in Society. New York: Free Press. Durkheim, É. (1964 [1895]). The Rules of Sociological Method, edited by J. Mueller, E. George and E. Caitlin. 8th ed. Translated by S. Solovay. New York: Free Press. Emerson, R. M. (1962). Power-Dependence Relations. American Sociological Review, 27(1), 31-41. Goffman, E. (1958). The Presentation of Self in Everyday Life. Edinburgh: University of Edinburgh, Social Sciences Research Centre. Goldschmidt, W. (1996). “Functionalism” in Encyclopedia of Cultural Anthropology, Vol. 2, edited by D. Levinson and M. Ember. New York: Henry Holt and Company. Henry, S. (2007). “Deviance, Constructionist Perspectives.” Blackwell Encyclopedia of Sociology. Retrieved from http://www.sociologyencyclopedia.com/public/tocnode?id=g9781405124331_yr2011_chunk_g97814051243 3110_ss1-41. Herman, N. & Reynolds, L. (1994). Symbolic Interaction: An Introduction to Social Psychology. Lanham, MD: Altamira Press. Homans, G. C. (1961). Social Behavior: Its Elementary Forms. Harcourt, Brace & World. Horkeimer, M. (1982). Critical Theory. New York: Seabury Press. Hurst, A. (n.d.) Classical Sociological Theory and Foundations of American Sociology. Retrieved from https://open.oregonstate.education/sociologicaltheory/ Irving, J. (2007). Fifty Key Sociologists: The Formative Theorists. New York: Routledge. LaRossa, R. & Reitzes, D. (1993). “Symbolic Interactionism and Family Studies.” Pp. 135–163 in Sourcebook of Family Theories and Methods: A Contextual Approach, edited by P. G. Boss, et al. New York: Springer. Maryanski, A. & Turner, J. (1992). The Social Cage: Human Nature and the Evolution of Society. Stanford, CA: Stanford University Press. Marx, K. & Engels, F. (1998 [1848]). The Communist Manifesto. New York: Penguin. Parsons, T. (1961). Theories of Society: Foundations of Modern Sociological Theory. New York: Free Press. Pew Research Center. (2012). “Mobile Technology Fact Sheet.” Pew Research Internet Project, April 2012. Retrieved from http://www.pewinternet.org/fact-sheets/mobile-technology-fact-sheet/. Radcliffe-Brown, A.R. (1952). Structure and Function in Primitive Society: Essays and Addresses. London: Cohen and West. Spencer, Herbert. (1894). The Principles of Biology. New York: D. Appleton and Company. Stanford University. (2016). George Herbert Mead. Retrieved from https://plato.stanford.edu/entries/mead/. Stanford University. (2017). Max Weber. Retrieved from https://plato.stanford.edu/entries/weber/",
-          "change_id": null
-        },
-        {
-          "type": "added",
-          "florida_text": "Stryker, Sheldon (1987). The Vitalization of Symbolic Interactionism. Social Psychology Quarterly, 50(1), 83-94. Turner, J. (2003). The Structure of Sociological Theory. 7th ed. Belmont, CA: Thompson/Wadsworth. UCLA School of Public Affairs. (n.d.) “What is Critical Race Theory?” UCLA School of Public Affairs: Critical Race Studies. Retrieved from http://spacrs.wordpress.com/what-is-critical-race-theory/.",
-          "change_id": null
         }
       ]
     },
@@ -528,11 +461,6 @@
           "original_page": 22
         },
         {
-          "type": "added",
-          "florida_text": "Figure 1.9 The research of Kenneth and Mamie Clark helped the Supreme Court decide to end “separate but equal” racial segregation in schools in the United States. (Credit: University of Texas)",
-          "change_id": null
-        },
-        {
           "type": "modified",
           "original_text": "Employers continue to seek people with what are called “transferable skills.” This means that they want to hire people whose knowledge and education can be applied in a variety of settings and whose skills will contribute to various tasks.",
           "florida_text": "Sociology in the Workplace Employers continue to seek people with what are called “transferable skills.” This means that they want to hire people whose knowledge and education can be applied in a variety of settings and whose skills will contribute to various tasks. Studying sociology can provide people with this wide knowledge and a skill set that can contribute to many workplaces, including:",
@@ -555,26 +483,6 @@
           "florida_text": "The ability to recognize important differences in people’s social, cultural, and economic backgrounds Skills in preparing reports and communicating complex ideas The capacity for critical thinking about social issues and problems that confront modern society ( Sociology prepares people for a wide variety of careers. Besides actually conducting social research or training others in the field, people who graduate from college with a degree in sociology are hired by government agencies and corporations in fields such as social services, counseling (e.g., family planning, career, substance abuse), community planning, health services, marketing, market research, and human resources. Even a small amount of training in sociology can be an asset in careers like sales, medicine (and even performance on medical school entrance exams), public relations, journalism, teaching, law, and criminal justice.",
           "change_id": null,
           "original_page": 22
-        },
-        {
-          "type": "added",
-          "florida_text": "Key Terms conflict perspective: an analytical tool that looks at society as a competition for limited resources constructivism: an extension of symbolic interaction which proposes that reality is what humans cognitively construct it to be culture: a group's shared practices, values, and beliefs dramaturgical analysis: a technique sociologists use in which they view society through the metaphor of theatrical performance dynamic equilibrium: a stable state in which all parts of a healthy society work together properly dysfunctions: social patterns that have undesirable consequences for the operation of society figuration: the process of simultaneously analyzing the behavior of an individual and the society that shapes that behavior function: the part a recurrent activity plays in the social life as a whole and the contribution it makes to structural continuity functionalism: An analytical approach that sees society as a structure with interrelated parts designed to meet the biological and social needs of individuals that make up that society generalized others: the organized and generalized attitude of a social group grand theories: an attempt to explain large-scale relationships and answer fundamental questions such as why societies form and why they change hypothesis: a testable proposition latent functions: the unrecognized or unintended consequences of a social process macro-level: a wide-scale view of the role of social structures within a society manifest functions: sought consequences of a social process micro-level theories: the study of specific relationships between individuals or small groups perspectives: philosophical and theoretical frameworks used as analytical tools to investigate various phenomena. positivism: the scientific study of social patterns qualitative sociology: in-depth interviews, focus groups, and/or analysis of content sources as the source of its data",
-          "change_id": null
-        },
-        {
-          "type": "added",
-          "florida_text": "quantitative sociology: statistical methods such as surveys with large numbers of participants significant others: specific individuals that impact a person's life social facts: the laws, morals, values, religious beliefs, customs, fashions, rituals, and all of the cultural rules that govern social life social institutions: patterns of beliefs and behaviors focused on meeting social needs social solidarity: the social ties that bind a group of people together such as kinship, shared location, and religion society: a group of people who live in a defined geographical area who interact with one another and who share a common culture sociological imagination: the ability to understand how your own past relates to that of other people, as well as to history in general and societal structures in particular sociology: the systematic study of society and social interaction symbolic interactionism: a theoretical perspective through which scholars examine the relationship of individuals within their society by studying their communication (language and symbols) theory: are explanations drawn from systematic evaluation of the relationships between variables across different scientific studies. Theories are tested using research studies and may be disproven by new scientific evidence. Verstehenz: a German word that means to understand in a deep way",
-          "change_id": null
-        },
-        {
-          "type": "added",
-          "florida_text": "References",
-          "change_id": null
-        },
-        {
-          "type": "added",
-          "florida_text": "Berger, P. (1963). Invitation to Sociology: A Humanistic Perspective. New York: Anchor Books. Department of Sociology, University of Alabama. (n.d.) Is Sociology Right for You? Huntsville: University of Alabama. Retrieved from https://www.uah.edu/ahs/departments/sociology/about.",
-          "change_id": null
         }
       ]
     }
