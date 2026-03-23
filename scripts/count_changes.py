@@ -33,7 +33,7 @@ from text_parser import clean_text
 
 
 SAME_THRESHOLD = 0.95  # Near-identical
-MODIFIED_THRESHOLD = 0.5  # Changed but recognizable
+MODIFIED_THRESHOLD = 0.4  # Changed but recognizable
 
 
 def get_original_sentences(chapter: int) -> list[str]:
@@ -44,7 +44,7 @@ def get_original_sentences(chapter: int) -> list[str]:
         for para in sec["paragraphs"]:
             for sent in sent_tokenize(para):
                 sent = sent.strip()
-                if len(sent) > 10:  # Skip tiny fragments
+                if len(sent) > 10 and len(sent.split()) >= 5:
                     sentences.append(sent)
     return sentences
 
@@ -112,7 +112,13 @@ def get_florida_sentences(chapter: int) -> list[str]:
     sentences = []
     for sent in sent_tokenize(fl_text):
         sent = sent.strip()
-        if len(sent) > 10:
+        # Skip very short fragments and reference/citation lines
+        if len(sent) > 10 and len(sent.split()) >= 5:
+            # Skip lines that look like references or URLs
+            if sent.startswith("http") or sent.startswith("Retrieved "):
+                continue
+            if re.match(r"^\d{4}\.", sent):  # Year-starting reference
+                continue
             sentences.append(sent)
     return sentences
 
@@ -148,29 +154,37 @@ def classify_sentences(orig_sents: list[str], fl_sents: list[str]) -> dict:
         result["added"] = list(fl_sents)
         return result
 
+    # Build all plausible pairs with scores
+    pairs = []  # (score, orig_idx, fl_idx)
+    for i, orig_sent in enumerate(orig_sents):
+        for j, fl_sent in enumerate(fl_sents):
+            # Quick length filter
+            len_ratio = len(orig_sent) / max(len(fl_sent), 1)
+            if len_ratio < 0.25 or len_ratio > 4.0:
+                continue
+            score = word_sim(orig_sent, fl_sent)
+            if score >= MODIFIED_THRESHOLD:
+                pairs.append((score, i, j))
+
+    # Greedily match highest-scoring pairs first (avoids stealing)
+    pairs.sort(reverse=True)
+    orig_matched = {}  # i -> (j, score)
     fl_matched = set()
 
-    for orig_sent in orig_sents:
-        best_score = 0.0
-        best_j = -1
+    for score, i, j in pairs:
+        if i in orig_matched or j in fl_matched:
+            continue
+        orig_matched[i] = (j, score)
+        fl_matched.add(j)
 
-        for j, fl_sent in enumerate(fl_sents):
-            # Quick length filter — skip very different lengths
-            len_ratio = len(orig_sent) / max(len(fl_sent), 1)
-            if len_ratio < 0.3 or len_ratio > 3.0:
-                continue
-
-            score = word_sim(orig_sent, fl_sent)
-            if score > best_score:
-                best_score = score
-                best_j = j
-
-        if best_score >= SAME_THRESHOLD:
-            result["same"].append((orig_sent, fl_sents[best_j]))
-            fl_matched.add(best_j)
-        elif best_score >= MODIFIED_THRESHOLD:
-            result["modified"].append((orig_sent, fl_sents[best_j], best_score))
-            fl_matched.add(best_j)
+    # Classify
+    for i, orig_sent in enumerate(orig_sents):
+        if i in orig_matched:
+            j, score = orig_matched[i]
+            if score >= SAME_THRESHOLD:
+                result["same"].append((orig_sent, fl_sents[j]))
+            else:
+                result["modified"].append((orig_sent, fl_sents[j], score))
         else:
             result["removed"].append(orig_sent)
 
