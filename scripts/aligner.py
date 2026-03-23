@@ -11,18 +11,18 @@ Strategy:
 import re
 from difflib import SequenceMatcher
 
+import nltk
+try:
+    nltk.data.find("tokenizers/punkt_tab")
+except LookupError:
+    nltk.download("punkt_tab", quiet=True)
+from nltk.tokenize import sent_tokenize
+
 
 def _split_sentences(text: str) -> list[str]:
-    """Split text into sentences."""
-    # Split on sentence-ending punctuation followed by space + capital/quote
-    parts = re.split(r'(?<=[.!?])\s+(?=[A-Z"\u2018\u201c(])', text)
-    # Also split on sentence-ending punctuation at end of string
-    result = []
-    for p in parts:
-        p = p.strip()
-        if p and len(p) > 3:
-            result.append(p)
-    return result
+    """Split text into sentences using nltk's trained tokenizer."""
+    sents = sent_tokenize(text)
+    return [s.strip() for s in sents if s.strip() and len(s.strip()) > 5]
 
 
 def _word_sim(a: str, b: str) -> float:
@@ -86,15 +86,24 @@ def align_paragraphs(
         else:
             matches.append((oi, "removed", None))
 
-    # Build raw result list with paragraph break markers
-    # Each entry: (type, text, fl_text_or_none, starts_new_paragraph)
+    # Build raw result list with paragraph break markers,
+    # interleaving unmatched Florida sentences at their natural positions
     raw = []
     last_para = -1
+    fl_emitted = set()
 
     for oi, match_type, fl_idx in matches:
         orig_sent, para_idx = orig_sents[oi]
         new_para = (para_idx != last_para)
         last_para = para_idx
+
+        # Before emitting this match, emit any unmatched FL sentences
+        # that come before the matched FL sentence
+        if fl_idx is not None:
+            for j in range(fl_idx):
+                if j not in fl_used and j not in fl_emitted:
+                    raw.append(("added", None, fl_sents[j], False))
+                    fl_emitted.add(j)
 
         if match_type == "same":
             raw.append(("same", orig_sent, None, new_para))
@@ -103,19 +112,16 @@ def align_paragraphs(
         elif match_type == "removed":
             raw.append(("removed", orig_sent, None, new_para))
 
-    # Collect unmatched Florida sentences as "added"
-    # Insert them at the end (we could try to position them better,
-    # but for now grouping them together is cleaner)
-    added_sents = [fl_sents[j] for j in range(len(fl_sents)) if j not in fl_used]
+        if fl_idx is not None:
+            fl_emitted.add(fl_idx)
+
+    # Emit remaining unmatched FL sentences at the end
+    for j in range(len(fl_sents)):
+        if j not in fl_used and j not in fl_emitted:
+            raw.append(("added", None, fl_sents[j], False))
 
     # Group consecutive same-type entries into blocks, respecting paragraph breaks
     blocks = _group_into_blocks(raw)
-
-    # Append added content if any
-    if added_sents:
-        added_text = " ".join(added_sents)
-        if len(added_text.split()) > 5:
-            blocks.append({"type": "added", "florida_text": added_text})
 
     # Post-process: if mostly unmatched, collapse
     if len(blocks) > 4:

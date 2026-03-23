@@ -77,28 +77,8 @@
         },
         {
           "type": "modified",
-          "original_text": "Today, the percent of unmarried couples, same-sex couples, single-parent and single-adult households is increasing, as well as is the number of expanded households, in which extended family members such as grandparents, cousins, or adult children live together in the family home.",
-          "florida_text": "Today, the percent of unmarried couples, same-sex couples, single- parent and single-adult households is increasing, as well as the number of expanded households, in which extended family members such as grandparents, cousins, or adult children live together in the family home.",
-          "change_id": null,
-          "original_page": 21,
-          "florida_page": 6
-        },
-        {
-          "type": "removed",
-          "original_text": "While 15 million mothers still make up the majority of single parents, 3.5 million fathers are also raising their children alone (U.S.",
-          "change_id": null,
-          "original_page": 21
-        },
-        {
-          "type": "same",
-          "text": "Census Bureau, 2020).",
-          "original_page": 21,
-          "florida_page": 6
-        },
-        {
-          "type": "modified",
-          "original_text": "Increasingly, single people and cohabitating couples are choosing to raise children outside of marriage through surrogates or adoption.",
-          "florida_text": "Single people and cohabitating couples are choosing to raise children outside of marriage through surrogates or adoption.",
+          "original_text": "Today, the percent of unmarried couples, same-sex couples, single-parent and single-adult households is increasing, as well as is the number of expanded households, in which extended family members such as grandparents, cousins, or adult children live together in the family home. While 15 million mothers still make up the majority of single parents, 3.5 million fathers are also raising their children alone (U.S. Census Bureau, 2020). Increasingly, single people and cohabitating couples are choosing to raise children outside of marriage through surrogates or adoption.",
+          "florida_text": "Today, the percent of unmarried couples, same-sex couples, single- parent and single-adult households is increasing, as well as the number of expanded households, in which extended family members such as grandparents, cousins, or adult children live together in the family home. While most single parents are single mothers, fathers are increasingly raising their children alone (U.S. Census Bureau, 2020). Single people and cohabitating couples are choosing to raise children outside of marriage through surrogates or adoption.",
           "change_id": null,
           "original_page": 21,
           "florida_page": 6
@@ -147,12 +127,6 @@
           "florida_text": "In simpler terms, figuration means that as one analyzes the social institutions in a society, the individuals using that institution in any fashion need to be ‘figured’ into the analysis.",
           "change_id": null,
           "original_page": 21,
-          "florida_page": 6
-        },
-        {
-          "type": "added",
-          "florida_text": "While most single parents are single mothers, fathers are increasingly raising their children alone (U.S. Do Americans view marriage and family differently than do people in other nations?",
-          "change_id": null,
           "florida_page": 6
         }
       ]
@@ -206,15 +180,15 @@
         },
         {
           "type": "modified",
-          "original_text": "The term sociology was first coined in 1780 by the French essayist Emmanuel-Joseph Sieyès (1748–1836) in an unpublished manuscript (Fauré et al. 1999).",
-          "florida_text": "Creating a Discipline: European Theorists Auguste Comte (1798 – 1857) The term sociology was first coined in 1780 by the French essayist Emmanuel-Joseph Sieyès (1748–1836) in an unpublished manuscript (Fauré et al. 1999).",
+          "original_text": "The term sociology was first coined in 1780 by the French essayist Emmanuel-Joseph Sieyès (1748–1836) in an unpublished manuscript (Fauré et al.",
+          "florida_text": "Creating a Discipline: European Theorists Auguste Comte (1798 – 1857) The term sociology was first coined in 1780 by the French essayist Emmanuel-Joseph Sieyès (1748–1836) in an unpublished manuscript (Fauré et al.",
           "change_id": null,
           "original_page": 23,
           "florida_page": 6
         },
         {
           "type": "same",
-          "text": "In 1838, the term was reintroduced by Auguste Comte (1798–1857).",
+          "text": "1999). In 1838, the term was reintroduced by Auguste Comte (1798–1857).",
           "original_page": 23,
           "florida_page": 6
         },
@@ -248,20 +222,25 @@
         },
         {
           "type": "modified",
-          "original_text": "She pointed out the faults with the free enterprise system in which workers were exploited and impoverished while business owners became wealthy. She further noted that the belief that all are created equal was inconsistent with the lack of women’s rights. Much like Mary Wollstonecraft, Martineau was often discounted in her own time because academic sociology was a male-dominated profession.\n\nKarl Marx was a German philosopher and economist.",
-          "florida_text": "She pointed out what she observed about business practices at that time in which workers were exploited and impoverished while business owners became wealthy. She further noted that the belief that all are created equal was inconsistent with what she saw as the lack of women’s rights. At that time academic sociology was a male-dominated profession. Karl Marx (1818-1883) Karl Marx was a German philosopher and economist.",
-          "change_id": "ch01_change_7",
-          "original_page": 25,
-          "florida_page": 8,
-          "context": "The phrase \"faults with the free enterprise system\" is softened to \"what she observed about business practices at that time,\" removing Martineau's critique of capitalism as a systemic failing. The claim is also further hedged by adding \"what she saw as\" before \"the lack of women's rights,\" distancing the text from affirming Martineau's feminist observations.",
-          "original_evidence": "img/evidence/ch01/change_7_original.webp",
-          "florida_evidence": "img/evidence/ch01/change_7_florida.webp"
+          "original_text": "She pointed out the faults with the free enterprise system in which workers were exploited and impoverished while business owners became wealthy. She further noted that the belief that all are created equal was inconsistent with the lack of women’s rights.",
+          "florida_text": "She pointed out what she observed about business practices at that time in which workers were exploited and impoverished while business owners became wealthy. She further noted that the belief that all are created equal was inconsistent with what she saw as the lack of women’s rights.",
+          "change_id": null,
+          "original_page": 23,
+          "florida_page": 6
+        },
+        {
+          "type": "modified",
+          "original_text": "Much like Mary Wollstonecraft, Martineau was often discounted in her own time because academic sociology was a male-dominated profession.\n\nKarl Marx was a German philosopher and economist.",
+          "florida_text": "At that time academic sociology was a male-dominated profession. Karl Marx (1818-1883) Karl Marx was a German philosopher and economist.",
+          "change_id": null,
+          "original_page": 23,
+          "florida_page": 6
         },
         {
           "type": "same",
           "text": "In 1848, he and Friedrich Engels (1820–1895) coauthored the Communist Manifesto.",
-          "original_page": 25,
-          "florida_page": 8
+          "original_page": 23,
+          "florida_page": 6
         },
         {
           "type": "modified",
@@ -304,34 +283,28 @@
         },
         {
           "type": "same",
-          "text": "Spencer rejected much of Comte’s philosophy as well as Marx’s theory of class struggle and his support of communism. Instead, he favored a form of government that allowed market forces to control capitalism. His work influenced many early sociologists including Émile Durkheim (1858–1917). Spencer, using Charles Darwin’s work as a comparison said, “This survival of the fittest, which I have here sought to express in mechanical terms, is that which Mr.",
+          "text": "Spencer rejected much of Comte’s philosophy as well as Marx’s theory of class struggle and his support of communism. Instead, he favored a form of government that allowed market forces to control capitalism. His work influenced many early sociologists including Émile Durkheim (1858–1917). Spencer, using Charles Darwin’s work as a comparison said, “This survival of the fittest, which I have here sought to express in mechanical terms, is that which Mr. Darwin has called ‘natural selection,’ or the preservation of favoured races in the struggle for life.” (Spencer, 1864) The statement is often misinterpreted and adopted by those who believe in the superiority of one race over another.",
           "original_page": 25,
           "florida_page": 8
         },
         {
           "type": "modified",
-          "original_text": "Darwin has called ‘natural selection,’ or the preservation of favoured races in the struggle for life.” (Spencer, 1864) The statement is often misinterpreted and adopted by those who believe in the superiority of one race over another.\n\nGeorg Simmel was a German art critic who wrote widely on social and political issues as well. Simmel took an anti-positivism stance and addressed topics such as social conflict, the function of money, individual identity in city life, and the European fear of outsiders (Stapley 2010).",
-          "florida_text": "Darwin has called ‘natural selection,’ or the preservation of favored races in the struggle for life.” (Spencer, 1864) The statement is often misinterpreted and adopted by those who believe in the superiority of one race over another. Georg Simmel (1858–1918) Georg Simmel was a German art critic who wrote widely on social and political issues as well. Simmel took an anti- positivism stance and addressed topics such as social conflict, the function of money, individual identity in city life, and the European fear of outsiders (Stapley 2010).",
+          "original_text": "Georg Simmel was a German art critic who wrote widely on social and political issues as well. Simmel took an anti-positivism stance and addressed topics such as social conflict, the function of money, individual identity in city life, and the European fear of outsiders (Stapley 2010).",
+          "florida_text": "Georg Simmel (1858–1918) Georg Simmel was a German art critic who wrote widely on social and political issues as well. Simmel took an anti- positivism stance and addressed topics such as social conflict, the function of money, individual identity in city life, and the European fear of outsiders (Stapley 2010).",
           "change_id": null,
           "original_page": 25,
           "florida_page": 8
         },
         {
           "type": "same",
-          "text": "Much of his work focused on micro-level theories and analyzed the dynamics of two-person and three-person groups.",
+          "text": "Much of his work focused on micro-level theories and analyzed the dynamics of two-person and three-person groups. His work also emphasized individual culture as the creative capacities of individuals (Ritzer and Goodman 2004).",
           "original_page": 25,
           "florida_page": 8
         },
         {
-          "type": "removed",
-          "original_text": "His work also emphasized individual culture as the creative capacities of individuals (Ritzer and Goodman 2004).",
-          "change_id": null,
-          "original_page": 25
-        },
-        {
           "type": "modified",
           "original_text": "Émile Durkheim helped establish sociology as a formal academic discipline by establishing the first European department of sociology at the University of Bordeaux in 1895 and by publishing his Rules of the Sociological Method in 1895.",
-          "florida_text": "His work also emphasized individual culture as the creative capacities of individuals (Ritzer and Goodman 2004). Émile Durkheim (1858–1917) Émile Durkheim helped establish sociology as a formal academic discipline by establishing the first European department of sociology at the University of Bordeaux in 1895 and by publishing his Rules of the Sociological Method in 1895.",
+          "florida_text": "Émile Durkheim (1858–1917) Émile Durkheim helped establish sociology as a formal academic discipline by establishing the first European department of sociology at the University of Bordeaux in 1895 and by publishing his Rules of the Sociological Method in 1895.",
           "change_id": null,
           "original_page": 25,
           "florida_page": 8
@@ -470,22 +443,30 @@
         },
         {
           "type": "modified",
-          "original_text": "He was very concerned with the increasing individualism and competitiveness of US society, fearing it would disrupt families as primary groups lost their importance.\n\nGeorge Herbert Mead was a philosopher and sociologist whose work focused on the ways in which the mind and the self were developed as a result of social processes (Cronk, n.d.).",
-          "florida_text": "He was very concerned with the increasing individualism and competitiveness of US society, fearing it would disrupt families as primary groups lost their importance, with a particular focus on small groups and dyads. He was a philosopher and sociologist whose work focused on the ways in which the mind and the self were developed as a result of social processes (Cronk, n.d.).",
+          "original_text": "He was very concerned with the increasing individualism and competitiveness of US society, fearing it would disrupt families as primary groups lost their importance.",
+          "florida_text": "He was very concerned with the increasing individualism and competitiveness of US society, fearing it would disrupt families as primary groups lost their importance, with a particular focus on small groups and dyads.",
+          "change_id": null,
+          "original_page": 25,
+          "florida_page": 8
+        },
+        {
+          "type": "modified",
+          "original_text": "George Herbert Mead was a philosopher and sociologist whose work focused on the ways in which the mind and the self were developed as a result of social processes (Cronk, n.d.).",
+          "florida_text": "He was a philosopher and sociologist whose work focused on the ways in which the mind and the self were developed as a result of social processes (Cronk, n.d.).",
           "change_id": null,
           "original_page": 25,
           "florida_page": 8
         },
         {
           "type": "same",
-          "text": "He argued that how an individual comes to view himself or herself is based to a very large extent on interactions with others. Though Mead adopted Cooley’s concept of ‘looking-glasses,’ Mead felt that an individual’s reaction to a positive or negative reflection depended on who the ‘other’ was. Individuals that had the greatest impact on a person’s life were significant others while generalized others were the organized and generalized attitude of a social group. Mead often shares the title of father of symbolic interactionism with Cooley and Erving Goffman.\n\nRobert E. Park is best known as the founder of social ecology.",
+          "text": "He argued that how an individual comes to view himself or herself is based to a very large extent on interactions with others. Though Mead adopted Cooley’s concept of ‘looking-glasses,’ Mead felt that an individual’s reaction to a positive or negative reflection depended on who the ‘other’ was. Individuals that had the greatest impact on a person’s life were significant others while generalized others were the organized and generalized attitude of a social group. Mead often shares the title of father of symbolic interactionism with Cooley and Erving Goffman.",
           "original_page": 25,
           "florida_page": 8
         },
         {
           "type": "modified",
-          "original_text": "Attached to the Chicago School, Park focused on how individuals lived within their environment.",
-          "florida_text": "Attached to the Chicago School, Park focused on how individuals lived within their communities.",
+          "original_text": "Robert E. Park is best known as the founder of social ecology. Attached to the Chicago School, Park focused on how individuals lived within their environment.",
+          "florida_text": "Robert E. Park (1864-1944) Robert E. Park is best known as the founder of social ecology. Attached to the Chicago School, Park focused on how individuals lived within their communities.",
           "change_id": null,
           "original_page": 25,
           "florida_page": 8
@@ -502,12 +483,6 @@
           "florida_text": "As such, it was not the residents who caused the chaos but the sociopolitical context",
           "change_id": null,
           "original_page": 25,
-          "florida_page": 8
-        },
-        {
-          "type": "added",
-          "florida_text": "Social? mobility, and new kinds of employment. It was within this context that sociology was born. Much like Mary Wollstonecraft, Martineau’s work was often discounted. Marx saw all societies as characterized by the relationship between the oppressors and the oppressed. W.E.B. George Herbert Mead (1863–1931) George Herbert Mead also focused on small groups. Park (1864-1944) Robert E.",
-          "change_id": null,
           "florida_page": 8
         }
       ]
@@ -570,20 +545,14 @@
         {
           "type": "modified",
           "original_text": "The parts of society that Spencer referred to were the social institutions, or patterns of beliefs and behaviors focused on meeting social needs, such as government, education, family, healthcare, religion, and the economy.",
-          "florida_text": "The parts of society to which Spencer referred were social institutions, or patterns of beliefs and behaviors focused on meeting social needs, such as government, education, family, healthcare, religion, and the economy. Émile Durkheim applied Spencer’s theory to explain how societies change and survive over time.",
+          "florida_text": "The parts of society to which Spencer referred were social institutions, or patterns of beliefs and behaviors focused on meeting social needs, such as government, education, family, healthcare, religion, and the economy.",
           "change_id": null,
           "original_page": 29,
           "florida_page": 8
         },
         {
-          "type": "removed",
-          "original_text": "Émile Durkheim applied Spencer’s theory to explain how societies change and survive over time.",
-          "change_id": null,
-          "original_page": 29
-        },
-        {
           "type": "same",
-          "text": "Durkheim believed that society is a complex system of interrelated and interdependent parts that work together to maintain stability (Durkheim, 1893), and that society is held together by shared values, languages, and symbols. He believed that to study society, a sociologist must look beyond individuals to social facts such as laws, morals, values, religious beliefs, customs, fashion, and rituals, which all serve to govern social life (Durkheim, 1895).",
+          "text": "Émile Durkheim applied Spencer’s theory to explain how societies change and survive over time. Durkheim believed that society is a complex system of interrelated and interdependent parts that work together to maintain stability (Durkheim, 1893), and that society is held together by shared values, languages, and symbols. He believed that to study society, a sociologist must look beyond individuals to social facts such as laws, morals, values, religious beliefs, customs, fashion, and rituals, which all serve to govern social life (Durkheim, 1895).",
           "original_page": 29,
           "florida_page": 8
         },
@@ -686,10 +655,12 @@
           "florida_page": 8
         },
         {
-          "type": "removed",
+          "type": "modified",
           "original_text": "Simmel also showed that groups work to create internal solidarity, centralize power, and reduce dissent.",
+          "florida_text": "solidarity, centralize power, and reduce dissent.",
           "change_id": null,
-          "original_page": 29
+          "original_page": 29,
+          "florida_page": 8
         },
         {
           "type": "same",
@@ -715,15 +686,29 @@
         },
         {
           "type": "modified",
-          "original_text": "Just as structural functionalism was criticized for focusing too much on the stability of societies, conflict theory has been criticized because it tends to focus on conflict to the exclusion of recognizing stability. Many social structures are extremely stable or have gradually progressed over time rather than changing abruptly as conflict theory would suggest.\n\nSymbolic interactionism is a micro-level theory that focuses on the relationships among individuals within a society.",
-          "florida_text": "Criticism of Conflict Perspective Just as structural functionalism was criticized for focusing too much on the stability of societies, conflict perspective has been criticized because it tends to focus on conflict to the exclusion of recognizing stability. Many social structures are extremely stable or have gradually progressed over time rather than changing abruptly as the conflict perspective would suggest. Symbolic Interactionist Symbolic interactionism is a micro-level approach that focuses on the relationships among individuals within a society.",
+          "original_text": "Just as structural functionalism was criticized for focusing too much on the stability of societies, conflict theory has been criticized because it tends to focus on conflict to the exclusion of recognizing stability. Many social structures are extremely stable or have gradually progressed over time rather than changing abruptly as conflict theory would suggest.",
+          "florida_text": "Criticism of Conflict Perspective Just as structural functionalism was criticized for focusing too much on the stability of societies, conflict perspective has been criticized because it tends to focus on conflict to the exclusion of recognizing stability. Many social structures are extremely stable or have gradually progressed over time rather than changing abruptly as the conflict perspective would suggest.",
+          "change_id": null,
+          "original_page": 32,
+          "florida_page": 8
+        },
+        {
+          "type": "modified",
+          "original_text": "Symbolic interactionism is a micro-level theory that focuses on the relationships among individuals within a society.",
+          "florida_text": "Symbolic Interactionist Symbolic interactionism is a micro-level approach that focuses on the relationships among individuals within a society.",
           "change_id": null,
           "original_page": 32,
           "florida_page": 8
         },
         {
           "type": "same",
-          "text": "Communication—the exchange of meaning through language and symbols—is believed to be the way in which people make sense of their social worlds. Theorists Herman and Reynolds (1994) note that this perspective sees people as being active in shaping the social world rather than simply being acted upon.\n\nGeorge Herbert Mead is considered a founder of symbolic interactionism though he never published his work on it (LaRossa and Reitzes, 1993). Mead’s student, Herbert Blumer (1900-1987), coined the term “symbolic interactionism” and outlined these basic premises: humans interact with things based on meanings ascribed to those things; the ascribed meaning of things comes from our interactions with others and society; the meanings of things are interpreted by a person when dealing with things in specific circumstances (Blumer 1969). If you love books, for example, a symbolic interactionist might propose that you learned that books are good or important in the interactions you had with family, friends, school, or church. Maybe your family had a special reading time each week, getting your library card was treated as a special event, or bedtime stories were associated with warmth and comfort.\n\nSocial scientists who apply symbolic-interactionist thinking look for patterns of interaction between individuals. Their studies often involve observation of one-on-one interactions. For example, while a conflict theorist studying a political protest might focus on class difference, a symbolic interactionist would be more interested in how individuals in the protesting group interact, as well as the signs and symbols protesters use to communicate their message.\n\nThe focus on the importance of symbols in building a society led sociologists like Erving Goffman (1922-1982) to develop a technique called dramaturgical analysis. Goffman used theater as an analogy for social interaction and recognized that people’s interactions showed patterns of cultural “scripts.” He argued that individuals were actors in a play. We switched roles, sometimes minute to minute—for example, from student or daughter to dog walker. Because it can be unclear what part a person may play in a given situation, he or she has to improvise his or her role as the situation unfolds (Goffman, 1958).",
+          "text": "Communication—the exchange of meaning through language and symbols—is believed to be the way in which people make sense of their social worlds.",
+          "original_page": 32,
+          "florida_page": 8
+        },
+        {
+          "type": "same",
+          "text": "Theorists Herman and Reynolds (1994) note that this perspective sees people as being active in shaping the social world rather than simply being acted upon.\n\nGeorge Herbert Mead is considered a founder of symbolic interactionism though he never published his work on it (LaRossa and Reitzes, 1993). Mead’s student, Herbert Blumer (1900-1987), coined the term “symbolic interactionism” and outlined these basic premises: humans interact with things based on meanings ascribed to those things; the ascribed meaning of things comes from our interactions with others and society; the meanings of things are interpreted by a person when dealing with things in specific circumstances (Blumer 1969). If you love books, for example, a symbolic interactionist might propose that you learned that books are good or important in the interactions you had with family, friends, school, or church. Maybe your family had a special reading time each week, getting your library card was treated as a special event, or bedtime stories were associated with warmth and comfort.\n\nSocial scientists who apply symbolic-interactionist thinking look for patterns of interaction between individuals. Their studies often involve observation of one-on-one interactions. For example, while a conflict theorist studying a political protest might focus on class difference, a symbolic interactionist would be more interested in how individuals in the protesting group interact, as well as the signs and symbols protesters use to communicate their message.\n\nThe focus on the importance of symbols in building a society led sociologists like Erving Goffman (1922-1982) to develop a technique called dramaturgical analysis. Goffman used theater as an analogy for social interaction and recognized that people’s interactions showed patterns of cultural “scripts.” He argued that individuals were actors in a play. We switched roles, sometimes minute to minute—for example, from student or daughter to dog walker. Because it can be unclear what part a person may play in a given situation, he or she has to improvise his or her role as the situation unfolds (Goffman, 1958).",
           "original_page": 32,
           "florida_page": 8
         },
@@ -774,12 +759,6 @@
           "original_text": "The women’s movement and the Civil Rights movement forced academics to develop approaches to study these emerging social practices.\n\nConflict theory then gained prominence, with its emphasis on institutionalized social inequality. Critical theory, and the particular aspects of feminist theory and critical race theory, focused on creating social change through the application of sociological principles. The field saw a renewed emphasis on helping ordinary people understand sociology principles, in the form of public sociology.\n\nGaining prominence in the wake of Mead’s work in the 1920s and 1930s, symbolic interactionism declined in influence during the 1960s and 1970s only to be revitalized at the turn of the twenty-first century (Stryker, 1987). Postmodern social theory developed in the 1980s to look at society through an entirely new lens by rejecting previous macro-level attempts to explain social phenomena. Its growth in popularity coincides with the rise of constructivist views of symbolic interactionism.",
           "change_id": null,
           "original_page": 32
-        },
-        {
-          "type": "added",
-          "florida_text": "Perspectives are philosophical and theoretical frameworks used as analytical tools to investigate social phenomena. Simmel also showed that groups work to create internal Sociological Perspectives/ Paradigms Level of Analysis Focus Analogies Questions that might be asked Structural Functionalism Macro or Mid The way each part of society functions together to contribute to the functioning of the whole. How each organ works to keep your body healthy (or not.) How does education work to transmit culture? Conflict Macro The way inequities and inequalities contribute to social, political, and power differences and their relationship to power. The ones with the most toys wins and they will change the rules to the games to keep winning. Does education transmit only the values of the most dominant groups? Symbolic Interactionism Micro The way one-on-one interactions and communications behave. What’s it mean to be an [social category]? How do students react to cultural messages in school? Table 1.1 Sociological Perspectives Different sociological perspectives enable sociologists to view social issues through a variety of useful lenses. solidarity, centralize power, and reduce dissent. Big Picture: A Global Culture? Sociologists around the world look closely for signs of what would be an unprecedented event: the emergence of a global culture. In the past, empires such as those that existed in China, Europe, Africa, and Central and South America linked people from many different countries, but those people rarely became part of a common culture. They lived too far from each other, spoke different languages, practiced different religions, and traded few goods. Today, increases in communication, travel, and trade have made the world a much smaller place. More and more people are able to communicate with each other instantly—wherever they are located—by telephone, video, and text. They share movies, television shows, music, games, and information over the Internet. Students can study with teachers and pupils from the other side of the globe. Governments find it harder to hide conditions inside their countries from the rest of the world. Sociologists research many different aspects of this potential global culture. Some explore the dynamics involved in the social interactions of global online communities, such as when members feel a closer kinship to other group members than to people residing in their own countries. Other sociologists study the impact this growing international culture has on smaller, less-powerful local cultures. Yet other researchers explore how international markets and the outsourcing of labor impact social inequalities. Sociology can play a key role in people’s abilities to understand the nature of this emerging global culture and how to respond to it. Meaning is derived through a shared definition of a situation. Sociology in the Real World Farming and Locavores: How Sociological Perspectives Might View Food Consumption The consumption of food is a commonplace, daily occurrence. Yet, it can also be associated with important moments in our lives. Eating can be an individual or a group action, and eating habits and customs are influenced by our cultures. In the context of society, our nation’s food system is at the core of numerous social movements, political issues, and economic debates. Any of these factors might become a topic of sociological study. A structural-functional approach to the topic of food consumption might analyze the role of the agriculture industry within the nation’s economy and how this has changed from the early days of manual-labor farming to modern mechanized production. Another might study the different functions of processes in food production, from farming and harvesting to flashy packaging and mass consumerism. A researcher using the conflict perspective might be interested in the power differentials present in the regulation of food, by exploring where people’s right to information intersects with corporations’ drive for profit and how the government mediates those interests. Or they might examine the power and powerlessness experienced by local farmers versus large farming conglomerates, such as the documentary Food Inc., which depicts as resulting from Monsanto’s patenting of seed technology. Another topic of study might be how nutrition varies between different social classes. A sociologist viewing food consumption through a symbolic interactionist lens would be more interested in microlevel topics, such as the symbolic use of food in religious rituals, or the role it plays in the social interaction of a family dinner. This perspective might also explore the interactions among group members who identify themselves based on their sharing a particular diet, such as vegetarians (people who don’t eat meat) or locavores (people who strive to eat locally produced food). However, the value of a theory is in its applicability to a broad set of topics/questions. Sociological Theory Today These four approaches have played an important role in shaping sociological inquiry, but they have evolved over time. The women’s movement and the Civil Rights movement required sociologists to think differently and identify new frameworks to study the social conditions and the legal frameworks that had historically limited freedom for Americans based on their gender and race. Changes in laws, inspired by these social movements allowed sociologists to consider how historical patterns shaping freedom to educational opportunities (i.e., legal frameworks about who could attend certain schools/types of schools), freedom to buy homes/land in specific geographic areas, freedom to participate in democratic activities (e.g., vote), freedom to access certain employment opportunities, freedom to conduct business, and freedom to use and move freely in public places, may require new frameworks. Conflict perspective gained prominence in the period following the Civil Rights and Women’s movements of the 1960s. Conflict perspective emphasizes institutionalized social inequality. This perspective also founded a new approach to sociology – helping the public understand the role of institutions in shaping differences in outcomes across social groups. Sociologists brought attention to associations between the design of and changes in institutions and differences in outcomes among demographic groups by explaining findings in a way that was easy to understand by non-scientific audiences.",
-          "change_id": null,
-          "florida_page": 8
         }
       ]
     },
@@ -810,8 +789,16 @@
         },
         {
           "type": "modified",
-          "original_text": "Berger also describes the “aha” moment when a sociological theory becomes applicable and understood:\n\nSociology can be exciting because it teaches people ways to recognize how they fit into the world and how others perceive them.",
-          "florida_text": "Berger also describes the “aha” moment when a sociological theory becomes applicable and understood: [T]here is a deceptive simplicity and obviousness about some sociological investigations. (Berger, 1963) Sociology can be exciting because it teaches people ways to recognize how they fit into the world and how others perceive them.",
+          "original_text": "Berger also describes the “aha” moment when a sociological theory becomes applicable and understood:",
+          "florida_text": "Berger also describes the “aha” moment when a sociological theory becomes applicable and understood: [T]here is a deceptive simplicity and obviousness about some sociological investigations.",
+          "change_id": null,
+          "original_page": 32,
+          "florida_page": 8
+        },
+        {
+          "type": "modified",
+          "original_text": "Sociology can be exciting because it teaches people ways to recognize how they fit into the world and how others perceive them.",
+          "florida_text": "(Berger, 1963) Sociology can be exciting because it teaches people ways to recognize how they fit into the world and how others perceive them.",
           "change_id": null,
           "original_page": 32,
           "florida_page": 8
@@ -866,12 +853,6 @@
           "context": "The Florida version adds medicine and medical school entrance exam performance to the list of careers where sociology training is useful — content not present in the original.",
           "original_evidence": "img/evidence/ch01/change_14_original.webp",
           "florida_evidence": "img/evidence/ch01/change_14_florida.webp"
-        },
-        {
-          "type": "added",
-          "florida_text": "One reads them, nods at the familiar scene, remarks that one has heard all this before and don’t people have better things to do than to waste their time on truisms—until one is suddenly brought up against an insight that radically questions everything one had previously assumed about this familiar scene. This is the point at which one begins to sense the excitement of sociology. Studying sociology can provide people with this wide knowledge and a skill set that can contribute to many workplaces, including: An understanding of social systems and large bureaucracies The ability to devise and carry out research projects to assess whether a program or policy is working The ability to collect, read, and analyze statistical information from polls or surveys Sociology in the Real World Social Networking Consequences You’ve probably heard a cautionary story that goes something like this: A high school student spent years working hard, engaging in their community, helping others, and generally growing into a positive and promising young adult. During senior year, they start the college application process, and after a couple of interviews and other interactions, things are looking bright at several of their top choices. But when the time arrives for those fateful notifications about acceptance or rejection, the student and their family are shocked to get rejected from all schools but one. Inquiries from family members and guidance counselors had no results. The only news came in the form of a letter three weeks later from the one school that had accepted the student. “...After an initial investigation, the University has determined that several posts attributed to you violate our policies, and are offensive and troubling...” The letter’s remaining two pages detailed the ongoing investigation and outlined the potential outcomes. But that one statement said it all: The student had posted something offensive on social media, and their prospective colleges had found it. Two years earlier, at the beginning of sophomore year, the student had posted two comments and a meme that mocked a classmate who had been assaulted at a party. Even though the student had removed them within a few days, the posts lived on in other forums and on a few friends’ pages; there was also the possibility that someone had screen-grabbed them. While social media posts are protected forms of speech in relation to the government, colleges can review them as they evaluate applicants. Employers can do the same, as can romantic partners or even volunteer organizations. You may believe that a 15-year-old’s social media comments should not impact them years later. Or you may feel that someone who jokes about assault may be a risk to commit a similar act or fail to stop or report one. Sociologists may consider all of those assumptions and may seek answers or information through research to uncover the impacts, risks, tendencies, and outcomes on the different groups involved. For example, a sociologist might work to discover answers to the following questions: Is abusive speech or assault less likely to occur at colleges that screen applicants’ social media posts? Do sensitivity trainings or cultural competency programs influence online speech? Do colleges treat all community members equally when they discover someone has posted offensive comments or other content? Are algorithms and artificial intelligence used to detect problematic comments biased against certain people or communities? None of these questions could be answered by a single study or even a group of them. But like the Supreme Court’s use of Mamie and Kenneth Clarke’s research, college administrators, high school counselors, and technology companies can use the outcomes of research and analysis to make decisions or implement programs. The ability to recognize important differences in people’s social, cultural, and economic backgrounds Skills in preparing reports and communicating complex ideas The capacity for critical thinking about social issues and problems that confront modern society ( Sociology prepares people for a wide variety of careers.",
-          "change_id": null,
-          "florida_page": 20
         }
       ]
     }

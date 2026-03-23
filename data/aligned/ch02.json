@@ -47,14 +47,14 @@
         },
         {
           "type": "same",
-          "text": "Researchers collected the data Swedish police used to track and project future crimes. They found that assaults, pickpocketing and burglary had decreased significantly (Gerell, Kardell, and Kindgren, 2020). In this way, researchers used empirical evidence and statistical analysis to answer the question how did COVID-19 restrictions impact crime rates. In this chapter, we will explore the approaches and methods sociologists use to conduct studies like this one.",
+          "text": "Researchers collected the data Swedish police used to track and project future crimes. They found that assaults, pickpocketing and burglary had decreased significantly (Gerell, Kardell, and Kindgren, 2020).",
           "original_page": 48,
           "florida_page": 25
         },
         {
-          "type": "added",
-          "florida_text": "Similar results regarding smaller-scale crimes were also noted in other countries, including the United States (e.g., see https://counciloncj.org/impact-report- covid-19-and-crime/).",
-          "change_id": null,
+          "type": "same",
+          "text": "In this way, researchers used empirical evidence and statistical analysis to answer the question how did COVID-19 restrictions impact crime rates. In this chapter, we will explore the approaches and methods sociologists use to conduct studies like this one.",
+          "original_page": 48,
           "florida_page": 25
         }
       ]
@@ -195,8 +195,16 @@
         },
         {
           "type": "modified",
-          "original_text": "In scientific research, we formulate hypotheses to include an independent variable (IV), which is the cause of the change, and a dependent variable (DV), which is the effect, or thing that is changed. In the example above, unemployment is the independent variable and the crime rate is the dependent variable.\n\nIn a sociological study, the researcher would establish one form of human behavior as the independent variable and observe the influence it has on a dependent variable.",
-          "florida_text": "In scientific research, we formulate hypotheses to include independent variables (IV), which are the hypothesized cause of the change, and a dependent variable (DV), which is the hypothesized effect, or the thing we expect to change. In the example above, unemployment is the independent variable, and the crime rate is the dependent variable. In a sociological study, the researcher would ask a research question based on one form of human behavior as the independent variable and observe the influence it has on a dependent variable.",
+          "original_text": "In scientific research, we formulate hypotheses to include an independent variable (IV), which is the cause of the change, and a dependent variable (DV), which is the effect, or thing that is changed. In the example above, unemployment is the independent variable and the crime rate is the dependent variable.",
+          "florida_text": "In scientific research, we formulate hypotheses to include independent variables (IV), which are the hypothesized cause of the change, and a dependent variable (DV), which is the hypothesized effect, or the thing we expect to change. In the example above, unemployment is the independent variable, and the crime rate is the dependent variable.",
+          "change_id": null,
+          "original_page": 48,
+          "florida_page": 25
+        },
+        {
+          "type": "modified",
+          "original_text": "In a sociological study, the researcher would establish one form of human behavior as the independent variable and observe the influence it has on a dependent variable.",
+          "florida_text": "In a sociological study, the researcher would ask a research question based on one form of human behavior as the independent variable and observe the influence it has on a dependent variable.",
           "change_id": null,
           "original_page": 48,
           "florida_page": 25
@@ -279,7 +287,13 @@
         },
         {
           "type": "same",
-          "text": "If the analysis supports the hypothesis, researchers can discuss the implications of the results for the theory or policy solution that they were addressing. If the analysis does not support the hypothesis, researchers may consider repeating the experiment or think of ways to improve their procedure.\n\nHowever, even when results contradict a sociologist’s prediction of a study’s outcome, these results still contribute to sociological understanding. Sociologists analyze general patterns in response to a study, but they are equally interested in exceptions to patterns. In a study of education, a researcher might predict that high school dropouts have a hard time finding rewarding careers. While many assume that the higher the education, the higher the salary and degree of career happiness, there are certainly exceptions. People with little education have had stunning careers, and people with advanced degrees have had trouble finding work. A sociologist prepares a hypothesis knowing that results may substantiate or contradict it.\n\nSociologists carefully keep in mind how operational definitions and research designs impact the results as they draw conclusions. Consider the concept of “increase of crime,” which might be defined as the percent increase in crime from last week to this week, as in the study of Swedish crime discussed above. Yet the data used to evaluate “increase of crime” might be limited by many factors: who commits the crime, where the crimes are committed, or what type of crime is committed. If the data is gathered for “crimes committed in Houston, Texas in zip code 77021,” then it may not be generalizable to crimes committed in rural areas outside of major cities like Houston. If data is collected about vandalism, it may not be generalizable to assault.",
+          "text": "If the analysis supports the hypothesis, researchers can discuss the implications of the results for the theory or policy solution that they were addressing. If the analysis does not support the hypothesis, researchers may consider repeating the experiment or think of ways to improve their procedure.\n\nHowever, even when results contradict a sociologist’s prediction of a study’s outcome, these results still contribute to sociological understanding. Sociologists analyze general patterns in response to a study, but they are equally interested in exceptions to patterns. In a study of education, a researcher might predict that high school dropouts have a hard time finding rewarding careers. While many assume that the higher the education, the higher the salary and degree of career happiness, there are certainly exceptions. People with little education have had stunning careers, and people with advanced degrees have had trouble finding work. A sociologist prepares a hypothesis knowing that results may substantiate or contradict it.",
+          "original_page": 48,
+          "florida_page": 25
+        },
+        {
+          "type": "same",
+          "text": "Sociologists carefully keep in mind how operational definitions and research designs impact the results as they draw conclusions. Consider the concept of “increase of crime,” which might be defined as the percent increase in crime from last week to this week, as in the study of Swedish crime discussed above. Yet the data used to evaluate “increase of crime” might be limited by many factors: who commits the crime, where the crimes are committed, or what type of crime is committed. If the data is gathered for “crimes committed in Houston, Texas in zip code 77021,” then it may not be generalizable to crimes committed in rural areas outside of major cities like Houston. If data is collected about vandalism, it may not be generalizable to assault.",
           "original_page": 48,
           "florida_page": 25
         },
@@ -326,12 +340,6 @@
           "original_page": 52,
           "context": "Entire Critical Sociology subsection removed. This section introduced students to Marxist and Frankfurt School critiques of social science as embedded in power structures of class, race, and gender. Florida replaces it with a dismissive placeholder paragraph directing students to 'more advanced courses.'",
           "original_evidence": "img/evidence/ch02/change_2_original.webp"
-        },
-        {
-          "type": "added",
-          "florida_text": "Further, researchers are expected to evaluate the methodological rigor of a given study to ensure that the results are based on high quality scientific practices. It is important to note that this analysis will allow researchers to determine if unemployment is correlated with crime, but this does not confirm that unemployment causes increased crime. Affordability of Housing Homeless Rate The greater the availability of math tutoring, the higher the math grades. Level of access to Math Tutoring Math Grades earned The greater the police patrol presence, the safer the neighborhood. Level of Police Patrol Presence Level of neighborhood safety The greater the factory lighting, the higher the productivity. Amount of Factory Lighting Level of Productivity The greater the amount of media coverage, the higher the public awareness. Level of media coverage Level of Public Awareness Table 2.1 Examples of Dependent and Independent Variables Typically, the independent variable causes the dependent variable to change in some way. better, while another uses a B+ as a starting point for “good.” For the results to be replicated and gain acceptance within the broader scientific community, researchers would have to specify how they operationalize the definition and explain the justification for their approach. That is, they do not seek to prove their hypothesis, their job is to present their results regardless of whether their hypothesis is supported. Other Frameworks in Sociology There are other frameworks used by sociologists to describe, analytically investigate, and to inform our scientific understanding of various social phenomena. These frameworks may be taught in more advanced courses where students take on more challenging problems at more advanced levels of analysis. The goal of this text is to introduce you to the fundamental tools used by sociologists so that you can benefit from the insights they provide to everyone, regardless of one’s major or areas of interest.",
-          "change_id": null,
-          "florida_page": 25
         }
       ]
     },
@@ -396,21 +404,7 @@
         },
         {
           "type": "removed",
-          "original_text": "As a research method, a survey collects data from subjects who respond to a series of questions about behaviors and opinions, often in the form of a questionnaire or an interview. The survey is one of the most widely used scientific research methods. The standard survey format allows individuals a level of anonymity in which they can express personal ideas.\n\nAt some point, most people in the United States respond to some type of survey.",
-          "change_id": null,
-          "original_page": 52
-        },
-        {
-          "type": "modified",
-          "original_text": "The 2020 U.S.",
-          "florida_text": "The U.S.",
-          "change_id": null,
-          "original_page": 52,
-          "florida_page": 25
-        },
-        {
-          "type": "removed",
-          "original_text": "Census is an excellent example of a large-scale survey intended to gather sociological data.",
+          "original_text": "As a research method, a survey collects data from subjects who respond to a series of questions about behaviors and opinions, often in the form of a questionnaire or an interview. The survey is one of the most widely used scientific research methods. The standard survey format allows individuals a level of anonymity in which they can express personal ideas.\n\nAt some point, most people in the United States respond to some type of survey. The 2020 U.S. Census is an excellent example of a large-scale survey intended to gather sociological data.",
           "change_id": null,
           "original_page": 52
         },
@@ -486,8 +480,16 @@
         },
         {
           "type": "modified",
-          "original_text": "Most researchers choose to survey a small sector of the population, or a sample, a manageable number of subjects who represent a larger population. The success of a study depends on how well a population is represented by the sample. In a random sample, every person in a population has the same chance of being chosen for the study.",
-          "florida_text": "A social science survey targets a specific population, or a sample, which is a manageable number of subjects who represent a larger population. The success of a study depends on how well the population of focus is represented by the sample. In a random sample, every person in the selected population of interest has the same chance of being chosen for the study.",
+          "original_text": "Most researchers choose to survey a small sector of the population, or a sample, a manageable number of subjects who represent a larger population.",
+          "florida_text": "A social science survey targets a specific population, or a sample, which is a manageable number of subjects who represent a larger population.",
+          "change_id": null,
+          "original_page": 52,
+          "florida_page": 25
+        },
+        {
+          "type": "modified",
+          "original_text": "The success of a study depends on how well a population is represented by the sample. In a random sample, every person in a population has the same chance of being chosen for the study.",
+          "florida_text": "The success of a study depends on how well the population of focus is represented by the sample. In a random sample, every person in the selected population of interest has the same chance of being chosen for the study.",
           "change_id": null,
           "original_page": 52,
           "florida_page": 25
@@ -640,8 +642,16 @@
         },
         {
           "type": "modified",
-          "original_text": "And while field research looks for correlation, its small sample size does not allow for establishing a causal relationship between two variables. Indeed, much of the data gathered in sociology do not identify a cause and effect but a correlation.",
-          "florida_text": "However, while field research looks for correlation, its small sample size does not allow for establishing whether any observed relationships between two variables are causal. Indeed, much of this kind of data gathered in sociology do not identify a cause and effect but a correlation.",
+          "original_text": "And while field research looks for correlation, its small sample size does not allow for establishing a causal relationship between two variables.",
+          "florida_text": "However, while field research looks for correlation, its small sample size does not allow for establishing whether any observed relationships between two variables are causal.",
+          "change_id": null,
+          "original_page": 52,
+          "florida_page": 25
+        },
+        {
+          "type": "modified",
+          "original_text": "Indeed, much of the data gathered in sociology do not identify a cause and effect but a correlation.",
+          "florida_text": "Indeed, much of this kind of data gathered in sociology do not identify a cause and effect but a correlation.",
           "change_id": null,
           "original_page": 52,
           "florida_page": 25
@@ -682,15 +692,15 @@
         },
         {
           "type": "modified",
-          "original_text": "In a study of small towns in the United States conducted by sociological researchers John S.",
-          "florida_text": "In a classic study of small towns in the United States in the 1920s conducted by sociological researchers John S.",
+          "original_text": "In a study of small towns in the United States conducted by sociological researchers John S. Lynd and Helen Merrell Lynd, the team altered their purpose as they gathered data.",
+          "florida_text": "In a classic study of small towns in the United States in the 1920s conducted by sociological researchers John S. Lynd and Helen Merrell Lynd, the team altered their purpose as they gathered data.",
           "change_id": null,
           "original_page": 52,
           "florida_page": 25
         },
         {
           "type": "same",
-          "text": "Lynd and Helen Merrell Lynd, the team altered their purpose as they gathered data. They initially planned to focus their study on the role of religion in U.S. towns. As they gathered observations, they realized that the effect of industrialization and urbanization was the more relevant topic of this social group. The Lynds did not change their methods, but they revised the purpose of their study.",
+          "text": "They initially planned to focus their study on the role of religion in U.S. towns. As they gathered observations, they realized that the effect of industrialization and urbanization was the more relevant topic of this social group. The Lynds did not change their methods, but they revised the purpose of their study.",
           "original_page": 52,
           "florida_page": 25
         },
@@ -886,8 +896,16 @@
         },
         {
           "type": "modified",
-          "original_text": "To set up a lab-based experiment, sociologists create artificial situations that allow them to manipulate variables.\n\nClassically, the sociologist selects a set of people with similar characteristics, such as age, class, race, or education. Those people are divided into two groups. One is the experimental group and the other is the control group.",
-          "florida_text": "To set up a lab-based experiment, sociologists create artificial situations that allow them to control external factors and to manipulate only those variables that are of interest. Classically, the sociologist selects a set of people with similar characteristics, such as age, class, race, or education to control or hold constant the impact of those important factors. The people selected are randomly divided into two groups. One is the experimental group, and the other is the control group.",
+          "original_text": "To set up a lab-based experiment, sociologists create artificial situations that allow them to manipulate variables.",
+          "florida_text": "To set up a lab-based experiment, sociologists create artificial situations that allow them to control external factors and to manipulate only those variables that are of interest.",
+          "change_id": null,
+          "original_page": 60,
+          "florida_page": 25
+        },
+        {
+          "type": "modified",
+          "original_text": "Classically, the sociologist selects a set of people with similar characteristics, such as age, class, race, or education. Those people are divided into two groups. One is the experimental group and the other is the control group.",
+          "florida_text": "Classically, the sociologist selects a set of people with similar characteristics, such as age, class, race, or education to control or hold constant the impact of those important factors. The people selected are randomly divided into two groups. One is the experimental group, and the other is the control group.",
           "change_id": null,
           "original_page": 60,
           "florida_page": 25
@@ -948,22 +966,8 @@
         },
         {
           "type": "modified",
-          "original_text": "Social scientists also learn by analyzing the research of a variety of agencies.",
-          "florida_text": "Social scientists also learn by analyzing data collected by government agencies.",
-          "change_id": null,
-          "original_page": 60,
-          "florida_page": 25
-        },
-        {
-          "type": "same",
-          "text": "Governmental departments and global groups, like the U.S.",
-          "original_page": 60,
-          "florida_page": 25
-        },
-        {
-          "type": "modified",
-          "original_text": "Bureau of Labor Statistics or the World Health Organization (WHO), publish studies with findings that are useful to sociologists.",
-          "florida_text": "Bureau of Labor Statistics or the World Health Organization (WHO), collect data that is often used by sociologists.",
+          "original_text": "Social scientists also learn by analyzing the research of a variety of agencies. Governmental departments and global groups, like the U.S. Bureau of Labor Statistics or the World Health Organization (WHO), publish studies with findings that are useful to sociologists.",
+          "florida_text": "Social scientists also learn by analyzing data collected by government agencies. Governmental departments and global groups, like the U.S. Bureau of Labor Statistics or the World Health Organization (WHO), collect data that is often used by sociologists.",
           "change_id": null,
           "original_page": 60,
           "florida_page": 25
@@ -1013,12 +1017,6 @@
           "original_text": "When conducting content analysis, it is important to consider the date of publication of an existing source and to take into account attitudes and common cultural ideals that may have influenced the research. For example, when Robert S. Lynd and Helen Merrell Lynd gathered research in the 1920s, attitudes and cultural norms were vastly different then than they are now. Beliefs about gender roles, race, education, and work have changed significantly since then. At the time, the study’s purpose was to reveal insights about small U.S. communities. Today, it is an illustration of 1920s attitudes and values.",
           "change_id": null,
           "original_page": 60
-        },
-        {
-          "type": "added",
-          "florida_text": "When you are conducting research, the strategy and the source of data must provide the right tools to allow you to address your research question or your research hypothesis. Surveys As a research method, a survey is among the most common tools used by social scientists, providing a systematic way to collect data from subjects by asking them to self-report their behaviors and opinions. However, surveys commonly take the form of a questionnaire. A standard survey provides a systematic way to assess information about people without them having to be individually identified. Some researchers have specific expertise in assessing important human characteristics (e.g., life satisfaction) using questions that are interpreted in a similar way across different groups of people. Development of these kinds of “survey instruments” make it possible to evaluate differences based on information that people self-report. Surveys are used for a variety of different purposes. For social scientists, the goal is to understand typical characteristics of groups of people, identify what is systematically different across groups of people, and identify factors that predict those differences. For example, if a sociologist was interested in learning why children attending various high schools in the same city had differences in their average SAT scores, a city in which all high schools had different school start times, they might conduct a research survey. The researcher would first evaluate existing high quality published research studies. If the researcher noted that multiple studies showed that later school start times were associated with higher average SAT scores, the researchers may consider if benefit of later start times were related to students getting more sleep, a logical explanation given that sleep has been shown to be strongly associated with better cognitive performance overall. Based on these findings, the researcher could articulate a clear hypothesis: “Students who got more sleep will have higher SAT scores.” To test this hypothesis, the researcher could conduct a large survey based on a random selection of high school seniors at each school. The survey would ask students to self-report their SAT scores, their school location, and details about their sleep, among other factors. To test the study hypothesis, the researcher would use statistical methods to first test the association between school start time and SAT scores to assess if the association replicated previous findings (i.e., later start times predicted higher SAT scores). If this finding was replicated, then they could conduct the same analysis, but this time, controlling for student sleep time. If the researcher observed that the school start time did not remain a significant predictor, this may indicate that the reason later start times was associated with better SAT scores was because students with later start times got more sleep. Although some researchers can collect data similar to the hypothetical example provided above, it is extremely expensive to conduct large surveys. The costs are related to a variety of factors including having to hire people to collect the data, providing each survey respondent with a small payment for their time, and having experts available to process the survey data so it can be evaluated is costly. As a result, the United States has invested in large survey data programs to ensure high quality data collection over a long period of time so that researchers can use these data to study a wide variety of social issues. Census is an excellent example of a government funded data collection project that can be used by sociologists to evaluate important research questions. Some of these research questions are descriptive and allow us to learn about the characteristics of people in the population. The questions pertain to the personal characteristics of the residents who live in the United States. Not all surveys are used to conduct sociological research, however. In fact, many surveys people commonly encounter focus on helping inform the marketing strategies for companies and are not designed to test a study hypothesis or contribute to social science. On the other hand, polls conducted by television programs are not used to assess population level data that can be generalized to one or more groups. These surveys are administered to an unrepresentative population, a specific show’s audience. These surveys are not designed to help us understand what is typical in a population or look at systematic differences across groups. The sample they use may be designed to represent all people in a given geographic area (e.g., the U.S. as a whole) or it may be based on a population of interest that is at risk of experiencing a particular social issue relative to a comparison group. The group represents the population of focus for a study (e.g., college athletes, international students, or teenagers living with type 1 (juvenile-onset) diabetes) which could be compared to a group that helps the researchers draw conclusions about the phenomenon of focus (e.g., college students who regularly exercise, students from the United States, or teenagers without any chronic illness). For instance, in a poll assessing all U.S. residents’ public perspectives, if a nationwide random sample was collected perfectly, the survey responses provides data on the public perspectives of all people in the population even if the sample includes data on only 2,000 people. Researchers must provide “informed consent,” an overview of the nature and purpose of the survey, and any potential problems or risks associated with participation (more details will be provided in “Ethical Concerns” below). A key requirement for participation in ethical research studies is to protect the safety of participants so that any potential risks are outweighed by potential benefits, with almost all studies designed to ensure that the identity of those who participate cannot be revealed by anyone other than the researcher. Once they agree to participate, participants are likely to be provided with the most common survey instrument – a questionnaire. Unlike a survey questionnaire, another common way that social scientists collect data is though one-on-one conversation interviews between the researcher and the subject. That is, they cannot observe common co-occurring behaviors and determine that one factor causes the other. Some question, however, if it is ethical to hide your true identity for the sake of research. In other words, case studies are used to give a very detailed description of single case. Some may address this concern by doing a comparative case study, focusing on two or more sites and identifying their similarities and differences. Experiments You have probably run informal experiments in your own life. You assume that your results prove a definitive outcome. However, these kinds of experiments are not the kind of rigorous methods we use in the social sciences. Secondary Data Analysis Sociological Research The Making of Middletown: A Study in Modern U.S. Culture In 1924, a young married couple named Robert and Helen Lynd undertook an unprecedented ethnography: to apply sociological methods to the study of one U.S. city to discover what “ordinary” people in the United States did and believed. Choosing Muncie, Indiana (population about 30,000) as their subject, they moved to the small town and lived there for eighteen months. Ethnographers had been examining other cultures for decades—groups considered minorities or outsiders—like gangs, immigrants, and the poor. But no one had studied the so-called average American. Recording interviews and using surveys to gather data, the Lynds objectively described what they observed. Researching existing sources, they compared Muncie in 1890 to the Muncie they observed in 1924. Most Muncie adults, they found, had grown up on farms but now lived in homes inside the city. As a result, the Lynds focused their study on the impact of industrialization and urbanization. They observed that Muncie was divided into business and working-class groups. They defined business class as dealing with abstract concepts and symbols, while working class people used tools to create concrete objects. The two classes led different lives with different goals and hopes. However, the Lynds observed, mass production offered both classes the same amenities. Like wealthy families, the working class was now able to own radios, cars, washing machines, telephones, vacuum cleaners, and refrigerators. This was an emerging material reality of the 1920s. As the Lynds worked, they divided their manuscript into six chapters: Getting a Living, Making a Home, Training the Young, Using Leisure, Engaging in Religious Practices, and Engaging in Community Activities. When the study was completed, the Lynds encountered a big problem. The Rockefeller Foundation, which had commissioned the book, claimed it was useless and refused to publish it. The Lynds asked if they could seek a publisher themselves. Middletown: A Study in Modern American Culture was not only published in 1929 but also became an instant bestseller, a status unheard of for a sociological study. The book sold out six printings in its first year of publication (Caplow, Hicks, & Wattenberg. 2000). Nothing like it had ever been done before. Middletown was reviewed on the front page of the New York Times. Readers in the 1920s and 1930s identified with the citizens of Muncie, Indiana, but they were equally fascinated by the sociological methods and the use of scientific data to define ordinary people in the United States. The book was proof that social data was important—and interesting—to the U.S. public. A researcher must have the skills to download data and work with the data in the form it is collected and distributed to the public. These skills are often quite advanced and require significant training. Also, although government agency data is designed to be used by researchers and provides transparent details about data collection and issues that influence data quality, other data is provided with less information available to verify its accuracy or may have challenges in how that data is collected. For instance, as discussed in Chapter 8, a key challenge in using crime statistics as secondary data is their incomplete reporting and potential inaccuracies, such as the FBI's 2023 transition to the National Incident-Based Reporting System (NIBRS), which left many agencies' data unreported, leading to undercounts and difficulties in comparing arrests, offenses, or victimization rates across racial categories without adjusting for population size or policing practices (Federal Bureau of Investigation 2023a; Bureau of Justice Statistics 2025).",
-          "change_id": null,
-          "florida_page": 25
         }
       ]
     },
@@ -1071,7 +1069,13 @@
         },
         {
           "type": "same",
-          "text": "Investigators are ethically obligated to report results, even when they contradict personal views, predicted outcomes, or widely accepted beliefs.\n\nThe American Sociological Association, or ASA, is the major professional organization of sociologists in North America. The ASA is a great resource for students of sociology as well. The ASA maintains a code of ethics—formal guidelines for conducting sociological research—consisting of principles and ethical standards to be used in the discipline.",
+          "text": "Investigators are ethically obligated to report results, even when they contradict personal views, predicted outcomes, or widely accepted beliefs.",
+          "original_page": 60,
+          "florida_page": 25
+        },
+        {
+          "type": "same",
+          "text": "The American Sociological Association, or ASA, is the major professional organization of sociologists in North America. The ASA is a great resource for students of sociology as well. The ASA maintains a code of ethics—formal guidelines for conducting sociological research—consisting of principles and ethical standards to be used in the discipline.",
           "original_page": 60,
           "florida_page": 25
         },
@@ -1149,12 +1153,6 @@
           "type": "same",
           "text": "His objective was to understand the diversity of backgrounds and motivations of people seeking same-sex relationships. His ethics were questioned because he misrepresented his identity and intent while observing and questioning the men he interviewed (Nardi, 1995).",
           "original_page": 60,
-          "florida_page": 25
-        },
-        {
-          "type": "added",
-          "florida_text": "However, it is important to note that all methods have potential to pose ethical challenges for participants. For instance, a survey could ask questions about previous experiences that could cause emotional harm. Maintain objectivity and integrity in research 2. Respect participants’ rights to privacy and dignity Sociological Research A real-life example will help illustrate the process. In 1971, Frances Heussenstamm, a sociology professor at California State University at Los Angeles, had a hypothesis about police prejudice. To test that, she conducted a field experiment research study. She chose fifteen students who routinely drove to and from campus along Los Angeles freeway routes, and who had had perfect driving records for longer than a year. Next, she placed a Black Panther bumper sticker on each car. That sticker, a representation of a social value, was the independent variable. In the 1970s, the Black Panthers were a controversial group. The group was viewed by the FBI as a radical organization and a threat to national security. The group regularly had confrontations with law enforcement. Heussenstamm asked the students to follow their normal driving patterns. She wanted to see whether seeming support for the Black Panthers would change how these good drivers were treated by the police patrolling the highways. The dependent variable would be the number of traffic stops/citations. The first arrest, for an incorrect lane change, was made two hours after the experiment began. One participant was pulled over three times in three days. He quit the study. After seventeen days, the fifteen drivers had collected a total of thirty-three traffic citations. The research was halted. The funding to pay traffic fines had run out and so had the enthusiasm of the participants (Heussenstamm, 1971). 3. Protect participants from personal harm 4. Preserve confidentiality 5. Seek informed consent 6. Acknowledge collaboration and assistance 7. Disclose sources of financial support Unfortunately, researchers in the past did not always follow these guidelines, and they created unethical environments for humans involved in research studies that caused significant harm to participants. Among the most well-known is the Tuskegee Experiment. Another example is the Milgram Experiment. Perhaps the most relevant to college students is a study conducted by Philip Zimbardo, typically referred to as the Stanford prison experiment. These examples are important because they provide insights about the importance of conducting research that does not harm research participants. When researchers do not engage in ethical behaviors, it hurts all social scientists because people lose trust in science and scientists, and social scientists can only do the work to solve important problems in society when people volunteer to participate in well-designed research studies. In addition to ethical study designs, researchers also work hard to design studies that are objective, replicate previous findings, and challenge previous theories. Science is an incremental process. Almost no scientific discoveries are based on a single study, and it is up to scientists to continue to question and re-evaluate (i.e., think again) our assumptions. Social scientists have a responsibility to identify new ways to test various phenomena, and to hold other scientists accountable by using the highest quality data and the best methods available to replicate previous study findings. Another challenge for social scientists is related to drawing conclusions about causality. Most social science studies are not explicitly designed to establish causal connections. Studies instead may be designed to identify correlations between two variables, but these variables may only be related to each other because they are both connected to another factor (i.e., they are “spurious”). For example, a study using a large amount of data in a population may show a statistically significant association between regularly taking allergy medicine and frequency of sinus infections. In the absence of a theory to support this connection, a researcher might draw a conclusion that this association is causal such that taking allergy medications increase risk of sinus infections. However, people who take allergy medication usually do so because they have allergic responses to their environment, which commonly include a runny nose, sneezing, and other sinus issues that are also known to increase risk of sinus infections. That is, these individuals are uniquely at risk of having regular sinus infection, so the significant association is likely a consequence of the population being studied, not about the medication. To determine if allergy medication increases or decreases risk of sinus infections, the researchers must first use a different sample – they must identify individuals who have regular allergy symptoms (i.e., the population at risk) and compare those who take allergy medications with those who do not in this sample. Identifying those who are “at risk” will become increasingly important as Artificial Intelligence (AI) tools become more central to how people conduct social science studies. AI can be leveraged to study relationships between a massive number of variables without any theoretical basis (i.e., atheoretical exploratory analysis) at such a large scale that significant associations may emerge even if they have no causal connection. As a result, the next phase of AI is likely to be most important for exploratory research, and, if leveraged effectively, may help researchers come up with new questions that they may not have ever considered. It may also help researchers identify possible alternative hypotheses to established research findings. That is, AI is likely to become a pathway for inspiring new sociological research, but it is up to researchers to ensure that we use ethical standards in the way that it is leveraged.",
-          "change_id": null,
           "florida_page": 25
         }
       ]

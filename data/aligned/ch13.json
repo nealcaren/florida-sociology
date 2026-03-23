@@ -290,8 +290,16 @@
         },
         {
           "type": "modified",
-          "original_text": "Attitudes toward the elderly have also been affected by large societal changes that have happened over the past 100 years. Researchers believe industrialization and modernization have contributed greatly to lowering the power, influence, and prestige the elderly once held. On the other hand, the sheer numbers of elderly people in certain societies can have other effects, such as older people's influence on policies and politics based on their voting influence.\n\nThe elderly have both benefited and suffered from these rapid social changes.",
-          "florida_text": "Attitudes toward older adults have also been affected by large societal changes that have happened over the past 100 years. Researchers believe industrialization and modernization have contributed greatly to lowering the power, influence, and prestige older adults once held. On the other hand, the sheer numbers of older adults in certain societies can have other effects, such as older people's influence on policies and politics based on their voting influence. Older adults have both benefited and suffered from these rapid social changes.",
+          "original_text": "Attitudes toward the elderly have also been affected by large societal changes that have happened over the past 100 years. Researchers believe industrialization and modernization have contributed greatly to lowering the power, influence, and prestige the elderly once held. On the other hand, the sheer numbers of elderly people in certain societies can have other effects, such as older people's influence on policies and politics based on their voting influence.",
+          "florida_text": "Attitudes toward older adults have also been affected by large societal changes that have happened over the past 100 years. Researchers believe industrialization and modernization have contributed greatly to lowering the power, influence, and prestige older adults once held. On the other hand, the sheer numbers of older adults in certain societies can have other effects, such as older people's influence on policies and politics based on their voting influence.",
+          "change_id": null,
+          "original_page": 381,
+          "florida_page": 87
+        },
+        {
+          "type": "modified",
+          "original_text": "The elderly have both benefited and suffered from these rapid social changes.",
+          "florida_text": "Older adults have both benefited and suffered from these rapid social changes.",
           "change_id": null,
           "original_page": 381,
           "florida_page": 87
@@ -318,15 +326,15 @@
         },
         {
           "type": "modified",
-          "original_text": "Since its creation in 1790, the U.S.",
-          "florida_text": "Studying Aging Populations Since its creation in 1790, the U.S.",
+          "original_text": "Since its creation in 1790, the U.S. Census Bureau has been tracking age in the population.",
+          "florida_text": "Studying Aging Populations Since its creation in 1790, the U.S. Census Bureau has been tracking age in the population.",
           "change_id": null,
           "original_page": 381,
           "florida_page": 87
         },
         {
           "type": "same",
-          "text": "Census Bureau has been tracking age in the population. Age is an important factor to analyze with accompanying demographic figures, such as income and health. The population chart below shows projected age distribution patterns for the next several decades.\n\nStatisticians use data to calculate the median age of a population, that is, the number that marks the halfway point in a group’s age range. In the United States, the median age is about forty (U.S. Census Bureau 2010). That means that about half of the people in the United States are under forty and about half are over forty. This median age has been increasing, which indicates the population as a whole is growing older.\n\nA cohort is a group of people who share a statistical or demographic trait.",
+          "text": "Age is an important factor to analyze with accompanying demographic figures, such as income and health. The population chart below shows projected age distribution patterns for the next several decades.\n\nStatisticians use data to calculate the median age of a population, that is, the number that marks the halfway point in a group’s age range. In the United States, the median age is about forty (U.S. Census Bureau 2010). That means that about half of the people in the United States are under forty and about half are over forty. This median age has been increasing, which indicates the population as a whole is growing older.\n\nA cohort is a group of people who share a statistical or demographic trait.",
           "original_page": 381,
           "florida_page": 87
         },
@@ -444,15 +452,15 @@
         },
         {
           "type": "modified",
-          "original_text": "In 1900, the population of U.S people over sixty-five years old was 3 million, representing about 4 percent of the total population. That number increased to 33 million in 1994, and was roughly 12 percent of the total population (Hobbs 1994). By 2016 that number had grown to 49 million, about 15 percent of the total population (U.S.",
-          "florida_text": "In 1900, the population of U.S people over sixty- five years old was 3 million, representing about 4 percent of the total population. That number increased to 33 million in 1994 and was roughly 12 percent of the total population (Hobbs 1994). By 2016 that number had already grown to 49 million, about 15 percent of the total population (U.S.",
+          "original_text": "In 1900, the population of U.S people over sixty-five years old was 3 million, representing about 4 percent of the total population. That number increased to 33 million in 1994, and was roughly 12 percent of the total population (Hobbs 1994). By 2016 that number had grown to 49 million, about 15 percent of the total population (U.S. Census Bureau 2018).",
+          "florida_text": "In 1900, the population of U.S people over sixty- five years old was 3 million, representing about 4 percent of the total population. That number increased to 33 million in 1994 and was roughly 12 percent of the total population (Hobbs 1994). By 2016 that number had already grown to 49 million, about 15 percent of the total population (U.S. Census Bureau 2018), and the number of adults 65+ and the proportion of the population that is in this “old” age group, will continue to increase.",
           "change_id": null,
           "original_page": 384,
           "florida_page": 88
         },
         {
           "type": "removed",
-          "original_text": "Census Bureau 2018). This is a greater than tenfold increase in the elderly population, compared to a mere tripling of both the total population and of the population under sixty-five years old (Hobbs 1994). This increase has been called “the graying of America,” a term that describes the phenomenon of a larger and larger percentage of the population getting older and older. There are several reasons why the United States is graying so rapidly. One of these is life expectancy: the average number of years a person born today may expect to live. When we review Census Bureau statistics grouping the elderly by age, it is clear that in the United States, at least, we are living longer. In 2010, there were about 80,000 centenarians in the United States alone. They make up one of the fastest-growing segments of the population (Boston University School of Medicine 2014).",
+          "original_text": "This is a greater than tenfold increase in the elderly population, compared to a mere tripling of both the total population and of the population under sixty-five years old (Hobbs 1994). This increase has been called “the graying of America,” a term that describes the phenomenon of a larger and larger percentage of the population getting older and older. There are several reasons why the United States is graying so rapidly. One of these is life expectancy: the average number of years a person born today may expect to live. When we review Census Bureau statistics grouping the elderly by age, it is clear that in the United States, at least, we are living longer. In 2010, there were about 80,000 centenarians in the United States alone. They make up one of the fastest-growing segments of the population (Boston University School of Medicine 2014).",
           "change_id": null,
           "original_page": 384
         },
@@ -514,8 +522,22 @@
         },
         {
           "type": "modified",
-          "original_text": "The economic impact of aging Boomers is also an area of concern for many observers. Although the baby boom generation earned more than previous generations and enjoyed a higher standard of living, they did not adequately prepare for retirement. According to most retirement and investment experts, in order to maintain their accustomed lifestyle, people need to save ten times their annual income before retiring. (Note: That's income, not salary.) So if a person has an income of $60,000 per year, they should have saved $600,000.",
-          "florida_text": "The economic impact of aging Boomers is also an area of concern, however. Although the baby boom generation earned more than previous generations and enjoyed a higher standard of living, they do not have sufficient personal savings to afford a lengthy period of retirement. According to most retirement and investment experts, to maintain their accustomed lifestyle, people need to save at least ten times their annual income before retiring. (Note: That's income, not salary.) So, if a person has an income of $60,000 per year, they should have saved $600,000.",
+          "original_text": "The economic impact of aging Boomers is also an area of concern for many observers. Although the baby boom generation earned more than previous generations and enjoyed a higher standard of living, they did not adequately prepare for retirement. According to most retirement and investment experts, in order to maintain their accustomed lifestyle, people need to save ten times their annual income before retiring.",
+          "florida_text": "The economic impact of aging Boomers is also an area of concern, however. Although the baby boom generation earned more than previous generations and enjoyed a higher standard of living, they do not have sufficient personal savings to afford a lengthy period of retirement. According to most retirement and investment experts, to maintain their accustomed lifestyle, people need to save at least ten times their annual income before retiring.",
+          "change_id": null,
+          "original_page": 384,
+          "florida_page": 88
+        },
+        {
+          "type": "same",
+          "text": "(Note: That's income, not salary.)",
+          "original_page": 384,
+          "florida_page": 88
+        },
+        {
+          "type": "modified",
+          "original_text": "So if a person has an income of $60,000 per year, they should have saved $600,000.",
+          "florida_text": "So, if a person has an income of $60,000 per year, they should have saved $600,000.",
           "change_id": null,
           "original_page": 384,
           "florida_page": 88
@@ -681,12 +703,6 @@
           "original_text": "It is important to note that even within the United States not all demographic groups treat aging the same way. While most people in the United States are reluctant to place their elderly members into out-of-home assisted care, demographically speaking, the groups least likely to do so are Latinos, African Americans, and Asians (Bookman and Kimbrel 2011).\n\nGlobally, the United States and other core nations are fairly well equipped to handle the demands of an exponentially increasing elderly population. However, peripheral and semi-peripheral nations face similar increases without comparable resources. Poverty among elders is a concern, especially among elderly women. The feminization of the aging poor, evident in peripheral nations, is directly due to the number of elderly women in those countries who are single, illiterate, and not a part of the labor force (Mujahid 2006).\n\nIn 2002, the Second World Assembly on Aging was held in Madrid, Spain, resulting in the Madrid Plan, an internationally coordinated effort to create comprehensive social policies to address the needs of the worldwide aging population. The plan identifies three themes to guide international policy on aging: 1) publicly acknowledging the global challenges caused by, and the global opportunities created by, a rising global population; 2) empowering the elderly; and 3) linking international policies on aging to international policies on development (Zelenev 2008).\n\nThe Madrid Plan has not yet been successful in achieving all its aims. However, it has increased awareness of the various issues associated with a global aging population, as well as raising the international consciousness to the way that the factors influencing the vulnerability of the elderly (social exclusion, prejudice and discrimination, and a lack of socio-legal protection) overlap with other developmental issues (basic human rights, empowerment, and participation), leading to an increase in legal protections (Zelenev 2008).",
           "change_id": null,
           "original_page": 384
-        },
-        {
-          "type": "added",
-          "florida_text": "Although the representation of older people in the media has increased over the last decade in particular, many media portrayals of older adults reflect negative cultural attitudes toward aging. During the COVID-19 pandemic, experts weighed in about whether age should be a factor in determining whether hospitals should perform lifesaving treatments, leading to heated debates about age discrimination. Centenarians (i.e., those 100 and older) are often evaluated as a subset of the oldest-old. Paying attention to these life stages is important because different life decisions are needed for different phases of late life. For instance, as we get older, our likelihood of needing care from others increases. Family members may respond to these growing needs only once an old person reaches a health crisis. In this case, older people may be faced with having fewer choices about how they want to be cared for because they haven’t created any specific plans. By being more aware of what the future holds by discussing plans or making legal arrangements or even preparing financially, older adults are able to have more autonomy and control if and when their health declines. The U.S. government, for example, has defined old age based on specific social policies in which people qualify when they reach a certain age (e.g., Social Security and Medicare). The World Health Organization has no standard, other than noting that sixty-five years old is the commonly accepted definition in most core nations, but in countries with lower life expectancies, old age seems to come sooner due to more accelerated physiological aging, and in these countries, people who are age 55 are often considered “old.” AARP (formerly the American Association of Retired Persons) is a policy advocacy organization for older adults in the United States. AARP identifies those who are age 50 or older as “old enough” to participate and eligible for membership. Census Bureau 2018), and the number of adults 65+ and the proportion of the population that is in this “old” age group, will continue to increase. Like many other Western European and Asian nations, people in the United States are having fewer children, so there are fewer young people in the population. At the same time, the largest birth cohorts in United States history are already in the 65+ age group (e.g., Baby Boomers) or will reach these ages in the next few decades (i.e., Gen Xers, and Millennials). In addition, life expectancy increase substantially since the Baby Boomers entered the world population. Even though life expectancy has mostly leveled off, and even decreased during the first few years of the COVID-19 pandemic, many middle-aged people today will live well into their 80s and 90s. These older age groups continue to be the fastest growing age demographic in the United States due to these demographic patterns. Worldwide, in countries in which childbirth is safe and women have the care they need; women significantly outlive men. Although all the reasons for these significant and persisting gender differences in life expectancy are not fully understood, scholars generally conclude that there are both biological and social components. Figure 5.6 shows the number of men relative to every 100 women by age group. This figure, which is based on data collected in 2010, there were ninety sixty-five-year-old men per one hundred sixty-five- Boomer response Gen X response Millennial response At what age does youth end? At what age is the prime of life? At what age is someone old? Table 5.1: A survey conducted by the U.S. Trust gathered opinion data on the aging milestones and categories. Boomers, Gen X people, and Millennials had generally different views. year-old women. Although these differences may change over time as researchers identify factors that reduce male life expectancy, there remain important social implications for these differences, including that women more commonly partner with men who are the same age or older, leading women to be much more likely to find themselves caring for a sick spouse and experiencing widowhood in later life. Given that women have lower rates of wealth in the United States relative to their spouses, women who are widowed have higher rates of poverty. Boomers have inspired the development of a wide range of new products from those seeking to help them avoid aging as long as possible (e.g., “anti-aging” products) to products that help them avoid living in a nursing home as long as possible. The causes of these shortfalls are varied but are especially linked with the replacement of defined benefit pension programs in the United States with optional defined contribution retirement programs, with many Boomers not having retirement savings programs set up as a standard process of employment. The end result for Boomers is that they report a great deal of stress about running out of money, and many are relying only on Social Security income, which is designed to cover approximately 1/3 of living expenses in retirement. For generations following the Baby Boomers (and likely the youngest of the Boomers), unless a higher proportion of total income is assessed to pay into the Social Security system among wealthier Americans, future generations are only expected to receive about 75% of the Social Security income they are entitled. This percentage is expected to increase, which may disproportionately burden countries with the highest proportions, particularly if people continue to retire in their 60s. China’s “one-child policy” in which people between 1980 and 2015 were allowed only to have one child per family, led to a whole generation of young people who have many more older adults than young adults coming into the population, leading to a much higher proportion of older people. This has created many policy-related challenges for China (Xiang et al, 2025). The number of people above age sixty in China today is about 310 million, making up over 20% of the total population, with a shortage of adults available to provide care for them.",
-          "change_id": null,
-          "florida_page": 88
         }
       ]
     },
@@ -885,7 +901,7 @@
         },
         {
           "type": "removed",
-          "original_text": "Jack Kevorkian was a staunch advocate for physician-assisted suicide: the voluntary or physician-assisted use of lethal medication provided by a medical doctor to end one’s life. This right to have a doctor help a patient die with dignity is controversial.",
+          "original_text": "Dr. Jack Kevorkian was a staunch advocate for physician-assisted suicide: the voluntary or physician-assisted use of lethal medication provided by a medical doctor to end one’s life. This right to have a doctor help a patient die with dignity is controversial.",
           "change_id": null,
           "original_page": 384
         },
@@ -944,12 +960,6 @@
           "text": "Hospice doctors, nurses, and therapists receive special training in the care of the dying. The focus is not on getting better or curing the illness, but on passing out of this life in comfort and peace. Hospice centers exist as a place where people can go to die in comfort, and increasingly, hospice services encourage at-home care so that someone has the comfort of dying in a familiar environment, surrounded by family (Hospice Foundation of America 2012a). While many of us would probably prefer to avoid thinking of the end of our lives, it may be possible to take comfort in the idea that when we do approach death in a hospice setting, it is in a familiar, relatively controlled place.",
           "original_page": 384,
           "florida_page": 88
-        },
-        {
-          "type": "added",
-          "florida_text": "Biological factors, such as molecular and cellular changes are influenced by processes that are genetic or uncontrollable, and others are based on lifestyle factors like amount of physical exercise or diet (Whitbourne and Whitbourne 2010). Physical changes like the emergence of wrinkles, the skin becoming thinner, hair turning gray and hair loss becoming more significant over time, changes in the shape of the eye so reading words becomes more difficult are all typical aspects of normal aging that cannot be stopped or changed by interventions (aside from hair dye); however, there are some variations in the timing of these changes. Conversely, a culture that reveres older adults for their life experience and wisdom may view these characteristics as ones indicating greater wisdom. Overall, people’s experiences of physical aspects of aging are more positive than they expect. In fact, in 2022 only about 30% of adults 65+ in the United States rated their health as fair or poor, and about 40% rated their health as very good or excellent, based on data drawn from a nationally representative longitudinal study called the Health and Retirement Study. Another key issue regarding biological aging is the fact that growing evidence that even though there are well documented health changes that are associated with aging, they are not determined by age. In fact, even though muscle and bone mass declines with age on average, there is growing evidence that people who maintain (or even start for the first time!) resistance training in later life, they can maintain or even increase muscle and bone mass even into the 70s and beyond. Risks of disability in later life are more significant for certain groups, including and especially women, and women have historically not been encouraged to maintain higher levels of muscle mass across the life span. Changes in norms with women being more likely to maintain resistance training across adulthood could significantly change current trends in health and functioning as people age. Biological aging is also influenced by social and environmental factors. Exposure to stressors such as poverty, racism, and even certain occupational exposures, early life traumas, can change the speed of physiological aging (Polsky et al, 2022). Sociologists who study aging and health have identified important factors that contributed to accelerated aging as a result of stressful life exposures including changes to immune functioning, increased levels of inflammation, accelerated cellular aging and oxidative stress. For instance, childhood poverty has been shown to modify people’s biological systems in ways that lead to earlier onset of disability, and shorter life expectancy (Schmidt, et al, 2025). A growing trend, too, is that many older adults are choosing cohabitation or remaining in a committed relationship but continuing to live separately from their romantic partner (i.e., “living apart together” or a LAT couple) rather than remarriage (Brown et al, 2022). The book remains a classic on the topic today although empirical assessments show that there is great variation in whether and in what order one proceeds through the five stages (Corr, 2018).",
-          "change_id": null,
-          "florida_page": 88
         }
       ]
     },
@@ -994,8 +1004,16 @@
         },
         {
           "type": "modified",
-          "original_text": "However, given the subsequent recession, which severely reduced the retirement savings of many while taxing public support systems, how are the elderly affected? According to the Kaiser Commission on Medicaid and the Uninsured, the national poverty rate among the elderly had risen to 14 percent by 2010 (Urban Institute and Kaiser Commission 2010).\n\nBefore the recession hit, what had changed to cause a reduction in poverty among the elderly?",
-          "florida_text": "However, given the subsequent recession, which severely reduced the retirement savings of many while taxing public support systems, how are older adults affected? According to the Kaiser Commission on Medicaid and the Uninsured, the national poverty rate among older adults had risen to 14 percent by 2010 (Urban Institute and Kaiser Commission 2010). Before the recession hit, what had changed to cause a reduction in poverty among older adults?",
+          "original_text": "However, given the subsequent recession, which severely reduced the retirement savings of many while taxing public support systems, how are the elderly affected? According to the Kaiser Commission on Medicaid and the Uninsured, the national poverty rate among the elderly had risen to 14 percent by 2010 (Urban Institute and Kaiser Commission 2010).",
+          "florida_text": "However, given the subsequent recession, which severely reduced the retirement savings of many while taxing public support systems, how are older adults affected? According to the Kaiser Commission on Medicaid and the Uninsured, the national poverty rate among older adults had risen to 14 percent by 2010 (Urban Institute and Kaiser Commission 2010).",
+          "change_id": null,
+          "original_page": 384,
+          "florida_page": 88
+        },
+        {
+          "type": "modified",
+          "original_text": "Before the recession hit, what had changed to cause a reduction in poverty among the elderly?",
+          "florida_text": "Before the recession hit, what had changed to cause a reduction in poverty among older adults?",
           "change_id": null,
           "original_page": 384,
           "florida_page": 88
@@ -1090,7 +1108,7 @@
         },
         {
           "type": "removed",
-          "original_text": "Responses like Peter’s toward older people are fairly common. He didn’t intend to treat people differently based on personal or cultural biases, but he did. Ageism is discrimination (when someone acts on a prejudice) based on age. Robert Butler coined the term in 1968, noting that ageism exists in all cultures (Brownell).",
+          "original_text": "Responses like Peter’s toward older people are fairly common. He didn’t intend to treat people differently based on personal or cultural biases, but he did. Ageism is discrimination (when someone acts on a prejudice) based on age. Dr. Robert Butler coined the term in 1968, noting that ageism exists in all cultures (Brownell).",
           "change_id": null,
           "original_page": 384
         },
@@ -1110,8 +1128,16 @@
         },
         {
           "type": "modified",
-          "original_text": "Peter’s attitudes are probably seen as fairly mild, but relating to the elderly in ways that are patronizing can be offensive. When ageism is reflected in the workplace, in healthcare, and in assisted-living facilities, the effects of discrimination can be more severe.",
-          "florida_text": "Peter’s attitudes are probably seen as fairly mild, but relating to older adults in ways that assume lower levels of ability or function can prevent people from having access to certain opportunities. In healthcare, the effects of discrimination can have more severe consequences.",
+          "original_text": "Peter’s attitudes are probably seen as fairly mild, but relating to the elderly in ways that are patronizing can be offensive.",
+          "florida_text": "Peter’s attitudes are probably seen as fairly mild, but relating to older adults in ways that assume lower levels of ability or function can prevent people from having access to certain opportunities.",
+          "change_id": null,
+          "original_page": 384,
+          "florida_page": 88
+        },
+        {
+          "type": "modified",
+          "original_text": "When ageism is reflected in the workplace, in healthcare, and in assisted-living facilities, the effects of discrimination can be more severe.",
+          "florida_text": "In healthcare, the effects of discrimination can have more severe consequences.",
           "change_id": null,
           "original_page": 384,
           "florida_page": 88
@@ -1208,36 +1234,8 @@
         },
         {
           "type": "modified",
-          "original_text": "The elderly may be subject to many different types of abuse.",
-          "florida_text": "Older adults may be subject to many different types of abuse.",
-          "change_id": null,
-          "original_page": 399,
-          "florida_page": 88
-        },
-        {
-          "type": "removed",
-          "original_text": "In a 2009 study on the topic led by Dr.",
-          "change_id": null,
-          "original_page": 399
-        },
-        {
-          "type": "modified",
-          "original_text": "Ron Acierno, the team of researchers identified five major categories of elder abuse: 1) physical abuse, such as hitting or shaking, 2) sexual abuse, including rape and coerced nudity, 3) psychological or emotional abuse, such as verbal harassment or humiliation, 4) neglect or failure to provide adequate care, and 5) financial abuse or exploitation (Acierno 2010).",
-          "florida_text": "Five major categories of elder abuse are commonly identified: 1) physical abuse, such as hitting or shaking, 2) sexual abuse, including rape and coerced nudity, 3) psychological or emotional abuse, such as verbal harassment or humiliation, 4) neglect or failure to provide adequate care, and 5) financial abuse or exploitation (Acierno 2010).",
-          "change_id": null,
-          "original_page": 399,
-          "florida_page": 88
-        },
-        {
-          "type": "removed",
-          "original_text": "The National Center on Elder Abuse (NCEA), a division of the U.S.",
-          "change_id": null,
-          "original_page": 399
-        },
-        {
-          "type": "modified",
-          "original_text": "Administration on Aging, also identifies abandonment and self-neglect as types of abuse. shows some of the signs and symptoms that the NCEA encourages people to notice.",
-          "florida_text": "Table 5.2 shows some of the signs and symptoms that the NCEA encourages people to notice.",
+          "original_text": "The elderly may be subject to many different types of abuse.\n\nIn a 2009 study on the topic led by Dr. Ron Acierno, the team of researchers identified five major categories of elder abuse: 1) physical abuse, such as hitting or shaking, 2) sexual abuse, including rape and coerced nudity, 3) psychological or emotional abuse, such as verbal harassment or humiliation, 4) neglect or failure to provide adequate care, and 5) financial abuse or exploitation (Acierno 2010).\n\nThe National Center on Elder Abuse (NCEA), a division of the U.S. Administration on Aging, also identifies abandonment and self-neglect as types of abuse. shows some of the signs and symptoms that the NCEA encourages people to notice.",
+          "florida_text": "Older adults may be subject to many different types of abuse. Five major categories of elder abuse are commonly identified: 1) physical abuse, such as hitting or shaking, 2) sexual abuse, including rape and coerced nudity, 3) psychological or emotional abuse, such as verbal harassment or humiliation, 4) neglect or failure to provide adequate care, and 5) financial abuse or exploitation (Acierno 2010). However, the National Center on Elder Abuse (NCEA) also identifies abandonment and self-neglect as types of abuse. Table 5.2 shows some of the signs and symptoms that the NCEA encourages people to notice.",
           "change_id": null,
           "original_page": 399,
           "florida_page": 88
@@ -1317,12 +1315,6 @@
           "original_text": "A survey in Florida found that 60.1 percent of caregivers reported verbal aggression as a style of conflict resolution. Paid caregivers in nursing homes were at a high risk of becoming abusive if they had low job satisfaction, treated the elderly like children, or felt burnt out (Kohn and Verhoek-Oftedahl 2011). Caregivers who tended to be verbally abusive were found to have had less training, lower education, and higher likelihood of depression or other psychiatric disorders. Based on the results of these studies, many housing facilities for seniors have increased their screening procedures for caregiver applicants.",
           "change_id": null,
           "original_page": 399
-        },
-        {
-          "type": "added",
-          "florida_text": "Moreover, this simple snapshot conceals vast subgroup differences; for instance, Black and Hispanic unmarried older women are nearly ten times as likely as married white older men to live in poverty (Thornton & Bowers, 2024). The most important contribution was the introduction of new social policies that increased opportunities for financial security in later life. Introduction of the Social Security Administration and the establishment of Medicare and Medicaid healthcare programs institutionalized basic income in later life and helped ensure that older people could maintain health insurance during the years in which healthcare costs are highest. In addition, as a growing proportion of women joined the workforce, women had the ability to maintain financial independence in later life. New trends over the last four decades encourage people to live healthier lifestyles, including greater emphasis and evidence showing the benefits of regular exercise and certain nutrition habits, such as regular consumption of fruits and vegetables. Overall, maintaining high levels of health function as people age at each stage of life reduces the risks of poverty in old age by reducing the risk of needing care and expensive healthcare costs. Although the older man may have had reduced cognitive abilities that caused him to be more cautious while driving, and the older women could have had reduced muscle mass that reduced her ability to handle the weight of her groceries, Peter is unable to determine these things using observations alone. Ageism is defined as a form of discrimination (i.e., an action based on a prejudice) that is associated with negative assumptions associated with chronological age. This term was originally coined by Dr. Robert Butler in 1968. At the time, Butler argued that ageism was common and could be observed in nearly all cultures (Brownell). Negative assumptions make people more likely to see older people as a social “other,” and a member of a different social group that has less social value. In addition, people who hold negative perceptions of older adults or aging may experience consequences of these views as they get older themselves. When people who have strong negative assumptions about aging experience a decline in physical health or function as they get older, they are less likely to get help or treatments because they assume health decline is a normal part of aging (Levy et al, 2020). This is important because with health maintenance across the life course, people maintain very high levels of physical, psychological, and cognitive function into late life. For instance, if ageism in the workplace may occur if people assume older workers have less capacity to learn and do not offer them training opportunities to advance their skills. It could also appear in the hiring process, with people selected for a job based on their chronological age. Or, it could appear through rationing of healthcare services. Doctors could avoid pursuing certain tests because they assume that a problem is based on normal aging rather than an underlying issue that could offer significant improvement in daily function and quality of life. In an assisted living setting, a healthcare provider could limit an older adults’ freedom to make decisions about their daily activities based on their own values without consulting the older person about their personal goals or interests. In early societies, older adults were responsible for leadership in their communities. However, the roles older adults play in society varies significantly by culture, with older adults in many societies today viewed as a social burden. However, the National Center on Elder Abuse (NCEA) also identifies abandonment and self-neglect as types of abuse. Regarding elder fraud, a growing number of strategies are being used to scam older adults, with Artificial Intelligence tools making it increasingly easy to trick people of all ages into situations that lead to financial fraud. Scammers rely on older adults who have reduced cognitive functioning, and many older adults are unwilling to report experiences of fraud because they are embarrassed or worried that family members will think that they are no longer able to live independently. To help with this, organizations like AARP have created helplines to support older adults who face these issues and help bring attention to resources that can reduce these issues. Researchers studying elder abuse have focused on those most likely to perpetuate these crimes – caregivers. Type of Abuse Signs and Symptoms Physical abuse Bruises, untreated wounds, sprains, broken glasses, lab findings of medication overdose Sexual abuse Bruises around breasts or genitals, torn or bloody underclothing, unexplained venereal disease Emotional/psychological abuse Being upset or withdrawn, unusual dementia-like behavior (rocking, sucking) Neglect Poor hygiene, untreated bed sores, dehydration, soiled bedding Financial Sudden changes in banking practices, inclusion of additional names on bank cards, abrupt changes to will Self-neglect Untreated medical conditions, unclean living area, lack of medical items like dentures or glasses Table 5.2: Signs of Elder Abuse- The National Center on Elder Abuse encourages people to watch for these signs of mistreatment. (Credit: National Center on Elder Abuse)",
-          "change_id": null,
-          "florida_page": 88
         }
       ]
     },
@@ -1545,15 +1537,15 @@
         },
         {
           "type": "modified",
-          "original_text": "As first passed in 1967, the ADEA provided protection against a broad range of age discrimination and specifically addressed termination of employment due to age, age specific layoffs, advertised positions specifying age limits or preferences, and denial of healthcare benefits to those over sixty-five years old (U.S.",
-          "florida_text": "As first passed in 1967, the ADEA provided protection against a broad range of age discrimination and specifically addressed termination of employment due to age, age specific layoffs, advertised positions specifying age limits or preferences, and denial of healthcare benefits to those over sixty- five years old (U.S.",
+          "original_text": "As first passed in 1967, the ADEA provided protection against a broad range of age discrimination and specifically addressed termination of employment due to age, age specific layoffs, advertised positions specifying age limits or preferences, and denial of healthcare benefits to those over sixty-five years old (U.S. EEOC 2012).",
+          "florida_text": "As first passed in 1967, the ADEA provided protection against a broad range of age discrimination and specifically addressed termination of employment due to age, age specific layoffs, advertised positions specifying age limits or preferences, and denial of healthcare benefits to those over sixty- five years old (U.S. EEOC 2012).",
           "change_id": null,
           "original_page": 399,
           "florida_page": 88
         },
         {
           "type": "same",
-          "text": "EEOC 2012).\n\nAge stratification theory has been criticized for its broadness and its inattention to other sources of stratification and how these might intersect with age. For example, one might argue that an older white male occupies a more powerful role, and is far less limited in his choices, compared to an older white female based on his historical access to political and economic power.",
+          "text": "Age stratification theory has been criticized for its broadness and its inattention to other sources of stratification and how these might intersect with age. For example, one might argue that an older white male occupies a more powerful role, and is far less limited in his choices, compared to an older white female based on his historical access to political and economic power.",
           "original_page": 399,
           "florida_page": 88
         },
@@ -1619,12 +1611,6 @@
           "type": "same",
           "text": "Symbolic interactionists believe that, just as in other phases of life, individuals must struggle to overcome their own failings and turn them into strengths.",
           "original_page": 406,
-          "florida_page": 88
-        },
-        {
-          "type": "added",
-          "florida_text": "Disengagement theory (Cummings and Henry 1961), however, has been widely discredited. The argument that older people withdraw from society was based on observations of older adults during the mid-20th century when there were few options for older people to remain active and engaged, and the theory cannot be disproven, which makes it invalid as a theory. Despite the criticisms, disengagement theory inspired scholars to consider a variety of aging-related phenomena to understand benefits of staying engaged as people age.",
-          "change_id": null,
           "florida_page": 88
         }
       ]
