@@ -354,16 +354,10 @@ def align_chapter(chapter: int, dry_run: bool = False) -> dict:
                 used_fl_sections.add(fl_sec["section_id"])
                 blocks = align_paragraphs(orig_sec["paragraphs"], fl_sec["paragraphs"])
             else:
-                # No matching section found. Try aligning against all
-                # unused Florida text to find content that was moved.
-                unused_fl_paras = []
-                for s in fl_sections:
-                    if s["section_id"] not in used_fl_sections:
-                        unused_fl_paras.extend(s["paragraphs"])
-                if unused_fl_paras:
-                    blocks = align_paragraphs(orig_sec["paragraphs"], unused_fl_paras)
-                else:
-                    blocks = [{"type": "removed", "original_text": " ".join(orig_sec["paragraphs"])}]
+                # No matching section — mark as removed.
+                # Don't try to align against unrelated Florida text,
+                # which creates unreadable mega-blocks.
+                blocks = [{"type": "removed", "original_text": "\n\n".join(orig_sec["paragraphs"])}]
 
             for block in blocks:
                 if block["type"] != "same":

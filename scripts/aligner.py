@@ -87,7 +87,7 @@ def align_paragraphs(
     return _segments_to_blocks(merged, orig_breaks)
 
 
-def _merge_small_segments(segments: list[tuple], min_same_words: int = 30) -> list[tuple]:
+def _merge_small_segments(segments: list[tuple], min_same_words: int = 40) -> list[tuple]:
     """Merge small segments to create readable blocks.
 
     Input/output: list of (type, orig_start, orig_words, fl_words).
@@ -175,11 +175,21 @@ def _segments_to_blocks(segments: list[tuple], orig_breaks: set[int]) -> list[di
             elif not orig_text:
                 blocks.append({"type": "added", "florida_text": fl_text})
             else:
-                blocks.append({
-                    "type": "modified",
-                    "original_text": orig_text,
-                    "florida_text": fl_text,
-                })
+                # If the word counts are very lopsided (>4:1 ratio),
+                # the word diff would be unreadable — split into
+                # separate removed + added blocks instead
+                ow = len(orig_words)
+                fw = len(fl_words)
+                ratio = max(ow, fw) / max(min(ow, fw), 1)
+                if ratio > 4 and max(ow, fw) > 50:
+                    blocks.append({"type": "removed", "original_text": orig_text})
+                    blocks.append({"type": "added", "florida_text": fl_text})
+                else:
+                    blocks.append({
+                        "type": "modified",
+                        "original_text": orig_text,
+                        "florida_text": fl_text,
+                    })
         elif seg_type == "removed" and orig_text:
             blocks.append({"type": "removed", "original_text": orig_text})
         elif seg_type == "added" and fl_text:
