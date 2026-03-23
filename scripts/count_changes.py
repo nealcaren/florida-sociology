@@ -32,7 +32,7 @@ from parse_cnxml import get_chapter_sections
 from text_parser import clean_text
 
 
-SAME_THRESHOLD = 0.95  # Near-identical
+SAME_THRESHOLD = 0.98  # Near-identical (catches single-word changes in long sentences)
 MODIFIED_THRESHOLD = 0.4  # Changed but recognizable
 
 
@@ -127,10 +127,30 @@ def get_florida_sentences(chapter: int) -> list[str]:
             continue
         if re.match(r"^\d{4}\.", sent):
             continue
-        # Skip bibliographic entries (Author, Year pattern or journal-like)
-        if re.match(r'^"[^"]+[."]', sent) and len(words) < 20:
+
+        # Skip bibliographic entries — multiple patterns
+        # "Author, First." or "Author, First and Last."
+        if re.match(r"^[A-Z][a-z]+,\s+[A-Z]", sent) and len(words) < 30:
             continue
-        if re.match(r"^[A-Z][a-z]+,\s+[A-Z]", sent) and ("Journal" in sent or "Press" in sent or "University" in sent):
+        # Quoted article titles: "Title Here."
+        if re.match(r'^"[^"]+[."]', sent) and len(words) < 25:
+            continue
+        # Publisher lines: "New York: Publisher" or "Cambridge, MA:"
+        if re.match(r"^[A-Z][a-z]+,?\s+(MA|NY|CA|UK|DC)[\s:.)]", sent):
+            continue
+        if re.match(r"^(New York|Cambridge|Chicago|London|Oxford|Washington|Boston):", sent):
+            continue
+        # Journal/book references with page numbers
+        if re.search(r"\d+[–-]\d+\s+in\s+", sent) and len(words) < 25:
+            continue
+        # Ends with publisher or "Retrieved"
+        if re.search(r"(University Press|Sage Foundation|Retrieved \w+ \d+)\.$", sent):
+            continue
+        # Short fragments that are just organization names
+        if len(words) <= 8 and re.match(r"^[A-Z]", sent) and not sent.endswith(('.', '!', '?')):
+            continue
+        # Pattern: "N N N" (numbers like "50 47 36")
+        if re.match(r"^\d+\s+\d+\s+\d+", sent):
             continue
 
         # Skip table content
