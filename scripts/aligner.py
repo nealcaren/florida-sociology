@@ -1,168 +1,199 @@
-"""Paragraph-preserving alignment between original and Florida textbook versions.
+"""Sentence-level alignment with paragraph-aware grouping.
 
 Strategy:
-1. Concatenate all text from both sides into word streams
-2. Use SequenceMatcher to find word-level correspondences
-3. Map each original paragraph to the Florida words it corresponds to
-4. Output one block per original paragraph (preserving CNXML structure)
-5. Any Florida-only content emitted as "added" blocks between paragraphs
+1. Split original paragraphs into sentences (preserving which paragraph each came from)
+2. Concatenate Florida text and split into sentences
+3. Match each original sentence to the best Florida sentence
+4. Group consecutive same-type sentences, inserting paragraph breaks
+   from the original CNXML structure
 """
 
+import re
 from difflib import SequenceMatcher
+
+
+def _split_sentences(text: str) -> list[str]:
+    """Split text into sentences."""
+    # Split on sentence-ending punctuation followed by space + capital/quote
+    parts = re.split(r'(?<=[.!?])\s+(?=[A-Z"\u2018\u201c(])', text)
+    # Also split on sentence-ending punctuation at end of string
+    result = []
+    for p in parts:
+        p = p.strip()
+        if p and len(p) > 3:
+            result.append(p)
+    return result
+
+
+def _word_sim(a: str, b: str) -> float:
+    """Word-level similarity ratio."""
+    return SequenceMatcher(None, a.lower().split(), b.lower().split()).ratio()
 
 
 def align_paragraphs(
     original: list[str],
     florida: list[str],
 ) -> list[dict]:
-    """Align original paragraphs against Florida text.
-
-    Each original paragraph becomes one output block, preserving
-    the CNXML paragraph structure. Changes are shown inline.
-    """
+    """Align at sentence level, group by original paragraph structure."""
     if not original and not florida:
         return []
-
-    orig_joined = " ".join(original)
-    fl_joined = " ".join(florida)
-
-    if not orig_joined.strip() and not fl_joined.strip():
-        return []
-    if not fl_joined.strip():
+    if not florida or not " ".join(florida).strip():
         return [{"type": "removed", "original_text": "\n\n".join(original)}]
-    if not orig_joined.strip():
-        return [{"type": "added", "florida_text": fl_joined}]
+    if not original or not " ".join(original).strip():
+        return [{"type": "added", "florida_text": " ".join(florida)}]
 
-    # Build word lists with paragraph boundary tracking
-    orig_words = []
-    orig_para_ranges = []  # (start_idx, end_idx) for each paragraph
-    for para in original:
-        start = len(orig_words)
-        words = para.split()
-        orig_words.extend(words)
-        orig_para_ranges.append((start, len(orig_words)))
+    # Split original into sentences, tracking paragraph boundaries
+    orig_sents = []  # (sentence_text, para_idx)
+    for pi, para in enumerate(original):
+        for sent in _split_sentences(para):
+            orig_sents.append((sent, pi))
 
-    fl_words = fl_joined.split()
+    # Split Florida into sentences (flat list)
+    fl_text = " ".join(florida)
+    fl_sents = _split_sentences(fl_text)
 
-    # Get word-level alignment
-    matcher = SequenceMatcher(None, orig_words, fl_words, autojunk=False)
-    opcodes = matcher.get_opcodes()
+    if not orig_sents:
+        return [{"type": "removed", "original_text": "\n\n".join(original)}]
+    if not fl_sents:
+        return [{"type": "removed", "original_text": "\n\n".join(original)}]
 
-    # For each original word, record what Florida word(s) it maps to
-    # Build a mapping: orig_word_idx -> (tag, fl_start, fl_end)
-    orig_word_map = {}  # orig_idx -> ("equal"|"replace"|"delete", fl_range)
-    fl_covered = set()  # Florida word indices that are covered
+    # Match each original sentence to the best Florida sentence
+    # Greedy, roughly order-preserving
+    SAME_THRESH = 0.98
+    MOD_THRESH = 0.5
 
-    for tag, i1, i2, j1, j2 in opcodes:
-        if tag == "equal":
-            for k in range(i2 - i1):
-                orig_word_map[i1 + k] = ("equal", j1 + k, j1 + k + 1)
-                fl_covered.add(j1 + k)
-        elif tag == "replace":
-            # Map the original words to the Florida replacement range
-            for k in range(i2 - i1):
-                orig_word_map[i1 + k] = ("replace", j1, j2)
-            for k in range(j1, j2):
-                fl_covered.add(k)
-        elif tag == "delete":
-            for k in range(i2 - i1):
-                orig_word_map[i1 + k] = ("delete", -1, -1)
-        elif tag == "insert":
-            for k in range(j1, j2):
-                fl_covered.add(k)
+    fl_used = set()
+    matches = []  # (orig_idx, match_type, fl_idx_or_none)
 
-    # Now build output: one block per original paragraph
-    blocks = []
-    fl_emitted_up_to = 0  # track Florida words we've accounted for
+    for oi, (orig_sent, _) in enumerate(orig_sents):
+        best_score = 0.0
+        best_j = -1
 
-    for para_idx, (p_start, p_end) in enumerate(orig_para_ranges):
-        para_text = " ".join(orig_words[p_start:p_end])
+        for j, fl_sent in enumerate(fl_sents):
+            if j in fl_used:
+                continue
+            score = _word_sim(orig_sent, fl_sent)
+            if score > best_score:
+                best_score = score
+                best_j = j
 
-        # Find the Florida word range this paragraph maps to
-        fl_min = None
-        fl_max = None
-        has_changes = False
-
-        for oi in range(p_start, p_end):
-            if oi in orig_word_map:
-                tag, fs, fe = orig_word_map[oi]
-                if tag == "equal":
-                    if fl_min is None or fs < fl_min:
-                        fl_min = fs
-                    if fl_max is None or fe > fl_max:
-                        fl_max = fe
-                elif tag == "replace":
-                    has_changes = True
-                    if fl_min is None or fs < fl_min:
-                        fl_min = fs
-                    if fl_max is None or fe > fl_max:
-                        fl_max = fe
-                elif tag == "delete":
-                    has_changes = True
-
-        # Emit any Florida-only content before this paragraph's range
-        if fl_min is not None and fl_emitted_up_to < fl_min:
-            gap_words = fl_words[fl_emitted_up_to:fl_min]
-            # Check if any of these words are uncovered (truly added)
-            added_words = [fl_words[k] for k in range(fl_emitted_up_to, fl_min) if k not in fl_covered]
-            if added_words and len(added_words) > 3:
-                blocks.append({"type": "added", "florida_text": " ".join(added_words)})
-
-        if fl_min is None:
-            # No Florida correspondence at all — paragraph was removed
-            blocks.append({"type": "removed", "original_text": para_text})
-        elif not has_changes:
-            # All words matched — paragraph is the same
-            blocks.append({"type": "same", "text": para_text})
+        if best_score >= SAME_THRESH and best_j >= 0:
+            matches.append((oi, "same", best_j))
+            fl_used.add(best_j)
+        elif best_score >= MOD_THRESH and best_j >= 0:
+            matches.append((oi, "modified", best_j))
+            fl_used.add(best_j)
         else:
-            # Has changes — emit as modified with the corresponding Florida text
-            fl_para_text = " ".join(fl_words[fl_min:fl_max])
+            matches.append((oi, "removed", None))
 
-            # Check if the texts are too different for a meaningful word diff.
-            # If similarity is low, it's a replacement — show as removed + added.
-            # If lopsided word counts, also split.
-            ow = p_end - p_start
-            fw = fl_max - fl_min
-            ratio = max(ow, fw) / max(min(ow, fw), 1)
-            similarity = SequenceMatcher(None, para_text.split(), fl_para_text.split()).ratio()
+    # Build raw result list with paragraph break markers
+    # Each entry: (type, text, fl_text_or_none, starts_new_paragraph)
+    raw = []
+    last_para = -1
 
-            if (ratio > 4 and max(ow, fw) > 50) or similarity < 0.5:
-                blocks.append({"type": "removed", "original_text": para_text})
-                blocks.append({"type": "added", "florida_text": fl_para_text})
-            else:
-                blocks.append({
-                    "type": "modified",
-                    "original_text": para_text,
-                    "florida_text": fl_para_text,
-                })
+    for oi, match_type, fl_idx in matches:
+        orig_sent, para_idx = orig_sents[oi]
+        new_para = (para_idx != last_para)
+        last_para = para_idx
 
-        if fl_max is not None:
-            fl_emitted_up_to = max(fl_emitted_up_to, fl_max)
+        if match_type == "same":
+            raw.append(("same", orig_sent, None, new_para))
+        elif match_type == "modified":
+            raw.append(("modified", orig_sent, fl_sents[fl_idx], new_para))
+        elif match_type == "removed":
+            raw.append(("removed", orig_sent, None, new_para))
 
-    # Emit any remaining Florida content after the last paragraph
-    if fl_emitted_up_to < len(fl_words):
-        remaining = [fl_words[k] for k in range(fl_emitted_up_to, len(fl_words)) if k not in fl_covered]
-        if remaining and len(remaining) > 3:
-            blocks.append({"type": "added", "florida_text": " ".join(remaining)})
+    # Collect unmatched Florida sentences as "added"
+    # Insert them at the end (we could try to position them better,
+    # but for now grouping them together is cleaner)
+    added_sents = [fl_sents[j] for j in range(len(fl_sents)) if j not in fl_used]
 
-    # Post-process: if the result is mostly removed+added (few same/modified),
-    # the content was substantially rewritten. Collapse into one removed + one
-    # added block to avoid an alternating mess of fragments.
-    same_count = sum(1 for b in blocks if b["type"] == "same")
-    mod_count = sum(1 for b in blocks if b["type"] == "modified")
-    rem_count = sum(1 for b in blocks if b["type"] == "removed")
-    add_count = sum(1 for b in blocks if b["type"] == "added")
+    # Group consecutive same-type entries into blocks, respecting paragraph breaks
+    blocks = _group_into_blocks(raw)
 
-    total_blocks = len(blocks)
-    matched_ratio = (same_count + mod_count) / max(total_blocks, 1)
+    # Append added content if any
+    if added_sents:
+        added_text = " ".join(added_sents)
+        if len(added_text.split()) > 5:
+            blocks.append({"type": "added", "florida_text": added_text})
 
-    if total_blocks > 4 and matched_ratio < 0.3:
-        # Mostly unmatched — collapse to removed + added
-        orig_text = "\n\n".join(original)
-        fl_text = " ".join(florida)
-        return [
-            {"type": "removed", "original_text": orig_text},
-            {"type": "added", "florida_text": fl_text},
-        ]
+    # Post-process: if mostly unmatched, collapse
+    if len(blocks) > 4:
+        same_mod = sum(1 for b in blocks if b["type"] in ("same", "modified"))
+        total = len(blocks)
+        if same_mod / total < 0.3:
+            return [
+                {"type": "removed", "original_text": "\n\n".join(original)},
+                {"type": "added", "florida_text": " ".join(florida)},
+            ]
+
+    return blocks
+
+
+def _group_into_blocks(raw: list[tuple]) -> list[dict]:
+    """Group consecutive same-type sentences into blocks.
+
+    Inserts paragraph breaks (\n\n) when the original had a paragraph
+    boundary between sentences, but only within same-type runs.
+    """
+    if not raw:
+        return []
+
+    blocks = []
+    current_type = raw[0][0]
+    current_orig_parts = []
+    current_fl_parts = []
+
+    def flush():
+        if not current_orig_parts and not current_fl_parts:
+            return
+        orig_text = "\n\n".join(" ".join(group) for group in current_orig_parts if group)
+        fl_text = " ".join(s for group in current_fl_parts for s in group)
+
+        if current_type == "same" and orig_text:
+            blocks.append({"type": "same", "text": orig_text})
+        elif current_type == "modified" and orig_text:
+            blocks.append({
+                "type": "modified",
+                "original_text": orig_text,
+                "florida_text": fl_text,
+            })
+        elif current_type == "removed" and orig_text:
+            blocks.append({"type": "removed", "original_text": orig_text})
+
+    # Track sentences grouped by paragraph
+    current_para_orig = []
+    current_para_fl = []
+
+    for entry_type, orig_text, fl_text, new_para in raw:
+        if entry_type != current_type:
+            # Type changed — flush current paragraph group and block
+            if current_para_orig or current_para_fl:
+                current_orig_parts.append(current_para_orig)
+                current_fl_parts.append(current_para_fl)
+            flush()
+            current_type = entry_type
+            current_orig_parts = []
+            current_fl_parts = []
+            current_para_orig = [orig_text] if orig_text else []
+            current_para_fl = [fl_text] if fl_text else []
+        else:
+            if new_para and (current_para_orig or current_para_fl):
+                # Same type but new paragraph — save current para group
+                current_orig_parts.append(current_para_orig)
+                current_fl_parts.append(current_para_fl)
+                current_para_orig = []
+                current_para_fl = []
+
+            if orig_text:
+                current_para_orig.append(orig_text)
+            if fl_text:
+                current_para_fl.append(fl_text)
+
+    # Flush remaining
+    if current_para_orig or current_para_fl:
+        current_orig_parts.append(current_para_orig)
+        current_fl_parts.append(current_para_fl)
+    flush()
 
     return blocks
