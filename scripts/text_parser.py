@@ -55,6 +55,17 @@ def clean_text(text: str) -> str:
         if re.match(r"^Chapter\s+\d+:", stripped):
             continue
 
+        # Skip sidebar/feature headers embedded in body text
+        # These are short title-like lines: "Sociological Research", "Big Picture",
+        # "Conforming to Expectations", "Big Picture: Women Political Candidates"
+        if stripped in ("Sociological Research", "Big Picture", "Sociology in the Real World",
+                        "Further Research", "Social Policy and Debate"):
+            continue
+        if re.match(r"^Big Picture[:\s]", stripped):
+            continue
+        if re.match(r"^Sociology in the Real World[:\s]", stripped):
+            continue
+
         cleaned.append(stripped)
 
     text = "\n".join(cleaned)
