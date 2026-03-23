@@ -145,4 +145,24 @@ def align_paragraphs(
         if remaining and len(remaining) > 3:
             blocks.append({"type": "added", "florida_text": " ".join(remaining)})
 
+    # Post-process: if the result is mostly removed+added (few same/modified),
+    # the content was substantially rewritten. Collapse into one removed + one
+    # added block to avoid an alternating mess of fragments.
+    same_count = sum(1 for b in blocks if b["type"] == "same")
+    mod_count = sum(1 for b in blocks if b["type"] == "modified")
+    rem_count = sum(1 for b in blocks if b["type"] == "removed")
+    add_count = sum(1 for b in blocks if b["type"] == "added")
+
+    total_blocks = len(blocks)
+    matched_ratio = (same_count + mod_count) / max(total_blocks, 1)
+
+    if total_blocks > 4 and matched_ratio < 0.3:
+        # Mostly unmatched — collapse to removed + added
+        orig_text = "\n\n".join(original)
+        fl_text = " ".join(florida)
+        return [
+            {"type": "removed", "original_text": orig_text},
+            {"type": "added", "florida_text": fl_text},
+        ]
+
     return blocks
