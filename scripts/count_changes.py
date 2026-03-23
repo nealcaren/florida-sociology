@@ -38,7 +38,7 @@ MODIFIED_THRESHOLD = 0.5  # Changed but recognizable
 
 def get_original_sentences(chapter: int) -> list[str]:
     """Get all sentences from the CNXML source for a chapter."""
-    sections = get_chapter_sections(chapter)
+    sections = get_chapter_sections(chapter, include_notes=True)
     sentences = []
     for sec in sections:
         for para in sec["paragraphs"]:
@@ -89,9 +89,14 @@ def get_florida_sentences(chapter: int) -> list[str]:
     if entry["florida_text"] is None:
         return []
 
-    fl_path = PROJECT_ROOT / entry["florida_text"]
-    fl_raw = fl_path.read_text(encoding="utf-8")
-    fl_clean = clean_text(fl_raw)
+    # Prefer v2 extraction (layout-aware) if available, fall back to v1
+    fl_v2_path = PROJECT_ROOT / "text" / "florida_v2" / Path(entry["florida_text"]).name
+    if fl_v2_path.exists():
+        fl_clean = fl_v2_path.read_text(encoding="utf-8")
+    else:
+        fl_path = PROJECT_ROOT / entry["florida_text"]
+        fl_raw = fl_path.read_text(encoding="utf-8")
+        fl_clean = clean_text(fl_raw)
     fl_clean = _strip_headers(fl_clean)
 
     # Join broken lines within paragraphs (PDF hard line breaks)

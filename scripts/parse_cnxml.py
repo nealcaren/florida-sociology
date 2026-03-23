@@ -44,17 +44,21 @@ CHAPTER_MODULES = {
 }
 
 
-def extract_text(element) -> str:
+def extract_text(element, include_notes: bool = False) -> str:
     """Recursively extract text from an element, including inline children."""
+    skip_tags = {"figure", "table", "media", "list", "equation", "code"}
+    if not include_notes:
+        skip_tags.add("note")
+
     text = element.text or ""
     for child in element:
         tag = child.tag.replace(f"{{{CNXML_NS}}}", "")
-        if tag in ("figure", "table", "media", "note", "list", "equation", "code"):
+        if tag in skip_tags:
             # Still get tail text after skipped elements
             text += child.tail or ""
             continue
         # For inline elements (term, emphasis, link, foreign, sub, sup, etc.), recurse
-        text += extract_text(child)
+        text += extract_text(child, include_notes=include_notes)
         text += child.tail or ""
     return text
 
@@ -64,7 +68,7 @@ def _normalize_whitespace(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def parse_module(module_id: str) -> dict:
+def parse_module(module_id: str, include_notes: bool = False) -> dict:
     """Parse a single CNXML module into {title, paragraphs, subsections}.
 
     Returns:
@@ -95,22 +99,33 @@ def parse_module(module_id: str) -> dict:
     for child in content:
         tag = child.tag.replace(f"{{{CNXML_NS}}}", "")
         if tag == "para":
-            text = _normalize_whitespace(extract_text(child))
+            text = _normalize_whitespace(extract_text(child, include_notes=include_notes))
             if text:
                 result["paragraphs"].append(text)
+        elif tag == "note" and include_notes:
+            # Extract text from note elements (sidebars, feature boxes)
+            for note_child in child:
+                note_tag = note_child.tag.replace(f"{{{CNXML_NS}}}", "")
+                if note_tag == "para":
+                    text = _normalize_whitespace(extract_text(note_child, include_notes=True))
+                    if text:
+                        result["paragraphs"].append(text)
+                elif note_tag == "section":
+                    subsec = _parse_section(note_child, ns, include_notes=True)
+                    if subsec:
+                        result["subsections"].append(subsec)
         elif tag == "section":
-            # Skip non-body sections (references, quizzes, etc.)
             sec_class = child.get("class", "")
             if sec_class in SKIP_SECTION_CLASSES:
                 continue
-            subsec = _parse_section(child, ns)
+            subsec = _parse_section(child, ns, include_notes=include_notes)
             if subsec:
                 result["subsections"].append(subsec)
 
     return result
 
 
-def _parse_section(section_el, ns) -> dict:
+def _parse_section(section_el, ns, include_notes: bool = False) -> dict:
     """Parse a <section> element into {title, paragraphs}."""
     title_el = section_el.find("cnx:title", ns)
     title = title_el.text if title_el is not None else ""
@@ -119,23 +134,28 @@ def _parse_section(section_el, ns) -> dict:
     for child in section_el:
         tag = child.tag.replace(f"{{{CNXML_NS}}}", "")
         if tag == "para":
-            text = _normalize_whitespace(extract_text(child))
+            text = _normalize_whitespace(extract_text(child, include_notes=include_notes))
             if text:
                 paragraphs.append(text)
+        elif tag == "note" and include_notes:
+            for note_child in child:
+                note_tag = note_child.tag.replace(f"{{{CNXML_NS}}}", "")
+                if note_tag == "para":
+                    text = _normalize_whitespace(extract_text(note_child, include_notes=True))
+                    if text:
+                        paragraphs.append(text)
         elif tag == "section":
-            # Skip non-body nested sections
             sec_class = child.get("class", "")
             if sec_class in SKIP_SECTION_CLASSES:
                 continue
-            # Flatten nested subsection paragraphs
-            sub = _parse_section(child, ns)
+            sub = _parse_section(child, ns, include_notes=include_notes)
             if sub["paragraphs"]:
                 paragraphs.extend(sub["paragraphs"])
 
     return {"title": title, "paragraphs": paragraphs}
 
 
-def get_chapter_sections(chapter: int) -> list[dict]:
+def get_chapter_sections(chapter: int, include_notes: bool = False) -> list[dict]:
     """Get all sections for a chapter from CNXML source.
 
     Returns list of dicts matching the format expected by align_texts.py:
@@ -152,7 +172,7 @@ def get_chapter_sections(chapter: int) -> list[dict]:
     sections = []
 
     for i, mod_id in enumerate(modules):
-        parsed = parse_module(mod_id)
+        parsed = parse_module(mod_id, include_notes=include_notes)
 
         if i == 0:
             section_id = "intro"
