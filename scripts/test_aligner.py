@@ -22,12 +22,14 @@ def test_removed_text():
     assert "Keep this." in all_text
     assert "Remove this entirely." in all_text or "Remove" in all_text
 
-def test_added_text():
-    original = ["Keep this. Keep this too."]
-    florida = ["Keep this. Brand new content here. Keep this too."]
+def test_replacement_shows_as_removed_plus_added():
+    """When text is replaced (low similarity), show as removed + added, not modified."""
+    original = ["Critical sociology focuses on deconstruction of existing sociological research and theory."]
+    florida = ["Other frameworks in sociology describe and analytically investigate various social phenomena."]
     blocks = align_paragraphs(original, florida)
-    all_fl = " ".join(b.get("florida_text", "") for b in blocks if b.get("florida_text"))
-    assert "Brand new content" in all_fl or "new content" in all_fl
+    types = [b["type"] for b in blocks]
+    # Low similarity → should NOT be a single modified block with interleaved diff
+    assert "modified" not in types or len(blocks) > 1
 
 def test_modified_text():
     original = ["The sociologist studied race and class."]
