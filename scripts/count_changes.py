@@ -104,14 +104,32 @@ def get_florida_sentences(chapter: int) -> list[str]:
     fl_clean = _strip_headers(fl_clean)
 
     # Join broken lines within paragraphs (PDF hard line breaks)
-    # Paragraphs are separated by blank lines; single newlines are just wrapping
     paragraphs = re.split(r"\n\s*\n", fl_clean)
     joined = []
     for para in paragraphs:
         p = " ".join(line.strip() for line in para.split("\n") if line.strip())
         if p:
             joined.append(p)
-    fl_text = " ".join(joined)
+
+    # Truncate at the references section — find where body content ends
+    # and bibliographic entries begin (consecutive short citation-like paragraphs)
+    body_end = len(joined)
+    for i in range(len(joined)):
+        p = joined[i]
+        words = p.split()
+        if (len(words) < 30
+                and re.match(r"^[A-Z][a-z]+,?\s+[A-Z]", p)
+                and re.search(r"\d{4}", p)):
+            # Check if next few paragraphs also look like references
+            ref_count = sum(
+                1 for j in range(i, min(i + 5, len(joined)))
+                if len(joined[j].split()) < 30 and re.search(r"\d{4}", joined[j])
+            )
+            if ref_count >= 3:
+                body_end = i
+                break
+
+    fl_text = " ".join(joined[:body_end])
 
     sentences = []
     for sent in sent_tokenize(fl_text):
