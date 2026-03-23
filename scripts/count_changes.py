@@ -44,8 +44,12 @@ def get_original_sentences(chapter: int) -> list[str]:
         for para in sec["paragraphs"]:
             for sent in sent_tokenize(para):
                 sent = sent.strip()
-                if len(sent) > 10 and len(sent.split()) >= 5:
-                    sentences.append(sent)
+                if len(sent) <= 10 or len(sent.split()) < 5:
+                    continue
+                # Skip bibliographic entries
+                if re.match(r'^"[^"]+[."]', sent) and len(sent.split()) < 20:
+                    continue
+                sentences.append(sent)
     return sentences
 
 
@@ -112,14 +116,28 @@ def get_florida_sentences(chapter: int) -> list[str]:
     sentences = []
     for sent in sent_tokenize(fl_text):
         sent = sent.strip()
-        # Skip very short fragments and reference/citation lines
-        if len(sent) > 10 and len(sent.split()) >= 5:
-            # Skip lines that look like references or URLs
-            if sent.startswith("http") or sent.startswith("Retrieved "):
-                continue
-            if re.match(r"^\d{4}\.", sent):  # Year-starting reference
-                continue
-            sentences.append(sent)
+        words = sent.split()
+
+        # Skip very short fragments
+        if len(sent) <= 10 or len(words) < 5:
+            continue
+
+        # Skip references, citations, URLs
+        if sent.startswith("http") or sent.startswith("Retrieved "):
+            continue
+        if re.match(r"^\d{4}\.", sent):
+            continue
+        # Skip bibliographic entries (Author, Year pattern or journal-like)
+        if re.match(r'^"[^"]+[."]', sent) and len(words) < 20:
+            continue
+        if re.match(r"^[A-Z][a-z]+,\s+[A-Z]", sent) and ("Journal" in sent or "Press" in sent or "University" in sent):
+            continue
+
+        # Skip table content
+        if re.match(r"^(Table\s+\d|Informal|Formal|Positive|Negative|Hypothesis|Independent|Dependent)", sent):
+            continue
+
+        sentences.append(sent)
     return sentences
 
 
