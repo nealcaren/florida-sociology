@@ -123,15 +123,20 @@ def align_paragraphs(
     # Group consecutive same-type entries into blocks, respecting paragraph breaks
     blocks = _group_into_blocks(raw)
 
-    # Post-process: if mostly unmatched, collapse
-    if len(blocks) > 4:
-        same_mod = sum(1 for b in blocks if b["type"] in ("same", "modified"))
-        total = len(blocks)
-        if same_mod / total < 0.3:
-            return [
-                {"type": "removed", "original_text": "\n\n".join(original)},
-                {"type": "added", "florida_text": " ".join(florida)},
-            ]
+    # Post-process: if mostly unmatched sentences, collapse to removed + added.
+    # Use raw sentence match counts, not grouped block counts.
+    matched_sents = sum(1 for _, mt, _ in matches if mt in ("same", "modified"))
+    total_sents = len(orig_sents)
+
+    if total_sents > 3 and matched_sents / total_sents < 0.3:
+        collapsed = []
+        orig_text = "\n\n".join(original)
+        fl_text = " ".join(florida)
+        if orig_text.strip():
+            collapsed.append({"type": "removed", "original_text": orig_text})
+        if fl_text.strip():
+            collapsed.append({"type": "added", "florida_text": fl_text})
+        return collapsed
 
     return blocks
 
